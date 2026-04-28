@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28T12:12:49.678892+08:00",
+  "generated_at": "2026-04-28T13:35:34.400378+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -8,6 +8,32 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Efficient Agent Evaluation via Diversity-Guided User Simulation",
+        "url": "https://huggingface.co/papers/2604.21480",
+        "normalized_url": "https://huggingface.co/papers/2604.21480",
+        "summary": "Large language models (LLMs) are increasingly deployed as customer-facing agents, yet evaluating their reliability remains challenging due to stochastic, multi-turn interactions. Current evaluation protocols rely on linear Monte Carlo rollouts of complete agent-user conversations to estimate success. However, this approach is computationally inefficient, repeatedly regenerating identical early prefixes, and often fails to uncover deep failure modes that arise from rare user behaviors. We introdu",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.21480"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms",
+        "url": "https://huggingface.co/papers/2604.23775",
+        "normalized_url": "https://huggingface.co/papers/2604.23775",
+        "summary": "Vision-Language-Action (VLA) models are emerging as a unified substrate for embodied intelligence. This shift raises a new class of safety challenges, stemming from the embodied nature of VLA systems, including irreversible physical consequences, a multimodal attack surface across vision, language, and state, real-time latency constraints on defense, error propagation over long-horizon trajectories, and vulnerabilities in the data supply chain. Yet the literature remains fragmented across roboti",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-26T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.23775"
+        }
+      },
       {
         "category": "papers",
         "title": "OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer",
@@ -241,32 +267,6 @@
         "metadata": {
           "paper_id": "2604.22294"
         }
-      },
-      {
-        "category": "papers",
-        "title": "Sessa: Selective State Space Attention",
-        "url": "https://huggingface.co/papers/2604.18580",
-        "normalized_url": "https://huggingface.co/papers/2604.18580",
-        "summary": "Modern sequence modeling is dominated by two families: Transformers, whose self-attention can access arbitrary elements of the visible sequence, and structured state-space models, which propagate information through an explicit recurrent state. These mechanisms face different limitations on long contexts: when attention is diffuse, the influence of individual tokens is diluted across the effective support, while recurrent state propagation can lose long-range sensitivity unless information is ac",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-21T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.18580"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "FlowAnchor: Stabilizing the Editing Signal for Inversion-Free Video Editing",
-        "url": "https://huggingface.co/papers/2604.22586",
-        "normalized_url": "https://huggingface.co/papers/2604.22586",
-        "summary": "We propose FlowAnchor, a training-free framework for stable and efficient inversion-free, flow-based video editing. Inversion-free editing methods have recently shown impressive efficiency and structure preservation in images by directly steering the sampling trajectory with an editing signal. However, extending this paradigm to videos remains challenging, often failing in multi-object scenes or with increased frame counts. We identify the root cause as the instability of the editing signal in h",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-24T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2604.22586"
-        }
       }
     ],
     "projects": [
@@ -484,6 +484,19 @@
     "news": [
       {
         "category": "news",
+        "title": "爱芯元智“芯”耀2026北京车展：高端化战略落地，M57规模化量产加速",
+        "url": "https://www.36kr.com/p/3786035788700933",
+        "normalized_url": "https://www.36kr.com/p/3786035788700933",
+        "summary": "爱芯元智亮相北京车展，发布M97芯片，推进智能驾驶规模化、全球化、高端化。",
+        "source": "36Kr AI",
+        "published": "2026-04-28T05:14:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "大模型上车，消费者说呵呵",
         "url": "https://www.36kr.com/p/3785957885850119",
         "normalized_url": "https://www.36kr.com/p/3785957885850119",
@@ -594,19 +607,6 @@
         "summary": "喊了十年的零售变革，有了新信号。",
         "source": "36Kr AI",
         "published": "2026-04-28T02:54:56+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "宝洁不想痛失10亿美元",
-        "url": "https://www.36kr.com/p/3785893094644999",
-        "normalized_url": "https://www.36kr.com/p/3785893094644999",
-        "summary": "宝洁当下的核心议题，是要如何在100美元油价下保护利润，又如何让消费者在更谨慎时继续购买溢价产品。",
-        "source": "36Kr AI",
-        "published": "2026-04-28T02:54:12+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
