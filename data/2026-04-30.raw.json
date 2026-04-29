@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T05:39:50.556956+08:00",
+  "generated_at": "2026-04-30T07:01:51.942424+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -484,6 +484,19 @@
     "news": [
       {
         "category": "news",
+        "title": "工作的未来在于世界模型？",
+        "url": "https://www.36kr.com/p/3746544146498054",
+        "normalized_url": "https://www.36kr.com/p/3746544146498054",
+        "summary": "为什么我们需要为 CEO 们打造一款“星际争霸”",
+        "source": "36Kr AI",
+        "published": "2026-04-29T23:00:25+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "别急着All-in DeepSeek V4，先看看这10位从业者的真心话",
         "url": "https://www.36kr.com/p/3788151000751364",
         "normalized_url": "https://www.36kr.com/p/3788151000751364",
@@ -594,19 +607,6 @@
         "summary": "你的AI手机，何必是台手机？",
         "source": "36Kr AI",
         "published": "2026-04-29T12:56:19+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "移动互联网没有结束，它只是从青春期进入了成年期",
-        "url": "https://www.36kr.com/p/3787687036034055",
-        "normalized_url": "https://www.36kr.com/p/3787687036034055",
-        "summary": "从一个扩张型经济转向密度型经济。",
-        "source": "36Kr AI",
-        "published": "2026-04-29T12:55:44+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -757,6 +757,19 @@
       },
       {
         "category": "news",
+        "title": "Google Cloud surpasses $20B but says growth was capacity-constrained",
+        "url": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
+        "normalized_url": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained",
+        "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster.",
+        "source": "TechCrunch AI",
+        "published": "2026-04-29T22:20:48+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Google gains 25M subscriptions in Q1, driven by YouTube and Google One",
         "url": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
         "normalized_url": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one",
@@ -868,19 +881,6 @@
         "source": "TechCrunch AI",
         "published": "2026-04-29T00:40:16+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Amazon is already offering new OpenAI products on AWS",
-        "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
-        "normalized_url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws",
-        "summary": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service.",
-        "source": "TechCrunch AI",
-        "published": "2026-04-28T19:48:02+00:00",
-        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
