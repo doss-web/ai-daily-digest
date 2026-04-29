@@ -195,15 +195,15 @@ BROWSER_HEADERS = {
 }
 
 
-def fetch_rss_feed(feed_url, source_name, max_items=10):
+def fetch_rss_feed(feed_url, source_name, max_items=10, cutoff_days=2):
     """Generic RSS feed fetcher."""
     items = []
     try:
         resp = requests.get(feed_url, headers=BROWSER_HEADERS, timeout=20)
         resp.raise_for_status()
         feed = feedparser.parse(resp.content)
-        cutoff = datetime.now(timezone.utc) - timedelta(days=2)
-        for entry in feed.entries[:max_items]:
+        cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
+        for entry in feed.entries[:max_items * 2]:  # scan more, filter by date
             published = entry.get("published_parsed") or entry.get("updated_parsed")
             if published:
                 entry_date = datetime(*published[:6], tzinfo=timezone.utc)
@@ -221,6 +221,8 @@ def fetch_rss_feed(feed_url, source_name, max_items=10):
                 published=published_at,
                 metadata={"feed_url": feed_url},
             ))
+            if len(items) >= max_items:
+                break
     except Exception as e:
         print(f"  [{source_name}] Error: {e}")
     return items
@@ -262,15 +264,36 @@ def fetch_hacker_news():
     return items
 
 
-# RSS sources - all free, no auth needed
+# RSS sources format: (url, name, max_items, cutoff_days)
+# cutoff_days=2 for daily news, cutoff_days=7 for weekly newsletters
 RSS_SOURCES = [
-    # Chinese sources
-    ("https://rsshub.rssforever.com/36kr/search/articles/ai", "36Kr AI"),
-    ("https://rsshub.rssforever.com/sspai/tag/AI", "SSPAI AI"),
-    # English sources
-    ("https://venturebeat.com/category/ai/feed/",                          "VentureBeat AI"),
-    ("https://techcrunch.com/category/artificial-intelligence/feed/",      "TechCrunch AI"),
-    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",  "The Verge AI"),
+    # ── 中文资讯 ────────────────────────────────────────────────────────────
+    ("https://rsshub.rssforever.com/36kr/search/articles/ai",  "36Kr AI",     10, 2),
+    ("https://rsshub.rssforever.com/sspai/tag/AI",             "SSPAI AI",    10, 2),
+
+    # ── 英文科技媒体 ─────────────────────────────────────────────────────────
+    ("https://venturebeat.com/category/ai/feed/",                             "VentureBeat AI",  10, 2),
+    ("https://techcrunch.com/category/artificial-intelligence/feed/",         "TechCrunch AI",   10, 2),
+    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",     "The Verge AI",    10, 2),
+    ("https://www.wired.com/feed/tag/artificial-intelligence/latest/rss",     "Wired AI",         8, 2),
+    ("https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",     "IEEE Spectrum AI", 8, 2),
+
+    # ── AI 研究者 Newsletter（周更为主，回溯7天）─────────────────────────────
+    ("https://www.oneusefulthing.org/feed",        "One Useful Thing (Mollick)",    5, 7),
+    ("https://www.deeplearning.ai/the-batch/rss/", "The Batch (Andrew Ng)",         5, 7),
+    ("https://every.to/chain-of-thought/feed",     "Every · Chain of Thought",      5, 7),
+    ("https://www.lennysnewsletter.com/feed",      "Lenny's Newsletter",            5, 7),
+    ("https://www.creatoreconomy.so/feed",         "Creator Economy (Peter Yang)",  5, 7),
+
+    # ── Twitter/X 精选账号 via rsshub（best-effort，失败静默跳过）────────────
+    ("https://rsshub.rssforever.com/twitter/user/karpathy",       "Karpathy (X)",        15, 2),
+    ("https://rsshub.rssforever.com/twitter/user/AndrewYNg",      "Andrew Ng (X)",       10, 2),
+    ("https://rsshub.rssforever.com/twitter/user/GoogleDeepMind", "Google DeepMind (X)", 10, 2),
+    ("https://rsshub.rssforever.com/twitter/user/GoogleAI",       "Google AI (X)",       10, 2),
+    ("https://rsshub.rssforever.com/twitter/user/huggingface",    "HuggingFace (X)",     10, 2),
+    ("https://rsshub.rssforever.com/twitter/user/emollick",       "Ethan Mollick (X)",   10, 2),
+    ("https://rsshub.rssforever.com/twitter/user/ShunyuYao12",    "Shunyu Yao (X)",      10, 2),
+    ("https://rsshub.rssforever.com/twitter/user/lijigang_com",   "李继刚 (X)",           10, 2),
 ]
 
 
@@ -290,8 +313,8 @@ def fetch_all():
 
     print("Fetching RSS feeds...")
     news = list(hn_items)
-    for url, name in RSS_SOURCES:
-        feed_items = fetch_rss_feed(url, name)
+    for url, name, max_items, cutoff_days in RSS_SOURCES:
+        feed_items = fetch_rss_feed(url, name, max_items=max_items, cutoff_days=cutoff_days)
         print(f"  [{name}] Got {len(feed_items)} items")
         news.extend(feed_items)
 
