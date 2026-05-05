@@ -1,13 +1,39 @@
 {
   "date": "2026-05-06",
-  "generated_at": "2026-05-06T05:35:19.271667+08:00",
+  "generated_at": "2026-05-06T07:00:35.055363+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 45
+    "news": 44
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Linking spatial biology and clinical histology via Haiku",
+        "url": "https://huggingface.co/papers/2605.00925",
+        "normalized_url": "https://huggingface.co/papers/2605.00925",
+        "summary": "Integrating molecular, morphological, and clinical data is essential for basic and translational biomedical research, yet systematic frameworks for jointly modeling these modalities remain limited. Here we present Haiku, a tri-modal contrastive learning model trained on multiplexed immunofluorescence (mIF). It comprises 26.7 million spatial proteomics patches from 3,218 tissue sections across 1,606 patients spanning 11 organ types, with matched hematoxylin and eosin (H&E) histology and clinical ",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-30T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.00925"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?",
+        "url": "https://huggingface.co/papers/2604.09408",
+        "normalized_url": "https://huggingface.co/papers/2604.09408",
+        "summary": "Frontier coding agents solve complex tasks when given complete context but collapse when specifications are incomplete or ambiguous. The bottleneck is not raw capability, but judgment: knowing when to act autonomously and when to ask for help. Current benchmarks are blind to this failure mode. They supply unambiguous detailed instructions and solely reward execution correctness, so an agent that makes a lucky guess for a missing requirement will score identically to one that would have asked to ",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.09408"
+        }
+      },
       {
         "category": "papers",
         "title": "Agentic AI Systems Should Be Designed as Marginal Token Allocators",
@@ -241,32 +267,6 @@
         "metadata": {
           "paper_id": "2605.02661"
         }
-      },
-      {
-        "category": "papers",
-        "title": "T^2PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning",
-        "url": "https://huggingface.co/papers/2605.02178",
-        "normalized_url": "https://huggingface.co/papers/2605.02178",
-        "summary": "Recent progress in multi-turn reinforcement learning (RL) has significantly improved reasoning LLMs' performances on complex interactive tasks. Despite advances in stabilization techniques such as fine-grained credit assignment and trajectory filtering, instability remains pervasive and often leads to training collapse. We argue that this instability stems from inefficient exploration in multi-turn settings, where policies continue to generate low-information actions that neither reduce uncertai",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.02178"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
-        "url": "https://huggingface.co/papers/2605.02240",
-        "normalized_url": "https://huggingface.co/papers/2605.02240",
-        "summary": "We introduce PhysicianBench, a benchmark for evaluating LLM agents on physician tasks grounded in real clinical setting within electronic health record (EHR) environments. Existing medical agent benchmarks primarily focus on static knowledge recall, single-step atomic actions, or action intent without verifiable execution against the environment. As a result, they fail to capture the long-horizon, composite workflows that characterize real clinical systems. PhysicianBench comprises 100 long-hori",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-04T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.02240"
-        }
       }
     ],
     "projects": [
@@ -401,7 +401,7 @@
         "title": "Alishahryar1/free-claude-code ⭐56",
         "url": "https://github.com/Alishahryar1/free-claude-code",
         "normalized_url": "https://github.com/Alishahryar1/free-claude-code",
-        "summary": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+        "summary": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
@@ -614,15 +614,15 @@
       },
       {
         "category": "news",
-        "title": "“DeepSeek版Claude Code”，Github 2.3k星",
-        "url": "https://www.qbitai.com/2026/05/412914.html",
-        "normalized_url": "https://www.qbitai.com/2026/05/412914.html",
-        "summary": "专门针对DeepSeek优化",
-        "source": "量子位",
-        "published": "2026-05-04T06:09:16+00:00",
+        "title": "Altara secures $7M to bridge the data gap that’s slowing down physical sciences",
+        "url": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/",
+        "normalized_url": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences",
+        "summary": "Altara’s AI aims to diagnose failures and help speed up R&D by unifying data siloed across spreadsheets and legacy systems.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-05T22:57:41+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
       },
       {
@@ -744,15 +744,15 @@
       },
       {
         "category": "news",
-        "title": "4 days left: Get 50% off a second TechCrunch Disrupt 2026 pass to make more deals faster",
-        "url": "https://techcrunch.com/2026/05/05/4-days-left-get-50-off-a-second-techcrunch-disrupt-2026-pass-to-make-more-deals-faster/",
-        "normalized_url": "https://techcrunch.com/2026/05/05/4-days-left-get-50-off-a-second-techcrunch-disrupt-2026-pass-to-make-more-deals-faster",
-        "summary": "For the next four days only, you can buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. That window closes May 8 at 11:59 p.m. PT. After that, prices go up, and you’ll pay more to bring a partner or colleague. Register today to get your plus-one pass at 50% off.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-05T14:00:00+00:00",
-        "importance_hint": 3,
+        "title": "Google Home’s Gemini AI can handle more complicated requests",
+        "url": "https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade",
+        "normalized_url": "https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade",
+        "summary": "Google Home users can now ask Gemini to complete more complex, multi-step tasks and combine multiple tasks in a single command. Google has updated Gemini for Home to Gemini 3.1, which it says will improve the smart home assistant's ability to interpret and act on requests. The upgrade will also make Gemini for Home better […]",
+        "source": "The Verge AI",
+        "published": "2026-05-05T21:46:04+00:00",
+        "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
       },
       {
@@ -868,19 +868,6 @@
         "source": "The Verge AI",
         "published": "2026-05-05T13:42:18+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Researchers gaslit Claude into giving instructions to build explosives",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/923961/security-researchers-mindgard-gaslit-claude-forbidden-information",
-        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/923961/security-researchers-mindgard-gaslit-claude-forbidden-information",
-        "summary": "Anthropic has spent years building itself up as the safe AI company. But new security research shared with The Verge suggests Claude's carefully crafted helpful personality may itself be a vulnerability. Researchers at AI red-teaming company Mindgard say they got Claude to offer up erotica, malicious code, and instructions for building explosives, and other prohibited […]",
-        "source": "The Verge AI",
-        "published": "2026-05-05T13:13:08+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
