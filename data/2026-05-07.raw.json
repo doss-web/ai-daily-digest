@@ -1,13 +1,26 @@
 {
   "date": "2026-05-07",
-  "generated_at": "2026-05-07T05:40:17.361497+08:00",
+  "generated_at": "2026-05-07T06:57:25.793627+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 55
+    "news": 57
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum",
+        "url": "https://huggingface.co/papers/2604.25907",
+        "normalized_url": "https://huggingface.co/papers/2604.25907",
+        "summary": "Adapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability p_0 is small. Using the Tsallis q-logarithm, we define a loss family J_Q that interpolates between RLVR (at q{=}0, the exploitation pole) and the log-marginal-likelihood over latent trajectories (at q{=}1, the density-estimation pole). All members share the same per-example gradient direction, differ",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.25907"
+        }
+      },
       {
         "category": "papers",
         "title": "Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning",
@@ -253,19 +266,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2605.03596"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
-        "url": "https://huggingface.co/papers/2605.04036",
-        "normalized_url": "https://huggingface.co/papers/2605.04036",
-        "summary": "Deep search capabilities have become an indispensable competency for frontier Large Language Model (LLM) agents, yet their development remains dominated by industrial giants. The typical industry recipe involves a highly resource-intensive pipeline spanning pre-training, continual pre-training (CPT), supervised fine-tuning (SFT), and reinforcement learning (RL). In this report, we show that when fueled with informative and high-difficulty trajectories, a simple SFT approach could be surprisingly",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-05T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.04036"
         }
       }
     ],
@@ -705,6 +705,45 @@
       },
       {
         "category": "news",
+        "title": "我写了一个 skill，用 AI 给 AI「除味儿」",
+        "url": "https://sspai.com/post/109288",
+        "normalized_url": "https://sspai.com/post/109288",
+        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 之前投稿至少数派年度征文大赛的文章， 「你是专家」这句话，到底是在帮 AI 还是在害你？ ，有幸获得了「Team Silicon」赛道的第一名，然而它在近期收获了这样一条评论： 谢谢作者的分享，不过我个人觉得这篇文章的 AI 味真的还蛮重的，有些措辞我看了两遍都没能理解 AI 想表达的含义 hhh 确实，这篇文章当时是由 Claude Opus 4.6 一次性生成的，我没有作任何调整。它能胜出可能胜在命题巧妙和实践内容扎实，然而从文章结构和语言表达的角度来说，它存在许多缺陷。 于是我决定使用自建的 mp-article-writor Skill，在完全相同的上下文环境中，让 AI 重写这篇文章，观察 AI 结合 Skill 的组合，写出的文章是否能有质的提升。 原文的 AI 味 虽然原文是由 Claude Opus 4.6 这样顶级的模型生成的",
+        "source": "SSPAI AI",
+        "published": "2026-05-06T02:49:30+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
+        "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
+        "normalized_url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says",
+        "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-06T21:57:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Snap says its $400M deal with Perplexity ‘amicably ended’",
+        "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
+        "normalized_url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended",
+        "summary": "The deal, announced last November, would have seen Perplexity's AI search engine integrated directly into Snapchat.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-06T21:43:24+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Is xAI a neocloud now?",
         "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
         "normalized_url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now",
@@ -802,32 +841,6 @@
         "summary": "Apple has agreed to pay $250 million to settle a class action lawsuit for overpromising the arrival of Siri's AI features.",
         "source": "TechCrunch AI",
         "published": "2026-05-06T15:12:49+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Ethos raises $22.75M from a16z for its expert network with voice onboarding",
-        "url": "https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding/",
-        "normalized_url": "https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding",
-        "summary": "Ethos says it is onboarding 35,000 experts per week.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-06T15:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "At TechCrunch Disrupt 2026, all your M&A questions will be answered",
-        "url": "https://techcrunch.com/2026/05/06/at-techcrunch-disrupt-2026-all-your-ma-questions-will-be-answered/",
-        "normalized_url": "https://techcrunch.com/2026/05/06/at-techcrunch-disrupt-2026-all-your-ma-questions-will-be-answered",
-        "summary": "Leaders from Coinbase, M13, and Mignano Law Group talk about how M&A is an early-stage strategy at TechCrunch Disrupt 2026. Register to hear this live.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-06T14:30:00+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
@@ -1065,6 +1078,19 @@
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Chatbots Need Guardrails to Prevent Delusions and Psychosis",
+        "url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
+        "normalized_url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
+        "summary": "Millions of people worldwide are turning to chatbots like ChatGPT or Claude, and a proliferating class of specialized AI companionship apps for friendship, therapy or even romance. While some users report psychological benefits from these simulated relationships, research has also shown the relationships can reinforce or amplify delusions, particularly among users already vulnerable to psychosis. AIs have been linked to multiple suicides, including the death of a Florida teenager who had a month",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-05-06T22:11:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
         }
       },
       {
