@@ -1,10 +1,10 @@
 {
   "date": "2026-05-09",
-  "generated_at": "2026-05-09T05:33:54.440011+08:00",
+  "generated_at": "2026-05-09T07:01:23.453530+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 57
+    "news": 56
   },
   "items": {
     "papers": [
@@ -744,6 +744,19 @@
       },
       {
         "category": "news",
+        "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+        "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+        "normalized_url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no",
+        "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-08T22:59:05+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Intel’s comeback story is even wilder than it seems",
         "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
         "normalized_url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems",
@@ -855,19 +868,6 @@
         "source": "TechCrunch AI",
         "published": "2026-05-07T19:57:59+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
-        "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-        "normalized_url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope",
-        "summary": "Elon Musk's legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab's founding mission of ensuring that humanity benefits from artificial general intelligence.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-07T19:21:21+00:00",
-        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1114,19 +1114,6 @@
         "summary": "The field of artificial intelligence was built on the premise that machines might someday improve themselves. In 1966, the English mathematician I. J. Good wrote that “an ultraintelligent machine could design even better machines; there would then unquestionably be an ‘intelligence explosion,’ and the intelligence of man would be left far behind.” AI researchers have long seen recursive self-improvement, or RSI, as something to both desire and fear. Today, advances in AI are raising the question",
         "source": "IEEE Spectrum AI",
         "published": "2026-05-07T12:00:02+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Chatbots Need Guardrails to Prevent Delusions and Psychosis",
-        "url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
-        "normalized_url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
-        "summary": "Millions of people worldwide are turning to chatbots like ChatGPT or Claude, and a proliferating class of specialized AI companionship apps for friendship, therapy, or even romance. While some users report psychological benefits from these simulated relationships, research has also shown the relationships can reinforce or amplify delusions, particularly among users already vulnerable to psychosis. AIs have been linked to multiple suicides, including the death of a Florida teenager who had a mont",
-        "source": "IEEE Spectrum AI",
-        "published": "2026-05-06T22:11:00+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
