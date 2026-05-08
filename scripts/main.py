@@ -28,7 +28,7 @@ def send_to_buttondown(subject: str, markdown: str) -> None:
         json={
             "subject": subject,
             "body": markdown,
-            "status": "sent",          # send immediately
+            "status": "about_to_send",  # queues for immediate send
             "email_type": "public",    # visible in archive
         },
         timeout=30,
