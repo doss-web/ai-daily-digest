@@ -24,7 +24,10 @@ def send_to_buttondown(subject: str, markdown: str) -> None:
 
     resp = requests.post(
         "https://api.buttondown.email/v1/emails",
-        headers={"Authorization": f"Token {api_key}"},
+        headers={
+            "Authorization": f"Token {api_key}",
+            "X-Buttondown-Live-Dangerously": "true",
+        },
         json={
             "subject": subject,
             "body": markdown,
