@@ -4,12 +4,39 @@ Fetches AI news from multiple sources, summarizes with AI, and saves outputs.
 """
 
 import json
+import os
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+import requests
+
 from sources import fetch_all
 from summarize import summarize
+
+
+def send_to_buttondown(subject: str, markdown: str) -> None:
+    """Publish the digest as a Buttondown email (sends to all subscribers)."""
+    api_key = os.environ.get("BUTTONDOWN_API_KEY")
+    if not api_key:
+        print("[Buttondown] BUTTONDOWN_API_KEY not set, skipping.")
+        return
+
+    resp = requests.post(
+        "https://api.buttondown.email/v1/emails",
+        headers={"Authorization": f"Token {api_key}"},
+        json={
+            "subject": subject,
+            "body": markdown,
+            "status": "sent",          # send immediately
+            "email_type": "public",    # visible in archive
+        },
+        timeout=30,
+    )
+    if resp.status_code in (200, 201):
+        print(f"[Buttondown] Sent! Email id: {resp.json().get('id')}")
+    else:
+        print(f"[Buttondown] Failed {resp.status_code}: {resp.text[:200]}")
 
 
 def main():
@@ -58,6 +85,12 @@ def main():
 
     output_file.write_text(markdown, encoding="utf-8")
     print(f"\n[Step 4] Saved to {output_file}")
+
+    # Step 5: Send to Buttondown subscribers
+    print("\n[Step 5] Sending to Buttondown subscribers...")
+    subject = f"AI Daily Digest · {date_str}"
+    send_to_buttondown(subject, markdown)
+
     print("Done!")
 
 
