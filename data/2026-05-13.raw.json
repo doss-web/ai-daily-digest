@@ -1,13 +1,26 @@
 {
   "date": "2026-05-13",
-  "generated_at": "2026-05-13T05:48:54.161332+08:00",
+  "generated_at": "2026-05-13T07:08:23.505153+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 51
+    "news": 52
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition",
+        "url": "https://huggingface.co/papers/2605.02364",
+        "normalized_url": "https://huggingface.co/papers/2605.02364",
+        "summary": "Upweighting high-quality data in LLM pretraining often improves performance, but in datalimited regimes, especially under overtraining, stronger upweighting increases repetition and can degrade performance. However, standard scaling laws do not reliably extrapolate across mixture recipes or under repetitions, making the selection for optimal data recipes at scaling underdetermined. To solve this, we introduce InfoLaw (Information Scaling Laws), a data-aware scaling framework that predicts loss f",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-04T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.02364"
+        }
+      },
       {
         "category": "papers",
         "title": "Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why",
@@ -254,19 +267,6 @@
         "metadata": {
           "paper_id": "2605.07287"
         }
-      },
-      {
-        "category": "papers",
-        "title": "TMAS: Scaling Test-Time Compute via Multi-Agent Synergy",
-        "url": "https://huggingface.co/papers/2605.10344",
-        "normalized_url": "https://huggingface.co/papers/2605.10344",
-        "summary": "Test-time scaling has become an effective paradigm for improving the reasoning ability of large language models by allocating additional computation during inference. Recent structured approaches have further advanced this paradigm by organizing inference across multiple trajectories, refinement rounds, and verification-based feedback. However, existing structured test-time scaling methods either weakly coordinate parallel reasoning trajectories or rely on noisy historical information without ex",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-11T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.10344"
-        }
       }
     ],
     "projects": [
@@ -484,6 +484,19 @@
     "news": [
       {
         "category": "news",
+        "title": "如何估算自己在职场未来能赚多少钱？",
+        "url": "https://www.36kr.com/p/3734209206927621",
+        "normalized_url": "https://www.36kr.com/p/3734209206927621",
+        "summary": "一个评估职场竞争力与收入潜力的简易测算方法。",
+        "source": "36Kr AI",
+        "published": "2026-05-12T23:06:35+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "绝杀，OpenAI正式接管人类耳朵，首个GPT-5级推理音频模型来了",
         "url": "https://www.36kr.com/p/3806243456425733",
         "normalized_url": "https://www.36kr.com/p/3806243456425733",
@@ -594,19 +607,6 @@
         "summary": "175年老牌巨头吃上“AI饭”。",
         "source": "36Kr AI",
         "published": "2026-05-12T13:00:40+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "红果免费观剧，养出3亿“刁民”？",
-        "url": "https://www.36kr.com/p/3806148260175621",
-        "normalized_url": "https://www.36kr.com/p/3806148260175621",
-        "summary": "短剧收费，道阻且长。",
-        "source": "36Kr AI",
-        "published": "2026-05-12T12:52:15+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1000,6 +1000,19 @@
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Unitree GD01 Is a Giant Mecha Robot You Can Actually Buy",
+        "url": "https://www.wired.com/story/unitree-gd01-mecha-robot/",
+        "normalized_url": "https://www.wired.com/story/unitree-gd01-mecha-robot",
+        "summary": "China’s Unitree, famous for making low-cost dancing robots, will now sell you a giant, wall-smashing mecha.",
+        "source": "Wired AI",
+        "published": "2026-05-12T22:51:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
         }
       },
       {
