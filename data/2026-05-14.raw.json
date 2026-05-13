@@ -1,13 +1,26 @@
 {
   "date": "2026-05-14",
-  "generated_at": "2026-05-14T05:51:53.826512+08:00",
+  "generated_at": "2026-05-14T07:11:34.821045+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 59
+    "news": 58
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation",
+        "url": "https://huggingface.co/papers/2605.10376",
+        "normalized_url": "https://huggingface.co/papers/2605.10376",
+        "summary": "Vision-Language Models (VLMs) have advanced rapidly in multimodal perception and language understanding, yet it remains unclear whether they can reliably ground language into spatially coherent, plausibly executable actions in 3D digital environments. We introduce SleepWalk, a benchmark for evaluating instruction-grounded trajectory prediction in single-scene 3D worlds generated from textual scene descriptions and filtered for navigability. Unlike prior navigation benchmarks centered on long-ran",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-11T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.10376"
+        }
+      },
       {
         "category": "papers",
         "title": "EgoForce: Forearm-Guided Camera-Space 3D Hand Pose from a Monocular Egocentric Camera",
@@ -253,19 +266,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2605.12492"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Do not copy and paste! Rewriting strategies for code retrieval",
-        "url": "https://huggingface.co/papers/2605.08299",
-        "normalized_url": "https://huggingface.co/papers/2605.08299",
-        "summary": "Embedding-based code retrieval often suffers when encoders overfit to surface syntax. Prior work mitigates this by using LLMs to rephrase queries and corpora into a normalized style, but leaves two questions open: how much representational shift helps, and when is the per-query LLM call justified? We study a hierarchy of three rewriting strategies: stylistic rephrasing, NL-enriched PseudoCode, and full Natural-Language transcription, under joint query-corpus (QC, online) and corpus-only (C, offl",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-08T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.08299"
         }
       }
     ],
@@ -887,6 +887,19 @@
       },
       {
         "category": "news",
+        "title": "Microsoft’s Edge Copilot update uses AI to pull information from across your tabs",
+        "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+        "normalized_url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+        "summary": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its […]",
+        "source": "The Verge AI",
+        "published": "2026-05-13T22:04:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
         "title": "Mark Zuckerberg announces ‘completely private’ encrypted Meta AI chat",
         "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
         "normalized_url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
@@ -1004,15 +1017,15 @@
       },
       {
         "category": "news",
-        "title": "Gemini’s latest updates are all about controlling your phone",
-        "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-        "normalized_url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-        "summary": "It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. […]",
-        "source": "The Verge AI",
-        "published": "2026-05-12T17:00:00+00:00",
-        "importance_hint": 4,
+        "title": "Everyone at the Musk v. Altman Trial Is Using Fancy Butt Cushions",
+        "url": "https://www.wired.com/story/fancy-butt-pillows-musk-v-altman-trial/",
+        "normalized_url": "https://www.wired.com/story/fancy-butt-pillows-musk-v-altman-trial",
+        "summary": "The plaintiffs and defense have rested their cases, as well as their rear ends.",
+        "source": "Wired AI",
+        "published": "2026-05-13T21:58:47+00:00",
+        "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
         }
       },
       {
@@ -1108,19 +1121,6 @@
       },
       {
         "category": "news",
-        "title": "Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says",
-        "url": "https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial/",
-        "normalized_url": "https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial",
-        "summary": "Musk’s lawyers questioned Altman over allegations of deception and his network of financial investments, but the OpenAI CEO painted a picture of Musk as obsessed with controlling the company.",
-        "source": "Wired AI",
-        "published": "2026-05-13T00:10:05+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
         "title": "Can AI Chatbots Reason Like Doctors?",
         "url": "https://spectrum.ieee.org/ai-clinical-decision-support",
         "normalized_url": "https://spectrum.ieee.org/ai-clinical-decision-support",
@@ -1169,19 +1169,6 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Linux bitten by second severe vulnerability in as many weeks",
-        "url": "https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks/",
-        "normalized_url": "https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks",
-        "summary": "Production-version patches are coming online and should be installed pronto.",
-        "source": "Ars Technica AI",
-        "published": "2026-05-11T22:28:19+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
