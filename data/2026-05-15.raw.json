@@ -1,6 +1,6 @@
 {
   "date": "2026-05-15",
-  "generated_at": "2026-05-15T05:43:34.274338+08:00",
+  "generated_at": "2026-05-15T07:03:00.905894+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -8,6 +8,19 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "MC-RFM: Geometry-Aware Few-Shot Adaptation via Mixed-Curvature Riemannian Flow Matching",
+        "url": "https://huggingface.co/papers/2605.08557",
+        "normalized_url": "https://huggingface.co/papers/2605.08557",
+        "summary": "Parameter-efficient adaptation of pretrained vision models is commonly performed through linear probes, prompts, low-rank updates, or lightweight residual modules. While effective, these methods usually treat adaptation as a discrete Euclidean perturbation of frozen representations, without explicitly modeling the geometry of the task-induced feature displacement. We propose MC-RFM, a mixed-curvature Riemannian flow-matching framework for few-shot adaptation of frozen visual backbones. The key i",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.08557"
+        }
+      },
       {
         "category": "papers",
         "title": "FlowCompile: An Optimizing Compiler for Structured LLM Workflows",
@@ -253,19 +266,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2605.13757"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Offline Preference Optimization for Rectified Flow with Noise-Tracked Pairs",
-        "url": "https://huggingface.co/papers/2605.09433",
-        "normalized_url": "https://huggingface.co/papers/2605.09433",
-        "summary": "Existing preference datasets for text-to-image models typically store only the final winner/loser images. This representation is insufficient for rectified flow (RF) models, whose generation is naturally indexed by a specific prior noise sample and follows a nearly straight denoising trajectory. In contrast, prior DPO-style alignment for diffusion models commonly estimates trajectories using an independent forward noising process, which can be mismatched to the true reverse dynamics and introduc",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-10T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.09433"
         }
       }
     ],
@@ -757,6 +757,19 @@
       },
       {
         "category": "news",
+        "title": "What the jury will actually decide in the case of Elon Musk vs. Sam Altman",
+        "url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
+        "normalized_url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman",
+        "summary": "Here's what the biggest tech court case of the year is all about.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-14T22:47:51+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Elon Musk’s SpaceXAI has been bleeding staff since its merger",
         "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
         "normalized_url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger",
@@ -799,7 +812,7 @@
         "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
         "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
         "normalized_url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned",
-        "summary": "According to Bloomberg, OpenAI has enlisted an outside law firm to work through its options.",
+        "summary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
         "source": "TechCrunch AI",
         "published": "2026-05-14T19:12:03+00:00",
         "importance_hint": 4,
@@ -874,15 +887,15 @@
       },
       {
         "category": "news",
-        "title": "Wirestock raises $23M to supply creative multimodal data to AI labs",
-        "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
-        "normalized_url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs",
-        "summary": "The company pivoted to being a data provider in 2023 and now supplies datasets of images, videos, design assets, and gaming and 3D content to AI labs.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-14T14:00:00+00:00",
-        "importance_hint": 4,
+        "title": "Closing time",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
+        "summary": "Today was closing arguments in the Musk v. Altman trial, and I almost feel bad writing about the unbelievable demolition derby I just witnessed. Steven Molo, Musk's lawyer, stumbled over his words. He at one point called Greg Brockman - a co-defendant - Greg Altman. He erroneously claimed that Musk wasn't asking for money and […]",
+        "source": "The Verge AI",
+        "published": "2026-05-14T22:21:46+00:00",
+        "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
       },
       {
@@ -997,19 +1010,6 @@
         "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it […]",
         "source": "The Verge AI",
         "published": "2026-05-13T16:45:43+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Microsoft doesn’t want any of this",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-        "summary": "Maybe I'm just punch-drunk in my third week attending Musk v. Altman, but I have become very, very fond of Microsoft during the course of this trial. They don't want to be here any more than I do. Their opening statement was honestly one of the most Microsoft things I've ever seen. More than anything […]",
-        "source": "The Verge AI",
-        "published": "2026-05-13T15:30:37+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
