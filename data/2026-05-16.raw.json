@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "generated_at": "2026-05-16T05:33:38.486837+08:00",
+  "generated_at": "2026-05-16T07:01:55.597971+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -874,6 +874,19 @@
       },
       {
         "category": "news",
+        "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
+        "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+        "normalized_url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+        "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there is a match, YouTube alerts […]",
+        "source": "The Verge AI",
+        "published": "2026-05-15T22:25:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
         "title": "ArXiv will ban researchers who upload papers full of AI slop",
         "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
         "normalized_url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
@@ -985,19 +998,6 @@
         "source": "The Verge AI",
         "published": "2026-05-14T22:21:46+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Behold, the Elon Musk jackass trophy",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/930893/elon-musk-sam-altman-trial-ai-safety-jackass-statue",
-        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/930893/elon-musk-sam-altman-trial-ai-safety-jackass-statue",
-        "summary": "Yesterday, in Musk v. Altman, before the jurors came in, Sam Altman's team passed up what looked - from a distance - like a Little League trophy. It was not. Judge Yvonne Gonzalez Rogers had the lawyers read the inscription aloud for the press: \"Never stop being a jackass.\" It's a commemoration OpenAI employees bought […]",
-        "source": "The Verge AI",
-        "published": "2026-05-14T20:59:23+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
