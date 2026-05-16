@@ -1,10 +1,10 @@
 {
   "date": "2026-05-17",
-  "generated_at": "2026-05-17T05:11:38.847360+08:00",
+  "generated_at": "2026-05-17T06:54:54.682591+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 49
+    "news": 48
   },
   "items": {
     "papers": [
@@ -861,32 +861,6 @@
       },
       {
         "category": "news",
-        "title": "What the jury will actually decide in the case of Elon Musk vs. Sam Altman",
-        "url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
-        "normalized_url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman",
-        "summary": "Here's what the biggest tech court case of the year is all about.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-14T22:47:51+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Elon Musk’s SpaceXAI has been bleeding staff since its merger",
-        "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-        "normalized_url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger",
-        "summary": "More than 50 employees have reportedly left Elon Musk’s newly merged SpaceXAI since February, raising questions about burnout, leadership changes, talent poaching, and whether liquidity events weakened retention incentives.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-14T21:30:44+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
         "title": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
         "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
         "normalized_url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
@@ -1078,6 +1052,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
+        "summary": "Community Wisdom 185",
+        "source": "Lenny's Newsletter",
+        "published": "2026-05-16T21:46:34+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
         }
       },
       {
