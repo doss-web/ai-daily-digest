@@ -1,10 +1,10 @@
 {
   "date": "2026-05-18",
-  "generated_at": "2026-05-18T05:26:26.706235+08:00",
+  "generated_at": "2026-05-18T06:58:06.551807+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 38
+    "news": 37
   },
   "items": {
     "papers": [
@@ -880,19 +880,6 @@
         "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it will give you four options […]",
         "source": "The Verge AI",
         "published": "2026-05-16T15:37:05+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
-        "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
-        "normalized_url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
-        "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there is a match, YouTube alerts […]",
-        "source": "The Verge AI",
-        "published": "2026-05-15T22:25:00+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
