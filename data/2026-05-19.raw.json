@@ -1,6 +1,6 @@
 {
   "date": "2026-05-19",
-  "generated_at": "2026-05-19T05:46:05.425043+08:00",
+  "generated_at": "2026-05-19T07:11:06.102054+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -747,7 +747,7 @@
         "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
         "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
         "normalized_url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required",
-        "summary": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that the bigger obstacle is access, and that Claude solves it.",
+        "summary": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it.",
         "source": "TechCrunch AI",
         "published": "2026-05-18T21:29:31+00:00",
         "importance_hint": 4,
