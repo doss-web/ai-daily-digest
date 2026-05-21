@@ -1,13 +1,39 @@
 {
   "date": "2026-05-22",
-  "generated_at": "2026-05-22T05:56:34.827226+08:00",
+  "generated_at": "2026-05-22T07:08:40.974702+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 57
+    "news": 56
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "DynMuon: A Dynamic Spectral Shaping View of Muon",
+        "url": "https://huggingface.co/papers/2605.17109",
+        "normalized_url": "https://huggingface.co/papers/2605.17109",
+        "summary": "In recent years, Muon has emerged as the dominant method for training large language models, and transformers more broadly. The essential difference, when compared to standard gradient descent methods, is to replace the usual update matrix M=UΣV^top with its polar factor UV^top. In this work, we consider a class of Muon-like updates, where we replace the update M with UΣ^p V^top for some parameter p. We call this a \"spectral-shaping\" operation, and develop a theory of how to pick p which depends",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.17109"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+        "url": "https://huggingface.co/papers/2605.20179",
+        "normalized_url": "https://huggingface.co/papers/2605.20179",
+        "summary": "Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive (AR) models, offering better hardware utilization and bidirectional context through parallel block-level decoding. However, as dLLMs continue to scale up with mixture-of-experts (MoE) architectures, their deployment on resource-constrained devices remains an open challenge. Existing AR-based methods often incur either prohibitive I/O overhead or significant compute bottlenecks. In this work, we pr",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.20179"
+        }
+      },
       {
         "category": "papers",
         "title": "Decoupling the Benefits of Subword Tokenization for Language Model Training via Byte-level Simulation",
@@ -240,32 +266,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2605.19804"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "IndusAgent: Reinforcing Open-Vocabulary Industrial Anomaly Detection with Agentic Tools",
-        "url": "https://huggingface.co/papers/2605.20682",
-        "normalized_url": "https://huggingface.co/papers/2605.20682",
-        "summary": "Multimodal large language models (MLLMs) have shown remarkable capability in bridging visual perception and textual reasoning, enabling zero-shot understanding across diverse industrial scenarios. However, their performance in open-vocabulary industrial anomaly detection (IAD) is often limited by domain-misaligned reasoning and hallucinated structural inferences. To address these challenges, we propose IndusAgent, a tool-augmented agentic framework for open-vocabulary IAD. Specifically, we first",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-20T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.20682"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Safety Alignment as Continual Learning: Mitigating the Alignment Tax via Orthogonal Gradient Projection",
-        "url": "https://huggingface.co/papers/2602.07892",
-        "normalized_url": "https://huggingface.co/papers/2602.07892",
-        "summary": "Safety post-training can improve the harmfulness and policy compliance of Large Language Models (LLMs), but it may also reduce general utility, a phenomenon often described as the alignment tax. We study this trade-off through the lens of continual learning: sequential alignment stages expose the model to shifted data distributions and objectives, and their gradients may interfere with directions that support previously acquired general capabilities. This view does not claim that all alignment d",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-12T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2602.07892"
         }
       }
     ],
@@ -783,7 +783,7 @@
       },
       {
         "category": "news",
-        "title": "Trump delays AI security executive order: ‘I don’t want to get in the way of that leading’",
+        "title": "Trump delays AI security executive order, saying language ‘could have been a blocker’",
         "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
         "normalized_url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading",
         "summary": "President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfaction with the order's language.",
@@ -1076,19 +1076,6 @@
         "source": "Wired AI",
         "published": "2026-05-20T18:00:00+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Literary Prizewinners Are Facing AI Allegations. It Feels Like the New Normal",
-        "url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
-        "normalized_url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations",
-        "summary": "Three of five regional winners of the prestigious Commonwealth Short Story Prize are suspected of relying on chatbots. They’re certainly not alone.",
-        "source": "Wired AI",
-        "published": "2026-05-19T22:53:04+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
         }
