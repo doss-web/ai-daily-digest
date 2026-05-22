@@ -1,10 +1,10 @@
 {
   "date": "2026-05-23",
-  "generated_at": "2026-05-23T05:42:28.368810+08:00",
+  "generated_at": "2026-05-23T07:09:18.710230+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 58
+    "news": 48
   },
   "items": {
     "papers": [
@@ -484,136 +484,6 @@
     "news": [
       {
         "category": "news",
-        "title": "快手和小红书的治理，是良心还是表演？",
-        "url": "https://www.36kr.com/p/3820158616609026",
-        "normalized_url": "https://www.36kr.com/p/3820158616609026",
-        "summary": "平台 ESG 治理难挽信任危机。",
-        "source": "36Kr AI",
-        "published": "2026-05-22T13:12:48+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "中美科技企业动摇英伟达“一强”",
-        "url": "https://www.36kr.com/p/3820177381347717",
-        "normalized_url": "https://www.36kr.com/p/3820177381347717",
-        "summary": "英伟达公布了超出市场预期的财报，但股票并没有迎来全面买入。随着谷歌、华为等中美竞争对手企业崛起，英伟达一强的死角已开始被意识……",
-        "source": "36Kr AI",
-        "published": "2026-05-22T13:12:10+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI数据中心缺的不是电，是一套新的供电系统",
-        "url": "https://www.36kr.com/p/3820112168325512",
-        "normalized_url": "https://www.36kr.com/p/3820112168325512",
-        "summary": "储能竞争的关键在供电架构，而非电芯",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:52:05+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "记者实探：三大运营商Token套餐声势浩大，实际落地却未跟上",
-        "url": "https://www.36kr.com/p/3820131718402434",
-        "normalized_url": "https://www.36kr.com/p/3820131718402434",
-        "summary": "记者实地走访上海营业厅发现，Token 套餐宣传火热但落地参差。电信方面已备妥价格表并推出限时促销，移动、联通一线人员多表示未接通知。",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:51:39+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "海尔智家，开始为增长付更高的价格",
-        "url": "https://www.36kr.com/p/3820236511305987",
-        "normalized_url": "https://www.36kr.com/p/3820236511305987",
-        "summary": "“三大件”扶着“眼手脑”智能转型。",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:48:44+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "为什么边缘计算终于有了它的杀手级应用?",
-        "url": "https://www.36kr.com/p/3820238474055812",
-        "normalized_url": "https://www.36kr.com/p/3820238474055812",
-        "summary": "边缘计算已经走过了“为什么需要它”的理论论证阶段，进入了“如何把它建好”的工程实施阶段。",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:47:59+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "打芯片牌，为何成为大厂的共同抉择",
-        "url": "https://www.36kr.com/p/3820240626995592",
-        "normalized_url": "https://www.36kr.com/p/3820240626995592",
-        "summary": "要打主动仗，需下先手棋",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:47:40+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "股价超越茅台，中科院博士创业10年，干出千亿市值科技巨头",
-        "url": "https://www.36kr.com/p/3820252406600068",
-        "normalized_url": "https://www.36kr.com/p/3820252406600068",
-        "summary": "联讯仪器未来的业绩能否保持高增长态势？",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:46:40+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "五个AI落地叙事，拆解出一场“企业坦白局”",
-        "url": "https://www.36kr.com/p/3820302533447811",
-        "normalized_url": "https://www.36kr.com/p/3820302533447811",
-        "summary": "有人贴外皮，有人换肌理，有人养骨骼",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:45:43+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "146亿元用于理财，阳光电源手握300亿元仍要赴港募资扩产",
-        "url": "https://www.36kr.com/p/3820359575376261",
-        "normalized_url": "https://www.36kr.com/p/3820359575376261",
-        "summary": "实控人身价超千亿元。",
-        "source": "36Kr AI",
-        "published": "2026-05-22T12:44:19+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
         "title": "龙虾养不动了？周鸿祎给虾搭了个云端办公室，专业私教在线炼虾",
         "url": "https://www.qbitai.com/2026/05/422811.html",
         "normalized_url": "https://www.qbitai.com/2026/05/422811.html",
@@ -744,10 +614,23 @@
       },
       {
         "category": "news",
+        "title": "AI is being used to resurrect the voices of dead pilots",
+        "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+        "normalized_url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots",
+        "summary": "People used AI on a spectrogram image of cockpit recordings to reconstruct them, forcing the NTSB to temporarily block access to its docket system.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-22T23:03:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’",
         "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
         "normalized_url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this",
-        "summary": "You can now disco ball-ify your entire Pixel homescreen, says Google.",
+        "summary": "You can now disco ball-ify your entire Pixel home screen, says Google.",
         "source": "TechCrunch AI",
         "published": "2026-05-22T21:02:36+00:00",
         "importance_hint": 4,
@@ -855,19 +738,6 @@
         "source": "TechCrunch AI",
         "published": "2026-05-21T17:30:45+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
-        "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
-        "normalized_url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts",
-        "summary": "Spotify will let you generate daily or weekly briefs based on your prompts",
-        "source": "TechCrunch AI",
-        "published": "2026-05-21T15:27:00+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
