@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest · 2026-05-10</title>
+  <meta name="description" content="AI领域2026-05-10每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid #21262d;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(13,17,23,0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.site-header .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e6edf3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header .logo span { color: #58a6ff; }
+.site-header nav { display: flex; gap: 12px; }
+.site-header nav a {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+
+/* ── Layout ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #8b949e;
+  font-size: 16px;
+}
+
+/* ── Date grid (index) ── */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.date-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color .2s, transform .2s;
+  display: block;
+  color: inherit;
+}
+.date-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.date-card .date-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 4px;
+}
+.date-card .weekday {
+  font-size: 12px;
+  color: #8b949e;
+}
+.date-card .latest-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* ── Day page date heading ── */
+.day-hero {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #21262d;
+}
+.day-hero .date-str {
+  font-size: 13px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.day-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ── Category section ── */
+.category {
+  margin-bottom: 40px;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cat-line {
+  flex: 1;
+  height: 1px;
+  background: #21262d;
+}
+
+/* ── Item card ── */
+.item-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  transition: border-color .2s;
+}
+.item-card:hover { border-color: #30363d; }
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.item-desc {
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.stars {
+  font-size: 13px;
+  color: #e3b341;
+  letter-spacing: 1px;
+}
+.item-value {
+  font-size: 13px;
+  color: #7ee787;
+  background: rgba(46,160,67,.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.item-sources {
+  font-size: 13px;
+  color: #8b949e;
+  margin-left: auto;
+}
+.item-sources a {
+  color: #58a6ff;
+  margin-left: 6px;
+}
+.item-sources a:first-child { margin-left: 0; }
+
+/* ── Observation box ── */
+.observation {
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+}
+.observation h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 12px;
+}
+.observation p {
+  font-size: 14px;
+  color: #c9d1d9;
+  line-height: 1.8;
+}
+
+/* ── Day nav ── */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #21262d;
+}
+.nav-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  padding: 8px 16px;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.nav-btn:hover { background: #161b22; text-decoration: none; }
+
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  color: #484f58;
+  font-size: 13px;
+  border-top: 1px solid #21262d;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; }
+  .item-meta { flex-direction: column; align-items: flex-start; }
+  .item-sources { margin-left: 0; }
+  .site-header .logo { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
+  <nav>
+    <a href="../index.html">归档</a>
+    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+  
+    <div class="container">
+      <div class="day-hero">
+        <div class="date-str">周日 · 2026-05-10</div>
+        <h1>AI 每日简报</h1>
+      </div>
+      
+        <div class="category">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">OpenAI 翁家翌提出全新推理范式：不更新参数，通过生成 .py 文件实现强化学习</div>
+      <div class='item-desc'>决策只需 AI 手搓一个 Python 文件，过程开源可复现，为 LLM 推理开辟新路径。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">大幅降低强化学习计算成本，可复现性高。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/414827.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">谷歌发布「AI联合数学家」，刷新最难数学AI基准SOTA</div>
+      <div class='item-desc'>AI 与数学家协同，牛津教授借助该工具解开群论悬案，标志 AI for Math 迈出关键一步。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">验证 AI 在数学前沿研究中的实用价值。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/414788.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%</div>
+      <div class='item-desc'>搜索、知识、Agent 能力全面提升，成本优势显著。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">低成本高性能模型，对国内开发者部署友好。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/414496.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">阶跃最新语音模型位列 Artificial Analysis 评测榜中国第一</div>
+      <div class='item-desc'>中国语音 AI 模型首次登顶国际权威评测。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">语音赛道国产模型取得里程碑式突破。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/415023.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Anthropic 发布金融行业插件 (financial-services-plugins)</div>
+      <div class='item-desc'>专为金融领域设计的 Claude 能力扩展，GitHub 星数快速攀升。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">填补金融垂直领域 AI 工具空白。</span>
+        <div class="item-sources"><a href="https://github.com/anthropics/financial-services-plugins" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Nvidia 今年已承诺 400 亿美元 AI 股权投资</div>
+      <div class='item-desc'>持续加码 AI 生态投资，成为行业最大金主之一。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">信号级资本动向，影响 AI 初创融资环境。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">微软内部邮件曝光：曾担心 OpenAI 跑到亚马逊并「说 Azure 坏话」</div>
+      <div class='item-desc'>Musk v. Altman 庭审文件揭示微软与 OpenAI 早期合作中的真实顾虑。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">揭示巨头间竞争与合作的底层逻辑。</span>
+        <div class="item-sources"><a href="https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">铭凡发布全闪 S5/S7 NAS，联手英特尔推动端侧智能体</div>
+      <div class='item-desc'>搭载英特尔处理器，定位本地智算与 AI 边缘计算。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 计算向边缘端下沉的新硬件形态。</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3801575016210179" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">美图 RoboNeo 全新升级：首创影像创作 Agent Teams</div>
+      <div class='item-desc'>打造「赛博乙方天团」，多 Agent 协作完成影像任务。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">Agent Teams 模式在创意工具中的落地示范。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/415010.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">EMO: Pre-training Mixture of Experts for Emergent Modularity</div>
+      <div class='item-desc'>提出新型 MoE 预训练方法，实现专家模块的涌现式分工，打破传统 MoE 领域性能退化问题。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">MoE 架构新范式，可支持按领域子集高效推理。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.06663" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">StraTA: Strategic Trajectory Abstraction for Agentic RL</div>
+      <div class='item-desc'>引入显式轨迹级策略抽象，解决长程决策中的探索与信用分配难题。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提升 LLM Agent 在长周期任务中的强化学习效果。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.06642" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Prescriptive Scaling Laws for Data Constrained Training</div>
+      <div class='item-desc'>在数据受限场景下建模重复训练的超额损失，提出新的缩放法则指导预训练决策。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">解决高质量数据枯竭下的训练策略优化问题。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.01640" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</div>
+      <div class='item-desc'>发现 GRPO 中序列聚合 vs 令牌聚合的偏差问题，提出平衡聚合方案。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">改进主流强化学习训练方法，提升推理与代码生成效果。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.04077" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">KernelBench-X: Benchmark for Evaluating LLM-Generated GPU Kernels</div>
+      <div class='item-desc'>涵盖 176 个任务、15 个类别，系统评估 LLM 生成 Triton Kernel 的正确性与效率。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为 AI 自动编写 GPU 内核提供标准化评测基准。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.04956" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">addyosmani/agent-skills</div>
+      <div class='item-desc'>生产级 AI 编码 Agent 技能库，来自 Chrome 团队高工。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">可直接复用的 Agent 工程能力模板。</span>
+        <div class="item-sources"><a href="https://github.com/addyosmani/agent-skills" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">datawhalechina/hello-agents</div>
+      <div class='item-desc'>中文《从零开始构建智能体》教程，适合入门学习。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">系统化的 Agent 构建中文教学资源。</span>
+        <div class="item-sources"><a href="https://github.com/datawhalechina/hello-agents" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">HKUDS/AI-Trader</div>
+      <div class='item-desc'>100% 全自动化 Agent 原生交易系统。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">金融 AI Agent 的完整实现参考。</span>
+        <div class="item-sources"><a href="https://github.com/HKUDS/AI-Trader" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">lsdefine/GenericAgent</div>
+      <div class='item-desc'>自进化 Agent，从 3300 行种子代码生长出完整技能树，token 消耗仅为传统方案的 1/6。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">自进化 Agent 的高效实现范例。</span>
+        <div class="item-sources"><a href="https://github.com/lsdefine/GenericAgent" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">rtk-ai/rtk</div>
+      <div class='item-desc'>CLI 代理，可将常见开发命令的 LLM token 消耗降低 60-90%，单 Rust 二进制文件零依赖。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">显著降低 AI 编码工具使用成本。</span>
+        <div class="item-sources"><a href="https://github.com/rtk-ai/rtk" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+        </div>
+      
+      <div class="day-nav"><a class="nav-btn" href="2026-05-09.html">← 2026-05-09</a><a class="nav-btn" href="2026-05-11.html">2026-05-11 →</a></div>
+    </div>
+  
+<footer class="site-footer">
+  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+</footer>
+
+</body>
+</html>

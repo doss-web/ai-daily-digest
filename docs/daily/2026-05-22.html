@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily Digest · 2026-04-15</title>
-  <meta name="description" content="AI领域2026-04-15每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <title>AI Daily Digest · 2026-05-22</title>
+  <meta name="description" content="AI领域2026-05-22每日简报，涵盖行业新闻、重要论文与开源项目。">
   <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -278,16 +278,68 @@ a:hover { text-decoration: underline; }
   
     <div class="container">
       <div class="day-hero">
-        <div class="date-str">周三 · 2026-04-15</div>
+        <div class="date-str">周五 · 2026-05-22</div>
         <h1>AI 每日简报</h1>
       </div>
       
+        <div class="category">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">freellmapi ⭐63</div>
+      <div class='item-desc'>聚合约 14 家 AI 提供商免费层 API 的 OpenAI 兼容代理，支持自动故障转移。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">零成本聚合多模型 API，适合个人实验和原型开发。</span>
+        <div class="item-sources"><a href="https://github.com/tashfeenahmed/freellmapi" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">agentmemory ⭐61</div>
+      <div class='item-desc'>基于真实基准测试的 AI 编码 Agent 持久化记忆方案。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">解决 Agent 长期对话中的记忆痛点，提升多轮交互稳定性。</span>
+        <div class="item-sources"><a href="https://github.com/rohitg00/agentmemory" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">nuwa-skill ⭐38</div>
+      <div class='item-desc'>蒸馏任何人的思维方式——心智模型、决策启发式、表达 DNA。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">将「思维蒸馏」工具化，可复制专家决策模式到 AI Agent。</span>
+        <div class="item-sources"><a href="https://github.com/alchaincyf/nuwa-skill" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">claude-plugins-official ⭐35</div>
+      <div class='item-desc'>Anthropic 官方管理的 Claude Code 高质量插件目录。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">官方插件生态启动，降低 Claude Code 扩展门槛，标准化开发流程。</span>
+        <div class="item-sources"><a href="https://github.com/anthropics/claude-plugins-official" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">aidlc-workflows ⭐34</div>
+      <div class='item-desc'>AWS Labs 推出的 AI 驱动生命周期自适应工作流规则。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为 AI 编码 Agent 提供企业级工作流治理框架，提升代码质量和可维护性。</span>
+        <div class="item-sources"><a href="https://github.com/awslabs/aidlc-workflows" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+        </div>
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今日 AI 领域的动态呈现出鲜明的“竞争与深化”双重主题。一方面，行业巨头间的竞争白热化：OpenAI 通过收购 Hiro 拓展垂直能力，同时内部备忘录流露出对 Anthropic 崛起的警惕；微软和 Google 则持续将前沿的智能体与工作流能力深度集成至其核心产品（Copilot, Chrome），构筑用户体验护城河。另一方面，技术演进正从模型能力竞赛转向系统工程与效率优化：学术界涌现出大量关于高效训练（如离线蒸馏 OPD）、推理优化（如 KV 缓存管理）、以及智能体长周期任务执行框架的研究。开源社区同样活跃，聚焦于让 AI 智能体更实用、更“像同事”（如 Multica），并能持续学习和记忆（如 claude-mem）。整体来看，AI 正在从令人惊叹的演示，加速渗透至具体的工作流、开发流程乃至企业管理中，同时，伴随其影响力扩大，相关的社会风险（如极端事件）和认知差距问题也愈发不容忽视。</p>
+          <p>今天最值得关注的信号是 **AI 从「生成内容」向「自主科研」的跃迁**——OpenAI 模型首次自主解决80年未解数学难题，标志着通用 LLM 开始具备真正的科学发现能力。与此同时，**Anthropic 的天价算力租约**和 **Meta 的裁员重组**揭示了一个残酷现实：AI 领先地位的维持成本正在指数级上升，行业分化加速。在开源生态方面，**Anthropic 官方插件目录**和 **AWS 的 Agent 工作流框架**的发布，表明 Agent 开发正从野蛮生长走向标准化和工程化，这是 AI builder 应该密切关注的方向。</p>
         </div>
-      <div class="day-nav"><a class="nav-btn" href="2026-04-14.html">← 2026-04-14</a><a class="nav-btn" href="2026-04-16.html">2026-04-16 →</a></div>
+      <div class="day-nav"><a class="nav-btn" href="2026-05-21.html">← 2026-05-21</a><a class="nav-btn" href="2026-05-23.html">2026-05-23 →</a></div>
     </div>
   
 <footer class="site-footer">

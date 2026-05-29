@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest · 2026-05-29</title>
+  <meta name="description" content="AI领域2026-05-29每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid #21262d;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(13,17,23,0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.site-header .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e6edf3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header .logo span { color: #58a6ff; }
+.site-header nav { display: flex; gap: 12px; }
+.site-header nav a {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+
+/* ── Layout ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #8b949e;
+  font-size: 16px;
+}
+
+/* ── Date grid (index) ── */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.date-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color .2s, transform .2s;
+  display: block;
+  color: inherit;
+}
+.date-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.date-card .date-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 4px;
+}
+.date-card .weekday {
+  font-size: 12px;
+  color: #8b949e;
+}
+.date-card .latest-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* ── Day page date heading ── */
+.day-hero {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #21262d;
+}
+.day-hero .date-str {
+  font-size: 13px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.day-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ── Category section ── */
+.category {
+  margin-bottom: 40px;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cat-line {
+  flex: 1;
+  height: 1px;
+  background: #21262d;
+}
+
+/* ── Item card ── */
+.item-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  transition: border-color .2s;
+}
+.item-card:hover { border-color: #30363d; }
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.item-desc {
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.stars {
+  font-size: 13px;
+  color: #e3b341;
+  letter-spacing: 1px;
+}
+.item-value {
+  font-size: 13px;
+  color: #7ee787;
+  background: rgba(46,160,67,.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.item-sources {
+  font-size: 13px;
+  color: #8b949e;
+  margin-left: auto;
+}
+.item-sources a {
+  color: #58a6ff;
+  margin-left: 6px;
+}
+.item-sources a:first-child { margin-left: 0; }
+
+/* ── Observation box ── */
+.observation {
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+}
+.observation h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 12px;
+}
+.observation p {
+  font-size: 14px;
+  color: #c9d1d9;
+  line-height: 1.8;
+}
+
+/* ── Day nav ── */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #21262d;
+}
+.nav-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  padding: 8px 16px;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.nav-btn:hover { background: #161b22; text-decoration: none; }
+
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  color: #484f58;
+  font-size: 13px;
+  border-top: 1px solid #21262d;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; }
+  .item-meta { flex-direction: column; align-items: flex-start; }
+  .item-sources { margin-left: 0; }
+  .site-header .logo { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
+  <nav>
+    <a href="../index.html">归档</a>
+    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+  
+    <div class="container">
+      <div class="day-hero">
+        <div class="date-str">周五 · 2026-05-29</div>
+        <h1>AI 每日简报</h1>
+      </div>
+      
+        <div class="category">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">Anthropic 发布 Claude Opus 4.8，推出“动态工作流”工具协调子 Agent 集群</div>
+      <div class='item-desc'>新模型主打“诚实性”，能更准确地承认自身能力边界，同时引入 Dynamic Workflows 用于编排多 Agent 协作。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 编排能力从实验走向产品化，开发者可直接使用</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Anthropic 完成 650 亿美元 H 轮融资，估值逼近 1 万亿美元，即将 IPO</div>
+      <div class='item-desc'>这是 Anthropic 上市前的最后一轮私募融资，标志着 AI 领域最大规模融资之一。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">行业格局重塑信号，关注 IPO 后生态变化</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">伊利诺伊州通过美国最强 AI 安全法案</div>
+      <div class='item-desc'>要求 OpenAI、Anthropic、Google 等公司由第三方验证其遵循安全标准，州长表示将签署。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 监管进入实质性合规阶段，影响所有模型部署方</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/illinois-pass-major-ai-safety-law-pritzker/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">前 Google 和 Apple 研究员创立 Trajectory，打造 AI“持续学习”反馈循环</div>
+      <div class='item-desc'>该公司旨在让 AI 产品在用户使用过程中不断自我改进，解决当前模型“一锤子买卖”的痛点。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">打破静态模型范式，推动 AI 产品迭代新方向</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/ex-google-apple-ai-researchers-want-to-make-ai-that-gets-smarter-as-you-use-it/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">微软 365 Copilot 全面改版：速度提升 2 倍，界面更简洁</div>
+      <div class='item-desc'>新版 Copilot 加载速度翻倍，响应更结构化、更易扫描，已开始向桌面和移动端推送。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">企业级 AI 助手体验质变，影响数亿 Office 用户</span>
+        <div class="item-sources"><a href="https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">FastAPI 底层框架曝出“致命漏洞”：一个字符即可威胁 AI Agent 与 MCP 基础设施</div>
+      <div class='item-desc'>该漏洞影响周下载量 3.25 亿次的 Python 框架，大量 AI Agent 面临裸奔风险。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 基础设施安全警钟，所有 Agent 开发者需立即排查</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3828901167911812" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Sesame 发布 iOS 应用：Oculus 创始人的对话式 AI 走向大众</div>
+      <div class='item-desc'>Sesame 的 AI Agent 提供更自然的来回对话体验，旨在摆脱传统聊天机器人的生硬感。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">对话式 AI 交互范式突破，关注语音 Agent 体验升级</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Genesis AI 开源机器人“训练场”：200 小时真实任务可在 0.5 小时内完成仿真</div>
+      <div class='item-desc'>该仿真平台大幅加速机器人策略训练，推动具身智能研究。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">机器人训练效率提升 400 倍，降低硬件依赖</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3828813719130761" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Asana 收购无代码 Agent 构建平台 StackAI</div>
+      <div class='item-desc'>Asana 将把 StackAI 整合进其不断扩展的 AI 工作流工具套件。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">企业级 Agent 平台整合加速，无代码 Agent 构建成为趋势</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">开发者被“氛围编码”惹怒，在代码中植入数据清除型提示注入</div>
+      <div class='item-desc'>一位开发者将恶意指令嵌入 jqwik 库，诱导 AI 编码代理删除应用输出数据，引发对 AI 代码安全性的广泛讨论。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 生成代码供应链安全风险真实存在，需加强审计</span>
+        <div class="item-sources"><a href="https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/" target="_blank">Ars Technica</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">LACUNA：将安全 Agent 视为递归程序孔洞</div>
+      <div class='item-desc'>提出一种新范式，让模型编写的代码能塑造运行时本身，同时通过递归程序孔洞机制保证安全性。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 安全架构新思路，解决 Prompt Injection 等根本问题</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.28617" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">多 Agent 系统隐私评估：LLM Agent 无法保守秘密</div>
+      <div class='item-desc'>模拟数千个 Agent 在社交环境中交互一个月，发现从单轮转向多轮社交评估后，隐私泄露风险显著放大。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">多 Agent 部署场景下隐私风险被严重低估，需重新设计防护</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.27766" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">AgentHijack：计算机使用 Agent 鲁棒性基准测试</div>
+      <div class='item-desc'>评估多模态 LLM Agent 在弹窗、分辨率变化等常见环境干扰下的表现，揭示当前 Agent 在动态环境中的脆弱性。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为计算机使用 Agent 的实际部署提供鲁棒性评估标准</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.25707" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Agent 也会“衰老”：部署系统中的 Agent 生命周期工程</div>
+      <div class='item-desc'>发现即使模型权重冻结，Agent 的有效状态也会因对话压缩、记忆检索等因素持续变化，可靠性随时间衰减。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提出“Agent 寿命”概念，长期部署系统的核心工程问题</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.26302" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">超越原子事实：终身 LLM Agent 记忆系统重构</div>
+      <div class='item-desc'>指出当前基于“提取事实”的记忆范式丢失了对话中的细粒度细节，提出更全面的记忆系统设计。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 长期记忆设计的关键突破，提升对话连贯性</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.19952" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">思维链监控在跨语言环境中的脆弱性</div>
+      <div class='item-desc'>首次大规模评估 13 种语言和 7 个前沿模型家族的 CoT 可监控性，发现非英语场景下安全监控效果显著下降。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">CoT 安全机制的语言偏差问题，多语言部署需特别关注</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.27901" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">Genesis AI 开源机器人仿真训练平台</div>
+      <div class='item-desc'>真实世界 200+ 小时任务可在仿真中 0.5 小时内完成，大幅降低机器人训练成本。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">机器人研究门槛骤降，加速具身智能迭代</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3828813719130761" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+        </div>
+      
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今天最强烈的信号是 **Agent 系统正在从“能力竞赛”转向“可靠性工程”**。Anthropic Opus 4.8 的“诚实性”训练、LACUNA 论文的安全架构、AgentHijack 基准测试，以及 Agent 生命周期工程研究，都指向同一个方向：行业开始严肃对待 Agent 在生产环境中的鲁棒性、安全性和长期可靠性。与此同时，伊利诺伊州的 AI 安全法案和 FastAPI 漏洞事件，进一步将“安全合规”从可选项变为必选项。对于 AI Builder 而言，**当下最紧迫的任务不是追求更强的模型能力，而是建立 Agent 的工程化保障体系**——包括输入输出审计、环境鲁棒性测试、以及长期运行的稳定性监控。</p>
+        </div>
+      <div class="day-nav"><a class="nav-btn" href="2026-05-28.html">← 2026-05-28</a><span></span></div>
+    </div>
+  
+<footer class="site-footer">
+  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+</footer>
+
+</body>
+</html>

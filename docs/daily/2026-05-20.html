@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest · 2026-05-20</title>
+  <meta name="description" content="AI领域2026-05-20每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid #21262d;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(13,17,23,0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.site-header .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e6edf3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header .logo span { color: #58a6ff; }
+.site-header nav { display: flex; gap: 12px; }
+.site-header nav a {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+
+/* ── Layout ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #8b949e;
+  font-size: 16px;
+}
+
+/* ── Date grid (index) ── */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.date-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color .2s, transform .2s;
+  display: block;
+  color: inherit;
+}
+.date-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.date-card .date-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 4px;
+}
+.date-card .weekday {
+  font-size: 12px;
+  color: #8b949e;
+}
+.date-card .latest-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* ── Day page date heading ── */
+.day-hero {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #21262d;
+}
+.day-hero .date-str {
+  font-size: 13px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.day-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ── Category section ── */
+.category {
+  margin-bottom: 40px;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cat-line {
+  flex: 1;
+  height: 1px;
+  background: #21262d;
+}
+
+/* ── Item card ── */
+.item-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  transition: border-color .2s;
+}
+.item-card:hover { border-color: #30363d; }
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.item-desc {
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.stars {
+  font-size: 13px;
+  color: #e3b341;
+  letter-spacing: 1px;
+}
+.item-value {
+  font-size: 13px;
+  color: #7ee787;
+  background: rgba(46,160,67,.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.item-sources {
+  font-size: 13px;
+  color: #8b949e;
+  margin-left: auto;
+}
+.item-sources a {
+  color: #58a6ff;
+  margin-left: 6px;
+}
+.item-sources a:first-child { margin-left: 0; }
+
+/* ── Observation box ── */
+.observation {
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+}
+.observation h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 12px;
+}
+.observation p {
+  font-size: 14px;
+  color: #c9d1d9;
+  line-height: 1.8;
+}
+
+/* ── Day nav ── */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #21262d;
+}
+.nav-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  padding: 8px 16px;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.nav-btn:hover { background: #161b22; text-decoration: none; }
+
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  color: #484f58;
+  font-size: 13px;
+  border-top: 1px solid #21262d;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; }
+  .item-meta { flex-direction: column; align-items: flex-start; }
+  .item-sources { margin-left: 0; }
+  .site-header .logo { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
+  <nav>
+    <a href="../index.html">归档</a>
+    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+  
+    <div class="container">
+      <div class="day-hero">
+        <div class="date-str">周三 · 2026-05-20</div>
+        <h1>AI 每日简报</h1>
+      </div>
+      
+        <div class="category">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">Google I/O 2026 重磅：Gemini 3.5 Flash 发布，搜索框 25 年来首次重设计</div>
+      <div class='item-desc'>Google 在 I/O 大会上推出 Gemini 3.5 Flash 模型，主打编码和 Agent 能力，同时将搜索框从关键词输入改造为动态 AI 对话界面，并引入“信息 Agent”主动监控和推送更新。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 范式正式成为 Google 搜索和产品核心，开发者需关注新 API 和生态变化。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Google Genie 世界模型接入 Street View，可模拟真实街道</div>
+      <div class='item-desc'>Google DeepMind 将 Street View 与 Project Genie 整合，创建沉浸式交互世界模拟，支持机器人训练、游戏和旅行探索，可模拟天气变化和罕见场景。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">世界模型从游戏场景扩展到真实物理世界，具身智能训练成本有望大幅降低。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Google 推出 Gemini Spark：7x24 全天候 AI Agent</div>
+      <div class='item-desc'>作为 OpenClaw 的直接竞品，Gemini Spark 是始终在线的 AI 代理，可自主管理日程、购物、发邮件，深度绑定用户个人数据。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 从“问答式”进化为“委托式”，数据隐私与信任成为关键瓶颈。</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/googles-response-to-openclaws-24-7-ai-agent/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">OpenAI 加入 C2PA 标准，为 AI 图像添加可溯源水印</div>
+      <div class='item-desc'>OpenAI 宣布采用开放 C2PA 标准并集成 Google SynthID，用户可验证图像是否由 OpenAI 模型生成，增强内容溯源能力。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 内容鉴别进入标准化阶段，开发者需适配 C2PA 以应对合规要求。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">教皇与 Anthropic 创始人将联合召开发布会</div>
+      <div class='item-desc'>消息称教皇方济各将与 Anthropic CEO Dario Amodei 共同举行发布会，探讨 AI 时代的人类价值与伦理问题。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 伦理讨论从技术圈上升至宗教与哲学层面，可能影响全球 AI 治理框架。</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3816133295087108" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Google 发布音频智能眼镜 Project Aura，秋季上市</div>
+      <div class='item-desc'>Google 推出类似 Meta Ray-Ban 的音频智能眼镜，支持语音命令和 Gemini 交互，可通过眼镜完成日常任务。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 可穿戴设备赛道竞争白热化，语音交互成为新入口。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Qwen 3.7 Max 预览版空降，文本与视觉双领域国产第一</div>
+      <div class='item-desc'>阿里通义千问团队发布 Qwen 3.7 Max 预览版，在文本和视觉任务上均达到国产模型最优水平，两代超大杯模型并行迭代。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">国产大模型持续追赶，多模态能力成为竞争焦点。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/419822.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">arXiv 最严新规：AI 水论文封一年，署名连坐</div>
+      <div class='item-desc'>arXiv 发布新规，对使用 AI 生成低质量论文的行为处以一年封禁，且所有署名作者连带受罚，陶哲轩表示支持。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">学术出版界对 AI 滥用开始严厉监管，研究者需规范使用 AI 工具。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/419528.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">巴菲特接班人 156 亿美元重仓谷歌，AI 狂热撕裂美股</div>
+      <div class='item-desc'>巴菲特接班人斥巨资买入谷歌，但巴菲特本人批评市场变成赌场。AI 资本开支、杠杆 ETF 和循环融资被视为三大风险点。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 投资泡沫争论持续，资本开支回报率成市场核心关注。</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3816152366816776" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">WavFlow：直接在波形空间生成高保真音频</div>
+      <div class='item-desc'>提出无需中间压缩表示的音频生成框架，通过波形分块和振幅提升克服高维、低能量信号建模难题，挑战当前主流的隐空间范式。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">音频生成可能摆脱 VAE/扩散隐空间的限制，降低系统复杂度。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.18749" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">AR-VLA：真正的自回归动作专家模型</div>
+      <div class='item-desc'>提出独立的自回归动作专家，以连续因果序列生成动作，同时刷新视觉-语言前缀，解决 VLA 模型中频率不匹配和上下文丢失问题。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">具身智能机器人可拥有长期记忆和上下文感知能力，接近“GPT 时刻”。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2603.10126" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">AstraFlow：面向 Agentic LLM 的数据流强化学习系统</div>
+      <div class='item-desc'>提出支持多策略协同训练、弹性异构计算资源的 RL 系统，解决 Agentic RL 训练成本过高的问题。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent 训练成本有望大幅下降，推动 RL 在 Agent 场景的规模化应用。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.15565" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">MementoGUI：长程 GUI Agent 的多模态记忆控制</div>
+      <div class='item-desc'>提出即插即用的 Agent 记忆框架，通过选择性保留局部视觉证据而非全量截图回放，显著提升长程 GUI 任务成功率。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">GUI Agent 在浏览器自动化、软件测试等场景的实用化迈出关键一步。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.18652" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">GRASP：多人物非语言交互的社会推理数据集</div>
+      <div class='item-desc'>构建包含 29 万问答对、749 小时视频的大规模数据集，连接高层社会问答与细粒度注视、手势事件，覆盖 16 类交互标签。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">多模态 LLM 在理解复杂社交交互上有了标准化评测基准。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.15764" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">OpenHuman：你的个人 AI 超级智能</div>
+      <div class='item-desc'>主打隐私、简单且强大的个人 AI 助手，支持本地运行。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">个人 AI 助手进入开源时代，隐私优先理念吸引开发者。</span>
+        <div class="item-sources"><a href="https://github.com/tinyhumansai/openhuman" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">AgentMemory：AI 编码 Agent 的持久化记忆</div>
+      <div class='item-desc'>基于真实基准测试的 #1 持久化记忆方案，让编码 Agent 能跨会话记住项目上下文。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">解决 Agent 会话间“失忆”痛点，提升编码 Agent 实用性。</span>
+        <div class="item-sources"><a href="https://github.com/rohitg00/agentmemory" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">CLI-Anything：让所有软件 Agent 原生可调用</div>
+      <div class='item-desc'>为每个软件生成 CLI 接口，使 AI Agent 能直接操作任意桌面应用。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">打破 GUI 壁垒，Agent 可自动化任何软件操作，潜力巨大。</span>
+        <div class="item-sources"><a href="https://github.com/HKUDS/CLI-Anything" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">semble：Agent 专用快速代码搜索工具</div>
+      <div class='item-desc'>比 grep+read 少用约 98% 的 token，实现高速代码搜索。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">编码 Agent 的 token 成本可大幅降低，提升效率和经济性。</span>
+        <div class="item-sources"><a href="https://github.com/MinishLab/semble" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">9router：无限免费 AI 编码路由</div>
+      <div class='item-desc'>连接 Claude Code、Codex、Cursor 等工具到 40+ 免费 AI 提供商，自动故障转移并减少 40% token 消耗。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">降低 AI 编码工具的使用门槛和成本，适合个人开发者。</span>
+        <div class="item-sources"><a href="https://github.com/decolua/9router" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+        </div>
+      
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今天 Google I/O 2026 的发布堪称 AI 行业的分水岭——搜索框 25 年来的首次重设计、Gemini 3.5 Flash 的 Agent 原生能力、以及 Gemini Spark 全天候代理的推出，标志着 Google 正式从“信息检索”转向“任务委托”范式。值得关注的是，多家论文同时聚焦 Agent 记忆和长程任务（MementoGUI、AgentMemory），说明“Agent 失忆”已成为行业级瓶颈。此外，世界模型从游戏走向真实街道（Genie + Street View）、音频生成回归波形空间（WavFlow），提示我们：AI 的下一个突破可能来自底层范式的回归与重构，而非简单的规模扩张。</p>
+        </div>
+      <div class="day-nav"><a class="nav-btn" href="2026-05-19.html">← 2026-05-19</a><a class="nav-btn" href="2026-05-21.html">2026-05-21 →</a></div>
+    </div>
+  
+<footer class="site-footer">
+  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+</footer>
+
+</body>
+</html>
