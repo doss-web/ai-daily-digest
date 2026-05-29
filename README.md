@@ -6,11 +6,16 @@
 
 全自动采集 · AI 智能筛选与总结 · 重要性评分 · 每日定时发布
 
+### 👉 [**在线阅读：jimmuji.github.io/ai-daily-digest**](https://jimmuji.github.io/ai-daily-digest/) 👈
+
+[![Visit Site](https://img.shields.io/badge/🌐_在线网站-访问-2ea043?style=for-the-badge)](https://jimmuji.github.io/ai-daily-digest/)
+[![Subscribe](https://img.shields.io/badge/📬_邮件订阅-Buttondown-1f6feb?style=for-the-badge)](https://buttondown.email/)
+
 [![Daily Digest](https://github.com/Jimmuji/ai-daily-digest/actions/workflows/daily.yml/badge.svg)](https://github.com/Jimmuji/ai-daily-digest/actions/workflows/daily.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Jimmuji/ai-daily-digest)
 ![GitHub stars](https://img.shields.io/github/stars/Jimmuji/ai-daily-digest?style=social)
 
-[**📖 查看最新日报**](daily/) · [**⚙️ 快速部署**](#-快速开始) · [**💡 设计理念**](#-为什么做这个)
+[**🌐 在线网站**](https://jimmuji.github.io/ai-daily-digest/) · [**📖 日报存档**](daily/) · [**⚙️ 快速部署**](#-快速开始) · [**💡 设计理念**](#-为什么做这个)
 
 </div>
 
@@ -179,11 +184,12 @@ schedule:
 - [x] 每条资讯保留来源链接
 - [x] 重要性评分 / 标星
 - [x] 保存原始抓取数据 JSON
-- [ ] GitHub Pages 静态站点
+- [x] GitHub Pages 静态站点（暗色主题，卡片布局）
+- [x] 邮件推送（Buttondown 订阅制）
+- [x] 更多数据源（Hacker News、机器之心、量子位、Wired、IEEE 等）
 - [ ] RSS 输出
 - [ ] 趋势追踪（"本周 Agent 相关新闻出现 12 次"）
-- [ ] 邮件 / Telegram 推送
-- [ ] 更多数据源（Reddit、Hacker News、ArXiv）
+- [ ] Telegram 推送
 - [ ] 每周回顾报告
 
 ---
