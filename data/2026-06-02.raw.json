@@ -1,10 +1,10 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T06:40:37.717694+08:00",
+  "generated_at": "2026-06-02T07:39:25.732328+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 37
+    "news": 48
   },
   "items": {
     "papers": [
@@ -484,6 +484,136 @@
     "news": [
       {
         "category": "news",
+        "title": "身价13亿美元的OpenRouter，国内学不了？",
+        "url": "https://www.36kr.com/p/3834566154920194",
+        "normalized_url": "https://www.36kr.com/p/3834566154920194",
+        "summary": "AI中转站，技术门槛不高，但想合规很难。",
+        "source": "36Kr AI",
+        "published": "2026-06-01T23:39:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "把三角梅卖到西藏：快手电商里的小商家，和他们的慢生意",
+        "url": "https://www.36kr.com/p/3834762820662408",
+        "normalized_url": "https://www.36kr.com/p/3834762820662408",
+        "summary": "快手电商的底色，中小商家的信任生意经。",
+        "source": "36Kr AI",
+        "published": "2026-06-01T15:23:29+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "传统企业过度AI化：想法很好，但结果很糟",
+        "url": "https://www.36kr.com/p/3834465978066560",
+        "normalized_url": "https://www.36kr.com/p/3834465978066560",
+        "summary": "可能把企业拉入深渊",
+        "source": "36Kr AI",
+        "published": "2026-06-01T13:02:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "10万亿，中国正成为AI基建狂魔",
+        "url": "https://www.36kr.com/p/3834567522726280",
+        "normalized_url": "https://www.36kr.com/p/3834567522726280",
+        "summary": "请注意，中国要发力了。",
+        "source": "36Kr AI",
+        "published": "2026-06-01T13:00:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "全国第二，安徽显示驱动芯片封测龙头赴港上市",
+        "url": "https://www.36kr.com/p/3834566926889093",
+        "normalized_url": "https://www.36kr.com/p/3834566926889093",
+        "summary": "毛利率、净利润逐年下滑。",
+        "source": "36Kr AI",
+        "published": "2026-06-01T12:57:51+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "对话一线电力交易总监：靠信息差躺着赚钱的日子，已经彻底过去了",
+        "url": "https://www.36kr.com/p/3834555174662274",
+        "normalized_url": "https://www.36kr.com/p/3834555174662274",
+        "summary": "无数售电公司倒闭背后，深层原因到底是什么？",
+        "source": "36Kr AI",
+        "published": "2026-06-01T12:53:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Hinton宣告“AI醒了”，教皇却断言它没有灵魂",
+        "url": "https://www.36kr.com/p/3834555030581637",
+        "normalized_url": "https://www.36kr.com/p/3834555030581637",
+        "summary": "当诺奖得主、神经网络之父Geoffrey Hinton在采访中低沉说出「Yes, I do」，他宣布：AI已经觉醒了。",
+        "source": "36Kr AI",
+        "published": "2026-06-01T12:50:30+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "一年怒赚45倍，AI时代赚钱最狠散户，和他的冷门淘金术",
+        "url": "https://www.36kr.com/p/3834554400518281",
+        "normalized_url": "https://www.36kr.com/p/3834554400518281",
+        "summary": "冷门股战神：一年怒赚45倍",
+        "source": "36Kr AI",
+        "published": "2026-06-01T12:45:36+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "这一次，天涯能重启吗？",
+        "url": "https://www.36kr.com/p/3834536473223430",
+        "normalized_url": "https://www.36kr.com/p/3834536473223430",
+        "summary": "是长远布局，还是贩卖情怀？",
+        "source": "36Kr AI",
+        "published": "2026-06-01T12:43:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "赏金猎人发现的安全漏洞，微软为何不愿付钱？",
+        "url": "https://www.36kr.com/p/3834522912550529",
+        "normalized_url": "https://www.36kr.com/p/3834522912550529",
+        "summary": "毕竟民间大神自行公开漏洞，可不会留下缓冲时间。",
+        "source": "36Kr AI",
+        "published": "2026-06-01T12:40:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "清智系企业亮相 BEYOND Expo 2026 并斩获多项大奖",
         "url": "https://www.qbitai.com/2026/06/427530.html",
         "normalized_url": "https://www.qbitai.com/2026/06/427530.html",
@@ -610,6 +740,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Alphabet plans to raise $80B to pay for AI buildout",
+        "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+        "normalized_url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout",
+        "summary": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-01T22:55:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
       },
       {
