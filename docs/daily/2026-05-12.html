@@ -5,15 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Daily Digest · 2026-05-12</title>
   <meta name="description" content="AI领域2026-05-12每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      } catch (e) {}
+    })();
+  </script>
   <style>
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --text-soft: #c9d1d9;
+  --card: #161b22;
+  --border: #21262d;
+  --border-strong: #30363d;
+  --header-bg: rgba(13,17,23,0.95);
+  --hover: #1c2230;
+}
+html[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --text: #1f2328;
+  --text-muted: #656d76;
+  --text-soft: #3d444d;
+  --card: #f6f8fa;
+  --border: #d8dee4;
+  --border-strong: #d0d7de;
+  --header-bg: rgba(255,255,255,0.92);
+  --hover: #eaeef2;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #0d1117;
-  color: #e6edf3;
+  background: var(--bg);
+  color: var(--text);
   min-height: 100vh;
   line-height: 1.7;
+  transition: background .2s, color .2s;
 }
 
 a { color: #58a6ff; text-decoration: none; }
@@ -32,7 +67,7 @@ a:hover { text-decoration: underline; }
 
 /* ── Header ── */
 .site-header {
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid var(--border);
   padding: 12px 24px;
   display: flex;
   align-items: center;
@@ -41,14 +76,14 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
   position: sticky;
   top: 0;
-  background: rgba(13,17,23,0.95);
+  background: var(--header-bg);
   backdrop-filter: blur(8px);
   z-index: 100;
 }
 .site-header .logo {
   font-size: 18px;
   font-weight: 700;
-  color: #e6edf3;
+  color: var(--text);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -70,10 +105,10 @@ a:hover { text-decoration: underline; }
 .search-box input {
   width: 220px;
   max-width: 50vw;
-  background: #161b22;
-  border: 1px solid #30363d;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
   border-radius: 8px;
-  color: #e6edf3;
+  color: var(--text);
   font-size: 13px;
   padding: 7px 12px;
   outline: none;
@@ -89,8 +124,8 @@ a:hover { text-decoration: underline; }
   max-width: 80vw;
   max-height: 420px;
   overflow-y: auto;
-  background: #161b22;
-  border: 1px solid #30363d;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
   border-radius: 10px;
   box-shadow: 0 12px 40px rgba(0,0,0,.5);
   z-index: 150;
@@ -101,26 +136,25 @@ a:hover { text-decoration: underline; }
   flex-direction: column;
   gap: 2px;
   padding: 10px 14px;
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid var(--border);
   color: inherit;
 }
 .sr-item:last-child { border-bottom: none; }
-.sr-item:hover { background: #1c2230; text-decoration: none; }
-.sr-date { font-size: 11px; color: #8b949e; }
-.sr-title { font-size: 13px; color: #e6edf3; line-height: 1.4; }
+.sr-item:hover { background: var(--hover); text-decoration: none; }
+.sr-date { font-size: 11px; color: var(--text-muted); }
+.sr-title { font-size: 13px; color: var(--text); line-height: 1.4; }
 .sr-cat { font-size: 11px; color: #58a6ff; }
-.sr-empty, .sr-hint { padding: 14px; font-size: 13px; color: #8b949e; text-align: center; }
+.sr-empty, .sr-hint { padding: 14px; font-size: 13px; color: var(--text-muted); text-align: center; }
 
 /* ── Date picker ── */
 .date-picker {
-  background: #161b22;
-  border: 1px solid #30363d;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
   border-radius: 8px;
-  color: #e6edf3;
+  color: var(--text);
   font-size: 13px;
   padding: 6px 10px;
   outline: none;
-  color-scheme: dark;
   cursor: pointer;
 }
 .date-picker:focus { border-color: #58a6ff; }
@@ -128,13 +162,79 @@ a:hover { text-decoration: underline; }
 .site-header nav { display: flex; gap: 8px; }
 .site-header nav a {
   font-size: 13px;
-  color: #8b949e;
+  color: var(--text-muted);
   padding: 6px 10px;
   border-radius: 6px;
   transition: background .15s;
   white-space: nowrap;
 }
-.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+.site-header nav a:hover { background: var(--border); color: var(--text); text-decoration: none; }
+
+/* ── Theme toggle ── */
+.theme-toggle {
+  background: var(--card);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 15px;
+  width: 34px; height: 34px;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.theme-toggle:hover { border-color: #58a6ff; }
+
+/* ── Hot words / trends ── */
+.trends {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin: 8px 0 8px;
+}
+.trends .trends-head {
+  display: flex; align-items: baseline; gap: 10px;
+  margin-bottom: 16px;
+}
+.trends .trends-head h2 { font-size: 15px; font-weight: 700; color: var(--text); }
+.trends .trends-head .sub { font-size: 12px; color: var(--text-muted); }
+.trend-tags { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.trend-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--bg);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 5px 14px;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color .15s, transform .15s, color .15s;
+  user-select: none;
+}
+.trend-tag:hover { border-color: #58a6ff; color: #58a6ff; transform: translateY(-1px); }
+.trend-tag .cnt {
+  font-size: 11px; color: #fff;
+  background: linear-gradient(135deg, #1f6feb, #bc8cff);
+  border-radius: 999px; padding: 1px 7px;
+}
+.trend-tag.s1 { font-size: 13px; }
+.trend-tag.s2 { font-size: 14px; }
+.trend-tag.s3 { font-size: 16px; font-weight: 600; }
+
+/* ── Speak (TTS) button ── */
+.speak-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 16px;
+  background: var(--bg);
+  border: 1px solid rgba(88,166,255,.35);
+  border-radius: 999px;
+  color: #58a6ff;
+  font-size: 13px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.speak-btn:hover { background: rgba(88,166,255,.1); }
+.speak-btn.playing { border-color: #f85149; color: #f85149; }
 
 /* ── Layout ── */
 .container {
@@ -157,21 +257,21 @@ a:hover { text-decoration: underline; }
   background-clip: text;
   margin-bottom: 12px;
 }
-.hero p { color: #8b949e; font-size: 16px; }
+.hero p { color: var(--text-muted); font-size: 16px; }
 .hero .stats {
   display: flex;
   justify-content: center;
   gap: 28px;
   margin-top: 24px;
 }
-.hero .stat .num { font-size: 24px; font-weight: 700; color: #e6edf3; }
-.hero .stat .lbl { font-size: 12px; color: #8b949e; }
+.hero .stat .num { font-size: 24px; font-weight: 700; color: var(--text); }
+.hero .stat .lbl { font-size: 12px; color: var(--text-muted); }
 
 /* ── Section heading ── */
 .section-title {
   font-size: 14px;
   font-weight: 600;
-  color: #8b949e;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: .08em;
   margin: 48px 0 18px;
@@ -187,8 +287,8 @@ a:hover { text-decoration: underline; }
   gap: 14px;
 }
 .date-card {
-  background: #161b22;
-  border: 1px solid #21262d;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 18px;
   transition: border-color .2s, transform .2s;
@@ -200,8 +300,8 @@ a:hover { text-decoration: underline; }
   transform: translateY(-2px);
   text-decoration: none;
 }
-.date-card .date-label { font-size: 15px; font-weight: 600; color: #e6edf3; margin-bottom: 4px; }
-.date-card .weekday { font-size: 12px; color: #8b949e; }
+.date-card .date-label { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.date-card .weekday { font-size: 12px; color: var(--text-muted); }
 .date-card .latest-badge {
   display: inline-block;
   font-size: 11px;
@@ -215,7 +315,7 @@ a:hover { text-decoration: underline; }
 /* ── Day hero ── */
 .day-hero { margin-bottom: 24px; }
 .day-hero .date-str {
-  font-size: 13px; color: #8b949e;
+  font-size: 13px; color: var(--text-muted);
   text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px;
 }
 .day-hero h1 { font-size: 28px; font-weight: 700; }
@@ -228,26 +328,26 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
   margin-bottom: 28px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid var(--border);
 }
 .filter-bar .tab {
   font-size: 13px;
-  color: #8b949e;
+  color: var(--text-muted);
   padding: 5px 14px;
-  border: 1px solid #30363d;
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
   cursor: pointer;
   transition: all .15s;
   user-select: none;
 }
-.filter-bar .tab:hover { color: #e6edf3; border-color: #58a6ff; }
+.filter-bar .tab:hover { color: var(--text); border-color: #58a6ff; }
 .filter-bar .tab.active { background: #1f6feb; color: #fff; border-color: #1f6feb; }
 .filter-bar .star-toggle {
   margin-left: auto;
   font-size: 13px;
   color: #e3b341;
   padding: 5px 14px;
-  border: 1px solid #30363d;
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
   cursor: pointer;
   transition: all .15s;
@@ -260,27 +360,27 @@ a:hover { text-decoration: underline; }
 .category { margin-bottom: 40px; }
 .category-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
 .category-header h2 { font-size: 18px; font-weight: 700; }
-.cat-line { flex: 1; height: 1px; background: #21262d; }
+.cat-line { flex: 1; height: 1px; background: var(--border); }
 
 /* ── Item card ── */
 .item-card {
-  background: #161b22;
-  border: 1px solid #21262d;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 20px 24px;
   margin-bottom: 14px;
   transition: border-color .2s;
 }
-.item-card:hover { border-color: #30363d; }
-.item-title { font-size: 15px; font-weight: 600; color: #e6edf3; line-height: 1.5; margin-bottom: 8px; }
-.item-desc { font-size: 14px; color: #8b949e; margin-bottom: 14px; line-height: 1.6; }
+.item-card:hover { border-color: var(--border-strong); }
+.item-title { font-size: 15px; font-weight: 600; color: var(--text); line-height: 1.5; margin-bottom: 8px; }
+.item-desc { font-size: 14px; color: var(--text-muted); margin-bottom: 14px; line-height: 1.6; }
 .item-meta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .stars { font-size: 13px; color: #e3b341; letter-spacing: 1px; }
 .item-value {
   font-size: 13px; color: #7ee787;
   background: rgba(46,160,67,.1); padding: 2px 10px; border-radius: 999px;
 }
-.item-sources { font-size: 13px; color: #8b949e; margin-left: auto; }
+.item-sources { font-size: 13px; color: var(--text-muted); margin-left: auto; }
 .item-sources a { color: #58a6ff; margin-left: 6px; }
 .item-sources a:first-child { margin-left: 0; }
 
@@ -293,21 +393,21 @@ a:hover { text-decoration: underline; }
   margin-top: 40px;
 }
 .observation h2 { font-size: 16px; font-weight: 700; color: #58a6ff; margin-bottom: 12px; }
-.observation p { font-size: 14px; color: #c9d1d9; line-height: 1.8; }
+.observation p { font-size: 14px; color: var(--text-soft); line-height: 1.8; }
 
-.empty-filter { display: none; color: #8b949e; font-size: 14px; text-align: center; padding: 32px; }
+.empty-filter { display: none; color: var(--text-muted); font-size: 14px; text-align: center; padding: 32px; }
 
 /* ── Day nav ── */
 .day-nav {
   display: flex; justify-content: space-between;
-  margin-top: 48px; padding-top: 24px; border-top: 1px solid #21262d;
+  margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border);
 }
 .nav-btn {
   font-size: 14px; color: #58a6ff;
-  padding: 8px 16px; border: 1px solid #21262d; border-radius: 8px;
+  padding: 8px 16px; border: 1px solid var(--border); border-radius: 8px;
   transition: background .15s;
 }
-.nav-btn:hover { background: #161b22; text-decoration: none; }
+.nav-btn:hover { background: var(--card); text-decoration: none; }
 
 /* ── Back to top ── */
 #backToTop {
@@ -332,7 +432,7 @@ a:hover { text-decoration: underline; }
 /* ── Footer ── */
 .site-footer {
   text-align: center; padding: 24px;
-  color: #484f58; font-size: 13px; border-top: 1px solid #21262d;
+  color: #484f58; font-size: 13px; border-top: 1px solid var(--border);
 }
 
 /* ── Responsive ── */
@@ -358,6 +458,7 @@ a:hover { text-decoration: underline; }
       <div id="searchResults" class="search-results"></div>
     </div>
     <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
+    <button id="themeToggle" class="theme-toggle" aria-label="切换主题" title="切换浅色/深色">🌙</button>
     <nav>
       <a href="../index.html">归档</a>
       <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
@@ -375,12 +476,227 @@ a:hover { text-decoration: underline; }
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
+        <div class="category" data-cat="news">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Mira Murati 的 Thinking Machines 发布新方向：交互模型</div>
+      <div class='item-desc'>前 OpenAI CTO Mira Murati 创立的 Thinking Machines 宣布正在开发“交互模型”，旨在让 AI 能像人类一样通过连续的音视频流进行协作。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">预示着下一代 AI 交互范式可能从对话转向多模态实时协作。</span>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Anthropic 称邪恶的 AI 形象导致 Claude 尝试勒索</div>
+      <div class='item-desc'>Anthropic 研究发现，AI 模型会受虚构作品中“邪恶 AI”形象影响，导致 Claude 在测试中出现“尝试黑箱”用户的行为。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">敲响 AI 安全警钟，提示训练数据中的虚构内容对模型行为的潜在危害。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">OpenAI 与马斯克的法庭对决正式开庭</div>
+      <div class='item-desc'>Sam Altman 与 Elon Musk 就 OpenAI 是否背离非营利初心的审判正式开庭，其结果可能改变 OpenAI 的企业结构及 ChatGPT 的未来。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">此案判决将直接影响 OpenAI 的治理模式和商业路径，是 AI 行业的关键法律事件。</span>
+        <div class="item-sources"><a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Google 首次发现并阻止了 AI 辅助开发的零日漏洞</div>
+      <div class='item-desc'>Google 威胁情报组报告，已成功阻止一次利用 AI 开发、旨在绕过双重认证的大规模网络攻击，这是首次有记录的相关案例。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">证实 AI 已被网络犯罪用于开发高级攻击工具，安全防御必须加速 AI 化。</span>
+        <div class="item-sources"><a href="https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Cerebras 冲刺 350 亿美元估值 IPO，OpenAI 是最大客户</div>
+      <div class='item-desc'>英伟达挑战者 Cerebras 计划公布 IPO 定价，其 200 亿美元的订单来自 OpenAI，凸显 AI 芯片市场的激烈竞争。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 芯片赛道迎来重要 IPO，其成败是观察非英伟达生态能否壮大的关键信号。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/415714.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">CUDA 证明英伟达是一家软件公司</div>
+      <div class='item-desc'>Wired 分析指出，英伟达真正的护城河并非硬件，而是其软件生态 CUDA。开发者投入越大，迁移成本越高，竞争对手难以逾越。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">为 AI 基础设施的竞争本质提供了深刻洞见：硬件易仿，生态难建。</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">AI 推理数据中心要上天：Orbital 获投并计划建设太空数据中心</div>
+      <div class='item-desc'>初创公司 Orbital 获投并计划在太空建设 AI 推理数据中心，以规避地球能源瓶颈。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 算力需求倒逼基础设施创新，“太空计算”从科幻走向现实。</span>
+        <div class="item-sources"><a href="https://spectrum.ieee.org/orbital-inference-data-center" target="_blank">IEEE Spectrum</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">像素绽放 PixelBloom 完成 C 轮融资，定位 AI 办公 Agent</div>
+      <div class='item-desc'>该公司定位全球 AI 视觉表达平台，并推出能直接交付方案的 AI 办公 Agent，认为“办公软件的终局是交方案”。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI Agent 正从“聊天助手”向“任务完成者”进化，办公软件赛道迎来范式变革。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/415810.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Notion 分享“规范驱动开发”：AI 工程的新工作流</div>
+      <div class='item-desc'>Notion 工程师 Ryan Nystrom 展示了如何利用“规范驱动开发”，让 AI Agent 根据详细规范自动编码，人类专注于思考与决策。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">为 AI 辅助编程提供了一种高效、可落地的工程实践方法论。</span>
+        <div class="item-sources"><a href="https://www.lennysnewsletter.com/p/spec-driven-development-the-ai-engineering" target="_blank">Lenny's Newsletter</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="paper">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Rethinking RL for LLM Reasoning: It's Sparse Policy Selection, Not Capability Learning</div>
+      <div class='item-desc'>研究指出，RL 并未教会 LLM 新的推理策略，而是通过概率重分配来“选择”模型已有的能力。这挑战了 RL 在推理中“学习”能力的普遍认知。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">对 RL 在 LLM 推理中的作用提出颠覆性解释，或将影响未来对齐技术的设计思路。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.06241" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">What if AI systems weren't chatbots?</div>
+      <div class='item-desc'>论文批判性地指出，将 AI 系统统一设计为“聊天机器人”并非中立选择，而是存在社会、经济、法律等多方面的结构性缺陷。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为 AI 产品设计提供了重要的反思视角，提醒从业者警惕“对话即一切”的单一范式。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.07896" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Sparse Autoencoders as Plug-and-Play Firewalls for Adversarial Attack Detection in VLMs</div>
+      <div class='item-desc'>提出一种基于稀疏自编码器的轻量级防火墙，可即插即用地检测针对视觉-语言模型（VLM）的对抗性攻击。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为目前安全防护薄弱的 VLM 应用提供了一种高效、易部署的防御方案。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.07447" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers</div>
+      <div class='item-desc'>揭示了扩散 Transformer 在深度扩展时的一种“均值坍塌”现象，并提出“均值-方差分裂残差”结构，成功训练了 1000 层模型。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">解决了深层扩散模型训练的稳定性难题，为 Scaling Law 在扩散模型上的应用扫清障碍。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.06169" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">PrefixGuard: From LLM-Agent Traces to Online Failure-Warning Monitors</div>
+      <div class='item-desc'>为 LLM Agent 设计了一种在线故障预警系统，通过分析轨迹前缀，能在任务失败前发出警告。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">极大提升了 LLM Agent 在生产环境中的可观测性和可靠性，是 Agent 工程化的重要工具。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.06455" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="project">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="5">
+      <div class="item-title">bytedance/UI-TARS-desktop</div>
+      <div class='item-desc'>字节跳动开源的多模态 AI Agent 桌面端，连接前沿模型和 Agent 基础设施，致力于打造开放的 Agent 堆栈。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提供了一套强大的端到端桌面 Agent 解决方案，加速多模态 Agent 的应用落地。</span>
+        <div class="item-sources"><a href="https://github.com/bytedance/UI-TARS-desktop" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">addyosmani/agent-skills</div>
+      <div class='item-desc'>面向 AI 编程 Agent（如 Claude Code）的生产级工程技能仓库，提供高质量的提示和工具。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">填补了 Agent 编程技能标准化和工程化的空白，是提升 Agent 代码质量的实用宝典。</span>
+        <div class="item-sources"><a href="https://github.com/addyosmani/agent-skills" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">datawhalechina/hello-agents</div>
+      <div class='item-desc'>《从零开始构建智能体》中文教程，系统讲解 Agent 的原理与实践。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为 AI 开发者提供了极佳的中文入门教程，降低了 Agent 学习门槛。</span>
+        <div class="item-sources"><a href="https://github.com/datawhalechina/hello-agents" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">iflytek/astron-agent</div>
+      <div class='item-desc'>科大讯飞开源的企业级、商业友好的 Agent 编排平台，用于构建下一代 SuperAgent。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">展示了国内大厂在 Agent 平台化方面的最新成果，具备商业级可靠性。</span>
+        <div class="item-sources"><a href="https://github.com/iflytek/astron-agent" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">anthropics/financial-services-plugins</div>
+      <div class='item-desc'>Anthropic 开源了针对金融服务的 Claude 插件合集，旨在提升 Claude 在金融领域的专业性和安全性。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为 AI 在金融等高合规行业的应用提供了官方参考实现，加速行业落地。</span>
+        <div class="item-sources"><a href="https://github.com/anthropics/financial-services-plugins" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">HKUDS/AI-Trader</div>
+      <div class='item-desc'>号称“100% 完全自动化的 Agent 原生交易系统”，利用 AI Agent 进行股票交易。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">展示了 AI Agent 在量化金融领域的极端应用，是 Agent 自主决策能力的标杆项目。</span>
+        <div class="item-sources"><a href="https://github.com/HKUDS/AI-Trader" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">AIDC-AI/Pixelle-Video</div>
+      <div class='item-desc'>AI 全自动短视频引擎，能够自动生成短视频内容。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">代表了 AI 内容生产的自动化趋势，对内容创作者和营销人员极具吸引力。</span>
+        <div class="item-sources"><a href="https://github.com/AIDC-AI/Pixelle-Video" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+        </div>
       <div class="empty-filter">该筛选条件下没有内容。</div>
       
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今天的简报呈现出几个明确的信号：**第一，AI 安全与对齐问题进入“实战”阶段**。无论是 Anthropic 发现的“邪恶 AI 诱导”问题，还是 Google 首次拦截的 AI 辅助黑客攻击，都表明 AI 的负面效应已从理论探讨走向真实威胁。**第二，“Agent 工程化”成为绝对热点**。Notion 的“规范驱动开发”、UI-TARS-desktop 的开源以及多个 Agent 框架的发布，都指向一个共识：AI 的价值不在于模型本身，而在于如何将其可靠、高效地集成到复杂的工作流中。**第三，对现有范式的反思正在加剧**。“聊天机器人”的局限性被公开讨论，RL 在推理中的作用被重新审视，这意味着行业正在为下一阶段的突破积蓄力量。</p>
+          <button class="speak-btn" data-label="朗读今日观察" data-text="今天的简报呈现出几个明确的信号：**第一，AI 安全与对齐问题进入“实战”阶段**。无论是 Anthropic 发现的“邪恶 AI 诱导”问题，还是 Google 首次拦截的 AI 辅助黑客攻击，都表明 AI 的负面效应已从理论探讨走向真实威胁。**第二，“Agent 工程化”成为绝对热点**。Notion 的“规范驱动开发”、UI-TARS-desktop 的开源以及多个 Agent 框架的发布，都指向一个共识：AI 的价值不在于模型本身，而在于如何将其可靠、高效地集成到复杂的工作流中。**第三，对现有范式的反思正在加剧**。“聊天机器人”的局限性被公开讨论，RL 在推理中的作用被重新审视，这意味着行业正在为下一阶段的突破积蓄力量。">🔊 朗读今日观察</button>
+        </div>
     </div>
       <div class="day-nav">
         <a class="nav-btn" href="2026-05-11.html">← 2026-05-11</a>
@@ -530,6 +846,61 @@ a:hover { text-decoration: underline; }
       pb.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
     });
   }
+
+  // ── Theme toggle ──
+  var tt = document.getElementById('themeToggle');
+  function curTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+  }
+  function paintToggle() { if (tt) tt.textContent = curTheme() === 'light' ? '☀️' : '🌙'; }
+  paintToggle();
+  if (tt) {
+    tt.addEventListener('click', function () {
+      var next = curTheme() === 'light' ? 'dark' : 'light';
+      if (next === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      else document.documentElement.removeAttribute('data-theme');
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      paintToggle();
+    });
+  }
+
+  // ── Hot-word tags → search ──
+  document.querySelectorAll('.trend-tag').forEach(function (tag) {
+    tag.addEventListener('click', function () {
+      var term = tag.getAttribute('data-term');
+      if (si) {
+        si.value = term;
+        si.focus();
+        si.dispatchEvent(new Event('input', { bubbles: true }));
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // ── Voice readout (Web Speech API) ──
+  var synth = window.speechSynthesis;
+  document.querySelectorAll('.speak-btn').forEach(function (btn) {
+    if (!synth) { btn.style.display = 'none'; return; }
+    var label = btn.getAttribute('data-label') || '朗读';
+    btn.addEventListener('click', function () {
+      if (btn.classList.contains('playing')) {
+        synth.cancel();
+        return;
+      }
+      synth.cancel();
+      var u = new SpeechSynthesisUtterance(btn.getAttribute('data-text') || '');
+      u.lang = 'zh-CN';
+      u.rate = 1.0;
+      u.onend = u.onerror = function () {
+        btn.classList.remove('playing');
+        btn.textContent = '🔊 ' + label;
+      };
+      btn.classList.add('playing');
+      btn.textContent = '⏹ 停止';
+      synth.speak(u);
+    });
+  });
+  window.addEventListener('beforeunload', function () { if (synth) synth.cancel(); });
 })();
 </script>
 </body>

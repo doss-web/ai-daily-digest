@@ -23,14 +23,40 @@ REPO_URL = "https://github.com/Jimmuji/ai-daily-digest"
 # ── CSS ────────────────────────────────────────────────────────────────────────
 
 CSS = """
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --text-soft: #c9d1d9;
+  --card: #161b22;
+  --border: #21262d;
+  --border-strong: #30363d;
+  --header-bg: rgba(13,17,23,0.95);
+  --hover: #1c2230;
+}
+html[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --text: #1f2328;
+  --text-muted: #656d76;
+  --text-soft: #3d444d;
+  --card: #f6f8fa;
+  --border: #d8dee4;
+  --border-strong: #d0d7de;
+  --header-bg: rgba(255,255,255,0.92);
+  --hover: #eaeef2;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #0d1117;
-  color: #e6edf3;
+  background: var(--bg);
+  color: var(--text);
   min-height: 100vh;
   line-height: 1.7;
+  transition: background .2s, color .2s;
 }
 
 a { color: #58a6ff; text-decoration: none; }
@@ -49,7 +75,7 @@ a:hover { text-decoration: underline; }
 
 /* ── Header ── */
 .site-header {
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid var(--border);
   padding: 12px 24px;
   display: flex;
   align-items: center;
@@ -58,14 +84,14 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
   position: sticky;
   top: 0;
-  background: rgba(13,17,23,0.95);
+  background: var(--header-bg);
   backdrop-filter: blur(8px);
   z-index: 100;
 }
 .site-header .logo {
   font-size: 18px;
   font-weight: 700;
-  color: #e6edf3;
+  color: var(--text);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -87,10 +113,10 @@ a:hover { text-decoration: underline; }
 .search-box input {
   width: 220px;
   max-width: 50vw;
-  background: #161b22;
-  border: 1px solid #30363d;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
   border-radius: 8px;
-  color: #e6edf3;
+  color: var(--text);
   font-size: 13px;
   padding: 7px 12px;
   outline: none;
@@ -106,8 +132,8 @@ a:hover { text-decoration: underline; }
   max-width: 80vw;
   max-height: 420px;
   overflow-y: auto;
-  background: #161b22;
-  border: 1px solid #30363d;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
   border-radius: 10px;
   box-shadow: 0 12px 40px rgba(0,0,0,.5);
   z-index: 150;
@@ -118,26 +144,25 @@ a:hover { text-decoration: underline; }
   flex-direction: column;
   gap: 2px;
   padding: 10px 14px;
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid var(--border);
   color: inherit;
 }
 .sr-item:last-child { border-bottom: none; }
-.sr-item:hover { background: #1c2230; text-decoration: none; }
-.sr-date { font-size: 11px; color: #8b949e; }
-.sr-title { font-size: 13px; color: #e6edf3; line-height: 1.4; }
+.sr-item:hover { background: var(--hover); text-decoration: none; }
+.sr-date { font-size: 11px; color: var(--text-muted); }
+.sr-title { font-size: 13px; color: var(--text); line-height: 1.4; }
 .sr-cat { font-size: 11px; color: #58a6ff; }
-.sr-empty, .sr-hint { padding: 14px; font-size: 13px; color: #8b949e; text-align: center; }
+.sr-empty, .sr-hint { padding: 14px; font-size: 13px; color: var(--text-muted); text-align: center; }
 
 /* ── Date picker ── */
 .date-picker {
-  background: #161b22;
-  border: 1px solid #30363d;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
   border-radius: 8px;
-  color: #e6edf3;
+  color: var(--text);
   font-size: 13px;
   padding: 6px 10px;
   outline: none;
-  color-scheme: dark;
   cursor: pointer;
 }
 .date-picker:focus { border-color: #58a6ff; }
@@ -145,13 +170,79 @@ a:hover { text-decoration: underline; }
 .site-header nav { display: flex; gap: 8px; }
 .site-header nav a {
   font-size: 13px;
-  color: #8b949e;
+  color: var(--text-muted);
   padding: 6px 10px;
   border-radius: 6px;
   transition: background .15s;
   white-space: nowrap;
 }
-.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+.site-header nav a:hover { background: var(--border); color: var(--text); text-decoration: none; }
+
+/* ── Theme toggle ── */
+.theme-toggle {
+  background: var(--card);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 15px;
+  width: 34px; height: 34px;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.theme-toggle:hover { border-color: #58a6ff; }
+
+/* ── Hot words / trends ── */
+.trends {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin: 8px 0 8px;
+}
+.trends .trends-head {
+  display: flex; align-items: baseline; gap: 10px;
+  margin-bottom: 16px;
+}
+.trends .trends-head h2 { font-size: 15px; font-weight: 700; color: var(--text); }
+.trends .trends-head .sub { font-size: 12px; color: var(--text-muted); }
+.trend-tags { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.trend-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--bg);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 5px 14px;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color .15s, transform .15s, color .15s;
+  user-select: none;
+}
+.trend-tag:hover { border-color: #58a6ff; color: #58a6ff; transform: translateY(-1px); }
+.trend-tag .cnt {
+  font-size: 11px; color: #fff;
+  background: linear-gradient(135deg, #1f6feb, #bc8cff);
+  border-radius: 999px; padding: 1px 7px;
+}
+.trend-tag.s1 { font-size: 13px; }
+.trend-tag.s2 { font-size: 14px; }
+.trend-tag.s3 { font-size: 16px; font-weight: 600; }
+
+/* ── Speak (TTS) button ── */
+.speak-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 16px;
+  background: var(--bg);
+  border: 1px solid rgba(88,166,255,.35);
+  border-radius: 999px;
+  color: #58a6ff;
+  font-size: 13px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.speak-btn:hover { background: rgba(88,166,255,.1); }
+.speak-btn.playing { border-color: #f85149; color: #f85149; }
 
 /* ── Layout ── */
 .container {
@@ -174,21 +265,21 @@ a:hover { text-decoration: underline; }
   background-clip: text;
   margin-bottom: 12px;
 }
-.hero p { color: #8b949e; font-size: 16px; }
+.hero p { color: var(--text-muted); font-size: 16px; }
 .hero .stats {
   display: flex;
   justify-content: center;
   gap: 28px;
   margin-top: 24px;
 }
-.hero .stat .num { font-size: 24px; font-weight: 700; color: #e6edf3; }
-.hero .stat .lbl { font-size: 12px; color: #8b949e; }
+.hero .stat .num { font-size: 24px; font-weight: 700; color: var(--text); }
+.hero .stat .lbl { font-size: 12px; color: var(--text-muted); }
 
 /* ── Section heading ── */
 .section-title {
   font-size: 14px;
   font-weight: 600;
-  color: #8b949e;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: .08em;
   margin: 48px 0 18px;
@@ -204,8 +295,8 @@ a:hover { text-decoration: underline; }
   gap: 14px;
 }
 .date-card {
-  background: #161b22;
-  border: 1px solid #21262d;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 18px;
   transition: border-color .2s, transform .2s;
@@ -217,8 +308,8 @@ a:hover { text-decoration: underline; }
   transform: translateY(-2px);
   text-decoration: none;
 }
-.date-card .date-label { font-size: 15px; font-weight: 600; color: #e6edf3; margin-bottom: 4px; }
-.date-card .weekday { font-size: 12px; color: #8b949e; }
+.date-card .date-label { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.date-card .weekday { font-size: 12px; color: var(--text-muted); }
 .date-card .latest-badge {
   display: inline-block;
   font-size: 11px;
@@ -232,7 +323,7 @@ a:hover { text-decoration: underline; }
 /* ── Day hero ── */
 .day-hero { margin-bottom: 24px; }
 .day-hero .date-str {
-  font-size: 13px; color: #8b949e;
+  font-size: 13px; color: var(--text-muted);
   text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px;
 }
 .day-hero h1 { font-size: 28px; font-weight: 700; }
@@ -245,26 +336,26 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
   margin-bottom: 28px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid var(--border);
 }
 .filter-bar .tab {
   font-size: 13px;
-  color: #8b949e;
+  color: var(--text-muted);
   padding: 5px 14px;
-  border: 1px solid #30363d;
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
   cursor: pointer;
   transition: all .15s;
   user-select: none;
 }
-.filter-bar .tab:hover { color: #e6edf3; border-color: #58a6ff; }
+.filter-bar .tab:hover { color: var(--text); border-color: #58a6ff; }
 .filter-bar .tab.active { background: #1f6feb; color: #fff; border-color: #1f6feb; }
 .filter-bar .star-toggle {
   margin-left: auto;
   font-size: 13px;
   color: #e3b341;
   padding: 5px 14px;
-  border: 1px solid #30363d;
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
   cursor: pointer;
   transition: all .15s;
@@ -277,27 +368,27 @@ a:hover { text-decoration: underline; }
 .category { margin-bottom: 40px; }
 .category-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
 .category-header h2 { font-size: 18px; font-weight: 700; }
-.cat-line { flex: 1; height: 1px; background: #21262d; }
+.cat-line { flex: 1; height: 1px; background: var(--border); }
 
 /* ── Item card ── */
 .item-card {
-  background: #161b22;
-  border: 1px solid #21262d;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 20px 24px;
   margin-bottom: 14px;
   transition: border-color .2s;
 }
-.item-card:hover { border-color: #30363d; }
-.item-title { font-size: 15px; font-weight: 600; color: #e6edf3; line-height: 1.5; margin-bottom: 8px; }
-.item-desc { font-size: 14px; color: #8b949e; margin-bottom: 14px; line-height: 1.6; }
+.item-card:hover { border-color: var(--border-strong); }
+.item-title { font-size: 15px; font-weight: 600; color: var(--text); line-height: 1.5; margin-bottom: 8px; }
+.item-desc { font-size: 14px; color: var(--text-muted); margin-bottom: 14px; line-height: 1.6; }
 .item-meta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .stars { font-size: 13px; color: #e3b341; letter-spacing: 1px; }
 .item-value {
   font-size: 13px; color: #7ee787;
   background: rgba(46,160,67,.1); padding: 2px 10px; border-radius: 999px;
 }
-.item-sources { font-size: 13px; color: #8b949e; margin-left: auto; }
+.item-sources { font-size: 13px; color: var(--text-muted); margin-left: auto; }
 .item-sources a { color: #58a6ff; margin-left: 6px; }
 .item-sources a:first-child { margin-left: 0; }
 
@@ -310,21 +401,21 @@ a:hover { text-decoration: underline; }
   margin-top: 40px;
 }
 .observation h2 { font-size: 16px; font-weight: 700; color: #58a6ff; margin-bottom: 12px; }
-.observation p { font-size: 14px; color: #c9d1d9; line-height: 1.8; }
+.observation p { font-size: 14px; color: var(--text-soft); line-height: 1.8; }
 
-.empty-filter { display: none; color: #8b949e; font-size: 14px; text-align: center; padding: 32px; }
+.empty-filter { display: none; color: var(--text-muted); font-size: 14px; text-align: center; padding: 32px; }
 
 /* ── Day nav ── */
 .day-nav {
   display: flex; justify-content: space-between;
-  margin-top: 48px; padding-top: 24px; border-top: 1px solid #21262d;
+  margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border);
 }
 .nav-btn {
   font-size: 14px; color: #58a6ff;
-  padding: 8px 16px; border: 1px solid #21262d; border-radius: 8px;
+  padding: 8px 16px; border: 1px solid var(--border); border-radius: 8px;
   transition: background .15s;
 }
-.nav-btn:hover { background: #161b22; text-decoration: none; }
+.nav-btn:hover { background: var(--card); text-decoration: none; }
 
 /* ── Back to top ── */
 #backToTop {
@@ -349,7 +440,7 @@ a:hover { text-decoration: underline; }
 /* ── Footer ── */
 .site-footer {
   text-align: center; padding: 24px;
-  color: #484f58; font-size: 13px; border-top: 1px solid #21262d;
+  color: #484f58; font-size: 13px; border-top: 1px solid var(--border);
 }
 
 /* ── Responsive ── */
@@ -503,6 +594,61 @@ JS = """
       pb.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
     });
   }
+
+  // ── Theme toggle ──
+  var tt = document.getElementById('themeToggle');
+  function curTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+  }
+  function paintToggle() { if (tt) tt.textContent = curTheme() === 'light' ? '☀️' : '🌙'; }
+  paintToggle();
+  if (tt) {
+    tt.addEventListener('click', function () {
+      var next = curTheme() === 'light' ? 'dark' : 'light';
+      if (next === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      else document.documentElement.removeAttribute('data-theme');
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      paintToggle();
+    });
+  }
+
+  // ── Hot-word tags → search ──
+  document.querySelectorAll('.trend-tag').forEach(function (tag) {
+    tag.addEventListener('click', function () {
+      var term = tag.getAttribute('data-term');
+      if (si) {
+        si.value = term;
+        si.focus();
+        si.dispatchEvent(new Event('input', { bubbles: true }));
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // ── Voice readout (Web Speech API) ──
+  var synth = window.speechSynthesis;
+  document.querySelectorAll('.speak-btn').forEach(function (btn) {
+    if (!synth) { btn.style.display = 'none'; return; }
+    var label = btn.getAttribute('data-label') || '朗读';
+    btn.addEventListener('click', function () {
+      if (btn.classList.contains('playing')) {
+        synth.cancel();
+        return;
+      }
+      synth.cancel();
+      var u = new SpeechSynthesisUtterance(btn.getAttribute('data-text') || '');
+      u.lang = 'zh-CN';
+      u.rate = 1.0;
+      u.onend = u.onerror = function () {
+        btn.classList.remove('playing');
+        btn.textContent = '🔊 ' + label;
+      };
+      btn.classList.add('playing');
+      btn.textContent = '⏹ 停止';
+      synth.speak(u);
+    });
+  });
+  window.addEventListener('beforeunload', function () { if (synth) synth.cancel(); });
 })();
 """
 
@@ -517,6 +663,7 @@ HEADER_HTML = """
       <div id="searchResults" class="search-results"></div>
     </div>
     <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
+    <button id="themeToggle" class="theme-toggle" aria-label="切换主题" title="切换浅色/深色">🌙</button>
     <nav>
       <a href="{base}index.html">归档</a>
       <a href="{repo}" target="_blank">GitHub</a>
@@ -539,6 +686,15 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title}</title>
   <meta name="description" content="{description}">
+  <script>
+    (function () {{
+      try {{
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      }} catch (e) {{}}
+    }})();
+  </script>
   <style>{css}</style>
 </head>
 <body>
@@ -578,8 +734,8 @@ def parse_digest(text: str) -> dict:
     current_item = None
 
     for line in lines:
-        cat_match = re.match(r'^##\s+([\U00010000-\U0010ffff☀-⛿✀-➿])\s*(.+)', line)
-        plain_match = re.match(r'^##\s+([^#\U00010000-\U0010ffff].+)', line) if not cat_match else None
+        cat_match = re.match(r'^#{2,3}\s+([\U00010000-\U0010ffff☀-⛿✀-➿])\s*(.+)', line)
+        plain_match = re.match(r'^#{2,3}\s+([^#\U00010000-\U0010ffff].+)', line) if not cat_match else None
         if cat_match:
             emoji = cat_match.group(1)
             name = cat_match.group(2).strip()
@@ -653,6 +809,17 @@ def parse_digest(text: str) -> dict:
 
 # ── HTML builders ───────────────────────────────────────────────────────────────
 
+def attr_escape(s: str) -> str:
+    """Escape text for safe use inside an HTML double-quoted attribute."""
+    return (
+        (s or "")
+        .replace("&", "&amp;")
+        .replace('"', "&quot;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
 def build_item_html(item: dict) -> str:
     sources_html = ""
     if item["sources"]:
@@ -712,10 +879,12 @@ def build_digest_body(digest: dict) -> str:
 
     obs_html = ""
     if digest["observation"]:
+        speak_text = attr_escape(digest["observation"])
         obs_html = f"""
         <div class="observation">
           <h2>💡 今日观察</h2>
           <p>{digest["observation"]}</p>
+          <button class="speak-btn" data-label="朗读今日观察" data-text="{speak_text}">🔊 朗读今日观察</button>
         </div>"""
 
     return f"""
@@ -777,7 +946,81 @@ def build_day_html(date_str: str, digest: dict, dates: list[str],
     )
 
 
-def build_index_html(dates: list[str], latest_digest: dict) -> str:
+# ── Trends / hot words ──────────────────────────────────────────────────────────
+
+# (display label, search term, [match patterns — lowercase])
+TREND_GROUPS = [
+    ("OpenAI", "OpenAI", ["openai"]),
+    ("Claude", "Claude", ["claude"]),
+    ("Anthropic", "Anthropic", ["anthropic"]),
+    ("Google", "Google", ["google", "deepmind", "gemini", "谷歌"]),
+    ("Meta", "Llama", ["llama", "meta ai", "扎克伯格"]),
+    ("微软", "微软", ["microsoft", "微软", "copilot"]),
+    ("NVIDIA", "NVIDIA", ["nvidia", "英伟达"]),
+    ("Apple", "Apple", ["apple", "苹果"]),
+    ("DeepSeek", "DeepSeek", ["deepseek", "深度求索"]),
+    ("字节", "字节", ["字节", "bytedance", "豆包"]),
+    ("阿里", "阿里", ["阿里", "alibaba", "qwen", "通义"]),
+    ("腾讯", "腾讯", ["腾讯", "tencent", "混元"]),
+    ("xAI/Grok", "Grok", ["grok", "xai", "马斯克"]),
+    ("Mistral", "Mistral", ["mistral"]),
+    ("Agent/智能体", "Agent", ["agent", "智能体"]),
+    ("大模型", "大模型", ["大模型", "语言模型", " llm"]),
+    ("多模态", "多模态", ["多模态", "multimodal"]),
+    ("开源", "开源", ["开源", "open-source", "open source"]),
+    ("机器人/具身", "机器人", ["机器人", "robot", "具身"]),
+    ("芯片/GPU", "芯片", ["芯片", "gpu", "chip", "算力"]),
+    ("视频生成", "视频", ["视频生成", "sora", "视频模型"]),
+    ("推理", "推理", ["推理", "reasoning"]),
+    ("融资/IPO", "融资", ["融资", "ipo", "估值", "投资"]),
+    ("自动驾驶", "自动驾驶", ["自动驾驶", "robotaxi", "辅助驾驶"]),
+]
+
+
+def compute_trends(parsed_by_date: dict, dates: list[str], window: int = 7, top: int = 12) -> list:
+    """Count keyword-group mentions across the most recent `window` digests."""
+    recent = dates[-window:] if len(dates) > window else dates
+    counts = {label: 0 for label, _, _ in TREND_GROUPS}
+    for d in recent:
+        digest = parsed_by_date.get(d)
+        if not digest:
+            continue
+        for cat in digest["categories"]:
+            for item in cat["items"]:
+                text = (item["title"] + " " + item["desc"]).lower()
+                for label, _term, patterns in TREND_GROUPS:
+                    if any(p in text for p in patterns):
+                        counts[label] += 1
+    term_of = {label: term for label, term, _ in TREND_GROUPS}
+    ranked = [(lbl, c, term_of[lbl]) for lbl, c in counts.items() if c >= 2]
+    ranked.sort(key=lambda x: x[1], reverse=True)
+    return ranked[:top]
+
+
+def build_trends_html(trends: list, window: int) -> str:
+    if not trends:
+        return ""
+    top_count = trends[0][1]
+    tags = ""
+    for label, count, term in trends:
+        ratio = count / top_count if top_count else 0
+        size = "s3" if ratio >= 0.66 else ("s2" if ratio >= 0.33 else "s1")
+        tags += (
+            f'<span class="trend-tag {size}" data-term="{attr_escape(term)}">'
+            f'{label}<span class="cnt">{count}</span></span>'
+        )
+    return f"""
+      <div class="trends">
+        <div class="trends-head">
+          <h2>🔥 近 {window} 天热词</h2>
+          <span class="sub">按出现频次排序 · 点击搜索相关日报</span>
+        </div>
+        <div class="trend-tags">{tags}</div>
+      </div>"""
+
+
+def build_index_html(dates: list[str], latest_digest: dict,
+                     trends_html: str = "") -> str:
     latest = dates[-1] if dates else ""
     weekday = weekday_of(latest)
 
@@ -809,6 +1052,7 @@ def build_index_html(dates: list[str], latest_digest: dict) -> str:
           <div class="stat"><div class="num">每日</div><div class="lbl">自动更新</div></div>
         </div>
       </div>
+      {trends_html}
       {latest_section}
       <div class="section-title">🗂 历史归档</div>
       <div class="date-grid">{cards}</div>
@@ -871,10 +1115,13 @@ def generate_site(root: Path | None = None) -> None:
         html = build_day_html(date_str, digest, dates, prev_date, next_date)
         (docs_daily_dir / f"{date_str}.html").write_text(html, encoding="utf-8")
 
-    # Index with latest digest inline
+    # Index with latest digest inline + trending hot words
     latest_digest = parsed_by_date[dates[-1]] if dates else {}
+    trend_window = 7
+    trends = compute_trends(parsed_by_date, dates, window=trend_window)
+    trends_html = build_trends_html(trends, trend_window)
     (docs_dir / "index.html").write_text(
-        build_index_html(dates, latest_digest), encoding="utf-8")
+        build_index_html(dates, latest_digest, trends_html), encoding="utf-8")
 
     # Search index
     (docs_dir / "search-index.json").write_text(
