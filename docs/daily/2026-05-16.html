@@ -19,13 +19,26 @@ body {
 a { color: #58a6ff; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+/* ── Reading progress bar ── */
+#progressBar {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(90deg, #58a6ff, #bc8cff);
+  z-index: 200;
+  transition: width .1s linear;
+}
+
 /* ── Header ── */
 .site-header {
   border-bottom: 1px solid #21262d;
-  padding: 16px 24px;
+  padding: 12px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
   position: sticky;
   top: 0;
   background: rgba(13,17,23,0.95);
@@ -39,15 +52,87 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 8px;
+  white-space: nowrap;
 }
+.site-header .logo a { color: inherit; }
+.site-header .logo a:hover { text-decoration: none; }
 .site-header .logo span { color: #58a6ff; }
-.site-header nav { display: flex; gap: 12px; }
+
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ── Search ── */
+.search-box { position: relative; }
+.search-box input {
+  width: 220px;
+  max-width: 50vw;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: #e6edf3;
+  font-size: 13px;
+  padding: 7px 12px;
+  outline: none;
+  transition: border-color .15s, width .15s;
+}
+.search-box input:focus { border-color: #58a6ff; width: 280px; }
+.search-results {
+  display: none;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  width: 360px;
+  max-width: 80vw;
+  max-height: 420px;
+  overflow-y: auto;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.5);
+  z-index: 150;
+}
+.search-results.active { display: block; }
+.sr-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #21262d;
+  color: inherit;
+}
+.sr-item:last-child { border-bottom: none; }
+.sr-item:hover { background: #1c2230; text-decoration: none; }
+.sr-date { font-size: 11px; color: #8b949e; }
+.sr-title { font-size: 13px; color: #e6edf3; line-height: 1.4; }
+.sr-cat { font-size: 11px; color: #58a6ff; }
+.sr-empty, .sr-hint { padding: 14px; font-size: 13px; color: #8b949e; text-align: center; }
+
+/* ── Date picker ── */
+.date-picker {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: #e6edf3;
+  font-size: 13px;
+  padding: 6px 10px;
+  outline: none;
+  color-scheme: dark;
+  cursor: pointer;
+}
+.date-picker:focus { border-color: #58a6ff; }
+
+.site-header nav { display: flex; gap: 8px; }
 .site-header nav a {
   font-size: 13px;
   color: #8b949e;
-  padding: 4px 10px;
+  padding: 6px 10px;
   border-radius: 6px;
   transition: background .15s;
+  white-space: nowrap;
 }
 .site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
 
@@ -61,7 +146,7 @@ a:hover { text-decoration: underline; }
 /* ── Hero ── */
 .hero {
   text-align: center;
-  padding: 60px 0 48px;
+  padding: 56px 0 32px;
 }
 .hero h1 {
   font-size: 40px;
@@ -72,23 +157,40 @@ a:hover { text-decoration: underline; }
   background-clip: text;
   margin-bottom: 12px;
 }
-.hero p {
+.hero p { color: #8b949e; font-size: 16px; }
+.hero .stats {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 24px;
+}
+.hero .stat .num { font-size: 24px; font-weight: 700; color: #e6edf3; }
+.hero .stat .lbl { font-size: 12px; color: #8b949e; }
+
+/* ── Section heading ── */
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
   color: #8b949e;
-  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin: 48px 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* ── Date grid (index) ── */
+/* ── Date grid (archive) ── */
 .date-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
-  margin-top: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 14px;
 }
 .date-card {
   background: #161b22;
   border: 1px solid #21262d;
   border-radius: 12px;
-  padding: 20px;
+  padding: 18px;
   transition: border-color .2s, transform .2s;
   display: block;
   color: inherit;
@@ -98,16 +200,8 @@ a:hover { text-decoration: underline; }
   transform: translateY(-2px);
   text-decoration: none;
 }
-.date-card .date-label {
-  font-size: 15px;
-  font-weight: 600;
-  color: #e6edf3;
-  margin-bottom: 4px;
-}
-.date-card .weekday {
-  font-size: 12px;
-  color: #8b949e;
-}
+.date-card .date-label { font-size: 15px; font-weight: 600; color: #e6edf3; margin-bottom: 4px; }
+.date-card .weekday { font-size: 12px; color: #8b949e; }
 .date-card .latest-badge {
   display: inline-block;
   font-size: 11px;
@@ -118,43 +212,55 @@ a:hover { text-decoration: underline; }
   margin-top: 10px;
 }
 
-/* ── Day page date heading ── */
-.day-hero {
-  margin-bottom: 40px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #21262d;
-}
+/* ── Day hero ── */
+.day-hero { margin-bottom: 24px; }
 .day-hero .date-str {
-  font-size: 13px;
-  color: #8b949e;
-  text-transform: uppercase;
-  letter-spacing: .06em;
-  margin-bottom: 6px;
+  font-size: 13px; color: #8b949e;
+  text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px;
 }
-.day-hero h1 {
-  font-size: 28px;
-  font-weight: 700;
-}
+.day-hero h1 { font-size: 28px; font-weight: 700; }
 
-/* ── Category section ── */
-.category {
-  margin-bottom: 40px;
-}
-.category-header {
+/* ── Filter bar ── */
+.filter-bar {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #21262d;
 }
-.category-header h2 {
-  font-size: 18px;
-  font-weight: 700;
+.filter-bar .tab {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 5px 14px;
+  border: 1px solid #30363d;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s;
+  user-select: none;
 }
-.cat-line {
-  flex: 1;
-  height: 1px;
-  background: #21262d;
+.filter-bar .tab:hover { color: #e6edf3; border-color: #58a6ff; }
+.filter-bar .tab.active { background: #1f6feb; color: #fff; border-color: #1f6feb; }
+.filter-bar .star-toggle {
+  margin-left: auto;
+  font-size: 13px;
+  color: #e3b341;
+  padding: 5px 14px;
+  border: 1px solid #30363d;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s;
+  user-select: none;
 }
+.filter-bar .star-toggle:hover { border-color: #e3b341; }
+.filter-bar .star-toggle.active { background: rgba(227,179,65,.15); border-color: #e3b341; }
+
+/* ── Category section ── */
+.category { margin-bottom: 40px; }
+.category-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.category-header h2 { font-size: 18px; font-weight: 700; }
+.cat-line { flex: 1; height: 1px; background: #21262d; }
 
 /* ── Item card ── */
 .item-card {
@@ -166,47 +272,16 @@ a:hover { text-decoration: underline; }
   transition: border-color .2s;
 }
 .item-card:hover { border-color: #30363d; }
-
-.item-title {
-  font-size: 15px;
-  font-weight: 600;
-  color: #e6edf3;
-  line-height: 1.5;
-  margin-bottom: 8px;
-}
-.item-desc {
-  font-size: 14px;
-  color: #8b949e;
-  margin-bottom: 14px;
-  line-height: 1.6;
-}
-.item-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-}
-.stars {
-  font-size: 13px;
-  color: #e3b341;
-  letter-spacing: 1px;
-}
+.item-title { font-size: 15px; font-weight: 600; color: #e6edf3; line-height: 1.5; margin-bottom: 8px; }
+.item-desc { font-size: 14px; color: #8b949e; margin-bottom: 14px; line-height: 1.6; }
+.item-meta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.stars { font-size: 13px; color: #e3b341; letter-spacing: 1px; }
 .item-value {
-  font-size: 13px;
-  color: #7ee787;
-  background: rgba(46,160,67,.1);
-  padding: 2px 10px;
-  border-radius: 999px;
+  font-size: 13px; color: #7ee787;
+  background: rgba(46,160,67,.1); padding: 2px 10px; border-radius: 999px;
 }
-.item-sources {
-  font-size: 13px;
-  color: #8b949e;
-  margin-left: auto;
-}
-.item-sources a {
-  color: #58a6ff;
-  margin-left: 6px;
-}
+.item-sources { font-size: 13px; color: #8b949e; margin-left: auto; }
+.item-sources a { color: #58a6ff; margin-left: 6px; }
 .item-sources a:first-child { margin-left: 0; }
 
 /* ── Observation box ── */
@@ -217,62 +292,77 @@ a:hover { text-decoration: underline; }
   padding: 24px;
   margin-top: 40px;
 }
-.observation h2 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #58a6ff;
-  margin-bottom: 12px;
-}
-.observation p {
-  font-size: 14px;
-  color: #c9d1d9;
-  line-height: 1.8;
-}
+.observation h2 { font-size: 16px; font-weight: 700; color: #58a6ff; margin-bottom: 12px; }
+.observation p { font-size: 14px; color: #c9d1d9; line-height: 1.8; }
+
+.empty-filter { display: none; color: #8b949e; font-size: 14px; text-align: center; padding: 32px; }
 
 /* ── Day nav ── */
 .day-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 48px;
-  padding-top: 24px;
-  border-top: 1px solid #21262d;
+  display: flex; justify-content: space-between;
+  margin-top: 48px; padding-top: 24px; border-top: 1px solid #21262d;
 }
 .nav-btn {
-  font-size: 14px;
-  color: #58a6ff;
-  padding: 8px 16px;
-  border: 1px solid #21262d;
-  border-radius: 8px;
+  font-size: 14px; color: #58a6ff;
+  padding: 8px 16px; border: 1px solid #21262d; border-radius: 8px;
   transition: background .15s;
 }
 .nav-btn:hover { background: #161b22; text-decoration: none; }
 
+/* ── Back to top ── */
+#backToTop {
+  position: fixed;
+  right: 24px; bottom: 24px;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background: #1f6feb;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+  z-index: 120;
+}
+#backToTop.visible { opacity: 1; pointer-events: auto; }
+#backToTop:hover { transform: translateY(-2px); }
+
 /* ── Footer ── */
 .site-footer {
-  text-align: center;
-  padding: 24px;
-  color: #484f58;
-  font-size: 13px;
-  border-top: 1px solid #21262d;
+  text-align: center; padding: 24px;
+  color: #484f58; font-size: 13px; border-top: 1px solid #21262d;
 }
 
 /* ── Responsive ── */
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .hero h1 { font-size: 28px; }
   .item-meta { flex-direction: column; align-items: flex-start; }
   .item-sources { margin-left: 0; }
   .site-header .logo { font-size: 15px; }
+  .search-box input { width: 150px; }
+  .search-box input:focus { width: 180px; }
+  .filter-bar .star-toggle { margin-left: 0; }
 }
 </style>
 </head>
 <body>
   
+<div id="progressBar"></div>
 <header class="site-header">
-  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
-  <nav>
-    <a href="../index.html">归档</a>
-    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
-  </nav>
+  <div class="logo"><a href="../index.html">⚡ AI <span>Daily</span> Digest</a></div>
+  <div class="header-tools">
+    <div class="search-box">
+      <input id="searchInput" type="text" placeholder="搜索全部日报…" autocomplete="off">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+    <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
+    <nav>
+      <a href="../index.html">归档</a>
+      <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+    </nav>
+  </div>
 </header>
 
   
@@ -282,13 +372,20 @@ a:hover { text-decoration: underline; }
         <h1>AI 每日简报</h1>
       </div>
       
-        <div class="category">
+    <div class="digest-scope">
+      
+    <div class="filter-bar">
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span>
+      <span class="star-toggle">★ 只看重点 (4+)</span>
+    </div>
+      
+        <div class="category" data-cat="news">
           <div class="category-header">
             <h2>📰 行业新闻</h2>
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">OpenAI 推出 ChatGPT 个人理财功能，可直接连接银行账户</div>
       <div class='item-desc'>用户连接 Plaid 后可在 ChatGPT 内查看投资组合、支出和订阅等财务仪表盘。</div>
       <div class="item-meta">
@@ -297,7 +394,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">OpenAI 再次重组管理层，Greg Brockman 统一负责所有产品</div>
       <div class='item-desc'>产品战略全面转向 AI Agent，合并 ChatGPT 和 Codex 团队。</div>
       <div class="item-meta">
@@ -306,7 +403,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle" target="_blank">The Verge</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">Google 更新搜索垃圾政策：操纵 AI 生成结果将被视为垃圾内容</div>
       <div class='item-desc'>新规明确覆盖 AI Overview 和 AI Mode 中的欺骗性内容。</div>
       <div class="item-meta">
@@ -315,7 +412,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.theverge.com/tech/931416/google-ai-search-spam-policy" target="_blank">The Verge</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">Runway 宣布从视频生成进军通用 AI，目标超越 Google</div>
       <div class='item-desc'>创始人认为视频生成是通向世界模型的路径，AI 外部视角是优势。</div>
       <div class="item-meta">
@@ -324,7 +421,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">阿里发布 Qoder 1.0，全面接管代码生成、验证和交付流程</div>
       <div class='item-desc'>支持 Windows/macOS/Linux，从需求到部署全自动化。</div>
       <div class="item-meta">
@@ -333,7 +430,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.qbitai.com/2026/05/418027.html" target="_blank">量子位</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">Hermes 团队改写预训练范式：不改架构，算力成本降六成</div>
       <div class='item-desc'>论文阅读量破 41 万，被认为是 DeepSeek 之后最重大的提效路径。</div>
       <div class="item-meta">
@@ -342,7 +439,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.36kr.com/p/3810440762547716" target="_blank">36Kr AI</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">蚂蚁百灵开源 Ring-2.6-1T 模型，Agent 执行能力全面增强</div>
       <div class='item-desc'>AIME 26 得分 95.83，开源规模达万亿参数。</div>
       <div class="item-meta">
@@ -351,7 +448,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.qbitai.com/2026/05/417961.html" target="_blank">量子位</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">ArXiv 将封禁上传 AI 生成垃圾论文的研究者</div>
       <div class='item-desc'>发现 LLM 生成的幻觉引用或元评论将直接封禁。</div>
       <div class="item-meta">
@@ -360,7 +457,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers" target="_blank">The Verge</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">Mira Murati 新公司 Thinking Machines Lab 首次发声：坚持「人在回路中」</div>
       <div class='item-desc'>前 OpenAI CTO 表示不追求自动化取代人类，而是构建协作型 AI。</div>
       <div class="item-meta">
@@ -369,7 +466,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/" target="_blank">Wired</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">Meta 工程师抗议笔记本键盘鼠标追踪用于 AI 训练</div>
       <div class='item-desc'>内部帖子在 Meta 员工中广泛传播，涉及隐私和监控问题。</div>
       <div class="item-meta">
@@ -379,13 +476,13 @@ a:hover { text-decoration: underline; }
       </div>
     </div>
         </div>
-        <div class="category">
+        <div class="category" data-cat="paper">
           <div class="category-header">
             <h2>📄 重要论文</h2>
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">WildTableBench：野外表格理解多模态基准测试</div>
       <div class='item-desc'>覆盖真实场景中的复杂表格布局和数值推理，揭示当前模型在视觉表格理解上的短板。</div>
       <div class="item-meta">
@@ -394,7 +491,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2605.01018" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">BEAM：MoE 模型二值化专家激活掩码动态路由</div>
       <div class='item-desc'>无需重训即可大幅降低推理延迟，解决训练-推理不匹配问题。</div>
       <div class="item-meta">
@@ -403,7 +500,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2605.14438" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">LiSA：终身安全适应与保守策略归纳</div>
       <div class='item-desc'>AI Agent 在读取私密数据、调用工具时，需要根据上下文动态调整安全策略。</div>
       <div class="item-meta">
@@ -412,7 +509,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2605.14454" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">Boosting RLVR via Randomly Selected Few-Shot Guidance</div>
       <div class='item-desc'>通过随机选取少量示范引导，显著提升强化学习在困难问题上的样本效率。</div>
       <div class="item-meta">
@@ -421,7 +518,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2605.15012" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning</div>
       <div class='item-desc'>闭环验证推理框架，克服单步生成在复杂语义上的局限。</div>
       <div class="item-meta">
@@ -431,13 +528,13 @@ a:hover { text-decoration: underline; }
       </div>
     </div>
         </div>
-        <div class="category">
+        <div class="category" data-cat="project">
           <div class="category-header">
             <h2>🔧 开源项目</h2>
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">antirez/ds4</div>
       <div class='item-desc'>DeepSeek 4 Flash 本地推理引擎，支持 Metal 和 CUDA，来自 Redis 创始人。</div>
       <div class="item-meta">
@@ -446,7 +543,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://github.com/antirez/ds4" target="_blank">GitHub</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">addyosmani/agent-skills</div>
       <div class='item-desc'>生产级工程技能集，为 AI 编码 Agent 提供开箱即用的能力。</div>
       <div class="item-meta">
@@ -455,7 +552,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://github.com/addyosmani/agent-skills" target="_blank">GitHub</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">rtk-ai/rtk</div>
       <div class='item-desc'>CLI 代理，将常见开发命令的 LLM Token 消耗降低 60-90%，单 Rust 二进制无依赖。</div>
       <div class="item-meta">
@@ -464,7 +561,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://github.com/rtk-ai/rtk" target="_blank">GitHub</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">larksuite/cli</div>
       <div class='item-desc'>飞书官方 CLI 工具，内置 200+ 命令和 20+ Agent Skills，覆盖核心业务域。</div>
       <div class="item-meta">
@@ -473,7 +570,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://github.com/larksuite/cli" target="_blank">GitHub</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">dograh-hq/dograh</div>
       <div class='item-desc'>开源语音 Agent 平台。</div>
       <div class="item-meta">
@@ -483,17 +580,162 @@ a:hover { text-decoration: underline; }
       </div>
     </div>
         </div>
+      <div class="empty-filter">该筛选条件下没有内容。</div>
       
         <div class="observation">
           <h2>💡 今日观察</h2>
           <p>今天的核心信号是 **「Agent 全面渗透」**——OpenAI 重组将所有产品整合到 Agent 战略下，Google 开始针对 AI 搜索结果制定垃圾内容规则，金融、办公、代码等场景的 Agent 产品密集发布。与此同时，**安全与治理问题同步爆发**：Meta 员工抗议监控、ArXiv 封禁 AI 垃圾论文、Mira Murati 强调「人在回路中」。这预示着一个关键转折：Agent 的技术可行性已基本验证，接下来的主战场是信任、安全和规模化落地的治理能力。对于 AI Builder，现在需要从「能不能做」转向「如何安全地做」。</p>
         </div>
-      <div class="day-nav"><a class="nav-btn" href="2026-05-15.html">← 2026-05-15</a><a class="nav-btn" href="2026-05-17.html">2026-05-17 →</a></div>
+    </div>
+      <div class="day-nav">
+        <a class="nav-btn" href="2026-05-15.html">← 2026-05-15</a>
+        <a class="nav-btn" href="2026-05-17.html">2026-05-17 →</a>
+      </div>
     </div>
   
+<button id="backToTop" aria-label="回到顶部">↑</button>
 <footer class="site-footer">
   © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
 </footer>
 
+  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02"];window.CURRENT_DATE="2026-05-16";window.PREV_DATE="2026-05-15";window.NEXT_DATE="2026-05-17";</script>
+  <script>
+(function () {
+  var BASE = window.SITE_BASE || "";
+  var DATES = window.AVAILABLE_DATES || [];
+
+  function esc(s) {
+    return (s || "").replace(/[&<>"]/g, function (c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];
+    });
+  }
+
+  // ── Date picker ──
+  var dp = document.getElementById('datePicker');
+  if (dp && DATES.length) {
+    dp.min = DATES[0];
+    dp.max = DATES[DATES.length - 1];
+    dp.value = window.CURRENT_DATE || DATES[DATES.length - 1];
+    dp.addEventListener('change', function () {
+      var v = dp.value;
+      if (DATES.indexOf(v) === -1) {
+        var earlier = DATES.filter(function (d) { return d <= v; });
+        v = earlier.length ? earlier[earlier.length - 1] : DATES[0];
+      }
+      window.location.href = BASE + 'daily/' + v + '.html';
+    });
+  }
+
+  // ── Search ──
+  var si = document.getElementById('searchInput');
+  var sr = document.getElementById('searchResults');
+  var INDEX = null;
+  function loadIndex() {
+    if (INDEX) return Promise.resolve(INDEX);
+    return fetch(BASE + 'search-index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) { INDEX = data; return data; });
+  }
+  if (si && sr) {
+    si.addEventListener('input', function () {
+      var q = si.value.trim().toLowerCase();
+      if (q.length < 2) { sr.classList.remove('active'); sr.innerHTML = ''; return; }
+      loadIndex().then(function (idx) {
+        var hits = idx.filter(function (it) {
+          return (it.title + ' ' + it.desc).toLowerCase().indexOf(q) !== -1;
+        }).slice(0, 25);
+        if (!hits.length) {
+          sr.innerHTML = '<div class="sr-empty">没有匹配结果</div>';
+        } else {
+          sr.innerHTML = hits.map(function (h) {
+            return '<a class="sr-item" href="' + BASE + 'daily/' + h.date + '.html">' +
+                   '<span class="sr-date">' + h.date + ' · ' + esc(h.cat) + '</span>' +
+                   '<span class="sr-title">' + esc(h.title) + '</span></a>';
+          }).join('');
+        }
+        sr.classList.add('active');
+      });
+    });
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.search-box')) sr.classList.remove('active');
+    });
+  }
+
+  // ── Filters (category tabs + star toggle), scoped per digest ──
+  document.querySelectorAll('.filter-bar').forEach(function (bar) {
+    var scope = bar.closest('.digest-scope') || document;
+    var tabs = bar.querySelectorAll('.tab');
+    var starToggle = bar.querySelector('.star-toggle');
+    var curCat = 'all', starsOnly = false;
+
+    function apply() {
+      scope.querySelectorAll('.category').forEach(function (catEl) {
+        var ct = catEl.getAttribute('data-cat');
+        var catMatch = (curCat === 'all') || (ct === curCat);
+        var visible = 0;
+        catEl.querySelectorAll('.item-card').forEach(function (it) {
+          var stars = parseInt(it.getAttribute('data-stars') || '0', 10);
+          var show = catMatch && (!starsOnly || stars >= 4);
+          it.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+        catEl.style.display = (catMatch && visible > 0) ? '' : 'none';
+      });
+      var anyVisible = Array.prototype.some.call(
+        scope.querySelectorAll('.category'),
+        function (c) { return c.style.display !== 'none'; }
+      );
+      var emptyMsg = scope.querySelector('.empty-filter');
+      if (emptyMsg) emptyMsg.style.display = anyVisible ? 'none' : 'block';
+    }
+
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        tabs.forEach(function (x) { x.classList.remove('active'); });
+        t.classList.add('active');
+        curCat = t.getAttribute('data-cat');
+        apply();
+      });
+    });
+    if (starToggle) {
+      starToggle.addEventListener('click', function () {
+        starsOnly = !starsOnly;
+        starToggle.classList.toggle('active', starsOnly);
+        apply();
+      });
+    }
+  });
+
+  // ── Keyboard navigation (day pages) ──
+  document.addEventListener('keydown', function (e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'ArrowLeft' && window.PREV_DATE) {
+      window.location.href = window.PREV_DATE + '.html';
+    } else if (e.key === 'ArrowRight' && window.NEXT_DATE) {
+      window.location.href = window.NEXT_DATE + '.html';
+    }
+  });
+
+  // ── Back to top ──
+  var btt = document.getElementById('backToTop');
+  if (btt) {
+    window.addEventListener('scroll', function () {
+      btt.classList.toggle('visible', window.scrollY > 400);
+    });
+    btt.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // ── Reading progress ──
+  var pb = document.getElementById('progressBar');
+  if (pb) {
+    window.addEventListener('scroll', function () {
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      pb.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+    });
+  }
+})();
+</script>
 </body>
 </html>

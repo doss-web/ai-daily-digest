@@ -19,13 +19,26 @@ body {
 a { color: #58a6ff; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+/* ── Reading progress bar ── */
+#progressBar {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(90deg, #58a6ff, #bc8cff);
+  z-index: 200;
+  transition: width .1s linear;
+}
+
 /* ── Header ── */
 .site-header {
   border-bottom: 1px solid #21262d;
-  padding: 16px 24px;
+  padding: 12px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
   position: sticky;
   top: 0;
   background: rgba(13,17,23,0.95);
@@ -39,15 +52,87 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 8px;
+  white-space: nowrap;
 }
+.site-header .logo a { color: inherit; }
+.site-header .logo a:hover { text-decoration: none; }
 .site-header .logo span { color: #58a6ff; }
-.site-header nav { display: flex; gap: 12px; }
+
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ── Search ── */
+.search-box { position: relative; }
+.search-box input {
+  width: 220px;
+  max-width: 50vw;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: #e6edf3;
+  font-size: 13px;
+  padding: 7px 12px;
+  outline: none;
+  transition: border-color .15s, width .15s;
+}
+.search-box input:focus { border-color: #58a6ff; width: 280px; }
+.search-results {
+  display: none;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  width: 360px;
+  max-width: 80vw;
+  max-height: 420px;
+  overflow-y: auto;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.5);
+  z-index: 150;
+}
+.search-results.active { display: block; }
+.sr-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #21262d;
+  color: inherit;
+}
+.sr-item:last-child { border-bottom: none; }
+.sr-item:hover { background: #1c2230; text-decoration: none; }
+.sr-date { font-size: 11px; color: #8b949e; }
+.sr-title { font-size: 13px; color: #e6edf3; line-height: 1.4; }
+.sr-cat { font-size: 11px; color: #58a6ff; }
+.sr-empty, .sr-hint { padding: 14px; font-size: 13px; color: #8b949e; text-align: center; }
+
+/* ── Date picker ── */
+.date-picker {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: #e6edf3;
+  font-size: 13px;
+  padding: 6px 10px;
+  outline: none;
+  color-scheme: dark;
+  cursor: pointer;
+}
+.date-picker:focus { border-color: #58a6ff; }
+
+.site-header nav { display: flex; gap: 8px; }
 .site-header nav a {
   font-size: 13px;
   color: #8b949e;
-  padding: 4px 10px;
+  padding: 6px 10px;
   border-radius: 6px;
   transition: background .15s;
+  white-space: nowrap;
 }
 .site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
 
@@ -61,7 +146,7 @@ a:hover { text-decoration: underline; }
 /* ── Hero ── */
 .hero {
   text-align: center;
-  padding: 60px 0 48px;
+  padding: 56px 0 32px;
 }
 .hero h1 {
   font-size: 40px;
@@ -72,23 +157,40 @@ a:hover { text-decoration: underline; }
   background-clip: text;
   margin-bottom: 12px;
 }
-.hero p {
+.hero p { color: #8b949e; font-size: 16px; }
+.hero .stats {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 24px;
+}
+.hero .stat .num { font-size: 24px; font-weight: 700; color: #e6edf3; }
+.hero .stat .lbl { font-size: 12px; color: #8b949e; }
+
+/* ── Section heading ── */
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
   color: #8b949e;
-  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin: 48px 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* ── Date grid (index) ── */
+/* ── Date grid (archive) ── */
 .date-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
-  margin-top: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 14px;
 }
 .date-card {
   background: #161b22;
   border: 1px solid #21262d;
   border-radius: 12px;
-  padding: 20px;
+  padding: 18px;
   transition: border-color .2s, transform .2s;
   display: block;
   color: inherit;
@@ -98,16 +200,8 @@ a:hover { text-decoration: underline; }
   transform: translateY(-2px);
   text-decoration: none;
 }
-.date-card .date-label {
-  font-size: 15px;
-  font-weight: 600;
-  color: #e6edf3;
-  margin-bottom: 4px;
-}
-.date-card .weekday {
-  font-size: 12px;
-  color: #8b949e;
-}
+.date-card .date-label { font-size: 15px; font-weight: 600; color: #e6edf3; margin-bottom: 4px; }
+.date-card .weekday { font-size: 12px; color: #8b949e; }
 .date-card .latest-badge {
   display: inline-block;
   font-size: 11px;
@@ -118,43 +212,55 @@ a:hover { text-decoration: underline; }
   margin-top: 10px;
 }
 
-/* ── Day page date heading ── */
-.day-hero {
-  margin-bottom: 40px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #21262d;
-}
+/* ── Day hero ── */
+.day-hero { margin-bottom: 24px; }
 .day-hero .date-str {
-  font-size: 13px;
-  color: #8b949e;
-  text-transform: uppercase;
-  letter-spacing: .06em;
-  margin-bottom: 6px;
+  font-size: 13px; color: #8b949e;
+  text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px;
 }
-.day-hero h1 {
-  font-size: 28px;
-  font-weight: 700;
-}
+.day-hero h1 { font-size: 28px; font-weight: 700; }
 
-/* ── Category section ── */
-.category {
-  margin-bottom: 40px;
-}
-.category-header {
+/* ── Filter bar ── */
+.filter-bar {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #21262d;
 }
-.category-header h2 {
-  font-size: 18px;
-  font-weight: 700;
+.filter-bar .tab {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 5px 14px;
+  border: 1px solid #30363d;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s;
+  user-select: none;
 }
-.cat-line {
-  flex: 1;
-  height: 1px;
-  background: #21262d;
+.filter-bar .tab:hover { color: #e6edf3; border-color: #58a6ff; }
+.filter-bar .tab.active { background: #1f6feb; color: #fff; border-color: #1f6feb; }
+.filter-bar .star-toggle {
+  margin-left: auto;
+  font-size: 13px;
+  color: #e3b341;
+  padding: 5px 14px;
+  border: 1px solid #30363d;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s;
+  user-select: none;
 }
+.filter-bar .star-toggle:hover { border-color: #e3b341; }
+.filter-bar .star-toggle.active { background: rgba(227,179,65,.15); border-color: #e3b341; }
+
+/* ── Category section ── */
+.category { margin-bottom: 40px; }
+.category-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.category-header h2 { font-size: 18px; font-weight: 700; }
+.cat-line { flex: 1; height: 1px; background: #21262d; }
 
 /* ── Item card ── */
 .item-card {
@@ -166,47 +272,16 @@ a:hover { text-decoration: underline; }
   transition: border-color .2s;
 }
 .item-card:hover { border-color: #30363d; }
-
-.item-title {
-  font-size: 15px;
-  font-weight: 600;
-  color: #e6edf3;
-  line-height: 1.5;
-  margin-bottom: 8px;
-}
-.item-desc {
-  font-size: 14px;
-  color: #8b949e;
-  margin-bottom: 14px;
-  line-height: 1.6;
-}
-.item-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-}
-.stars {
-  font-size: 13px;
-  color: #e3b341;
-  letter-spacing: 1px;
-}
+.item-title { font-size: 15px; font-weight: 600; color: #e6edf3; line-height: 1.5; margin-bottom: 8px; }
+.item-desc { font-size: 14px; color: #8b949e; margin-bottom: 14px; line-height: 1.6; }
+.item-meta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.stars { font-size: 13px; color: #e3b341; letter-spacing: 1px; }
 .item-value {
-  font-size: 13px;
-  color: #7ee787;
-  background: rgba(46,160,67,.1);
-  padding: 2px 10px;
-  border-radius: 999px;
+  font-size: 13px; color: #7ee787;
+  background: rgba(46,160,67,.1); padding: 2px 10px; border-radius: 999px;
 }
-.item-sources {
-  font-size: 13px;
-  color: #8b949e;
-  margin-left: auto;
-}
-.item-sources a {
-  color: #58a6ff;
-  margin-left: 6px;
-}
+.item-sources { font-size: 13px; color: #8b949e; margin-left: auto; }
+.item-sources a { color: #58a6ff; margin-left: 6px; }
 .item-sources a:first-child { margin-left: 0; }
 
 /* ── Observation box ── */
@@ -217,62 +292,77 @@ a:hover { text-decoration: underline; }
   padding: 24px;
   margin-top: 40px;
 }
-.observation h2 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #58a6ff;
-  margin-bottom: 12px;
-}
-.observation p {
-  font-size: 14px;
-  color: #c9d1d9;
-  line-height: 1.8;
-}
+.observation h2 { font-size: 16px; font-weight: 700; color: #58a6ff; margin-bottom: 12px; }
+.observation p { font-size: 14px; color: #c9d1d9; line-height: 1.8; }
+
+.empty-filter { display: none; color: #8b949e; font-size: 14px; text-align: center; padding: 32px; }
 
 /* ── Day nav ── */
 .day-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 48px;
-  padding-top: 24px;
-  border-top: 1px solid #21262d;
+  display: flex; justify-content: space-between;
+  margin-top: 48px; padding-top: 24px; border-top: 1px solid #21262d;
 }
 .nav-btn {
-  font-size: 14px;
-  color: #58a6ff;
-  padding: 8px 16px;
-  border: 1px solid #21262d;
-  border-radius: 8px;
+  font-size: 14px; color: #58a6ff;
+  padding: 8px 16px; border: 1px solid #21262d; border-radius: 8px;
   transition: background .15s;
 }
 .nav-btn:hover { background: #161b22; text-decoration: none; }
 
+/* ── Back to top ── */
+#backToTop {
+  position: fixed;
+  right: 24px; bottom: 24px;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background: #1f6feb;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+  z-index: 120;
+}
+#backToTop.visible { opacity: 1; pointer-events: auto; }
+#backToTop:hover { transform: translateY(-2px); }
+
 /* ── Footer ── */
 .site-footer {
-  text-align: center;
-  padding: 24px;
-  color: #484f58;
-  font-size: 13px;
-  border-top: 1px solid #21262d;
+  text-align: center; padding: 24px;
+  color: #484f58; font-size: 13px; border-top: 1px solid #21262d;
 }
 
 /* ── Responsive ── */
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .hero h1 { font-size: 28px; }
   .item-meta { flex-direction: column; align-items: flex-start; }
   .item-sources { margin-left: 0; }
   .site-header .logo { font-size: 15px; }
+  .search-box input { width: 150px; }
+  .search-box input:focus { width: 180px; }
+  .filter-bar .star-toggle { margin-left: 0; }
 }
 </style>
 </head>
 <body>
   
+<div id="progressBar"></div>
 <header class="site-header">
-  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
-  <nav>
-    <a href="../index.html">归档</a>
-    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
-  </nav>
+  <div class="logo"><a href="../index.html">⚡ AI <span>Daily</span> Digest</a></div>
+  <div class="header-tools">
+    <div class="search-box">
+      <input id="searchInput" type="text" placeholder="搜索全部日报…" autocomplete="off">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+    <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
+    <nav>
+      <a href="../index.html">归档</a>
+      <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+    </nav>
+  </div>
 </header>
 
   
@@ -282,13 +372,20 @@ a:hover { text-decoration: underline; }
         <h1>AI 每日简报</h1>
       </div>
       
-        <div class="category">
+    <div class="digest-scope">
+      
+    <div class="filter-bar">
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span>
+      <span class="star-toggle">★ 只看重点 (4+)</span>
+    </div>
+      
+        <div class="category" data-cat="news">
           <div class="category-header">
             <h2>📰 行业新闻</h2>
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">Elon Musk 法庭证词确认 xAI 使用 OpenAI 模型训练 Grok</div>
       <div class='item-desc'>在 Musk v. Altman 庭审中，Musk 承认 xAI 使用了 OpenAI 模型进行蒸馏训练，并称这是行业标准做法。</div>
       <div class="item-meta">
@@ -297,7 +394,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation" target="_blank">The Verge</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">OpenAI 与 Yubico 合作推出 ChatGPT 高级安全模式</div>
       <div class='item-desc'>针对高风险账户推出硬件密钥认证、登录保护等高级安全功能。</div>
       <div class="item-meta">
@@ -306,7 +403,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">Microsoft 与 OpenAI 正式"分手"：新合作协议细节曝光</div>
       <div class='item-desc'>双方重新谈判合作条款，标志 AI 巨头关系进入新阶段。</div>
       <div class="item-meta">
@@ -315,7 +412,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.theverge.com/tech/921210/microsoft-openai-partnership-divorce-notepad" target="_blank">The Verge</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">OpenAI 限制 GPT-5.5 Cyber 仅对关键网络安全防御者开放</div>
       <div class='item-desc'>继批评 Anthropic 限制 Mythos 后，OpenAI 也对网络安全工具实施访问控制。</div>
       <div class="item-meta">
@@ -324,7 +421,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">Google Gemini AI 助手将登陆数百万辆汽车</div>
       <div class='item-desc'>搭载 Google 原生系统的车辆将升级为 Gemini 对话式 AI 助手。</div>
       <div class="item-meta">
@@ -333,7 +430,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.theverge.com/tech/921117/google-gemini-ai-assistant-cars-upgrade" target="_blank">The Verge</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">Stripe 发布 Link 智能体钱包，支持 AI Agent 自主支付</div>
       <div class='item-desc'>用户可授权 AI Agent 通过审批流安全使用资金，支持卡片、银行和订阅。</div>
       <div class="item-meta">
@@ -342,7 +439,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="4">
       <div class="item-title">阿里发布数字员工产品 QoderWake</div>
       <div class='item-desc'>支持企业根据业务流程定制工程师、运营、销售等岗位的数字员工。</div>
       <div class="item-meta">
@@ -351,7 +448,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://www.qbitai.com/2026/04/411955.html" target="_blank">量子位</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="3">
       <div class="item-title">Apple 被 AI 驱动的 Mac 需求"震惊"，下季度仍将供应受限</div>
       <div class='item-desc'>Mac mini、Studio 和 Neo 因 AI 需求激增面临供应短缺。</div>
       <div class="item-meta">
@@ -360,7 +457,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">GitHub 频繁宕机，5.2 万 Star 项目 Ghostty 宣布迁出</div>
       <div class='item-desc'>Anthropic 官方推荐的终端模拟器因 GitHub 稳定性问题决定迁移。</div>
       <div class="item-meta">
@@ -370,13 +467,13 @@ a:hover { text-decoration: underline; }
       </div>
     </div>
         </div>
-        <div class="category">
+        <div class="category" data-cat="paper">
           <div class="category-header">
             <h2>📄 重要论文</h2>
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">GLM-5V-Turbo：面向多模态 Agent 的原生基础模型</div>
       <div class='item-desc'>智谱发布原生多模态 Agent 基础模型，将视觉感知作为推理、规划、工具使用的核心组件。</div>
       <div class="item-meta">
@@ -385,7 +482,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2604.26752" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">V-GRPO：去噪生成模型的在线强化学习比想象中简单</div>
       <div class='item-desc'>提出基于策略梯度的在线 RL 框架，有效对齐扩散模型与人类偏好。</div>
       <div class="item-meta">
@@ -394,7 +491,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2604.23380" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">TIDE：扩散大语言模型的跨架构蒸馏</div>
       <div class='item-desc'>首个实现不同架构、注意力机制和分词器间 dLLM 知识蒸馏的框架。</div>
       <div class="item-meta">
@@ -403,7 +500,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2604.26951" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">Accelerating RL Post-Training via Speculative Decoding</div>
       <div class='item-desc'>将投机解码作为 RL 训练中 rollout 生成的无损加速原语。</div>
       <div class="item-meta">
@@ -412,7 +509,7 @@ a:hover { text-decoration: underline; }
         <div class="item-sources"><a href="https://huggingface.co/papers/2604.26779" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
-    <div class="item-card">
+    <div class="item-card" data-stars="5">
       <div class="item-title">X-WAM：基于视频先验的统一 4D 世界动作模型</div>
       <div class='item-desc'>统一实时机器人动作执行与高保真 4D 世界合成，支持多视角 RGB-D 视频预测。</div>
       <div class="item-meta">
@@ -422,13 +519,158 @@ a:hover { text-decoration: underline; }
       </div>
     </div>
         </div>
+      <div class="empty-filter">该筛选条件下没有内容。</div>
       
-      <div class="day-nav"><a class="nav-btn" href="2026-04-30.html">← 2026-04-30</a><a class="nav-btn" href="2026-05-02.html">2026-05-02 →</a></div>
+    </div>
+      <div class="day-nav">
+        <a class="nav-btn" href="2026-04-30.html">← 2026-04-30</a>
+        <a class="nav-btn" href="2026-05-02.html">2026-05-02 →</a>
+      </div>
     </div>
   
+<button id="backToTop" aria-label="回到顶部">↑</button>
 <footer class="site-footer">
   © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
 </footer>
 
+  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02"];window.CURRENT_DATE="2026-05-01";window.PREV_DATE="2026-04-30";window.NEXT_DATE="2026-05-02";</script>
+  <script>
+(function () {
+  var BASE = window.SITE_BASE || "";
+  var DATES = window.AVAILABLE_DATES || [];
+
+  function esc(s) {
+    return (s || "").replace(/[&<>"]/g, function (c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];
+    });
+  }
+
+  // ── Date picker ──
+  var dp = document.getElementById('datePicker');
+  if (dp && DATES.length) {
+    dp.min = DATES[0];
+    dp.max = DATES[DATES.length - 1];
+    dp.value = window.CURRENT_DATE || DATES[DATES.length - 1];
+    dp.addEventListener('change', function () {
+      var v = dp.value;
+      if (DATES.indexOf(v) === -1) {
+        var earlier = DATES.filter(function (d) { return d <= v; });
+        v = earlier.length ? earlier[earlier.length - 1] : DATES[0];
+      }
+      window.location.href = BASE + 'daily/' + v + '.html';
+    });
+  }
+
+  // ── Search ──
+  var si = document.getElementById('searchInput');
+  var sr = document.getElementById('searchResults');
+  var INDEX = null;
+  function loadIndex() {
+    if (INDEX) return Promise.resolve(INDEX);
+    return fetch(BASE + 'search-index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) { INDEX = data; return data; });
+  }
+  if (si && sr) {
+    si.addEventListener('input', function () {
+      var q = si.value.trim().toLowerCase();
+      if (q.length < 2) { sr.classList.remove('active'); sr.innerHTML = ''; return; }
+      loadIndex().then(function (idx) {
+        var hits = idx.filter(function (it) {
+          return (it.title + ' ' + it.desc).toLowerCase().indexOf(q) !== -1;
+        }).slice(0, 25);
+        if (!hits.length) {
+          sr.innerHTML = '<div class="sr-empty">没有匹配结果</div>';
+        } else {
+          sr.innerHTML = hits.map(function (h) {
+            return '<a class="sr-item" href="' + BASE + 'daily/' + h.date + '.html">' +
+                   '<span class="sr-date">' + h.date + ' · ' + esc(h.cat) + '</span>' +
+                   '<span class="sr-title">' + esc(h.title) + '</span></a>';
+          }).join('');
+        }
+        sr.classList.add('active');
+      });
+    });
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.search-box')) sr.classList.remove('active');
+    });
+  }
+
+  // ── Filters (category tabs + star toggle), scoped per digest ──
+  document.querySelectorAll('.filter-bar').forEach(function (bar) {
+    var scope = bar.closest('.digest-scope') || document;
+    var tabs = bar.querySelectorAll('.tab');
+    var starToggle = bar.querySelector('.star-toggle');
+    var curCat = 'all', starsOnly = false;
+
+    function apply() {
+      scope.querySelectorAll('.category').forEach(function (catEl) {
+        var ct = catEl.getAttribute('data-cat');
+        var catMatch = (curCat === 'all') || (ct === curCat);
+        var visible = 0;
+        catEl.querySelectorAll('.item-card').forEach(function (it) {
+          var stars = parseInt(it.getAttribute('data-stars') || '0', 10);
+          var show = catMatch && (!starsOnly || stars >= 4);
+          it.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+        catEl.style.display = (catMatch && visible > 0) ? '' : 'none';
+      });
+      var anyVisible = Array.prototype.some.call(
+        scope.querySelectorAll('.category'),
+        function (c) { return c.style.display !== 'none'; }
+      );
+      var emptyMsg = scope.querySelector('.empty-filter');
+      if (emptyMsg) emptyMsg.style.display = anyVisible ? 'none' : 'block';
+    }
+
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        tabs.forEach(function (x) { x.classList.remove('active'); });
+        t.classList.add('active');
+        curCat = t.getAttribute('data-cat');
+        apply();
+      });
+    });
+    if (starToggle) {
+      starToggle.addEventListener('click', function () {
+        starsOnly = !starsOnly;
+        starToggle.classList.toggle('active', starsOnly);
+        apply();
+      });
+    }
+  });
+
+  // ── Keyboard navigation (day pages) ──
+  document.addEventListener('keydown', function (e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'ArrowLeft' && window.PREV_DATE) {
+      window.location.href = window.PREV_DATE + '.html';
+    } else if (e.key === 'ArrowRight' && window.NEXT_DATE) {
+      window.location.href = window.NEXT_DATE + '.html';
+    }
+  });
+
+  // ── Back to top ──
+  var btt = document.getElementById('backToTop');
+  if (btt) {
+    window.addEventListener('scroll', function () {
+      btt.classList.toggle('visible', window.scrollY > 400);
+    });
+    btt.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // ── Reading progress ──
+  var pb = document.getElementById('progressBar');
+  if (pb) {
+    window.addEventListener('scroll', function () {
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      pb.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+    });
+  }
+})();
+</script>
 </body>
 </html>
