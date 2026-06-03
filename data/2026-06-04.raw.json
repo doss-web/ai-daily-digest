@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-04T06:36:46.065831+08:00",
+  "generated_at": "2026-06-04T07:50:14.577727+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -8,6 +8,19 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "WALL-WM: Carving World Action Modeling at the Event Joints",
+        "url": "https://huggingface.co/papers/2606.01955",
+        "normalized_url": "https://huggingface.co/papers/2606.01955",
+        "summary": "WALL-WM is a World Action Model that shifts video-action learning from chunk-centric optimization to event-grounded Vision-Language-Action pretraining, using semantically coherent action events as the atomic unit of learning. Existing WAMs commonly initialize from multimodal or video foundation models and then optimize fixed-length action chunks conditioned directly on the current observation and instruction. Although convenient, this chunk-centric formulation creates a fundamental granularity m",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.01955"
+        }
+      },
       {
         "category": "papers",
         "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification",
@@ -254,19 +267,6 @@
         "metadata": {
           "paper_id": "2606.03102"
         }
-      },
-      {
-        "category": "papers",
-        "title": "TRON: Targeted Rule-Verifiable Online Environments for Visual Reasoning RL",
-        "url": "https://huggingface.co/papers/2606.01599",
-        "normalized_url": "https://huggingface.co/papers/2606.01599",
-        "summary": "Reinforcement learning (RL) for visual reasoning needs scalable, verifiable, and controllable training signals. Existing visual RL post-training trains on static curated datasets, with fixed image-question-answer samples bounded by their collection budget. In this work, we introduce TRON (Targeted, Rule-verifiable Online eNvironments), an online environment substrate: a training rollout is generated on demand by a controllable generator-verifier program that samples a fresh latent visual state, ",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-01T02:52:49.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.01599"
-        }
       }
     ],
     "projects": [
@@ -484,6 +484,71 @@
     "news": [
       {
         "category": "news",
+        "title": "天涯是文科生的GitHub",
+        "url": "https://www.36kr.com/p/3837467816298752",
+        "normalized_url": "https://www.36kr.com/p/3837467816298752",
+        "summary": "不如活在心里",
+        "source": "36Kr AI",
+        "published": "2026-06-03T23:50:31+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "张一鸣又登中国首富",
+        "url": "https://www.36kr.com/p/3837312915141760",
+        "normalized_url": "https://www.36kr.com/p/3837312915141760",
+        "summary": "张一鸣又登中国首富！",
+        "source": "36Kr AI",
+        "published": "2026-06-03T23:44:05+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“ChatGPT以后可能要没了”",
+        "url": "https://www.36kr.com/p/3837314291299464",
+        "normalized_url": "https://www.36kr.com/p/3837314291299464",
+        "summary": "名字还在，内核变了",
+        "source": "36Kr AI",
+        "published": "2026-06-03T23:35:11+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "WWDC26终极前瞻：全新Siri是主菜，iOS 27修修补补又一年",
+        "url": "https://www.36kr.com/p/3837226424400514",
+        "normalized_url": "https://www.36kr.com/p/3837226424400514",
+        "summary": "苹果AI亟待证明自己。",
+        "source": "36Kr AI",
+        "published": "2026-06-03T23:18:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "这么快，巨头就烧不起 token了？",
+        "url": "https://www.36kr.com/p/3837186600369025",
+        "normalized_url": "https://www.36kr.com/p/3837186600369025",
+        "summary": "“不要为了用AI而用AI！”",
+        "source": "36Kr AI",
+        "published": "2026-06-03T23:14:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "氪星晚报 ｜曲美家居：境外子公司拟发行不超9亿挪威克朗境外债券；段永平在泡泡玛特持股比例升至6.04%；现货白银向下跌破74美元/盎司",
         "url": "https://www.36kr.com/p/3837330582008963",
         "normalized_url": "https://www.36kr.com/p/3837330582008963",
@@ -543,71 +608,6 @@
         "source": "36Kr AI",
         "published": "2026-06-03T13:40:52+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "那个曾传言将被卖掉的盒马，仅用一年多，就成了蒋凡的心头肉",
-        "url": "https://www.36kr.com/p/3837000023325568",
-        "normalized_url": "https://www.36kr.com/p/3837000023325568",
-        "summary": "那个曾传言将被卖掉的盒马，仅用一年多，就成了蒋凡的心头肉！",
-        "source": "36Kr AI",
-        "published": "2026-06-03T13:37:07+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "微软Build大会一文看尽：9款自研模型、Windows版龙虾、“梦中情机”，黄仁勋猛夸",
-        "url": "https://www.36kr.com/p/3836988816094341",
-        "normalized_url": "https://www.36kr.com/p/3836988816094341",
-        "summary": "微软要给智能体时代铺路架桥。",
-        "source": "36Kr AI",
-        "published": "2026-06-03T13:32:49+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "市值一夜暴涨4千亿",
-        "url": "https://www.36kr.com/p/3837285420610689",
-        "normalized_url": "https://www.36kr.com/p/3837285420610689",
-        "summary": "疯狂的光通信",
-        "source": "36Kr AI",
-        "published": "2026-06-03T13:21:49+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "长安、小米、极氪密集调整，车企集体「不装了」",
-        "url": "https://www.36kr.com/p/3837254948681095",
-        "normalized_url": "https://www.36kr.com/p/3837254948681095",
-        "summary": "一边合并自救，一边密集涨价",
-        "source": "36Kr AI",
-        "published": "2026-06-03T12:55:10+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "重估比亚迪，从智驾开始",
-        "url": "https://www.36kr.com/p/3837327312893065",
-        "normalized_url": "https://www.36kr.com/p/3837327312893065",
-        "summary": "比亚迪辅助驾驶正从低调深耕走向全面引领。",
-        "source": "36Kr AI",
-        "published": "2026-06-03T12:50:38+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
@@ -744,6 +744,19 @@
       },
       {
         "category": "news",
+        "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+        "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+        "normalized_url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says",
+        "summary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-03T22:56:51+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal",
         "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
         "normalized_url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal",
@@ -855,19 +868,6 @@
         "source": "TechCrunch AI",
         "published": "2026-06-02T19:11:48+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
-        "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
-        "normalized_url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions",
-        "summary": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-02T19:02:21+00:00",
-        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1134,7 +1134,7 @@
       },
       {
         "category": "news",
-        "title": "Dashlane issues opaque advisory warning 20 encrypted vaults were stolen",
+        "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
         "url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
         "normalized_url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen",
         "summary": "Security advisory leaves out key details. Dashlane maintains complete silence.",
