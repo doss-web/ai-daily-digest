@@ -1,6 +1,6 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T06:26:50.198395+08:00",
+  "generated_at": "2026-06-11T07:40:15.264606+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -744,6 +744,19 @@
       },
       {
         "category": "news",
+        "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+        "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+        "normalized_url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims",
+        "summary": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-10T22:31:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
         "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
         "normalized_url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues",
@@ -854,19 +867,6 @@
         "summary": "Decart is launching Oasis 3, a real-time world model that generates photorealistic driving environments for autonomous vehicle testing, now available via API for developers to build on.",
         "source": "TechCrunch AI",
         "published": "2026-06-10T13:07:56+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meta signs first AI data center deal in India with Reliance",
-        "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
-        "normalized_url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance",
-        "summary": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-10T07:05:26+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
