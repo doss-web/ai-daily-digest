@@ -1,13 +1,26 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T06:21:50.962641+08:00",
+  "generated_at": "2026-06-12T07:42:19.903965+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 54
+    "news": 44
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Can Generalist Agents Automate Data Curation?",
+        "url": "https://huggingface.co/papers/2606.04261",
+        "normalized_url": "https://huggingface.co/papers/2606.04261",
+        "summary": "Curating training data is among the most consequential yet labor-intensive parts of modern AI development: practitioners iteratively propose, implement, evaluate, and revise data policies against noisy benchmark feedback. We ask whether generalist coding agents can automate this data-curation loop. We introduce *Curation-Bench*, an agent-centric benchmark that fixes the model, training recipe, and evaluation suite while giving agents command-line access to inspect data, implement policies, submi",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-02T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.04261"
+        }
+      },
       {
         "category": "papers",
         "title": "Building Social World Models with Large Language Models",
@@ -254,19 +267,6 @@
         "metadata": {
           "paper_id": "2606.03437"
         }
-      },
-      {
-        "category": "papers",
-        "title": "Distilling LLM Feedback for Lean Theorem Proving",
-        "url": "https://huggingface.co/papers/2605.30861",
-        "normalized_url": "https://huggingface.co/papers/2605.30861",
-        "summary": "Post-training for reasoning models typically combines supervised fine-tuning with reinforcement learning from verifiable rewards, most commonly with GRPO. However, this algorithm suffers from sparse rewards, limited exploration, and mode collapse. Building upon recent works on self-distillation, we propose Feedback Distillation, a training method where the model is trained to match, at the token level, its own distribution conditioned on privileged feedback produced by a language model. Feedback",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-29T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.30861"
-        }
       }
     ],
     "projects": [
@@ -482,136 +482,6 @@
       }
     ],
     "news": [
-      {
-        "category": "news",
-        "title": "Anthropic CEO只直接管一个人",
-        "url": "https://www.36kr.com/p/3848711901189125",
-        "normalized_url": "https://www.36kr.com/p/3848711901189125",
-        "summary": "【导读】Anthropic执行团队由妹妹Daniela领导，她负责日常运营并向董事会汇报，Dario则专注长远战略和研究方向。他和妹妹把维护企业文化视为最重要任务。而他专注于真正该思考的事：AI到底会不会把人变成工具？",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:34:49+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "步Google Glass后尘，智能眼镜也成了偷拍神器",
-        "url": "https://www.36kr.com/p/3848697432232964",
-        "normalized_url": "https://www.36kr.com/p/3848697432232964",
-        "summary": "设备本身是中性的，不当使用才是最大的问题。",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:33:32+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "陶哲轩First Proof二期结果出炉，最低8美元1题，AI烧出7道论文级解法",
-        "url": "https://www.36kr.com/p/3848704210244866",
-        "normalized_url": "https://www.36kr.com/p/3848704210244866",
-        "summary": "新增双盲同行评议机制",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:32:17+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "两年六倍，PCB龙头换人了",
-        "url": "https://www.36kr.com/p/3848634177606660",
-        "normalized_url": "https://www.36kr.com/p/3848634177606660",
-        "summary": "稀缺的赌注",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:28:27+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "美股，两大危险信号浮现",
-        "url": "https://www.36kr.com/p/3848634010981382",
-        "normalized_url": "https://www.36kr.com/p/3848634010981382",
-        "summary": "美股回购逆转、IPO激增，巴菲特指标创历史新高",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:26:07+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "OpenAI推理之父掀桌：AI真·满血的样子，你没钱见",
-        "url": "https://www.36kr.com/p/3848712049202439",
-        "normalized_url": "https://www.36kr.com/p/3848712049202439",
-        "summary": "【导读】OpenAI o1推理模型核心缔造者Noam Brown发长文炮轰整个行业：用单一跑分评价AI模型，从2024年就过时了。GPT-5.5看起来只比5.4强一点？控制推理预算后再看，那叫一个天壤之别。",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:24:58+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "给拖拉机装智驾，大疆前首席科学家再闯港交所",
-        "url": "https://www.36kr.com/p/3848438218472327",
-        "normalized_url": "https://www.36kr.com/p/3848438218472327",
-        "summary": "一家帮农民开拖拉机的公司，凭什么走到IPO门口？",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:20:27+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Rokid“偷拍门”，撕开了智能眼镜的遮羞布",
-        "url": "https://www.36kr.com/p/3848719234585604",
-        "normalized_url": "https://www.36kr.com/p/3848719234585604",
-        "summary": "抢风口下的群体尴尬。",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:15:52+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "周星驰入局、字节腾讯押注，AI互动到了爆发前夜？",
-        "url": "https://www.36kr.com/p/3848718593332231",
-        "normalized_url": "https://www.36kr.com/p/3848718593332231",
-        "summary": "AI互动的第一桶金，不在影游，而在广告？",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:14:10+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "魅族为什么放弃做手机？我在天音控股的公告中找到了答案",
-        "url": "https://www.36kr.com/p/3848718425356933",
-        "normalized_url": "https://www.36kr.com/p/3848718425356933",
-        "summary": "从此再无魅族手机！",
-        "source": "36Kr AI",
-        "published": "2026-06-11T13:12:34+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
       {
         "category": "news",
         "title": "Claude Fable 5省钱秘诀来了：调成Low档比Opus更便宜",
@@ -991,15 +861,15 @@
       },
       {
         "category": "news",
-        "title": "I tried Siri AI, and so far it actually works",
-        "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
-        "normalized_url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
-        "summary": "Parents want one thing, and one thing only, out of AI: to add a list of soccer games or \"spirit week\" theme days from an email or a poorly formatted flyer onto their calendar in one shot. And I have good news for parents with iPhones - the new Siri can finally do this. After […]",
-        "source": "The Verge AI",
-        "published": "2026-06-09T23:43:00+00:00",
+        "title": "Why You Might Already Own SpaceX Shares, Siri’s AI Makeover, and Knicks Owner’s Surveillance Machine",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-why-you-might-already-own-spacex-shares-siri-ai-makeover-knicks-owner-surveillance-machine/",
+        "normalized_url": "https://www.wired.com/story/uncanny-valley-podcast-why-you-might-already-own-spacex-shares-siri-ai-makeover-knicks-owner-surveillance-machine",
+        "summary": "Today on Uncanny Valley, we take an early look at the SpaceX IPO and why you might find yourself among the investors without even realizing it.",
+        "source": "Wired AI",
+        "published": "2026-06-11T23:37:49+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
         }
       },
       {
