@@ -1,10 +1,10 @@
 {
   "date": "2026-06-15",
-  "generated_at": "2026-06-15T05:51:32.826954+08:00",
+  "generated_at": "2026-06-15T07:15:23.169996+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 39
+    "news": 28
   },
   "items": {
     "papers": [
@@ -484,136 +484,6 @@
     "news": [
       {
         "category": "news",
-        "title": "那些在鸿蒙搞开发的年轻人，在押注什么？",
-        "url": "https://www.36kr.com/p/3852449924551687",
-        "normalized_url": "https://www.36kr.com/p/3852449924551687",
-        "summary": "一群年轻开发者，与一片值得长期投入的创新沃土。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T10:18:35+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Claude Fable 5四日惊魂",
-        "url": "https://www.36kr.com/p/3852737616876550",
-        "normalized_url": "https://www.36kr.com/p/3852737616876550",
-        "summary": "一场从高光到猝死的极速坠落。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T09:55:44+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "最强Claude，卡在上市前夜",
-        "url": "https://www.36kr.com/p/3852759269980800",
-        "normalized_url": "https://www.36kr.com/p/3852759269980800",
-        "summary": "牌刚打出来，监管先一步坐上了牌桌。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T09:52:39+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "中国公司全球化周报｜蚂蚁国际拟融资10亿美元 / Shopee持续领跑东南亚区域市场，六国总访问量达5.28亿次",
-        "url": "https://www.36kr.com/p/3852502002144261",
-        "normalized_url": "https://www.36kr.com/p/3852502002144261",
-        "summary": "聚焦中国公司全球化大事，36氪出海致力于消除信息差，让读者将本周最值得关注的大事件尽收眼底。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T05:37:21+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "砸了百亿的“神器”，正在很多人家里吃灰",
-        "url": "https://www.36kr.com/p/3852500679021571",
-        "normalized_url": "https://www.36kr.com/p/3852500679021571",
-        "summary": "上头快，下头也不慢。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T04:07:11+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "华人AI工程师也搭上了SpaceX的财富火箭",
-        "url": "https://www.36kr.com/p/3852485841156997",
-        "normalized_url": "https://www.36kr.com/p/3852485841156997",
-        "summary": "从多模态到代码智能体，xAI里的华人AI工程师也被装进了SpaceX上市故事。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T04:04:06+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东",
-        "url": "https://www.36kr.com/p/3852376401220868",
-        "normalized_url": "https://www.36kr.com/p/3852376401220868",
-        "summary": "Claude开启退款，金额按剩余时长折算。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T03:08:36+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "94亿，机器人今年最大的一笔融资出现了",
-        "url": "https://www.36kr.com/p/3852393615136001",
-        "normalized_url": "https://www.36kr.com/p/3852393615136001",
-        "summary": "德国Neura人形机器人获14亿美元C轮融资，赛道转向工厂落地",
-        "source": "36Kr AI",
-        "published": "2026-06-14T02:44:58+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "谷歌官宣3万字路线图：1亿人类水平的AI就是ASI！",
-        "url": "https://www.36kr.com/p/3852349905900544",
-        "normalized_url": "https://www.36kr.com/p/3852349905900544",
-        "summary": "【新智元导读】1000个实例每年翻10倍，五年后就是一亿个AI！谷歌DeepMind推演：一亿个共享大脑、思考快百倍的AI，本身就是ASI。但前路还有六道「叹息之墙」。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T01:34:33+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
-        "url": "https://www.36kr.com/p/3851572421432324",
-        "normalized_url": "https://www.36kr.com/p/3851572421432324",
-        "summary": "从睡眠伴侣、卧室情绪管家延伸到覆盖全屋的关护中枢。",
-        "source": "36Kr AI",
-        "published": "2026-06-14T01:30:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
         "title": "HuggingFace CEO力荐，Bengio团队也押注：这个1500美元训出的HRM模型，凭什么火了？",
         "url": "https://www.qbitai.com/2026/06/435483.html",
         "normalized_url": "https://www.qbitai.com/2026/06/435483.html",
@@ -770,28 +640,15 @@
       },
       {
         "category": "news",
-        "title": "SpaceX IPO: Live updates on everything you need to know",
-        "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
-        "normalized_url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know",
-        "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-12T23:15:14+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-        "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-        "normalized_url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it",
-        "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-12T23:00:54+00:00",
+        "title": "China may have accessed Mythos",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+        "summary": "According to a new report from Semafor, the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security […]",
+        "source": "The Verge AI",
+        "published": "2026-06-14T18:27:55+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
       },
       {
