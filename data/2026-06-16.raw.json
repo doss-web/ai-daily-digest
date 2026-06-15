@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated_at": "2026-06-16T06:33:36.695833+08:00",
+  "generated_at": "2026-06-16T07:51:17.094613+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -484,6 +484,110 @@
     "news": [
       {
         "category": "news",
+        "title": "告别“挂羊头卖狗肉”，基金公司出手，“第一批整改已经落地”",
+        "url": "https://www.36kr.com/p/3854449046574339",
+        "normalized_url": "https://www.36kr.com/p/3854449046574339",
+        "summary": "《指引》治理公募风格漂移，推动行业良性发展",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:49:16+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "阿里为什么传出“周靖人离职”谣言？",
+        "url": "https://www.36kr.com/p/3854443434670722",
+        "normalized_url": "https://www.36kr.com/p/3854443434670722",
+        "summary": "一场被辟谣的“离职”与一场真实的“放逐”",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:47:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "怎么做信任，聊聊“不用做流量”的商业模式",
+        "url": "https://www.36kr.com/p/3854440075940872",
+        "normalized_url": "https://www.36kr.com/p/3854440075940872",
+        "summary": "感觉我也是爹味十足，唠唠叨叨说个没完，但真的没办法",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:43:49+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "多个老将退场，宝洁高层巨变",
+        "url": "https://www.36kr.com/p/3854490328683778",
+        "normalized_url": "https://www.36kr.com/p/3854490328683778",
+        "summary": "40年老将退场，30年从业经验的女高管即将上任。",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:28:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI时代，最不值钱的就是“努力”",
+        "url": "https://www.36kr.com/p/3854490126275843",
+        "normalized_url": "https://www.36kr.com/p/3854490126275843",
+        "summary": "AI时代，普通人的活法。",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:26:50+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "配音师困在AI里：声音被盗后火遍全网，真人却快失业了",
+        "url": "https://www.36kr.com/p/3854402897574787",
+        "normalized_url": "https://www.36kr.com/p/3854402897574787",
+        "summary": "一个配音师的声音被偷了。",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:22:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "曝林俊旸获腾讯投资：首轮估值135亿，新一轮融资已开启",
+        "url": "https://www.36kr.com/p/3854438054417670",
+        "normalized_url": "https://www.36kr.com/p/3854438054417670",
+        "summary": "“林俊旸”名下，多了3家新公司。",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:16:44+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "没有腾讯，燧原还剩什么？",
+        "url": "https://www.36kr.com/p/3854325188672131",
+        "normalized_url": "https://www.36kr.com/p/3854325188672131",
+        "summary": "放下“英伟达幻想”，国产GPU四小龙全面进入订单割据时代。",
+        "source": "36Kr AI",
+        "published": "2026-06-15T23:00:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "Pocket 4P双摄来了：手机影像之外，大疆正在重做一台“口袋电影机”",
         "url": "https://www.36kr.com/p/3854510160549124",
         "normalized_url": "https://www.36kr.com/p/3854510160549124",
@@ -504,110 +608,6 @@
         "source": "36Kr AI",
         "published": "2026-06-15T13:48:20+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "用AI定义汽车，AIVA能否跑通新的造车路径",
-        "url": "https://www.36kr.com/p/3854292624446473",
-        "normalized_url": "https://www.36kr.com/p/3854292624446473",
-        "summary": "汽车将成为随AI能力进化的“智能生命体”。",
-        "source": "36Kr AI",
-        "published": "2026-06-15T13:35:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "八年亏了100亿，广东60后老板，做芯片代工，冲刺A股IPO",
-        "url": "https://www.36kr.com/p/3854368669668357",
-        "normalized_url": "https://www.36kr.com/p/3854368669668357",
-        "summary": "粤芯半导体过IPO，聚焦成熟制程卡位国产替代。",
-        "source": "36Kr AI",
-        "published": "2026-06-15T13:24:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "1680份员工履历揭开Anthropic招人底牌：「基础设施老兵」更吃香",
-        "url": "https://www.36kr.com/p/3854356944311297",
-        "normalized_url": "https://www.36kr.com/p/3854356944311297",
-        "summary": "「不招应届生、只要资深工程师」！",
-        "source": "36Kr AI",
-        "published": "2026-06-15T13:14:38+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "“我花近万元买的智能眼镜，最近不敢戴出门”",
-        "url": "https://www.36kr.com/p/3854356284134406",
-        "normalized_url": "https://www.36kr.com/p/3854356284134406",
-        "summary": "“如果用户知道自己真正录下了什么，恐怕没人敢继续戴这款眼镜。”",
-        "source": "36Kr AI",
-        "published": "2026-06-15T13:13:32+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Claude Fable 5 平替指南突然爆火，真能一句话「复活」？",
-        "url": "https://www.36kr.com/p/3854354308961287",
-        "normalized_url": "https://www.36kr.com/p/3854354308961287",
-        "summary": "三个臭皮匠，顶个诸葛亮？",
-        "source": "36Kr AI",
-        "published": "2026-06-15T13:10:26+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Fable 5被禁3天后Anthropic认怂，连夜急派员工赴华盛顿谈判：GPT 5.5有同款漏洞",
-        "url": "https://www.36kr.com/p/3854350752617737",
-        "normalized_url": "https://www.36kr.com/p/3854350752617737",
-        "summary": "当前，Fable 5 能否回归取决于 Anthropic 与政府就出口管制分类进行的谈判。",
-        "source": "36Kr AI",
-        "published": "2026-06-15T13:08:51+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Space X：天空之网，要无敌了？",
-        "url": "https://www.36kr.com/p/3854348359275777",
-        "normalized_url": "https://www.36kr.com/p/3854348359275777",
-        "summary": "这头“超级现金牛”究竟是如何炼成的？",
-        "source": "36Kr AI",
-        "published": "2026-06-15T13:06:59+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "五分钟到清华，一座楼里的AI创业众生相",
-        "url": "https://www.36kr.com/p/3854347644680837",
-        "normalized_url": "https://www.36kr.com/p/3854347644680837",
-        "summary": "离清华近一点，就离未来近一点？",
-        "source": "36Kr AI",
-        "published": "2026-06-15T12:57:56+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
