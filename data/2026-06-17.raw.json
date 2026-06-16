@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "generated_at": "2026-06-17T06:29:43.908938+08:00",
+  "generated_at": "2026-06-17T07:39:46.906853+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -8,6 +8,19 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Attacks on Machine-Text Detectors Retain Stylistic Fingerprints",
+        "url": "https://huggingface.co/papers/2505.14608",
+        "normalized_url": "https://huggingface.co/papers/2505.14608",
+        "summary": "Despite considerable progress in the development of machine-text detectors, the ease with which machine-text can be manipulated to evade detection has led to suggestions that the problem is inherently intractable. In this work, we investigate the limits of such evasion strategies. We demonstrate that while current attacks, ranging from prompt engineering to detector-guided optimization can effectively degrade performance of standard detectors, they fail to erase the underlying stylistic \"fingerp",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-08T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2505.14608"
+        }
+      },
       {
         "category": "papers",
         "title": "You Don't Need Strong Assumptions: Visual Representation Learning via Temporal Differences",
@@ -253,19 +266,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2606.16011"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking",
-        "url": "https://huggingface.co/papers/2606.15673",
-        "normalized_url": "https://huggingface.co/papers/2606.15673",
-        "summary": "Web agents act through long interaction sequences, yet existing benchmarks evaluate only terminal success, discarding all process information and offering little guidance on improvement. In this work, we conduct a process-level analysis of web agents. We introduce WebStep, a benchmark of 1,800 task instances with controlled difficulty and automatic semantic state tracking. Each website exposes a deterministic semantic MDP alongside the GUI: the agent operates on the interface, while the environm",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-08T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.15673"
         }
       }
     ],
@@ -757,6 +757,19 @@
       },
       {
         "category": "news",
+        "title": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
+        "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+        "normalized_url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
+        "summary": "Anthropic's popularity with business users is growing so well that the latest beef with the government might actually boost it, data from Ramp suggests.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-16T22:34:17+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
         "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
         "normalized_url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon",
@@ -867,19 +880,6 @@
         "summary": "The deal is supposed to help SpaceX's struggling AI division. The company told IPO investors it sees a $26 trillion addressable market in AI.",
         "source": "TechCrunch AI",
         "published": "2026-06-16T11:21:41+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "ChatGPT’s market share slips below 50% for first time",
-        "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
-        "normalized_url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time",
-        "summary": "The chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-16T10:30:00+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
