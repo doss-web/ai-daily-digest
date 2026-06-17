@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI 每日简报 · AI Daily Digest</title>
+    <link>https://jimmuji.github.io/ai-daily-digest/</link>
+    <language>zh-cn</language>
+    <description>每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · 智能筛选 · 语音播报。</description>
+    <itunes:author>AI Daily Digest</itunes:author>
+    <itunes:summary>每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · 智能筛选 · 语音播报。</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
+    <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
+    <item>
+      <title>AI 每日简报 · 2026-06-17 周三</title>
+      <description>AI 每日简报，周三，2026-06-17。以下是今天的重点。
+行业新闻。
+Anthropic 与白宫爆发冲突，Claude Fable 5 被要求下线。美国出口管制指令要求 Anthropic 暂停对海外用户（包括其自身外籍员工）开放其最新模型 Fable 5 和 Mythos 5，Anthropic 高管赴华盛顿谈判后仍存分歧。
+Anthropic 与政府冲突反促商业增长，销售数据表明。根据 Ramp 的数据，Anthropic 与特朗普政府的公开争执反而提升了其在企业用户中的受欢迎程度。
+SpaceX 以 600 亿美元股票收购 Cursor。SpaceX 在 IPO 数日后宣布以 600 亿美元股票收购 AI 编程工具公司 Cursor，旨在强化其 AI 部门并争夺企业客户。
+Google 发布 Android 17，深度集成 Gemini AI 功能。Android 17 和 Wear OS 7 正式发布，引入全新多任务工具、家长控制和安全功能，并伴随 Pixel Drop 将 Google 最新 AI 模型部署至设备端。
+阿里发布首个具身大模型 Qwen-Robot 系列。阿里巴巴推出 Qwen-Robot 系列模型，实现机器人“边走、边看、边思考”的全身协同能力。
+一个模型控制手脚腰身，机器人学会全身协同干精细活。研究团队提出新方法，让机器人首次实现全身协同完成精细操作任务。
+Facebook 推出 AI Mode 搜索，基于公开帖子生成结果。Meta 在 Facebook 中推出 AI Mode 搜索功能，搜索结果基于用户公开帖子生成，同时推出多项新 AI 功能。
+Meta CTO 承认公司 AI 重组“糟糕透顶”。Andrew Bosworth 在内部备忘录中承认 AI 重组执行不力，承诺将改善稳定性、沟通和员工福利。
+Meta 与五角大楼供应商合作，为智能眼镜原型开发面部识别。Meta 与 Rank One Computing（其董事会包括前 CIA 副局长）合作，为其智能眼镜应用开发面部识别功能。
+Qualcomm 发布 Snapdragon Reality Elite 芯片，为下一代智能眼镜铺路。高通发布新款 XR 芯片，旨在为更强大的智能眼镜设备提供算力支持。
+DeepSeek 融资细节曝光：梁文锋如何保住控制权。报道揭示了 DeepSeek 融资过程中的关键条款设计，梁文锋通过精妙架构保持对公司的控制权。
+Plaud 软件业务 ARR 突破 1 亿美元，AI 记事本出货超 200 万台。Plaud 宣布其 AI 会议记录硬件配套软件业务年经常性收入突破 1 亿美元。
+Probably 获 900 万美元融资，打造更可靠的 AI 系统。Probably 旨在防止 AI 产生幻觉和事实错误，追求达到确定性系统级别的准确率。
+微信支付“AI 专属卡”最快本周上线。微信支付即将推出 AI 专属卡功能，或将改变支付行业格局。
+重要论文。
+ExpRL：利用探索性强化学习提升 LLM 推理能力。提出一种通过 RL 探索自动发现有用推理原语（如分解、验证、自我修正）的方法，替代人工标注推理轨迹。
+Human Universal Grasping (HUG)：从人类抓取数据学习通用机器人抓取。通过智能眼镜收集 100 万帧第一人称抓取数据，训练流匹配模型生成多样化抓取姿态。
+LaWAM：潜在世界动作模型，实现高效动力学感知机器人策略。在潜空间中预测动作后果，避免昂贵的像素级视频生成，实现高效机器人控制。
+Ling 和 Ring 2.6 技术报告：万亿参数规模的高效即时智能体。Ling-2.6 优化即时响应生成，Ring-2.6 专注深度推理，实现高效训练、服务和部署。
+Prompt-Level Distillation：提示级蒸馏，替代模型微调的高效推理方案。从教师模型中提取推理模式并组织为结构化提示列表，无需微调即可提升小模型推理能力。
+DreamX-World 1.0：通用交互式世界模型。支持可控长时视频生成，包括相机导航、场景重访和可提示事件，覆盖真实、游戏和风格化领域。
+MVEB：大规模视频嵌入基准测试。包含 23 个任务的视频嵌入基准，评估 33 个模型，发现 MLLM 嵌入在多数任务上领先。
+MMDiff：将扩散</description>
+      <itunes:summary>AI 每日简报，周三，2026-06-17。以下是今天的重点。
+行业新闻。
+Anthropic 与白宫爆发冲突，Claude Fable 5 被要求下线。美国出口管制指令要求 Anthropic 暂停对海外用户（包括其自身外籍员工）开放其最新模型 Fable 5 和 Mythos 5，Anthropic 高管赴华盛顿谈判后仍存分歧。
+Anthropic 与政府冲突反促商业增长，销售数据表明。根据 Ramp 的数据，Anthropic 与特朗普政府的公开争执反而提升了其在企业用户中的受欢迎程度。
+SpaceX 以 600 亿美元股票收购 Cursor。SpaceX 在 IPO 数日后宣布以 600 亿美元股票收购 AI 编程工具公司 Cursor，旨在强化其 AI 部门并争夺企业客户。
+Google 发布 Android 17，深度集成 Gemini AI 功能。Android 17 和 Wear OS 7 正式发布，引入全新多任务工具、家长控制和安全功能，并伴随 Pixel Drop 将 Google 最新 AI 模型部署至设备端。
+阿里发布首个具身大模型 Qwen-Robot 系列。阿里巴巴推出 Qwen-Robot 系列模型，实现机器人“边走、边看、边思考”的全身协同能力。
+一个模型控制手脚腰身，机器人学会全身协同干精细活。研究团队提出新方法，让机器人首次实现全身协同完成精细操作任务。
+Facebook 推出 AI Mode 搜索，基于公开帖子生成结果。Meta 在 Facebook 中推出 AI Mode 搜索功能，搜索结果基于用户公开帖子生成，同时推出多项新 AI 功能。
+Meta CTO 承认公司 AI 重组“糟糕透顶”。Andrew Bosworth 在内部备忘录中承认 AI 重组执行不力，承诺将改善稳定性、沟通和员工福利。
+Meta 与五角大楼供应商合作，为智能眼镜原型开发面部识别。Meta 与 Rank One Computing（其董事会包括前 CIA 副局长）合作，为其智能眼镜应用开发面部识别功能。
+Qualcomm 发布 Snapdragon Reality Elite 芯片，为下一代智能眼镜铺路。高通发布新款 XR 芯片，旨在为更强大的智能眼镜设备提供算力支持。
+DeepSeek 融资细节曝光：梁文锋如何保住控制权。报道揭示了 DeepSeek 融资过程中的关键条款设计，梁文锋通过精妙架构保持对公司的控制权。
+Plaud 软件业务 ARR 突破 1 亿美元，AI 记事本出货超 200 万台。Plaud 宣布其 AI 会议记录硬件配套软件业务年经常性收入突破 1 亿美元。
+Probably 获 900 万美元融资，打造更可靠的 AI 系统。Probably 旨在防止 AI 产生幻觉和事实错误，追求达到确定性系统级别的准确率。
+微信支付“AI 专属卡”最快本周上线。微信支付即将推出 AI 专属卡功能，或将改变支付行业格局。
+重要论文。
+ExpRL：利用探索性强化学习提升 LLM 推理能力。提出一种通过 RL 探索自动发现有用推理原语（如分解、验证、自我修正）的方法，替代人工标注推理轨迹。
+Human Universal Grasping (HUG)：从人类抓取数据学习通用机器人抓取。通过智能眼镜收集 100 万帧第一人称抓取数据，训练流匹配模型生成多样化抓取姿态。
+LaWAM：潜在世界动作模型，实现高效动力学感知机器人策略。在潜空间中预测动作后果，避免昂贵的像素级视频生成，实现高效机器人控制。
+Ling 和 Ring 2.6 技术报告：万亿参数规模的高效即时智能体。Ling-2.6 优化即时响应生成，Ring-2.6 专注深度推理，实现高效训练、服务和部署。
+Prompt-Level Distillation：提示级蒸馏，替代模型微调的高效推理方案。从教师模型中提取推理模式并组织为结构化提示列表，无需微调即可提升小模型推理能力。
+DreamX-World 1.0：通用交互式世界模型。支持可控长时视频生成，包括相机导航、场景重访和可提示事件，覆盖真实、游戏和风格化领域。
+MVEB：大规模视频嵌入基准测试。包含 23 个任务的视频嵌入基准，评估 33 个模型，发现 MLLM 嵌入在多数任务上领先。
+MMDiff：将扩散</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-17.mp3" length="2935584" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-17.mp3</guid>
+      <pubDate>Wed, 17 Jun 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>08:09</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
+      <title>AI 每日简报 · 2026-06-02 周二</title>
+      <description>AI 每日简报，周二，2026-06-02。以下是今天的重点。
+行业新闻。
+Anthropic 正式提交 IPO 申请，或将成为史上最大规模 AI 公司上市。Anthropic 已向 SEC 秘密提交上市文件，继 SpaceX 之后又一重磅 IPO。
+英伟达发布 RTX Spark 自研 CPU，联手微软、戴尔、惠普打造 AI Agent PC。英伟达正式进军消费级 CPU 市场，推出基于 Arm 架构的芯片，旨在将 AI Agent 能力带到个人电脑。
+Google 发布 Gemini Spark AI Agent，全天候替你执行任务。Google 推出 &quot;24/7&quot; AI Agent，可在浏览器中自主完成复杂任务，但存在隐私和成本顾虑。
+Microsoft Build 大会前瞻：新 AI 模型和 Windows 重大改进即将发布。微软将在本周 Build 大会上展示全新 AI 模型及 Windows 开发模式更新，被视为公司转型的关键时刻。
+OpenAI 重返机器人赛道，四大核心岗位开放招聘。OpenAI 重新启动机器人项目，招聘年薪超 200 万的工程岗位。
+VAST 完成近 2 亿美元融资，正式披露世界模型技术路线。3D AI 公司 VAST 获巨额融资，主打多人实时同屏场景生成。
+佛罗里达州起诉 OpenAI 和 Sam Altman，指控 ChatGPT 与暴力事件有关。首例州政府针对 AI 公司提起的诉讼，涉及校园枪击案中 AI 的角色认定。
+AI 天气创业公司 WindBorne 超越政府机构预报水平。利用 400 个气球实时采集数据，结合自研模型实现更精准的天气预报。
+Alphabet 计划筹资 800 亿美元用于 AI 基础设施建设。Google 母公司称企业及消费者对 AI 服务的需求远超现有供应能力。
+Meta 的 AI 客服机器人被利用来劫持 Instagram 账号。黑客通过诱导 Meta AI 客服修改账户邮箱实现账号盗取。
+DuckDuckGo 推出 &quot;无 AI&quot; 浏览器扩展，流量激增。反 AI 搜索引擎 DuckDuckGo 为 Chrome 和 Firefox 发布无 AI 扩展，用户增长显著。
+Majestic Labs 发布新 AI 服务器，试图突破 &quot;内存墙&quot; 瓶颈。针对 LLM 推理的内存带宽限制，新硬件架构直接解决 token 生成速度瓶颈。
+复旦 × 通义提出全新 CUA 训练范式：别光给 Agent 加 Tool，它根本选不明白。研究发现 Agent 在多个工具间选择能力不足，提出新一代训练方法。
+重要论文。
+Mellum 2 技术报告发布：12B 参数 MoE 代码专用模型。开源 12B 参数 MoE 模型，2.5B 活跃参数，专注软件工程全流程，支持代码生成、调试、Agent 编程。
+从模型扩展到系统扩展：Agentic AI 的 &quot;缰绳&quot; 缩放。论文提出未来 Agent AI 的瓶颈在于系统架构设计（harness scaling），而非模型参数缩放。
+物理 AI 推理的 &quot;内存墙&quot; 真相：Batch-1 LLM 解码并非受限于带宽。研究发现单流推理场景下，延迟瓶颈来自内存容量而非带宽，颠覆传统认知。
+VisualThink-VLA：视觉中间推理实现低延迟视觉-语言-动作策略。提出用视觉推理替代文本 Chain-of-Thought，大幅降低 VLA 策略的推理延迟。
+GrepSeek：训练搜索 Agent 直接与文本库交互。让 LLM Agent 将语料库本身作为搜索环境，通过 grep 操作替代传统检索器。
+材料版 AlphaFold 来了！40 个工业任务全面 SOTA。结合 LLM 训练方法，材料 AI 首次学会 &quot;物理直觉&quot;，在工业任务中取得突破。
+开源项目。
+codegraph：预索引代码知识图谱，为 AI 编程助手减负。为 Claude Code、Codex、Gemini、Cursor 等工具提供本地代码知识图谱，减少 token 消耗和工具调用次数。
+hermes-webui：Hermes Agent 的 Web 界面。提供浏览器端和移动端使用 Hermes Agent 的最佳体验。
+headroom：压缩工具输出和日志，减少 60-95% token 消耗。在 </description>
+      <itunes:summary>AI 每日简报，周二，2026-06-02。以下是今天的重点。
+行业新闻。
+Anthropic 正式提交 IPO 申请，或将成为史上最大规模 AI 公司上市。Anthropic 已向 SEC 秘密提交上市文件，继 SpaceX 之后又一重磅 IPO。
+英伟达发布 RTX Spark 自研 CPU，联手微软、戴尔、惠普打造 AI Agent PC。英伟达正式进军消费级 CPU 市场，推出基于 Arm 架构的芯片，旨在将 AI Agent 能力带到个人电脑。
+Google 发布 Gemini Spark AI Agent，全天候替你执行任务。Google 推出 &quot;24/7&quot; AI Agent，可在浏览器中自主完成复杂任务，但存在隐私和成本顾虑。
+Microsoft Build 大会前瞻：新 AI 模型和 Windows 重大改进即将发布。微软将在本周 Build 大会上展示全新 AI 模型及 Windows 开发模式更新，被视为公司转型的关键时刻。
+OpenAI 重返机器人赛道，四大核心岗位开放招聘。OpenAI 重新启动机器人项目，招聘年薪超 200 万的工程岗位。
+VAST 完成近 2 亿美元融资，正式披露世界模型技术路线。3D AI 公司 VAST 获巨额融资，主打多人实时同屏场景生成。
+佛罗里达州起诉 OpenAI 和 Sam Altman，指控 ChatGPT 与暴力事件有关。首例州政府针对 AI 公司提起的诉讼，涉及校园枪击案中 AI 的角色认定。
+AI 天气创业公司 WindBorne 超越政府机构预报水平。利用 400 个气球实时采集数据，结合自研模型实现更精准的天气预报。
+Alphabet 计划筹资 800 亿美元用于 AI 基础设施建设。Google 母公司称企业及消费者对 AI 服务的需求远超现有供应能力。
+Meta 的 AI 客服机器人被利用来劫持 Instagram 账号。黑客通过诱导 Meta AI 客服修改账户邮箱实现账号盗取。
+DuckDuckGo 推出 &quot;无 AI&quot; 浏览器扩展，流量激增。反 AI 搜索引擎 DuckDuckGo 为 Chrome 和 Firefox 发布无 AI 扩展，用户增长显著。
+Majestic Labs 发布新 AI 服务器，试图突破 &quot;内存墙&quot; 瓶颈。针对 LLM 推理的内存带宽限制，新硬件架构直接解决 token 生成速度瓶颈。
+复旦 × 通义提出全新 CUA 训练范式：别光给 Agent 加 Tool，它根本选不明白。研究发现 Agent 在多个工具间选择能力不足，提出新一代训练方法。
+重要论文。
+Mellum 2 技术报告发布：12B 参数 MoE 代码专用模型。开源 12B 参数 MoE 模型，2.5B 活跃参数，专注软件工程全流程，支持代码生成、调试、Agent 编程。
+从模型扩展到系统扩展：Agentic AI 的 &quot;缰绳&quot; 缩放。论文提出未来 Agent AI 的瓶颈在于系统架构设计（harness scaling），而非模型参数缩放。
+物理 AI 推理的 &quot;内存墙&quot; 真相：Batch-1 LLM 解码并非受限于带宽。研究发现单流推理场景下，延迟瓶颈来自内存容量而非带宽，颠覆传统认知。
+VisualThink-VLA：视觉中间推理实现低延迟视觉-语言-动作策略。提出用视觉推理替代文本 Chain-of-Thought，大幅降低 VLA 策略的推理延迟。
+GrepSeek：训练搜索 Agent 直接与文本库交互。让 LLM Agent 将语料库本身作为搜索环境，通过 grep 操作替代传统检索器。
+材料版 AlphaFold 来了！40 个工业任务全面 SOTA。结合 LLM 训练方法，材料 AI 首次学会 &quot;物理直觉&quot;，在工业任务中取得突破。
+开源项目。
+codegraph：预索引代码知识图谱，为 AI 编程助手减负。为 Claude Code、Codex、Gemini、Cursor 等工具提供本地代码知识图谱，减少 token 消耗和工具调用次数。
+hermes-webui：Hermes Agent 的 Web 界面。提供浏览器端和移动端使用 Hermes Agent 的最佳体验。
+headroom：压缩工具输出和日志，减少 60-95% token 消耗。在 </itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-02.mp3" length="2173536" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-02.mp3</guid>
+      <pubDate>Tue, 02 Jun 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>06:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+  </channel>
+</rss>

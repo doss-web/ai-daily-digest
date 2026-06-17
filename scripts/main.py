@@ -14,6 +14,7 @@ import requests
 from sources import fetch_all
 from summarize import summarize
 from generate_site import generate_site
+from audio import generate_audio
 
 
 def send_to_buttondown(subject: str, markdown: str) -> None:
@@ -97,13 +98,21 @@ def main():
     else:
         print("          No English version generated.")
 
-    # Step 5: Rebuild static site
-    print("\n[Step 5] Rebuilding static site...")
+    # Step 5: Synthesize voice broadcast (MP3 for commute listening)
+    print("\n[Step 5] Generating voice broadcast...")
+    audio_dir = Path(__file__).parent.parent / "docs" / "audio"
+    try:
+        generate_audio(markdown, date_str, audio_dir)
+    except Exception as e:
+        print(f"  Audio generation skipped: {e}")
+
+    # Step 6: Rebuild static site (picks up today's audio + podcast feed)
+    print("\n[Step 6] Rebuilding static site...")
     generate_site(root=Path(__file__).parent.parent)
     print("  Site rebuilt → docs/")
 
-    # Step 6: Send to Buttondown subscribers
-    print("\n[Step 6] Sending to Buttondown subscribers...")
+    # Step 7: Send to Buttondown subscribers
+    print("\n[Step 7] Sending to Buttondown subscribers...")
     subject = f"AI Daily Digest · {date_str}"
     send_to_buttondown(subject, markdown)
 

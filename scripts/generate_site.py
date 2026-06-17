@@ -13,12 +13,15 @@ import json
 import re
 import markdown as md_lib
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+from email.utils import format_datetime
+from xml.sax.saxutils import escape as _xml_escape
 
 
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 WEEKDAYS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 REPO_URL = "https://github.com/Jimmuji/ai-daily-digest"
+SITE_URL = "https://jimmuji.github.io/ai-daily-digest/"
 
 
 # ── CSS ────────────────────────────────────────────────────────────────────────
@@ -234,6 +237,49 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
 .trend-tag.s1 { font-size: 13px; }
 .trend-tag.s2 { font-size: 14px; }
 .trend-tag.s3 { font-size: 16px; font-weight: 600; }
+
+/* ── Audio player (voice broadcast) ── */
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.25);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin: 0 0 28px;
+}
+.audio-player .ap-label {
+  font-size: 14px; font-weight: 600; color: #58a6ff;
+  display: flex; align-items: center; gap: 6px; white-space: nowrap;
+}
+.audio-player .ap-sub { font-size: 12px; color: var(--text-muted); }
+.audio-player audio { flex: 1; min-width: 220px; height: 38px; }
+.audio-player .ap-text { display: flex; flex-direction: column; gap: 2px; }
+
+/* Subscribe-to-podcast button */
+.podcast-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 13px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: border-color .15s, transform .15s;
+}
+.podcast-cta:hover { border-color: #58a6ff; transform: translateY(-1px); text-decoration: none; }
+.podcast-hint {
+  margin-top: 14px; font-size: 12px; color: var(--text-muted);
+  word-break: break-all;
+}
+.podcast-hint code {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 6px; padding: 2px 6px; color: var(--text-soft);
+}
+.audio-badge { font-size: 13px; margin-left: 6px; }
 
 /* ── Speak (TTS) button ── */
 .speak-btn {
@@ -686,6 +732,37 @@ JS = """
     });
   });
   window.addEventListener('beforeunload', function () { if (synth) synth.cancel(); });
+
+  // ── Audio player: lock-screen / car metadata via MediaSession ──
+  document.querySelectorAll('.audio-player audio').forEach(function (audio) {
+    audio.addEventListener('play', function () {
+      if (!('mediaSession' in navigator)) return;
+      var date = audio.getAttribute('data-date') || '';
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: 'AI 每日简报 · ' + date,
+          artist: 'AI Daily Digest',
+          album: 'AI 每日简报',
+          artwork: [{ src: BASE + 'podcast-cover.png', sizes: '1400x1400', type: 'image/png' }]
+        });
+      } catch (e) {}
+    });
+  });
+
+  // ── Copy podcast feed URL ──
+  document.querySelectorAll('[data-copy-feed]').forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      e.preventDefault();
+      var url = el.getAttribute('data-copy-feed');
+      var done = function () {
+        var old = el.textContent;
+        el.textContent = (window.CUR_LANG === 'en' ? '✓ Copied!' : '✓ 已复制订阅链接');
+        setTimeout(function () { el.textContent = old; }, 1800);
+      };
+      if (navigator.clipboard) { navigator.clipboard.writeText(url).then(done, done); }
+      else { done(); }
+    });
+  });
 })();
 """
 
@@ -960,6 +1037,34 @@ def build_digest_body(digest: dict, lang: str = "zh") -> str:
     </div>"""
 
 
+def build_audio_player(date_str: str, base: str) -> str:
+    """An inline voice-broadcast player for a day that has an MP3."""
+    return f"""
+    <div class="audio-player">
+      <div class="ap-text">
+        <span class="ap-label">🎧 {bi("语音播报", "Listen")}</span>
+        <span class="ap-sub">{bi("通勤路上用耳朵看简报", "Catch the digest on your commute")}</span>
+      </div>
+      <audio controls preload="none" src="{base}audio/{date_str}.mp3" data-date="{date_str}"></audio>
+    </div>"""
+
+
+def build_podcast_cta(base: str) -> str:
+    """Subscribe-to-podcast call-to-action (RSS feed link + copyable URL)."""
+    feed_url = SITE_URL + "podcast.xml"
+    return f"""
+    <div style="text-align:center; margin-top:20px;">
+      <a class="podcast-cta" href="{base}podcast.xml" target="_blank" rel="noopener">
+        🎧 {bi("订阅播客 · 每天通勤听", "Subscribe · listen on the go")}
+      </a>
+      <div class="podcast-hint">
+        {bi("在 Apple 播客 / 小宇宙 / Pocket Casts 中添加订阅源：", "Add this feed in Apple Podcasts / Pocket Casts / Spotify:")}
+        <code>{feed_url}</code>
+        <a href="#" data-copy-feed="{feed_url}" style="margin-left:8px;">{bi("复制", "Copy")}</a>
+      </div>
+    </div>"""
+
+
 def render_digest_dual(zh_digest: dict, en_digest: dict | None) -> str:
     """Render the zh body; if an en digest exists, also render an en body.
 
@@ -999,16 +1104,18 @@ def state_script(dates: list[str], current: str | None,
 
 def build_day_html(date_str: str, digest: dict, dates: list[str],
                    prev_date: str | None, next_date: str | None,
-                   en_digest: dict | None = None) -> str:
+                   en_digest: dict | None = None, has_audio: bool = False) -> str:
     weekday = bi(f"{weekday_of(date_str)} · {date_str}",
                  f"{weekday_of(date_str, 'en')} · {date_str}")
     title = bi("AI 每日简报", "AI Daily Digest")
+    audio_html = build_audio_player(date_str, "../") if has_audio else ""
     body = f"""
     <div class="container">
       <div class="day-hero">
         <div class="date-str">{weekday}</div>
         <h1>{title}</h1>
       </div>
+      {audio_html}
       {render_digest_dual(digest, en_digest)}
       <div class="day-nav">
         {f'<a class="nav-btn" href="{prev_date}.html">← {prev_date}</a>' if prev_date else '<span></span>'}
@@ -1103,18 +1210,21 @@ def build_trends_html(trends: list, window: int) -> str:
 
 def build_index_html(dates: list[str], latest_digest: dict,
                      trends_html: str = "",
-                     latest_en_digest: dict | None = None) -> str:
+                     latest_en_digest: dict | None = None,
+                     audio_dates: set | None = None) -> str:
     latest = dates[-1] if dates else ""
+    audio_dates = audio_dates or set()
 
     # Archive grid (newest first)
     cards = ""
     for i, d in enumerate(reversed(dates)):
         badge = (f'<div class="latest-badge">{bi("最新", "Latest")}</div>'
                  if i == 0 else "")
+        mic = '<span class="audio-badge" title="有语音播报">🎧</span>' if d in audio_dates else ""
         weekday_cell = bi(weekday_of(d), weekday_of(d, "en"))
         cards += f"""
         <a class="date-card" href="daily/{d}.html">
-          <div class="date-label">{d}</div>
+          <div class="date-label">{d}{mic}</div>
           <div class="weekday">{weekday_cell}</div>
           {badge}
         </a>"""
@@ -1123,9 +1233,13 @@ def build_index_html(dates: list[str], latest_digest: dict,
     if latest_digest:
         latest_label = bi(f"📅 最新一期 · {latest} {weekday_of(latest)}",
                           f"📅 Latest · {latest} {weekday_of(latest, 'en')}")
+        latest_audio = build_audio_player(latest, "") if latest in audio_dates else ""
         latest_section = f"""
       <div class="section-title">{latest_label}</div>
+      {latest_audio}
       {render_digest_dual(latest_digest, latest_en_digest)}"""
+
+    podcast_cta = build_podcast_cta("") if audio_dates else ""
 
     body = f"""
     <div class="container">
@@ -1137,6 +1251,7 @@ def build_index_html(dates: list[str], latest_digest: dict,
           <div class="stat"><div class="num">12+</div><div class="lbl">{bi("数据源", "sources")}</div></div>
           <div class="stat"><div class="num">{bi("每日", "Daily")}</div><div class="lbl">{bi("自动更新", "auto-updated")}</div></div>
         </div>
+        {podcast_cta}
       </div>
       {trends_html}
       {latest_section}
@@ -1189,6 +1304,92 @@ def build_search_index(parsed_by_date: dict, parsed_by_date_en: dict | None = No
     return index
 
 
+# ── Podcast RSS feed ──────────────────────────────────────────────────────────
+
+def xml_escape(s: str) -> str:
+    return _xml_escape(s or "", {'"': "&quot;"})
+
+
+def _episode_pubdate(date_str: str) -> str:
+    """RFC-822 date at 08:00 Beijing (when the digest publishes)."""
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d").replace(
+            hour=8, tzinfo=timezone(timedelta(hours=8)))
+        return format_datetime(dt)
+    except Exception:
+        return ""
+
+
+def _mp3_meta(path: Path):
+    """(size_bytes, 'MM:SS' duration). Duration empty if mutagen unavailable."""
+    size = path.stat().st_size
+    duration = ""
+    try:
+        from mutagen.mp3 import MP3
+        secs = int(MP3(str(path)).info.length)
+        h, rem = divmod(secs, 3600)
+        m, s = divmod(rem, 60)
+        duration = f"{h}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
+    except Exception:
+        pass
+    return size, duration
+
+
+PODCAST_DESC = "每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · 智能筛选 · 语音播报。"
+
+
+def build_podcast_xml(audio_dates_desc: list[str], parsed_by_date: dict,
+                      docs_dir: Path) -> str:
+    """RSS 2.0 + iTunes feed listing every day that has an MP3 (newest first)."""
+    audio_dir = docs_dir / "audio"
+    cover = SITE_URL + "podcast-cover.png"
+    items = []
+    for d in audio_dates_desc:
+        mp3 = audio_dir / f"{d}.mp3"
+        if not mp3.exists():
+            continue
+        size, duration = _mp3_meta(mp3)
+        url = SITE_URL + f"audio/{d}.mp3"
+        script_file = audio_dir / f"{d}.txt"
+        if script_file.exists():
+            notes = script_file.read_text(encoding="utf-8")
+        else:
+            notes = parsed_by_date.get(d, {}).get("observation", "")
+        notes = notes.strip()[:1800]
+        title = f"AI 每日简报 · {d} {weekday_of(d)}"
+        dur_tag = f"\n      <itunes:duration>{duration}</itunes:duration>" if duration else ""
+        items.append(f"""    <item>
+      <title>{xml_escape(title)}</title>
+      <description>{xml_escape(notes)}</description>
+      <itunes:summary>{xml_escape(notes)}</itunes:summary>
+      <enclosure url="{url}" length="{size}" type="audio/mpeg"/>
+      <guid isPermaLink="true">{url}</guid>
+      <pubDate>{_episode_pubdate(d)}</pubDate>{dur_tag}
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="{cover}"/>
+    </item>""")
+
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI 每日简报 · AI Daily Digest</title>
+    <link>{SITE_URL}</link>
+    <language>zh-cn</language>
+    <description>{xml_escape(PODCAST_DESC)}</description>
+    <itunes:author>AI Daily Digest</itunes:author>
+    <itunes:summary>{xml_escape(PODCAST_DESC)}</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:image href="{cover}"/>
+    <image><url>{cover}</url><title>AI 每日简报</title><link>{SITE_URL}</link></image>
+    <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+
+
 # ── Main ────────────────────────────────────────────────────────────────────────
 
 def generate_site(root: Path | None = None) -> None:
@@ -1208,6 +1409,10 @@ def generate_site(root: Path | None = None) -> None:
 
     print(f"Generating site for {len(dates)} days...")
 
+    # Which days already have a synthesized voice broadcast?
+    docs_audio_dir = docs_dir / "audio"
+    audio_dates = {d for d in dates if (docs_audio_dir / f"{d}.mp3").exists()}
+
     parsed_by_date = {}
     parsed_by_date_en = {}
     for md_file in md_files:
@@ -1222,7 +1427,8 @@ def generate_site(root: Path | None = None) -> None:
         prev_date = dates[i - 1] if i > 0 else None
         next_date = dates[i + 1] if i < len(dates) - 1 else None
         html = build_day_html(date_str, digest, dates, prev_date, next_date,
-                              en_digest=parsed_by_date_en.get(date_str))
+                              en_digest=parsed_by_date_en.get(date_str),
+                              has_audio=date_str in audio_dates)
         (docs_daily_dir / f"{date_str}.html").write_text(html, encoding="utf-8")
 
     # Index with latest digest inline + trending hot words
@@ -1232,7 +1438,8 @@ def generate_site(root: Path | None = None) -> None:
     trends = compute_trends(parsed_by_date, dates, window=trend_window)
     trends_html = build_trends_html(trends, trend_window)
     (docs_dir / "index.html").write_text(
-        build_index_html(dates, latest_digest, trends_html, latest_en_digest),
+        build_index_html(dates, latest_digest, trends_html, latest_en_digest,
+                         audio_dates),
         encoding="utf-8")
 
     # Search index
@@ -1240,6 +1447,14 @@ def generate_site(root: Path | None = None) -> None:
         json.dumps(build_search_index(parsed_by_date, parsed_by_date_en),
                    ensure_ascii=False),
         encoding="utf-8")
+
+    # Podcast RSS feed (newest first) — only days that have audio
+    if audio_dates:
+        audio_desc = sorted(audio_dates, reverse=True)
+        (docs_dir / "podcast.xml").write_text(
+            build_podcast_xml(audio_desc, parsed_by_date, docs_dir),
+            encoding="utf-8")
+        print(f"  Podcast feed → {len(audio_desc)} episode(s)")
 
     # 404 → back to index
     (docs_dir / "404.html").write_text(

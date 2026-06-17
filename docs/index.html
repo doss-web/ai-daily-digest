@@ -232,6 +232,49 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
 .trend-tag.s2 { font-size: 14px; }
 .trend-tag.s3 { font-size: 16px; font-weight: 600; }
 
+/* ── Audio player (voice broadcast) ── */
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.25);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin: 0 0 28px;
+}
+.audio-player .ap-label {
+  font-size: 14px; font-weight: 600; color: #58a6ff;
+  display: flex; align-items: center; gap: 6px; white-space: nowrap;
+}
+.audio-player .ap-sub { font-size: 12px; color: var(--text-muted); }
+.audio-player audio { flex: 1; min-width: 220px; height: 38px; }
+.audio-player .ap-text { display: flex; flex-direction: column; gap: 2px; }
+
+/* Subscribe-to-podcast button */
+.podcast-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 13px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: border-color .15s, transform .15s;
+}
+.podcast-cta:hover { border-color: #58a6ff; transform: translateY(-1px); text-decoration: none; }
+.podcast-hint {
+  margin-top: 14px; font-size: 12px; color: var(--text-muted);
+  word-break: break-all;
+}
+.podcast-hint code {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 6px; padding: 2px 6px; color: var(--text-soft);
+}
+.audio-badge { font-size: 13px; margin-left: 6px; }
+
 /* ── Speak (TTS) button ── */
 .speak-btn {
   display: inline-flex; align-items: center; gap: 6px;
@@ -489,6 +532,17 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           <div class="stat"><div class="num">12+</div><div class="lbl"><span data-lang-content="zh">数据源</span><span data-lang-content="en">sources</span></div></div>
           <div class="stat"><div class="num"><span data-lang-content="zh">每日</span><span data-lang-content="en">Daily</span></div><div class="lbl"><span data-lang-content="zh">自动更新</span><span data-lang-content="en">auto-updated</span></div></div>
         </div>
+        
+    <div style="text-align:center; margin-top:20px;">
+      <a class="podcast-cta" href="podcast.xml" target="_blank" rel="noopener">
+        🎧 <span data-lang-content="zh">订阅播客 · 每天通勤听</span><span data-lang-content="en">Subscribe · listen on the go</span>
+      </a>
+      <div class="podcast-hint">
+        <span data-lang-content="zh">在 Apple 播客 / 小宇宙 / Pocket Casts 中添加订阅源：</span><span data-lang-content="en">Add this feed in Apple Podcasts / Pocket Casts / Spotify:</span>
+        <code>https://jimmuji.github.io/ai-daily-digest/podcast.xml</code>
+        <a href="#" data-copy-feed="https://jimmuji.github.io/ai-daily-digest/podcast.xml" style="margin-left:8px;"><span data-lang-content="zh">复制</span><span data-lang-content="en">Copy</span></a>
+      </div>
+    </div>
       </div>
       
       <div class="trends">
@@ -500,6 +554,14 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
       
       <div class="section-title"><span data-lang-content="zh">📅 最新一期 · 2026-06-17 周三</span><span data-lang-content="en">📅 Latest · 2026-06-17 Wednesday</span></div>
+      
+    <div class="audio-player">
+      <div class="ap-text">
+        <span class="ap-label">🎧 <span data-lang-content="zh">语音播报</span><span data-lang-content="en">Listen</span></span>
+        <span class="ap-sub"><span data-lang-content="zh">通勤路上用耳朵看简报</span><span data-lang-content="en">Catch the digest on your commute</span></span>
+      </div>
+      <audio controls preload="none" src="audio/2026-06-17.mp3" data-date="2026-06-17"></audio>
+    </div>
       <div data-lang-content="zh">
     <div class="digest-scope">
       
@@ -1116,7 +1178,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       <div class="section-title"><span data-lang-content="zh">🗂 历史归档</span><span data-lang-content="en">🗂 Archive</span></div>
       <div class="date-grid">
         <a class="date-card" href="daily/2026-06-17.html">
-          <div class="date-label">2026-06-17</div>
+          <div class="date-label">2026-06-17<span class="audio-badge" title="有语音播报">🎧</span></div>
           <div class="weekday"><span data-lang-content="zh">周三</span><span data-lang-content="en">Wednesday</span></div>
           <div class="latest-badge"><span data-lang-content="zh">最新</span><span data-lang-content="en">Latest</span></div>
         </a>
@@ -1191,7 +1253,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
         </a>
         <a class="date-card" href="daily/2026-06-02.html">
-          <div class="date-label">2026-06-02</div>
+          <div class="date-label">2026-06-02<span class="audio-badge" title="有语音播报">🎧</span></div>
           <div class="weekday"><span data-lang-content="zh">周二</span><span data-lang-content="en">Tuesday</span></div>
           
         </a>
@@ -1655,6 +1717,37 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     });
   });
   window.addEventListener('beforeunload', function () { if (synth) synth.cancel(); });
+
+  // ── Audio player: lock-screen / car metadata via MediaSession ──
+  document.querySelectorAll('.audio-player audio').forEach(function (audio) {
+    audio.addEventListener('play', function () {
+      if (!('mediaSession' in navigator)) return;
+      var date = audio.getAttribute('data-date') || '';
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: 'AI 每日简报 · ' + date,
+          artist: 'AI Daily Digest',
+          album: 'AI 每日简报',
+          artwork: [{ src: BASE + 'podcast-cover.png', sizes: '1400x1400', type: 'image/png' }]
+        });
+      } catch (e) {}
+    });
+  });
+
+  // ── Copy podcast feed URL ──
+  document.querySelectorAll('[data-copy-feed]').forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      e.preventDefault();
+      var url = el.getAttribute('data-copy-feed');
+      var done = function () {
+        var old = el.textContent;
+        el.textContent = (window.CUR_LANG === 'en' ? '✓ Copied!' : '✓ 已复制订阅链接');
+        setTimeout(function () { el.textContent = old; }, 1800);
+      };
+      if (navigator.clipboard) { navigator.clipboard.writeText(url).then(done, done); }
+      else { done(); }
+    });
+  });
 })();
 </script>
 </body>
