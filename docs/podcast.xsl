@@ -45,6 +45,13 @@
         }
         .subscribe h2 { font-size: 15px; color: #58a6ff; margin-bottom: 10px; }
         .subscribe p { font-size: 13px; color: #8b949e; margin-bottom: 12px; }
+        .xyz-btn {
+          display: inline-block;
+          background: linear-gradient(135deg, #1f6feb, #bc8cff);
+          color: #fff; font-weight: 600; font-size: 14px;
+          padding: 11px 24px; border-radius: 999px;
+        }
+        .xyz-btn:hover { filter: brightness(1.08); text-decoration: none; }
         .feed-url {
           display: inline-block; background: #161b22; border: 1px solid #30363d;
           border-radius: 8px; padding: 8px 14px; font-size: 13px;
@@ -75,7 +82,10 @@
 
         <div class="subscribe">
           <h2>🎧 如何订阅</h2>
-          <p>这是一个播客订阅源。把下面的链接复制到 Apple 播客 / 小宇宙 / Pocket Casts 的「添加 RSS / 通过 URL 订阅」中，每天通勤自动收听。也可以直接点下面每期的播放按钮试听。</p>
+          <p>推荐在小宇宙收听（手机 App 体验最佳）。用 Apple 播客 / Pocket Casts 的朋友可以复制下面的 RSS 订阅源添加。也可以直接点下面每期的播放按钮试听。</p>
+          <p style="margin-bottom:14px;">
+            <a class="xyz-btn" href="https://www.xiaoyuzhoufm.com/podcast/6a325e149357568efe4741ef" target="_blank" rel="noopener">🎧 在小宇宙收听</a>
+          </p>
           <span class="feed-url"><xsl:value-of select="link"/>podcast.xml</span>
         </div>
 

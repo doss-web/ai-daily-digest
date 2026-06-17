@@ -22,6 +22,7 @@ WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"
 WEEKDAYS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 REPO_URL = "https://github.com/Jimmuji/ai-daily-digest"
 SITE_URL = "https://jimmuji.github.io/ai-daily-digest/"
+XIAOYUZHOU_URL = "https://www.xiaoyuzhoufm.com/podcast/6a325e149357568efe4741ef"
 
 
 # ── CSS ────────────────────────────────────────────────────────────────────────
@@ -271,6 +272,13 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   transition: border-color .15s, transform .15s;
 }
 .podcast-cta:hover { border-color: #58a6ff; transform: translateY(-1px); text-decoration: none; }
+.podcast-cta.primary {
+  background: linear-gradient(135deg, #1f6feb, #bc8cff);
+  border-color: transparent; color: #fff; font-weight: 600;
+  font-size: 14px; padding: 11px 24px;
+}
+.podcast-cta.primary:hover { border-color: transparent; filter: brightness(1.08); }
+.podcast-cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .podcast-hint {
   margin-top: 14px; font-size: 12px; color: var(--text-muted);
   word-break: break-all;
@@ -1050,15 +1058,20 @@ def build_audio_player(date_str: str, base: str) -> str:
 
 
 def build_podcast_cta(base: str) -> str:
-    """Subscribe-to-podcast call-to-action (RSS feed link + copyable URL)."""
+    """Subscribe call-to-action: 小宇宙 (primary) + RSS feed for other apps."""
     feed_url = SITE_URL + "podcast.xml"
     return f"""
     <div style="text-align:center; margin-top:20px;">
-      <a class="podcast-cta" href="{base}podcast.xml" target="_blank" rel="noopener">
-        🎧 {bi("订阅播客 · 每天通勤听", "Subscribe · listen on the go")}
-      </a>
+      <div class="podcast-cta-row">
+        <a class="podcast-cta primary" href="{XIAOYUZHOU_URL}" target="_blank" rel="noopener">
+          🎧 {bi("在小宇宙收听", "Listen on Xiaoyuzhou")}
+        </a>
+        <a class="podcast-cta" href="{base}podcast.xml" target="_blank" rel="noopener">
+          {bi("更多播放器 / RSS", "More apps / RSS")}
+        </a>
+      </div>
       <div class="podcast-hint">
-        {bi("在 Apple 播客 / 小宇宙 / Pocket Casts 中添加订阅源：", "Add this feed in Apple Podcasts / Pocket Casts / Spotify:")}
+        {bi("用 Apple 播客 / Pocket Casts 的朋友可添加订阅源：", "On Apple Podcasts / Pocket Casts, add this feed:")}
         <code>{feed_url}</code>
         <a href="#" data-copy-feed="{feed_url}" style="margin-left:8px;">{bi("复制", "Copy")}</a>
       </div>

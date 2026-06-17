@@ -265,6 +265,13 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   transition: border-color .15s, transform .15s;
 }
 .podcast-cta:hover { border-color: #58a6ff; transform: translateY(-1px); text-decoration: none; }
+.podcast-cta.primary {
+  background: linear-gradient(135deg, #1f6feb, #bc8cff);
+  border-color: transparent; color: #fff; font-weight: 600;
+  font-size: 14px; padding: 11px 24px;
+}
+.podcast-cta.primary:hover { border-color: transparent; filter: brightness(1.08); }
+.podcast-cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .podcast-hint {
   margin-top: 14px; font-size: 12px; color: var(--text-muted);
   word-break: break-all;
@@ -534,11 +541,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
         </div>
         
     <div style="text-align:center; margin-top:20px;">
-      <a class="podcast-cta" href="podcast.xml" target="_blank" rel="noopener">
-        🎧 <span data-lang-content="zh">订阅播客 · 每天通勤听</span><span data-lang-content="en">Subscribe · listen on the go</span>
-      </a>
+      <div class="podcast-cta-row">
+        <a class="podcast-cta primary" href="https://www.xiaoyuzhoufm.com/podcast/6a325e149357568efe4741ef" target="_blank" rel="noopener">
+          🎧 <span data-lang-content="zh">在小宇宙收听</span><span data-lang-content="en">Listen on Xiaoyuzhou</span>
+        </a>
+        <a class="podcast-cta" href="podcast.xml" target="_blank" rel="noopener">
+          <span data-lang-content="zh">更多播放器 / RSS</span><span data-lang-content="en">More apps / RSS</span>
+        </a>
+      </div>
       <div class="podcast-hint">
-        <span data-lang-content="zh">在 Apple 播客 / 小宇宙 / Pocket Casts 中添加订阅源：</span><span data-lang-content="en">Add this feed in Apple Podcasts / Pocket Casts / Spotify:</span>
+        <span data-lang-content="zh">用 Apple 播客 / Pocket Casts 的朋友可添加订阅源：</span><span data-lang-content="en">On Apple Podcasts / Pocket Casts, add this feed:</span>
         <code>https://jimmuji.github.io/ai-daily-digest/podcast.xml</code>
         <a href="#" data-copy-feed="https://jimmuji.github.io/ai-daily-digest/podcast.xml" style="margin-left:8px;"><span data-lang-content="zh">复制</span><span data-lang-content="en">Copy</span></a>
       </div>
