@@ -14,7 +14,7 @@ import requests
 from sources import fetch_all
 from summarize import summarize
 from generate_site import generate_site
-from audio import generate_audio
+from audio import generate_audio, prune_old_audio
 
 
 def send_to_buttondown(subject: str, markdown: str) -> None:
@@ -103,6 +103,7 @@ def main():
     audio_dir = Path(__file__).parent.parent / "docs" / "audio"
     try:
         generate_audio(markdown, date_str, audio_dir)
+        prune_old_audio(audio_dir, keep=15)  # keep ~half a month of episodes
     except Exception as e:
         print(f"  Audio generation skipped: {e}")
 

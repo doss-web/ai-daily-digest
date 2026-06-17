@@ -134,3 +134,20 @@ def generate_audio(zh_markdown: str, date_str: str, audio_dir):
     size = mp3_path.stat().st_size
     print(f"[audio] Saved {mp3_path.name} ({size // 1024} KB)")
     return mp3_path, script
+
+
+def prune_old_audio(audio_dir, keep: int = 15) -> None:
+    """Keep only the `keep` most recent episodes; delete older mp3 + txt.
+
+    Bounds repo size (~3 MB/day). Date-named files sort chronologically, so the
+    tail is the newest. Older day pages just lose their player — text content is
+    untouched (generate_site only shows a player when the mp3 still exists)."""
+    from pathlib import Path
+    audio_dir = Path(audio_dir)
+    if not audio_dir.exists():
+        return
+    mp3s = sorted(audio_dir.glob("*.mp3"))
+    for mp3 in mp3s[:-keep] if len(mp3s) > keep else []:
+        mp3.unlink(missing_ok=True)
+        mp3.with_suffix(".txt").unlink(missing_ok=True)
+        print(f"[audio] pruned old episode {mp3.stem}")
