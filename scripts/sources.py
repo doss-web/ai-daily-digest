@@ -138,7 +138,7 @@ def fetch_huggingface_papers():
         resp = requests.get("https://huggingface.co/api/daily_papers", timeout=30)
         resp.raise_for_status()
         papers = resp.json()
-        for p in papers[:20]:  # top 20
+        for p in papers[:30]:  # top 30
             paper = p.get("paper", {})
             paper_id = paper.get("id", "")
             items.append(make_item(
@@ -203,7 +203,9 @@ def fetch_rss_feed(feed_url, source_name, max_items=10, cutoff_days=2):
         resp.raise_for_status()
         feed = feedparser.parse(resp.content)
         cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
-        for entry in feed.entries[:max_items * 2]:  # scan more, filter by date
+        # Scan a generous window so high-volume feeds (HF/OpenAI blogs with
+        # hundreds of entries) still get correctly date-filtered.
+        for entry in feed.entries[:max(max_items * 3, 40)]:
             published = entry.get("published_parsed") or entry.get("updated_parsed")
             if published:
                 entry_date = datetime(*published[:6], tzinfo=timezone.utc)
@@ -228,18 +230,58 @@ def fetch_rss_feed(feed_url, source_name, max_items=10, cutoff_days=2):
     return items
 
 
+def fetch_arxiv(max_items=12, cutoff_days=2):
+    """Recent cs.AI/CL/CV/LG papers straight from arXiv — a non-curated safety
+    net so important papers that don't make HuggingFace's daily top list still
+    have a chance to surface."""
+    items = []
+    try:
+        query = (
+            "http://export.arxiv.org/api/query?"
+            "search_query=cat:cs.CV+OR+cat:cs.CL+OR+cat:cs.LG+OR+cat:cs.AI"
+            "&sortBy=submittedDate&sortOrder=descending&max_results=40"
+        )
+        resp = requests.get(query, headers=BROWSER_HEADERS, timeout=30)
+        resp.raise_for_status()
+        feed = feedparser.parse(resp.content)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
+        for entry in feed.entries:
+            published = entry.get("published_parsed") or entry.get("updated_parsed")
+            published_at = None
+            if published:
+                entry_date = datetime(*published[:6], tzinfo=timezone.utc)
+                if entry_date < cutoff:
+                    continue
+                published_at = entry_date.isoformat()
+            items.append(make_item(
+                category="papers",
+                title=entry.get("title", ""),
+                url=entry.get("link", ""),
+                summary=entry.get("summary", ""),
+                source="arXiv",
+                published=published_at,
+            ))
+            if len(items) >= max_items:
+                break
+    except Exception as e:
+        print(f"  [arXiv] Error: {e}")
+    return items
+
+
 def fetch_hacker_news():
     """Fetch top AI stories from Hacker News via Algolia API."""
     items = []
     try:
         from datetime import datetime, timezone, timedelta
         since = int((datetime.now(timezone.utc) - timedelta(days=1)).timestamp())
+        # Pull recent high-point stories (no text query — a multi-term query is
+        # ANDed and returns almost nothing); the AI_KEYWORDS title filter below
+        # narrows it. The relevance /search endpoint now 400s, so use by-date.
         url = (
-            f"https://hn.algolia.com/api/v1/search"
-            f"?query=AI+LLM+machine+learning"
-            f"&tags=story"
+            f"https://hn.algolia.com/api/v1/search_by_date"
+            f"?tags=story"
             f"&numericFilters=created_at_i>{since},points>10"
-            f"&hitsPerPage=30"
+            f"&hitsPerPage=50"
         )
         resp = requests.get(url, timeout=20)
         resp.raise_for_status()
@@ -268,18 +310,30 @@ def fetch_hacker_news():
 # cutoff_days=2 for daily news, cutoff_days=7 for weekly newsletters
 RSS_SOURCES = [
     # ── 中文 AI 媒体 ─────────────────────────────────────────────────────────
-    ("https://rsshub.rssforever.com/36kr/search/articles/ai",       "36Kr AI",    10, 2),
-    ("https://www.jiqizhixin.com/rss",                               "机器之心",   10, 2),
-    ("https://www.qbitai.com/rss",                                   "量子位",     10, 2),
-    ("https://rsshub.rssforever.com/sspai/tag/AI",                   "SSPAI AI",   8,  2),
+    ("https://rsshub.rssforever.com/36kr/search/articles/ai",       "36Kr AI",    10, 3),
+    ("https://www.jiqizhixin.com/rss",                               "机器之心",   10, 3),
+    ("https://www.qbitai.com/rss",                                   "量子位",     10, 3),
+    ("https://rsshub.rssforever.com/sspai/tag/AI",                   "SSPAI AI",   8,  3),
 
     # ── 英文科技媒体 ─────────────────────────────────────────────────────────
-    ("https://venturebeat.com/category/ai/feed/",                    "VentureBeat AI",   10, 2),
-    ("https://techcrunch.com/category/artificial-intelligence/feed/","TechCrunch AI",    10, 2),
-    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI",10, 2),
-    ("https://www.wired.com/feed/tag/ai/latest/rss",                 "Wired AI",          8, 2),
-    ("https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "IEEE Spectrum AI", 8, 2),
-    ("https://feeds.arstechnica.com/arstechnica/technology-lab",     "Ars Technica AI",   8, 2),
+    ("https://venturebeat.com/category/ai/feed/",                    "VentureBeat AI",   10, 3),
+    ("https://techcrunch.com/category/artificial-intelligence/feed/","TechCrunch AI",    10, 3),
+    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI",10, 3),
+    ("https://www.wired.com/feed/tag/ai/latest/rss",                 "Wired AI",          8, 3),
+    ("https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "IEEE Spectrum AI", 8, 3),
+    ("https://feeds.arstechnica.com/arstechnica/technology-lab",     "Ars Technica AI",   8, 3),
+
+    # ── AI 垂直媒体（模型/研究发布的第一落点）────────────────────────────────
+    ("https://the-decoder.com/feed/",                                "The Decoder",  12, 3),
+    ("https://www.marktechpost.com/feed/",                           "MarkTechPost", 12, 3),
+
+    # ── 官方实验室博客（低频，回溯更久以免错过发布）──────────────────────────
+    ("https://huggingface.co/blog/feed.xml",                         "Hugging Face Blog", 6, 7),
+    ("https://deepmind.google/blog/rss.xml",                         "Google DeepMind",   6, 10),
+    ("https://openai.com/news/rss.xml",                              "OpenAI",            6, 10),
+
+    # ── 社区（best-effort，云端 IP 可能被限流，失败自动跳过）─────────────────
+    ("https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",           "r/LocalLLaMA",      8, 2),
 
     # ── AI 研究者 Newsletter（周更为主，回溯7天）─────────────────────────────
     ("https://www.oneusefulthing.org/feed",   "One Useful Thing (Mollick)", 5, 7),
@@ -292,6 +346,11 @@ def fetch_all():
     print("Fetching HuggingFace Papers...")
     papers = fetch_huggingface_papers()
     print(f"  Got {len(papers)} papers")
+
+    print("Fetching arXiv (cs.AI/CL/CV/LG)...")
+    arxiv_items = fetch_arxiv()
+    print(f"  Got {len(arxiv_items)} arXiv papers")
+    papers.extend(arxiv_items)
 
     print("Fetching GitHub Trending...")
     projects = fetch_github_trending()
