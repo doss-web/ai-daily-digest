@@ -1,13 +1,39 @@
 {
   "date": "2026-06-19",
-  "generated_at": "2026-06-19T06:29:43.647214+08:00",
+  "generated_at": "2026-06-19T07:50:29.196023+08:00",
   "counts": {
     "papers": 40,
     "projects": 15,
-    "news": 150
+    "news": 149
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "REVES: REvision and VErification--Augmented Training for Test-Time Scaling",
+        "url": "https://huggingface.co/papers/2606.18910",
+        "normalized_url": "https://huggingface.co/papers/2606.18910",
+        "summary": "Test-time scaling via sequential revision has emerged as a powerful paradigm for enhancing Large Language Model (LLM) reasoning. However, standard post-training methods primarily optimize single-shot objectives, creating a fundamental misalignment with multi-step inference dynamics. While recent work treats this as multi-turn reinforcement learning (RL), conventional approaches optimize over the multi-step trajectories directly, failing to further exploit the high-quality mistakes in intermediat",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.18910"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Re-Centering Humans in LLM Personalization",
+        "url": "https://huggingface.co/papers/2606.06614",
+        "normalized_url": "https://huggingface.co/papers/2606.06614",
+        "summary": "Despite growing interest, most evaluations of large language models' (LLMs') personalization abilities have relied on synthetic data. It remains unclear how well current personalization systems work for real users. In this paper, we study the gap in LLM personalization performance when using synthetic versus human data. We collect human conversations (550 conversations) and judgments across three stages of personalization: extracting user attributes from conversations (5,949 judgments), pairing ",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-04T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.06614"
+        }
+      },
       {
         "category": "papers",
         "title": "Reinforcement Learning-Guided Retrieval with Soft Fusion for Robust Multimodal Imitation Learning under Missing Modalities",
@@ -374,32 +400,6 @@
       },
       {
         "category": "papers",
-        "title": "PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation",
-        "url": "https://huggingface.co/papers/2606.18375",
-        "normalized_url": "https://huggingface.co/papers/2606.18375",
-        "summary": "World foundation models (WFMs) are powerful simulators, yet they predominantly operate in a single-view setting and lack the multi-view 3D consistency required for robotic manipulation. While robotic systems rely on multiple cameras (egocentric, eye-to-hand, and wrist-mounted) for policy learning, current multi-view world models simply concatenate view tokens without explicit geometric reasoning. This causes cross-view object drift, depth inconsistency, and texture misalignment. We trace these f",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-16T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.18375"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Physics-IQ Verified",
-        "url": "https://huggingface.co/papers/2606.18943",
-        "normalized_url": "https://huggingface.co/papers/2606.18943",
-        "summary": "Video generative models ( VGMs) have become a new frontier that can be used not just for video generation but for a multitude of downstream tasks, including world modeling. To advance these tasks, a good video model must understand the physical reality of the world. Evaluating this understanding is an emerging field and has led to the Physics-IQ benchmark, which quantifies this explicitly by comparing model-generated videos to real-world videos of physical experiments. In this work, we present a",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-17T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.18943"
-        }
-      },
-      {
-        "category": "papers",
         "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
         "url": "https://arxiv.org/abs/2606.19338v1",
         "normalized_url": "https://arxiv.org/abs/2606.19338v1",
@@ -724,10 +724,21 @@
     "news": [
       {
         "category": "news",
+        "title": "The AirPods Effect",
+        "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+        "normalized_url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+        "summary": "HN points: 20, comments: 11",
+        "source": "Hacker News",
+        "published": "2026-06-18T23:08:35Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Amazon investigating engineers who criticized AI data center expansion",
         "url": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
         "normalized_url": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
-        "summary": "HN points: 21, comments: 4",
+        "summary": "HN points: 30, comments: 5",
         "source": "Hacker News",
         "published": "2026-06-18T20:14:15Z",
         "importance_hint": 3,
@@ -749,7 +760,7 @@
         "title": "AI Regulation Should Be Rational, Not Retaliatory",
         "url": "https://www.eff.org/deeplinks/2026/06/ai-regulation-should-be-rational-not-retaliatory",
         "normalized_url": "https://www.eff.org/deeplinks/2026/06/ai-regulation-should-be-rational-not-retaliatory",
-        "summary": "HN points: 17, comments: 2",
+        "summary": "HN points: 17, comments: 4",
         "source": "Hacker News",
         "published": "2026-06-18T19:14:19Z",
         "importance_hint": 3,
@@ -771,7 +782,7 @@
         "title": "The AI Hate Progression",
         "url": "https://www.xodium.net/2026/06/the-ai-hate-progression.html",
         "normalized_url": "https://www.xodium.net/2026/06/the-ai-hate-progression.html",
-        "summary": "HN points: 95, comments: 128",
+        "summary": "HN points: 99, comments: 132",
         "source": "Hacker News",
         "published": "2026-06-18T18:30:33Z",
         "importance_hint": 3,
@@ -782,7 +793,7 @@
         "title": "The founder of Craigslist has given away half a billion dollars",
         "url": "https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html",
         "normalized_url": "https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html",
-        "summary": "HN points: 269, comments: 191",
+        "summary": "HN points: 292, comments: 211",
         "source": "Hacker News",
         "published": "2026-06-18T16:55:25Z",
         "importance_hint": 3,
@@ -800,6 +811,17 @@
         "metadata": {
           "feed_url": "https://deepmind.google/blog/rss.xml"
         }
+      },
+      {
+        "category": "news",
+        "title": "Ask HN: What tools are you using for AI-assisted code review?",
+        "url": "https://news.ycombinator.com/item?id=48587808",
+        "normalized_url": "https://news.ycombinator.com/item?id=48587808",
+        "summary": "HN points: 12, comments: 5",
+        "source": "Hacker News",
+        "published": "2026-06-18T16:25:27Z",
+        "importance_hint": 3,
+        "metadata": {}
       },
       {
         "category": "news",
@@ -830,7 +852,7 @@
         "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
         "url": "https://tester.army",
         "normalized_url": "https://tester.army",
-        "summary": "HN points: 88, comments: 39",
+        "summary": "HN points: 91, comments: 43",
         "source": "Hacker News",
         "published": "2026-06-18T14:49:44Z",
         "importance_hint": 4,
@@ -841,43 +863,10 @@
         "title": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
         "url": "https://gerrymandle.cc/",
         "normalized_url": "https://gerrymandle.cc",
-        "summary": "HN points: 114, comments: 52",
+        "summary": "HN points: 121, comments: 59",
         "source": "Hacker News",
         "published": "2026-06-18T14:16:25Z",
         "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Memanto; open-source memory agent that remembers, recalls and answers",
-        "url": "https://github.com/moorcheh-ai/memanto",
-        "normalized_url": "https://github.com/moorcheh-ai/memanto",
-        "summary": "HN points: 14, comments: 11",
-        "source": "Hacker News",
-        "published": "2026-06-18T13:54:36Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Show HN: Display.dev – the agent-agnostic workspace for HTML and .md artifacts",
-        "url": "https://display.dev/",
-        "normalized_url": "https://display.dev",
-        "summary": "HN points: 12, comments: 7",
-        "source": "Hacker News",
-        "published": "2026-06-18T13:27:34Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Git platform built for agentic era",
-        "url": "https://gitlawb.com/node",
-        "normalized_url": "https://gitlawb.com/node",
-        "summary": "HN points: 30, comments: 36",
-        "source": "Hacker News",
-        "published": "2026-06-18T13:19:57Z",
-        "importance_hint": 4,
         "metadata": {}
       },
       {
@@ -1259,6 +1248,19 @@
       },
       {
         "category": "news",
+        "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises",
+        "url": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
+        "normalized_url": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
+        "summary": "Anthropic announced a potentially game-changing new feature for users of Claude Code on the Claude Team and Enterprise subscription plans: Artifacts . This update turns a Claude Code session's work into a live, interactive, and shareable, custom HTML webpage, allowing a Claude Code user to plug in live code, multiple data sources, and have it surface on an interactive URL that they can send to other teammates — be it a dashboard, an app design, or some other product meant for internal usage. The",
+        "source": "VentureBeat",
+        "published": "2026-06-18T23:18:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://venturebeat.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "New AI optimization framework beats Claude Code and Codex by 2.5x on the same compute budget",
         "url": "https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget",
         "normalized_url": "https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget",
@@ -1337,19 +1339,6 @@
       },
       {
         "category": "news",
-        "title": "Z.ai’s open-weights GLM-5.2 beats GPT-5.5 on multiple long-horizon coding benchmarks for 1/6th the cost",
-        "url": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
-        "normalized_url": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
-        "summary": "Today, Chinese AI startup Z.ai (formerly Zhipu AI) announced the immediate release of GLM-5.2 , a 753-billion parameter open-weights large language model (LLM) engineered specifically to dominate \"long-horizon\" autonomous coding and engineering tasks. Available immediately on Hugging Face , the Z.ai API , and more than 20 third-party coding environments, the model boasts a highly stable 1-million-token context window alongside enterprise subscription tiers starting at just $12.60 per month. In e",
-        "source": "VentureBeat",
-        "published": "2026-06-16T21:26:01+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://venturebeat.com/feed/"
-        }
-      },
-      {
-        "category": "news",
         "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
         "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
         "normalized_url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round",
@@ -1366,7 +1355,7 @@
         "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
         "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
         "normalized_url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
-        "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be comprised of current Snap staff who are leaving the social media company to focus on AI video development.",
+        "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to focus on AI video development.",
         "source": "TechCrunch AI",
         "published": "2026-06-18T20:30:00+00:00",
         "importance_hint": 3,
@@ -2481,19 +2470,6 @@
       },
       {
         "category": "news",
-        "title": "I released Inflect-Nano, an ultra-extreme tiny 4.63m parameter TTS model.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8p9s1/i_released_inflectnano_an_ultraextreme_tiny_463m/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8p9s1/i_released_inflectnano_an_ultraextreme_tiny_463m",
-        "summary": "I’ve been experimenting with how small a usable neural TTS model can realistically get, and I just released Inflect-Nano-v1 . Inflect-Nano is one of the smallest TTS models, and it performs surprisingly well for its model weight. Even if you have a certified potato computer, it can run on that. It is not SOTA, and I’m not pretending it beats large models. The interesting part is the size-to-functionality ratio: - 4.63M total inference params - 3.46M acoustic model - 1.17M vocoder - 24 kHz audio ",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-17T22:50:53+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "My suitcase robot gets high now off a real gas sensor wired straight into the LLM sampler. Smoke raises temperature/top_p/top_k live, so his speech genuinely gets loopier and never repeats.",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9a17y/my_suitcase_robot_gets_high_now_off_a_real_gas/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9a17y/my_suitcase_robot_gets_high_now_off_a_real_gas",
@@ -2533,19 +2509,6 @@
       },
       {
         "category": "news",
-        "title": "GLM-5.2 Flash when? (joke)",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u90awk/glm52_flash_when_joke/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u90awk/glm52_flash_when_joke",
-        "summary": "I'm very happy with Z.ai's decision to open source GLM 5.2... With that being said, a successor to GLM-4.7-flash would be AMAZING. Literally anything in the 27-120B range (MoE or dense) 🤤 submitted by /u/ILoveToyota37 [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-18T08:10:37+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "unsloth GLM-5.2-GGUF , including 2bit at 238GB",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u98iig/unsloth_glm52gguf_including_2bit_at_238gb/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u98iig/unsloth_glm52gguf_including_2bit_at_238gb",
@@ -2559,12 +2522,38 @@
       },
       {
         "category": "news",
+        "title": "GLM-5.2 Flash when? (joke)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u90awk/glm52_flash_when_joke/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u90awk/glm52_flash_when_joke",
+        "summary": "I'm very happy with Z.ai's decision to open source GLM 5.2... With that being said, a successor to GLM-4.7-flash would be AMAZING. Literally anything in the 27-120B range (MoE or dense) 🤤 submitted by /u/ILoveToyota37 [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-18T08:10:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "OSS models decisively overtook Proprietary models in market share (based on the last 3 months of OpenRouter data)",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u96545/oss_models_decisively_overtook_proprietary_models/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u96545/oss_models_decisively_overtook_proprietary_models",
         "summary": "submitted by /u/Comfortable-Rock-498 [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-06-18T13:21:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "GLM-5.2 Is The Best Open Weight Creative Writing Model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u98pc9/glm52_is_the_best_open_weight_creative_writing/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u98pc9/glm52_is_the_best_open_weight_creative_writing",
+        "summary": "As Per Sam Paech's Creative Writing Benchmark on EQ Bench: https://eqbench.com/creative_writing.html submitted by /u/Few_Painter_5588 [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-18T15:02:45+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
