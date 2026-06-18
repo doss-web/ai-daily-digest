@@ -311,33 +311,35 @@ def fetch_hacker_news():
 RSS_SOURCES = [
     # ── 中文 AI 媒体 ─────────────────────────────────────────────────────────
     ("https://rsshub.rssforever.com/36kr/search/articles/ai",       "36Kr AI",    10, 3),
-    ("https://www.jiqizhixin.com/rss",                               "机器之心",   10, 3),
     ("https://www.qbitai.com/rss",                                   "量子位",     10, 3),
+    ("https://www.infoq.cn/feed.xml",                                "InfoQ 中文",  8,  3),
     ("https://rsshub.rssforever.com/sspai/tag/AI",                   "SSPAI AI",   8,  3),
 
     # ── 英文科技媒体 ─────────────────────────────────────────────────────────
-    ("https://venturebeat.com/category/ai/feed/",                    "VentureBeat AI",   10, 3),
+    ("https://venturebeat.com/feed/",                                "VentureBeat",       8, 3),
     ("https://techcrunch.com/category/artificial-intelligence/feed/","TechCrunch AI",    10, 3),
     ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI",10, 3),
     ("https://www.wired.com/feed/tag/ai/latest/rss",                 "Wired AI",          8, 3),
     ("https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "IEEE Spectrum AI", 8, 3),
     ("https://feeds.arstechnica.com/arstechnica/technology-lab",     "Ars Technica AI",   8, 3),
 
-    # ── AI 垂直媒体（模型/研究发布的第一落点）────────────────────────────────
-    ("https://the-decoder.com/feed/",                                "The Decoder",  12, 3),
-    ("https://www.marktechpost.com/feed/",                           "MarkTechPost", 12, 3),
+    # ── AI 垂直媒体 / 个人博客（模型与研究发布的第一落点）────────────────────
+    ("https://the-decoder.com/feed/",                                "The Decoder",   12, 3),
+    ("https://www.marktechpost.com/feed/",                           "MarkTechPost",  12, 3),
+    ("https://simonwillison.net/atom/everything/",                   "Simon Willison", 8, 4),
 
     # ── 官方实验室博客（低频，回溯更久以免错过发布）──────────────────────────
     ("https://huggingface.co/blog/feed.xml",                         "Hugging Face Blog", 6, 7),
     ("https://deepmind.google/blog/rss.xml",                         "Google DeepMind",   6, 10),
+    ("https://blog.google/technology/ai/rss/",                       "Google AI Blog",    6, 10),
     ("https://openai.com/news/rss.xml",                              "OpenAI",            6, 10),
 
     # ── 社区（best-effort，云端 IP 可能被限流，失败自动跳过）─────────────────
     ("https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",           "r/LocalLLaMA",      8, 2),
 
-    # ── AI 研究者 Newsletter（周更为主，回溯7天）─────────────────────────────
-    ("https://www.oneusefulthing.org/feed",   "One Useful Thing (Mollick)", 5, 7),
-    ("https://www.lennysnewsletter.com/feed", "Lenny's Newsletter",         5, 7),
+    # ── AI 研究者 Newsletter（更新较疏，回溯 14 天）──────────────────────────
+    ("https://www.oneusefulthing.org/feed",   "One Useful Thing (Mollick)", 5, 14),
+    ("https://www.lennysnewsletter.com/feed", "Lenny's Newsletter",         5, 14),
 ]
 
 
