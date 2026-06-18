@@ -1309,10 +1309,10 @@ def build_index_html(dates: list[str], latest_digest: dict,
         </div>
         {podcast_cta}
       </div>
-      {trends_html}
       {latest_section}
       <div class="section-title">{bi("🗂 历史归档", "🗂 Archive")}</div>
       <div class="date-grid">{cards}</div>
+      {trends_html}
     </div>"""
 
     return PAGE_TEMPLATE.format(
