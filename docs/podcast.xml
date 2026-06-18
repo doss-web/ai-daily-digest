@@ -15,6 +15,39 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-06-19 周五</title>
+      <description>各位听众朋友，早上好！今天是2026年6月19号，欢迎收听今天的AI行业播报。今天咱们要聊的话题可不少，从政府出口管制到人才大跳槽，从模型安全到开源突破，信息量巨大。咱们先来看一个让整个行业都震了一下的消息。
+首先，Anthropic的新模型Claude Fable 5和Mythos 5，刚发布就被美国政府给叫停了。原因是特朗普政府援引了出口管制法规，要求Anthropic阻止所有外国国民访问，连美国境内的用户都不行。这事儿背后，据说跟韩国SK Telecom的所谓“中国关联”有关，争议焦点是模型被用来“修复代码”算不算越狱。这下，AI出口管制的边界到底在哪儿，成了个大问题。
+紧接着，人才市场也爆出大新闻。Google Gemini的联合负责人、Transformer论文的合著者Noam Shazeer，跳槽去了OpenAI。要知道，他2024年才因为Character.AI被收购而回归Google，这才两年，就又走了。这是继Karpathy之后，今年第二次重大AI人才流动。看来，顶级人才还是在往OpenAI集中。
+说到OpenAI，他们最近的日子也不好过。泄露的财务文件显示，公司每年亏损几十亿美元，光是第一季度就烧掉了250亿美元。Yann LeCun直接警告，OpenAI和Anthropic面临“大泡沫破裂”，说它们的运营全靠投资者补贴，成本降得不够快。这让人不得不思考，AI实验室的高昂成本到底能不能持续。
+不过，挑战英伟达的玩家来了。AWS计划直接向其他数据中心销售自己的AI芯片，CEO Andy Jassy说这代表500亿美元的机会。英伟达在AI芯片市场的主导地位，第一次面临来自云巨头的直接挑战。
+再看安全方面，Google DeepMind发布了一个AI Agent安全控制路线图，把AI Agent当成可能拥有办公室钥匙的“流氓员工”。他们分析了100万个编码任务，发现大多数问题其实是Agent太热心了，不是故意的。这个框架为Agent安全提供了可操作的方法，对部署Agent的团队很有指导意义。
+另外，Adobe在Creative Cloud全线产品里嵌入了Agentic AI工作流，从生成媒体转向生产编排。Premiere Pro、Photoshop这些软件里都推出了“创意代理”公测版，AI从聊天工具变成了编排层。Snap则把AI视频团队剥离出来，成立了新公司Dotmo，因为成本压力太大。AI视频的高成本，让大公司开始通过分拆来管理风险。
+还有，Perplexity发布了Brain，一个为Agent设计的自改进记忆系统。它能构建可追溯的上下文图，晚上自动审查，在准确性、召回率和成本上都有提升。AWS也推出了Context知识图谱服务，Agent用得越多，它就越智能。
+医疗方面，OpenAI升级了ChatGPT的健康能力，新模型GPT-5.5 Instant在医生评估中胜出，错误率下降了71%。他们还发布了LifeSciBench基准，有750个专家写的任务，但最佳模型只通过了36.1%。看来，前沿科学研究还是AI的硬骨头。
+最后，开源社区也热闹得很。Z.ai发布了GLM-5.2，一个753B参数的MoE模型，用MIT许可证，在长时域编码基准上以六分之一成本超越了GPT-5.5。Vercel开源了Eve，一个Agent即目录的框架，把Agent定义简化为文件目录。HeyGen开源了HyperFrames，写HTML就能渲染视频，专为Agent设计。
+今日观察：今天最值得关注的信号，是AI Agent安全与治理成为行业焦点。Anthropic的出口管制事件暴露了地缘政治风险，DeepMind的路线图提供了技术框架。同时，小模型推理能力的突破，比如VibeThinker-3B，和开源模型市场份额的上升，正在挑战“越大越好”的范式。对于AI开发者来说，当前应该重点关注Agent的安全控制、Token成本优化和多Agent互操作这三个方向——它们是Agent从演示走向生产的核心瓶颈。
+好了，今天的播报就到这里。我们明天见！</description>
+      <itunes:summary>各位听众朋友，早上好！今天是2026年6月19号，欢迎收听今天的AI行业播报。今天咱们要聊的话题可不少，从政府出口管制到人才大跳槽，从模型安全到开源突破，信息量巨大。咱们先来看一个让整个行业都震了一下的消息。
+首先，Anthropic的新模型Claude Fable 5和Mythos 5，刚发布就被美国政府给叫停了。原因是特朗普政府援引了出口管制法规，要求Anthropic阻止所有外国国民访问，连美国境内的用户都不行。这事儿背后，据说跟韩国SK Telecom的所谓“中国关联”有关，争议焦点是模型被用来“修复代码”算不算越狱。这下，AI出口管制的边界到底在哪儿，成了个大问题。
+紧接着，人才市场也爆出大新闻。Google Gemini的联合负责人、Transformer论文的合著者Noam Shazeer，跳槽去了OpenAI。要知道，他2024年才因为Character.AI被收购而回归Google，这才两年，就又走了。这是继Karpathy之后，今年第二次重大AI人才流动。看来，顶级人才还是在往OpenAI集中。
+说到OpenAI，他们最近的日子也不好过。泄露的财务文件显示，公司每年亏损几十亿美元，光是第一季度就烧掉了250亿美元。Yann LeCun直接警告，OpenAI和Anthropic面临“大泡沫破裂”，说它们的运营全靠投资者补贴，成本降得不够快。这让人不得不思考，AI实验室的高昂成本到底能不能持续。
+不过，挑战英伟达的玩家来了。AWS计划直接向其他数据中心销售自己的AI芯片，CEO Andy Jassy说这代表500亿美元的机会。英伟达在AI芯片市场的主导地位，第一次面临来自云巨头的直接挑战。
+再看安全方面，Google DeepMind发布了一个AI Agent安全控制路线图，把AI Agent当成可能拥有办公室钥匙的“流氓员工”。他们分析了100万个编码任务，发现大多数问题其实是Agent太热心了，不是故意的。这个框架为Agent安全提供了可操作的方法，对部署Agent的团队很有指导意义。
+另外，Adobe在Creative Cloud全线产品里嵌入了Agentic AI工作流，从生成媒体转向生产编排。Premiere Pro、Photoshop这些软件里都推出了“创意代理”公测版，AI从聊天工具变成了编排层。Snap则把AI视频团队剥离出来，成立了新公司Dotmo，因为成本压力太大。AI视频的高成本，让大公司开始通过分拆来管理风险。
+还有，Perplexity发布了Brain，一个为Agent设计的自改进记忆系统。它能构建可追溯的上下文图，晚上自动审查，在准确性、召回率和成本上都有提升。AWS也推出了Context知识图谱服务，Agent用得越多，它就越智能。
+医疗方面，OpenAI升级了ChatGPT的健康能力，新模型GPT-5.5 Instant在医生评估中胜出，错误率下降了71%。他们还发布了LifeSciBench基准，有750个专家写的任务，但最佳模型只通过了36.1%。看来，前沿科学研究还是AI的硬骨头。
+最后，开源社区也热闹得很。Z.ai发布了GLM-5.2，一个753B参数的MoE模型，用MIT许可证，在长时域编码基准上以六分之一成本超越了GPT-5.5。Vercel开源了Eve，一个Agent即目录的框架，把Agent定义简化为文件目录。HeyGen开源了HyperFrames，写HTML就能渲染视频，专为Agent设计。
+今日观察：今天最值得关注的信号，是AI Agent安全与治理成为行业焦点。Anthropic的出口管制事件暴露了地缘政治风险，DeepMind的路线图提供了技术框架。同时，小模型推理能力的突破，比如VibeThinker-3B，和开源模型市场份额的上升，正在挑战“越大越好”的范式。对于AI开发者来说，当前应该重点关注Agent的安全控制、Token成本优化和多Agent互操作这三个方向——它们是Agent从演示走向生产的核心瓶颈。
+好了，今天的播报就到这里。我们明天见！</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-19.mp3" length="1723392" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-19.mp3</guid>
+      <pubDate>Fri, 19 Jun 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>04:47</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-06-18 周四</title>
       <description>各位听众朋友，早上好！今天是2026年6月18号，欢迎收听今天的AI行业播报。今天的看点非常集中，可以说是地缘政治风险爆发、企业烧钱警告，以及技术突破齐飞的一天。咱们直接进入正题。
 先说最重磅的消息。美国政府突然对Anthropic下手了，命令他们切断所有外国公民对Fable 5和Mythos 5这两个模型的访问，连美国境内的外国用户和员工都不例外。这直接导致全球AI可用性危机。白宫还补了一刀，要求Anthropic彻底封堵所有越狱漏洞，但安全专家直接说，这根本不可能。安全性和可用性的矛盾被推到了台前，监管要求和技术现实严重脱节。更麻烦的是，这起事件还卷入了韩国电信巨头SK Telecom，白宫要求Anthropic切断SK Telecom对Mythos的访问，理由是涉嫌与中国有关联。这说明AI出口管制已经从个人用户升级到了企业合作伙伴，影响范围远超预期。有分析认为，具备高级黑客能力的AI模型即将成为常态，禁止一家公司根本阻止不了技术趋势。
