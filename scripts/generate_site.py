@@ -12,6 +12,7 @@ Features:
 import json
 import re
 import markdown as md_lib
+from collections import Counter
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
@@ -1150,60 +1151,93 @@ def build_day_html(date_str: str, digest: dict, dates: list[str],
 
 # ── Trends / hot words ──────────────────────────────────────────────────────────
 
-# (display label, search term, [match patterns — lowercase])
-TREND_GROUPS = [
-    ("OpenAI", "OpenAI", ["openai"]),
-    ("Claude", "Claude", ["claude"]),
-    ("Anthropic", "Anthropic", ["anthropic"]),
-    ("Google", "Google", ["google", "deepmind", "gemini", "谷歌"]),
-    ("Meta", "Llama", ["llama", "meta ai", "扎克伯格"]),
-    ("微软", "微软", ["microsoft", "微软", "copilot"]),
-    ("NVIDIA", "NVIDIA", ["nvidia", "英伟达"]),
-    ("Apple", "Apple", ["apple", "苹果"]),
-    ("DeepSeek", "DeepSeek", ["deepseek", "深度求索"]),
-    ("字节", "字节", ["字节", "bytedance", "豆包"]),
-    ("阿里", "阿里", ["阿里", "alibaba", "qwen", "通义"]),
-    ("腾讯", "腾讯", ["腾讯", "tencent", "混元"]),
-    ("xAI/Grok", "Grok", ["grok", "xai", "马斯克"]),
-    ("Mistral", "Mistral", ["mistral"]),
-    ("智谱/GLM", "GLM", ["glm", "智谱", "chatglm", "z.ai"]),
-    ("月之暗面/Kimi", "Kimi", ["kimi", "月之暗面", "moonshot"]),
-    ("Hugging Face", "Hugging Face", ["hugging face", "huggingface"]),
-    ("Perplexity", "Perplexity", ["perplexity"]),
-    ("Agent/智能体", "Agent", ["agent", "智能体"]),
-    ("编程/Coding", "编程", ["copilot", "cursor", "代码生成", "coding", "编程助手", "code"]),
-    ("大模型", "大模型", ["大模型", "语言模型", " llm"]),
-    ("多模态", "多模态", ["多模态", "multimodal"]),
-    ("图像生成", "图像生成", ["图像生成", "image generation", "文生图", "diffusion", "banana", "midjourney"]),
-    ("视频生成", "视频", ["视频生成", "sora", "视频模型", "video generation"]),
-    ("世界模型", "世界模型", ["世界模型", "world model"]),
-    ("强化学习", "强化学习", ["强化学习", "reinforcement", "rlhf", "rlvr"]),
-    ("推理", "推理", ["推理", "reasoning"]),
-    ("开源", "开源", ["开源", "open-source", "open source"]),
-    ("机器人/具身", "机器人", ["机器人", "robot", "具身", "vla"]),
-    ("芯片/GPU", "芯片", ["芯片", "gpu", "chip", "算力"]),
-    ("安全/对齐", "对齐", ["对齐", "alignment", "ai 安全", "jailbreak", "越狱"]),
-    ("融资/IPO", "融资", ["融资", "ipo", "估值", "投资"]),
-    ("自动驾驶", "自动驾驶", ["自动驾驶", "robotaxi", "辅助驾驶"]),
-]
+# Extract *specific* named entities (model / product / project names) rather
+# than broad categories — an AI audience already knows "Agent" and "LLM"; what's
+# useful is surfacing concrete names like "Fable 5", "GLM-5.2", "Vision Banana".
+
+# Versioned names: a capitalized token (optionally a couple more) + a version
+# number, e.g. "Fable 5", "GLM-5.2", "Mamba-2", "Wear OS 7".
+_VER_RE = re.compile(r'\b([A-Z][A-Za-z0-9]*(?:[ \-][A-Z][A-Za-z0-9]*)*[ \-]?\d+(?:\.\d+)?)\b')
+# Two-word capitalized codenames, e.g. "Vision Banana", "Claude Code".
+_MULTI_RE = re.compile(r'\b([A-Z][a-z]{2,}\s[A-Z][a-z]{2,})\b')
+
+# Generic English tokens — a name made only of these is paper-title noise, and
+# they get stripped from the edges of versioned names ("Agentic Engineering
+# GLM-5" → "GLM-5").
+TREND_STOPTOKENS = {
+    "quickest", "detection", "width", "transformers", "outsider", "enterprise",
+    "robots", "need", "agentic", "engineering", "general", "large", "small",
+    "deep", "learning", "language", "vision", "visual", "model", "models",
+    "based", "towards", "scaling", "reasoning", "efficient", "world", "open",
+    "source", "new", "data", "training", "native", "active", "perception",
+    "daily", "digest", "show", "notes", "machine", "via", "using", "the", "a",
+    "an", "introducing", "meet", "building", "build", "framework", "method",
+    "benchmark", "dataset", "report", "study", "research", "system",
+}
+
+
+def _trend_key(s: str) -> str:
+    return re.sub(r'[\s\-]+', '', s).lower()
+
+
+def _strip_stoptokens(term: str) -> str:
+    parts = term.split()
+    while len(parts) > 1 and parts[0].lower() in TREND_STOPTOKENS:
+        parts = parts[1:]
+    while len(parts) > 1 and parts[-1].lower() in TREND_STOPTOKENS:
+        parts = parts[:-1]
+    return " ".join(parts)
 
 
 def compute_trends(parsed_by_date: dict, dates: list[str], window: int = 7, top: int = 12) -> list:
-    """Count keyword-group mentions across the most recent `window` digests."""
+    """Surface specific model/product names mentioned across the recent window.
+
+    Returns (display, count, search_term) tuples, frequency-ranked."""
     recent = dates[-window:] if len(dates) > window else dates
-    counts = {label: 0 for label, _, _ in TREND_GROUPS}
+    counts, display = Counter(), {}
     for d in recent:
         digest = parsed_by_date.get(d)
         if not digest:
             continue
         for cat in digest["categories"]:
             for item in cat["items"]:
-                text = (item["title"] + " " + item["desc"]).lower()
-                for label, _term, patterns in TREND_GROUPS:
-                    if any(p in text for p in patterns):
-                        counts[label] += 1
-    term_of = {label: term for label, term, _ in TREND_GROUPS}
-    ranked = [(lbl, c, term_of[lbl]) for lbl, c in counts.items() if c >= 2]
+                text = f"{item['title']} {item['desc']}"
+                found = set()
+                for m in _VER_RE.findall(text):
+                    t = _strip_stoptokens(m.strip())
+                    if t:
+                        found.add(t)
+                for m in _MULTI_RE.findall(text):
+                    if all(w in TREND_STOPTOKENS for w in m.lower().split()):
+                        continue
+                    found.add(m.strip())
+                for term in found:
+                    key = _trend_key(term)
+                    if len(key) < 3:
+                        continue
+                    counts[key] += 1  # once per item, so one story can't spam
+                    if key not in display or len(term) > len(display[key]):
+                        display[key] = term
+
+    # Fold shorter names into the longer name that contains them
+    # ("Fable 5" + "Claude Fable" → "Claude Fable 5").
+    keys = sorted(counts, key=len)
+    dropped = set()
+    for a in keys:
+        if a in dropped:
+            continue
+        for b in keys:
+            if a != b and b not in dropped and a in b:
+                counts[b] += counts[a]
+                dropped.add(a)
+                break
+
+    ranked = [
+        (display[k], counts[k], display[k])
+        for k in counts
+        if k not in dropped
+        and (counts[k] >= 2 or any(ch.isdigit() for ch in display[k]))
+    ]
     ranked.sort(key=lambda x: x[1], reverse=True)
     return ranked[:top]
 
@@ -1223,8 +1257,8 @@ def build_trends_html(trends: list, window: int) -> str:
     return f"""
       <div class="trends">
         <div class="trends-head">
-          <h2>{bi(f"🔥 近 {window} 天热词", f"🔥 Hot words · last {window} days")}</h2>
-          <span class="sub">{bi("按出现频次排序 · 点击搜索相关日报", "Ranked by frequency · click to search")}</span>
+          <h2>{bi(f"🔥 近 {window} 天热点", f"🔥 Hot picks · last {window} days")}</h2>
+          <span class="sub">{bi("近期高频出现的模型 / 产品 / 项目 · 点击搜索", "Models / products mentioned most · click to search")}</span>
         </div>
         <div class="trend-tags">{tags}</div>
       </div>"""
