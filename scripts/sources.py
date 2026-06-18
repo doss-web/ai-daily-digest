@@ -306,14 +306,30 @@ def fetch_hacker_news():
     return items
 
 
-# RSS sources format: (url, name, max_items, cutoff_days)
-# cutoff_days=2 for daily news, cutoff_days=7 for weekly newsletters
+# Public RSSHub instances, tried in order (the first that returns items wins).
+# Public instances are individually flaky, so the fallback list keeps the
+# rsshub-backed sources (36Kr, SSPAI) resilient.
+RSSHUB_INSTANCES = [
+    "https://rsshub.rssforever.com",
+    "https://hub.slarker.me",
+    "https://rsshub.app",
+]
+
+
+def rsshub(path):
+    """Candidate URLs for an rsshub route across all configured instances."""
+    return [instance + path for instance in RSSHUB_INSTANCES]
+
+
+# RSS sources format: (url_or_url_list, name, max_items, cutoff_days)
+# url may be a list of fallback URLs; the first that yields items is used.
+# cutoff_days=3 for daily news, 7-14 for less frequent newsletters/blogs.
 RSS_SOURCES = [
     # ── 中文 AI 媒体 ─────────────────────────────────────────────────────────
-    ("https://rsshub.rssforever.com/36kr/search/articles/ai",       "36Kr AI",    10, 3),
+    (rsshub("/36kr/search/articles/ai"),                             "36Kr AI",    10, 3),
     ("https://www.qbitai.com/rss",                                   "量子位",     10, 3),
     ("https://www.infoq.cn/feed.xml",                                "InfoQ 中文",  8,  3),
-    ("https://rsshub.rssforever.com/sspai/tag/AI",                   "SSPAI AI",   8,  3),
+    (rsshub("/sspai/tag/AI"),                                        "SSPAI AI",   8,  3),
 
     # ── 英文科技媒体 ─────────────────────────────────────────────────────────
     ("https://venturebeat.com/feed/",                                "VentureBeat",       8, 3),
@@ -365,7 +381,12 @@ def fetch_all():
     print("Fetching RSS feeds...")
     news = list(hn_items)
     for url, name, max_items, cutoff_days in RSS_SOURCES:
-        feed_items = fetch_rss_feed(url, name, max_items=max_items, cutoff_days=cutoff_days)
+        candidates = url if isinstance(url, (list, tuple)) else [url]
+        feed_items = []
+        for candidate in candidates:
+            feed_items = fetch_rss_feed(candidate, name, max_items=max_items, cutoff_days=cutoff_days)
+            if feed_items:  # first instance that works wins
+                break
         print(f"  [{name}] Got {len(feed_items)} items")
         news.extend(feed_items)
 
