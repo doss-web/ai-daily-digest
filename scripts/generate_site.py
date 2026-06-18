@@ -1404,6 +1404,116 @@ def build_podcast_xml(audio_dates_desc: list[str], parsed_by_date: dict,
 """
 
 
+# ── Creator helper (小宇宙 manual-upload assistant) ───────────────────────────────
+
+def build_shownotes(digest: dict, date_str: str) -> str:
+    """Plain-text episode description, ready to paste into 小宇宙 Show Notes."""
+    lines = [
+        f"AI 每日简报 · {date_str} {weekday_of(date_str)}",
+        "",
+        "🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。",
+        "",
+    ]
+    for cat in digest.get("categories", []):
+        if not cat["items"]:
+            continue
+        lines.append(f"{cat['emoji']} {cat['name']}".strip())
+        for it in cat["items"]:
+            desc = f"：{it['desc']}" if it["desc"] else ""
+            lines.append(f"· {it['title']}{desc}")
+            if it["sources"]:
+                lines.append("  来源：" + " / ".join(s["url"] for s in it["sources"]))
+        lines.append("")
+    if digest.get("observation"):
+        lines += ["💡 今日观察", digest["observation"], ""]
+    lines += ["———", f"完整图文与往期：{SITE_URL}"]
+    return "\n".join(lines).strip()
+
+
+CREATOR_HEAD = """<!DOCTYPE html>
+<html lang="zh-Hans"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小宇宙上传助手 · AI Daily Digest</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0d1117; color: #e6edf3; line-height: 1.7; padding: 0 0 80px; }
+  a { color: #58a6ff; text-decoration: none; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  h1 { font-size: 26px; font-weight: 800; padding: 40px 0 8px; }
+  .lead { color: #8b949e; font-size: 14px; margin-bottom: 8px; }
+  .cover-tip { font-size: 13px; color: #8b949e; margin-bottom: 28px; }
+  .cover-tip code { background: #161b22; border: 1px solid #21262d; border-radius: 6px;
+    padding: 2px 6px; color: #c9d1d9; word-break: break-all; }
+  .ep { background: #161b22; border: 1px solid #21262d; border-radius: 12px;
+    padding: 18px 20px; margin-bottom: 14px; }
+  .ep-h { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+  .ep-title { font-size: 16px; font-weight: 600; flex: 1; min-width: 200px; }
+  .ep audio { width: 100%; height: 36px; margin-bottom: 12px; }
+  .acts { display: flex; gap: 10px; flex-wrap: wrap; }
+  .cbtn { display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+    background: #0d1117; border: 1px solid #30363d; border-radius: 8px; color: #e6edf3;
+    font-size: 13px; padding: 7px 14px; transition: border-color .15s; }
+  .cbtn:hover { border-color: #58a6ff; text-decoration: none; }
+  details { margin-top: 12px; }
+  summary { font-size: 13px; color: #58a6ff; cursor: pointer; }
+  .notes { font-size: 13px; color: #8b949e; margin-top: 10px; white-space: pre-wrap;
+    background: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 12px; }
+  .foot { text-align: center; color: #484f58; font-size: 13px; margin-top: 32px; }
+</style></head><body><div class="wrap">
+<h1>🎙️ 小宇宙上传助手</h1>
+<p class="lead">每天打开此页 → 下载音频、复制标题与 Show Notes → 到小宇宙后台「创建单集」粘贴上传即可。</p>
+<p class="cover-tip">单集封面统一用：<code>__SITE__podcast-cover.png</code></p>
+"""
+
+CREATOR_TAIL = """
+<div class="foot"><a href="index.html">← 返回首页</a></div>
+</div>
+<script>
+(function () {
+  function flash(btn, ok) {
+    var old = btn.textContent;
+    btn.textContent = ok ? '✓ 已复制' : '复制失败';
+    setTimeout(function () { btn.textContent = old; }, 1600);
+  }
+  document.querySelectorAll('[data-copy]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var el = document.getElementById(btn.getAttribute('data-copy'));
+      var text = el ? (el.innerText || el.textContent) : '';
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(function () { flash(btn, true); },
+                                                 function () { flash(btn, false); });
+      } else { flash(btn, false); }
+    });
+  });
+})();
+</script></body></html>"""
+
+
+def build_creator_page(audio_dates_desc: list[str], parsed_by_date: dict) -> str:
+    rows = ""
+    for d in audio_dates_desc:
+        digest = parsed_by_date.get(d, {"categories": [], "observation": ""})
+        title = f"AI 每日简报 · {d} {weekday_of(d)}"
+        notes = build_shownotes(digest, d)
+        mp3 = f"audio/{d}.mp3"
+        rows += f"""
+<div class="ep">
+  <div class="ep-h">
+    <span class="ep-title" id="t-{d}">{attr_escape(title)}</span>
+    <button class="cbtn" data-copy="t-{d}">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="{mp3}"></audio>
+  <div class="acts">
+    <a class="cbtn" href="{mp3}" download="{d}.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-{d}">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-{d}">{attr_escape(notes)}</pre></details>
+</div>"""
+    return CREATOR_HEAD.replace("__SITE__", SITE_URL) + rows + CREATOR_TAIL
+
+
 # ── Main ────────────────────────────────────────────────────────────────────────
 
 def generate_site(root: Path | None = None) -> None:
@@ -1468,7 +1578,10 @@ def generate_site(root: Path | None = None) -> None:
         (docs_dir / "podcast.xml").write_text(
             build_podcast_xml(audio_desc, parsed_by_date, docs_dir),
             encoding="utf-8")
-        print(f"  Podcast feed → {len(audio_desc)} episode(s)")
+        # Creator helper page for manual 小宇宙 uploads
+        (docs_dir / "creator.html").write_text(
+            build_creator_page(audio_desc, parsed_by_date), encoding="utf-8")
+        print(f"  Podcast feed + creator page → {len(audio_desc)} episode(s)")
 
     # 404 → back to index
     (docs_dir / "404.html").write_text(
