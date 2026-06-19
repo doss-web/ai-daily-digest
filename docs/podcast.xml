@@ -15,6 +15,39 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-06-20 周六</title>
+      <description>各位听众朋友早上好，今天是2026年6月20号，欢迎收听今天的AI行业播报。今天AI圈动静不小，从模型下架到人才流动，从安全漏洞到开源突破，信息量很大。咱们先来聊聊最重磅的。
+先说一个让人震惊的消息。Anthropic发布才三天的Claude Fable 5，直接被美国政府强制下架了。原因是亚马逊的研究人员发现，有人能绕过Fable 5的安全护栏。这背后是AI安全审查和出口管制政策，正在直接干预前沿模型的发布。同一天，Nobel化学奖得主、AlphaFold的核心发明人John Jumper，宣布离开Google DeepMind，加入Anthropic。这已经是继Noam Shazeer之后，又一位顶尖人才从DeepMind跳槽到Anthropic了。看来Anthropic在人才争夺上，势头很猛。
+另一边，OpenAI在IPO前也在密集招兵买马。他们接连引入了Transformer的共同发明人Noam Shazeer，还有前特朗普政府的AI政策官员Dean Ball。不过，OpenAI内部的人事稳定性依然是个问题。Barret Zoph在重返OpenAI五个月后，再次离职了。这已经是他在短时间内第二次离开。
+说到商业合作和创作自由的冲突，也有一件趣事。亚马逊MGM原本拍了一部关于OpenAI的传记电影，叫《Artificial》，导演是Luca Guadagnino，电影都快做完了。但因为亚马逊和OpenAI达成了500亿美元的合作，这部电影被直接放弃了。看来商业利益面前，艺术创作也得让路。
+再来看资本和创业。AI推理基础设施公司Baseten，据说正在以130亿美元的估值融资15亿美元。距离他们上一轮大额融资才过去几个月，资本对AI推理赛道的热情可见一斑。而Snapchat的母公司，因为AI视频生成成本太高，干脆把AI视频团队剥离出来，成立了一家新公司叫Dotmo，由原班人马独立运营。
+教育领域也有新动向。挪威宣布，从8月底开始，禁止小学一到七年级的学生使用生成式AI工具，中学阶段也只有在老师监督下才允许用。保护孩子的基础学习能力，成了政策优先考虑的事。
+产品方面，Adobe在Creative Cloud全线嵌入了AI代理工作流，Photoshop、Premiere、Illustrator这些软件都有了AI助手。AI正在从单纯的“生成工具”，进化成“生产流程的编排者”。Anthropic也为Claude Code推出了Artifacts更新，可以让工作成果变成实时交互的网页，和团队共享，支持实时更新和版本历史。AI编程工具正在从个人使用，向团队协作进化。
+另外，还有一个新框架号称在相同算力下，比Claude Code和Codex快2.5倍。它通过联合优化分块策略、检索方法和系统提示，证明了系统级的联合优化，比单点调优更有效。
+安全方面，今天有两个重磅警告。首先，企业AI代理框架存在严重安全漏洞。已经有7000个Langflow服务器遭到攻击，LangGraph和LangChain也有同样的问题。攻击者可以通过SQL注入实现远程代码执行。开发者们，赶紧去审计你们的部署栈吧。好消息是，NVIDIA发布了SkillSpector，一个专门扫描AI技能安全风险的工具，通过静态分析和SARIF报告来评估风险。Google DeepMind也发布了AI代理安全控制路线图，还宣布投资1000万美元用于多代理AI安全研究。安全问题，正在成为整个行业的紧迫课题。
+还有几个有意思的产品。Perplexity推出了一个叫Brain的记忆系统，能让Computer Agent通过构建上下文图，并在夜间自动回顾，来提升正确性和降低成本。Vercel开源了AI代理框架Eve，每个代理就是一个文件目录，内置持久化执行、沙箱和审批能力，大大降低了开发门槛。
+最后，论文和开源项目也有不少亮点。OpenAI发布了LifeSciBench，一个包含750个任务的AI生命科学研究基准，由173位博士科学家构建，最佳模型只通过了36.1%，说明AI和专家级研究之间还有巨大差距。他们还展示了一种“有益特质训练”，通过强化学习训练AI的诚实、可修正等特质，比基于规则的约束更有效。
+开源这边，GLM-5.2发布了。这是一个753B参数的MoE模型，但只有40B激活，MIT许可，</description>
+      <itunes:summary>各位听众朋友早上好，今天是2026年6月20号，欢迎收听今天的AI行业播报。今天AI圈动静不小，从模型下架到人才流动，从安全漏洞到开源突破，信息量很大。咱们先来聊聊最重磅的。
+先说一个让人震惊的消息。Anthropic发布才三天的Claude Fable 5，直接被美国政府强制下架了。原因是亚马逊的研究人员发现，有人能绕过Fable 5的安全护栏。这背后是AI安全审查和出口管制政策，正在直接干预前沿模型的发布。同一天，Nobel化学奖得主、AlphaFold的核心发明人John Jumper，宣布离开Google DeepMind，加入Anthropic。这已经是继Noam Shazeer之后，又一位顶尖人才从DeepMind跳槽到Anthropic了。看来Anthropic在人才争夺上，势头很猛。
+另一边，OpenAI在IPO前也在密集招兵买马。他们接连引入了Transformer的共同发明人Noam Shazeer，还有前特朗普政府的AI政策官员Dean Ball。不过，OpenAI内部的人事稳定性依然是个问题。Barret Zoph在重返OpenAI五个月后，再次离职了。这已经是他在短时间内第二次离开。
+说到商业合作和创作自由的冲突，也有一件趣事。亚马逊MGM原本拍了一部关于OpenAI的传记电影，叫《Artificial》，导演是Luca Guadagnino，电影都快做完了。但因为亚马逊和OpenAI达成了500亿美元的合作，这部电影被直接放弃了。看来商业利益面前，艺术创作也得让路。
+再来看资本和创业。AI推理基础设施公司Baseten，据说正在以130亿美元的估值融资15亿美元。距离他们上一轮大额融资才过去几个月，资本对AI推理赛道的热情可见一斑。而Snapchat的母公司，因为AI视频生成成本太高，干脆把AI视频团队剥离出来，成立了一家新公司叫Dotmo，由原班人马独立运营。
+教育领域也有新动向。挪威宣布，从8月底开始，禁止小学一到七年级的学生使用生成式AI工具，中学阶段也只有在老师监督下才允许用。保护孩子的基础学习能力，成了政策优先考虑的事。
+产品方面，Adobe在Creative Cloud全线嵌入了AI代理工作流，Photoshop、Premiere、Illustrator这些软件都有了AI助手。AI正在从单纯的“生成工具”，进化成“生产流程的编排者”。Anthropic也为Claude Code推出了Artifacts更新，可以让工作成果变成实时交互的网页，和团队共享，支持实时更新和版本历史。AI编程工具正在从个人使用，向团队协作进化。
+另外，还有一个新框架号称在相同算力下，比Claude Code和Codex快2.5倍。它通过联合优化分块策略、检索方法和系统提示，证明了系统级的联合优化，比单点调优更有效。
+安全方面，今天有两个重磅警告。首先，企业AI代理框架存在严重安全漏洞。已经有7000个Langflow服务器遭到攻击，LangGraph和LangChain也有同样的问题。攻击者可以通过SQL注入实现远程代码执行。开发者们，赶紧去审计你们的部署栈吧。好消息是，NVIDIA发布了SkillSpector，一个专门扫描AI技能安全风险的工具，通过静态分析和SARIF报告来评估风险。Google DeepMind也发布了AI代理安全控制路线图，还宣布投资1000万美元用于多代理AI安全研究。安全问题，正在成为整个行业的紧迫课题。
+还有几个有意思的产品。Perplexity推出了一个叫Brain的记忆系统，能让Computer Agent通过构建上下文图，并在夜间自动回顾，来提升正确性和降低成本。Vercel开源了AI代理框架Eve，每个代理就是一个文件目录，内置持久化执行、沙箱和审批能力，大大降低了开发门槛。
+最后，论文和开源项目也有不少亮点。OpenAI发布了LifeSciBench，一个包含750个任务的AI生命科学研究基准，由173位博士科学家构建，最佳模型只通过了36.1%，说明AI和专家级研究之间还有巨大差距。他们还展示了一种“有益特质训练”，通过强化学习训练AI的诚实、可修正等特质，比基于规则的约束更有效。
+开源这边，GLM-5.2发布了。这是一个753B参数的MoE模型，但只有40B激活，MIT许可，</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-20.mp3" length="1185840" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-20.mp3</guid>
+      <pubDate>Sat, 20 Jun 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>03:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-06-19 周五</title>
       <description>各位听众朋友，早上好！今天是2026年6月19号，欢迎收听今天的AI行业播报。今天AI圈可以说是风起云涌，从模型下架到人才跳槽，从开源大模型到Agent安全框架，看点非常多。我们这就开始。
 先说一个重磅消息，Anthropic刚刚发布的Claude Fable 5模型，居然被美国政府紧急要求下架了。原因是特朗普政府以出口管制为由，认为模型涉及韩国SK电讯的所谓“中国关联”。这事儿一出，立刻引发了关于AI监管边界的广泛讨论。要知道，这种级别的模型被强制下架，可是头一回，它给全球的AI公司敲响了警钟——以后部署模型，可能还得考虑地缘政治风险。
