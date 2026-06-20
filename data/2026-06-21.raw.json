@@ -1,10 +1,10 @@
 {
   "date": "2026-06-21",
-  "generated_at": "2026-06-21T05:46:56.260945+08:00",
+  "generated_at": "2026-06-21T07:16:05.478041+08:00",
   "counts": {
     "papers": 30,
     "projects": 15,
-    "news": 124
+    "news": 130
   },
   "items": {
     "papers": [
@@ -614,10 +614,21 @@
     "news": [
       {
         "category": "news",
+        "title": "Systemd 261 released with systemd-sysinstall, IMDSD, and storagectl",
+        "url": "https://www.phoronix.com/news/systemd-261",
+        "normalized_url": "https://www.phoronix.com/news/systemd-261",
+        "summary": "HN points: 21, comments: 7",
+        "source": "Hacker News",
+        "published": "2026-06-20T21:50:42Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Trump says he no longer views Anthropic as a threat after G7 meeting",
         "url": "https://thenextweb.com/news/trump-anthropic-not-national-security-threat-axios-interview",
         "normalized_url": "https://thenextweb.com/news/trump-anthropic-not-national-security-threat-axios-interview",
-        "summary": "HN points: 19, comments: 2",
+        "summary": "HN points: 20, comments: 2",
         "source": "Hacker News",
         "published": "2026-06-20T20:50:59Z",
         "importance_hint": 4,
@@ -628,7 +639,7 @@
         "title": "UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
         "url": "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence/",
         "normalized_url": "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence",
-        "summary": "HN points: 32, comments: 53",
+        "summary": "HN points: 34, comments: 72",
         "source": "Hacker News",
         "published": "2026-06-20T20:41:06Z",
         "importance_hint": 4,
@@ -650,7 +661,7 @@
         "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
         "url": "https://www.lispm.net/apps/uhf-x11/",
         "normalized_url": "https://www.lispm.net/apps/uhf-x11",
-        "summary": "HN points: 107, comments: 14",
+        "summary": "HN points: 141, comments: 20",
         "source": "Hacker News",
         "published": "2026-06-20T17:04:24Z",
         "importance_hint": 3,
@@ -661,7 +672,7 @@
         "title": "Iran says it's closing Strait of Hormuz, accusing Israel, US of violating truce",
         "url": "https://www.cnn.com/2026/06/20/world/live-news/iran-war-trump-israel-lebanon",
         "normalized_url": "https://www.cnn.com/2026/06/20/world/live-news/iran-war-trump-israel-lebanon",
-        "summary": "HN points: 67, comments: 51",
+        "summary": "HN points: 69, comments: 54",
         "source": "Hacker News",
         "published": "2026-06-20T16:38:40Z",
         "importance_hint": 3,
@@ -672,7 +683,7 @@
         "title": "Lobsters Bug Allows Unauthorized Email Access",
         "url": "https://lobste.rs/s/7heurd",
         "normalized_url": "https://lobste.rs/s/7heurd",
-        "summary": "HN points: 15, comments: 6",
+        "summary": "HN points: 16, comments: 6",
         "source": "Hacker News",
         "published": "2026-06-20T15:55:56Z",
         "importance_hint": 3,
@@ -683,7 +694,7 @@
         "title": "US Scientist John Jumper to Leave Google DeepMind for Anthropic",
         "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/",
         "normalized_url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-        "summary": "HN points: 63, comments: 8",
+        "summary": "HN points: 65, comments: 9",
         "source": "Hacker News",
         "published": "2026-06-20T14:32:15Z",
         "importance_hint": 4,
@@ -694,42 +705,9 @@
         "title": "Ubisoft co-founder Claude Guillemot has died in a plane crash",
         "url": "https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20/",
         "normalized_url": "https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20",
-        "summary": "HN points: 140, comments: 82",
+        "summary": "HN points: 147, comments: 92",
         "source": "Hacker News",
         "published": "2026-06-20T14:12:50Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Show HN: We post-trained a model that pen tests instead of refusing",
-        "url": "https://www.argusred.com/cli",
-        "normalized_url": "https://www.argusred.com/cli",
-        "summary": "HN points: 50, comments: 25",
-        "source": "Hacker News",
-        "published": "2026-06-20T13:49:03Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Kremlometr - Using NLP to spot pro-Russian propaganda in czech media comments",
-        "url": "https://kremlometr.cz/?lang=en",
-        "normalized_url": "https://kremlometr.cz?lang=en",
-        "summary": "HN points: 18, comments: 5",
-        "source": "Hacker News",
-        "published": "2026-06-20T13:36:56Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Claude Guillemot Ubisoft Co-Founder Dead in Plane Crash",
-        "url": "https://www.thegamer.com/ubisoft-co-founder-claude-guillemot-dead/",
-        "normalized_url": "https://www.thegamer.com/ubisoft-co-founder-claude-guillemot-dead",
-        "summary": "HN points: 19, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-06-20T12:26:04Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -1177,19 +1155,6 @@
       },
       {
         "category": "news",
-        "title": "AWS enters the context layer race with a graph that learns from agents, not manual curation",
-        "url": "https://venturebeat.com/data/aws-enters-the-context-layer-race-with-a-graph-that-learns-from-agents-not-manual-curation",
-        "normalized_url": "https://venturebeat.com/data/aws-enters-the-context-layer-race-with-a-graph-that-learns-from-agents-not-manual-curation",
-        "summary": "Building a context layer between enterprise data stores and AI agents is bespoke work, with no standard service to automate or maintain the graphs over time. Amazon is making a direct play to change that. Amazon on Wednesday entered the space, announcing a series of three products it's positioning as a context intelligence stack for AI agents. The centerpiece is AWS Context, a new knowledge graph service that gets smarter through agent usage over time. AWS also announced the general availability",
-        "source": "VentureBeat",
-        "published": "2026-06-17T22:10:38+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://venturebeat.com/feed/"
-        }
-      },
-      {
-        "category": "news",
         "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
         "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
         "normalized_url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends",
@@ -1502,19 +1467,6 @@
       },
       {
         "category": "news",
-        "title": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy",
-        "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
-        "normalized_url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
-        "summary": "Days before Anthropic took its most advanced AI models offline, the White House ordered the company to revoke SK Telecom’s access to Claude Mythos over claims of alleged ties to China.",
-        "source": "Wired AI",
-        "published": "2026-06-17T22:52:00+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
         "title": "IEEE Rolls Out Large Language Models Virtual Training Course",
         "url": "https://spectrum.ieee.org/large-language-models-ieee-course",
         "normalized_url": "https://spectrum.ieee.org/large-language-models-ieee-course",
@@ -1706,6 +1658,136 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
+        "url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration",
+        "summary": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines from baseline prompts to target accuracy. FAPO evaluates a chain, attributes failures at the step level, proposes variants across prompt, parameter, and chain-structure levels, and validates each through an independent reviewer. In Cisco's evaluation, it beat GEPA on 15 of 18 model-benchmark comparisons. Here's how the optimization loop",
+        "source": "MarkTechPost",
+        "published": "2026-06-20T23:04:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets",
+        "url": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets",
+        "summary": "Nous Research has added a Blank Slate setup mode to its open-source Hermes Agent. It starts an agent with everything off except provider, model, File Operations, and Terminal. You opt in to the rest. The post Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-20T21:50:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Yandex Open-Sources YaFF: A Zero-Copy Wire Format for Protobuf With Near-Struct Read Speed",
+        "url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed",
+        "summary": "In this article we look at YaFF, Yandex's open-source zero-copy wire format for the Protobuf ecosystem. We keep the .proto file as the single source of truth, changing only how data sits in memory. We walk through its four layouts — Fixed, Flat, Sparse, and Dynamic — and the benchmark where Flat Layout reads within 1.2× of a raw C++ struct. We also cover where it fits, including the advertising recommendation system reporting 10–20% CPU savings at production scale. The post Yandex Open-Sources Y",
+        "source": "MarkTechPost",
+        "published": "2026-06-20T09:23:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How to Build a Forecasting Pipeline with TimeCopilot Using Foundation Models and Automated Anomaly Detection",
+        "url": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection",
+        "summary": "We build an end-to-end forecasting workflow with TimeCopilot on a panel of real airline passenger data and a synthetic seasonal series with injected anomalies. We evaluate statistical, foundation, and optional GPU-based models using rolling cross-validation and multiple error metrics. We generate probabilistic forecasts with prediction intervals, visualize future trends, and flag unusual observations. We then explore TimeCopilot's optional LLM agent, which selects a model and explains its predic",
+        "source": "MarkTechPost",
+        "published": "2026-06-20T09:05:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning",
+        "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+        "summary": "SpatialClaw is a training-free agent that writes Python in a persistent kernel, composing perception tools for 3D spatial reasoning The post NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-19T22:51:59+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline",
+        "url": "https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline",
+        "summary": "VibeThinker-3B, a 3B MIT-licensed reasoning model matching DeepSeek V3.2 and Kimi K2.5 on verifiable benchmarks. The post VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-19T22:06:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Liquid AI Introduces LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M: Dense Bi-Encoder and Late-Interaction Models for Fast Multilingual Search Across 11 Languages",
+        "url": "https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages",
+        "summary": "Liquid AI's LFM2.5 Retrievers combine a dense bi-encoder and ColBERT late-interaction model for multilingual search on edge devices. The post Liquid AI Introduces LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M: Dense Bi-Encoder and Late-Interaction Models for Fast Multilingual Search Across 11 Languages appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-19T10:29:39+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions With Unit Tests and Safety Checks",
+        "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+        "summary": "We implement an end-to-end workflow for Salesforce CodeGen, loaded from Hugging Face. We move past basic inference by adding function extraction, syntax checking, static safety checks, and unit-test validation. We rerank best-of-N candidates, compose multi-turn program synthesis, and experiment with prompt styles. We finish by visualizing a mini benchmark and exporting the generated artifacts as reusable files. The post Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions",
+        "source": "MarkTechPost",
+        "published": "2026-06-19T02:44:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight",
+        "url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain",
+        "summary": "Perplexity has launched Brain, a self-improving memory system for its Computer agent. Instead of remembering the user, Brain remembers the agent's work — what worked, what failed, and what corrections got made. It builds a traceable context graph, reviews it overnight, and reports early gains in correctness, recall, and cost. The post Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-18T20:26:20+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache",
+        "url": "https://www.marktechpost.com/2026/06/18/the-kv-cache-compression-race-turboquant-vs-oscar-vs-epicache/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/18/the-kv-cache-compression-race-turboquant-vs-oscar-vs-epicache",
+        "summary": "The KV cache now outweighs model weights at long context. Here's how TurboQuant, OSCAR, and EpiCache each attack that memory bottleneck — and why they're more complementary than competitive. The post The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-18T09:14:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
         }
       },
       {
@@ -2074,25 +2156,25 @@
       },
       {
         "category": "news",
-        "title": "[GLM 5.2 UD IQ2_M] That's the best pelican svg image I have ever seen",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uavhsb/glm_52_ud_iq2_m_thats_the_best_pelican_svg_image/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uavhsb/glm_52_ud_iq2_m_thats_the_best_pelican_svg_image",
-        "summary": "Computer Specs: rtx 5090 + rtx 3090 (x8 x8 bifurcated) Gigabyte AI TOP B850 Motherboard Ryzen 9950x3d 256gb DDR5 5600 (4x64gb) I didn't have high hopes because of the low quant but damn. This model is capable as hell just by looking at this image I can tell that. The tps is low on that system but I can imagine it doing way better on my upcoming 8(12)x3090 threadripper system. submitted by /u/BlackBeardAI [link] [comments]",
+        "title": "Six months ago I turned down $8,165 for an RTX 6000 PRO. Today the same vendor is selling them for $11,575. Oh, hindsight.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub693e/six_months_ago_i_turned_down_8165_for_an_rtx_6000/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub693e/six_months_ago_i_turned_down_8165_for_an_rtx_6000",
+        "summary": "submitted by /u/__JockY__ [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-20T12:32:54+00:00",
-        "importance_hint": 4,
+        "published": "2026-06-20T20:10:58+00:00",
+        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
       },
       {
         "category": "news",
-        "title": "$1800 (in GPU cost running with P2P running Qwen/Qwen3.6-27b-FP8 with 262K context and BF16 KV cache at 55 tok/s",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uah3oc/1800_in_gpu_cost_running_with_p2p_running/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uah3oc/1800_in_gpu_cost_running_with_p2p_running",
-        "summary": "Hey peeps, wanted to share what is possible for folks with an inference only single user use case with 1700 in GPU cost. Setup: 4x 5060 ti (16GB) with P2P If you are in the US and you keep an eye on facebook marketplace and places like slickdeals you can find some 5060 ti 16 GB models for 425 to 475 used. A giant caveat is this type of configuration is only viable if your only interested in strictly inference. The VLLM Command Used: export VLLM_SLEEP_WHEN_IDLE=1 export VLLM_MEMORY_PROFILER_ESTIM",
+        "title": "[GLM 5.2 UD IQ2_M] That's the best pelican svg image I have ever seen",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uavhsb/glm_52_ud_iq2_m_thats_the_best_pelican_svg_image/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uavhsb/glm_52_ud_iq2_m_thats_the_best_pelican_svg_image",
+        "summary": "Computer Specs: rtx 5090 + rtx 3090 (x8 x8 bifurcated) Gigabyte AI TOP B850 Motherboard Ryzen 9950x3d 256gb DDR5 5600 (4x64gb) I didn't have high hopes because of the low quant but damn. This model is capable as hell just by looking at this image I can tell that. The tps is low on that system but I can imagine it doing way better on my upcoming 8(12)x3090 threadripper system. submitted by /u/BlackBeardAI [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-19T23:30:10+00:00",
+        "published": "2026-06-20T12:32:54+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2113,13 +2195,13 @@
       },
       {
         "category": "news",
-        "title": "Giving a local agent web access without paid search/scrape APIs: SearXNG + Scrapling",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid",
-        "summary": "I wanted web access for a local-first agent without reaching for Tavily, Serper, Firecrawl, etc. For this agent path, I wanted no paid API keys, a search service I control, and page extraction I can run myself. What I ended up with is two tools: web_search and web_extract . Nothing fancy. Mostly just wiring together good open-source pieces. 1. Search -> SearXNG SearXNG is a self-hostable metasearch engine. I run it in Docker and point the agent at its JSON endpoint. The search call is roughly: t",
+        "title": "$1800 (in GPU cost running with P2P running Qwen/Qwen3.6-27b-FP8 with 262K context and BF16 KV cache at 55 tok/s",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uah3oc/1800_in_gpu_cost_running_with_p2p_running/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uah3oc/1800_in_gpu_cost_running_with_p2p_running",
+        "summary": "Hey peeps, wanted to share what is possible for folks with an inference only single user use case with 1700 in GPU cost. Setup: 4x 5060 ti (16GB) with P2P If you are in the US and you keep an eye on facebook marketplace and places like slickdeals you can find some 5060 ti 16 GB models for 425 to 475 used. A giant caveat is this type of configuration is only viable if your only interested in strictly inference. The VLLM Command Used: export VLLM_SLEEP_WHEN_IDLE=1 export VLLM_MEMORY_PROFILER_ESTIM",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-20T03:36:50+00:00",
-        "importance_hint": 5,
+        "published": "2026-06-19T23:30:10+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }

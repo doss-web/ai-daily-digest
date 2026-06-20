@@ -16,30 +16,34 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-06-21 周日</title>
-      <description>各位听众朋友，早上好！今天是2026年6月21号，欢迎收听今天的AI行业播报。今天的信息量非常大，有几个重磅消息值得你竖起耳朵听：诺贝尔奖得主、AlphaFold之父跳槽了，美国政府对AI模型出手了，还有OpenAI的营收数字让人既兴奋又捏把汗。好，我们赶紧进入正题。
-首先，AI圈的人才大战又升级了。AlphaFold之父、诺贝尔奖得主John Jumper在DeepMind工作了将近九年后，突然宣布转投竞争对手Anthropic。这还没完，就在前几天，Gemini的联合负责人Noam Shazeer也离职去了OpenAI。Google这是怎么了？核心AI人才接连出走，Anthropic那边倒是人才储备一下子上了一个大台阶。
-说到Anthropic，他们最近可不太平。美国政府以国家安全为由，强制要求Anthropic撤回他们最新的两个模型——Fable 5和Mythos 5。原因是亚马逊的研究人员发现，可能有人能绕过Fable 5的安全护栏。网络安全界不少专家都签署了公开信，批评这个做法太危险。这意味着AI监管已经进入了实质性的出口管制阶段，对整个行业的全球化合作模式都会产生深远影响。
-再来看看OpenAI这边。他们公布了2026年第一季度的财报，营收达到57亿美元，是去年同期的三倍。但别高兴太早，成本也翻了三倍，烧掉了37亿美元，其中光股票薪酬就占了23亿。虽然目前手里还握着730亿美元的储备，但跟Anthropic的价格战随时可能让局面变得紧张。另外，OpenAI的Codex推出了一项新功能叫&quot;录制与回放&quot;，你只要演示一遍工作流程，Codex就能把它变成可复用的技能，自动重复执行。这个功能目前不在欧盟、英国和瑞士上线。
-另一家科技巨头Meta的日子也不好过。内部直播中，员工当众批评管理层，CTO也承认AI重组搞得很糟糕。新成立的AI部门内部严重失调，员工士气降到了2006年以来的最低点。这要是人才开始往外跑，Meta的AI战略可就真的危险了。
-国内这边，智谱AI的创始人唐杰隔空回应了马斯克，说中国模型追赶Claude Fable 5不用等到2027年。他还重新校准了中美大模型能力的时间差，表示国产模型的追赶速度超出了预期。同时，智谱AI还开源了GLM-5.2，这是一个753B参数的MoE模型，支持100万token的上下文，是目前最强的纯文本开源模型，而且用的是MIT协议，开发者可以放心使用。
-教育领域也有新动向。挪威宣布从8月底开始，小学1到7年级的学生禁止使用生成式AI工具，中学也只能在监督下使用。首相说，孩子们必须先学会读、写和算数。看来，AI在教育中的边界问题，各国还在摸索。
-安全方面，今天有两个大新闻。一个是Langflow、LangGraph和LangChain这三个主流的AI Agent框架都被发现存在安全漏洞，已经有7000个Langflow服务器正在被攻击。另一个是Microsoft 365 Copilot也被曝出存在SearchLeak漏洞，LiteLLM也有管理密钥泄露的风险。企业部署AI Agent，安全审计真的刻不容缓。
-最后，今天的&quot;今日观察&quot;环节。今天最值得关注的信号有三条：第一，GLM-5.2作为最强纯文本开源模型发布，证明开源模型在推理能力上正快速追赶闭源；第二，Anthropic的Fable 5被美国政府强制下架，标志着AI监管已进入实质性的出口管制阶段；第三，AI Agent框架集中爆发安全漏洞，说明Agent生态正在经历从&quot;能用&quot;到&quot;安全&quot;的阵痛期。建议开发者立即审计Agent基础设施安全，同时密切关注GLM-5.2等开源模型的本地部署潜力。
-好，今天的播报就到这里。感谢你的收听，我们明天见！</description>
-      <itunes:summary>各位听众朋友，早上好！今天是2026年6月21号，欢迎收听今天的AI行业播报。今天的信息量非常大，有几个重磅消息值得你竖起耳朵听：诺贝尔奖得主、AlphaFold之父跳槽了，美国政府对AI模型出手了，还有OpenAI的营收数字让人既兴奋又捏把汗。好，我们赶紧进入正题。
-首先，AI圈的人才大战又升级了。AlphaFold之父、诺贝尔奖得主John Jumper在DeepMind工作了将近九年后，突然宣布转投竞争对手Anthropic。这还没完，就在前几天，Gemini的联合负责人Noam Shazeer也离职去了OpenAI。Google这是怎么了？核心AI人才接连出走，Anthropic那边倒是人才储备一下子上了一个大台阶。
-说到Anthropic，他们最近可不太平。美国政府以国家安全为由，强制要求Anthropic撤回他们最新的两个模型——Fable 5和Mythos 5。原因是亚马逊的研究人员发现，可能有人能绕过Fable 5的安全护栏。网络安全界不少专家都签署了公开信，批评这个做法太危险。这意味着AI监管已经进入了实质性的出口管制阶段，对整个行业的全球化合作模式都会产生深远影响。
-再来看看OpenAI这边。他们公布了2026年第一季度的财报，营收达到57亿美元，是去年同期的三倍。但别高兴太早，成本也翻了三倍，烧掉了37亿美元，其中光股票薪酬就占了23亿。虽然目前手里还握着730亿美元的储备，但跟Anthropic的价格战随时可能让局面变得紧张。另外，OpenAI的Codex推出了一项新功能叫&quot;录制与回放&quot;，你只要演示一遍工作流程，Codex就能把它变成可复用的技能，自动重复执行。这个功能目前不在欧盟、英国和瑞士上线。
-另一家科技巨头Meta的日子也不好过。内部直播中，员工当众批评管理层，CTO也承认AI重组搞得很糟糕。新成立的AI部门内部严重失调，员工士气降到了2006年以来的最低点。这要是人才开始往外跑，Meta的AI战略可就真的危险了。
-国内这边，智谱AI的创始人唐杰隔空回应了马斯克，说中国模型追赶Claude Fable 5不用等到2027年。他还重新校准了中美大模型能力的时间差，表示国产模型的追赶速度超出了预期。同时，智谱AI还开源了GLM-5.2，这是一个753B参数的MoE模型，支持100万token的上下文，是目前最强的纯文本开源模型，而且用的是MIT协议，开发者可以放心使用。
-教育领域也有新动向。挪威宣布从8月底开始，小学1到7年级的学生禁止使用生成式AI工具，中学也只能在监督下使用。首相说，孩子们必须先学会读、写和算数。看来，AI在教育中的边界问题，各国还在摸索。
-安全方面，今天有两个大新闻。一个是Langflow、LangGraph和LangChain这三个主流的AI Agent框架都被发现存在安全漏洞，已经有7000个Langflow服务器正在被攻击。另一个是Microsoft 365 Copilot也被曝出存在SearchLeak漏洞，LiteLLM也有管理密钥泄露的风险。企业部署AI Agent，安全审计真的刻不容缓。
-最后，今天的&quot;今日观察&quot;环节。今天最值得关注的信号有三条：第一，GLM-5.2作为最强纯文本开源模型发布，证明开源模型在推理能力上正快速追赶闭源；第二，Anthropic的Fable 5被美国政府强制下架，标志着AI监管已进入实质性的出口管制阶段；第三，AI Agent框架集中爆发安全漏洞，说明Agent生态正在经历从&quot;能用&quot;到&quot;安全&quot;的阵痛期。建议开发者立即审计Agent基础设施安全，同时密切关注GLM-5.2等开源模型的本地部署潜力。
-好，今天的播报就到这里。感谢你的收听，我们明天见！</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-21.mp3" length="1628640" type="audio/mpeg"/>
+      <description>各位听众朋友，早上好！今天是2026年6月21号，欢迎收听AI行业每日播报。今天AI圈可以说是风起云涌，从美国政府直接出手强制下架模型，到顶级科学家跳槽，再到Agent安全危机全面爆发，信息量非常大。我们这就开始今天的节目。
+先说一个重磅消息，美国政府以国家安全为由，强制要求Anthropic下架它最新的两个模型Fable 5和Mythos 5。安全研究人员还签署了公开信表示反对。这件事的意义在于，AI监管已经从口头警告进入实质性干预阶段了，所有大模型公司都得重新掂量一下自己的发布策略。
+人才流动方面也是大新闻。诺贝尔奖得主、AlphaFold之父John Jumper宣布离开DeepMind，加入Anthropic。这已经是继Gemini联合负责人之后，又一位顶级科学家从Google出走。看来Anthropic在挖人方面确实有一套，Google的人才流失危机正在加剧。
+再来看看OpenAI这边，一季度营收57亿美元，同比翻了三倍，但同时也烧了37亿美元，光股权激励就占了23亿。虽然营收增长很快，但盈利模式仍然存疑，价格战可能还会加速行业洗牌。
+不过OpenAI也没闲着，推出了一个叫Record &amp; Replay的新功能。你只要在Mac上演示一遍工作流程，Codex就能自动重复执行。这意味着AI Agent从辅助编码正式迈向自主执行工作流，企业自动化的门槛一下子降低了很多。
+说到Agent，今天还有一个必须关注的安全问题。Check Point Research发现，Langflow、LangGraph和LangChain这三大主流Agent框架都存在严重漏洞，已经有7000个Langflow服务器遭到攻击。Agent框架的安全漏洞正在成为重大攻击面，所有做Agent开发的团队都需要立即排查。
+好消息是，NVIDIA很快推出了一个叫SkillSpector的开源工具，专门用来扫描Agent技能中的漏洞和恶意模式。Google DeepMind也发布了首份系统性的Agent安全控制路线图。安全防御正在从被动转向主动。
+其他公司也有不少动作。Perplexity发布了Brain，一个能让Agent自我改进的记忆系统，晚上还能自己学习，提升正确率的同时降低成本。Adobe把AI Agent嵌入到Creative Cloud全系产品里，从内容生成转向生产编排。NVIDIA还推出了SpatialClaw，一个不需要训练就能做3D空间推理的Agent，代码就是行动接口。
+论文方面，Cisco开源了FAPO，能自动优化多步LLM管道的提示，在15个基准测试中超越了现有方法。还有一篇论文提出，用第一人称的人类视频来训练具身AI，效果竟然比真实的机器人数据还好，这可能会打破机器人训练的数据瓶颈。
+开源社区也很热闹。智谱AI发布了GLM-5.2，753B参数，支持100万token上下文，而且是MIT协议，可以随便用。还有OpenMontage，全球首个开源的Agent视频制作系统，有12条管线、500多个Agent技能。另外，一个叫freellmapi的工具聚合了14家AI提供商的免费API，零成本就能访问多种模型，非常适合个人开发者。
+今日观察：今天最值得关注的信号是AI Agent安全危机全面爆发。三大主流框架同时曝出漏洞，NVIDIA和Google DeepMind紧急推出安全工具和框架。与此同时，OpenAI Codex的Record &amp; Replay功能让Agent从辅助工具升级为自主执行者，Perplexity Brain和FAPO则从记忆和提示优化两个方向推动Agent自主化。Agent的安全和自主正成为硬币的两面，谁能先解决Agent安全规模化部署的难题，谁就能赢得下一阶段的竞争。
+好，今天的播报就到这里。我们明天见！</description>
+      <itunes:summary>各位听众朋友，早上好！今天是2026年6月21号，欢迎收听AI行业每日播报。今天AI圈可以说是风起云涌，从美国政府直接出手强制下架模型，到顶级科学家跳槽，再到Agent安全危机全面爆发，信息量非常大。我们这就开始今天的节目。
+先说一个重磅消息，美国政府以国家安全为由，强制要求Anthropic下架它最新的两个模型Fable 5和Mythos 5。安全研究人员还签署了公开信表示反对。这件事的意义在于，AI监管已经从口头警告进入实质性干预阶段了，所有大模型公司都得重新掂量一下自己的发布策略。
+人才流动方面也是大新闻。诺贝尔奖得主、AlphaFold之父John Jumper宣布离开DeepMind，加入Anthropic。这已经是继Gemini联合负责人之后，又一位顶级科学家从Google出走。看来Anthropic在挖人方面确实有一套，Google的人才流失危机正在加剧。
+再来看看OpenAI这边，一季度营收57亿美元，同比翻了三倍，但同时也烧了37亿美元，光股权激励就占了23亿。虽然营收增长很快，但盈利模式仍然存疑，价格战可能还会加速行业洗牌。
+不过OpenAI也没闲着，推出了一个叫Record &amp; Replay的新功能。你只要在Mac上演示一遍工作流程，Codex就能自动重复执行。这意味着AI Agent从辅助编码正式迈向自主执行工作流，企业自动化的门槛一下子降低了很多。
+说到Agent，今天还有一个必须关注的安全问题。Check Point Research发现，Langflow、LangGraph和LangChain这三大主流Agent框架都存在严重漏洞，已经有7000个Langflow服务器遭到攻击。Agent框架的安全漏洞正在成为重大攻击面，所有做Agent开发的团队都需要立即排查。
+好消息是，NVIDIA很快推出了一个叫SkillSpector的开源工具，专门用来扫描Agent技能中的漏洞和恶意模式。Google DeepMind也发布了首份系统性的Agent安全控制路线图。安全防御正在从被动转向主动。
+其他公司也有不少动作。Perplexity发布了Brain，一个能让Agent自我改进的记忆系统，晚上还能自己学习，提升正确率的同时降低成本。Adobe把AI Agent嵌入到Creative Cloud全系产品里，从内容生成转向生产编排。NVIDIA还推出了SpatialClaw，一个不需要训练就能做3D空间推理的Agent，代码就是行动接口。
+论文方面，Cisco开源了FAPO，能自动优化多步LLM管道的提示，在15个基准测试中超越了现有方法。还有一篇论文提出，用第一人称的人类视频来训练具身AI，效果竟然比真实的机器人数据还好，这可能会打破机器人训练的数据瓶颈。
+开源社区也很热闹。智谱AI发布了GLM-5.2，753B参数，支持100万token上下文，而且是MIT协议，可以随便用。还有OpenMontage，全球首个开源的Agent视频制作系统，有12条管线、500多个Agent技能。另外，一个叫freellmapi的工具聚合了14家AI提供商的免费API，零成本就能访问多种模型，非常适合个人开发者。
+今日观察：今天最值得关注的信号是AI Agent安全危机全面爆发。三大主流框架同时曝出漏洞，NVIDIA和Google DeepMind紧急推出安全工具和框架。与此同时，OpenAI Codex的Record &amp; Replay功能让Agent从辅助工具升级为自主执行者，Perplexity Brain和FAPO则从记忆和提示优化两个方向推动Agent自主化。Agent的安全和自主正成为硬币的两面，谁能先解决Agent安全规模化部署的难题，谁就能赢得下一阶段的竞争。
+好，今天的播报就到这里。我们明天见！</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-21.mp3" length="1579104" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-21.mp3</guid>
       <pubDate>Sun, 21 Jun 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:31</itunes:duration>
+      <itunes:duration>04:23</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
