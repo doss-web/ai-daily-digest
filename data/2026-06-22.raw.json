@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22",
-  "generated_at": "2026-06-22T05:53:33.655195+08:00",
+  "generated_at": "2026-06-22T07:21:59.461227+08:00",
   "counts": {
     "papers": 30,
     "projects": 15,
@@ -614,10 +614,10 @@
     "news": [
       {
         "category": "news",
-        "title": "The Anatomy of an AI-Native Org",
+        "title": "The anatomy of an AI-native org",
         "url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
         "normalized_url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
-        "summary": "HN points: 22, comments: 8",
+        "summary": "HN points: 34, comments: 35",
         "source": "Hacker News",
         "published": "2026-06-21T21:34:19Z",
         "importance_hint": 3,
@@ -628,7 +628,7 @@
         "title": "Apertus – Open Foundation Model for Sovereign AI",
         "url": "https://apertvs.ai/",
         "normalized_url": "https://apertvs.ai",
-        "summary": "HN points: 15, comments: 3",
+        "summary": "HN points: 100, comments: 30",
         "source": "Hacker News",
         "published": "2026-06-21T21:29:43Z",
         "importance_hint": 4,
@@ -636,10 +636,21 @@
       },
       {
         "category": "news",
+        "title": "Stop wasting tokens and re explaining your project between sessions",
+        "url": "https://github.com/raiyanyahya/recall",
+        "normalized_url": "https://github.com/raiyanyahya/recall",
+        "summary": "HN points: 47, comments: 33",
+        "source": "Hacker News",
+        "published": "2026-06-21T21:05:37Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "JSON-LD Explained for Personal Websites",
         "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
         "normalized_url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites",
-        "summary": "HN points: 114, comments: 29",
+        "summary": "HN points: 130, comments: 34",
         "source": "Hacker News",
         "published": "2026-06-21T18:51:47Z",
         "importance_hint": 3,
@@ -650,7 +661,7 @@
         "title": "Polymarket reportedly paid people to post fake videos of themselves placing bets",
         "url": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
         "normalized_url": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
-        "summary": "HN points: 15, comments: 0",
+        "summary": "HN points: 19, comments: 0",
         "source": "Hacker News",
         "published": "2026-06-21T18:11:26Z",
         "importance_hint": 3,
@@ -661,7 +672,7 @@
         "title": "Health insurance claim denial rates range from 13% to 35% by insurer",
         "url": "https://www.randalolson.com/2026/06/16/aca-insurer-claim-denial-rates/",
         "normalized_url": "https://www.randalolson.com/2026/06/16/aca-insurer-claim-denial-rates",
-        "summary": "HN points: 53, comments: 55",
+        "summary": "HN points: 55, comments: 59",
         "source": "Hacker News",
         "published": "2026-06-21T17:28:16Z",
         "importance_hint": 3,
@@ -672,7 +683,7 @@
         "title": "Burnout is real for open source maintainers",
         "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
         "normalized_url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
-        "summary": "HN points: 111, comments: 54",
+        "summary": "HN points: 112, comments: 57",
         "source": "Hacker News",
         "published": "2026-06-21T16:56:18Z",
         "importance_hint": 4,
@@ -694,7 +705,7 @@
         "title": "Billionaire Tax Officially Heads to Nov. 3 Ballot",
         "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-new-measure-eligible-november-2026-general-election-ballot-imposes-one",
         "normalized_url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-new-measure-eligible-november-2026-general-election-ballot-imposes-one",
-        "summary": "HN points: 33, comments: 40",
+        "summary": "HN points: 36, comments: 52",
         "source": "Hacker News",
         "published": "2026-06-21T15:53:33Z",
         "importance_hint": 3,
@@ -716,7 +727,7 @@
         "title": "AI Under Trump's Control: Can France Still Avoid Digital Dependence?",
         "url": "https://thenewassociationwebmasters.blogspot.com/2026/06/ai-under-american-control-can-france.html",
         "normalized_url": "https://thenewassociationwebmasters.blogspot.com/2026/06/ai-under-american-control-can-france.html",
-        "summary": "HN points: 27, comments: 14",
+        "summary": "HN points: 28, comments: 16",
         "source": "Hacker News",
         "published": "2026-06-21T13:51:31Z",
         "importance_hint": 3,
@@ -727,7 +738,7 @@
         "title": "Identity verification on Claude",
         "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
         "normalized_url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
-        "summary": "HN points: 438, comments: 401",
+        "summary": "HN points: 497, comments: 466",
         "source": "Hacker News",
         "published": "2026-06-21T12:44:13Z",
         "importance_hint": 3,
@@ -738,7 +749,7 @@
         "title": "The case against geometric algebra (2024)",
         "url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
         "normalized_url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
-        "summary": "HN points: 115, comments: 108",
+        "summary": "HN points: 116, comments: 114",
         "source": "Hacker News",
         "published": "2026-06-21T11:06:55Z",
         "importance_hint": 3,
@@ -757,14 +768,29 @@
       },
       {
         "category": "news",
-        "title": "Bab: A hash function for content-addressable storage",
-        "url": "https://bab-hash.org/spec",
-        "normalized_url": "https://bab-hash.org/spec",
-        "summary": "HN points: 12, comments: 1",
-        "source": "Hacker News",
-        "published": "2026-06-21T06:51:02Z",
+        "title": "苏格拉底即服务：AI还学不会的东西",
+        "url": "https://www.36kr.com/p/3833371514218112",
+        "normalized_url": "https://www.36kr.com/p/3833371514218112",
+        "summary": "最好的故事深藏于人们心中——而将其挖掘出来，依然需要人类的参与",
+        "source": "36Kr AI",
+        "published": "2026-06-21T23:18:18+00:00",
         "importance_hint": 3,
-        "metadata": {}
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "大扁平化时代：消失的中层",
+        "url": "https://www.36kr.com/p/3828581749772928",
+        "normalized_url": "https://www.36kr.com/p/3828581749772928",
+        "summary": "组织的金字塔结构将被压扁",
+        "source": "36Kr AI",
+        "published": "2026-06-21T23:12:44+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -865,32 +891,6 @@
         "summary": "它想要的估值最高可能达到1750亿美元（约合人民币1.26万亿元）。",
         "source": "36Kr AI",
         "published": "2026-06-21T00:49:09+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "不止智商与情商：AI 时代，五大商决定你的不可替代性",
-        "url": "https://www.36kr.com/p/3821234556686465",
-        "normalized_url": "https://www.36kr.com/p/3821234556686465",
-        "summary": "智商+情商+信商+勤商+远见商",
-        "source": "36Kr AI",
-        "published": "2026-06-21T00:00:50+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "光芯片，集体扩产",
-        "url": "https://www.36kr.com/p/3859546025710855",
-        "normalized_url": "https://www.36kr.com/p/3859546025710855",
-        "summary": "光子时代的军备竞赛，已经进入白热化阶段。",
-        "source": "36Kr AI",
-        "published": "2026-06-20T10:00:49+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1106,19 +1106,6 @@
       },
       {
         "category": "news",
-        "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises",
-        "url": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
-        "normalized_url": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
-        "summary": "Anthropic announced a potentially game-changing new feature for users of Claude Code on the Claude Team and Enterprise subscription plans: Artifacts . This update turns a Claude Code session's work into a live, interactive, and shareable, custom HTML webpage, allowing a Claude Code user to plug in live code, multiple data sources, and have it surface on an interactive URL that they can send to other teammates — be it a dashboard, an app design, or some other product meant for internal usage. The",
-        "source": "VentureBeat",
-        "published": "2026-06-18T23:18:59+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://venturebeat.com/feed/"
-        }
-      },
-      {
-        "category": "news",
         "title": "When the Trump administration cracks down on Anthropic, who benefits?",
         "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
         "normalized_url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits",
@@ -1314,19 +1301,6 @@
       },
       {
         "category": "news",
-        "title": "How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members",
-        "url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/",
-        "normalized_url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members",
-        "summary": "Leaked files show the invite-only network grades members by their money and fame, shaping who’s in, who’s out, and who pays.",
-        "source": "Wired AI",
-        "published": "2026-06-18T22:12:45+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
         "title": "IEEE Rolls Out Large Language Models Virtual Training Course",
         "url": "https://spectrum.ieee.org/large-language-models-ieee-course",
         "normalized_url": "https://spectrum.ieee.org/large-language-models-ieee-course",
@@ -1483,6 +1457,19 @@
       },
       {
         "category": "news",
+        "title": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers",
+        "url": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers",
+        "summary": "LLMs are stateless by default. Agent memory fixes that. This guide breaks down all 7 types — working, semantic, episodic, procedural, retrieval, parametric, and prospective. It covers what each stores, where it lives, and when to build it. Includes a comparison table and working Python code. The post The 7 Types of Agent Memory: A Technical Guide for AI Engineers appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-21T23:12:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
         "url": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
         "normalized_url": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export",
@@ -1596,6 +1583,19 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Temporary Cloudflare Accounts for AI agents",
+        "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+        "normalized_url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts",
+        "summary": "Temporary Cloudflare Accounts for AI agents The announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well. Short version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account: npx wrangler deploy --temporary Cloudflare will deploy the application to a new, ephemeral project which will stay live for 60 minutes. I had GPT-5.5 xhigh in",
+        "source": "Simon Willison",
+        "published": "2026-06-21T22:01:04+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://simonwillison.net/atom/everything/"
         }
       },
       {
@@ -1782,6 +1782,19 @@
       },
       {
         "category": "news",
+        "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+        "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+        "normalized_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+        "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+        "source": "OpenAI",
+        "published": "2026-06-21T23:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://openai.com/news/rss.xml"
+        }
+      },
+      {
+        "category": "news",
         "title": "New usage analytics and updated spend controls for enterprises",
         "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
         "normalized_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
@@ -1847,15 +1860,15 @@
       },
       {
         "category": "news",
-        "title": "Predicting model behavior before release by simulating deployment",
-        "url": "https://openai.com/index/deployment-simulation",
-        "normalized_url": "https://openai.com/index/deployment-simulation",
-        "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-        "source": "OpenAI",
-        "published": "2026-06-16T00:00:00+00:00",
-        "importance_hint": 5,
+        "title": "Tokenomics",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubrcwj/tokenomics/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubrcwj/tokenomics",
+        "summary": "submitted by /u/HOLUPREDICTIONS [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-21T14:23:33+00:00",
+        "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://openai.com/news/rss.xml"
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
       },
       {
@@ -1866,19 +1879,6 @@
         "summary": "Guillermo Rauch (Vercel CEO) says he is \"genuinely impressed, almost shocked\" by GLM-5.2's coding performance. What has your experience with GLM-5.2 been so far? Source: X post submitted by /u/BuildwithVignesh [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-06-21T07:55:27+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Tokenomics",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubrcwj/tokenomics/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubrcwj/tokenomics",
-        "summary": "submitted by /u/HOLUPREDICTIONS [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-21T14:23:33+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -1951,12 +1951,12 @@
       },
       {
         "category": "news",
-        "title": "Why is AutoRound being slept on so hard?",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ublwmp/why_is_autoround_being_slept_on_so_hard/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ublwmp/why_is_autoround_being_slept_on_so_hard",
-        "summary": "Seriously, why is almost nobody talking about AutoRound here? I’ve been experimenting with it on Qwen3.6 27B lately (running an AMD setup), and the perplexity/accuracy retention at low bits absolutely blows standard AWQ or RTN out of the water. Especially for models with complex reasoning or long contexts, it seems like a total cheat code. Yet, if you look at Hugging Face, almost every major model cook is still dumping standard AWQ or basic GGUF scripts. Is it just a bad branding issue because I",
+        "title": "Not a new model, just a Happy Father's Day and a thank you.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubzzib/not_a_new_model_just_a_happy_fathers_day_and_a/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubzzib/not_a_new_model_just_a_happy_fathers_day_and_a",
+        "summary": "I know this isn't our usual discussion about context windows, quantization, or the latest model drop, but I just wanted to take a quick moment to say thank you. As a dad myself, I really appreciate this great community. Between the daily grind and family life, diving into this subreddit is one of my favorite escapes. Whether we're troubleshooting setups, debating hardware, or sharing fine-tunes, this place is awesome. Happy Father's Day to all the dads out there raising kids and running local mo",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-21T09:43:24+00:00",
+        "published": "2026-06-21T20:13:33+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
