@@ -1,10 +1,10 @@
 {
   "date": "2026-06-24",
-  "generated_at": "2026-06-24T05:56:03.253740+08:00",
+  "generated_at": "2026-06-24T07:12:45.942958+08:00",
   "counts": {
     "papers": 41,
     "projects": 15,
-    "news": 135
+    "news": 137
   },
   "items": {
     "papers": [
@@ -735,10 +735,10 @@
     "news": [
       {
         "category": "news",
-        "title": "German Rail Service Suspended Due to Radio Interference",
-        "url": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
-        "normalized_url": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
-        "summary": "HN points: 55, comments: 11",
+        "title": "Trains halted across Germany because of communication system problem",
+        "url": "https://apnews.com/article/germany-trains-halted-communications-radio-problem-deutsche-bahn-e8fd970b2d889f3ae7ce03322d5c726b",
+        "normalized_url": "https://apnews.com/article/germany-trains-halted-communications-radio-problem-deutsche-bahn-e8fd970b2d889f3ae7ce03322d5c726b",
+        "summary": "HN points: 116, comments: 115",
         "source": "Hacker News",
         "published": "2026-06-23T21:19:44Z",
         "importance_hint": 3,
@@ -749,9 +749,20 @@
         "title": "All train services in Germany halted after train radio communications disruption",
         "url": "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html",
         "normalized_url": "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html",
-        "summary": "HN points: 56, comments: 19",
+        "summary": "HN points: 69, comments: 2",
         "source": "Hacker News",
         "published": "2026-06-23T21:14:08Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Ukraine disguised a $20B sabotage mission as a 'porn film'",
+        "url": "https://www.telegraph.co.uk/books/non-fiction/nord-stream-conspiracy-bojan-pancevski-review/",
+        "normalized_url": "https://www.telegraph.co.uk/books/non-fiction/nord-stream-conspiracy-bojan-pancevski-review",
+        "summary": "HN points: 12, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-06-23T20:40:28Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -760,7 +771,7 @@
         "title": "Scars mark Britain's economy 10 years after Brexit vote",
         "url": "https://www.reuters.com/world/uk/scars-mark-britains-economy-10-years-after-brexit-vote-2026-06-23/",
         "normalized_url": "https://www.reuters.com/world/uk/scars-mark-britains-economy-10-years-after-brexit-vote-2026-06-23",
-        "summary": "HN points: 24, comments: 14",
+        "summary": "HN points: 26, comments: 18",
         "source": "Hacker News",
         "published": "2026-06-23T20:30:25Z",
         "importance_hint": 3,
@@ -771,7 +782,7 @@
         "title": "Don't verify email addresses by sending spam to them",
         "url": "https://milek7.pl/mailverifyspam/",
         "normalized_url": "https://milek7.pl/mailverifyspam",
-        "summary": "HN points: 73, comments: 8",
+        "summary": "HN points: 110, comments: 30",
         "source": "Hacker News",
         "published": "2026-06-23T20:23:49Z",
         "importance_hint": 3,
@@ -782,7 +793,7 @@
         "title": "Anthropic updates their terms to verify age or identity",
         "url": "https://www.anthropic.com/legal/privacy",
         "normalized_url": "https://www.anthropic.com/legal/privacy",
-        "summary": "HN points: 183, comments: 161",
+        "summary": "HN points: 186, comments: 163",
         "source": "Hacker News",
         "published": "2026-06-23T19:45:07Z",
         "importance_hint": 4,
@@ -793,20 +804,9 @@
         "title": "Exposing the 'brute force' of AI that is 'trying to make humans redundant'",
         "url": "https://www.rnz.co.nz/news/in-depth/618503/karen-hao-exposing-the-brute-force-of-ai-that-is-trying-to-make-humans-redundant",
         "normalized_url": "https://www.rnz.co.nz/news/in-depth/618503/karen-hao-exposing-the-brute-force-of-ai-that-is-trying-to-make-humans-redundant",
-        "summary": "HN points: 11, comments: 1",
+        "summary": "HN points: 12, comments: 1",
         "source": "Hacker News",
         "published": "2026-06-23T19:07:52Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
-        "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-        "normalized_url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-        "summary": "HN points: 105, comments: 85",
-        "source": "Hacker News",
-        "published": "2026-06-23T18:56:19Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -815,7 +815,7 @@
         "title": "Millions in UK could claim share of £3B after Apple case given green light",
         "url": "https://www.bbc.co.uk/news/articles/c932d1r0p96o",
         "normalized_url": "https://www.bbc.co.uk/news/articles/c932d1r0p96o",
-        "summary": "HN points: 15, comments: 2",
+        "summary": "HN points: 17, comments: 4",
         "source": "Hacker News",
         "published": "2026-06-23T18:45:35Z",
         "importance_hint": 3,
@@ -837,7 +837,7 @@
         "title": "The End of Code Review: Coding Agents Supersede Human Inspection",
         "url": "https://arxiv.org/abs/2606.13175",
         "normalized_url": "https://arxiv.org/abs/2606.13175",
-        "summary": "HN points: 19, comments: 17",
+        "summary": "HN points: 19, comments: 18",
         "source": "Hacker News",
         "published": "2026-06-23T18:24:16Z",
         "importance_hint": 4,
@@ -848,7 +848,7 @@
         "title": "FUTO Swipe – A new swipe typing model",
         "url": "https://swipe.futo.tech/",
         "normalized_url": "https://swipe.futo.tech",
-        "summary": "HN points: 138, comments: 43",
+        "summary": "HN points: 175, comments: 64",
         "source": "Hacker News",
         "published": "2026-06-23T17:50:22Z",
         "importance_hint": 4,
@@ -859,7 +859,7 @@
         "title": "Claude Tag",
         "url": "https://www.anthropic.com/news/introducing-claude-tag",
         "normalized_url": "https://www.anthropic.com/news/introducing-claude-tag",
-        "summary": "HN points: 199, comments: 128",
+        "summary": "HN points: 224, comments: 143",
         "source": "Hacker News",
         "published": "2026-06-23T17:09:18Z",
         "importance_hint": 3,
@@ -870,7 +870,7 @@
         "title": "Netanyahu, Trump planned Iran strike far in advance, ran deception campaign",
         "url": "https://www.timesofisrael.com/report-netanyahu-trump-planned-iran-strike-far-in-advance-ran-deception-campaign/",
         "normalized_url": "https://www.timesofisrael.com/report-netanyahu-trump-planned-iran-strike-far-in-advance-ran-deception-campaign",
-        "summary": "HN points: 12, comments: 0",
+        "summary": "HN points: 14, comments: 0",
         "source": "Hacker News",
         "published": "2026-06-23T16:45:47Z",
         "importance_hint": 3,
@@ -881,7 +881,7 @@
         "title": "LastPass confirms data breach in Klue supply chain attack",
         "url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
         "normalized_url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack",
-        "summary": "HN points: 16, comments: 7",
+        "summary": "HN points: 17, comments: 7",
         "source": "Hacker News",
         "published": "2026-06-23T16:14:06Z",
         "importance_hint": 3,
@@ -897,6 +897,71 @@
         "published": "2026-06-23T15:39:08Z",
         "importance_hint": 4,
         "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "实测「微信小微」：当腾讯开始兑现国民App的AI潜能",
+        "url": "https://www.36kr.com/p/3865697138283521",
+        "normalized_url": "https://www.36kr.com/p/3865697138283521",
+        "summary": "这次真的不一样？",
+        "source": "36Kr AI",
+        "published": "2026-06-23T23:10:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "微软悄然停用 Claude Code，暴露了企业级 AI 的真实成本",
+        "url": "https://www.36kr.com/p/3834386928150409",
+        "normalized_url": "https://www.36kr.com/p/3834386928150409",
+        "summary": "在这家全球最大的软件公司内部，一场 AI 编程实验可能即将画上句号。原因无关战略，全因账单。",
+        "source": "36Kr AI",
+        "published": "2026-06-23T23:06:30+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "拆解AI对就业影响的预测：那些刷屏的失业率雷达图，不过是一场数据自嗨",
+        "url": "https://www.36kr.com/p/3839007961516549",
+        "normalized_url": "https://www.36kr.com/p/3839007961516549",
+        "summary": "未来不是那么好预测的",
+        "source": "36Kr AI",
+        "published": "2026-06-23T23:06:07+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "巨头打响Context之战，重构AI护城河",
+        "url": "https://www.36kr.com/p/3865691912616833",
+        "normalized_url": "https://www.36kr.com/p/3865691912616833",
+        "summary": "从拼窗口到抢入口，谁能更稳定地获得、组织、调用Context。",
+        "source": "36Kr AI",
+        "published": "2026-06-23T23:05:06+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "微信AI全网最细体验，我又爱上了刷朋友圈",
+        "url": "https://www.36kr.com/p/3865706037924872",
+        "normalized_url": "https://www.36kr.com/p/3865706037924872",
+        "summary": "14 亿人从这开始拥抱 Agent",
+        "source": "36Kr AI",
+        "published": "2026-06-23T23:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -959,71 +1024,6 @@
         "source": "36Kr AI",
         "published": "2026-06-23T13:15:39+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "除了美元、美债，一切都在跌",
-        "url": "https://www.36kr.com/p/3865705650197763",
-        "normalized_url": "https://www.36kr.com/p/3865705650197763",
-        "summary": "AI交易遭遇加息考验",
-        "source": "36Kr AI",
-        "published": "2026-06-23T13:15:23+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "存储涨价的首个显性受害者，出现了",
-        "url": "https://www.36kr.com/p/3865705707967753",
-        "normalized_url": "https://www.36kr.com/p/3865705707967753",
-        "summary": "传音新招股书，撕开低端手机困局",
-        "source": "36Kr AI",
-        "published": "2026-06-23T13:15:06+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "李彦宏，又一个IPO要来了",
-        "url": "https://www.36kr.com/p/3865705905149184",
-        "normalized_url": "https://www.36kr.com/p/3865705905149184",
-        "summary": "去年收入13亿、净利1.2亿元。",
-        "source": "36Kr AI",
-        "published": "2026-06-23T13:14:30+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI定价彻底分化，大模型只剩两种活法，中间的先死",
-        "url": "https://www.36kr.com/p/3865706008073477",
-        "normalized_url": "https://www.36kr.com/p/3865706008073477",
-        "summary": "大模型的未来属于两个极端",
-        "source": "36Kr AI",
-        "published": "2026-06-23T13:14:05+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI应用的“战国时代”，该终结了",
-        "url": "https://www.36kr.com/p/3865686765229056",
-        "normalized_url": "https://www.36kr.com/p/3865686765229056",
-        "summary": "微信AI，想做AI时代的操作系统",
-        "source": "36Kr AI",
-        "published": "2026-06-23T13:11:35+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
@@ -1272,7 +1272,7 @@
         "published": "2026-06-21T02:30:10+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/sspai/tag/AI"
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -1498,6 +1498,32 @@
       },
       {
         "category": "news",
+        "title": "Google Home will soon get better at recognizing you",
+        "url": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing",
+        "normalized_url": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing",
+        "summary": "A new update for Google Home could make it less likely your smart home cameras mistake you for someone else, just because you're facing away from the camera. Starting June 23rd, Google's expanding its facial recognition feature so that people you've tagged in your Familiar Faces library can continue to be identified when their faces […]",
+        "source": "The Verge AI",
+        "published": "2026-06-23T22:28:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Hollywood is bending the knee to OpenAI",
+        "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+        "normalized_url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+        "summary": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem […]",
+        "source": "The Verge AI",
+        "published": "2026-06-23T22:03:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
         "title": "Why corporate AI super PACs spent $27 million on a local election",
         "url": "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
         "normalized_url": "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
@@ -1702,6 +1728,19 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Executive order bumps up deadline to move off quantum-vulnerable crypto",
+        "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
+        "normalized_url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto",
+        "summary": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
+        "source": "Ars Technica AI",
+        "published": "2026-06-23T22:30:57+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
@@ -2070,19 +2109,6 @@
       },
       {
         "category": "news",
-        "title": "Quoting Sean Lynch",
-        "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-        "normalized_url": "https://simonwillison.net/2026/Jun/19/sean-lynch",
-        "summary": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win. — Sean Lynch , comment on Hacker News Tags: model-context-protocol , llms , ai , generative-ai , skills",
-        "source": "Simon Willison",
-        "published": "2026-06-19T22:45:49+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
         "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
         "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
         "normalized_url": "https://huggingface.co/blog/ibm-research/cuga-apps",
@@ -2294,10 +2320,10 @@
         "title": "7 Chinese companies are already shipping H100/H200-class AI chips, most IPO'd in the last 6 months. I mapped all of them.",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udkxde/7_chinese_companies_are_already_shipping/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1udkxde/7_chinese_companies_are_already_shipping",
-        "summary": "https://preview.redd.it/8e85oakbz19h1.png?width=3000&format=png&auto=webp&s=258039cb277daa2572d1ba4eec8cc488357c62d0 I run Chinese open models on a 4×3090 rig every day. The more I watched these models get tuned for domestic hardware, the more I wanted to know what that hardware actually is, so I mapped it. At least 7 Chinese companies are already shipping AI accelerators, and most of them IPO'd in the last 6 months. China's own framing is \"3 dragons, 4 snakes.\" The dragons are Big Tech that als",
+        "summary": "Three dragons, four snakes, and the silicon nobody outside China can name. For the past few months, many peoples in my timeline has been arguing about the same thing: NVIDIA export controls, H20 quotas, and whether Jensen gets to sell to China at all. Almost nobody is asking the question that actually matters. What is China going to run instead? Here's the part the Western AI crowd has mostly missed. At least seven Chinese companies are already shipping AI accelerators today. Current-generation ",
         "source": "r/LocalLLaMA",
         "published": "2026-06-23T15:50:53+00:00",
-        "importance_hint": 4,
+        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
