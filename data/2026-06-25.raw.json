@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "generated_at": "2026-06-25T05:53:21.640430+08:00",
+  "generated_at": "2026-06-25T07:12:06.643926+08:00",
   "counts": {
     "papers": 37,
     "projects": 15,
@@ -8,6 +8,19 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Critique of Agent Model",
+        "url": "https://huggingface.co/papers/2606.23991",
+        "normalized_url": "https://huggingface.co/papers/2606.23991",
+        "summary": "What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understandi",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.23991"
+        }
+      },
       {
         "category": "papers",
         "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
@@ -387,19 +400,6 @@
       },
       {
         "category": "papers",
-        "title": "Comparing Linear Probes with Mahalanobis Cosine Similarity",
-        "url": "https://huggingface.co/papers/2606.19603",
-        "normalized_url": "https://huggingface.co/papers/2606.19603",
-        "summary": "Linear probes are widely used in interpretability research and often compared by cosine similarity. The Mahalanobis cosine similarity (MCS) between two directions, which reweights the inner product by test data covariance, is a natural task-aware refinement. Ying et al. (2026) report that a probe's MCS to a reference probe trained on the out-of-distribution (OOD) data near-perfectly linearly predicts the probe's OOD AUROC (R^2 = 0.98). Here, we extend this empirical finding across models, layers",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-17T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.19603"
-        }
-      },
-      {
-        "category": "papers",
         "title": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases",
         "url": "https://arxiv.org/abs/2606.24883v1",
         "normalized_url": "https://arxiv.org/abs/2606.24883v1",
@@ -691,10 +691,32 @@
     "news": [
       {
         "category": "news",
+        "title": "OpenAI Codex bombards SSDs with needless write operations",
+        "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+        "normalized_url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+        "summary": "HN points: 11, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-06-24T21:32:15Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Astryx – open-source design system customizable and agent ready",
+        "url": "https://astryx.atmeta.com/",
+        "normalized_url": "https://astryx.atmeta.com",
+        "summary": "HN points: 11, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-06-24T20:58:59Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Thomann takes legal action against Fender",
         "url": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/",
         "normalized_url": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender",
-        "summary": "HN points: 146, comments: 86",
+        "summary": "HN points: 164, comments: 100",
         "source": "Hacker News",
         "published": "2026-06-24T19:08:22Z",
         "importance_hint": 3,
@@ -705,7 +727,7 @@
         "title": "Reducing tick density along recreational trails in Ottawa, Canada",
         "url": "https://www.sciencedirect.com/science/article/pii/S1877959X26000476",
         "normalized_url": "https://www.sciencedirect.com/science/article/pii/S1877959X26000476",
-        "summary": "HN points: 12, comments: 1",
+        "summary": "HN points: 13, comments: 1",
         "source": "Hacker News",
         "published": "2026-06-24T18:42:12Z",
         "importance_hint": 3,
@@ -716,7 +738,7 @@
         "title": "Google set to lose two more AI researchers to Anthropic",
         "url": "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic",
         "normalized_url": "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic",
-        "summary": "HN points: 12, comments: 5",
+        "summary": "HN points: 13, comments: 5",
         "source": "Hacker News",
         "published": "2026-06-24T18:36:26Z",
         "importance_hint": 4,
@@ -740,7 +762,7 @@
         "title": "Computer use in Gemini 3.5 Flash",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
         "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-        "summary": "HN points: 118, comments: 65",
+        "summary": "HN points: 135, comments: 84",
         "source": "Hacker News",
         "published": "2026-06-24T17:21:34Z",
         "importance_hint": 3,
@@ -751,7 +773,7 @@
         "title": "Medical diagnosis AIs can be tricked into telling whose data trained them",
         "url": "https://www.theregister.com/ai-and-ml/2026/06/24/medical-diagnosis-ais-can-be-tricked-into-telling-whose-data-trained-them/5261501",
         "normalized_url": "https://www.theregister.com/ai-and-ml/2026/06/24/medical-diagnosis-ais-can-be-tricked-into-telling-whose-data-trained-them/5261501",
-        "summary": "HN points: 23, comments: 1",
+        "summary": "HN points: 24, comments: 1",
         "source": "Hacker News",
         "published": "2026-06-24T16:46:55Z",
         "importance_hint": 3,
@@ -762,7 +784,7 @@
         "title": "Big AI labs are hiring philosophers",
         "url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
         "normalized_url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
-        "summary": "HN points: 83, comments: 64",
+        "summary": "HN points: 102, comments: 90",
         "source": "Hacker News",
         "published": "2026-06-24T16:40:13Z",
         "importance_hint": 3,
@@ -773,7 +795,7 @@
         "title": "Ask HN: How much coding should beginners learn in the AI era?",
         "url": "https://news.ycombinator.com/item?id=48662310",
         "normalized_url": "https://news.ycombinator.com/item?id=48662310",
-        "summary": "HN points: 23, comments: 32",
+        "summary": "HN points: 24, comments: 33",
         "source": "Hacker News",
         "published": "2026-06-24T16:31:13Z",
         "importance_hint": 3,
@@ -784,7 +806,7 @@
         "title": "Retracted: Paper claiming immunochemotherapy more effective in morning",
         "url": "https://www.nature.com/articles/s41591-026-04508-1",
         "normalized_url": "https://www.nature.com/articles/s41591-026-04508-1",
-        "summary": "HN points: 11, comments: 2",
+        "summary": "HN points: 12, comments: 2",
         "source": "Hacker News",
         "published": "2026-06-24T16:19:24Z",
         "importance_hint": 3,
@@ -795,7 +817,7 @@
         "title": "Boffin claims Microsoft’s “quantum leap” is invalid due to “basic Python errors”",
         "url": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
         "normalized_url": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
-        "summary": "HN points: 149, comments: 51",
+        "summary": "HN points: 153, comments: 51",
         "source": "Hacker News",
         "published": "2026-06-24T15:37:18Z",
         "importance_hint": 4,
@@ -806,7 +828,7 @@
         "title": "Journalism is rearranging the deckchairs. It needs to reinvent itself",
         "url": "https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself/",
         "normalized_url": "https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself",
-        "summary": "HN points: 36, comments: 53",
+        "summary": "HN points: 38, comments: 53",
         "source": "Hacker News",
         "published": "2026-06-24T15:28:04Z",
         "importance_hint": 3,
@@ -817,7 +839,7 @@
         "title": "For Most of the World, Open-Source AI Is the Only Way Forward",
         "url": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/",
         "normalized_url": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward",
-        "summary": "HN points: 182, comments: 122",
+        "summary": "HN points: 189, comments: 128",
         "source": "Hacker News",
         "published": "2026-06-24T14:50:22Z",
         "importance_hint": 3,
@@ -828,32 +850,10 @@
         "title": "RubyLLM: A Ruby framework for all major AI providers",
         "url": "https://rubyllm.com/",
         "normalized_url": "https://rubyllm.com",
-        "summary": "HN points: 305, comments: 47",
+        "summary": "HN points: 327, comments: 50",
         "source": "Hacker News",
         "published": "2026-06-24T14:41:41Z",
         "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "PR spam today looks like email spam in the early 2000s",
-        "url": "https://www.greptile.com/blog/prs-on-openclaw",
-        "normalized_url": "https://www.greptile.com/blog/prs-on-openclaw",
-        "summary": "HN points: 135, comments: 86",
-        "source": "Hacker News",
-        "published": "2026-06-24T14:32:12Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "GUI-Perturbed: Breaking Browser-Use Models Using Domain Randomization",
-        "url": "https://www.fig.inc/blog/gui-pertubed-breaking-browser-use-models/",
-        "normalized_url": "https://www.fig.inc/blog/gui-pertubed-breaking-browser-use-models",
-        "summary": "HN points: 12, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-06-24T13:58:30Z",
-        "importance_hint": 4,
         "metadata": {}
       },
       {
@@ -1222,6 +1222,19 @@
       },
       {
         "category": "news",
+        "title": "Your enterprise AI agents should automatically remember which model is right for which task. Mindstone built the capability with Rebel",
+        "url": "https://venturebeat.com/orchestration/your-enterprise-ai-agents-should-automatically-remember-which-model-is-right-for-which-task-mindstone-built-the-capability-with-rebel",
+        "normalized_url": "https://venturebeat.com/orchestration/your-enterprise-ai-agents-should-automatically-remember-which-model-is-right-for-which-task-mindstone-built-the-capability-with-rebel",
+        "summary": "AI agent orchestration platforms are popping up like weeds these days, but London-based AI transformation startup Mindstone's Rebel might be among the most promising I've come across. That's because the system, which officially launched this week, is a local-first, agentic AI operating system distributed under a \" Fair Source \" license, allowing teams of under 100 users to freely adopt and customize it to suit their needs, while those organizations with more users will require paying for an ente",
+        "source": "VentureBeat",
+        "published": "2026-06-24T23:02:15+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://venturebeat.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Mistral launches OCR 4, turning document extraction into a full enterprise AI play",
         "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
         "normalized_url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
@@ -1300,15 +1313,28 @@
       },
       {
         "category": "news",
-        "title": "Intuit will show off how it rebuilt its AI infrastructure to support fast and complex tasks at VB Transform 2026",
-        "url": "https://venturebeat.com/orchestration/intuit-will-show-off-how-it-rebuilt-its-ai-infrastructure-to-support-fast-and-complex-tasks-at-vb-transform-2026",
-        "normalized_url": "https://venturebeat.com/orchestration/intuit-will-show-off-how-it-rebuilt-its-ai-infrastructure-to-support-fast-and-complex-tasks-at-vb-transform-2026",
-        "summary": "Customer expectations have shifted from simple, fast conversational interactions to complex agentic AI-powered tasks that legacy IT architectures simply can’t handle. To address this, Intuit made the bold decision to overhaul its technical infrastructure for its business platform. The company moved away from its multi-agent setup, which prioritized broad capabilities, to a granular, skill-and-tool-based architecture while embedding human experts directly into the workflow alongside AI. This shif",
-        "source": "VentureBeat",
-        "published": "2026-06-24T15:34:01+00:00",
+        "title": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
+        "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+        "normalized_url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood",
+        "summary": "In its first earnings report since going public, the AI chipmaker forecast a narrower gross margin in its core business, scaring investors.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-24T22:41:41+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://venturebeat.com/feed/"
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+        "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+        "normalized_url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+        "summary": "While AI dominates the layoff narrative, engineers are actually making up a larger share of new hires, according to SignalFire data.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-24T21:56:41+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
       },
       {
@@ -1326,7 +1352,7 @@
       },
       {
         "category": "news",
-        "title": "The memory chip crunch is paying off for this U.S. company",
+        "title": "The memory chip crunch is paying off for this US company",
         "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
         "normalized_url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company",
         "summary": "Revenue quadrupled to $41.45 billion compared with the same period a year ago. The company's profit, meanwhile, rose from $1.88 billion to an incredible $28.2 billion year-over-year.",
@@ -1398,32 +1424,6 @@
         "source": "TechCrunch AI",
         "published": "2026-06-24T14:00:00+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
-        "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
-        "normalized_url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents",
-        "summary": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-23T23:30:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
-        "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
-        "normalized_url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time",
-        "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-23T17:00:00+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1560,6 +1560,19 @@
       },
       {
         "category": "news",
+        "title": "How to Opt Out of Google Search’s New AI Data Training Feature",
+        "url": "https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training/",
+        "normalized_url": "https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training",
+        "summary": "Google’s Search history update stores media uploads from your interactions, like images used in reverse image searches, for training its AI models.",
+        "source": "Wired AI",
+        "published": "2026-06-24T22:36:16+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
         "title": "A24 Knows You’re Mad About the Google AI Collab",
         "url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/",
         "normalized_url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab",
@@ -1645,19 +1658,6 @@
         "source": "Wired AI",
         "published": "2026-06-22T17:00:00+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Some Electricians Think Building Data Centers Is for Sellouts",
-        "url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out/",
-        "normalized_url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out",
-        "summary": "Big Tech is throwing big money into data center buildouts. As national opposition to the facilities grows, some workers are beginning to question whether it’s worth it.",
-        "source": "Wired AI",
-        "published": "2026-06-22T09:30:00+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
         }
@@ -2405,12 +2405,12 @@
       },
       {
         "category": "news",
-        "title": "Qwen-AgentWorld-397B-A17B",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue56em/qwenagentworld397ba17b/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue56em/qwenagentworld397ba17b",
-        "summary": "It looks like a new model, mentioned on https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B and on https://qwen.ai/blog?id=qwen-agentworld submitted by /u/Shoddy_Bed3240 [link] [comments]",
+        "title": "I did some model hacks, and got GLM5.2 from about 2.5 tok/s to >50 tok/s on my GH200 system.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uedlas/i_did_some_model_hacks_and_got_glm52_from_about/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uedlas/i_did_some_model_hacks_and_got_glm52_from_about",
+        "summary": "G'day. This is part 3 on my Local LLM adventures. I have a crazy system hacked server-to-desktop system : Component Spec GPUs 2x Hopper H100, 96 GB HBM3 each CPUs 2x Grace, 72 cores each Host memory 480 GB LPDDR5X per Grace, 960 GB total So I can run technically run GLM5.2. Except the naive settings were crap, like 2.5 tok/second on vLLM . Messing with NUMA got me higher, but in the end I had to do some surgery, and I grafted the MTP head from the office zai's GLM-5.2-FP8 repo to the body of Cya",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-24T06:00:39+00:00",
+        "published": "2026-06-24T13:30:36+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2418,12 +2418,12 @@
       },
       {
         "category": "news",
-        "title": "I did some model hacks, and got GLM5.2 from about 2.5 tok/s to >50 tok/s on my GH200 system.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uedlas/i_did_some_model_hacks_and_got_glm52_from_about/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uedlas/i_did_some_model_hacks_and_got_glm52_from_about",
-        "summary": "G'day. This is part 3 on my Local LLM adventures. I have a crazy system hacked server-to-desktop system : Component Spec GPUs 2x Hopper H100, 96 GB HBM3 each CPUs 2x Grace, 72 cores each Host memory 480 GB LPDDR5X per Grace, 960 GB total So I can run technically run GLM5.2. Except the naive settings were crap, like 2.5 tok/second on vLLM . Messing with NUMA got me higher, but in the end I had to do some surgery, and I grafted the MTP head from the office zai's GLM-5.2-FP8 repo to the body of Cya",
+        "title": "Qwen-AgentWorld-397B-A17B",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue56em/qwenagentworld397ba17b/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue56em/qwenagentworld397ba17b",
+        "summary": "It looks like a new model, mentioned on https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B and on https://qwen.ai/blog?id=qwen-agentworld submitted by /u/Shoddy_Bed3240 [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-24T13:30:36+00:00",
+        "published": "2026-06-24T06:00:39+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
