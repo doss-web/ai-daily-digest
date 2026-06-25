@@ -1,10 +1,10 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T06:01:17.817889+08:00",
+  "generated_at": "2026-06-26T07:23:32.195167+08:00",
   "counts": {
     "papers": 40,
     "projects": 15,
-    "news": 133
+    "news": 134
   },
   "items": {
     "papers": [
@@ -724,10 +724,21 @@
     "news": [
       {
         "category": "news",
+        "title": "Trump administration asks OpenAI to stagger release of new model",
+        "url": "https://ca.finance.yahoo.com/news/trump-administration-asks-openai-stagger-204300837.html",
+        "normalized_url": "https://ca.finance.yahoo.com/news/trump-administration-asks-openai-stagger-204300837.html",
+        "summary": "HN points: 11, comments: 2",
+        "source": "Hacker News",
+        "published": "2026-06-25T20:47:46Z",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "OpenAI Leans Toward Waiting Until Next Year for IPO",
         "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
         "normalized_url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
-        "summary": "HN points: 26, comments: 12",
+        "summary": "HN points: 74, comments: 46",
         "source": "Hacker News",
         "published": "2026-06-25T20:36:05Z",
         "importance_hint": 4,
@@ -738,7 +749,7 @@
         "title": "The Customer Who Almost Killed Slack, Stripe, and Airbnb",
         "url": "https://siliconopera.com/the-customer-who-almost-killed-slack-stripe-and-airbnb/",
         "normalized_url": "https://siliconopera.com/the-customer-who-almost-killed-slack-stripe-and-airbnb",
-        "summary": "HN points: 16, comments: 24",
+        "summary": "HN points: 17, comments: 25",
         "source": "Hacker News",
         "published": "2026-06-25T20:30:47Z",
         "importance_hint": 3,
@@ -749,7 +760,7 @@
         "title": "OpenAI to Stagger Release of GPT 5.6 at Request of U.S. Government",
         "url": "https://velo.xyz/news/1908",
         "normalized_url": "https://velo.xyz/news/1908",
-        "summary": "HN points: 19, comments: 12",
+        "summary": "HN points: 27, comments: 17",
         "source": "Hacker News",
         "published": "2026-06-25T20:28:25Z",
         "importance_hint": 5,
@@ -760,7 +771,7 @@
         "title": "Hasbro's TV Contracts Ask Child Voice Actors to Sign Rights Away for AI Use",
         "url": "https://www.hollywoodreporter.com/business/business-news/studio-minor-performers-surrender-voices-ai-1236630694/",
         "normalized_url": "https://www.hollywoodreporter.com/business/business-news/studio-minor-performers-surrender-voices-ai-1236630694",
-        "summary": "HN points: 15, comments: 4",
+        "summary": "HN points: 22, comments: 6",
         "source": "Hacker News",
         "published": "2026-06-25T20:17:48Z",
         "importance_hint": 3,
@@ -771,7 +782,7 @@
         "title": "Feds deny Polestar authorization to sell cars in US from model year 2027",
         "url": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027/",
         "normalized_url": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027",
-        "summary": "HN points: 20, comments: 17",
+        "summary": "HN points: 27, comments: 19",
         "source": "Hacker News",
         "published": "2026-06-25T20:00:35Z",
         "importance_hint": 4,
@@ -782,7 +793,7 @@
         "title": "Apple to Skip High-End M6 Mac Chips in Favor of AI-Focused M7 Line",
         "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead",
         "normalized_url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead",
-        "summary": "HN points: 14, comments: 1",
+        "summary": "HN points: 16, comments: 2",
         "source": "Hacker News",
         "published": "2026-06-25T18:01:58Z",
         "importance_hint": 4,
@@ -793,7 +804,7 @@
         "title": "The AI Data-Center Boom Is Sparking a Third Wave of Inflation",
         "url": "https://www.wsj.com/economy/the-data-center-boom-is-sparking-a-third-wave-of-inflation-926adc6e",
         "normalized_url": "https://www.wsj.com/economy/the-data-center-boom-is-sparking-a-third-wave-of-inflation-926adc6e",
-        "summary": "HN points: 15, comments: 0",
+        "summary": "HN points: 17, comments: 0",
         "source": "Hacker News",
         "published": "2026-06-25T17:58:44Z",
         "importance_hint": 3,
@@ -804,7 +815,7 @@
         "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
         "url": "https://github.com/inkeep/open-knowledge",
         "normalized_url": "https://github.com/inkeep/open-knowledge",
-        "summary": "HN points: 129, comments: 61",
+        "summary": "HN points: 160, comments: 77",
         "source": "Hacker News",
         "published": "2026-06-25T16:04:46Z",
         "importance_hint": 4,
@@ -815,7 +826,7 @@
         "title": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors",
         "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
         "normalized_url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
-        "summary": "HN points: 556, comments: 295",
+        "summary": "HN points: 564, comments: 296",
         "source": "Hacker News",
         "published": "2026-06-25T14:58:50Z",
         "importance_hint": 3,
@@ -826,7 +837,7 @@
         "title": "Federal agents track down woman, demand she remove Instagram post about ICE",
         "url": "https://www.syracuse.com/news/2026/06/federal-agents-track-down-syracuse-woman-demand-she-remove-instagram-post-about-ice.html",
         "normalized_url": "https://www.syracuse.com/news/2026/06/federal-agents-track-down-syracuse-woman-demand-she-remove-instagram-post-about-ice.html",
-        "summary": "HN points: 162, comments: 75",
+        "summary": "HN points: 174, comments: 76",
         "source": "Hacker News",
         "published": "2026-06-25T14:16:17Z",
         "importance_hint": 4,
@@ -837,7 +848,7 @@
         "title": "Tell HN: OpenAI has started putting ads on paid programs",
         "url": "https://news.ycombinator.com/item?id=48673194",
         "normalized_url": "https://news.ycombinator.com/item?id=48673194",
-        "summary": "HN points: 105, comments: 48",
+        "summary": "HN points: 108, comments: 52",
         "source": "Hacker News",
         "published": "2026-06-25T13:37:36Z",
         "importance_hint": 4,
@@ -848,7 +859,7 @@
         "title": "Political bias in AI: Where the AI models stand",
         "url": "https://trakkr.ai/bias",
         "normalized_url": "https://trakkr.ai/bias",
-        "summary": "HN points: 83, comments: 180",
+        "summary": "HN points: 100, comments: 198",
         "source": "Hacker News",
         "published": "2026-06-25T13:08:31Z",
         "importance_hint": 4,
@@ -859,7 +870,7 @@
         "title": "Apple raises prices of MacBooks, iPads",
         "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
         "normalized_url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
-        "summary": "HN points: 533, comments: 785",
+        "summary": "HN points: 583, comments: 836",
         "source": "Hacker News",
         "published": "2026-06-25T13:02:56Z",
         "importance_hint": 3,
@@ -870,7 +881,7 @@
         "title": "Why Does Everyone Hate AI?",
         "url": "https://paulkrugman.substack.com/p/why-does-everyone-hate-ai",
         "normalized_url": "https://paulkrugman.substack.com/p/why-does-everyone-hate-ai",
-        "summary": "HN points: 79, comments: 136",
+        "summary": "HN points: 80, comments: 138",
         "source": "Hacker News",
         "published": "2026-06-25T12:59:10Z",
         "importance_hint": 3,
@@ -878,143 +889,132 @@
       },
       {
         "category": "news",
-        "title": "LLM APIs with built-in chatbot in 1 line of code",
-        "url": "https://flama.dev/blog/serving_llms_with_flama_cli/",
-        "normalized_url": "https://flama.dev/blog/serving_llms_with_flama_cli",
-        "summary": "HN points: 18, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-06-25T11:08:01Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "WAIC UP!｜AI圈都在聊参数，我们偏不",
-        "url": "https://www.qbitai.com/2026/06/438364.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438364.html",
-        "summary": "7月17-7月20",
-        "source": "量子位",
-        "published": "2026-06-25T09:59:40+00:00",
+        "title": "三星不赚“辛苦钱”",
+        "url": "https://www.36kr.com/p/3868400349133702",
+        "normalized_url": "https://www.36kr.com/p/3868400349133702",
+        "summary": "赚钱的越来越强势，不赚钱的越来越被嫌弃",
+        "source": "36Kr AI",
+        "published": "2026-06-25T23:17:28+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
         "category": "news",
-        "title": "三体问世20周年，光帆科技与三体宇宙联合发布联名款AI全感穿戴设备及重磅视频《破晓》",
-        "url": "https://www.qbitai.com/2026/06/438658.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438658.html",
-        "summary": "",
-        "source": "量子位",
-        "published": "2026-06-25T09:46:44+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "科大讯飞发布企业服务Claw平台：一句话搞定需求到方案全流程",
-        "url": "https://www.qbitai.com/2026/06/438638.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438638.html",
-        "summary": "",
-        "source": "量子位",
-        "published": "2026-06-25T08:32:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "4秒出百万面！突破千万面精度+12K高清贴图，手握数亿的3D生成公司下一局怎么打？",
-        "url": "https://www.qbitai.com/2026/06/438468.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438468.html",
-        "summary": "3D生成领域的Anthropic",
-        "source": "量子位",
-        "published": "2026-06-25T08:00:24+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "跟Claude谈个恋爱怎么了？Nature最新研究：真能给人聊傻了",
-        "url": "https://www.qbitai.com/2026/06/438365.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438365.html",
-        "summary": "Claude已经，俨然成为了新一代电子老公。",
-        "source": "量子位",
-        "published": "2026-06-25T07:02:16+00:00",
+        "title": "灵犀互娱表现不差，阿里为何还要卖掉它？",
+        "url": "https://www.36kr.com/p/3868442986452225",
+        "normalized_url": "https://www.36kr.com/p/3868442986452225",
+        "summary": "九年七次变动后，灵犀互娱终究没成为阿里的宠儿。",
+        "source": "36Kr AI",
+        "published": "2026-06-25T14:25:33+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
         "category": "news",
-        "title": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
-        "url": "https://www.qbitai.com/2026/06/438351.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438351.html",
-        "summary": "互利共赢的生态繁荣",
-        "source": "量子位",
-        "published": "2026-06-25T04:35:18+00:00",
+        "title": "豆包付费后，豆包手机仍免费，最大Token消耗者出现了",
+        "url": "https://www.36kr.com/p/3868454470948097",
+        "normalized_url": "https://www.36kr.com/p/3868454470948097",
+        "summary": "今年MWC，AI终端真的落地了",
+        "source": "36Kr AI",
+        "published": "2026-06-25T14:17:51+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
         "category": "news",
-        "title": "不靠单款爆款吃红利，中国AI应用首现3亿ARR独角兽！腾讯顺为红杉继续加码",
-        "url": "https://www.qbitai.com/2026/06/438336.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438336.html",
-        "summary": "中国AI应用公司并没有停留在追赶全球浪潮",
-        "source": "量子位",
-        "published": "2026-06-25T04:29:49+00:00",
+        "title": "美光财报背后，藏着一个AI转向的关键信号",
+        "url": "https://www.36kr.com/p/3868445535910793",
+        "normalized_url": "https://www.36kr.com/p/3868445535910793",
+        "summary": "AI产业叙事开始变了",
+        "source": "36Kr AI",
+        "published": "2026-06-25T14:15:36+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
         "category": "news",
-        "title": "聚焦GW级Token工厂，解码下一代算力底座｜6月30日，深圳",
-        "url": "https://www.qbitai.com/2026/06/438297.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438297.html",
-        "summary": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？",
-        "source": "量子位",
-        "published": "2026-06-25T02:22:43+00:00",
+        "title": "黄仁勋：Prompt正在过时，Loop才是新范式",
+        "url": "https://www.36kr.com/p/3868515171718148",
+        "normalized_url": "https://www.36kr.com/p/3868515171718148",
+        "summary": "网友分享《怎么loop起来》指南",
+        "source": "36Kr AI",
+        "published": "2026-06-25T14:08:59+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
         "category": "news",
-        "title": "豆包收费版第一天，我：充值…又得充值？我要再充值！",
-        "url": "https://www.qbitai.com/2026/06/438204.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438204.html",
-        "summary": "专业版上线，首开付费模式",
-        "source": "量子位",
-        "published": "2026-06-25T00:32:50+00:00",
+        "title": "实测豆包专业版：327张图3分钟归档，PPT配图“偶开天窗”，数据图表识别仍需“人工兜底”",
+        "url": "https://www.36kr.com/p/3868483485160710",
+        "normalized_url": "https://www.36kr.com/p/3868483485160710",
+        "summary": "豆包专业版上线实测：付费体验待提升，商业化仍需探索",
+        "source": "36Kr AI",
+        "published": "2026-06-25T14:03:32+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
         "category": "news",
-        "title": "世界模型混战，Momenta率先冲刺IPO",
-        "url": "https://www.qbitai.com/2026/06/438179.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438179.html",
-        "summary": "AI司机收入3年涨42倍",
-        "source": "量子位",
-        "published": "2026-06-24T23:20:28+00:00",
-        "importance_hint": 4,
+        "title": "为老机换硅碳负极电池，国内手机厂商不忘本",
+        "url": "https://www.36kr.com/p/3868484427764738",
+        "normalized_url": "https://www.36kr.com/p/3868484427764738",
+        "summary": "为老手机更换硅碳负极电池，可以说是百利而无一害。",
+        "source": "36Kr AI",
+        "published": "2026-06-25T14:00:15+00:00",
+        "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "胡泳：故事机器、AI 短剧与文化工业的算法化",
+        "url": "https://www.36kr.com/p/3868469507396613",
+        "normalized_url": "https://www.36kr.com/p/3868469507396613",
+        "summary": "故事正在从一种人类经验，变成一种机器生产的文化商品。",
+        "source": "36Kr AI",
+        "published": "2026-06-25T13:58:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "抢体脂秤、AI做「搭子」，第一批网友冲向阿福减重",
+        "url": "https://www.36kr.com/p/3868596994069509",
+        "normalized_url": "https://www.36kr.com/p/3868596994069509",
+        "summary": "普通人减肥不用焦虑了。",
+        "source": "36Kr AI",
+        "published": "2026-06-25T13:42:26+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "炮轰马斯克后，诺奖得主最新预警：美股特殊时点，当下是AI“准泡沫”即将破裂状态",
+        "url": "https://www.36kr.com/p/3868474298930440",
+        "normalized_url": "https://www.36kr.com/p/3868474298930440",
+        "summary": "克鲁格曼预警AI准泡沫将破，市场仍存估值顾虑",
+        "source": "36Kr AI",
+        "published": "2026-06-25T13:36:57+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -1474,6 +1474,19 @@
       },
       {
         "category": "news",
+        "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/",
+        "normalized_url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data",
+        "summary": "Amazon-owned MGM Studios’ decision to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On Uncanny Valley, we take a look at where this is all headed.",
+        "source": "Wired AI",
+        "published": "2026-06-25T23:13:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
         "title": "World Cup Teams Are in a Race for AI Dominance",
         "url": "https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools/",
         "normalized_url": "https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools",
@@ -1929,6 +1942,32 @@
       },
       {
         "category": "news",
+        "title": "AI and Liability",
+        "url": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+        "normalized_url": "https://simonwillison.net/2026/Jun/25/ai-and-liability",
+        "summary": "AI and Liability Bruce Schneier on the recent German ruling that Google be held liable for errors introduced in their AI overviews: AI agents are agents of the person or organization that deploys them—and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. [...] To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, ",
+        "source": "Simon Willison",
+        "published": "2026-06-25T22:28:46+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://simonwillison.net/atom/everything/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "datasette-export-database 0.3a2",
+        "url": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
+        "normalized_url": "https://simonwillison.net/2026/Jun/25/datasette-export-database",
+        "summary": "Release: datasette-export-database 0.3a2 An embarrassingly tiny release. The pyproject.toml had pinned to datasette==1.0a27 , inadvertently making this plugin incompatible with all other Datasette versions. It's now datasette>=1.0a27 instead. Tags: datasette",
+        "source": "Simon Willison",
+        "published": "2026-06-25T17:21:09+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://simonwillison.net/atom/everything/"
+        }
+      },
+      {
+        "category": "news",
         "title": "simonw/browser-compat-db",
         "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jun/24/browser-compat-db",
@@ -2001,32 +2040,6 @@
         "source": "Simon Willison",
         "published": "2026-06-22T23:43:51+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
-        "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
-        "normalized_url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1",
-        "summary": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lot more. I released sqlite-utils 4.0rc1 , the first release candidate for sqlite-utils v4. The major version bump indicates some (minor) backwards incompatible changes, so I'm interested in having peop",
-        "source": "Simon Willison",
-        "published": "2026-06-21T23:35:47+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "sqlite-utils 4.0rc1",
-        "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
-        "normalized_url": "https://simonwillison.net/2026/Jun/21/sqlite-utils",
-        "summary": "Release: sqlite-utils 4.0rc1 See sqlite-utils 4.0rc1 adds migrations and nested transactions . Tags: sqlite-utils",
-        "source": "Simon Willison",
-        "published": "2026-06-21T23:30:04+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://simonwillison.net/atom/everything/"
         }
@@ -2254,12 +2267,12 @@
       },
       {
         "category": "news",
-        "title": "NVIDIA has released Nemotron-TwoTower-30B-A3B-Base-BF16, an unusual diffusion-based language model built from the Nemotron 3 Nano 30B-A3B backbone.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf4azy/nvidia_has_released/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf4azy/nvidia_has_released",
-        "summary": "NVIDIA has released Nemotron-TwoTower-30B-A3B-Base-BF16, an unusual diffusion-based language model built from the Nemotron 3 Nano 30B-A3B backbone. Instead of generating strictly one token at a time, it uses a frozen autoregressive context tower plus a diffusion denoiser tower that iteratively fills blocks of tokens in parallel. NVIDIA says its default mask-diffusion setup retains 98.7% of the autoregressive baseline’s aggregate benchmark quality while reaching 2.42× its wall-clock generation th",
+        "title": "If LLMs are so good at coding…",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding",
+        "summary": "How come things like ROCm and the intel stack aren’t able to rapidly improve their software ecosystems to be a match for CUDA? Until the software from other vendors catches up with NVIDIA, they’re always going to get away with charging a massive premium on their “it just works” products. This is a genuine question, I’m using NVIDIA and Apple Silicon for my AI adventures thus far, but like everyone else on this subreddit, I want the prices to be more affordable. They won’t get that way until ther",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-25T08:34:20+00:00",
+        "published": "2026-06-25T05:07:38+00:00",
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2267,12 +2280,12 @@
       },
       {
         "category": "news",
-        "title": "If LLMs are so good at coding…",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding",
-        "summary": "How come things like ROCm and the intel stack aren’t able to rapidly improve their software ecosystems to be a match for CUDA? Until the software from other vendors catches up with NVIDIA, they’re always going to get away with charging a massive premium on their “it just works” products. This is a genuine question, I’m using NVIDIA and Apple Silicon for my AI adventures thus far, but like everyone else on this subreddit, I want the prices to be more affordable. They won’t get that way until ther",
+        "title": "NVIDIA has released Nemotron-TwoTower-30B-A3B-Base-BF16, an unusual diffusion-based language model built from the Nemotron 3 Nano 30B-A3B backbone.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf4azy/nvidia_has_released/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf4azy/nvidia_has_released",
+        "summary": "NVIDIA has released Nemotron-TwoTower-30B-A3B-Base-BF16, an unusual diffusion-based language model built from the Nemotron 3 Nano 30B-A3B backbone. Instead of generating strictly one token at a time, it uses a frozen autoregressive context tower plus a diffusion denoiser tower that iteratively fills blocks of tokens in parallel. NVIDIA says its default mask-diffusion setup retains 98.7% of the autoregressive baseline’s aggregate benchmark quality while reaching 2.42× its wall-clock generation th",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-25T05:07:38+00:00",
+        "published": "2026-06-25T08:34:20+00:00",
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2293,6 +2306,19 @@
       },
       {
         "category": "news",
+        "title": "Report: Apple to skip M6 Pro/Max chips, fast-track M7 for local AI",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufhu3s/report_apple_to_skip_m6_promax_chips_fasttrack_m7/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufhu3s/report_apple_to_skip_m6_promax_chips_fasttrack_m7",
+        "summary": "submitted by /u/fallingdowndizzyvr [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-25T18:11:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "Ornith-1.0 released on Hugging Face",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face",
@@ -2306,13 +2332,13 @@
       },
       {
         "category": "news",
-        "title": "Report: Apple to skip M6 Pro/Max chips, fast-track M7 for local AI",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufhu3s/report_apple_to_skip_m6_promax_chips_fasttrack_m7/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufhu3s/report_apple_to_skip_m6_promax_chips_fasttrack_m7",
-        "summary": "submitted by /u/fallingdowndizzyvr [link] [comments]",
+        "title": "US Govt to individually approve who gets GPT 5.6.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56",
+        "summary": "submitted by /u/AtlanticHM [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-06-25T18:11:35+00:00",
-        "importance_hint": 4,
+        "published": "2026-06-25T22:02:41+00:00",
+        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
@@ -2338,19 +2364,6 @@
         "summary": "Hello guys, hoping you're doing fine! I was wondering, for users with 4x-8x 6000 PROs (so between 384 and 768GB VRAM), how are bigger models working for you? I have planned to either jump to 4 or 8 from my actual system, and want to see the experiences with these lately. In theory you can run GLM 5.2 at 4 bits, but not 8 bits right? Same with Kimi 2.7, or DeepSeek V4 Pro. There is a ton of info here https://github.com/local-inference-lab/rtx6kpro/blob/master/benchmarks/results.md , but missing s",
         "source": "r/LocalLLaMA",
         "published": "2026-06-25T02:14:14+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "New sampler + verifier *drastically* improves tiny 0.5b model coding performance",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf6ajj/new_sampler_verifier_drastically_improves_tiny/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf6ajj/new_sampler_verifier_drastically_improves_tiny",
-        "summary": "I read it with a little bit of effort The tiny model result is insane, theoretically this could make make a 0.5b on-par with a 2/3/4b ish class model in coding with no weights change*. And for large models it could maybe fix let's say 30-50% hallucination problems (educated guesstimate here) Don't expect this to ever come to vLLM or SGLang, but llama.cpp could integrate this easily* like `--top-n-sigma`. *Now there's this one... small... okay big catch: Aside from this being a backtrack sampler ",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-25T10:31:04+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
