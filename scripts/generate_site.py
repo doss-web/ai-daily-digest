@@ -846,13 +846,15 @@ def cat_type(name: str, emoji: str) -> str:
         return "paper"
     if any(k in s for k in ["项目", "开源", "工具", "repo", "🔧", "🛠"]):
         return "project"
+    if any(k in s for k in ["热议", "讨论", "discourse", "buzz", "社区", "🐦", "🔥"]):
+        return "buzz"
     if any(k in s for k in ["新闻", "动态", "行业", "资讯", "📰"]):
         return "news"
     return "other"
 
 
-CAT_LABELS = [("all", "全部"), ("news", "新闻"), ("paper", "论文"), ("project", "项目")]
-CAT_LABELS_EN = [("all", "All"), ("news", "News"), ("paper", "Papers"), ("project", "Projects")]
+CAT_LABELS = [("all", "全部"), ("news", "新闻"), ("paper", "论文"), ("project", "项目"), ("buzz", "热议")]
+CAT_LABELS_EN = [("all", "All"), ("news", "News"), ("paper", "Papers"), ("project", "Projects"), ("buzz", "Buzz")]
 
 
 def bi(zh: str, en: str) -> str:
