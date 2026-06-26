@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T10:55:52.247457+08:00",
+  "generated_at": "2026-06-26T11:07:41.212134+08:00",
   "counts": {
     "papers": 40,
     "projects": 24,
@@ -8,6 +8,19 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "OpenBioRQ: Unsolved Biomedical Research Questions for Agents",
+        "url": "https://huggingface.co/papers/2606.21959",
+        "normalized_url": "https://huggingface.co/papers/2606.21959",
+        "summary": "A working citation looks like proof -- but the fact that a link resolves does not mean the cited paper supports the claim. I find that current agentic models rarely fabricate citations (over 99% resolve), yet roughly 15.9% link to the wrong paper. Existing benchmarks miss this failure mode: when a question has a fixed answer key, a model can reproduce the expected source from that key rather than independently verifying that the source supports the claim. I introduce \\openbiorq{}, a retrieval-gr",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.21959"
+        }
+      },
       {
         "category": "papers",
         "title": "In-Context World Modeling for Robotic Control",
@@ -383,19 +396,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2606.18239"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "TryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy",
-        "url": "https://huggingface.co/papers/2606.26092",
-        "normalized_url": "https://huggingface.co/papers/2606.26092",
-        "summary": "While Video Virtual Try-on (VVT) has achieved remarkable progress in synthesizing realistic garment overlays on dynamic subjects, existing paradigms remains fundamentally constrained by a passive dependency on source camera trajectories, failing to accommodate the requisite interactive freedom for omnidirectional viewpoint exploration. To address this limitation, we define a pioneering research frontier: Camera-controllable Video Virtual Try-on (CaM-VVT). Unlike conventional VVT, CaM-VVT not onl",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-24T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2606.26092"
         }
       },
       {
@@ -842,7 +842,7 @@
         "title": "AI children's books, body horror edition",
         "url": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
         "normalized_url": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
-        "summary": "HN points: 87, comments: 18",
+        "summary": "HN points: 110, comments: 31",
         "source": "Hacker News",
         "published": "2026-06-26T01:15:14Z",
         "importance_hint": 3,
@@ -954,7 +954,7 @@
         "title": "Feds deny Polestar authorization to sell cars in US from model year 2027",
         "url": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027/",
         "normalized_url": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027",
-        "summary": "HN points: 43, comments: 21",
+        "summary": "HN points: 44, comments: 21",
         "source": "Hacker News",
         "published": "2026-06-25T20:00:35Z",
         "importance_hint": 4,
@@ -965,7 +965,7 @@
         "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
         "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
         "normalized_url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
-        "summary": "HN points: 92, comments: 56",
+        "summary": "HN points: 99, comments: 62",
         "source": "Hacker News, Hacker News",
         "published": "2026-06-25T17:38:44Z",
         "importance_hint": 4,
@@ -987,11 +987,37 @@
         "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
         "url": "https://github.com/inkeep/open-knowledge",
         "normalized_url": "https://github.com/inkeep/open-knowledge",
-        "summary": "HN points: 215, comments: 101",
+        "summary": "HN points: 216, comments: 102",
         "source": "Hacker News",
         "published": "2026-06-25T16:04:46Z",
         "importance_hint": 4,
         "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "股价一年膝斩，老铺黄金从“明星”变“老登”",
+        "url": "https://www.36kr.com/p/3868667788186631",
+        "normalized_url": "https://www.36kr.com/p/3868667788186631",
+        "summary": "屡刷年内新低",
+        "source": "36Kr AI",
+        "published": "2026-06-26T03:01:05+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "文心升级、豆包收费，AI告别“唯流量论”",
+        "url": "https://www.36kr.com/p/3868689395186563",
+        "normalized_url": "https://www.36kr.com/p/3868689395186563",
+        "summary": "入口过剩的时代结束了",
+        "source": "36Kr AI",
+        "published": "2026-06-26T02:59:23+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -1093,32 +1119,6 @@
         "source": "36Kr AI",
         "published": "2026-06-26T02:37:59+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "华尔街终于看懂了高通的“去手机化”野心",
-        "url": "https://www.36kr.com/p/3869330104538376",
-        "normalized_url": "https://www.36kr.com/p/3869330104538376",
-        "summary": "高通的第二增长曲线来了？",
-        "source": "36Kr AI",
-        "published": "2026-06-26T02:34:28+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "不重复造轮子的探路，起飞了",
-        "url": "https://www.36kr.com/p/3868496650507273",
-        "normalized_url": "https://www.36kr.com/p/3868496650507273",
-        "summary": "当移动出行仍处于持续演化阶段时，真正的机会或许不在于占据某一个市场，而在于率先建立一套能够跨越多个场景持续复制的能力体系。",
-        "source": "36Kr AI",
-        "published": "2026-06-26T02:33:55+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
@@ -2581,19 +2581,6 @@
       },
       {
         "category": "news",
-        "title": "Anthropic accuses Alibaba of campaign to ‘brazenly’ and ‘illicitly’ extract AI capabilities",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueyl2i/anthropic_accuses_alibaba_of_campaign_to_brazenly/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueyl2i/anthropic_accuses_alibaba_of_campaign_to_brazenly",
-        "summary": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models submitted by /u/External_Mood4719 [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-25T03:20:59+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Ornith-1.0 released on Hugging Face",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face",
@@ -2601,6 +2588,19 @@
         "source": "r/LocalLLaMA",
         "published": "2026-06-25T14:52:07+00:00",
         "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic accuses Alibaba of campaign to ‘brazenly’ and ‘illicitly’ extract AI capabilities",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueyl2i/anthropic_accuses_alibaba_of_campaign_to_brazenly/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueyl2i/anthropic_accuses_alibaba_of_campaign_to_brazenly",
+        "summary": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models submitted by /u/External_Mood4719 [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-25T03:20:59+00:00",
+        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
