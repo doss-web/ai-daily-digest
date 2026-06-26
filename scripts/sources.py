@@ -195,6 +195,46 @@ BROWSER_HEADERS = {
 }
 
 
+def fetch_github_trending_page(period="daily"):
+    """Scrape github.com/trending for genuinely hot repos — higher quality and
+    more recognizable than the OSSInsight 24h-star list. Keeps AI-related ones."""
+    items = []
+    try:
+        resp = requests.get(
+            f"https://github.com/trending?since={period}",
+            headers=BROWSER_HEADERS, timeout=20,
+        )
+        resp.raise_for_status()
+        rows = re.findall(r'<article class="Box-row">(.*?)</article>', resp.text, re.S)
+        for row in rows:
+            h2 = re.search(r'<h2.*?</h2>', row, re.S)
+            if not h2:
+                continue
+            m = re.search(r'href="/([^"/]+/[^"/]+)"', h2.group(0))
+            if not m:
+                continue
+            repo = m.group(1)
+            dm = re.search(r'<p class="col-9[^"]*"[^>]*>(.*?)</p>', row, re.S)
+            desc = clean_text(dm.group(1)) if dm else ""
+            sm = re.search(r'([\d,]+)\s+stars today', row)
+            today = sm.group(1) if sm else ""
+            blob = f"{repo} {desc}".lower()
+            if not any(kw in blob for kw in AI_KEYWORDS):
+                continue
+            note = f"（GitHub Trending · 今日 +{today} star）" if today else "（GitHub Trending）"
+            items.append(make_item(
+                category="projects",
+                title=f"{repo} ⭐+{today}/天" if today else repo,
+                url=f"https://github.com/{repo}",
+                summary=f"{desc} {note}".strip(),
+                source="GitHub Trending",
+                metadata={"stars_today": today},
+            ))
+    except Exception as e:
+        print(f"  [GitHub Trending page] Error: {e}")
+    return items
+
+
 def fetch_rss_feed(feed_url, source_name, max_items=10, cutoff_days=2):
     """Generic RSS feed fetcher."""
     items = []
@@ -370,9 +410,16 @@ def fetch_all():
     print(f"  Got {len(arxiv_items)} arXiv papers")
     papers.extend(arxiv_items)
 
-    print("Fetching GitHub Trending...")
-    projects = fetch_github_trending()
-    print(f"  Got {len(projects)} projects")
+    print("Fetching GitHub Trending (official page)...")
+    trending_page = fetch_github_trending_page()
+    print(f"  Got {len(trending_page)} trending repos")
+
+    print("Fetching GitHub Trending (OSSInsight)...")
+    oss_projects = fetch_github_trending()
+    print(f"  Got {len(oss_projects)} projects")
+
+    # Official trending first (higher quality), OSSInsight as backup/supplement
+    projects = trending_page + oss_projects
 
     print("Fetching Hacker News...")
     hn_items = fetch_hacker_news()
