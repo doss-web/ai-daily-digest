@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T10:49:50.199628+08:00",
+  "generated_at": "2026-06-26T10:55:52.247457+08:00",
   "counts": {
     "papers": 40,
     "projects": 24,
@@ -842,7 +842,7 @@
         "title": "AI children's books, body horror edition",
         "url": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
         "normalized_url": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
-        "summary": "HN points: 73, comments: 16",
+        "summary": "HN points: 87, comments: 18",
         "source": "Hacker News",
         "published": "2026-06-26T01:15:14Z",
         "importance_hint": 3,
@@ -877,7 +877,7 @@
         "title": "Jailbreaking Isn't Theft",
         "url": "https://pluralistic.net/2026/06/25/thieve-different/",
         "normalized_url": "https://pluralistic.net/2026/06/25/thieve-different",
-        "summary": "HN points: 33, comments: 1",
+        "summary": "HN points: 34, comments: 1",
         "source": "Hacker News",
         "published": "2026-06-25T22:41:50Z",
         "importance_hint": 3,
@@ -965,7 +965,7 @@
         "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
         "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
         "normalized_url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
-        "summary": "HN points: 89, comments: 56",
+        "summary": "HN points: 92, comments: 56",
         "source": "Hacker News, Hacker News",
         "published": "2026-06-25T17:38:44Z",
         "importance_hint": 4,
@@ -987,7 +987,7 @@
         "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
         "url": "https://github.com/inkeep/open-knowledge",
         "normalized_url": "https://github.com/inkeep/open-knowledge",
-        "summary": "HN points: 214, comments: 100",
+        "summary": "HN points: 215, comments: 101",
         "source": "Hacker News",
         "published": "2026-06-25T16:04:46Z",
         "importance_hint": 4,
@@ -1125,6 +1125,19 @@
       },
       {
         "category": "news",
+        "title": "库克临走给苹果涨价！电脑iPad全线上调，iPhone 18也跑不了",
+        "url": "https://www.qbitai.com/2026/06/438690.html",
+        "normalized_url": "https://www.qbitai.com/2026/06/438690.html",
+        "summary": "Macbook涨了2500元",
+        "source": "量子位",
+        "published": "2026-06-26T01:26:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
         "title": "WAIC UP!｜AI圈都在聊参数，我们偏不",
         "url": "https://www.qbitai.com/2026/06/438364.html",
         "normalized_url": "https://www.qbitai.com/2026/06/438364.html",
@@ -1236,19 +1249,6 @@
         "source": "量子位",
         "published": "2026-06-25T00:32:50+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "世界模型混战，Momenta率先冲刺IPO",
-        "url": "https://www.qbitai.com/2026/06/438179.html",
-        "normalized_url": "https://www.qbitai.com/2026/06/438179.html",
-        "summary": "AI司机收入3年涨42倍",
-        "source": "量子位",
-        "published": "2026-06-24T23:20:28+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.qbitai.com/rss"
         }
