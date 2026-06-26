@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T05:47:20.964693+08:00",
+  "generated_at": "2026-06-27T07:14:29.599745+08:00",
   "counts": {
     "papers": 40,
     "projects": 21,
@@ -798,10 +798,32 @@
     "news": [
       {
         "category": "news",
+        "title": "The Nationwide Backlash Against Cameras Watching Your Car",
+        "url": "https://www.wsj.com/us-news/the-nationwide-backlash-against-cameras-watching-your-car-401a656a",
+        "normalized_url": "https://www.wsj.com/us-news/the-nationwide-backlash-against-cameras-watching-your-car-401a656a",
+        "summary": "HN points: 11, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-06-26T21:23:56Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "The gap between open weights LLMs and closed source LLMs",
+        "url": "https://blog.doubleword.ai/frontier-os-llm",
+        "normalized_url": "https://blog.doubleword.ai/frontier-os-llm",
+        "summary": "HN points: 71, comments: 51",
+        "source": "Hacker News",
+        "published": "2026-06-26T21:14:47Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "The French are painting their windows with chalk to beat the heat",
         "url": "https://www.bbc.com/future/article/20260625-why-the-french-are-painting-chalk-on-their-windows",
         "normalized_url": "https://www.bbc.com/future/article/20260625-why-the-french-are-painting-chalk-on-their-windows",
-        "summary": "HN points: 11, comments: 6",
+        "summary": "HN points: 16, comments: 10",
         "source": "Hacker News",
         "published": "2026-06-26T19:05:57Z",
         "importance_hint": 3,
@@ -812,10 +834,21 @@
         "title": "U.S. government will decide who gets to use GPT-5.6",
         "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
         "normalized_url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
-        "summary": "HN points: 551, comments: 703",
+        "summary": "HN points: 691, comments: 822",
         "source": "Hacker News",
         "published": "2026-06-26T18:23:14Z",
         "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Murmur: Shared communication bus for your coding agents",
+        "url": "https://github.com/instavm/murmur",
+        "normalized_url": "https://github.com/instavm/murmur",
+        "summary": "HN points: 11, comments: 3",
+        "source": "Hacker News",
+        "published": "2026-06-26T18:20:42Z",
+        "importance_hint": 4,
         "metadata": {}
       },
       {
@@ -847,7 +880,7 @@
         "title": "Polygraph: A Meta-Harness for Maximum Agent Autonomy",
         "url": "https://nx.dev/blog/announcing-polygraph",
         "normalized_url": "https://nx.dev/blog/announcing-polygraph",
-        "summary": "HN points: 44, comments: 12",
+        "summary": "HN points: 45, comments: 12",
         "source": "Hacker News",
         "published": "2026-06-26T17:01:13Z",
         "importance_hint": 5,
@@ -858,7 +891,7 @@
         "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
         "url": "https://github.com/workweave/router",
         "normalized_url": "https://github.com/workweave/router",
-        "summary": "HN points: 109, comments: 79",
+        "summary": "HN points: 130, comments: 82",
         "source": "Hacker News",
         "published": "2026-06-26T16:40:11Z",
         "importance_hint": 4,
@@ -869,7 +902,7 @@
         "title": "Europe to exclude military-age Ukrainian men from temporary protection scheme",
         "url": "https://www.euronews.com/my-europe/2026/06/26/brussels-to-exclude-military-age-ukrainian-men-from-temporary-protection-scheme",
         "normalized_url": "https://www.euronews.com/my-europe/2026/06/26/brussels-to-exclude-military-age-ukrainian-men-from-temporary-protection-scheme",
-        "summary": "HN points: 58, comments: 5",
+        "summary": "HN points: 58, comments: 10",
         "source": "Hacker News",
         "published": "2026-06-26T16:36:55Z",
         "importance_hint": 3,
@@ -880,7 +913,7 @@
         "title": "South Korea to Train All Active-Duty Soldiers to Operate Drones",
         "url": "https://www.wsj.com/world/asia/south-korea-to-train-all-active-duty-soldiers-to-operate-drones-28ddcceb",
         "normalized_url": "https://www.wsj.com/world/asia/south-korea-to-train-all-active-duty-soldiers-to-operate-drones-28ddcceb",
-        "summary": "HN points: 15, comments: 4",
+        "summary": "HN points: 16, comments: 4",
         "source": "Hacker News",
         "published": "2026-06-26T16:03:13Z",
         "importance_hint": 3,
@@ -891,7 +924,7 @@
         "title": "The AI industry is pouring millions into US elections",
         "url": "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds",
         "normalized_url": "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds",
-        "summary": "HN points: 108, comments: 78",
+        "summary": "HN points: 110, comments: 79",
         "source": "Hacker News",
         "published": "2026-06-26T15:02:43Z",
         "importance_hint": 3,
@@ -913,7 +946,7 @@
         "title": "The AI backlash is only getting started",
         "url": "https://www.economist.com/leaders/2026/06/25/the-ai-backlash-is-only-getting-started",
         "normalized_url": "https://www.economist.com/leaders/2026/06/25/the-ai-backlash-is-only-getting-started",
-        "summary": "HN points: 84, comments: 244",
+        "summary": "HN points: 85, comments: 247",
         "source": "Hacker News",
         "published": "2026-06-26T13:12:04Z",
         "importance_hint": 3,
@@ -924,44 +957,9 @@
         "title": "Vision for the Godot Engine",
         "url": "https://godotengine.org/article/godot-vision-statement-2026/",
         "normalized_url": "https://godotengine.org/article/godot-vision-statement-2026",
-        "summary": "HN points: 15, comments: 2",
+        "summary": "HN points: 16, comments: 2",
         "source": "Hacker News",
         "published": "2026-06-26T13:09:22Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-        "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-        "normalized_url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns",
-        "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
-        "source": "Hacker News, TechCrunch AI",
-        "published": "2026-06-25T23:34:39+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Ultrasound imaging of the brain",
-        "url": "https://alephneuro.com/blog/ultrasound-brain",
-        "normalized_url": "https://alephneuro.com/blog/ultrasound-brain",
-        "summary": "HN points: 203, comments: 72",
-        "source": "Hacker News",
-        "published": "2026-06-26T11:51:11Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Mlibc: A fukk-featured portable C standard library",
-        "url": "https://github.com/managarm/mlibc",
-        "normalized_url": "https://github.com/managarm/mlibc",
-        "summary": "HN points: 17, comments: 4",
-        "source": "Hacker News",
-        "published": "2026-06-26T11:42:04Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -1318,6 +1316,19 @@
       },
       {
         "category": "news",
+        "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
+        "url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
+        "normalized_url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
+        "summary": "Long-horizon reasoning exposes a core weakness in AI agents: context windows fill up fast, and retrieval pipelines return noise instead of signal. To solve this, researchers at the National University of Singapore developed MRAgent , a framework that abandons the static \"retrieve-then-reason\" approach. Instead, it uses a mechanism that allows an agent to dynamically develop its memory based on accumulating evidence. This multi-step memory reconstruction is integrated into the reasoning process o",
+        "source": "VentureBeat",
+        "published": "2026-06-26T22:58:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://venturebeat.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Autonomous security agents need complete data. Here's how to check if yours is ready.",
         "url": "https://venturebeat.com/security/autonomous-security-agents-need-complete-data-heres-how-to-check-if-yours-is-ready",
         "normalized_url": "https://venturebeat.com/security/autonomous-security-agents-need-complete-data-heres-how-to-check-if-yours-is-ready",
@@ -1389,19 +1400,6 @@
         "summary": "AI agent orchestration platforms are popping up like weeds these days, but London-based AI transformation startup Mindstone's Rebel might be among the most promising I've come across. That's because the system, which officially launched this week, is a local-first, agentic AI operating system distributed under a \" Fair Source \" license, allowing teams of under 100 users to freely adopt and customize it to suit their needs, while those organizations with more users will require paying for an ente",
         "source": "VentureBeat",
         "published": "2026-06-24T23:02:15+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://venturebeat.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Mistral launches OCR 4, turning document extraction into a full enterprise AI play",
-        "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
-        "normalized_url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
-        "summary": "Mistral AI on Tuesday released OCR 4 , a document intelligence model that moves beyond raw text extraction to return structured representations of entire documents — complete with bounding boxes, block-type classification, and per-word confidence scores. The release marks Mistral's fourth generation of optical character recognition technology in roughly 15 months and lands at a moment when the company's pitch for European AI sovereignty has never been more commercially relevant. The model suppor",
-        "source": "VentureBeat",
-        "published": "2026-06-24T21:04:04+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://venturebeat.com/feed/"
@@ -1481,6 +1479,19 @@
         "source": "TechCrunch AI",
         "published": "2026-06-26T13:00:00+00:00",
         "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+        "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+        "normalized_url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns",
+        "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-25T23:34:39+00:00",
+        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1825,19 +1836,6 @@
       },
       {
         "category": "news",
-        "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
-        "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
-        "normalized_url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto",
-        "summary": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
-        "source": "Ars Technica AI",
-        "published": "2026-06-23T22:30:57+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
-        }
-      },
-      {
-        "category": "news",
         "title": "OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable",
         "url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/",
         "normalized_url": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable",
@@ -2098,6 +2096,19 @@
       },
       {
         "category": "news",
+        "title": "Quoting Dean W. Ball",
+        "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+        "normalized_url": "https://simonwillison.net/2026/Jun/26/dean-w-ball",
+        "summary": "This is a bad state of affairs. Consider, in particular, some industry dynamics: Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work. The ongoing AI infrastructure buildout—the one that i",
+        "source": "Simon Willison",
+        "published": "2026-06-26T22:25:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://simonwillison.net/atom/everything/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Quoting Timothy B. Lee",
         "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee",
@@ -2183,19 +2194,6 @@
         "source": "Simon Willison",
         "published": "2026-06-24T23:59:03+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Quoting Tom MacWright",
-        "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
-        "normalized_url": "https://simonwillison.net/2026/Jun/24/tom-macwright",
-        "summary": "In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...] My other reaction is that I don't know anything about these people . They haven't put themselves out there. They haven't said anything true. [...] The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this person, ot",
-        "source": "Simon Willison",
-        "published": "2026-06-24T18:13:51+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://simonwillison.net/atom/everything/"
         }
@@ -2436,32 +2434,6 @@
       },
       {
         "category": "news",
-        "title": "US Govt to individually approve who gets GPT 5.6.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56",
-        "summary": "submitted by /u/AtlanticHM [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-25T22:02:41+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "audio.cpp: 12 audio models (Qwen3-TTS, PocketTTS, VeVo2 etc) in 1 C++/ggml runtime — TTS up to 5x faster than Python on CUDA",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufpnm6/audiocpp_12_audio_models_qwen3tts_pockettts_vevo2/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufpnm6/audiocpp_12_audio_models_qwen3tts_pockettts_vevo2",
-        "summary": "I’ve been working on audio.cpp , a native C++ inference framework for audio models built on top of ggml. The framework currently has 25 model families, but I want to be precise about its state: 12 are released in the repo now and ready for normal use. I’m not counting anything still in integration or optimization as released.q The released set already covers quite a bit: TTS / voice cloning / voice design: Chatterbox, MioTTS, OmniVoice, PocketTTS, Qwen3-TTS and VoxCPM2 ASR / alignment / VAD: Qwe",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-25T23:10:53+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Why do people keep investing in Intel for AI?",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugcbqx/why_do_people_keep_investing_in_intel_for_ai/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugcbqx/why_do_people_keep_investing_in_intel_for_ai",
@@ -2501,19 +2473,6 @@
       },
       {
         "category": "news",
-        "title": "[Research] JetSpec: Speculative Decoding with Parallel Tree Drafting Enables up to 9.64x Lossless LLM Inference Speedup with more than 1000TPS",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufntl5/research_jetspec_speculative_decoding_with/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufntl5/research_jetspec_speculative_decoding_with",
-        "summary": "We find speculative decoding can push LLM generation latency to extreme by co-optimizing drafting cost and drafting quality with causal parallel tree drafting . JetSpec reaches up to 9.64× end-to-end speedup on MATH-500 and 4.58× on open-ended chat while keeping lossless. With CUDA graph and kernel optimizations, JetSpec further translates to around 1000 TPS on a single B200 GPU . ⚡️ Prior SD faces a dilemma: AR-style draft heads preserve causality for quality, but drafting cost grows with tree ",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-25T21:55:02+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Good YouTube channels for local LLM news and development?",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uft20b/good_youtube_channels_for_local_llm_news_and/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uft20b/good_youtube_channels_for_local_llm_news_and",
@@ -2527,12 +2486,51 @@
       },
       {
         "category": "news",
+        "title": "Nemotron-3-Super-120B-A12B (hybrid Mamba+MoE) holds perfect needle retrieval to 504K tokens on 4×3090",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugj1sf/nemotron3super120ba12b_hybrid_mambamoe_holds/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugj1sf/nemotron3super120ba12b_hybrid_mambamoe_holds",
+        "summary": "TLDR: The Mamba/SSM layers keep a constant-size recurrent state instead of a growing KV cache, so context is nearly free. Full needle retrieval at half a million tokens, fully on-GPU, ~71GB. The new imatrix gguf here https://huggingface.co/mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF/resolve/main/NVIDIA-Nemotron-3-Super-120B-A12B-BF16.i1-Q4_K_S.gguf Solo setup, local only. Pulled NVIDIA's Nemotron-3-Super (nemotron_h: hybrid Mamba2 + periodic attention + MoE, A12B active, trained ",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-26T21:06:14+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "What's one local AI workflow you wish you'd discovered sooner?",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugba2x/whats_one_local_ai_workflow_you_wish_youd/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugba2x/whats_one_local_ai_workflow_you_wish_youd",
         "summary": "There are a lot of posts about the models and benchmarks, but I am more interested in the workflows that people use. What is one workflow that really saved you time or made your local LLM more useful? It could be anything—RAG, MCP, coding agents, organizing prompt, document indexing, automation or something else entirely. What was it, and why did it make such a big difference in your day-to-day workflow? submitted by /u/recro69 [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-06-26T16:15:07+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "vulkan: make TP viable by pwilkin · Pull Request #25051 · ggml-org/llama.cpp",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugitcr/vulkan_make_tp_viable_by_pwilkin_pull_request/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugitcr/vulkan_make_tp_viable_by_pwilkin_pull_request",
+        "summary": "The legend Piotr has taken a pass at making Vulkan Tensor Parallel somewhat usable, really looking forward to seeing this evolve submitted by /u/TKGaming_11 [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-26T20:57:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Built an open source local first Kanban workflow for running AI coding agents without babysitting every step",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufq3cz/built_an_open_source_local_first_kanban_workflow/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufq3cz/built_an_open_source_local_first_kanban_workflow",
+        "summary": "I’ve been building BatonBot, a local first app for running AI coding workflows with less babysitting. The problem I kept running into, especially with local models, is that coding agents can be useful but the workflow gets slow: start task → wait → check output → fix next issue → run another step → wait again. BatonBot is my attempt to make that more hands off. You set up coding tasks, hand them off to agents, track progress visually in a Kanban-style board, and come back later to see what finis",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-25T23:29:34+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
