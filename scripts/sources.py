@@ -393,7 +393,6 @@ RSS_SOURCES = [
     # ── AI 圈讨论聚合（含 Twitter/X 大佬发言，由聚合源每天消化）──────────────
     ("https://news.smol.ai/rss.xml",                                 "smol.ai AINews",    5, 3),
     ("https://tldr.tech/api/rss/ai",                                 "TLDR AI",           6, 3),
-    ("https://importai.substack.com/feed",                           "Import AI",         4, 14),
 
     # ── 社区（best-effort，云端 IP 可能被限流，失败自动跳过）─────────────────
     ("https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",           "r/LocalLLaMA",      8, 2),
