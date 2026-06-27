@@ -1,10 +1,10 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T05:37:10.137882+08:00",
+  "generated_at": "2026-06-28T07:09:28.824596+08:00",
   "counts": {
     "papers": 30,
     "projects": 24,
-    "news": 122
+    "news": 128
   },
   "items": {
     "papers": [
@@ -731,7 +731,7 @@
         "title": "'Careless People' author claims Meta surveilled her for 12mos to enforce silence",
         "url": "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026/",
         "normalized_url": "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026",
-        "summary": "HN points: 17, comments: 0",
+        "summary": "HN points: 144, comments: 46",
         "source": "Hacker News",
         "published": "2026-06-27T21:14:19Z",
         "importance_hint": 4,
@@ -742,7 +742,7 @@
         "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
         "url": "https://github.com/kageroumado/adrafinil",
         "normalized_url": "https://github.com/kageroumado/adrafinil",
-        "summary": "HN points: 25, comments: 18",
+        "summary": "HN points: 55, comments: 36",
         "source": "Hacker News",
         "published": "2026-06-27T20:34:53Z",
         "importance_hint": 4,
@@ -753,7 +753,7 @@
         "title": "Doctors suspected man had brain cancer. He had worms",
         "url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/",
         "normalized_url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms",
-        "summary": "HN points: 54, comments: 23",
+        "summary": "HN points: 57, comments: 26",
         "source": "Hacker News",
         "published": "2026-06-27T16:31:58Z",
         "importance_hint": 3,
@@ -764,7 +764,7 @@
         "title": "Anthropic says Alibaba used 25k accounts to mine Claude",
         "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
         "normalized_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-        "summary": "HN points: 24, comments: 21",
+        "summary": "HN points: 27, comments: 22",
         "source": "Hacker News",
         "published": "2026-06-27T16:16:20Z",
         "importance_hint": 4,
@@ -788,43 +788,10 @@
         "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
         "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
         "normalized_url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-        "summary": "HN points: 696, comments: 288",
+        "summary": "HN points: 708, comments: 291",
         "source": "Hacker News",
         "published": "2026-06-27T09:18:52Z",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Ask HN: MacBook vs. Dedicated GPU for LLM",
-        "url": "https://news.ycombinator.com/item?id=48694802",
-        "normalized_url": "https://news.ycombinator.com/item?id=48694802",
-        "summary": "HN points: 31, comments: 61",
-        "source": "Hacker News",
-        "published": "2026-06-27T03:17:43Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Anatomy of a Failed (Nation-State?) Attack",
-        "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
-        "normalized_url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-        "summary": "HN points: 133, comments: 24",
-        "source": "Hacker News",
-        "published": "2026-06-27T02:41:53Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Ukrainian Attacks Spur State of Emergency Declaration in Crimea",
-        "url": "https://www.nytimes.com/2026/06/26/world/europe/crimea-ukraine-state-emergency.html",
-        "normalized_url": "https://www.nytimes.com/2026/06/26/world/europe/crimea-ukraine-state-emergency.html",
-        "summary": "HN points: 15, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-06-27T02:39:45Z",
-        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -837,7 +804,7 @@
         "published": "2026-06-27T09:25:30+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -850,7 +817,7 @@
         "published": "2026-06-27T09:15:31+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -863,7 +830,7 @@
         "published": "2026-06-27T09:14:00+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -876,7 +843,7 @@
         "published": "2026-06-27T08:44:13+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -889,7 +856,7 @@
         "published": "2026-06-27T08:43:37+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -902,7 +869,7 @@
         "published": "2026-06-27T08:14:29+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -915,7 +882,7 @@
         "published": "2026-06-27T07:37:59+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -928,7 +895,7 @@
         "published": "2026-06-27T07:24:16+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -941,7 +908,7 @@
         "published": "2026-06-27T07:18:19+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -954,7 +921,7 @@
         "published": "2026-06-27T07:13:42+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/36kr/search/articles/ai"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -1189,19 +1156,6 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "一个人做了个 AI 对话工具，聊聊我为什么给对话加了 Git 分支",
-        "url": "https://sspai.com/post/111605",
-        "normalized_url": "https://sspai.com/post/111605",
-        "summary": "undefined 做 YeeroAI 的起因挺简单的：之前我自己日常要同时用好几个 AI 模型，因为有时候模型A回答得更好，有时候模型B回答得更好，所以有时候同一个问题得开好几个网页来回复对比。后来实在受不了了，就自己写了个能把多个模型回复并排展示的工具 YeeroAI，做着做着功能越加越多，慢慢变成了现在这个样子。 多模型并排：不只是把回复拼在一起 同时问几个模型这个需求看起来很简单，发送的时候多发几份、收到回复拼一起显示就行了。 实际也不难，这里我做了流式并排——每个模型的回复独立流式渲染，谁先出字谁先显示，互不阻塞。 模型走的 OpenRouter，市面主流模型都支持。我也纠结过要不要自己对接各家 API，但一个人精力实在有限，OpenRouter 一个接口搞定所有供应商，省了不少事。代价是多了一层中间商，偶尔可能会有供应商抽风影响到整体稳定性。 模型列表默认按热度排的。我观察下来大部分人选模型其实就那几个常用的，按热度排能让新人快速找到靠谱的模型，不用在 300 个里面大海捞针。 给对话加 Git 分支：这个决定我想了很久 对话分支是我自己比较喜欢的一个功能，但做之前犹豫了很",
-        "source": "SSPAI AI",
-        "published": "2026-06-27T14:39:13+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -1804,6 +1758,136 @@
       },
       {
         "category": "news",
+        "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60–85% Over MTP-1",
+        "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+        "summary": "DeepSeek open-sourced DSpark, a speculative decoding framework that attaches a draft module to existing DeepSeek-V4 weights. It pairs a parallel draft backbone with a lightweight Markov head to cut suffix decay, then adds confidence-scheduled verification that tailors how many tokens get checked to real-time GPU load. Offline, accepted length rises 16–31% over DFlash and Eagle3; in production it speeds per-user generation 57–85% over the MTP-1 baseline, losslessly. The training repo, DeepSpec, s",
+        "source": "MarkTechPost",
+        "published": "2026-06-27T16:59:58+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read",
+        "url": "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read",
+        "summary": "Meta released Astryx, an open-source React design system built on StyleX. It pairs a CSS-variable theme cascade with a CLI and MCP server, so both engineers and AI agents build using the same API. The project is in Beta, MIT-licensed, and grew inside Meta over eight years. The post Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-27T08:38:26+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
+        "url": "https://www.marktechpost.com/2026/06/26/building-supervised-fine-tuning-data-from-nvidia-open-swe-traces-trajectory-parsing-patch-analysis-token-budgets-and-tool-use-metrics/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/26/building-supervised-fine-tuning-data-from-nvidia-open-swe-traces-trajectory-parsing-patch-analysis-token-budgets-and-tool-use-metrics",
+        "summary": "In this tutorial, we work with NVIDIA's Open-SWE-Traces dataset to study agentic software-engineering trajectories for fine-tuning. We stream the data directly from Hugging Face, so we can process it efficiently in Google Colab without downloading everything locally. We normalize multi-turn agent conversations, parse final code patches, and build an analysis DataFrame covering trajectory length, tool usage, patch size, language distribution, and resolution outcomes. We then curate a supervised f",
+        "source": "MarkTechPost",
+        "published": "2026-06-27T00:02:33+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
+        "url": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
+        "summary": "A Cursor study shows coding agents retrieve known fixes instead of deriving them, inflating SWE-bench Pro scores through runtime contamination. The post Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-26T23:31:29+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
+        "url": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows",
+        "summary": "Perplexity's Computer for Counsel extends Perplexity Computer to legal teams. It routes 20+ models across Midpage, MCP connectors, and Microsoft 365, with cited outputs lawyers can verify. The post Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-26T19:31:21+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
+        "url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access",
+        "summary": "OpenAI's GPT-5.6 family adds tiered models with max and ultra reasoning. Here is what early-level engineers should know. The post OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-26T19:18:58+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
+        "url": "https://www.marktechpost.com/2026/06/26/meet-container-apples-open-source-swift-tool-for-running-linux-containers-as-lightweight-vms-on-apple-silicon/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/26/meet-container-apples-open-source-swift-tool-for-running-linux-containers-as-lightweight-vms-on-apple-silicon",
+        "summary": "Apple released container 1.0, an open-source Swift tool running Linux containers as lightweight virtual machines on Apple silicon. The post Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-26T08:48:39+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
+        "url": "https://www.marktechpost.com/2026/06/26/build-a-nanobot-style-ai-agent-in-google-colab-with-tool-calling-session-memory-skills-and-mcp-servers/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/26/build-a-nanobot-style-ai-agent-in-google-colab-with-tool-calling-session-memory-skills-and-mcp-servers",
+        "summary": "In this tutorial, we build a lightweight personal AI agent inspired by the architecture of nanobot, runnable entirely in Google Colab. We start from a provider abstraction, then add tool registration, session memory, lifecycle hooks, skills, and an MCP-style tool server. Rather than rely on an external framework, we recreate each building block ourselves to see how messages, tools, memory, and model responses fit together. The result is a provider-agnostic agent loop we can extend toward real LL",
+        "source": "MarkTechPost",
+        "published": "2026-06-26T08:00:07+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+        "url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds",
+        "summary": "DeepReinforce released Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5. Instead of a fixed harness, the model learns its own scaffold during reinforcement learning. The 397B flagship reports 82.4 on SWE-Bench Verified, with all weights under the MIT license. The post DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-25T17:11:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing",
+        "url": "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/",
+        "normalized_url": "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing",
+        "summary": "Baidu open-sourced Unlimited OCR, a 3B-parameter MoE model that parses dozens of document pages in a single forward pass. Its Reference Sliding Window Attention (R-SWA) holds the KV cache constant, so memory and latency stay flat as output grows. It scores 93.23 on OmniDocBench v1.5, beating the DeepSeek OCR baseline by 6.22 points, under an MIT license. The post Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-06-25T05:39:53+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Quoting Dean W. Ball",
         "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jun/26/dean-w-ball",
@@ -2194,6 +2278,19 @@
       },
       {
         "category": "news",
+        "title": "Running GLM5.2 on budget hardware < $2500.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh8r1j/running_glm52_on_budget_hardware_2500/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh8r1j/running_glm52_on_budget_hardware_2500",
+        "summary": "Too many times I hear people whine about not being ble to run SOTA models or claim it would require $50k, or $100k. https://www.ebay.com/itm/398079051468 Epcy Motherboard & CPU - $460 https://www.ebay.com/itm/206374955959 P40 24gb - $230 get 2 - $460 https://www.ebay.com/itm/318489798853 512gb dd4 $1000 Total = $1920. You need PSU, Storage, Fan for P40. You can source those for $350 easily. But let's go ahead and budget $580 to put the total for everything at $2500. You can run GLM5.2 Q2/Q3/Q4 v",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-27T17:33:58+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "We built a calibration-aware Q4_K_M quant of Qwen3.5 0.8B that recovers 96.5% of the BF16 gap vs pure llama.cpp Q4_K_M (SpectralQuant)",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh0clv/we_built_a_calibrationaware_q4_k_m_quant_of/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh0clv/we_built_a_calibrationaware_q4_k_m_quant_of",
@@ -2213,19 +2310,6 @@
         "summary": "\"Hi all, we are finalized with our testing and are preparing the release pipeline. We will be releasing support for the Qwen3.5, Qwen3.6, and Gemma4 very soon. Alongside the model checkpoints, we will be open-sourcing our complete end-to-end training and evaluation code. Stay tuned, we are pushing the updates to the repository very shortly!\" https://huggingface.co/chiennv/Orthrus-Qwen3-8B I don't think anyone is working on llama.cpp support yet. submitted by /u/oxygen_addiction [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-06-27T10:08:25+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Running GLM5.2 on budget hardware < $2500.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh8r1j/running_glm52_on_budget_hardware_2500/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh8r1j/running_glm52_on_budget_hardware_2500",
-        "summary": "Too many times I hear people whine about not being ble to run SOTA models or claim it would require $50k, or $100k. https://www.ebay.com/itm/398079051468 Epcy Motherboard & CPU - $460 https://www.ebay.com/itm/206374955959 P40 24gb - $230 get 2 - $460 https://www.ebay.com/itm/318489798853 512gb dd4 $1000 Total = $1920. You need PSU, Storage, Fan for P40. You can source those for $350 easily. But let's go ahead and budget $580 to put the total for everything at $2500. You can run GLM5.2 Q2/Q3/Q4 v",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-27T17:33:58+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
