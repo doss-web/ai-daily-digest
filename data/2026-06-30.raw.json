@@ -1,13 +1,26 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-06-30T05:51:00.621372+08:00",
+  "generated_at": "2026-06-30T07:03:47.387985+08:00",
   "counts": {
     "papers": 30,
     "projects": 9,
-    "news": 127
+    "news": 116
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Vesta: A Generalist Embodied Reasoning Model",
+        "url": "https://huggingface.co/papers/2606.20905",
+        "normalized_url": "https://huggingface.co/papers/2606.20905",
+        "summary": "Robots operating in open-world environments must seamlessly integrate localization, spatial reasoning, navigation, and long-horizon planning. While specialist models excel at individual tasks, deploying a multi-model stack is computationally expensive and prone to cascading errors. We present Vesta, a unified embodied generalist that consolidates these capabilities into a single foundation model. Our approach combines a diverse and massive curated corpus designed to induce spatial grounding and ",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.20905"
+        }
+      },
       {
         "category": "papers",
         "title": "CogniRoute: Learning to Route Social Evidence in Omni-Modal Models",
@@ -384,19 +397,6 @@
         "metadata": {
           "paper_id": "2606.23835"
         }
-      },
-      {
-        "category": "papers",
-        "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
-        "url": "https://huggingface.co/papers/2606.26080",
-        "normalized_url": "https://huggingface.co/papers/2606.26080",
-        "summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at scale. In this work, we show that reinforcement learning (RL) post-training already provides the ingredients for effective step-level scoring, eliminating the need for dedicated reward model training a",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-24T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.26080"
-        }
       }
     ],
     "projects": [
@@ -521,10 +521,21 @@
     "news": [
       {
         "category": "news",
+        "title": "You really shouldn't copy-paste errors into Claude Code",
+        "url": "https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code",
+        "normalized_url": "https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code",
+        "summary": "HN points: 13, comments: 12",
+        "source": "Hacker News",
+        "published": "2026-06-29T21:16:58Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": ".self: A new top-level domain designed to support self-hosting",
         "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
         "normalized_url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain",
-        "summary": "HN points: 95, comments: 83",
+        "summary": "HN points: 205, comments: 133",
         "source": "Hacker News",
         "published": "2026-06-29T19:49:28Z",
         "importance_hint": 3,
@@ -532,21 +543,10 @@
       },
       {
         "category": "news",
-        "title": "Microsoft worker emails colleagues about company's support for genocidal Israel",
-        "url": "https://www.thecanary.co/global/world-analysis/2026/06/26/microsoft-worker-emails/",
-        "normalized_url": "https://www.thecanary.co/global/world-analysis/2026/06/26/microsoft-worker-emails",
-        "summary": "HN points: 16, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-06-29T19:41:51Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
         "title": "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API",
         "url": "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models",
         "normalized_url": "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models",
-        "summary": "HN points: 35, comments: 10",
+        "summary": "HN points: 40, comments: 11",
         "source": "Hacker News",
         "published": "2026-06-29T18:03:26Z",
         "importance_hint": 4,
@@ -557,7 +557,7 @@
         "title": "Ornith-1.0: self-improving open-source models for agentic coding",
         "url": "https://github.com/deepreinforce-ai/Ornith-1",
         "normalized_url": "https://github.com/deepreinforce-ai/Ornith-1",
-        "summary": "HN points: 106, comments: 27",
+        "summary": "HN points: 125, comments: 27",
         "source": "Hacker News",
         "published": "2026-06-29T17:16:17Z",
         "importance_hint": 4,
@@ -568,7 +568,7 @@
         "title": "Amazon Is Awash with AI-Written Guideslop for Games That Aren't Even Out",
         "url": "https://kotaku.com/amazon-ai-game-guidebooks-alien-isolation-gears-of-war-2000711365",
         "normalized_url": "https://kotaku.com/amazon-ai-game-guidebooks-alien-isolation-gears-of-war-2000711365",
-        "summary": "HN points: 44, comments: 3",
+        "summary": "HN points: 47, comments: 3",
         "source": "Hacker News",
         "published": "2026-06-29T16:39:38Z",
         "importance_hint": 3,
@@ -579,7 +579,7 @@
         "title": "South Korea announces more than $1T AI, chip investment drive",
         "url": "https://www.aljazeera.com/news/2026/6/29/south-korea-announces-more-than-1-trillion-ai-chip-investment-drive",
         "normalized_url": "https://www.aljazeera.com/news/2026/6/29/south-korea-announces-more-than-1-trillion-ai-chip-investment-drive",
-        "summary": "HN points: 13, comments: 0",
+        "summary": "HN points: 14, comments: 0",
         "source": "Hacker News",
         "published": "2026-06-29T16:31:38Z",
         "importance_hint": 4,
@@ -601,7 +601,7 @@
         "title": "WSL container is now available for public preview",
         "url": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview/",
         "normalized_url": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview",
-        "summary": "HN points: 35, comments: 5",
+        "summary": "HN points: 37, comments: 6",
         "source": "Hacker News",
         "published": "2026-06-29T15:39:30Z",
         "importance_hint": 3,
@@ -612,7 +612,7 @@
         "title": "Working With AI: A concrete example",
         "url": "https://htmx.org/essays/working-with-ai/",
         "normalized_url": "https://htmx.org/essays/working-with-ai",
-        "summary": "HN points: 47, comments: 12",
+        "summary": "HN points: 61, comments: 24",
         "source": "Hacker News",
         "published": "2026-06-29T14:53:41Z",
         "importance_hint": 3,
@@ -634,7 +634,7 @@
         "title": "A field guide to the modern front end for developers who hand-wrote HTML",
         "url": "https://davidpoblador.com/deep-dives/the-descent/",
         "normalized_url": "https://davidpoblador.com/deep-dives/the-descent",
-        "summary": "HN points: 60, comments: 40",
+        "summary": "HN points: 61, comments: 40",
         "source": "Hacker News",
         "published": "2026-06-29T14:23:27Z",
         "importance_hint": 3,
@@ -661,147 +661,6 @@
         "published": "2026-06-29T14:03:39Z",
         "importance_hint": 3,
         "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Tidal AI Policy",
-        "url": "https://tidal.com/ai-policy",
-        "normalized_url": "https://tidal.com/ai-policy",
-        "summary": "HN points: 281, comments: 309",
-        "source": "Hacker News",
-        "published": "2026-06-29T13:09:03Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "C盘争议热搜落幕：WPS在舆论压力下让步，时代倒逼其低头",
-        "url": "https://www.36kr.com/p/3874201852744705",
-        "normalized_url": "https://www.36kr.com/p/3874201852744705",
-        "summary": "非技术不能，实是不愿",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:52:58+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "马斯克买下“一束光”，硅谷巨头们也坐不住了",
-        "url": "https://www.36kr.com/p/3874200199533568",
-        "normalized_url": "https://www.36kr.com/p/3874200199533568",
-        "summary": "马斯克成为“追光人”",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:39:42+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "芯片和内存后，下一个暴涨的会是它？",
-        "url": "https://www.36kr.com/p/3874175223862535",
-        "normalized_url": "https://www.36kr.com/p/3874175223862535",
-        "summary": "又一个造富新风口？",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:31:35+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "调研全球612位电力高管和175位数据中心高管发现：电网真的追不上算力了",
-        "url": "https://www.36kr.com/p/3874163511694595",
-        "normalized_url": "https://www.36kr.com/p/3874163511694595",
-        "summary": "数据中心和电网公司的关系在重新洗牌。",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:25:02+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "突发，贾扬清被曝离职英伟达，老黄7亿收购才一年",
-        "url": "https://www.36kr.com/p/3874163433903107",
-        "normalized_url": "https://www.36kr.com/p/3874163433903107",
-        "summary": "老黄花7亿美元收购的LeptonAI，创始人贾扬清被曝仅一年就离职了。",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:22:27+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "21万亿，两大科技巨头，要投1.5个韩国GDP",
-        "url": "https://www.36kr.com/p/3874163375625222",
-        "normalized_url": "https://www.36kr.com/p/3874163375625222",
-        "summary": "韩国政府今日公布半导体、物理AI、AI数据中心三大项目计划。",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:20:32+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "当全球寻找确定性，中国供应链已成必选项",
-        "url": "https://www.36kr.com/p/3874154841904386",
-        "normalized_url": "https://www.36kr.com/p/3874154841904386",
-        "summary": "全球巨头们上演了一场心口不一的“大戏”，背后的真相到底是什么？",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:18:29+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "港股反弹，恒生科技涨超3%",
-        "url": "https://www.36kr.com/p/3874154723955971",
-        "normalized_url": "https://www.36kr.com/p/3874154723955971",
-        "summary": "分析认为，港股从跑输转为强势，需要全球流动性环境改善、盈利预期停止下修、微观供给扰动弱化三项条件配合",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:16:07+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "全网400万人围观，他做出2.9万Star、登顶HN的爆款CLI，却换来一封裁员通知，硅谷CEO火速“抢人”",
-        "url": "https://www.36kr.com/p/3874054632854532",
-        "normalized_url": "https://www.36kr.com/p/3874054632854532",
-        "summary": "一场意外裁员，演变成硅谷“抢人大战”。",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:11:49+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "马斯克：Grok 4.5接近Opus，每月发一个新模型，AI圈要变天？",
-        "url": "https://www.36kr.com/p/3874051732109955",
-        "normalized_url": "https://www.36kr.com/p/3874051732109955",
-        "summary": "马斯克又回到了模型牌桌",
-        "source": "36Kr AI",
-        "published": "2026-06-29T13:09:38+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
       },
       {
         "category": "news",
@@ -1039,6 +898,19 @@
       },
       {
         "category": "news",
+        "title": "一个人做了个 AI 对话工具，聊聊我为什么给对话加了 Git 分支",
+        "url": "https://sspai.com/post/111605",
+        "normalized_url": "https://sspai.com/post/111605",
+        "summary": "undefined 做 YeeroAI 的起因挺简单的：之前我自己日常要同时用好几个 AI 模型，因为有时候模型A回答得更好，有时候模型B回答得更好，所以有时候同一个问题得开好几个网页来回复对比。后来实在受不了了，就自己写了个能把多个模型回复并排展示的工具 YeeroAI，做着做着功能越加越多，慢慢变成了现在这个样子。 多模型并排：不只是把回复拼在一起 同时问几个模型这个需求看起来很简单，发送的时候多发几份、收到回复拼一起显示就行了。 实际也不难，这里我做了流式并排——每个模型的回复独立流式渲染，谁先出字谁先显示，互不阻塞。 模型走的 OpenRouter，市面主流模型都支持。我也纠结过要不要自己对接各家 API，但一个人精力实在有限，OpenRouter 一个接口搞定所有供应商，省了不少事。代价是多了一层中间商，偶尔可能会有供应商抽风影响到整体稳定性。 模型列表默认按热度排的。我观察下来大部分人选模型其实就那几个常用的，按热度排能让新人快速找到靠谱的模型，不用在 300 个里面大海捞针。 给对话加 Git 分支：这个决定我想了很久 对话分支是我自己比较喜欢的一个功能，但做之前犹豫了很",
+        "source": "SSPAI AI",
+        "published": "2026-06-27T14:39:13+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
         "title": "DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85%",
         "url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
         "normalized_url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
@@ -1084,19 +956,6 @@
         "summary": "Anthropic recently told its growth team to hire more product managers, not fewer. The reason, as reported in industry coverage, was that Claude Code had quietly turned its engineering org into a team that ships at roughly three times its actual headcount, and the bottleneck moved from the integrated development environment (IDE) to the people deciding what to build. That detail is easy to miss in the noise of every AI productivity claim . It is also the structural shift the rest of the industry ",
         "source": "VentureBeat",
         "published": "2026-06-27T19:30:09+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://venturebeat.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
-        "url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
-        "normalized_url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
-        "summary": "Long-horizon reasoning exposes a core weakness in AI agents: context windows fill up fast, and retrieval pipelines return noise instead of signal. To solve this, researchers at the National University of Singapore developed MRAgent , a framework that abandons the static \"retrieve-then-reason\" approach. Instead, it uses a mechanism that allows an agent to dynamically develop its memory based on accumulating evidence. This multi-step memory reconstruction is integrated into the reasoning process o",
-        "source": "VentureBeat",
-        "published": "2026-06-26T22:58:23+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://venturebeat.com/feed/"
@@ -1234,19 +1093,6 @@
       },
       {
         "category": "news",
-        "title": "Tidal won’t pay royalties on AI-generated music but isn’t banning it outright",
-        "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-        "normalized_url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-        "summary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today those tracks will no longer be monetizable. \"Tidal's […]",
-        "source": "The Verge AI",
-        "published": "2026-06-29T19:47:35+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
         "title": "OpenAI is teasing new hardware… for Codex",
         "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
         "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
@@ -1347,6 +1193,19 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
+        "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
+        "normalized_url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing",
+        "summary": "Hundreds of contractors working on a project for Meta pretended to be kids in order to see how other chatbots like Gemini and ChatGPT would respond to high-risk subjects, WIRED found.",
+        "source": "Wired AI",
+        "published": "2026-06-29T21:49:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
         }
       },
       {
@@ -2030,7 +1889,7 @@
         "title": "It’s time, Sam, it’s time.",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj1kna/its_time_sam_its_time/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj1kna/its_time_sam_its_time",
-        "summary": "I mean….. I’m no CEO…. but it seems like this would be the absolute perfect time to drop a super powerful GPT-OSS-2 to throw a big ol’ wet blanket on Anthropic’s IPO. It doesn’t need to be like frontier or anything, just a 20b and a 120b that is as fast as the old versions, add agentic coding focus, and maybe vision capabilities. It would fill the void left by Qwen in the 120b size category and maybe would push Google to release their 120b that they yanked during the Gemma 4 launch. submitted by",
+        "summary": "Mostly /s but, I mean….. I’m no CEO…. but it seems like this would be the absolute perfect time to drop a super powerful GPT-OSS-2 to throw a big ol’ wet blanket on Anthropic’s IPO. It doesn’t need to be like frontier or anything, just a 20b and a 120b that is as fast as the old versions, add agentic coding focus, and maybe vision capabilities. It would fill the void left by Qwen in the 120b size category and maybe would push Google to release their 120b that they yanked during the Gemma 4 launc",
         "source": "r/LocalLLaMA",
         "published": "2026-06-29T19:01:52+00:00",
         "importance_hint": 5,
