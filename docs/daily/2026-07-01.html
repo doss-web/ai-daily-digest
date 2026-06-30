@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily Digest · 2026-04-21</title>
-  <meta name="description" content="AI领域2026-04-21每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <title>AI Daily Digest · 2026-07-01</title>
+  <meta name="description" content="AI领域2026-07-01每日简报，涵盖行业新闻、重要论文与开源项目。">
   <script>
     (function () {
       try {
@@ -532,15 +532,22 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   
     <div class="container">
       <div class="day-hero">
-        <div class="date-str"><span data-lang-content="zh">周二 · 2026-04-21</span><span data-lang-content="en">Tuesday · 2026-04-21</span></div>
+        <div class="date-str"><span data-lang-content="zh">周三 · 2026-07-01</span><span data-lang-content="en">Wednesday · 2026-07-01</span></div>
         <h1><span data-lang-content="zh">AI 每日简报</span><span data-lang-content="en">AI Daily Digest</span></h1>
       </div>
       
+    <div class="audio-player">
+      <div class="ap-text">
+        <span class="ap-label">🎧 <span data-lang-content="zh">语音播报</span><span data-lang-content="en">Listen</span></span>
+        <span class="ap-sub"><span data-lang-content="zh">通勤路上用耳朵看简报</span><span data-lang-content="en">Catch the digest on your commute</span></span>
+      </div>
+      <audio controls preload="none" src="../audio/2026-07-01.mp3" data-date="2026-07-01"></audio>
+    </div>
       
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span><span class="tab" data-cat="buzz">热议</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
@@ -550,58 +557,130 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
             <div class="cat-line"></div>
           </div>
           
-    <div class="item-card" data-stars="4">
-      <div class="item-title">亚马逊向 Anthropic 追加投资50亿美元，换取1000亿美元AWS支出承诺</div>
-      <div class='item-desc'>。</div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Claude Sonnet 5 发布</div>
+      <div class='item-desc'>Anthropic 推出 Claude Sonnet 5，以中端价格提供接近旗舰 Opus 4.8 的性能，专为 Agent 场景优化。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/" target="_blank">TechCrunch AI</a></div>
+        <span class="stars">★★★★★</span>
+        <span class="item-value">低成本 Agent 推理，企业可大规模部署。</span>
+        <div class="item-sources"><a href="https://www.anthropic.com/news/claude-sonnet-5" target="_blank">Anthropic</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">据报道，美国国家安全局（NSA）正在使用Anthropic的受限模型Mythos</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">Claude Science 发布</div>
+      <div class='item-desc'>Anthropic 推出面向科研人员的 AI 工作台，内置 60+ 预配置技能和验证 Agent。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/" target="_blank">TechCrunch AI</a></div>
+        <span class="item-value">科研工作流集成，支持本地/HPC 部署保护数据。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Google 发布 Gemini Omni Flash 和 Nano Banana 2 Lite</div>
+      <div class='item-desc'>Gemini Omni Flash 将企业视频制作变为对话；NB2 Lite 4 秒生成图像，每千张仅 $0.034。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">视频生成 API 化，图像生成成本大幅降低。</span>
+        <div class="item-sources"><a href="https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/" target="_blank">Google DeepMind</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">DeepSeek 开源 DSpark 推理加速框架</div>
+      <div class='item-desc'>通过小模型预选 token 候选，将推理速度提升 60-85%。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">在受限硬件上显著提升推理效率。</span>
+        <div class="item-sources"><a href="https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85" target="_blank">VentureBeat</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">美团开源 LongCat-2.0：1.6T 参数 Agent 编程模型</div>
+      <div class='item-desc'>完全在国产芯片上训练，此前以"Owl Alpha"匿名在 OpenRouter 上领先。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">证明国产芯片可训练前沿模型，开源 Agent 编程新标杆。</span>
+        <div class="item-sources"><a href="https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips" target="_blank">VentureBeat</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Meta 发布 Brain2Qwerty v2</div>
+      <div class='item-desc'>非侵入式 MEG 脑电解码，实现 61% 单词准确率，代码已开源。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">脑机接口新突破，开源推动 BCI 研究。</span>
+        <div class="item-sources"><a href="https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1" target="_blank">Meta AI Blog</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">OpenAI 发布 GeneBench-Pro</div>
+      <div class='item-desc'>新基准测试 AI 在基因组学、生物学和科学研究中的表现。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">推动 AI for Science 标准化评估。</span>
+        <div class="item-sources"><a href="https://openai.com/index/introducing-genebench-pro" target="_blank">OpenAI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Nvidia 竞争对手 Etched 估值达 50 亿美元</div>
+      <div class='item-desc'>AI 芯片公司 Etched 已签约 10 亿美元推理系统订单。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Transformer 专用芯片商业化加速。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Amazon 成立 10 亿美元 FDE 组织</div>
+      <div class='item-desc'>新团队将嵌入企业部署定制 Agent，效仿 OpenAI 和 Anthropic 模式。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">大厂 Agent 部署服务化趋势。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">谷歌将Chrome浏览器中的Gemini功能扩展至7个新的亚太国家</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">OpenClaw 登陆 Android 和 iOS</div>
+      <div class='item-desc'>开源 Agent 框架推出移动端 Companion Node 应用。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/" target="_blank">TechCrunch AI</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="3">
-      <div class="item-title">Epic Games为《堡垒之夜》创作者推出AI角色对话工具</div>
-      <div class='item-desc'>。</div>
-      <div class="item-meta">
-        <span class="stars">★★★☆☆</span>
-        
-        <div class="item-sources"><a href="https://www.theverge.com/games/914963/fortnite-ai-characters-developers-conversations" target="_blank">The Verge AI</a></div>
+        <span class="item-value">Agent 能力延伸至移动设备硬件。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">微脉冲刺冲刺“AI+全病程管理第一股”，深耕医疗垂类模型</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">Claude Code 被曝隐写标记请求</div>
+      <div class='item-desc'>研究发现 Claude Code 在请求中嵌入隐写水印，引发隐私争议。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://www.36kr.com/p/3775981834191623" target="_blank">36Kr AI</a></div>
+        <span class="item-value">AI 工具透明性与隐私问题引发关注。</span>
+        <div class="item-sources"><a href="https://thereallo.dev/blog/claude-code-prompt-steganography" target="_blank">Hacker News</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">奇安投资完成三期创投基金募集，规模扩至5亿元，深耕AI与安全投资</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">中国信通院发布 AI Infra 运维领域首个评测基准</div>
+      <div class='item-desc'>覆盖 5 款主流国产芯片。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://www.36kr.com/p/3776062666899972" target="_blank">36Kr AI</a></div>
+        <span class="item-value">国产 AI 基础设施标准化评估。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/06/440454.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">X 推出 MCP 服务器</div>
+      <div class='item-desc'>使 AI 工具更易接入 X 平台 API。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">社交数据 Agent 化接入。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">Google 开源 OpenRL</div>
+      <div class='item-desc'>用于 LLM 后训练微调的实验性自托管 API。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">开源强化学习微调框架。</span>
+        <div class="item-sources"><a href="https://www.infoq.cn/article/d5MOPSyGi5XPi1erhUW3" target="_blank">InfoQ</a></div>
       </div>
     </div>
         </div>
@@ -612,57 +691,75 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="5">
-      <div class="item-title">EvoMaster：为规模化自主科学智能体构建的基础性进化框架</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">Agentic Abstention: Do Agents Know When to Stop Instead of Act?</div>
+      <div class='item-desc'>研究 Agent 何时应主动停止行动而非盲目行动。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2604.17406" target="_blank">HuggingFace Papers</a></div>
+        <span class="item-value">Agent 安全与可靠性的关键能力。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2606.28733" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">WebCompass：面向代码语言模型的多模态网页编码评估基准</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent</div>
+      <div class='item-desc'>通过扩展 Agent 视野而非参数规模，35B MoE 模型达到万亿参数级性能。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2604.18224" target="_blank">HuggingFace Papers</a></div>
+        <span class="item-value">Agent 视野扩展可替代参数扩展。</span>
+        <div class="item-sources"><a href="https://arxiv.org/abs/2606.30616v1" target="_blank">arXiv</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">MathNet：用于数学推理与检索的全球多模态基准</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">Self-Evolving World Models for LLM Agent Planning</div>
+      <div class='item-desc'>提出 WorldEvolver，让世界模型在部署时自我进化。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2604.18584" target="_blank">HuggingFace Papers</a></div>
+        <span class="item-value">长时域 Agent 规划的新范式。</span>
+        <div class="item-sources"><a href="https://arxiv.org/abs/2606.30639v1" target="_blank">arXiv</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">当LLM能在弱监督下学会推理？一项系统性实证研究</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking</div>
+      <div class='item-desc'>发现保守离线训练反而加剧在线适应中的奖励黑客问题。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2604.18574" target="_blank">HuggingFace Papers</a></div>
+        <span class="item-value">对齐训练中的反直觉现象。</span>
+        <div class="item-sources"><a href="https://arxiv.org/abs/2606.30627v1" target="_blank">arXiv</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">训练LLM智能体通过世界知识探索实现自发、无奖励的自我进化</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">SWE-Together: Evaluating Coding Agents in Interactive User Sessions</div>
+      <div class='item-desc'>提出多轮交互式编码 Agent 评测基准。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2604.18131" target="_blank">HuggingFace Papers</a></div>
+        <span class="item-value">更真实的 Agent 评估方式。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2606.29957" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">精确调试基准（PDB）：你的模型是在调试还是在重写？</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks</div>
+      <div class='item-desc'>108 个长时域真实计算机使用任务基准。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2604.17338" target="_blank">HuggingFace Papers</a></div>
+        <span class="item-value">计算机使用 Agent 评估新标准。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2606.29537" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Beyond IID: How General Are Tabular Foundation Models, Really?</div>
+      <div class='item-desc'>揭示表格基础模型在非 IID 场景下的泛化局限。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">表格模型评估的盲区。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2606.30410" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">LeVo 2: Stable and Melodious Song Generation</div>
+      <div class='item-desc'>混合 LLM-Diffusion 框架实现可控全长歌曲生成。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 音乐生成质量新高度。</span>
+        <div class="item-sources"><a href="https://arxiv.org/abs/2606.30642v1" target="_blank">arXiv</a></div>
       </div>
     </div>
         </div>
@@ -673,66 +770,100 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="5">
-      <div class="item-title">Donchitos/Claude-Code-Game-Studios：将Claude Code转变为完整的游戏开发工作室</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">google/agents-cli](https://github.com/google/agents-cli)</div>
+      <div class='item-desc'>Google 开源 CLI 工具，将任何编码助手变为 AI Agent 创建专家。⭐+433/天</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
+        <span class="item-value">Google Cloud Agent 部署标准化。</span>
         
-        <div class="item-sources"><a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank">GitHub Trending</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">openai/openai-agents-python：一个轻量级、强大的多智能体工作流框架</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">obra/superpowers](https://github.com/obra/superpowers)</div>
+      <div class='item-desc'>Agent 技能框架与软件开发方法论。⭐+884/天</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
+        <span class="item-value">实用的 Agent 开发方法论。</span>
         
-        <div class="item-sources"><a href="https://github.com/openai/openai-agents-python" target="_blank">GitHub Trending</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">multica-ai/multica：开源托管智能体平台</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)</div>
+      <div class='item-desc'>个人交易 Agent。⭐+719/天</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
+        <span class="item-value">AI Agent 在金融领域的应用示范。</span>
         
-        <div class="item-sources"><a href="https://github.com/multica-ai/multica" target="_blank">GitHub Trending</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">VoltAgent/awesome-design-md：收集流行网站设计系统的DESIGN.md文件库</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">browser-use/video-use](https://github.com/browser-use/video-use)</div>
+      <div class='item-desc'>用编码 Agent 编辑视频。⭐+722/天</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
+        <span class="item-value">视频编辑 Agent 化新方向。</span>
         
-        <div class="item-sources"><a href="https://github.com/VoltAgent/awesome-design-md" target="_blank">GitHub Trending</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">thunderbird/thunderbolt：你可控制的AI——自选模型，自有数据，消除供应商锁定</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)</div>
+      <div class='item-desc'>基于 Claude Code/Codex 的价值投资研究框架。⭐+966/天</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
+        <span class="item-value">多 Agent 投资研究实践。</span>
         
-        <div class="item-sources"><a href="https://github.com/thunderbird/thunderbolt" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)</div>
+      <div class='item-desc'>完整的 AI 代理机构工具集。⭐+1,793/天</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">多 Agent 协作框架。</span>
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)</div>
+      <div class='item-desc'>免费 AI 网关，支持 231+ 提供商。⭐+459/天</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">统一 AI API 接入，大幅节省 token。</span>
+        
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">rtk-ai/rtk：通过CLI代理将常见开发命令的LLM令牌消耗降低60-90%</div>
-      <div class='item-desc'>。</div>
+      <div class="item-title">usestrix/strix](https://github.com/usestrix/strix)</div>
+      <div class='item-desc'>开源 AI 渗透测试工具。⭐+395/天</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 安全测试自动化。</span>
         
-        <div class="item-sources"><a href="https://github.com/rtk-ai/rtk" target="_blank">GitHub Trending</a></div>
       </div>
     </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">JuliusBrussee/caveman：让Claude Code像“穴居人”一样说话以削减65%令牌的技能</div>
-      <div class='item-desc'>。</div>
+        </div>
+        <div class="category" data-cat="buzz">
+          <div class="category-header">
+            <h2>🐦 AI 圈热议</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Claude Code 隐写标记争议</div>
+      <div class='item-desc'>Hacker News 上关于 Claude Code 在请求中嵌入隐写水印的讨论获得 1145 分和 297 条评论。社区对 AI 工具的透明度和隐私问题反应强烈，部分开发者认为这类似间谍软件行为，而 Anthropic 尚未回应。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/JuliusBrussee/caveman" target="_blank">GitHub Trending</a></div>
+        
+        <div class="item-sources"><a href="https://news.ycombinator.com/item?id=48736251" target="_blank">Hacker News</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Anthropic 负责人观点：HTML 比 Markdown 更利于 Agent 协作</div>
+      <div class='item-desc'>Anthropic 负责人表示，在 Agent 协作流程中，HTML 比 Markdown 更有利于人类跟进和理解 Agent 的工作过程，引发开发者社区对 Agent 输出格式的讨论。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.infoq.cn/article/i3eauD7F8KF9gVY3SD18" target="_blank">InfoQ</a></div>
       </div>
     </div>
         </div>
@@ -740,13 +871,13 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今日AI领域呈现出“顶层竞合”与“基层创新”并行的鲜明态势。一方面，产业巨头动作频频：**亚马逊与Anthropic的千亿级深度绑定**，以及**谷歌Gemini的全球范围扩张**，标志着基础设施与核心模型之间的战略联盟正在重塑行业格局，资源进一步向头部集中。另一方面，开源社区与学术界异常活跃，焦点明确指向**智能体的进化与评估**。多篇重要论文（如EvoMaster、WebCompass）和开源项目（如多智能体游戏工作室）共同描绘出一个趋势：AI正从执行单一任务的工具，向能够**长期学习、复杂协作、在模拟或真实环境中自主进化**的“准生命体”迈进。同时，对模型能力（特别是数学、推理、调试）的评估也朝着**更严谨、更贴近实际应用场景（如多模态网页编码）** 的方向发展。开发者生态则持续关注**降本增效**（如令牌优化工具rtk）和**主权掌控**（如开源平台thunderbolt），在巨头制定的游戏规则下寻找灵活性与自主性的空间。</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今日AI领域呈现出“顶层竞合”与“基层创新”并行的鲜明态势。一方面，产业巨头动作频频：**亚马逊与Anthropic的千亿级深度绑定**，以及**谷歌Gemini的全球范围扩张**，标志着基础设施与核心模型之间的战略联盟正在重塑行业格局，资源进一步向头部集中。另一方面，开源社区与学术界异常活跃，焦点明确指向**智能体的进化与评估**。多篇重要论文（如EvoMaster、WebCompass）和开源项目（如多智能体游戏工作室）共同描绘出一个趋势：AI正从执行单一任务的工具，向能够**长期学习、复杂协作、在模拟或真实环境中自主进化**的“准生命体”迈进。同时，对模型能力（特别是数学、推理、调试）的评估也朝着**更严谨、更贴近实际应用场景（如多模态网页编码）** 的方向发展。开发者生态则持续关注**降本增效**（如令牌优化工具rtk）和**主权掌控**（如开源平台thunderbolt），在巨头制定的游戏规则下寻找灵活性与自主性的空间。">🔊 朗读今日观察</button>
+          <p>今天最值得关注的是 Anthropic 的密集发布——Sonnet 5、Claude Science 和 Claude Desktop Linux 版同时推出，加上 Claude Code 隐写争议，显示出 Anthropic 在 IPO 前全力扩张产品线和引发关注。同时，美团 LongCat-2.0 和 DeepSeek DSpark 的发布表明中国 AI 生态正在两条战线上加速：国产芯片训练前沿模型和推理优化。Agent 安全与可靠性成为新热点，从 Agentic Abstention 论文到隐写争议，行业开始认真思考 Agent 何时该停止、如何透明运行。最后，Google 的 Omni Flash 和 NB2 Lite 标志着视频和图像生成正在快速 API 化和商品化，成本降至新低。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天最值得关注的是 Anthropic 的密集发布——Sonnet 5、Claude Science 和 Claude Desktop Linux 版同时推出，加上 Claude Code 隐写争议，显示出 Anthropic 在 IPO 前全力扩张产品线和引发关注。同时，美团 LongCat-2.0 和 DeepSeek DSpark 的发布表明中国 AI 生态正在两条战线上加速：国产芯片训练前沿模型和推理优化。Agent 安全与可靠性成为新热点，从 Agentic Abstention 论文到隐写争议，行业开始认真思考 Agent 何时该停止、如何透明运行。最后，Google 的 Omni Flash 和 NB2 Lite 标志着视频和图像生成正在快速 API 化和商品化，成本降至新低。">🔊 朗读今日观察</button>
         </div>
     </div>
       <div class="day-nav">
-        <a class="nav-btn" href="2026-04-20.html">← 2026-04-20</a>
-        <a class="nav-btn" href="2026-04-22.html">2026-04-22 →</a>
+        <a class="nav-btn" href="2026-06-30.html">← 2026-06-30</a>
+        <span></span>
       </div>
     </div>
   
@@ -756,7 +887,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
 </footer>
 
-  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01"];window.CURRENT_DATE="2026-04-21";window.PREV_DATE="2026-04-20";window.NEXT_DATE="2026-04-22";</script>
+  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01"];window.CURRENT_DATE="2026-07-01";window.PREV_DATE="2026-06-30";</script>
   <script>
 (function () {
   var BASE = window.SITE_BASE || "";
