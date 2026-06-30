@@ -1,13 +1,26 @@
 {
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T05:55:09.681140+08:00",
+  "generated_at": "2026-07-01T07:18:17.598274+08:00",
   "counts": {
     "papers": 41,
     "projects": 15,
-    "news": 138
+    "news": 130
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "MirrorPPR: Exemplar-Based Portrait Photo Retouching",
+        "url": "https://huggingface.co/papers/2606.29308",
+        "normalized_url": "https://huggingface.co/papers/2606.29308",
+        "summary": "While text-guided image editing has made remarkable progress, it remains limited in structural portrait retouching. Textual descriptions struggle to convey fine-grained changes to facial features and body proportions. To address this gap, we introduce Exemplar-Based Portrait Photo Retouching, where the model is given an exemplar pair and tasked with inferring and applying the same retouching operations to a new query image. Existing exemplar-based editing methods primarily focus on tasks with pr",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.29308"
+        }
+      },
       {
         "category": "papers",
         "title": "Delayed Verification Destabilizes Multi-Agent LLM Belief: Instability Thresholds and Optimal Corrector Placement",
@@ -387,19 +400,6 @@
       },
       {
         "category": "papers",
-        "title": "OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
-        "url": "https://huggingface.co/papers/2606.29537",
-        "normalized_url": "https://huggingface.co/papers/2606.29537",
-        "summary": "Existing computer-use benchmarks fail to capture the realism, complexity, and long-horizon demands of real-world computer use, limiting their ability to reveal the limitations of frontier agents. We introduce OSWorld 2.0, a benchmark of 108 long-horizon computer-use workflows across everyday and professional tasks, designed to capture complex and challenging real-world phenomena. Each task represents a realistic end-to-end workflow that takes human users a median of about 1.6 hours to complete a",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-28T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.29537"
-        }
-      },
-      {
-        "category": "papers",
         "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
         "url": "https://arxiv.org/abs/2606.30645v1",
         "normalized_url": "https://arxiv.org/abs/2606.30645v1",
@@ -720,13 +720,35 @@
     "news": [
       {
         "category": "news",
-        "title": "Meta's brain-scanning system reads sentences non-invasively, code open source",
+        "title": "TabFM: A zero-shot foundation model for tabular data",
+        "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
+        "normalized_url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data",
+        "summary": "HN points: 16, comments: 3",
+        "source": "Hacker News",
+        "published": "2026-06-30T22:08:38Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "From brain waves to words: a new path to communication without surgery",
         "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
         "normalized_url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication?_fb_noscript=1",
-        "summary": "HN points: 19, comments: 7",
+        "summary": "HN points: 71, comments: 42",
         "source": "Hacker News",
         "published": "2026-06-30T21:29:13Z",
-        "importance_hint": 5,
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Claude Code Just Got 5x More Expensive",
+        "url": "https://www.vincentschmalbach.com/claude-code-quietly-looks-5x-more-expensive/",
+        "normalized_url": "https://www.vincentschmalbach.com/claude-code-quietly-looks-5x-more-expensive",
+        "summary": "HN points: 26, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-06-30T21:03:56Z",
+        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -734,7 +756,7 @@
         "title": "Claude Sonnet 5 – benchmark results",
         "url": "https://artificialanalysis.ai/models/claude-sonnet-5",
         "normalized_url": "https://artificialanalysis.ai/models/claude-sonnet-5",
-        "summary": "HN points: 32, comments: 15",
+        "summary": "HN points: 36, comments: 17",
         "source": "Hacker News",
         "published": "2026-06-30T20:09:25Z",
         "importance_hint": 4,
@@ -742,21 +764,10 @@
       },
       {
         "category": "news",
-        "title": "AI Is Making Us Lose Our Individuality",
-        "url": "https://emmettbuckthompson.com/blog/ai-is-making-us-lose-our-individuality",
-        "normalized_url": "https://emmettbuckthompson.com/blog/ai-is-making-us-lose-our-individuality",
-        "summary": "HN points: 16, comments: 7",
-        "source": "Hacker News",
-        "published": "2026-06-30T18:56:00Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
         "title": "Show HN: I made a heatmap of 3400 VCs who are open to cold emails",
         "url": "https://apparent.social/heat-map",
         "normalized_url": "https://apparent.social/heat-map",
-        "summary": "HN points: 22, comments: 13",
+        "summary": "HN points: 23, comments: 27",
         "source": "Hacker News",
         "published": "2026-06-30T18:38:26Z",
         "importance_hint": 3,
@@ -767,8 +778,8 @@
         "title": "Claude Sonnet 5",
         "url": "https://www.anthropic.com/news/claude-sonnet-5",
         "normalized_url": "https://www.anthropic.com/news/claude-sonnet-5",
-        "summary": "HN points: 707, comments: 385",
-        "source": "Hacker News, Hacker News",
+        "summary": "HN points: 786, comments: 444",
+        "source": "Hacker News",
         "published": "2026-06-30T17:59:52Z",
         "importance_hint": 3,
         "metadata": {}
@@ -789,7 +800,7 @@
         "title": "New Claude app strings, Fable 5 coming back only with verification",
         "url": "https://twitter.com/kimmonismus/status/2071868011804266828",
         "normalized_url": "https://twitter.com/kimmonismus/status/2071868011804266828",
-        "summary": "HN points: 11, comments: 6",
+        "summary": "HN points: 13, comments: 6",
         "source": "Hacker News",
         "published": "2026-06-30T17:34:18Z",
         "importance_hint": 3,
@@ -800,7 +811,7 @@
         "title": "Claude Science",
         "url": "https://claude.com/product/claude-science",
         "normalized_url": "https://claude.com/product/claude-science",
-        "summary": "HN points: 287, comments: 98",
+        "summary": "HN points: 322, comments: 109",
         "source": "Hacker News",
         "published": "2026-06-30T17:07:41Z",
         "importance_hint": 3,
@@ -811,7 +822,7 @@
         "title": "Anthropic has embedded hidden spyware-like code in Claude Code",
         "url": "https://twitter.com/IntCyberDigest/status/2071971609183678544",
         "normalized_url": "https://twitter.com/IntCyberDigest/status/2071971609183678544",
-        "summary": "HN points: 45, comments: 9",
+        "summary": "HN points: 47, comments: 9",
         "source": "Hacker News",
         "published": "2026-06-30T16:29:36Z",
         "importance_hint": 4,
@@ -822,7 +833,7 @@
         "title": "EU commissioners shut down air conditioning for employees, leave theirs on",
         "url": "https://www.politico.eu/article/eu-commission-heatwave-hq-forced-shut-down-air-conditioning-europe/",
         "normalized_url": "https://www.politico.eu/article/eu-commission-heatwave-hq-forced-shut-down-air-conditioning-europe",
-        "summary": "HN points: 123, comments: 125",
+        "summary": "HN points: 126, comments: 130",
         "source": "Hacker News",
         "published": "2026-06-30T16:19:51Z",
         "importance_hint": 3,
@@ -833,7 +844,7 @@
         "title": "Claude Desktop is now available on Linux (in beta)",
         "url": "https://code.claude.com/docs/en/desktop-linux",
         "normalized_url": "https://code.claude.com/docs/en/desktop-linux",
-        "summary": "HN points: 40, comments: 4",
+        "summary": "HN points: 41, comments: 4",
         "source": "Hacker News",
         "published": "2026-06-30T16:09:10Z",
         "importance_hint": 3,
@@ -844,7 +855,7 @@
         "title": "The AI Industry Is Losing",
         "url": "https://www.wheresyoured.at/the-ai-industry-is-losing/",
         "normalized_url": "https://www.wheresyoured.at/the-ai-industry-is-losing",
-        "summary": "HN points: 15, comments: 15",
+        "summary": "HN points: 19, comments: 16",
         "source": "Hacker News",
         "published": "2026-06-30T16:07:16Z",
         "importance_hint": 3,
@@ -855,7 +866,7 @@
         "title": "Scammers Sell Seeds for Exotic AI-Generated Flowers That Don't Exist",
         "url": "https://www.404media.co/scammers-sell-seeds-for-exotic-ai-generated-flowers-that-dont-exist/",
         "normalized_url": "https://www.404media.co/scammers-sell-seeds-for-exotic-ai-generated-flowers-that-dont-exist",
-        "summary": "HN points: 45, comments: 31",
+        "summary": "HN points: 46, comments: 31",
         "source": "Hacker News",
         "published": "2026-06-30T15:45:32Z",
         "importance_hint": 3,
@@ -866,11 +877,24 @@
         "title": "Claude Code is steganographically marking requests",
         "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
         "normalized_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-        "summary": "HN points: 1145, comments: 297",
+        "summary": "HN points: 1267, comments: 357",
         "source": "Hacker News",
         "published": "2026-06-30T15:44:24Z",
         "importance_hint": 3,
         "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "花9000美元参观中国工厂，新型科技旅游正在海外走红",
+        "url": "https://www.36kr.com/p/3855255355299080",
+        "normalized_url": "https://www.36kr.com/p/3855255355299080",
+        "summary": "当越来越多人不再只去硅谷“朝圣”，中国的工厂、AI公司和机器人企业，正成为新的科技目的地。",
+        "source": "36Kr AI",
+        "published": "2026-06-30T23:00:19+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -984,19 +1008,6 @@
         "summary": "商业化能力仍需追赶",
         "source": "36Kr AI",
         "published": "2026-06-30T13:12:10+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI失业潮下的生存法则：裁员名单背后的认知差",
-        "url": "https://www.36kr.com/p/3875527619490051",
-        "normalized_url": "https://www.36kr.com/p/3875527619490051",
-        "summary": "打工人可能不是输给了技术，而是输给了自己的“勤奋”",
-        "source": "36Kr AI",
-        "published": "2026-06-30T13:09:32+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1238,6 +1249,19 @@
       },
       {
         "category": "news",
+        "title": "Morgan Stanley cut its riskiest reconciliation job in half — by making its agents less autonomous",
+        "url": "https://venturebeat.com/orchestration/morgan-stanley-cut-its-riskiest-reconciliation-job-in-half-by-making-its-agents-less-autonomous",
+        "normalized_url": "https://venturebeat.com/orchestration/morgan-stanley-cut-its-riskiest-reconciliation-job-in-half-by-making-its-agents-less-autonomous",
+        "summary": "Most enterprise AI deployments so far have focused on coding assistants and customer service bots. Morgan Stanley has deployed agents in one of banking's most accuracy-critical, deadline-driven workflows instead — profit and loss (P&L) reconciliation — and cut the work in half. The counterintuitive part: it got there by making the system less autonomous, not more. Humans stay tightly in the loop, and their decisions are iteratively turned into repeatable rules the system can apply on its own. “I",
+        "source": "VentureBeat",
+        "published": "2026-06-30T22:23:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://venturebeat.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Anthropic launches Claude Sonnet 5 at a steep discount to its top model as the company races toward a blockbuster IPO",
         "url": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo",
         "normalized_url": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo",
@@ -1310,19 +1334,6 @@
         "source": "VentureBeat",
         "published": "2026-06-29T20:36:15+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://venturebeat.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "The attack that hijacked Claude Code came through Sentry. Datadog, PagerDuty, and Jira have the same exposure.",
-        "url": "https://venturebeat.com/security/the-attack-that-hijacked-claude-code-came-through-sentry-datadog-pagerduty-and-jira-have-the-same-exposure",
-        "normalized_url": "https://venturebeat.com/security/the-attack-that-hijacked-claude-code-came-through-sentry-datadog-pagerduty-and-jira-have-the-same-exposure",
-        "summary": "A single fake error report hijacked Claude Code in controlled testing — the agent ran the attacker's code with the developer's full privileges, and not one alert fired. EDR, WAF, IAM, and the firewall all missed it completely. Tenet Security's June agentjacking disclosure describes a single crafted Sentry error event — sent through a public credential that requires no breach and no authentication — that injected attacker instructions into error data that Claude Code, Cursor, and Codex then execu",
-        "source": "VentureBeat",
-        "published": "2026-06-29T16:53:14+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://venturebeat.com/feed/"
         }
@@ -1823,132 +1834,15 @@
       },
       {
         "category": "news",
-        "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
-        "url": "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
-        "summary": "Anthropic's Claude Sonnet 5 narrows the gap to Opus 4.8 on agentic coding, at cheaper Sonnet token pricing. The post Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-06-30T21:37:40+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy",
-        "url": "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy",
-        "summary": "Meta AI releases Brain2Qwerty v2, a non-invasive MEG brain-to-text pipeline reaching 61% word accuracy with open training code. The post Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-06-30T08:13:41+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway",
-        "url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway",
-        "summary": "OpenClaw's iOS and Android apps are companion nodes, not standalone chatbots. Each phone pairs to a self-hosted Gateway over WebSocket. This adds device hardware — camera, location, voice, and Canvas — to a local-first AI agent. Here is the architecture, the capabilities, and the trade-offs for builders. The post OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-06-29T23:41:29+00:00",
+        "title": "Nano Banana 2 Lite",
+        "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+        "normalized_url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite",
+        "summary": "Nano Banana 2 Lite Also known as Gemini 3.1 Flash Lite Image ( gemini-3.1-flash-lite-image in their API ), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\". I used AI studio to run this prompt: Do a where's Waldo style image but it's where is the raccoon holding a ham radio I like that one better than the results I got from the other Nano Banana models when I tried this back in April. It spelled Forest Festival wrong in two different ways though. Via Hacke",
+        "source": "Simon Willison",
+        "published": "2026-06-30T22:15:35+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation",
-        "url": "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation",
-        "summary": "We build a Colab-ready PyGraphistry workflow for interactive graph analytics on enterprise access data. We generate a synthetic dataset of users, devices, IPs, services, roles, and geos, then convert it into nodes and edges. We enrich the graph with risk scores, centrality metrics, community detection, Isolation Forest anomaly scores, and UMAP layout embeddings. We then bind the graph in PyGraphistry and produce local PyVis visualizations for full, ego, and high-risk views. The post PyGraphistry",
-        "source": "MarkTechPost",
-        "published": "2026-06-29T21:34:42+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery",
-        "url": "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery",
-        "summary": "NVIDIA's open-source BioNeMo Agent Toolkit turns biomolecular models like OpenFold3, DiffDock, and GenMol into documented, callable skills for AI agents. Each skill describes a model's purpose, inputs, artifacts, and failure modes, so an agent can select, run, and interpret it. In NVIDIA's benchmarks with Codex CLI and GPT-5.5 fast, skills raised task completion from 57.1% to 100% and doubled token efficiency. The post NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills f",
-        "source": "MarkTechPost",
-        "published": "2026-06-29T19:06:47+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-        "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-        "summary": "EverMind has open-sourced EverOS, a local-first memory runtime that stores AI agent memory as plain Markdown indexed by SQLite and LanceDB. It combines hybrid BM25 + vector retrieval, multimodal ingestion, and self-evolving Skills under an Apache 2.0 license. Here's what it is, how the architecture works, where the benchmarks stand, and where it still falls short — plus a runnable code walkthrough and an interactive demo. The post Meet EverOS: An Open Source Markdown-First Agent Memory Runtime W",
-        "source": "MarkTechPost",
-        "published": "2026-06-29T10:42:47+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Top 6 No-Code Tools for AI Engineers/Developers",
-        "url": "https://www.marktechpost.com/2026/06/28/top-6-no-code-tools-for-ai-engineers-developers/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/28/top-6-no-code-tools-for-ai-engineers-developers",
-        "summary": "In today’s AI-driven world, no-code tools are transforming how people create and deploy intelligent applications. They empower anyone—regardless of coding expertise—to build solutions quickly and efficiently. From developing enterprise-grade RAG systems to designing multi-agent workflows or fine-tuning hundreds of LLMs, these platforms dramatically reduce development time and effort. In this article, we’ll explore six powerful […] The post Top 6 No-Code Tools for AI Engineers/Developers appeared",
-        "source": "MarkTechPost",
-        "published": "2026-06-29T03:20:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "OCRmyPDF Tutorial: Convert Scanned Documents into Searchable PDF/A Files with Sidecar Text Extraction and Batch Processing",
-        "url": "https://www.marktechpost.com/2026/06/28/ocrmypdf-tutorial-convert-scanned-documents-into-searchable-pdf-a-files-with-sidecar-text-extraction-and-batch-processing/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/28/ocrmypdf-tutorial-convert-scanned-documents-into-searchable-pdf-a-files-with-sidecar-text-extraction-and-batch-processing",
-        "summary": "In this tutorial, we build a complete, self-contained OCRmyPDF pipeline in Python. We generate synthetic image-only PDFs so we can test OCR without external files, then convert them into searchable PDFs and PDF/A outputs. We extract sidecar text, validate results, measure word-recall, and compare file sizes. We also tune Tesseract, clean noisy scans, correct orientation, run OCR in memory, and batch-process whole folders. The post OCRmyPDF Tutorial: Convert Scanned Documents into Searchable PDF/",
-        "source": "MarkTechPost",
-        "published": "2026-06-28T16:47:50+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines",
-        "url": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines",
-        "summary": "In this tutorial, we build a stable workflow around the Fable 5 Traces dataset from Hugging Face. We avoid fragile dependencies and manually parse the merged JSONL file to keep Colab reliable. We inspect repository files, normalize tool calls, audit structure, redact secrets, and visualize key distributions. We also export safe no-CoT chat datasets and train pure-Python Naive Bayes baselines on the traces. The post Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing ",
-        "source": "MarkTechPost",
-        "published": "2026-06-28T07:02:54+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
-        "url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference",
-        "summary": "Liquid AI released LFM2.5-230M, its smallest model yet. The 230M-parameter, open-weight model runs on-device at 213 tok/s on a Galaxy S25 Ultra and 42 on a Raspberry Pi 5. Built on the LFM2 architecture, it targets tool use and data extraction, beating larger models like Qwen3.5-0.8B and Gemma 3 1B on instruction following. The post Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-06-28T04:58:20+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
+          "feed_url": "https://simonwillison.net/atom/everything/"
         }
       },
       {
@@ -2037,19 +1931,6 @@
         "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce. [...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks. As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma ",
         "source": "Simon Willison",
         "published": "2026-06-29T16:17:59+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Quoting Jon Udell",
-        "url": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
-        "normalized_url": "https://simonwillison.net/2026/Jun/28/jon-udell",
-        "summary": "Human Agent in the loop I dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join the team. An agent-assisted process need not be a black box that takes in prompts and emits features. [...] Let’s do agentic software development like that. Not as a loop we’ve been excluded from, instead as one we invite agents into. — Jon Udell , “Doctor, it hurts when agents crea",
-        "source": "Simon Willison",
-        "published": "2026-06-28T21:57:41+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://simonwillison.net/atom/everything/"
@@ -2317,19 +2198,6 @@
       },
       {
         "category": "news",
-        "title": "I Hate Dario Amodei, and everything he stands for.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj7xcs/i_hate_dario_amodei_and_everything_he_stands_for/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj7xcs/i_hate_dario_amodei_and_everything_he_stands_for",
-        "summary": "I am so incredibly sick of this guy‘s fear mongering about open source while fundamentally misunderstanding how it actually works. He recently dropped some arguments that are so completely detached from reality, it honestly feels like he’s never even touched a local model in his life. Just look at the bullsh*t he is pushing \"With open source software you can see the source, here you cannot see inside the model\" Yes you can??? That is literally the entire point of open weights. I can’t see the we",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-29T23:03:58+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Well.. it's a step up from nonstop bot spam I guess",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujouxg/well_its_a_step_up_from_nonstop_bot_spam_i_guess/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujouxg/well_its_a_step_up_from_nonstop_bot_spam_i_guess",
@@ -2337,19 +2205,6 @@
         "source": "r/LocalLLaMA",
         "published": "2026-06-30T13:11:54+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Introducing LongCat-2.0 - , a large-scale MoE language model with 1.6 trillion total parameters and ~48 billion activated per token. This was the stealth model that was on Openrouter under the name 'owl-alpha'.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj7egu/introducing_longcat20_a_largescale_moe_language/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj7egu/introducing_longcat20_a_largescale_moe_language",
-        "summary": "submitted by /u/AnticitizenPrime [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-06-29T22:42:20+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
@@ -2417,6 +2272,45 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "PageStorm: A Model Built for Creative Book Writing",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujr69g/pagestorm_a_model_built_for_creative_book_writing/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujr69g/pagestorm_a_model_built_for_creative_book_writing",
+        "summary": "Over a year ago, we set out to build a single-turn full-book writing model. Half a year ago, we published our LongPage Dataset for book scale creative writing. Today, we are announcing our first model: PageStorm Research Preview. Paper: https://arxiv.org/abs/2605.17064 Models: https://huggingface.co/collections/Pageshift-Entertainment/pagestorm-research-preview submitted by /u/XMasterDE [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-30T14:43:02+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Norm-preserving abliteration on Qwen3.6-35B-A3B: 0% refusal, benchmarks intact, open source dataset",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujktg5/normpreserving_abliteration_on_qwen3635ba3b_0/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujktg5/normpreserving_abliteration_on_qwen3635ba3b_0",
+        "summary": "Been reading the mechanistic interpretability literature on refusal for a while now. The core insight from Arditi et al. (2024) is clean: refusal is mediated by a geometrically consistent direction in the residual stream. You can find it via the difference of means between harmful and harmless activation caches, then project it out of the weight matrices. The problem with vanilla abliteration (as popularized by mlabonne) is benchmark degradation. When you project out a component from weight vect",
+        "source": "r/LocalLLaMA",
+        "published": "2026-06-30T09:54:54+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The twilight of the chatbots",
+        "url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+        "normalized_url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+        "summary": "How work changes along the exponential",
+        "source": "One Useful Thing (Mollick)",
+        "published": "2026-06-30T22:18:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.oneusefulthing.org/feed"
         }
       },
       {
