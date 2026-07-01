@@ -1,10 +1,10 @@
 {
   "date": "2026-07-02",
-  "generated_at": "2026-07-02T05:59:35.347978+08:00",
+  "generated_at": "2026-07-02T07:20:57.435901+08:00",
   "counts": {
-    "papers": 38,
+    "papers": 30,
     "projects": 28,
-    "news": 134
+    "news": 137
   },
   "items": {
     "papers": [
@@ -14,7 +14,7 @@
         "url": "https://huggingface.co/papers/2606.32033",
         "normalized_url": "https://huggingface.co/papers/2606.32033",
         "summary": "We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that contemporary generative models natively exhibit some panoramic priors from large-scale training. However",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-06-30T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -157,7 +157,7 @@
         "url": "https://huggingface.co/papers/2606.32034",
         "normalized_url": "https://huggingface.co/papers/2606.32034",
         "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream perfo",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-06-30T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -261,7 +261,7 @@
         "url": "https://huggingface.co/papers/2606.32039",
         "normalized_url": "https://huggingface.co/papers/2606.32039",
         "summary": "Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of what the generator finds easy to model. We present GEAR (Guided End-to-end AutoRegression), which trains a vector-quantized (VQ) tokenizer and an autoregressive (AR) generator jointly and end-to-end, guided by representation alignment. The key",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-06-30T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -300,7 +300,7 @@
         "url": "https://huggingface.co/papers/2606.32032",
         "normalized_url": "https://huggingface.co/papers/2606.32032",
         "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misrepresent their internal uncertainty--undermining trustworthiness and reliability. Since monitoring task performance and adapting behavior accordingly are central to metacognition, we posit that models capab",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-06-30T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -397,94 +397,6 @@
         "metadata": {
           "paper_id": "2606.31734"
         }
-      },
-      {
-        "category": "papers",
-        "title": "FaceMoE: Mixture of Experts for Low-Resolution Face Recognition",
-        "url": "https://arxiv.org/abs/2606.32040v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32040v1",
-        "summary": "Low-resolution face recognition (LR-FR) remains a challenging task due to poor feature extraction and aggregation, as probe images often contain limited identity information resulting from extreme degradations such as blur, occlusion, and low contrast. Additionally, the domain gap between high-resolution (HR) gallery images and low-resolution (LR) probe images poses a significant challenge. A single feature encoder struggles to generalize effectively across both domains when fine-tuned on an LR ",
-        "source": "arXiv",
-        "published": "2026-06-30T17:59:57+00:00",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
-        "url": "https://arxiv.org/abs/2606.32038v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32038v1",
-        "summary": "When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features of their inputs influenced their behavior, using models' counterfactual behavior on modified inputs as supervision. Surprisingly, we find that LMs trained on fixed counterfactual explanations derived from earlier checkpoints of themselves, or even from behaviorally similar models in different familie",
-        "source": "arXiv",
-        "published": "2026-06-30T17:59:32+00:00",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction",
-        "url": "https://arxiv.org/abs/2606.32036v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32036v1",
-        "summary": "Producing 3D human representations from input views on the fly is essential for immersive live streaming systems, where representation compactness is as critical as high fidelity given limited computational power and transmission bandwidth. Although recent feed-forward reconstruction methods achieve impressive quality through the view-centric prediction of 3D representations, they repeatedly encode the same subject content across multiple views, leading to significant inter-view redundancy. Our ",
-        "source": "arXiv",
-        "published": "2026-06-30T17:59:05+00:00",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
-        "url": "https://arxiv.org/abs/2606.32029v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32029v1",
-        "summary": "While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table structure. Beyond final-answer accuracy, DREs directly compromise the correctness and reliability of intermediate reasoning steps. Yet prior studies have only offered limited, small-scale analyses. In this work, we present the first systematic evaluation of tabular data referencing errors across differen",
-        "source": "arXiv",
-        "published": "2026-06-30T17:54:50+00:00",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "Freeform Preference Learning for Robotic Manipulation",
-        "url": "https://arxiv.org/abs/2606.32027v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32027v1",
-        "summary": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary preferences collapse many competing notions of quality into one ambiguous signal. We introduce Freeform Preference Learning (FPL), a method for learning robot policies from freeform human preferences. Rather than asking annotators which of two trajectories is better overall, FPL lets them define natural-",
-        "source": "arXiv",
-        "published": "2026-06-30T17:54:02+00:00",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "AdaJEPA: An Adaptive Latent World Model",
-        "url": "https://arxiv.org/abs/2606.32026v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32026v1",
-        "summary": "Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their predictions become inaccurate, planning can fail, especially under test-time distribution shift. To address this, we propose AdaJEPA, an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC). After training, AdaJEPA plans and executes ",
-        "source": "arXiv",
-        "published": "2026-06-30T17:53:48+00:00",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "Generative Skill Composition for LLM Agents",
-        "url": "https://arxiv.org/abs/2606.32025v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32025v1",
-        "summary": "Recent LLM agents benefit from skills for solving complex tasks. Skills encapsulate modular packages of procedural knowledge and instructions for performing specialized tasks, such as setting up a sandboxed environment, running a test suite, or refactoring a function across multiple files. As skill libraries grow and become reusable across tasks and domains, selecting an appropriate skill composition has emerged as a central bottleneck. Existing approaches fall into two categories. One exposes t",
-        "source": "arXiv",
-        "published": "2026-06-30T17:53:09+00:00",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data",
-        "url": "https://arxiv.org/abs/2606.32023v1",
-        "normalized_url": "https://arxiv.org/abs/2606.32023v1",
-        "summary": "Forest attributes are essential for national-scale resource monitoring. Airborne LiDAR metrics are among the auxiliary variables most strongly correlated with forest attributes used in National Forest Inventory (NFI) estimates. However, producing wall-to-wall predictions remains challenging when LiDAR data are acquired under heterogeneous conditions. As national LiDAR programs expand across Europe, variability in sensors, flight parameters, seasons, and scan angles limits the robustness of exist",
-        "source": "arXiv",
-        "published": "2026-06-30T17:52:28+00:00",
-        "importance_hint": 4,
-        "metadata": {}
       }
     ],
     "projects": [
@@ -646,15 +558,15 @@
       },
       {
         "category": "projects",
-        "title": "0xNyk/council-of-high-intelligence ⭐+473/天",
+        "title": "0xNyk/council-of-high-intelligence ⭐+276/天",
         "url": "https://github.com/0xNyk/council-of-high-intelligence",
         "normalized_url": "https://github.com/0xNyk/council-of-high-intelligence",
-        "summary": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council （GitHub Trending · 今日 +473 star）",
+        "summary": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council （GitHub Trending · 今日 +276 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "473"
+          "stars_today": "276"
         }
       },
       {
@@ -867,12 +779,45 @@
     "news": [
       {
         "category": "news",
+        "title": "US feds are actively hiring \"person who decides which models to ban\"",
+        "url": "https://www.usajobs.gov/job/856265200",
+        "normalized_url": "https://www.usajobs.gov/job/856265200",
+        "summary": "HN points: 39, comments: 22",
+        "source": "Hacker News",
+        "published": "2026-07-01T22:45:41Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "'It's like having a dumb friend': Young San Franciscans hate AI",
+        "url": "https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php",
+        "normalized_url": "https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php",
+        "summary": "HN points: 18, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-07-01T22:22:14Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Fable open sourced NanoClaw's agent factory. It cost $800",
         "url": "https://twitter.com/Gavriel_Cohen/status/2072432348805669139",
         "normalized_url": "https://twitter.com/Gavriel_Cohen/status/2072432348805669139",
-        "summary": "HN points: 12, comments: 0",
+        "summary": "HN points: 14, comments: 16",
         "source": "Hacker News",
         "published": "2026-07-01T21:41:06Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
+        "url": "https://github.com/langchain-ai/openwiki",
+        "normalized_url": "https://github.com/langchain-ai/openwiki",
+        "summary": "HN points: 12, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-07-01T20:51:52Z",
         "importance_hint": 4,
         "metadata": {}
       },
@@ -881,7 +826,7 @@
         "title": "Old Reddit to become available only to logged in users",
         "url": "https://old.reddit.com/r/modnews/comments/1ujtebf/logging_in_to_use_old_reddit/",
         "normalized_url": "https://old.reddit.com/r/modnews/comments/1ujtebf/logging_in_to_use_old_reddit",
-        "summary": "HN points: 14, comments: 3",
+        "summary": "HN points: 16, comments: 3",
         "source": "Hacker News",
         "published": "2026-07-01T20:46:02Z",
         "importance_hint": 3,
@@ -892,7 +837,7 @@
         "title": "Claude Fable 5 Promotional Access",
         "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
         "normalized_url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
-        "summary": "HN points: 86, comments: 70",
+        "summary": "HN points: 90, comments: 74",
         "source": "Hacker News",
         "published": "2026-07-01T19:31:46Z",
         "importance_hint": 3,
@@ -903,7 +848,7 @@
         "title": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
         "url": "https://github.com/Division-36/Z-Jail/",
         "normalized_url": "https://github.com/Division-36/Z-Jail",
-        "summary": "HN points: 18, comments: 15",
+        "summary": "HN points: 19, comments: 20",
         "source": "Hacker News",
         "published": "2026-07-01T19:18:11Z",
         "importance_hint": 3,
@@ -914,7 +859,7 @@
         "title": "ZCode: Claude Code from the Makers of GLM",
         "url": "https://zcode.z.ai/cn",
         "normalized_url": "https://zcode.z.ai/cn",
-        "summary": "HN points: 260, comments: 140",
+        "summary": "HN points: 266, comments: 12",
         "source": "Hacker News",
         "published": "2026-07-01T19:11:38Z",
         "importance_hint": 3,
@@ -925,7 +870,7 @@
         "title": "EU countries want oil exploration to be classed as a green investment",
         "url": "https://www.politico.eu/article/eu-countries-oil-exploration-green-investment/",
         "normalized_url": "https://www.politico.eu/article/eu-countries-oil-exploration-green-investment",
-        "summary": "HN points: 14, comments: 7",
+        "summary": "HN points: 18, comments: 7",
         "source": "Hacker News",
         "published": "2026-07-01T19:08:46Z",
         "importance_hint": 3,
@@ -936,7 +881,7 @@
         "title": "Are readers generating fiction with AI models?",
         "url": "https://arxiv.org/abs/2606.22748",
         "normalized_url": "https://arxiv.org/abs/2606.22748",
-        "summary": "HN points: 35, comments: 53",
+        "summary": "HN points: 35, comments: 58",
         "source": "Hacker News",
         "published": "2026-07-01T17:21:07Z",
         "importance_hint": 4,
@@ -947,7 +892,7 @@
         "title": "Meta loses bid to dismiss US states' claims that FB, Instagram addict children",
         "url": "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30/",
         "normalized_url": "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30",
-        "summary": "HN points: 155, comments: 69",
+        "summary": "HN points: 160, comments: 75",
         "source": "Hacker News",
         "published": "2026-07-01T15:40:56Z",
         "importance_hint": 4,
@@ -955,14 +900,16 @@
       },
       {
         "category": "news",
-        "title": "Welcome to the Dual State of AI Regulation",
-        "url": "https://www.thefunsinthefight.com/p/welcome-to-the-dual-state-of-ai-regulation",
-        "normalized_url": "https://www.thefunsinthefight.com/p/welcome-to-the-dual-state-of-ai-regulation",
-        "summary": "HN points: 13, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-07-01T15:26:38Z",
+        "title": "AI数据中心涌入智利，算力繁荣正在加剧15年大旱",
+        "url": "https://www.36kr.com/p/3855316154111240",
+        "normalized_url": "https://www.36kr.com/p/3855316154111240",
+        "summary": "AI需要的不只是算力，还有越来越多的水。",
+        "source": "36Kr AI",
+        "published": "2026-07-01T23:06:53+00:00",
         "importance_hint": 3,
-        "metadata": {}
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -1076,19 +1023,6 @@
         "summary": "想入股，最高先买七倍芯片？",
         "source": "36Kr AI",
         "published": "2026-07-01T12:42:03+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "硬氪首发 | 北航机器人所团队创业，首创智能变刚度关节，完成近亿元天使轮融资",
-        "url": "https://www.36kr.com/p/3877060559433984",
-        "normalized_url": "https://www.36kr.com/p/3877060559433984",
-        "summary": "推出的智能膝关节外骨骼已获700万元众筹。",
-        "source": "36Kr AI",
-        "published": "2026-07-01T12:30:37+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1338,7 +1272,7 @@
         "published": "2026-07-01T02:27:40+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/sspai/tag/AI"
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -1846,6 +1780,19 @@
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
+        "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
+        "normalized_url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit",
+        "summary": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
+        "source": "Ars Technica AI",
+        "published": "2026-07-01T21:21:21+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
