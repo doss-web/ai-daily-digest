@@ -1,13 +1,26 @@
 {
   "date": "2026-07-03",
-  "generated_at": "2026-07-03T05:43:36.095077+08:00",
+  "generated_at": "2026-07-03T07:14:36.892336+08:00",
   "counts": {
     "papers": 40,
     "projects": 27,
-    "news": 138
+    "news": 137
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity",
+        "url": "https://huggingface.co/papers/2607.00152",
+        "normalized_url": "https://huggingface.co/papers/2607.00152",
+        "summary": "Three of the most popular methods for training language models to reason look like three different tricks. They are not. All three adjust a single number: standard deviation, reflecting how much a prompt's sampled answers disagree. When such a model is trained, it answers each problem many times, and an automatic checker marks every answer right or wrong. The standard deviation of those marks measures the disagreement: largest when the answers split evenly between right and wrong, and zero when ",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-30T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.00152"
+        }
+      },
       {
         "category": "papers",
         "title": "When More Sampling Hurts: The Modal Ceiling and Correlation Ceiling of Test-Time Scaling",
@@ -383,19 +396,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2607.01131"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "BioInsight: Multi-Agent Orchestration for Interactive Biomedical Knowledge Discovery",
-        "url": "https://huggingface.co/papers/2606.20997",
-        "normalized_url": "https://huggingface.co/papers/2606.20997",
-        "summary": "Biomedical researchers increasingly use AI-generated analyses and reports to interpret protein-level signals, but static outputs are often insufficient for research decision-making, where users need to inspect evidence, assess uncertainty, compare mechanisms, and refine hypotheses. We present BioInsight, a multi-agent system that moves from static biomedical report generation to interactive evidence-centered interactive interface generation. Given a disease name, a protein association table, and",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-19T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.20997"
         }
       },
       {
@@ -881,7 +881,7 @@
         "title": "Zuckerberg says AI agent development going slower than expected",
         "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
         "normalized_url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02",
-        "summary": "HN points: 11, comments: 6",
+        "summary": "HN points: 17, comments: 13",
         "source": "Hacker News",
         "published": "2026-07-02T20:38:06Z",
         "importance_hint": 4,
@@ -892,7 +892,7 @@
         "title": "Hideo Kojima afraid that 'digital data will no longer be owned by individuals'",
         "url": "https://www.pcgamer.com/gaming-industry/even-hideo-kojima-is-afraid-that-digital-data-will-no-longer-be-owned-by-individuals-and-that-access-to-art-that-we-love-may-suddenly-be-cut-off/",
         "normalized_url": "https://www.pcgamer.com/gaming-industry/even-hideo-kojima-is-afraid-that-digital-data-will-no-longer-be-owned-by-individuals-and-that-access-to-art-that-we-love-may-suddenly-be-cut-off",
-        "summary": "HN points: 12, comments: 0",
+        "summary": "HN points: 18, comments: 0",
         "source": "Hacker News",
         "published": "2026-07-02T19:44:59Z",
         "importance_hint": 3,
@@ -903,7 +903,7 @@
         "title": "The Short Leash AI Coding Method for Beating Fable",
         "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/",
         "normalized_url": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
-        "summary": "HN points: 22, comments: 3",
+        "summary": "HN points: 49, comments: 44",
         "source": "Hacker News",
         "published": "2026-07-02T19:11:57Z",
         "importance_hint": 3,
@@ -914,7 +914,7 @@
         "title": "Claude-real-video － any LLM can watch a video",
         "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
         "normalized_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-        "summary": "HN points: 25, comments: 4",
+        "summary": "HN points: 53, comments: 14",
         "source": "Hacker News",
         "published": "2026-07-02T19:10:12Z",
         "importance_hint": 3,
@@ -925,7 +925,7 @@
         "title": "Microsoft's unreleased lightweight Edge-based Windows 11 AI OS leaks",
         "url": "https://www.neowin.net/news/microsofts-alleged-unreleased-lightweight-edge-based-windows-11-ai-os-leaks/",
         "normalized_url": "https://www.neowin.net/news/microsofts-alleged-unreleased-lightweight-edge-based-windows-11-ai-os-leaks",
-        "summary": "HN points: 14, comments: 1",
+        "summary": "HN points: 16, comments: 1",
         "source": "Hacker News",
         "published": "2026-07-02T19:08:10Z",
         "importance_hint": 5,
@@ -936,7 +936,7 @@
         "title": "Klara and the Sun Essay Contest – $1k Prize – AI Use Allowed",
         "url": "https://willpenman.com/klara/",
         "normalized_url": "https://willpenman.com/klara",
-        "summary": "HN points: 15, comments: 17",
+        "summary": "HN points: 16, comments: 18",
         "source": "Hacker News",
         "published": "2026-07-02T18:48:58Z",
         "importance_hint": 3,
@@ -947,20 +947,9 @@
         "title": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
         "url": "https://github.com/anthropics/claude-code/issues/73125",
         "normalized_url": "https://github.com/anthropics/claude-code/issues/73125",
-        "summary": "HN points: 50, comments: 54",
+        "summary": "HN points: 53, comments: 55",
         "source": "Hacker News",
         "published": "2026-07-02T18:37:57Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Vulkan is now available on NetBSD",
-        "url": "https://github.com/segaboy/vulkan-netbsd",
-        "normalized_url": "https://github.com/segaboy/vulkan-netbsd",
-        "summary": "HN points: 46, comments: 12",
-        "source": "Hacker News",
-        "published": "2026-07-02T18:36:09Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -969,7 +958,7 @@
         "title": "Ask HN: Why are so many \"AI evangelists\" posting such insufferable content?",
         "url": "https://news.ycombinator.com/item?id=48765450",
         "normalized_url": "https://news.ycombinator.com/item?id=48765450",
-        "summary": "HN points: 15, comments: 16",
+        "summary": "HN points: 23, comments: 19",
         "source": "Hacker News",
         "published": "2026-07-02T18:23:03Z",
         "importance_hint": 3,
@@ -980,7 +969,7 @@
         "title": "Weird Al Yankovic Pulled Out of AI Ad Deal: 'I Can't Be the Poster Boy for AI'",
         "url": "https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/",
         "normalized_url": "https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794",
-        "summary": "HN points: 48, comments: 24",
+        "summary": "HN points: 51, comments: 32",
         "source": "Hacker News",
         "published": "2026-07-02T17:03:30Z",
         "importance_hint": 3,
@@ -991,7 +980,7 @@
         "title": "Show HN: QUALITY.md – open format/specification, agent skill, and CLI",
         "url": "https://getquality.md",
         "normalized_url": "https://getquality.md",
-        "summary": "HN points: 28, comments: 28",
+        "summary": "HN points: 29, comments: 28",
         "source": "Hacker News",
         "published": "2026-07-02T16:36:12Z",
         "importance_hint": 4,
@@ -1002,7 +991,7 @@
         "title": "Brave's latest browser release offers Containers for better and easier workflow",
         "url": "https://brave.com/blog/containers/",
         "normalized_url": "https://brave.com/blog/containers",
-        "summary": "HN points: 15, comments: 3",
+        "summary": "HN points: 21, comments: 6",
         "source": "Hacker News",
         "published": "2026-07-02T16:08:36Z",
         "importance_hint": 4,
@@ -1013,7 +1002,7 @@
         "title": "Show HN: ctx – Search the coding agent history already on your machine",
         "url": "https://github.com/ctxrs/ctx",
         "normalized_url": "https://github.com/ctxrs/ctx",
-        "summary": "HN points: 16, comments: 1",
+        "summary": "HN points: 20, comments: 2",
         "source": "Hacker News",
         "published": "2026-07-02T15:58:32Z",
         "importance_hint": 4,
@@ -1024,7 +1013,7 @@
         "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
         "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
         "normalized_url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-        "summary": "HN points: 457, comments: 144",
+        "summary": "HN points: 540, comments: 173",
         "source": "Hacker News",
         "published": "2026-07-02T15:02:26Z",
         "importance_hint": 3,
@@ -1040,6 +1029,30 @@
         "published": "2026-07-02T14:27:00Z",
         "importance_hint": 4,
         "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Show HN: CLI tool for detecting non-exact code duplication with embedding models",
+        "url": "https://github.com/rafal-qa/slopo",
+        "normalized_url": "https://github.com/rafal-qa/slopo",
+        "summary": "HN points: 75, comments: 33",
+        "source": "Hacker News",
+        "published": "2026-07-02T14:19:24Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "人工智能与认知滑坡：我们能否察觉思维正在悄然异变？",
+        "url": "https://www.36kr.com/p/3851663617266944",
+        "normalized_url": "https://www.36kr.com/p/3851663617266944",
+        "summary": "思考需要阻力，深度认知离不开“费力感”。",
+        "source": "36Kr AI",
+        "published": "2026-07-02T23:06:19+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -1160,15 +1173,132 @@
       },
       {
         "category": "news",
-        "title": "从宁王到寒王：中国科技股的万亿之路",
-        "url": "https://www.36kr.com/p/3878350109552647",
-        "normalized_url": "https://www.36kr.com/p/3878350109552647",
-        "summary": "配角的20年",
-        "source": "36Kr AI",
-        "published": "2026-07-02T12:20:59+00:00",
+        "title": "让Agent越用越强：AReaL 2.0开源，打造面向自演进智能体的RL基础设施",
+        "url": "https://www.qbitai.com/2026/07/442134.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/442134.html",
+        "summary": "与社区共同推进自演进智能体生态发展",
+        "source": "量子位",
+        "published": "2026-07-02T11:28:36+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "全球首个英伟达含量为0的万亿模型，成了海外开发者的抢手货",
+        "url": "https://www.qbitai.com/2026/07/442047.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/442047.html",
+        "summary": "霸榜OpenR ou",
+        "source": "量子位",
+        "published": "2026-07-02T10:56:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "科大讯飞举办智能交互生态发布会，三大平台同步升级",
+        "url": "https://www.qbitai.com/2026/07/442048.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/442048.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-07-02T10:45:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "论坛预告｜夯！AI企业家论坛首发阵容公开，更有千亿级实业巨头突袭",
+        "url": "https://www.qbitai.com/2026/07/442037.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/442037.html",
+        "summary": "7月17日至7月20日",
+        "source": "量子位",
+        "published": "2026-07-02T10:29:03+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "天工 3.2 重磅升级：Skywork Tags 上线，给 Agent 一张工牌，邀其加入你的工作群聊",
+        "url": "https://www.qbitai.com/2026/07/442030.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/442030.html",
+        "summary": "和人并肩工作",
+        "source": "量子位",
+        "published": "2026-07-02T10:24:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "钉钉A1录音卡入选Gartner AI可穿戴设备报告",
+        "url": "https://www.qbitai.com/2026/07/442024.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/442024.html",
+        "summary": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台",
+        "source": "量子位",
+        "published": "2026-07-02T08:03:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "招募｜量子位RSS’26专题策划",
+        "url": "https://www.qbitai.com/2026/07/442016.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/442016.html",
+        "summary": "7月13-17日，澳大利亚悉尼",
+        "source": "量子位",
+        "published": "2026-07-02T07:33:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "一个广告营销老炮，率先冲刺A股无人驾驶第一股",
+        "url": "https://www.qbitai.com/2026/07/441790.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/441790.html",
+        "summary": "最大客户赛力斯，一单贡献全年三成收入",
+        "source": "量子位",
+        "published": "2026-07-02T07:16:15+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "天工AI业务ARR突破8亿美元，向中国首个非BAT10亿美元ARR的AI公司迈进",
+        "url": "https://www.qbitai.com/2026/07/441786.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/441786.html",
+        "summary": "其中AI短剧平台业务ARR超过7亿美元",
+        "source": "量子位",
+        "published": "2026-07-02T06:23:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "训练世界模型，开始从人类的肌肉和脑子里偷师了",
+        "url": "https://www.qbitai.com/2026/07/441725.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/441725.html",
+        "summary": "具身智能数采迎来了新范式",
+        "source": "量子位",
+        "published": "2026-07-02T05:44:25+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
         }
       },
       {
@@ -1384,7 +1514,7 @@
         "title": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
         "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
         "normalized_url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become",
-        "summary": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But low and behold.",
+        "summary": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
         "source": "TechCrunch AI",
         "published": "2026-07-02T20:11:59+00:00",
         "importance_hint": 3,
@@ -1797,19 +1927,6 @@
       },
       {
         "category": "news",
-        "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
-        "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
-        "normalized_url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree",
-        "summary": "Operation by two Russia-state groups has been ongoing since at least March.",
-        "source": "Ars Technica AI",
-        "published": "2026-06-29T22:05:33+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
-        }
-      },
-      {
-        "category": "news",
         "title": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6,000 AI engineers inside enterprise clients",
         "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/",
         "normalized_url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
@@ -1940,132 +2057,15 @@
       },
       {
         "category": "news",
-        "title": "RAG-Anything Tutorial: Build a Multimodal Retrieval Pipeline for Text, Tables, Equations, and Images in Colab",
-        "url": "https://www.marktechpost.com/2026/07/02/rag-anything-tutorial-build-a-multimodal-retrieval-pipeline-for-text-tables-equations-and-images-in-colab/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/02/rag-anything-tutorial-build-a-multimodal-retrieval-pipeline-for-text-tables-equations-and-images-in-colab",
-        "summary": "In this tutorial, we build a RAG-Anything workflow to explore how multimodal retrieval works across text, tables, equations, and images. We prepare a Colab environment, enter our OpenAI API key at runtime, and generate a synthetic report with a chart and PDF. We convert that content into RAG-Anything's direct content_list format and insert it into the retrieval system. We then configure OpenAI chat, vision, and embedding functions and test naive, local, global, and hybrid modes. The post RAG-Any",
-        "source": "MarkTechPost",
-        "published": "2026-07-02T21:38:34+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meet Alibaba’s Page Agent: A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM",
-        "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
-        "summary": "Alibaba's Page Agent runs as client-side JavaScript inside the webpage. It reads the live DOM as text, then clicks and types from natural-language commands. No screenshots, no multimodal model, and no backend rewrite are required. The post Meet Alibaba’s Page Agent: A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-02T20:51:39+00:00",
+        "title": "llm-coding-agent 0.1a0",
+        "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+        "normalized_url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent",
+        "summary": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript ): Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding ",
+        "source": "Simon Willison",
+        "published": "2026-07-02T19:33:12+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "The Google Health API Got a CLI: ghealth is an Open-Source Tool for Your Fitbit Air Data",
-        "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
-        "summary": "The Google Health API now has an open-source CLI. ghealth is a single Go binary that exposes 40 data types as agent-ready JSON. It is a community project, not an official Google release. Here's how it works, and what to check before granting OAuth access. The post The Google Health API Got a CLI: ghealth is an Open-Source Tool for Your Fitbit Air Data appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-02T08:46:56+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Using Lift to Turn Research PDFs into Structured JSON with Controlled, Schema-Guided Field-Level Evaluation",
-        "url": "https://www.marktechpost.com/2026/07/01/using-lift-to-turn-research-pdfs-into-structured-json-with-controlled-schema-guided-field-level-evaluation/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/01/using-lift-to-turn-research-pdfs-into-structured-json-with-controlled-schema-guided-field-level-evaluation",
-        "summary": "In this tutorial, we build a full PDF-to-structured-data workflow around Lift, built for controlled evaluation rather than a one-off demo. We prepare a Colab GPU environment, load Lift in 4-bit NF4, and generate synthetic research reports with deliberate distractors. We then run schema-guided extraction, score every field against ground truth, and assemble the results into a queryable knowledge base. The result is a repeatable extraction benchmark, not just raw model outputs. The post Using Lift",
-        "source": "MarkTechPost",
-        "published": "2026-07-01T21:09:53+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic Redeploys Claude Fable 5 on July 1 After US Export Controls Lift, Adds New Cybersecurity Classifier",
-        "url": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier",
-        "summary": "Anthropic is redeploying Claude Fable 5 on July 1 after US export controls were lifted. A new safety classifier blocks the technique in the Amazon report over 99% of the time, routing flagged requests to Opus 4.8. The company also proposed a four-criteria jailbreak severity framework with Amazon, Microsoft, and Google. The post Anthropic Redeploys Claude Fable 5 on July 1 After US Export Controls Lift, Adds New Cybersecurity Classifier appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-01T20:41:56+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
-        "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-        "summary": "NVIDIA has released Nemotron-Labs-TwoTower, a diffusion language model built on a pretrained autoregressive backbone. It ships as open weights under the NVIDIA Nemotron Open Model License. The release targets a throughput bottleneck in text generation. Autoregressive (AR) models decode one token at a time. That serial process caps generation throughput. Discrete diffusion language models take […] The post NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a ",
-        "source": "MarkTechPost",
-        "published": "2026-07-01T08:10:17+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression",
-        "url": "https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression",
-        "summary": "Google Research has released TabFM, a foundation model for tabular data. It performs zero-shot classification and regression through in-context learning. Predictions come from a single forward pass, with no per-dataset training, hyperparameter tuning, or feature engineering. The post Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-01T07:48:59+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "CUP (Common Useful Python): Building Reliable Python Workflows with Baidu’s Utility Toolkit",
-        "url": "https://www.marktechpost.com/2026/06/30/cup-common-useful-python-building-reliable-python-workflows-with-baidus-utility-toolkit/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/30/cup-common-useful-python-building-reliable-python-workflows-with-baidus-utility-toolkit",
-        "summary": "In this tutorial, we explore CUP, Baidu's Common Useful Python library, as a practical utility toolkit for stronger Python workflows. We install it in a Colab-friendly environment and walk its subsystems step by step. We cover logging, decorators, nested configuration, caching, ID generation, thread pools, scheduling, and Linux resource monitoring. Along the way, we connect each module to real tasks like automation, concurrency, and reliability checks. The post CUP (Common Useful Python): Buildi",
-        "source": "MarkTechPost",
-        "published": "2026-07-01T06:03:21+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Linq’s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble Through the imessage_app Part",
-        "url": "https://www.marktechpost.com/2026/06/30/linqs-imessage-apps/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/30/linqs-imessage-apps",
-        "summary": "Linq launches iMessage Apps: interactive imessage_app cards that run payments, tickets, flights, and games inside the iMessage thread for agents. The post Linq’s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble Through the imessage_app Part appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-06-30T22:17:56+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
-        "url": "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
-        "normalized_url": "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
-        "summary": "Anthropic's Claude Sonnet 5 narrows the gap to Opus 4.8 on agentic coding, at cheaper Sonnet token pricing. The post Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-06-30T21:37:40+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
+          "feed_url": "https://simonwillison.net/atom/everything/"
         }
       },
       {
@@ -2099,7 +2099,7 @@
         "title": "Quoting Anthropic",
         "url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jun/30/anthropic",
-        "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. — Anthropic , on Twitter Tags: anthropic , claude , generative-ai , claude-mythos , ai , llms",
+        "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. — Anthropic , on Twitter Tags: anthropic , claude , generative-ai , claude-mythos-fable , ai , llms",
         "source": "Simon Willison",
         "published": "2026-06-30T23:58:15+00:00",
         "importance_hint": 4,
@@ -2154,19 +2154,6 @@
         "summary": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of having coding agents produce demos of their work; this is my latest attempt at enabling them to do that. Here's an example video created using shot-scraper video , exercising a still in development feature adding the ability to c",
         "source": "Simon Willison",
         "published": "2026-06-30T16:54:26+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "shot-scraper 1.10",
-        "url": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
-        "normalized_url": "https://simonwillison.net/2026/Jun/30/shot-scraper",
-        "summary": "Release: shot-scraper 1.10 The big new feature is shot-scraper video storyboard.yml , described in detail in Have your agent record video demos of its work with shot-scraper video . Tags: shot-scraper",
-        "source": "Simon Willison",
-        "published": "2026-06-30T15:10:14+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://simonwillison.net/atom/everything/"
@@ -2473,19 +2460,6 @@
       },
       {
         "category": "news",
-        "title": "I extended Gemma4-31B to 44B (88 layers) — since Google won't give us anything bigger than 31B",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul0cx9/i_extended_gemma431b_to_44b_88_layers_since/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul0cx9/i_extended_gemma431b_to_44b_88_layers_since",
-        "summary": "I've been just sit on this thread for a while now, both as a reader and occasional poster, so I figured it was finally time to share something I've been working on last weekends. Google hasn't shipped a dense Gemma4 bigger than 31B, so I decided to just build one myself. Heads up though — I'm not a CS or math person, this is all hands-on trial and error on my own hardware. If anything below is theoretically shaky, please tell me, I genuinely want to learn where I'm wrong. What I did: took Gemma4",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-01T22:35:11+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Palantir CEO rages against closed models",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulb4nx/palantir_ceo_rages_against_closed_models/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulb4nx/palantir_ceo_rages_against_closed_models",
@@ -2538,19 +2512,6 @@
       },
       {
         "category": "news",
-        "title": "Senior SWE Bench: a new benchmark focussed on realistically underspecified feature tasks",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukzavr/senior_swe_bench_a_new_benchmark_focussed_on/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukzavr/senior_swe_bench_a_new_benchmark_focussed_on",
-        "summary": "submitted by /u/jordo45 [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-01T21:52:55+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulm1gt/kimi_k27_code_is_generally_available_in_github/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulm1gt/kimi_k27_code_is_generally_available_in_github",
@@ -2558,6 +2519,32 @@
         "source": "r/LocalLLaMA",
         "published": "2026-07-02T15:51:29+00:00",
         "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "poolside/Laguna-XS-2.1",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ullxg7/poolsidelagunaxs21/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ullxg7/poolsidelagunaxs21",
+        "summary": "submitted by /u/a_slay_nub [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-02T15:47:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Rebuilding Gemma 4 31b... better... As 26b...",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulmez2/rebuilding_gemma_4_31b_better_as_26b/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulmez2/rebuilding_gemma_4_31b_better_as_26b",
+        "summary": "Sooo... I decided screw it. I'm going to rebuild Gemma 4 31b. I really like the model. So the current plan is to rebuild the SWA layers. Currently running all the proper ablation tests to figure out what SWA layer gets removed. Gemma runs 5 SWA at 1024 tokens each. Then a global layer for the \"Block\" Layer 3 is consistently the weakest and will likely get removed. From there I am going to rescale the attention of SWA across the board. The new SWA will be 1024/2048/4096/8.1k then the global layer",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-02T16:05:09+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
