@@ -1,10 +1,10 @@
 {
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T05:33:49.537379+08:00",
+  "generated_at": "2026-07-06T07:07:32.991989+08:00",
   "counts": {
     "papers": 30,
     "projects": 26,
-    "news": 110
+    "news": 121
   },
   "items": {
     "papers": [
@@ -753,7 +753,7 @@
         "title": "Reparaible and open source paper printer",
         "url": "https://www.opentools.studio/",
         "normalized_url": "https://www.opentools.studio",
-        "summary": "HN points: 17, comments: 1",
+        "summary": "HN points: 202, comments: 53",
         "source": "Hacker News",
         "published": "2026-07-05T21:03:06Z",
         "importance_hint": 4,
@@ -761,12 +761,67 @@
       },
       {
         "category": "news",
+        "title": "Show HN: Osint tool that finds exposed files on domains",
+        "url": "https://search.cerast-intelligence.com/",
+        "normalized_url": "https://search.cerast-intelligence.com",
+        "summary": "HN points: 18, comments: 4",
+        "source": "Hacker News",
+        "published": "2026-07-05T20:24:37Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Tripadvisor AI summaries give glowing reviews to dangerous hotels",
         "url": "https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds",
         "normalized_url": "https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds",
-        "summary": "HN points: 14, comments: 6",
+        "summary": "HN points: 22, comments: 8",
         "source": "Hacker News",
         "published": "2026-07-05T20:09:34Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "The Mental Models I Use to Work with AI",
+        "url": "https://metedata.substack.com/p/015-the-mental-models-i-use-to-work",
+        "normalized_url": "https://metedata.substack.com/p/015-the-mental-models-i-use-to-work",
+        "summary": "HN points: 11, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-07-05T19:45:26Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "The full stack of terminals explained",
+        "url": "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys/",
+        "normalized_url": "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys",
+        "summary": "HN points: 18, comments: 3",
+        "source": "Hacker News",
+        "published": "2026-07-05T19:31:22Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Delta flight hit by firework while landing at Midway Airport on Fourth of July",
+        "url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/",
+        "normalized_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
+        "summary": "HN points: 20, comments: 4",
+        "source": "Hacker News",
+        "published": "2026-07-05T19:22:51Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Has China obtained the most important machine?",
+        "url": "https://www.economist.com/china/2026/07/05/has-china-obtained-the-worlds-most-important-machine",
+        "normalized_url": "https://www.economist.com/china/2026/07/05/has-china-obtained-the-worlds-most-important-machine",
+        "summary": "HN points: 13, comments: 3",
+        "source": "Hacker News",
+        "published": "2026-07-05T18:48:13Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -775,9 +830,20 @@
         "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
         "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
         "normalized_url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
-        "summary": "HN points: 84, comments: 51",
+        "summary": "HN points: 106, comments: 70",
         "source": "Hacker News",
         "published": "2026-07-05T18:47:43Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "The first programmer I know who was murdered in a targeted strike was Haitham",
+        "url": "https://www.lrb.co.uk/the-paper/v48/n12/muhammad-shehada/i-would-never-release-him",
+        "normalized_url": "https://www.lrb.co.uk/the-paper/v48/n12/muhammad-shehada/i-would-never-release-him",
+        "summary": "HN points: 28, comments: 4",
+        "source": "Hacker News",
+        "published": "2026-07-05T18:22:27Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -786,7 +852,7 @@
         "title": "Do you hate XML? (2010)",
         "url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml/",
         "normalized_url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml",
-        "summary": "HN points: 27, comments: 48",
+        "summary": "HN points: 29, comments: 52",
         "source": "Hacker News",
         "published": "2026-07-05T18:10:50Z",
         "importance_hint": 3,
@@ -797,7 +863,7 @@
         "title": "Moving back home used to be a sign of failure. Now it shows financial savvy",
         "url": "https://www.wsj.com/lifestyle/relationships/living-with-parents-finances-0c35530c",
         "normalized_url": "https://www.wsj.com/lifestyle/relationships/living-with-parents-finances-0c35530c",
-        "summary": "HN points: 23, comments: 29",
+        "summary": "HN points: 23, comments: 30",
         "source": "Hacker News",
         "published": "2026-07-05T17:34:49Z",
         "importance_hint": 3,
@@ -808,7 +874,7 @@
         "title": "A sociotechnical threat model for AI-driven smart home devices",
         "url": "https://arxiv.org/abs/2602.09239",
         "normalized_url": "https://arxiv.org/abs/2602.09239",
-        "summary": "HN points: 78, comments: 57",
+        "summary": "HN points: 79, comments: 60",
         "source": "Hacker News",
         "published": "2026-07-05T17:05:57Z",
         "importance_hint": 4,
@@ -832,7 +898,7 @@
         "title": "Autonomous flying umbrella follows and shields users from rain and sunlight",
         "url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026/",
         "normalized_url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026",
-        "summary": "HN points: 78, comments: 34",
+        "summary": "HN points: 84, comments: 36",
         "source": "Hacker News",
         "published": "2026-07-05T15:49:18Z",
         "importance_hint": 3,
@@ -843,7 +909,7 @@
         "title": "Why DMARC's new \"NP\" tag can fail with DNSSEC",
         "url": "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec",
         "normalized_url": "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec",
-        "summary": "HN points: 37, comments: 14",
+        "summary": "HN points: 41, comments: 18",
         "source": "Hacker News",
         "published": "2026-07-05T15:00:21Z",
         "importance_hint": 3,
@@ -851,69 +917,16 @@
       },
       {
         "category": "news",
-        "title": "Solar rail could become common in Europe after successful trial in Switzerland",
-        "url": "https://www.euronews.com/2026/07/05/italy-could-be-the-next-country-to-build-a-solar-railway-after-switzerlands-successful-tri",
-        "normalized_url": "https://www.euronews.com/2026/07/05/italy-could-be-the-next-country-to-build-a-solar-railway-after-switzerlands-successful-tri",
-        "summary": "HN points: 67, comments: 85",
-        "source": "Hacker News",
-        "published": "2026-07-05T14:49:42Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "C programmers commit fresh crimes against readability",
-        "url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
-        "normalized_url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
-        "summary": "HN points: 12, comments: 3",
-        "source": "Hacker News",
-        "published": "2026-07-05T14:42:42Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
-        "url": "https://prediohq.com/",
-        "normalized_url": "https://prediohq.com",
-        "summary": "HN points: 17, comments: 8",
-        "source": "Hacker News",
-        "published": "2026-07-05T11:30:14Z",
+        "title": "人工智能模型正在迎来属于它们的“iPhone时刻”，接下来会发生什么？",
+        "url": "https://www.36kr.com/p/3858031600588033",
+        "normalized_url": "https://www.36kr.com/p/3858031600588033",
+        "summary": "天底下没有新鲜事。",
+        "source": "36Kr AI",
+        "published": "2026-07-05T23:06:36+00:00",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Ford rehires human engineers after AI fails to match quality checks",
-        "url": "https://www.bbc.com/news/articles/cgrkd41n2v9o",
-        "normalized_url": "https://www.bbc.com/news/articles/cgrkd41n2v9o",
-        "summary": "HN points: 30, comments: 5",
-        "source": "Hacker News",
-        "published": "2026-07-05T10:42:59Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Scientist who cleaned space toilet on work now leading Mars exploration",
-        "url": "https://www.bbc.com/news/articles/cz758x04g83o",
-        "normalized_url": "https://www.bbc.com/news/articles/cz758x04g83o",
-        "summary": "HN points: 25, comments: 7",
-        "source": "Hacker News",
-        "published": "2026-07-05T09:55:22Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "I wanted to be Anthony Bourdain–until I met him",
-        "url": "https://cailey.substack.com/p/i-wanted-to-be-anthony-bourdainuntil",
-        "normalized_url": "https://cailey.substack.com/p/i-wanted-to-be-anthony-bourdainuntil",
-        "summary": "HN points: 69, comments: 21",
-        "source": "Hacker News",
-        "published": "2026-07-05T09:46:07Z",
-        "importance_hint": 3,
-        "metadata": {}
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -1027,19 +1040,6 @@
         "summary": "越卖越亏",
         "source": "36Kr AI",
         "published": "2026-07-05T04:29:55+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "兆易创新不碰制造凭什么值5000亿？",
-        "url": "https://www.36kr.com/p/3882224979013641",
-        "normalized_url": "https://www.36kr.com/p/3882224979013641",
-        "summary": "2023年的兆易创新和2026年的，是同一家公司",
-        "source": "36Kr AI",
-        "published": "2026-07-05T04:28:07+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1289,7 +1289,7 @@
         "published": "2026-07-04T13:30:40+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+          "feed_url": "https://hub.slarker.me/sspai/tag/AI"
         }
       },
       {
@@ -1420,6 +1420,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Some of the nation’s rich are letting AI teach their kids",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+        "summary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha […]",
+        "source": "The Verge AI",
+        "published": "2026-07-05T22:30:54+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
       },
       {
@@ -1628,6 +1641,136 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
+        "url": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention",
+        "summary": "Meituan has released LongCat-2.0, a 1.6 trillion-parameter Mixture-of-Experts model that activates about 48 billion parameters per token. It pairs a native 1-million-token context, built on LongCat Sparse Attention, with training and serving run end-to-end on domestic AI ASIC superpods. Here is the architecture, the vendor-reported benchmarks, the API access path, and what remains unverified. The post Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCa",
+        "source": "MarkTechPost",
+        "published": "2026-07-05T21:25:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools",
+        "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
+        "summary": "LlamaIndex’s legal-kb is a public reference app that gives agents filesystem-style access to a document knowledge base on Index v2. It exposes retrieve (hybrid semantic search), find, read, and grep as tools, with automatic per-file versioning and visual citations. The stack is TanStack Start, AI SDK 6 (ToolLoopAgent), Prisma, and WorkOS. The post LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-05T07:50:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
+        "url": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026",
+        "summary": "Most enterprise data still sits inside PDFs, scans, and slide decks. Large language models and agents cannot use that data until it becomes structured JSON. Open-source document extraction has become the standard way to do that conversion on your own hardware. Two different problems hide under the phrase ‘PDF to JSON.’ The first is schema-driven […] The post Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026 appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-05T03:02:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Qwen’s Former Lead on What Hybrid Thinking Got Wrong — and Why He Now Backs Agents",
+        "url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents",
+        "summary": "Junyang Lin, the former technical lead of Alibaba's Qwen, walked through the model family in a talk \"towards a generalist model / agent,\" then expanded it in an essay. We read both for practitioners: Qwen3 hybrid thinking modes and dynamic thinking budgets, where the merge fell short, the shift from reasoning thinking to agentic thinking, why agentic RL infrastructure is harder, and where reward hacking bites. The post Qwen’s Former Lead on What Hybrid Thinking Got Wrong — and Why He Now Backs A",
+        "source": "MarkTechPost",
+        "published": "2026-07-05T02:31:14+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
+        "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta",
+        "summary": "Anthropic released Claude Science in beta on June 30, 2026. The app runs on existing Claude models. A coordinating agent delegates to domain specialists, a reviewer agent flags and corrects citations and numbers, and every figure ships with its exact code, environment, and full message history. It manages compute across local machines, HPC over SSH, and Modal, and connects to 60+ databases plus NVIDIA BioNeMo skills. The post Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for",
+        "source": "MarkTechPost",
+        "published": "2026-07-04T16:21:21+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion",
+        "url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion",
+        "summary": "A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks. The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-04T16:04:29+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks",
+        "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks",
+        "summary": "NVIDIA's ASPIRE writes and refines robot control programs, then distills validated repairs into a reusable skill library. It gains up to 77 points on LIBERO-Pro and transfers zero-shot to unseen long-horizon tasks. The post NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-04T06:32:47+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
+        "url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems",
+        "summary": "Mistral AI released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It saturates miniF2F and solves 587 of 672 PutnamBench problems. The 119B mixture-of-experts activates 6.5B parameters per token. We break down its architecture, benchmarks, real bug-finding case studies, and deployment code. The post Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-03T22:20:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Designing a Schema-Guided Invoice Intelligence Pipeline with lift-pdf for Accounts-Payable Extraction, Validation, and Ledger Generation",
+        "url": "https://www.marktechpost.com/2026/07/03/schema-guided-invoice-intelligence-pipeline-with-lift-pdf/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/03/schema-guided-invoice-intelligence-pipeline-with-lift-pdf",
+        "summary": "In this tutorial, we build an end-to-end accounts-payable extraction pipeline with lift-pdf, using synthetic invoice PDFs as controlled test documents and a structured JSON schema as the target output format. Instead of treating invoice parsing as a simple OCR task, we frame it as schema-guided document understanding: we generate realistic invoices, define fields such as […] The post Designing a Schema-Guided Invoice Intelligence Pipeline with lift-pdf for Accounts-Payable Extraction, Validation",
+        "source": "MarkTechPost",
+        "published": "2026-07-03T21:25:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox",
+        "url": "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox",
+        "summary": "WebBrain is a free, MIT-licensed AI browser agent for Chrome and Firefox. It reads pages, extracts data, and automates multi-step tasks through Ask and Act modes. Run it on local models like llama.cpp or Ollama for privacy, or connect any cloud API. The post Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-03T05:55:47+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
         }
       },
       {
@@ -2009,6 +2152,19 @@
       },
       {
         "category": "news",
+        "title": "I developed a 270 million parameter language model entirely from scratch as an independent research project",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language",
+        "summary": "The model is built on a custom Transformer architecture featuring Rotary Positional Embeddings, RMSNorm, SwiGLU feed forward layers, grouped query attention, and an efficient autoregressive decoder optimized for local inference. submitted by /u/ConfectionAfter2366 [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-05T19:18:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "Any word on Qwen 3.7 9B? (Also looking for 9B-class alternatives to Qwen 3.5)",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uny822/any_word_on_qwen_37_9b_also_looking_for_9bclass/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uny822/any_word_on_qwen_37_9b_also_looking_for_9bclass",
@@ -2041,19 +2197,6 @@
         "summary": "Sharing some testing of Qwen 3.6 27B using VLLM across the popular quants on my development system. I used llama benchy to generate the results, then fed it into an LLM to format it the tables for readibility. While NVFP4 is blazing fast, have had looping issues in copilot that I don't get with BF16, and the responses in general when used in agent mode seem to be less thorough than the higher quants. Based on these results, FP8 seems to be the right choice. Some of the parameters can be further ",
         "source": "r/LocalLLaMA",
         "published": "2026-07-05T14:06:23+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "I developed a 270 million parameter language model entirely from scratch as an independent research project",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language",
-        "summary": "The model is built on a custom Transformer architecture featuring Rotary Positional Embeddings, RMSNorm, SwiGLU feed forward layers, grouped query attention, and an efficient autoregressive decoder optimized for local inference. submitted by /u/ConfectionAfter2366 [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-05T19:18:27+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
