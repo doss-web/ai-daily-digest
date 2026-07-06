@@ -1,10 +1,10 @@
 {
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T05:54:49.199246+08:00",
+  "generated_at": "2026-07-07T07:13:15.306643+08:00",
   "counts": {
     "papers": 30,
     "projects": 25,
-    "news": 125
+    "news": 117
   },
   "items": {
     "papers": [
@@ -742,10 +742,87 @@
     "news": [
       {
         "category": "news",
+        "title": "Even banks and hyperscalers are now sounding the alarm about the AI bubble",
+        "url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+        "normalized_url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+        "summary": "HN points: 16, comments: 2",
+        "source": "Hacker News",
+        "published": "2026-07-06T21:24:58Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector",
+        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+        "normalized_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+        "summary": "HN points: 20, comments: 8",
+        "source": "Hacker News",
+        "published": "2026-07-06T21:09:23Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Majority of id software to be laid off by Microsoft",
+        "url": "https://bsky.app/profile/dark1x.bsky.social/post/3mpyugwk5yc27",
+        "normalized_url": "https://bsky.app/profile/dark1x.bsky.social/post/3mpyugwk5yc27",
+        "summary": "HN points: 16, comments: 4",
+        "source": "Hacker News",
+        "published": "2026-07-06T21:06:13Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Spain's Solar Is So Cheap Investors Are Looking for an Exit",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-30/spain-s-solar-is-so-cheap-investors-are-looking-for-an-exit",
+        "normalized_url": "https://www.bloomberg.com/news/newsletters/2026-06-30/spain-s-solar-is-so-cheap-investors-are-looking-for-an-exit",
+        "summary": "HN points: 12, comments: 3",
+        "source": "Hacker News",
+        "published": "2026-07-06T20:35:10Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "GLM 5.2 and the coming AI margin collapse",
+        "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+        "normalized_url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2",
+        "summary": "HN points: 46, comments: 14",
+        "source": "Hacker News",
+        "published": "2026-07-06T20:14:55Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Pruning RAG context down to what the answer actually needs",
+        "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+        "normalized_url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+        "summary": "HN points: 28, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-07-06T19:28:24Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Companies hire more after AI adoption",
+        "url": "https://ramp.com/data/heavy-ai-adopters-hire-more",
+        "normalized_url": "https://ramp.com/data/heavy-ai-adopters-hire-more",
+        "summary": "HN points: 14, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-07-06T18:24:11Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "A global workspace in language models",
         "url": "https://www.anthropic.com/research/global-workspace",
         "normalized_url": "https://www.anthropic.com/research/global-workspace",
-        "summary": "HN points: 176, comments: 52",
+        "summary": "HN points: 218, comments: 74",
         "source": "Hacker News",
         "published": "2026-07-06T17:44:08Z",
         "importance_hint": 4,
@@ -767,7 +844,7 @@
         "title": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario",
         "url": "https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
         "normalized_url": "https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
-        "summary": "HN points: 88, comments: 92",
+        "summary": "HN points: 89, comments: 96",
         "source": "Hacker News",
         "published": "2026-07-06T17:16:41Z",
         "importance_hint": 3,
@@ -789,7 +866,7 @@
         "title": "South Korea's SK Hynix launches $28B US listing to ride global AI wave",
         "url": "https://www.reuters.com/world/asia-pacific/south-koreas-sk-hynix-launch-28-billion-us-listing-ride-global-ai-wave-2026-07-06/",
         "normalized_url": "https://www.reuters.com/world/asia-pacific/south-koreas-sk-hynix-launch-28-billion-us-listing-ride-global-ai-wave-2026-07-06",
-        "summary": "HN points: 14, comments: 2",
+        "summary": "HN points: 16, comments: 2",
         "source": "Hacker News",
         "published": "2026-07-06T16:51:44Z",
         "importance_hint": 4,
@@ -800,7 +877,7 @@
         "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
         "url": "https://github.com/iOfficeAI/OfficeCLI",
         "normalized_url": "https://github.com/iOfficeAI/OfficeCLI",
-        "summary": "HN points: 79, comments: 23",
+        "summary": "HN points: 102, comments: 31",
         "source": "Hacker News",
         "published": "2026-07-06T16:47:44Z",
         "importance_hint": 5,
@@ -811,7 +888,7 @@
         "title": "Show HN: Pulpie – Models for Cleaning the Web",
         "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/",
         "normalized_url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
-        "summary": "HN points: 71, comments: 15",
+        "summary": "HN points: 79, comments: 17",
         "source": "Hacker News",
         "published": "2026-07-06T16:04:27Z",
         "importance_hint": 4,
@@ -822,76 +899,10 @@
         "title": "Kani: A Model Checker for Rust",
         "url": "https://arxiv.org/abs/2607.01504",
         "normalized_url": "https://arxiv.org/abs/2607.01504",
-        "summary": "HN points: 112, comments: 7",
+        "summary": "HN points: 118, comments: 7",
         "source": "Hacker News",
         "published": "2026-07-06T15:53:24Z",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "The AI Superforecasters Are Here",
-        "url": "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
-        "normalized_url": "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
-        "summary": "HN points: 54, comments: 49",
-        "source": "Hacker News",
-        "published": "2026-07-06T15:45:11Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Electric anti-aircraft interceptor drone breaks world air speed record at 434mph",
-        "url": "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon",
-        "normalized_url": "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon",
-        "summary": "HN points: 59, comments: 45",
-        "source": "Hacker News",
-        "published": "2026-07-06T15:24:54Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "You Don't Own Your .io or .ai. You Rent a Country's Politics",
-        "url": "https://webhosting.today/2026/07/02/you-dont-own-your-io-or-ai-you-rent-a-countrys-politics/",
-        "normalized_url": "https://webhosting.today/2026/07/02/you-dont-own-your-io-or-ai-you-rent-a-countrys-politics",
-        "summary": "HN points: 32, comments: 12",
-        "source": "Hacker News",
-        "published": "2026-07-06T15:07:17Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Google Chrome Installed a 4GB AI Model on Your PC",
-        "url": "https://oztalking.com/en/issues/hidden-4gb-ai-model",
-        "normalized_url": "https://oztalking.com/en/issues/hidden-4gb-ai-model",
-        "summary": "HN points: 77, comments: 63",
-        "source": "Hacker News",
-        "published": "2026-07-06T15:01:44Z",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
-        "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-        "normalized_url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-        "summary": "HN points: 242, comments: 172",
-        "source": "Hacker News",
-        "published": "2026-07-06T15:01:18Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "An independent evaluation of TabFM, Google's tabular foundation model",
-        "url": "https://yashrajpandey.com/writing/breaking-google-tabfm/",
-        "normalized_url": "https://yashrajpandey.com/writing/breaking-google-tabfm",
-        "summary": "HN points: 11, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-07-06T14:53:12Z",
-        "importance_hint": 5,
         "metadata": {}
       },
       {
@@ -1286,6 +1297,19 @@
       },
       {
         "category": "news",
+        "title": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
+        "url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+        "normalized_url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+        "summary": "Anthropic , the artificial intelligence company, published a sweeping research paper on Sunday revealing that its Claude language models have spontaneously developed an internal structure that mirrors one of the most influential theories of how human consciousness works. The finding, which the company says has already begun reshaping how it monitors its AI systems for safety risks, lands amid an intensifying scientific debate over whether machines can possess anything resembling a mind. The 16-a",
+        "source": "VentureBeat",
+        "published": "2026-07-06T21:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://venturebeat.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Tencent's Apache-licensed Hy3 takes on GLM-5.2 at half the size — and wins everywhere except coding",
         "url": "https://venturebeat.com/technology/tencents-apache-licensed-hy3-takes-on-glm-5-2-at-half-the-size-and-wins-everywhere-except-coding",
         "normalized_url": "https://venturebeat.com/technology/tencents-apache-licensed-hy3-takes-on-glm-5-2-at-half-the-size-and-wins-everywhere-except-coding",
@@ -1676,136 +1700,6 @@
       },
       {
         "category": "news",
-        "title": "Sakana AI Launches Sakana Translate, a Namazu-Powered Japanese–English–Chinese Translation Tool With Translate, Proofread, and Ask Modes",
-        "url": "https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate",
-        "summary": "Sakana AI has added Sakana Translate to Sakana Chat. It runs on the Namazu model series. The tool translates bidirectionally across Japanese, English, and Chinese. Three modes ship together: Translate, Proofread, and Ask. This article breaks down each mode, the XCOMET-XL benchmark, and practical use cases. The post Sakana AI Launches Sakana Translate, a Namazu-Powered Japanese–English–Chinese Translation Tool With Translate, Proofread, and Ask Modes appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-06T05:35:09+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Machine Learning, Biology, Physics, and Chemistry Research",
-        "url": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research",
-        "summary": "Synthetic Sciences has released OpenScience, an Apache-2.0 AI workbench for scientific research. It works with any frontier or open-weight model, using your own API keys. It runs the full loop across machine learning, biology, physics, and chemistry. It ships 250+ editable skills and queryable scientific databases, and it runs on your own infrastructure. The post Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Machine Learning, Biology, Physics, and Chemi",
-        "source": "MarkTechPost",
-        "published": "2026-07-06T05:07:12+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards",
-        "url": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards",
-        "summary": "We build an end-to-end GRPO training workflow that teaches Gemma-3 to reason through GSM8K math problems. We prepare the environment, authenticate with Hugging Face, load Gemma-3, and wrap examples into a reasoning-plus-answer prompt format. We define reward functions for format adherence and numeric correctness, then attach LoRA adapters to keep training lightweight. We evaluate a baseline, run GRPO to improve the policy through group-sampled generations, and optionally export the merged model.",
-        "source": "MarkTechPost",
-        "published": "2026-07-06T04:26:58+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
-        "url": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention",
-        "summary": "Meituan has released LongCat-2.0, a 1.6 trillion-parameter Mixture-of-Experts model that activates about 48 billion parameters per token. It pairs a native 1-million-token context, built on LongCat Sparse Attention, with training and serving run end-to-end on domestic AI ASIC superpods. Here is the architecture, the vendor-reported benchmarks, the API access path, and what remains unverified. The post Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCa",
-        "source": "MarkTechPost",
-        "published": "2026-07-05T21:25:10+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools",
-        "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
-        "summary": "LlamaIndex’s legal-kb is a public reference app that gives agents filesystem-style access to a document knowledge base on Index v2. It exposes retrieve (hybrid semantic search), find, read, and grep as tools, with automatic per-file versioning and visual citations. The stack is TanStack Start, AI SDK 6 (ToolLoopAgent), Prisma, and WorkOS. The post LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-05T07:50:19+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
-        "url": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026",
-        "summary": "Most enterprise data still sits inside PDFs, scans, and slide decks. Large language models and agents cannot use that data until it becomes structured JSON. Open-source document extraction has become the standard way to do that conversion on your own hardware. Two different problems hide under the phrase ‘PDF to JSON.’ The first is schema-driven […] The post Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026 appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-05T03:02:08+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Qwen’s Former Lead on What Hybrid Thinking Got Wrong — and Why He Now Backs Agents",
-        "url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents",
-        "summary": "Junyang Lin, the former technical lead of Alibaba's Qwen, walked through the model family in a talk \"towards a generalist model / agent,\" then expanded it in an essay. We read both for practitioners: Qwen3 hybrid thinking modes and dynamic thinking budgets, where the merge fell short, the shift from reasoning thinking to agentic thinking, why agentic RL infrastructure is harder, and where reward hacking bites. The post Qwen’s Former Lead on What Hybrid Thinking Got Wrong — and Why He Now Backs A",
-        "source": "MarkTechPost",
-        "published": "2026-07-05T02:31:14+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
-        "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta",
-        "summary": "Anthropic released Claude Science in beta on June 30, 2026. The app runs on existing Claude models. A coordinating agent delegates to domain specialists, a reviewer agent flags and corrects citations and numbers, and every figure ships with its exact code, environment, and full message history. It manages compute across local machines, HPC over SSH, and Modal, and connects to 60+ databases plus NVIDIA BioNeMo skills. The post Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for",
-        "source": "MarkTechPost",
-        "published": "2026-07-04T16:21:21+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion",
-        "url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion",
-        "summary": "A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks. The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-04T16:04:29+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks",
-        "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks",
-        "summary": "NVIDIA's ASPIRE writes and refines robot control programs, then distills validated repairs into a reusable skill library. It gains up to 77 points on LIBERO-Pro and transfers zero-shot to unseen long-horizon tasks. The post NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-04T06:32:47+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
         "title": "sqlite-utils 4.0rc3",
         "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jul/6/sqlite-utils",
@@ -2170,6 +2064,19 @@
       },
       {
         "category": "news",
+        "title": "So... anyone copped one of these?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9x38/so_anyone_copped_one_of_these/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9x38/so_anyone_copped_one_of_these",
+        "summary": "Been almost a year since mass hysteria erupted upon the death of NVIDIAs GPU monopoly. How are your Huawei GPUs? Does CUDA work on them yet? submitted by /u/entsnack [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-06T20:55:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "Qwen & Gemma on deadlock situation (For Benchmarks Numbers)?",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoppuz/qwen_gemma_on_deadlock_situation_for_benchmarks/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoppuz/qwen_gemma_on_deadlock_situation_for_benchmarks",
@@ -2189,19 +2096,6 @@
         "summary": "Collection: https://huggingface.co/collections/tencent/hy3 From elie on 𝕏: https://x.com/eliebakouch/status/2074011171661701466 edit: To clarify: this is the non-preview version of Hy3 and they changed their license from the community one (restrictive + not allowed in SK, UK, EU) to Apache 2.0 submitted by /u/Nunki08 [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-07-06T06:09:27+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "So... anyone copped one of these?",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9x38/so_anyone_copped_one_of_these/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9x38/so_anyone_copped_one_of_these",
-        "summary": "Been almost a year since mass hysteria erupted upon the death of NVIDIAs GPU monopoly. How are your Huawei GPUs? Does CUDA work on them yet? submitted by /u/entsnack [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-06T20:55:08+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2235,12 +2129,12 @@
       },
       {
         "category": "news",
-        "title": "As promised, here is the GitHub link for my 100% local voice-to-voice assistant",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uom9zb/as_promised_here_is_the_github_link_for_my_100/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uom9zb/as_promised_here_is_the_github_link_for_my_100",
-        "summary": "I've posted up earlier versions of this project before, promising a GitHub link, but never got around to pushing the code from my local system. Sorry all, I have a very busy life :P Anyway, without further ado: GitHub: https://github.com/igorbarshteyn/athena Athena is a fully offline, privacy-first voice assistant that runs entirely on local hardware. Athena combines a large mixture-of-experts language model (Qwen3.5-397B), neural text-to-speech (Orpheus 3B), real-time speech recognition (Whispe",
+        "title": "ThinkingCap-Qwen3.6-27B: same accuracy as base Qwen3.6 with ~50% fewer thinking",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3mui/thinkingcapqwen3627b_same_accuracy_as_base_qwen36/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3mui/thinkingcapqwen3627b_same_accuracy_as_base_qwen36",
+        "summary": "We rigorously evaluate the resulting checkpoint across general reasoning, non-reasoning multiple-choice question answering, everyday multi-turn conversations, system prompt adherence, safety, math, code and agentic use cases. Due to the high variability of reasoning quality at Qwen-recommended sampling temperature 1.0, we run each benchmark with multiple seeds and do statistical significance testing on all the results. We evaluate both in domain (holdout parts of selected datasets included in tr",
         "source": "r/LocalLLaMA",
-        "published": "2026-07-06T03:44:55+00:00",
+        "published": "2026-07-06T17:13:16+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2248,12 +2142,12 @@
       },
       {
         "category": "news",
-        "title": "ThinkingCap-Qwen3.6-27B: same accuracy as base Qwen3.6 with ~50% fewer thinking",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3mui/thinkingcapqwen3627b_same_accuracy_as_base_qwen36/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3mui/thinkingcapqwen3627b_same_accuracy_as_base_qwen36",
-        "summary": "We rigorously evaluate the resulting checkpoint across general reasoning, non-reasoning multiple-choice question answering, everyday multi-turn conversations, system prompt adherence, safety, math, code and agentic use cases. Due to the high variability of reasoning quality at Qwen-recommended sampling temperature 1.0, we run each benchmark with multiple seeds and do statistical significance testing on all the results. We evaluate both in domain (holdout parts of selected datasets included in tr",
+        "title": "As promised, here is the GitHub link for my 100% local voice-to-voice assistant",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uom9zb/as_promised_here_is_the_github_link_for_my_100/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uom9zb/as_promised_here_is_the_github_link_for_my_100",
+        "summary": "I've posted up earlier versions of this project before, promising a GitHub link, but never got around to pushing the code from my local system. Sorry all, I have a very busy life :P Anyway, without further ado: GitHub: https://github.com/igorbarshteyn/athena Athena is a fully offline, privacy-first voice assistant that runs entirely on local hardware. Athena combines a large mixture-of-experts language model (Qwen3.5-397B), neural text-to-speech (Orpheus 3B), real-time speech recognition (Whispe",
         "source": "r/LocalLLaMA",
-        "published": "2026-07-06T17:13:16+00:00",
+        "published": "2026-07-06T03:44:55+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
