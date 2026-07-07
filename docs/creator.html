@@ -36,6 +36,82 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-07-08">AI 每日简报 · 2026-07-08 周三</span>
+    <button class="cbtn" data-copy="t-2026-07-08">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-07-08.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-07-08.mp3" download="2026-07-08.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-07-08">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-07-08">AI 每日简报 · 2026-07-08 周三
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· Anthropic 将 Claude Cowork 扩展到移动端和网页端：Claude Cowork 从仅限桌面应用扩展至移动端和网页端，允许用户在后台运行任务，即使关闭笔记本电脑也能继续工作。
+  来源：https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding
+· 微软加入 AI 降本趋势，更多地依赖自研模型：微软正在逐步用自研 MAI 模型替代 OpenAI 和 Anthropic 的模型，用于 Excel、Outlook 等产品，AI 负责人 Mustafa Suleyman 表示要&quot;最终消除&quot;外部模型成本。
+  来源：https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/
+· Anthropic 的 Jacobian Lens 揭示 Claude 内部的&quot;静默工作空间&quot;——J-Space：Anthropic 研究发现 Claude 在训练中自发形成了类似人类意识理论的内部工作记忆结构，可通过新分析工具 J-Lens 读取。
+  来源：https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness
+· Meta 发布 Muse Image 模型，可将其他 Instagram 用户拉入 AI 照片：Meta 的 Superintelligence Labs 部门推出首个 AI 图像生成模型 Muse Image，现已支持 Meta AI 应用、Instagram 和 WhatsApp 的图像工具。
+  来源：https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram
+· 腾讯发布 Hy3：295B MoE 开源模型，Apache 2.0 许可：腾讯发布 Hy3，295B 参数 MoE 模型（21B 活跃参数），性能对标 GLM-5.2，采用 Apache 2.0 许可，无地域使用限制。
+  来源：https://venturebeat.com/technology/tencents-apache-licensed-hy3-takes-on-glm-5-2-at-half-the-size-and-wins-everywhere-except-coding
+· 微软裁员 4,800 人：微软在新财年开始之际裁员约 4,800 人（占员工总数 2.1%），主要涉及商业销售和 Xbox 部门。
+  来源：https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox
+· OpenAI 首席未来学家 Joshua Achiam 离职：在 OpenAI 工作近九年的 AI 安全研究负责人 Joshua Achiam 离开公司，曾在 Musk v. Altman 审判中出庭作证。
+  来源：https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/
+· DeepSeek 正在设计自研 AI 芯片：据路透社报道，中国 AI 初创公司 DeepSeek 正在开发自己的 AI 芯片。
+  来源：https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/
+· 中国 AI 模型在 OpenRouter 上占比超 30%，成本优势扩大：中国 AI 模型因成本远低于 OpenAI 和 Anthropic，正在美国企业中获得更多采用。
+  来源：https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens/
+· Cloudflare 推出精细化的 AI 爬虫控制：Cloudflare 允许网站管理员分别管理搜索、训练和 Agent 爬虫，9 月 15 日起默认阻止训练和 Agent 爬虫访问广告支持页面。
+  来源：https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/
+· 三星营业利润翻 18 倍但股价暴跌，市场担忧 AI 芯片周期见顶：尽管三星营业利润大幅增长，投资者开始担心 AI 狂潮可持续性及科技巨头可能放缓 AI 基础设施资本支出。
+  来源：https://www.36kr.com/p/3885257289510917
+· Elastic 开源基于认知科学的 Atlas Agent Memory：Elastic 发布了受认知科学启发的 Agent 记忆系统 Atlas，作为开源项目。
+  来源：https://www.infoq.cn/article/pzYuRUO0ECSKktJjKV8P
+
+📄 重要论文
+· Anthropic 的 Jacobian Lens：揭示 Claude 内部的&quot;全局工作空间&quot;：Anthropic 发表 16 页研究论文，发现 Claude 模型自发形成了与人类意识理论（全局工作空间理论）高度相似的内部结构，可通过 J-Lens 工具读取模型的&quot;内心独白&quot;。
+  来源：https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/
+· 弱到强泛化：通过直接在线蒸馏实现：研究提出在小型模型上运行 RL 后蒸馏到大型模型，降低 RL 训练成本，解决大模型后训练成为瓶颈的问题。
+  来源：https://arxiv.org/abs/2607.05394v1
+· ACID：通过逆向动力学实现世界模型规划的动作一致性：提出一种新的决策时规划框架，通过循环动作一致性约束确保预测轨迹的可实现性，解决标准规划成本忽略中间过渡可执行性的问题。
+  来源：https://huggingface.co/papers/2607.02403
+· SearchGen：超越可教授的知识边界——Agent 视觉生成中的知识边界演化：构建 SearchGen-20K 基准，涵盖 20,839 个提示和 12 个失败类别，解决视觉生成模型对训练集外知识&quot;自信编造&quot;的结构性问题。
+  来源：https://arxiv.org/abs/2607.05382v1
+· CompactionRL：通过上下文压缩训练长时域 Agent：提出将上下文压缩集成到强化学习训练中的策略，训练 Agent 在有限上下文窗口中处理超长交互轨迹。
+  来源：https://arxiv.org/abs/2607.05378v1
+· NVIDIA Nemotron-Labs-3-Puzzle-75B-A9B：部署优化的高效 LLM：NVIDIA 通过 Iterative Puzzle 压缩框架从 Nemotron-3-Super-120B-A12B 蒸馏出的部署优化模型，采用 Mamba、MoE 和 Attention 混合架构。
+  来源：https://www.reddit.com/r/LocalLLaMA/comments/1upsdmi/nvidianvidianemotronlabs3puzzle75ba9bbf16_hugging/
+· EdgeBench：从真实环境学习中揭示缩放定律：分析约 38,000 小时的 Agent 与环境交互数据，发现环境学习中的性能遵循对数-sigmoid 缩放定律，R² 达到 0.998。
+  来源：https://huggingface.co/papers/2607.05155
+
+🔧 开源项目
+· addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐+1,311/天：面向 AI 编码 Agent 的生产级工程技能库。
+· asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) ⭐+1,704/天：提取的各大 AI 模型系统提示词合集，包括 Claude、OpenAI、Google、xAI 等。
+· TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) ⭐+665/天：为 AI Agent 设计的即时、并发、安全、轻量级沙箱环境。
+· iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) ⭐+802/天：专为 AI Agent 设计的 Office 套件命令行工具，支持读写和自动化 Word、Excel、PowerPoint 文件。
+· MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) ⭐+2,402/天：基于 Claude Code 的 AI 驱动求职框架，可自动评估岗位、定制简历、写求职信。
+· langchain-ai/openwiki](https://github.com/langchain-ai/openwiki)：LangChain 推出的 CLI 工具，可自动编写和维护代码库的 Agent 文档。
+
+🐦 AI 圈热议
+· &quot;300 行代码写个 Cursor&quot;——Ralph Loop 创造者的暴论引发争论：Ralph Loop（Claude Code 核心技术设计者）称&quot;如果你不能用 300 行代码写个 Cursor，这行你就别待了&quot;，并评论&quot;人人都成了软件开发者，但这不代表他们是软件工程师&quot;。这一观点在 Twitter 和中文技术社区引发关于 AI 编程工具降低门槛与软件工程本质的激烈讨论。
+  来源：https://www.36kr.com/p/3885317858865154
+· Reddit 用户成功将 Anthropic 的 Jacobian Lens 应用于开源模型：一位开发者将 Anthropic 新发布的 J-Lens 技术应用于 Gemma 4、Qwen 3.6 等开源模型，并构建了本地模型幻觉检测路由器。社区反响热烈，认为这可能是&quot;LLM 可解释性的 GPT 时刻&quot;。
+  来源：https://www.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/
+
+💡 今日观察
+今天最值得关注的信号是&quot;去 OpenAI/Anthropic 化&quot;趋势加速：微软已开始用自研模型替代外部模型，中国企业 DeepSeek 自研芯片，中国开源模型在 OpenRouter 上占比超 30%。这预示 AI 生态正从&quot;少数巨头垄断模型&quot;走向&quot;多元化、自研化、成本优先&quot;的新阶段。同时，Anthropic 的 Jacobian Lens 和 Claude Cowork 移动化两条新闻分别代表了 AI 可解释性的突破和 Agent 向大众市场的扩张——技术深度与用户广度同时推进。值得注意的是，三星利润暴增却股价暴跌，市场对 AI 基础设施投资的周期性担忧正在升温，这是今年首次出现的明确信号。
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-07-07">AI 每日简报 · 2026-07-07 周二</span>
     <button class="cbtn" data-copy="t-2026-07-07">📋 复制标题</button>
   </div>
@@ -1318,84 +1394,6 @@
 
 💡 今日观察
 今天的简报被两个主题主导：**Agent 基础设施的全面爆发**和**AI 安全与对齐的深入博弈**。Anthropic 的 Claude Tag、Sakana 的 Fugu、xAI 的 /goal 以及 Cursor 的自研模型，共同指向一个趋势——AI Agent 正从单次对话转向持久化、自主化的&quot;数字同事&quot;。同时，OpenAI 的 Patch the Planet、Meta 的员工数据泄露事件、以及多篇关于 Agent 过早承诺和对抗性攻击的论文，表明安全不再是事后考虑，而是 Agent 规模化部署的核心瓶颈。值得特别关注的是，Google 将 Interactions API 设为 Gemini 默认接口，以及 Microsoft 开源 FastContext，都暗示了行业正在为 Agent 时代重构底层协议和工具链。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-06-23">AI 每日简报 · 2026-06-23 周二</span>
-    <button class="cbtn" data-copy="t-2026-06-23">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-06-23.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-06-23.mp3" download="2026-06-23.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-06-23">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-06-23">AI 每日简报 · 2026-06-23 周二
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· xAI 发布 Grok Skills 及新的 Responses API：xAI 推出了 Grok Skills 功能并更新了用于工具调用的 Responses API，增强了模型的工具使用能力。
-  来源：https://www.infoq.cn/article/hmME4JhKTJUYJy9DNEJ2
-· OpenAI 启动“Patch the Planet”计划，大规模修复开源漏洞：OpenAI 推出 Daybreak 计划下的 Patch the Planet 倡议，利用 GPT-5.5-Cyber 帮助开源维护者发现、验证和修复漏洞。
-  来源：https://openai.com/index/patch-the-planet
-· Google DeepMind 与 A24 达成 7500 万美元合作，共研 AI 电影制作工具：Google DeepMind 与独立电影工作室 A24 建立长期研究合作伙伴关系，共同开发 AI 电影制作工具。
-  来源：https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/
-· Meta 因内部数据泄露暂停员工击键追踪 AI 训练项目：Meta 暂停了有争议的员工活动追踪项目，该项目此前通过收集员工击键数据来训练 AI 模型。
-  来源：https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/
-· 五眼联盟警告：前沿 AI 模型数月内即可具备颠覆政府能力：五眼情报联盟联合警告称，能够颠覆政府和企业的人工智能模型距离可用仅剩数月时间。
-  来源：https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security
-· Sakana AI 发布 Fugu 多模型编排系统，性能达前沿水平：Sakana AI 推出 Fugu 系统，通过动态编排多个 AI 模型，在基准测试中匹配 Anthropic Fable 5 水平，同时降低对单一供应商的依赖。
-  来源：https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system
-· DeepSeek 以 600 亿美元估值融资 74 亿美元，梁文锋个人投资 30 亿：DeepSeek 完成新一轮融资，创始人梁文锋个人投入 30 亿美元，公司估值达 600 亿美元。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1ucwyes/deepseek_raises_74b_usd_at_60b_valuation/
-· SpaceX 与 AI 初创公司 Reflection 签署 63 亿美元算力协议：Reflection AI 将从 2026 年 7 月起每月支付 1.5 亿美元，获取 SpaceX Colossus 2 数据中心内英伟达 GB300 芯片的优先使用权。
-  来源：https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/
-· AI 芯片公司 Groq 确认 6.5 亿美元融资，重组团队：Groq 在英伟达 200 亿美元非收购交易后完成新一轮融资，并重新组建高管团队。
-  来源：https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/
-· 吴恩达：AI 炒作过头，未来公司是 10 人小队 + Agent 重做数据架构：吴恩达指出当前 AI 领域存在过度炒作，认为未来的高效公司将由小团队配合 AI Agent 重新构建数据架构。
-  来源：https://www.infoq.cn/article/9ubrcrTRdxROBUo5igpy
-· Anthropic 与美光合作共研 AI 内存架构：美光投资 Anthropic H 轮融资并签署多年协议，为 Claude 基础设施供应内存，双方将共同设计 AI 专用内存架构。
-  来源：https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/
-· Google 将 Interactions API 设为 Gemini 模型和 Agent 的默认接口：Google DeepMind 将 Interactions API 设为 Gemini 模型和 Agent 的默认接口，取代旧的 generateContent API。
-  来源：https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/
-· 三星电子向全球员工部署 ChatGPT Enterprise 和 Codex：三星电子在韩国及全球 DX 部门部署 ChatGPT Enterprise 和 Codex，是 OpenAI 最大规模的企业级 AI 部署之一。
-  来源：https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
-· Getty Images 与 OpenAI 签署多年授权协议，照片将接入 ChatGPT 搜索：Getty Images 与 OpenAI 达成多年授权合作，授权图片将出现在 ChatGPT 搜索结果中。
-  来源：https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/
-· Vibe Coding 成为软件收购尽职调查的试金石：贝恩咨询公司使用 Vibe Coding 快速复制潜在收购目标的软件，AI 复刻品已开始影响具体的收购决策。
-  来源：https://the-decoder.com/vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions/
-
-📄 重要论文
-· Self-Harness：让 AI Agent 自行重写规则，性能提升 60%：研究人员提出 Self-Harness 框架，使 AI Agent 能够自主修改其行为规则，通过系统性反馈循环替代人工调试。
-  来源：https://venturebeat.com/orchestration/researchers-introduce-self-harness-a-framework-that-lets-ai-agents-rewrite-their-own-rules-boosting-performance-up-to-60
-· SproutRAG：注意力引导树搜索实现长文档 RAG 新范式：提出 SproutRAG 框架，通过注意力引导的层次化 RAG 方法，在长文档检索中平衡粒度与上下文连贯性。
-  来源：https://huggingface.co/papers/2606.18381
-· GateMem：多主体共享记忆 Agent 基准测试：提出 GateMem 基准，用于评估多用户共享记忆场景下 Agent 的记忆治理能力，涵盖医院、企业、校园等真实部署场景。
-  来源：https://huggingface.co/papers/2606.18829
-· WorldLines：长时域具身 Agent 基准测试与建模：提出 WorldLines 基准，用于评测具身 Agent 在真实家庭环境中的长时记忆、用户习惯跟踪和状态管理能力。
-  来源：https://huggingface.co/papers/2606.18847
-· ContextRL：上下文感知强化学习提升长程推理能力：提出 ContextRL 方法，通过间接辅助目标增强 LLM 在长上下文和复杂多模态场景中的推理能力。
-  来源：https://huggingface.co/papers/2606.17053
-· Multi-LCB：将 LiveCodeBench 扩展至多编程语言：将广泛使用的代码生成评估基准 LiveCodeBench 从 Python 扩展到多种编程语言，提供更全面的代码能力评估。
-  来源：https://huggingface.co/papers/2606.20517
-· HumanScale：第一人称人类视频超越真实机器人数据用于具身预训练：研究发现，第一人称人类视频在具身基础模型预训练中的效果可超越真实机器人遥操作数据，且可扩展性更强。
-  来源：https://huggingface.co/papers/2606.20521
-· FP4 预训练中的缩水偏差：几何起源与系统影响：研究发现 FP4 训练中 E2M1 格式存在系统性负舍入误差（缩水偏差），并提出 UFP4 方案来缓解该问题。
-  来源：https://huggingface.co/papers/2606.20381
-
-🔧 开源项目
-· Oak：专为 AI Agent 设计的 Git 替代方案：Oak 是一个针对 AI Agent 工作流优化的版本控制系统，在 Hacker News 获得 128 个点赞和 126 条评论，社区讨论热烈。
-  来源：https://oak.space/oak/oak
-· Block/buzz：面向人类与 Agent 协同的工作空间：Block 公司开源了 Buzz 工作空间，专为人类与 AI Agent 混合团队设计，支持协作开发。
-  来源：https://github.com/block/buzz
-· Ling 和 Ring 2.6：万亿参数规模的即时 Agent 智能：InclusionAI 发布 Ling-2.6 系列模型，包括 1T 参数版本和 100B 参数的 Flash 版本，面向 Agent 场景优化。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1ucih9e/ling_and_ring_26_technical_report_efficient_and/
-
-💡 今日观察
-今天的资讯呈现出几个清晰信号：第一，**AI Agent 正在从概念走向产品化**，Google 将 Interactions API 设为默认接口、xAI 发布 Grok Skills、Sakana 推出 Fugu 多模型编排系统，以及多个 Agent 相关论文刷屏，表明行业正在为 Agent 大规模部署铺路。第二，**AI 安全与伦理进入全面博弈期**，五眼联盟的政府级预警、Meta 员工数据泄露事件、OpenAI 的 Patch the Planet 安全计划同时出现，说明 AI 的安全风险已经从学术讨论升级为政策制定者和企业必须面对的实操问题。第三，**基础设施瓶颈正在从算力转向内存和上下文管理**，Anthropic 与美光的合作、多篇关于长上下文和记忆管理的论文密集发布，都指向一个趋势：当 GPU 算力不再是稀缺资源时，如何高效管理 AI 的&quot;记忆&quot;将成为下一阶段的核心竞争力。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
