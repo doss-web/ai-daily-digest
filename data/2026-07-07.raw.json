@@ -1,13 +1,78 @@
 {
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T17:27:30.822104+08:00",
+  "generated_at": "2026-07-07T19:59:48.556270+08:00",
   "counts": {
     "papers": 40,
-    "projects": 24,
-    "news": 127
+    "projects": 23,
+    "news": 128
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Taste-aware music retrieval from audio embeddings",
+        "url": "https://huggingface.co/papers/2607.03296",
+        "normalized_url": "https://huggingface.co/papers/2607.03296",
+        "summary": "Crossmodal correspondences between sound and taste are well established in psychology and neuroscience, but largely absent from content-based multimedia retrieval. We formalise taste-from-audio prediction as a content-based music information retrieval benchmark over a perceptually validated multi-source corpus, comparing ten frozen audio encoders from the four HEAR families under a shared multi-task regression head, with gated late-fusion as a configurable variant. In order to assess the effecti",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-03T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.03296"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Transition-Aware best-of-N sampling for Longitudinal Chest X-ray Reports",
+        "url": "https://huggingface.co/papers/2606.28393",
+        "normalized_url": "https://huggingface.co/papers/2606.28393",
+        "summary": "In longitudinal clinical practice, every chest X-ray is read in the context of the patients prior exam, and much of what the radiologist communicates is the change from one visit to the next. To the best of our knowledge, we present the first training-free best-of-N sampling scheme for pre-trained chest X-ray report generators that is explicitly aware of this longitudinal prior to current transition. We call it transition-aware best-of-N sampling, each report is split into sentences and embedded",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-23T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2606.28393"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MANCE: Manifold Aware Concept Erasure",
+        "url": "https://huggingface.co/papers/2607.03973",
+        "normalized_url": "https://huggingface.co/papers/2607.03973",
+        "summary": "Concept erasure aims to remove a target concept from a representation while preserving the other information encoded in it. This is difficult because representations encode many concepts that are often correlated with the erasure target, so removing the target risks damaging them. We propose the Manifold Constraint Hypothesis (MCH): if natural representations concentrate on a structured, lower-dimensional manifold, then interventions should be constrained to that manifold and better preserve oth",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-04T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2607.03973"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AI Wizards at EXIST 2026: Hierarchical Soft-Label Learning for Multimodal Sexism Identification in Memes",
+        "url": "https://huggingface.co/papers/2607.04410",
+        "normalized_url": "https://huggingface.co/papers/2607.04410",
+        "summary": "We present the AI Wizards submission to EXIST 2026 for multimodal sexism identification in memes. The task is composed of three, increasingly harder subtasks. We model them hierarchically as conditional soft-label prediction over empirical annotator distributions. Our system maps fixed Gemini Embedding 2 vision-language representations through a lightweight Gated MLP trained with KL divergence and homoscedastic uncertainty weighting. Our submissions ranked first on Task 2.3 and fourth on Tasks 2",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.04410"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Multi-Turn Agentic Scientific Literature Search via Workflow Induction",
+        "url": "https://huggingface.co/papers/2607.00597",
+        "normalized_url": "https://huggingface.co/papers/2607.00597",
+        "summary": "Scientific literature search often requires more than retrieving papers from a single query: users' intents are underspecified, preference-dependent, and evolve through interaction. Existing search agents typically rely on fixed pipelines or implicit language-only reasoning, making their search strategies difficult to control, inspect, and refine. We introduce PaperPilot, a multi-turn literature search agent that frames scientific search as workflow induction. Given an anchor paper and a user qu",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.00597"
+        }
+      },
       {
         "category": "papers",
         "title": "KVpop -- Key-Value Cache Compression with Predictive Online Pruning",
@@ -335,71 +400,6 @@
       },
       {
         "category": "papers",
-        "title": "Mastermind: Strategy-grounded Learning for Repository-Scale Vulnerability Reproduction",
-        "url": "https://huggingface.co/papers/2607.01764",
-        "normalized_url": "https://huggingface.co/papers/2607.01764",
-        "summary": "Repository-level vulnerability reproduction is a demanding software engineering (SE) task: an agent must inspect a codebase, infer the input grammar that reaches a vulnerable path, construct a proof-of-conceptv(PoC), and verify that the crash disappears on the patched build. Recent LLM agents can often execute these steps when the approach is correct, yet they still fail by choosing the wrong strategy. This paper argues that strategy, rather than the full action trajectory, is the right learning",
-        "source": "HuggingFace Papers",
-        "published": "2026-07-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2607.01764"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care",
-        "url": "https://huggingface.co/papers/2606.31036",
-        "normalized_url": "https://huggingface.co/papers/2606.31036",
-        "summary": "Specialist epilepsy expertise is scarce in resource-constrained settings, making LLM-based decision support attractive for frontline clinicians managing longitudinal treatment. Such systems must adapt to local prescribing practice and know when to defer. We study this problem in Ugandan pediatric epilepsy care, predicting anti-seizure medication regimens from longitudinal unstructured clinic notes. Standard prompting achieves non-trivial agreement with physician prescriptions, but neurologist re",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-30T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2606.31036"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Measuring the Gap Between Human and LLM Research Ideas",
-        "url": "https://huggingface.co/papers/2607.01233",
-        "normalized_url": "https://huggingface.co/papers/2607.01233",
-        "summary": "LLMs are increasingly used to brainstorm research ideas, but existing evaluations mostly judge individual ideas by novelty, feasibility, or expert preference. We instead ask: how far are current LLM-generated ideas from human researchers? To characterize this gap, we build a large-scale evaluation framework for ideation from high-quality human research papers. For each paper, we reverse-engineer a small set of closely related prior works that likely inspired its core idea. LLMs are then prompted",
-        "source": "HuggingFace Papers",
-        "published": "2026-07-01T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2607.01233"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Generated Contents Enrichment",
-        "url": "https://huggingface.co/papers/2405.03650",
-        "normalized_url": "https://huggingface.co/papers/2405.03650",
-        "summary": "We study Generated Contents Enrichment (GCE), a conditional image-generation task in which a sparse scene description is first enriched through an explicit scene representation and then rendered into semantically richer visual content. Conventional image-generation systems can produce visually realistic outputs from limited scene descriptions, but the added content is usually implicit in the generator rather than represented as an inspectable intermediate structure. In contrast, GCE seeks to mak",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-30T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2405.03650"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "AnyBokeh: Physics-Guided Any-to-Any Bokeh Editing with Optical Fingerprint Transfer",
-        "url": "https://huggingface.co/papers/2606.31959",
-        "normalized_url": "https://huggingface.co/papers/2606.31959",
-        "summary": "Depth-of-field control is a fundamental tool in photography, yet post-capture bokeh editing from a single image remains challenging. A practical editor should handle images captured under arbitrary focus and aperture settings. Existing methods typically assume an all-in-focus input, or first recover an all-in-focus image before rendering new bokeh. Such pipelines can discard useful blur cues from the source image and propagate reconstruction artifacts into the final edit. We introduce AnyBokeh, ",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-30T17:01:28.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2606.31959"
-        }
-      },
-      {
-        "category": "papers",
         "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
         "url": "https://arxiv.org/abs/2607.05396v1",
         "normalized_url": "https://arxiv.org/abs/2607.05396v1",
@@ -512,28 +512,15 @@
     "projects": [
       {
         "category": "projects",
-        "title": "asgeirtj/system_prompts_leaks ⭐+1,378/天",
-        "url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "normalized_url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly. （GitHub Trending · 今日 +1,378 star）",
-        "source": "GitHub Trending",
+        "title": "MadsLorentzen/ai-job-search ⭐+2,402/天",
+        "url": "https://github.com/MadsLorentzen/ai-job-search",
+        "normalized_url": "https://github.com/MadsLorentzen/ai-job-search",
+        "summary": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews. （GitHub Trending · 今日 +2,402 star）",
+        "source": "GitHub Trending, GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "1,378"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "addyosmani/agent-skills ⭐+1,112/天",
-        "url": "https://github.com/addyosmani/agent-skills",
-        "normalized_url": "https://github.com/addyosmani/agent-skills",
-        "summary": "Production-grade engineering skills for AI coding agents. （GitHub Trending · 今日 +1,112 star）",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars_today": "1,112"
+          "stars_today": "2,402"
         }
       },
       {
@@ -551,93 +538,41 @@
       },
       {
         "category": "projects",
-        "title": "Leonxlnx/taste-skill ⭐+1,458/天",
-        "url": "https://github.com/Leonxlnx/taste-skill",
-        "normalized_url": "https://github.com/Leonxlnx/taste-skill",
-        "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop （GitHub Trending · 今日 +1,458 star）",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars_today": "1,458"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "alirezarezvani/claude-skills ⭐+610/天",
-        "url": "https://github.com/alirezarezvani/claude-skills",
-        "normalized_url": "https://github.com/alirezarezvani/claude-skills",
-        "summary": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills. （GitHub Trending · 今日 +610 star）",
+        "title": "addyosmani/agent-skills ⭐+1,112/天",
+        "url": "https://github.com/addyosmani/agent-skills",
+        "normalized_url": "https://github.com/addyosmani/agent-skills",
+        "summary": "Production-grade engineering skills for AI coding agents. （GitHub Trending · 今日 +1,112 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "610"
+          "stars_today": "1,112"
         }
       },
       {
         "category": "projects",
-        "title": "openai/codex-plugin-cc ⭐+906/天",
-        "url": "https://github.com/openai/codex-plugin-cc",
-        "normalized_url": "https://github.com/openai/codex-plugin-cc",
-        "summary": "Use Codex from Claude Code to review code or delegate tasks. （GitHub Trending · 今日 +906 star）",
+        "title": "asgeirtj/system_prompts_leaks ⭐+1,378/天",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks",
+        "normalized_url": "https://github.com/asgeirtj/system_prompts_leaks",
+        "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly. （GitHub Trending · 今日 +1,378 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "906"
+          "stars_today": "1,378"
         }
       },
       {
         "category": "projects",
-        "title": "mvanhorn/last30days-skill ⭐+458/天",
-        "url": "https://github.com/mvanhorn/last30days-skill",
-        "normalized_url": "https://github.com/mvanhorn/last30days-skill",
-        "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary （GitHub Trending · 今日 +458 star）",
-        "source": "GitHub Trending, GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars_today": "458"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "ogulcancelik/herdr ⭐+779/天",
-        "url": "https://github.com/ogulcancelik/herdr",
-        "normalized_url": "https://github.com/ogulcancelik/herdr",
-        "summary": "agent multiplexer that lives in your terminal. （GitHub Trending · 今日 +779 star）",
-        "source": "GitHub Trending, GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars_today": "779"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "bradautomates/claude-video ⭐+427/天",
-        "url": "https://github.com/bradautomates/claude-video",
-        "normalized_url": "https://github.com/bradautomates/claude-video",
-        "summary": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. （GitHub Trending · 今日 +427 star）",
-        "source": "GitHub Trending, GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars_today": "427"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "karakeep-app/karakeep ⭐+199/天",
-        "url": "https://github.com/karakeep-app/karakeep",
-        "normalized_url": "https://github.com/karakeep-app/karakeep",
-        "summary": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search （GitHub Trending · 今日 +199 star）",
+        "title": "TencentCloud/CubeSandbox ⭐+665/天",
+        "url": "https://github.com/TencentCloud/CubeSandbox",
+        "normalized_url": "https://github.com/TencentCloud/CubeSandbox",
+        "summary": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents. （GitHub Trending · 今日 +665 star）",
         "source": "GitHub Trending",
         "published": null,
-        "importance_hint": 4,
+        "importance_hint": 5,
         "metadata": {
-          "stars_today": "199"
+          "stars_today": "665"
         }
       },
       {
@@ -655,15 +590,67 @@
       },
       {
         "category": "projects",
-        "title": "gastownhall/gastown ⭐+291/天",
-        "url": "https://github.com/gastownhall/gastown",
-        "normalized_url": "https://github.com/gastownhall/gastown",
-        "summary": "Gas Town - multi-agent workspace manager （GitHub Trending · 今日 +291 star）",
+        "title": "dotnet/skills ⭐+200/天",
+        "url": "https://github.com/dotnet/skills",
+        "normalized_url": "https://github.com/dotnet/skills",
+        "summary": "Repository for skills to assist AI coding agents with .NET and C# （GitHub Trending · 今日 +200 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "291"
+          "stars_today": "200"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "iOfficeAI/OfficeCLI ⭐+802/天",
+        "url": "https://github.com/iOfficeAI/OfficeCLI",
+        "normalized_url": "https://github.com/iOfficeAI/OfficeCLI",
+        "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. （GitHub Trending · 今日 +802 star）",
+        "source": "GitHub Trending, GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars_today": "802"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "bradautomates/claude-video ⭐+427/天",
+        "url": "https://github.com/bradautomates/claude-video",
+        "normalized_url": "https://github.com/bradautomates/claude-video",
+        "summary": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. （GitHub Trending · 今日 +427 star）",
+        "source": "GitHub Trending, GitHub Trending",
+        "published": null,
+        "importance_hint": 4,
+        "metadata": {
+          "stars_today": "427"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "kyutai-labs/pocket-tts ⭐+510/天",
+        "url": "https://github.com/kyutai-labs/pocket-tts",
+        "normalized_url": "https://github.com/kyutai-labs/pocket-tts",
+        "summary": "A TTS that fits in your CPU (and pocket) （GitHub Trending · 今日 +510 star）",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 4,
+        "metadata": {
+          "stars_today": "510"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "hesreallyhim/awesome-claude-code ⭐+506/天",
+        "url": "https://github.com/hesreallyhim/awesome-claude-code",
+        "normalized_url": "https://github.com/hesreallyhim/awesome-claude-code",
+        "summary": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins （GitHub Trending · 今日 +506 star）",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars_today": "506"
         }
       },
       {
@@ -677,20 +664,6 @@
         "importance_hint": 5,
         "metadata": {
           "stars": "15",
-          "language": "TypeScript"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "MadsLorentzen/ai-job-search ⭐10",
-        "url": "https://github.com/MadsLorentzen/ai-job-search",
-        "normalized_url": "https://github.com/MadsLorentzen/ai-job-search",
-        "summary": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "10",
           "language": "TypeScript"
         }
       },
@@ -724,20 +697,6 @@
       },
       {
         "category": "projects",
-        "title": "iOfficeAI/OfficeCLI ⭐5",
-        "url": "https://github.com/iOfficeAI/OfficeCLI",
-        "normalized_url": "https://github.com/iOfficeAI/OfficeCLI",
-        "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "5",
-          "language": "C#"
-        }
-      },
-      {
-        "category": "projects",
         "title": "alibaba/page-agent ⭐5",
         "url": "https://github.com/alibaba/page-agent",
         "normalized_url": "https://github.com/alibaba/page-agent",
@@ -748,6 +707,20 @@
         "metadata": {
           "stars": "5",
           "language": "TypeScript"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "ogulcancelik/herdr ⭐5",
+        "url": "https://github.com/ogulcancelik/herdr",
+        "normalized_url": "https://github.com/ogulcancelik/herdr",
+        "summary": "agent multiplexer that lives in your terminal.",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "5",
+          "language": "Rust"
         }
       },
       {
@@ -833,15 +806,51 @@
           "stars": "4",
           "language": "Python"
         }
+      },
+      {
+        "category": "projects",
+        "title": "mvanhorn/last30days-skill ⭐3",
+        "url": "https://github.com/mvanhorn/last30days-skill",
+        "normalized_url": "https://github.com/mvanhorn/last30days-skill",
+        "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "3",
+          "language": "Python"
+        }
       }
     ],
     "news": [
       {
         "category": "news",
+        "title": "Beijing is looking at curbing overseas access to China's top AI models",
+        "url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+        "normalized_url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07",
+        "summary": "HN points: 12, comments: 3",
+        "source": "Hacker News",
+        "published": "2026-07-07T10:51:07Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Why migrants come to Germany for work and then leave again",
+        "url": "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162",
+        "normalized_url": "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162",
+        "summary": "HN points: 24, comments: 48",
+        "source": "Hacker News",
+        "published": "2026-07-07T10:42:59Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "YC CEO says he ships 37K LoC AI code per day. A developer looked under the hood",
         "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
         "normalized_url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
-        "summary": "HN points: 33, comments: 16",
+        "summary": "HN points: 76, comments: 78",
         "source": "Hacker News",
         "published": "2026-07-07T08:39:51Z",
         "importance_hint": 3,
@@ -852,7 +861,7 @@
         "title": "Learning another language appears to slow brain ageing by up to 13 years",
         "url": "https://www.theguardian.com/education/2026/jul/06/learning-another-language-appears-to-slow-brain-ageing-scientists-say",
         "normalized_url": "https://www.theguardian.com/education/2026/jul/06/learning-another-language-appears-to-slow-brain-ageing-scientists-say",
-        "summary": "HN points: 13, comments: 4",
+        "summary": "HN points: 24, comments: 8",
         "source": "Hacker News",
         "published": "2026-07-07T05:22:43Z",
         "importance_hint": 3,
@@ -887,7 +896,7 @@
         "title": "Show HN: LLM Thought Visualization",
         "url": "https://github.com/ninjahawk/Subtext",
         "normalized_url": "https://github.com/ninjahawk/Subtext",
-        "summary": "HN points: 19, comments: 3",
+        "summary": "HN points: 21, comments: 4",
         "source": "Hacker News",
         "published": "2026-07-06T23:34:27Z",
         "importance_hint": 3,
@@ -898,7 +907,7 @@
         "title": "NSA and IETF: Fairness",
         "url": "https://blog.cr.yp.to/20260706-fairness.html",
         "normalized_url": "https://blog.cr.yp.to/20260706-fairness.html",
-        "summary": "HN points: 106, comments: 89",
+        "summary": "HN points: 121, comments: 94",
         "source": "Hacker News",
         "published": "2026-07-06T23:33:54Z",
         "importance_hint": 3,
@@ -909,7 +918,7 @@
         "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
         "url": "https://ternlight-demo.vercel.app/",
         "normalized_url": "https://ternlight-demo.vercel.app",
-        "summary": "HN points: 217, comments: 52",
+        "summary": "HN points: 260, comments: 57",
         "source": "Hacker News",
         "published": "2026-07-06T23:06:31Z",
         "importance_hint": 4,
@@ -931,7 +940,7 @@
         "title": "Not everything should cost a token: the case for deterministic AI",
         "url": "https://www.vybe.build/blog/learn-what-not-to-tokenize",
         "normalized_url": "https://www.vybe.build/blog/learn-what-not-to-tokenize",
-        "summary": "HN points: 16, comments: 11",
+        "summary": "HN points: 17, comments: 12",
         "source": "Hacker News",
         "published": "2026-07-06T22:36:40Z",
         "importance_hint": 3,
@@ -942,7 +951,7 @@
         "title": "Poly/ML – A Standard ML Implementation",
         "url": "https://github.com/polyml/polyml",
         "normalized_url": "https://github.com/polyml/polyml",
-        "summary": "HN points: 60, comments: 23",
+        "summary": "HN points: 61, comments: 23",
         "source": "Hacker News",
         "published": "2026-07-06T22:28:06Z",
         "importance_hint": 3,
@@ -975,7 +984,7 @@
         "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector",
         "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
         "normalized_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
-        "summary": "HN points: 65, comments: 74",
+        "summary": "HN points: 65, comments: 80",
         "source": "Hacker News",
         "published": "2026-07-06T21:09:23Z",
         "importance_hint": 3,
@@ -983,47 +992,12 @@
       },
       {
         "category": "news",
-        "title": "Show HN: Otari: your open-source LLM control plane",
-        "url": "https://github.com/mozilla-ai/otari",
-        "normalized_url": "https://github.com/mozilla-ai/otari",
-        "summary": "HN points: 16, comments: 1",
-        "source": "Hacker News",
-        "published": "2026-07-06T21:08:47Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Apollo economist says a 'painful repricing' of AI markets is possible",
-        "url": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/",
-        "normalized_url": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok",
-        "summary": "HN points: 14, comments: 1",
-        "source": "Hacker News",
-        "published": "2026-07-06T21:08:19Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Claude“脑内小剧场”首曝光：隐藏工作空间自发涌现类人意识，谷歌DeepMind权威认证",
-        "url": "https://www.36kr.com/p/3885278052102405",
-        "normalized_url": "https://www.36kr.com/p/3885278052102405",
-        "summary": "近日，Anthropic 发布了一篇重磅研究论文，指出其 Claude 语言模型在训练过程中自",
+        "title": "800万个AI角色，被大厂亲手关掉",
+        "url": "https://www.36kr.com/p/3885489838305289",
+        "normalized_url": "https://www.36kr.com/p/3885489838305289",
+        "summary": "用户亲手创造的AI角色，正在陆续下线",
         "source": "36Kr AI",
-        "published": "2026-07-07T09:18:55+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "三星利润超英伟达成全球最赚钱公司，市场却吓了一跳",
-        "url": "https://www.36kr.com/p/3885278136152329",
-        "normalized_url": "https://www.36kr.com/p/3885278136152329",
-        "summary": "这次周期到底有什么不一样？",
-        "source": "36Kr AI",
-        "published": "2026-07-07T09:18:27+00:00",
+        "published": "2026-07-07T11:50:22+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1031,12 +1005,77 @@
       },
       {
         "category": "news",
-        "title": "“烧”掉了百亿美元，世界模型的概念都还没有统一",
-        "url": "https://www.36kr.com/p/3885278219972870",
-        "normalized_url": "https://www.36kr.com/p/3885278219972870",
-        "summary": "世界模型和VLA，距离生产落地究竟还有几年？",
+        "title": "造物者的时代来了，3D打印如何催生“一人公司”创业潮？",
+        "url": "https://www.36kr.com/p/3885357997125890",
+        "normalized_url": "https://www.36kr.com/p/3885357997125890",
+        "summary": "桌面生产力工具带来的是属于普通人的创作自由。",
         "source": "36Kr AI",
-        "published": "2026-07-07T09:15:48+00:00",
+        "published": "2026-07-07T11:15:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "市场已无千亿宽基",
+        "url": "https://www.36kr.com/p/3885371243196421",
+        "normalized_url": "https://www.36kr.com/p/3885371243196421",
+        "summary": "2026年中境内ETF缩水，宽基降行业主题吸金",
+        "source": "36Kr AI",
+        "published": "2026-07-07T11:14:47+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "从超聚变，看服务器行业的“生死局”",
+        "url": "https://www.36kr.com/p/3885375842562048",
+        "normalized_url": "https://www.36kr.com/p/3885375842562048",
+        "summary": "AI时代，传统服务器厂商还有价值吗？",
+        "source": "36Kr AI",
+        "published": "2026-07-07T11:14:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "马斯克用了中国机器人，海外跑出一家国产“隐形冠军”",
+        "url": "https://www.36kr.com/p/3885382929936387",
+        "normalized_url": "https://www.36kr.com/p/3885382929936387",
+        "summary": "中国机器人企业出海新样本",
+        "source": "36Kr AI",
+        "published": "2026-07-07T11:12:54+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "小米再传重大调整，小爱同学被分拆了",
+        "url": "https://www.36kr.com/p/3885391875242884",
+        "normalized_url": "https://www.36kr.com/p/3885391875242884",
+        "summary": "小米重构小爱同学架构，转型全业务AI能力基建",
+        "source": "36Kr AI",
+        "published": "2026-07-07T11:12:31+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "疯狂砸钱，韩国3.5万亿押注芯片，国内封测三巨头百亿扩产接力",
+        "url": "https://www.36kr.com/p/3885401568197250",
+        "normalized_url": "https://www.36kr.com/p/3885401568197250",
+        "summary": "韩国政府正式官宣史上最大规模半导体产业投资规划，举国之力押注芯片赛道，守住全球存储半导体霸权。",
+        "source": "36Kr AI",
+        "published": "2026-07-07T11:11:31+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1044,12 +1083,12 @@
       },
       {
         "category": "news",
-        "title": "刘靖康和汪滔，刺刀见红",
-        "url": "https://www.36kr.com/p/3885313239363592",
-        "normalized_url": "https://www.36kr.com/p/3885313239363592",
-        "summary": "还能撕开新缝隙吗？",
+        "title": "史上最荒唐的涨停，监管雷霆急刹车",
+        "url": "https://www.36kr.com/p/3885408515436803",
+        "normalized_url": "https://www.36kr.com/p/3885408515436803",
+        "summary": "史上最荒唐！！！！！7月6日晚，深交所通报，中公教育GU票价格出现异常波动。",
         "source": "36Kr AI",
-        "published": "2026-07-07T09:14:49+00:00",
+        "published": "2026-07-07T11:10:28+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1057,38 +1096,12 @@
       },
       {
         "category": "news",
-        "title": "老东家做保荐，前员工管财务：云豹智能IPO陷入“熟人局”",
-        "url": "https://www.36kr.com/p/3885284304763782",
-        "normalized_url": "https://www.36kr.com/p/3885284304763782",
-        "summary": "国产DPU第一股的合规罗生门。",
+        "title": "氪星晚报 ｜苹果折叠屏已在量产；潘功胜：香港可以抓住有利时机，吸引更多主权财富和国际企业到港发债融资",
+        "url": "https://www.36kr.com/p/3885457443385346",
+        "normalized_url": "https://www.36kr.com/p/3885457443385346",
+        "summary": "腾讯“吐司” iOS版正式上线",
         "source": "36Kr AI",
-        "published": "2026-07-07T09:12:18+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "在斯坦福，看见Physical AI的泡沫与真实",
-        "url": "https://www.36kr.com/p/3885334820794627",
-        "normalized_url": "https://www.36kr.com/p/3885334820794627",
-        "summary": "机器人新贵与学界泰斗，两代人同台对话会聊些什么？",
-        "source": "36Kr AI",
-        "published": "2026-07-07T09:02:54+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "物理AI：下一个 万亿赛道的\"卖铲人\"",
-        "url": "https://www.36kr.com/p/3885289334796288",
-        "normalized_url": "https://www.36kr.com/p/3885289334796288",
-        "summary": "量化派做物理世界基础模型，卡位物理AI赛道",
-        "source": "36Kr AI",
-        "published": "2026-07-07T08:50:02+00:00",
+        "published": "2026-07-07T10:59:00+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1096,38 +1109,12 @@
       },
       {
         "category": "news",
-        "title": "探数科技以咨询 + AI 数字化破解商户获客痛点",
-        "url": "https://www.36kr.com/p/3869602654393605",
-        "normalized_url": "https://www.36kr.com/p/3869602654393605",
-        "summary": "探数科技“咨询+数字化”助力商户破流量困局",
+        "title": "造车圈卷不出中国首富",
+        "url": "https://www.36kr.com/p/3885408590196998",
+        "normalized_url": "https://www.36kr.com/p/3885408590196998",
+        "summary": "别把身价卷没了",
         "source": "36Kr AI",
-        "published": "2026-07-07T08:39:16+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "父亲手搓AI工具，让自闭症孩子说出了“我爱你”",
-        "url": "https://www.36kr.com/p/3885263382379394",
-        "normalized_url": "https://www.36kr.com/p/3885263382379394",
-        "summary": "还意外做成了一门小生意。",
-        "source": "36Kr AI",
-        "published": "2026-07-07T08:33:18+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "多学科、垮领域融合解决塑胶跑道行业痛点",
-        "url": "https://www.36kr.com/p/3824021549715591",
-        "normalized_url": "https://www.36kr.com/p/3824021549715591",
-        "summary": "针对塑胶跑道痛点，推一体化升级服务，团队已完成小试验证",
-        "source": "36Kr AI",
-        "published": "2026-07-07T08:15:32+00:00",
+        "published": "2026-07-07T10:52:46+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1265,6 +1252,45 @@
       },
       {
         "category": "news",
+        "title": "AI Agent 会自己选 CDN 了：当网站访问者从 “人” 扩展到 “AI”，内容分发已升级",
+        "url": "https://www.infoq.cn/article/WNWuMomRvix0FT0dZ8yI?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/WNWuMomRvix0FT0dZ8yI",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-07-07T19:02:25+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "把世界学习拆成两条互补路径，悟界·RoboBrain Orca 成通用世界基础模型基石",
+        "url": "https://www.infoq.cn/article/HpkpCVSwAHQXAhphZm34?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/HpkpCVSwAHQXAhphZm34",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-07-07T17:41:52+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "微软通过 Copilot Autofix 将基于 AI 的漏洞修复功能引入 Azure DevOps",
+        "url": "https://www.infoq.cn/article/CSS70hYSA57JBUMLdf7L?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/CSS70hYSA57JBUMLdf7L",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-07-07T17:23:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
         "title": "让 AI 真正“懂时间”：QC-MHM 时序知识图谱问答的全新突破 | AAAI",
         "url": "https://www.infoq.cn/article/pAGx3GoLbi16BwUsoKw7?utm_source=rss&utm_medium=article",
         "normalized_url": "https://www.infoq.cn/article/pAGx3GoLbi16BwUsoKw7",
@@ -1323,45 +1349,6 @@
         "summary": "点击查看原文>",
         "source": "InfoQ 中文",
         "published": "2026-07-07T11:01:57+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "亚马逊云科技发布用于成本分析和优化的 FinOps Agent 预览版",
-        "url": "https://www.infoq.cn/article/OtPug093U3A6NXXhxdiW?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/OtPug093U3A6NXXhxdiW",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-07-07T10:31:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Swift 6.4 带来了新的语言特性以及 Swift 与 XCTest 之间的互操作性",
-        "url": "https://www.infoq.cn/article/MrNN9S3ZTFiCaoaU3h4i?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/MrNN9S3ZTFiCaoaU3h4i",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-07-07T09:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "世界模型炒作了半年，反应速度还不如 VLA？穆尧团队和百度智能云给出最新解法",
-        "url": "https://www.infoq.cn/article/Lb4pQTNTQdq657Gzj7EI?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/Lb4pQTNTQdq657Gzj7EI",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-07-06T19:50:19+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.infoq.cn/feed.xml"
@@ -1642,15 +1629,80 @@
       },
       {
         "category": "news",
-        "title": "The fanfiction community is at war with AI — and itself",
-        "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-        "normalized_url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-        "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a […]",
-        "source": "The Verge AI",
-        "published": "2026-07-04T12:00:00+00:00",
+        "title": "Erling Haaland Is Everywhere at the World Cup. Most of It Is AI",
+        "url": "https://www.wired.com/story/erling-haaland-is-everywhere-at-the-world-cup-most-of-it-is-ai/",
+        "normalized_url": "https://www.wired.com/story/erling-haaland-is-everywhere-at-the-world-cup-most-of-it-is-ai",
+        "summary": "Norwegian striker Erling Haaland isn’t just a footballer anymore. He’s become an internet character perpetuated by fans and AI.",
+        "source": "Wired AI",
+        "published": "2026-07-07T10:00:00+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "British Space Startup Launches Longevity Lab Into Orbit",
+        "url": "https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit/",
+        "normalized_url": "https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit",
+        "summary": "The lab will beam back data to train AI models to predict how proteins behind age-related diseases like Alzheimer’s and certain cancers behave.",
+        "source": "Wired AI",
+        "published": "2026-07-07T09:57:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens",
+        "url": "https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens/",
+        "normalized_url": "https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens",
+        "summary": "Chinese AI models are gaining ground with US companies because they cost far less than systems from OpenAI and Anthropic, CNBC reports. The article Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens appeared first on The Decoder .",
+        "source": "The Decoder",
+        "published": "2026-07-07T11:34:52+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://the-decoder.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Deepseek is designing its own AI chip",
+        "url": "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/",
+        "normalized_url": "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip",
+        "summary": "Chinese startup Deepseek is building its own AI chip, Reuters reports. The article Deepseek is designing its own AI chip appeared first on The Decoder .",
+        "source": "The Decoder",
+        "published": "2026-07-07T11:04:34+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://the-decoder.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI and Anthropic are giving away millions in computing power to attract startups",
+        "url": "https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/",
+        "normalized_url": "https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups",
+        "summary": "OpenAI, Anthropic, and major cloud providers are racing to outbid each other with free compute credits to pull startups into their ecosystems. Some individual offers top $3 million. At Y Combinator alone, OpenAI and Anthropic could hand out up to $800 million in credits per year combined. The discount war comes at a time when both companies need to improve their margins ahead of upcoming IPOs. The article OpenAI and Anthropic are giving away millions in computing power to attract startups appear",
+        "source": "The Decoder",
+        "published": "2026-07-07T10:44:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://the-decoder.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Apollo economist warns AI profit gains outside tech could take \"well beyond\" what Wall Street expects",
+        "url": "https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/",
+        "normalized_url": "https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects",
+        "summary": "Apollo chief economist Torsten Slok sees no AI-driven margin gains outside tech. In regulated industries like healthcare, banking, or pharma, process overhauls and privacy rules could delay productivity boosts by years. If that takes five years instead of five months, many AI stocks face a painful repricing. The article Apollo economist warns AI profit gains outside tech could take \"well beyond\" what Wall Street expects appeared first on The Decoder .",
+        "source": "The Decoder",
+        "published": "2026-07-07T10:28:57+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://the-decoder.com/feed/"
         }
       },
       {
@@ -1727,58 +1779,6 @@
         "source": "The Decoder",
         "published": "2026-07-06T12:26:09+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://the-decoder.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Amazon sunsets Mechanical Turk, the original \"Artificial Artificial Intelligence\"",
-        "url": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/",
-        "normalized_url": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence",
-        "summary": "Amazon Web Services is shutting down its crowdsourcing service Mechanical Turk to new customers starting July 30, 2026. The article Amazon sunsets Mechanical Turk, the original \"Artificial Artificial Intelligence\" appeared first on The Decoder .",
-        "source": "The Decoder",
-        "published": "2026-07-06T11:19:29+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://the-decoder.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
-        "url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
-        "normalized_url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed",
-        "summary": "Security firm Sysdig describes an extortion attack where a language model broke in on its own, stole credentials, and destroyed databases. No human appeared to be at the controls. The article JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed appeared first on The Decoder .",
-        "source": "The Decoder",
-        "published": "2026-07-06T10:04:02+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://the-decoder.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Claude Code and Fable 5 ported the 2003 PC game Command & Conquer to native iOS in \"a few hours\"",
-        "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/",
-        "normalized_url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours",
-        "summary": "A Google Deepmind developer ported the 2003 real-time strategy game \"Command & Conquer: Generals Zero Hour\" to iPhone and iPad using Anthropic's Claude Code. The first build took 40 minutes. The full source code is on GitHub. The article Claude Code and Fable 5 ported the 2003 PC game Command & Conquer to native iOS in \"a few hours\" appeared first on The Decoder .",
-        "source": "The Decoder",
-        "published": "2026-07-05T15:58:56+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://the-decoder.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Baidu's \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting",
-        "url": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/",
-        "normalized_url": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting",
-        "summary": "Baidu's Unlimited OCR reads dozens of document pages in a single pass, where previous systems topped out at about ten. A modified attention mechanism keeps memory use flat no matter how many pages the model processes. It currently holds the top spot on the most important OCR benchmark. The article Baidu's \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting appeared first on The Decoder .",
-        "source": "The Decoder",
-        "published": "2026-07-05T15:25:07+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
         }
@@ -2292,19 +2292,6 @@
       },
       {
         "category": "news",
-        "title": "New model: GigaChat3.5-432B-A28B (with day-0 GGUF support!)",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uotkm7/new_model_gigachat35432ba28b_with_day0_gguf/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uotkm7/new_model_gigachat35432ba28b_with_day0_gguf",
-        "summary": "New model from Sberbank: https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B Base version also available: https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-base Most important is the're also made a GGUF version: https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-GGUF For now it's not in master branch yet but one can build from this PR: https://github.com/ggml-org/llama.cpp/pull/25342 submitted by /u/unbannedfornothing [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-06T10:34:31+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Kyutai's Pocket TTS clones a voice from 5 seconds of audio, on CPU, under MIT. Benchmarked against Kokoro, Supertonic, and Inflect-Nano for Eng. TTS",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up07mk/kyutais_pocket_tts_clones_a_voice_from_5_seconds/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1up07mk/kyutais_pocket_tts_clones_a_voice_from_5_seconds",
@@ -2377,6 +2364,19 @@
         "source": "r/LocalLLaMA",
         "published": "2026-07-07T06:30:49+00:00",
         "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Beijing is looking at curbing overseas access to China's top AI models (Reuters)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uprmso/beijing_is_looking_at_curbing_overseas_access_to/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uprmso/beijing_is_looking_at_curbing_overseas_access_to",
+        "summary": "Reuters: Beijing is looking at curbing overseas access to China's top AI models, sources say: https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/ submitted by /u/Nunki08 [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-07T10:56:27+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
