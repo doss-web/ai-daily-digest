@@ -17,6 +17,45 @@ from generate_site import generate_site
 from audio import generate_audio, prune_old_audio
 
 
+def send_to_feishu(subject: str, markdown: str, date_str: str) -> None:
+    """Push the digest to Feishu group bot via webhook."""
+    webhook_url = os.environ.get("FEISHU_WEBHOOK_URL")
+    if not webhook_url:
+        print("[Feishu] FEISHU_WEBHOOK_URL not set, skipping.")
+        return
+
+    # Feishu card markdown element has ~5000 char limit, truncate if needed
+    repo_url = f"https://github.com/doss-web/ai-daily-digest/blob/main/daily/{date_str}.md"
+    max_len = 4500
+    if len(markdown) > max_len:
+        preview = markdown[:max_len] + f"\n\n---\n> 📎 [查看完整日报]({repo_url})"
+    else:
+        preview = markdown + f"\n\n---\n> 📎 [GitHub 原文]({repo_url})"
+
+    payload = {
+        "msg_type": "interactive",
+        "card": {
+            "header": {
+                "title": {"tag": "plain_text", "content": subject},
+                "template": "blue",
+            },
+            "elements": [
+                {"tag": "markdown", "content": preview},
+            ],
+        },
+    }
+
+    resp = requests.post(webhook_url, json=payload, timeout=30)
+    if resp.status_code == 200:
+        result = resp.json()
+        if result.get("code") == 0:
+            print(f"[Feishu] Sent successfully!")
+        else:
+            print(f"[Feishu] API error {result.get('code')}: {result.get('msg')}")
+    else:
+        print(f"[Feishu] HTTP {resp.status_code}: {resp.text[:200]}")
+
+
 def send_to_buttondown(subject: str, markdown: str) -> None:
     """Publish the digest as a Buttondown email (sends to all subscribers)."""
     api_key = os.environ.get("BUTTONDOWN_API_KEY")
@@ -114,8 +153,13 @@ def main():
 
     # Step 7: Send to Buttondown subscribers
     print("\n[Step 7] Sending to Buttondown subscribers...")
-    subject = f"AI Daily Digest · {date_str}"
-    send_to_buttondown(subject, markdown)
+    buttondown_subject = f"AI Daily Digest · {date_str}"
+    send_to_buttondown(buttondown_subject, markdown)
+
+    # Step 8: Push to Feishu group bot
+    print("\n[Step 8] Sending to Feishu...")
+    feishu_subject = f"AI Daily Digest · {date_str}"
+    send_to_feishu(feishu_subject, markdown, date_str)
 
     print("Done!")
 
