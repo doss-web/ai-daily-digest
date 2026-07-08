@@ -16,26 +16,32 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-07-09 周四</title>
-      <description>各位听众朋友，早上好！今天是2026年7月9号，欢迎收听今天的AI行业播报。今天AI圈可以说是热闹非凡，从语音交互的质变到开源模型的成本大战，再到各家公司的盈利和融资消息，信息量非常大。我们这就开始，一起看看今天有哪些值得关注的大事。
-首先，语音交互迎来了一个里程碑。OpenAI发布了GPT-Live，这是一个全双工的语音模型，简单说，就是它能让ChatGPT的对话更像真人之间的自然交流，可以同时听和说，不再是一问一答的机械感。这个升级对实时翻译和对话式AI来说，可能会打开全新的应用场景。
-另一边，Anthropic今天有两件大事。一是他们率先实现了扭亏为盈，第三季度盈利超过了10亿美元。这在整个AI行业里可是个重磅信号，证明了AI公司不仅能烧钱，也能赚钱，API商业模式算是跑通了。但同时，另一份报告也揭示了一个有趣的现象：开源模型在Token流量上占了上风，但真正赚到钱的，却是闭源的Anthropic。这背后的格局就是“开源赚吆喝，闭源赚钱”，值得深思。
-说到开源和闭源，今天还有几个新模型值得关注。xAI发布了Grok 4.5，Elon Musk称它是“Opus级模型”，但价格只有竞品的零头。这可能会直接冲击API市场的定价体系，让推理成本大幅下降。另外，中国公司MiniMax也放了个大招，计划年内开源一个2.7万亿参数的模型，这规模要是真开源了，绝对会改变整个开源社区的格局。
-再看看产品端。Anthropic把Claude Cowork扩展到了移动和Web端，这意味着AI Agent不再只是开发者的工具，开始走向普通的知识工作者了。而OpenAI这边，GPT-5.6也终于要来了，原定周四发布，但之前因为美国政府审查被推迟了。这背后透露出政府对AI监管的干预信号越来越强。
-还有几个有趣的动向。Meta发布了Muse Image模型，允许用户通过@引用生成他人的AI照片，这直接让AI图像生成进入了社交网络时代，但隐私争议也随之而来。Google DeepMind则为Gemini API的Managed Agents新增了后台执行和MCP支持，Agent能力又上了一个台阶。另外，Mistral进军机器人领域，发布了Robostral Navigate，一个只有8B参数的模型，靠单摄像头就能导航，大大降低了机器人部署成本。
-最后，还有两则人事和融资消息。OpenAI的首席未来学家Joshua Achiam离职了，这位AI安全领域的核心人物离开，让业界对OpenAI的安全文化产生了更多关注。而Prime Intellect则拿到了1.3亿美元的A轮融资，专门帮企业构建自己的AI Agent，这说明企业自建Agent正成为新的投资热点。
-好，今天的播报就到这里。最后做一下今日观察：今天最值得关注的趋势是“模型协作”和“成本优化”已经成为行业共识。从Anthropic提出的用Fable 5作为管理者委派给Sonnet 5的Advisor Pattern，到xAI的低价Grok 4.5，再到DeepSeek自研推理芯片，所有这些都指向一个方向：AI行业正在从“越大越好”转向“高效协作”。同时，OpenAI密集发布新品，Meta的Muse Image引发隐私争议，都表明产品层面的竞争正在加速，而监管和隐私问题将成为下一阶段的核心博弈点。感谢收听，我们明天见！</description>
-      <itunes:summary>各位听众朋友，早上好！今天是2026年7月9号，欢迎收听今天的AI行业播报。今天AI圈可以说是热闹非凡，从语音交互的质变到开源模型的成本大战，再到各家公司的盈利和融资消息，信息量非常大。我们这就开始，一起看看今天有哪些值得关注的大事。
-首先，语音交互迎来了一个里程碑。OpenAI发布了GPT-Live，这是一个全双工的语音模型，简单说，就是它能让ChatGPT的对话更像真人之间的自然交流，可以同时听和说，不再是一问一答的机械感。这个升级对实时翻译和对话式AI来说，可能会打开全新的应用场景。
-另一边，Anthropic今天有两件大事。一是他们率先实现了扭亏为盈，第三季度盈利超过了10亿美元。这在整个AI行业里可是个重磅信号，证明了AI公司不仅能烧钱，也能赚钱，API商业模式算是跑通了。但同时，另一份报告也揭示了一个有趣的现象：开源模型在Token流量上占了上风，但真正赚到钱的，却是闭源的Anthropic。这背后的格局就是“开源赚吆喝，闭源赚钱”，值得深思。
-说到开源和闭源，今天还有几个新模型值得关注。xAI发布了Grok 4.5，Elon Musk称它是“Opus级模型”，但价格只有竞品的零头。这可能会直接冲击API市场的定价体系，让推理成本大幅下降。另外，中国公司MiniMax也放了个大招，计划年内开源一个2.7万亿参数的模型，这规模要是真开源了，绝对会改变整个开源社区的格局。
-再看看产品端。Anthropic把Claude Cowork扩展到了移动和Web端，这意味着AI Agent不再只是开发者的工具，开始走向普通的知识工作者了。而OpenAI这边，GPT-5.6也终于要来了，原定周四发布，但之前因为美国政府审查被推迟了。这背后透露出政府对AI监管的干预信号越来越强。
-还有几个有趣的动向。Meta发布了Muse Image模型，允许用户通过@引用生成他人的AI照片，这直接让AI图像生成进入了社交网络时代，但隐私争议也随之而来。Google DeepMind则为Gemini API的Managed Agents新增了后台执行和MCP支持，Agent能力又上了一个台阶。另外，Mistral进军机器人领域，发布了Robostral Navigate，一个只有8B参数的模型，靠单摄像头就能导航，大大降低了机器人部署成本。
-最后，还有两则人事和融资消息。OpenAI的首席未来学家Joshua Achiam离职了，这位AI安全领域的核心人物离开，让业界对OpenAI的安全文化产生了更多关注。而Prime Intellect则拿到了1.3亿美元的A轮融资，专门帮企业构建自己的AI Agent，这说明企业自建Agent正成为新的投资热点。
-好，今天的播报就到这里。最后做一下今日观察：今天最值得关注的趋势是“模型协作”和“成本优化”已经成为行业共识。从Anthropic提出的用Fable 5作为管理者委派给Sonnet 5的Advisor Pattern，到xAI的低价Grok 4.5，再到DeepSeek自研推理芯片，所有这些都指向一个方向：AI行业正在从“越大越好”转向“高效协作”。同时，OpenAI密集发布新品，Meta的Muse Image引发隐私争议，都表明产品层面的竞争正在加速，而监管和隐私问题将成为下一阶段的核心博弈点。感谢收听，我们明天见！</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-09.mp3" length="1423584" type="audio/mpeg"/>
+      <description>各位听众朋友，大家早上好！今天是2026年7月9号，欢迎收听今天的AI行业播报。今天的看点真是不少：价格战全面开打，Agent生态加速成熟，还有几家大厂在开源和盈利上交出了亮眼成绩单。好，我们马上进入正题。
+先来看一个重磅消息：SpaceX发布了Grok 4.5，这是一款专门为编程和Agent设计的模型，定价只有竞争对手的一半。这招太狠了，直接要在开发者市场掀起价格风暴，很可能改变整个API的定价格局。紧接着，OpenAI也放了个大招，推出了GPT-Live，这是一个全双工语音模型，能同时听和说，实现类人实时对话。语音交互的体验这回真的要质变了。
+另一边，Anthropic也没闲着，他们把Claude Cowork扩展到了移动端和网页端，从桌面Agent走向跨设备平台，这下非开发者的知识工作者也能用上了。而且，Anthropic还宣布三季度盈利超过10亿美元，率先在AI行业实现扭亏为盈，这给整个行业树立了一个商业可行性的标杆。
+说到盈利，今天还有一个有趣的发现：API厂商之间存在着定价认知套利，52%是AI推理成本的分水岭。这意味着GPU利用率盲区导致的定价不对称，开发者们可得多留个心眼，关注实际使用成本。
+再来看开源和模型方面的动态。腾讯发布了Hy3，一个295B参数的MoE开源模型，只有21B活跃参数，支持256K上下文，在SWE-Bench上得分78.0，媲美更大模型，而且用的是Apache 2.0许可证。MiniMax更是计划今年晚些时候开源一个2.7万亿参数的模型，这要是成了，就是史上最大开源模型，可能会推动整个开源生态质变。
+NVIDIA发布了Audex，一个30B参数的统一音频-文本MoE模型，能搞定音频理解、识别、翻译、TTS和生成，还保留了文本智能。Liquid AI开源了Antidoom，一个消除推理模型死循环的方法，死循环率从22.9%降到了1%，可靠性大大提升。蚂蚁集团也开源了LingBot-Vision，一个1B参数的边界感知视觉基础模型。
+还有一个有趣的论文：训练单层Transformer就能匹配全参数RL训练效果，这挑战了传统假设，训练成本有望大幅降低。
+开源项目方面，今天有几个特别亮眼的。iOfficeAI的OfficeCLI，专为AI Agent打造的Office套件命令行工具，单二进制文件，无需安装Office，Agent就能直接读写编辑Word、Excel、PPT，办公自动化指日可待。addyosmani的agent-skills，给编程Agent注入工程最佳实践，提升代码质量。还有asgeirtj的系统提示词泄露集合，逆向工程了Claude、GPT、Gemini等模型的提示词策略，非常有意思。
+腾讯云也贡献了两个开源项目：CubeSandbox，为Agent提供安全代码执行环境，支持Arm架构；还有TencentDB-Agent-Memory，一个全本地长期记忆系统，零外部API依赖。OpenAI也开源了codex-plugin-cc，允许从Claude Code中调用OpenAI Codex进行代码审查，跨平台协作打破了模型壁垒。
+最后，AI圈里有两个热议话题。Kenton Varda，就是Cap'n Proto的作者，宣布团队禁止AI编写变更描述，他认为AI写的PR和commit描述只罗列代码细节，缺乏高层上下文，对代码审查毫无帮助。这引发了关于AI辅助编程中&quot;有用vs噪音&quot;的广泛讨论。另外，Reddit用户实测发现，本地32GB显存跑Gemma 4 31B 5-bit版本，效果远超免费版ChatGPT，用户怀疑OpenAI在用小型模型降本，这引发了大家对闭源API服务质量的讨论。
+今日观察：今天最值得关注的信号是性价比竞争全面爆发。SpaceX Grok 4.5以竞品一半的价格入场，Anthropic提出用Fable 5做管理者、Sonnet 5执行的Advisor模式降本37%，而MiniMax计划开源2.7万亿参数模型。这表明AI行业的竞争正从&quot;谁更强&quot;转向&quot;谁更划算&quot;。同时，Agent生态正在快速成熟——从Claude Cowork跨设备、Gemini Managed Agents后台执行到腾讯云Cube Sandbox支持Arm，基础设施层的完善让Agent从demo走向生产部署的</description>
+      <itunes:summary>各位听众朋友，大家早上好！今天是2026年7月9号，欢迎收听今天的AI行业播报。今天的看点真是不少：价格战全面开打，Agent生态加速成熟，还有几家大厂在开源和盈利上交出了亮眼成绩单。好，我们马上进入正题。
+先来看一个重磅消息：SpaceX发布了Grok 4.5，这是一款专门为编程和Agent设计的模型，定价只有竞争对手的一半。这招太狠了，直接要在开发者市场掀起价格风暴，很可能改变整个API的定价格局。紧接着，OpenAI也放了个大招，推出了GPT-Live，这是一个全双工语音模型，能同时听和说，实现类人实时对话。语音交互的体验这回真的要质变了。
+另一边，Anthropic也没闲着，他们把Claude Cowork扩展到了移动端和网页端，从桌面Agent走向跨设备平台，这下非开发者的知识工作者也能用上了。而且，Anthropic还宣布三季度盈利超过10亿美元，率先在AI行业实现扭亏为盈，这给整个行业树立了一个商业可行性的标杆。
+说到盈利，今天还有一个有趣的发现：API厂商之间存在着定价认知套利，52%是AI推理成本的分水岭。这意味着GPU利用率盲区导致的定价不对称，开发者们可得多留个心眼，关注实际使用成本。
+再来看开源和模型方面的动态。腾讯发布了Hy3，一个295B参数的MoE开源模型，只有21B活跃参数，支持256K上下文，在SWE-Bench上得分78.0，媲美更大模型，而且用的是Apache 2.0许可证。MiniMax更是计划今年晚些时候开源一个2.7万亿参数的模型，这要是成了，就是史上最大开源模型，可能会推动整个开源生态质变。
+NVIDIA发布了Audex，一个30B参数的统一音频-文本MoE模型，能搞定音频理解、识别、翻译、TTS和生成，还保留了文本智能。Liquid AI开源了Antidoom，一个消除推理模型死循环的方法，死循环率从22.9%降到了1%，可靠性大大提升。蚂蚁集团也开源了LingBot-Vision，一个1B参数的边界感知视觉基础模型。
+还有一个有趣的论文：训练单层Transformer就能匹配全参数RL训练效果，这挑战了传统假设，训练成本有望大幅降低。
+开源项目方面，今天有几个特别亮眼的。iOfficeAI的OfficeCLI，专为AI Agent打造的Office套件命令行工具，单二进制文件，无需安装Office，Agent就能直接读写编辑Word、Excel、PPT，办公自动化指日可待。addyosmani的agent-skills，给编程Agent注入工程最佳实践，提升代码质量。还有asgeirtj的系统提示词泄露集合，逆向工程了Claude、GPT、Gemini等模型的提示词策略，非常有意思。
+腾讯云也贡献了两个开源项目：CubeSandbox，为Agent提供安全代码执行环境，支持Arm架构；还有TencentDB-Agent-Memory，一个全本地长期记忆系统，零外部API依赖。OpenAI也开源了codex-plugin-cc，允许从Claude Code中调用OpenAI Codex进行代码审查，跨平台协作打破了模型壁垒。
+最后，AI圈里有两个热议话题。Kenton Varda，就是Cap'n Proto的作者，宣布团队禁止AI编写变更描述，他认为AI写的PR和commit描述只罗列代码细节，缺乏高层上下文，对代码审查毫无帮助。这引发了关于AI辅助编程中&quot;有用vs噪音&quot;的广泛讨论。另外，Reddit用户实测发现，本地32GB显存跑Gemma 4 31B 5-bit版本，效果远超免费版ChatGPT，用户怀疑OpenAI在用小型模型降本，这引发了大家对闭源API服务质量的讨论。
+今日观察：今天最值得关注的信号是性价比竞争全面爆发。SpaceX Grok 4.5以竞品一半的价格入场，Anthropic提出用Fable 5做管理者、Sonnet 5执行的Advisor模式降本37%，而MiniMax计划开源2.7万亿参数模型。这表明AI行业的竞争正从&quot;谁更强&quot;转向&quot;谁更划算&quot;。同时，Agent生态正在快速成熟——从Claude Cowork跨设备、Gemini Managed Agents后台执行到腾讯云Cube Sandbox支持Arm，基础设施层的完善让Agent从demo走向生产部署的</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-09.mp3" length="1844784" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-09.mp3</guid>
       <pubDate>Thu, 09 Jul 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>03:57</itunes:duration>
+      <itunes:duration>05:07</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
