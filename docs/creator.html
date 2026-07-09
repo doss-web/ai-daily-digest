@@ -49,83 +49,93 @@
 🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
 
 📰 行业新闻
-· OpenAI 正式发布 GPT-5.6 系列：三款模型（Sol、Terra、Luna）全面上线，定价 $1-$30/百万 token，Sol 在编程 Agent 基准上超越 Claude Fable 5。
-  来源：https://openai.com/index/gpt-5-6
-· OpenAI 发布 ChatGPT Work：新 Agent 产品可在应用和文件间自主行动，持续完成项目数小时，将目标转化为成品。
-  来源：https://openai.com/index/chatgpt-for-your-most-ambitious-work
-· OpenAI 关闭 ChatGPT Atlas 浏览器：上线不到一年即宣布关停，被 ChatGPT Work 取代。
-  来源：https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset
-· OpenAI 推出 GPT-Live 全双工语音模型：可同时听和说，对话更接近真人，将复杂推理委托给 GPT-5.5。
-  来源：https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/
-· SpaceX 发布 Grok 4.5：基于 Cursor 训练的编程和 Agent 专用模型，定价 $2/$6 每百万 token，仅为竞品一半。
+· OpenAI 正式发布 GPT-5.6 三档模型（Sol/Terra/Luna）并公开可用：OpenAI 获得政府批准后全面公开上线 GPT-5.6，分为 Sol、Terra、Luna 三档，同时推出 ChatGPT Work 代理产品，可跨应用完成整条工作流。
+  来源：https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work
+· OpenAI 推出 GPT-Live 全双工语音模型：GPT-Live-1 和 GPT-Live-1 mini 采用全双工架构，可同时听和说，复杂推理委托给 GPT-5.5，对话体验更接近真人。
+  来源：https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person
+· SpaceX 发布 Grok 4.5，价格仅为竞品一半：基于 Cursor 训练的编码和代理模型，定价 $2/$6 每百万 token，在 Harvey 法律代理基准排名第一，1.5 万亿参数。
   来源：https://venturebeat.com/technology/spacexs-grok-4-5-launches-at-half-the-price-of-rivals-heres-why-that-could-rattle-anthropic-and-openai
-· Meta 发布 Muse Spark 1.1 编程模型：开放 API，大幅提升 Agentic 工具调用和计算机使用能力。
-  来源：https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/
-· Meta 的 Muse Image 模型可引用 Instagram 照片生成 AI 图像：默认开启，用户需手动选择退出。
+· Meta 发布 Muse Spark 1.1 并开放 API，定价低于 Grok 4.5：Meta 进入 AI API 市场，Muse Spark 1.1 每百万输出 token 仅 $4.25，支持 100 万 token 上下文窗口和零样本工具泛化。
+  来源：https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/
+· OpenAI 关闭 Atlas 浏览器，但将代理浏览功能迁移至桌面端：AI 浏览器战略调整，部分功能移至桌面应用和 Chrome 扩展。
+  来源：https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/
+· Musk 称赞 Anthropic 的 Mythos/Fable，承诺不会切断合作：约 400 亿美元收入面临风险，Musk 公开承诺继续托管 Anthropic 模型。
+  来源：https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/
+· 纽约时报指控 OpenAI 在版权案中藏匿证据：报业集团称 OpenAI 隐藏了可识别 ChatGPT 输出中版权内容的工具和数据集，申请制裁。
+  来源：https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/
+· OpenAI 首席未来学家离职：曾在 Twitter 被马斯克批评的高管离开 OpenAI，称“为了安全的 AGI”。
+  来源：https://www.qbitai.com/2026/07/446658.html
+· Databricks 将中国开源模型 GLM 5.2 设为默认编码引擎：在自有百万行代码库上测试，GLM 5.2 以 $1.28/任务匹配 Opus 4.8 的 $1.94/任务性能。
+  来源：https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/
+· OpenAI 发现流行 AI 编码测试 SWE-Bench Pro 约 30% 有缺陷：OpenAI 撤回对该基准的背书，暴露 AI 评估体系脆弱性。
+  来源：https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/
+· Mistral 进入机器人领域，发布 Robostral Navigate：8B 参数模型仅用单 RGB 摄像头引导机器人导航，R2R-CE 基准达 76.6%。
+  来源：https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/
+· Meta 发布 Muse Image 模型，可将 Instagram 用户照片生成 AI 图像：Meta Superintelligence Labs 首款图像模型，默认公开账户照片可被用于 AI 生成，需手动退出。
   来源：https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/
-· 《纽约时报》指控 OpenAI 在版权案中隐藏证据：称 OpenAI 伪造无法搜索训练数据的能力，隐藏了数十亿条日志。
-  来源：https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/
-· Anthropic 推出 Claude Reflect 功能：类似&quot;年度回顾&quot;，展示用户过去一个月的 AI 使用行为分析。
-  来源：https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage
-· Anthropic 将对 Claude Fable 5 收取基于使用的额外费用：订阅用户需按量付费访问最佳模型，标志 AI 订阅黄金时代结束。
-  来源：https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/
-· Google 将标注 AI 生成的广告：在搜索、YouTube 等平台新增&quot;使用 AI 创建或编辑&quot;标签。
+· Google 将披露哪些广告由 AI 制作：此前仅要求选举广告披露，现在扩展至所有 AI 生成或修改内容的广告。
   来源：https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/
-· DeepSeek 计划自研 AI 芯片：从模型公司向硬件领域扩张。
-  来源：https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html
-· Meta 新 AI 芯片将于 9 月投产：采用模块化设计，适应快速演变的 AI 需求。
-  来源：https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/
-· 微软借助 AI 扩大 Patch Tuesday 更新规模：AI 可更早识别潜在问题，安全更新数量将增加。
-  来源：https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates
-· 69% 企业共享 API Key 暴露 AI Agent 安全风险：VentureBeat 研究揭示共享凭据导致攻击面扩大。
+· 69% 企业共享 API 密钥暴露 AI 代理安全风险：VentureBeat 研究发现，共享密钥让单个被攻陷代理继承所有权限，且审计追溯失效。
   来源：https://venturebeat.com/security/shared-api-keys-expose-ai-agent-fleets-venturebeat-research
+· 企业使用多模型时低估 2.25 倍的失败率：研究评估 21 家供应商 67 个前沿模型，发现“共同失败天花板”使多模型编排假设失效。
+  来源：https://venturebeat.com/orchestration/enterprises-using-multiple-ai-models-are-underestimating-failure-rates-by-2-25x
 
 📄 重要论文
-· Agon：竞争式跨模型 RL 训练推理能力：两个模型互为评分者，不只看最终答案，而是评估推理过程本身。
-  来源：https://arxiv.org/abs/2607.07690v1
-· 训练单层 Transformer 即可匹配全参数 RL 训练效果：研究发现 RL 后训练中并非所有层都同等重要。
+· Agon：竞争性跨模型 RL 实现隐式推理评分：让两个模型互为评分者，交替解题和评分，解决 GRPO 只评最终答案不评推理过程的问题。
+  来源：https://arxiv.org/abs/2607.07690
+· Co-LMLM：连续查询有限记忆语言模型：将知识外化到知识库而非记忆在权重中，通过连续键查询文本知识值，实现知识可控。
+  来源：https://arxiv.org/abs/2607.07707
+· 单层 Transformer 训练可匹配全参数 RL 训练效果：系统研究发现 RL 后训练中仅训练单层即可达到全参数更新效果。
   来源：https://huggingface.co/papers/2607.01232
-· Sparse Delta Memory：通过稀疏化扩展线性 RNN 状态：新架构在保持线性注意力计算效率的同时，大幅提升长上下文召回能力。
+· LingBot-Video：首个面向具身智能的 MoE 视频基模开源：蚂蚁灵波发布 DiT 架构的 MoE 视频预训练范式，专为机器人控制设计。
+  来源：https://www.qbitai.com/2026/07/446568
+· LingBot-World 2.0 开源：世界模型首达“小时级”生成：支持 60fps 720p 视频流、无限交互时长、AI 原生多人交互。
+  来源：https://www.qbitai.com/2026/07/446548
+· NVIDIA Nemotron-Labs-3-Puzzle-75B-A9B：压缩混合 MoE 模型：从 120.7B/12.8B 激活参数压缩至 75.3B/9.3B，单 8xB200 节点吞吐量提升 2.03 倍。
+  来源：https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b/
+· Sparse Delta Memory：通过稀疏性扩展线性 RNN 状态：将门控线性 RNN 的隐藏状态扩展数个数量级，提升长上下文回忆能力。
   来源：https://huggingface.co/papers/2607.07386
-· SWE-Review：用 Agent 代码审查闭环解决 Issue：引入审查 Agent 对 AI 生成的 PR 进行系统审查和反馈修订。
-  来源：https://huggingface.co/papers/2607.06065
-· Institutional Red-Teaming：部署规则而非模型决定多 Agent 安全：提出测试多 Agent 系统部署规则的方法论。
-  来源：https://arxiv.org/abs/2607.07695v1
-· How Data Shapes RoPE Frequency Usage：提出数据中心的解释：RoPE 频率被选择来匹配训练数据的相对距离结构。
-  来源：https://arxiv.org/abs/2607.07678v1
-· AgentLens：生产环境评估的代码 Agent 轨迹审查基准：不只评估任务是否通过，而是评估整个 Agent 行为轨迹。
-  来源：https://huggingface.co/papers/2607.06624
+· 跨空间蒸馏：教一步学生模型从现代扩散教师学习：打破师生模型必须在同一潜在空间的限制，实现从 SD 3.5/Flux 蒸馏到 SD 1.5。
+  来源：https://huggingface.co/papers/2606.32020
+· Institutional Red-Teaming：部署规则而非模型本身因果塑造多代理 AI 安全：提出新评估方法论，固定模型和任务，仅改变部署规则来测试安全影响。
+  来源：https://arxiv.org/abs/2607.07695
+· 数据如何塑造 RoPE 频率使用：从位置尺度匹配到长度泛化：发现 RoPE 频率被选中以匹配训练数据的相对距离结构，解释长度泛化机制。
+  来源：https://arxiv.org/abs/2607.07678
 
 🔧 开源项目
-· ai-job-search：基于 Claude Code 的 AI 求职框架，自动评估职位、定制简历、撰写求职信。
-  来源：https://github.com/MadsLorentzen/ai-job-search
-· agent-skills：面向 AI 编程 Agent 的生产级工程技能库。
+· addyosmani/agent-skills：面向 AI 编码代理的生产级工程技能库。
   来源：https://github.com/addyosmani/agent-skills
-· system_prompts_leaks：提取各大 AI 公司系统提示词的仓库，持续更新。
-  来源：https://github.com/asgeirtj/system_prompts_leaks
-· OfficeCLI：专为 AI Agent 打造的 Office 套件命令行工具，无需安装 Office。
+· iOfficeAI/OfficeCLI：首个专为 AI 代理构建的 Office 套件 CLI，无需安装 Office 即可读写编辑 Word/Excel/PPT。
   来源：https://github.com/iOfficeAI/OfficeCLI
-· awesome-design-md：知名品牌设计系统的 DESIGN.md 文件集合，让 Agent 生成匹配 UI。
-  来源：https://github.com/VoltAgent/awesome-design-md
-· LingBot-Video：蚂蚁灵波开源全球首个面向具身的视频基模，基于 MoE 架构。
-  来源：https://huggingface.co/papers/2607.07675
-· LingBot-World 2.0：世界模型首次实现&quot;小时级&quot;生成，支持无限交互时长和 60fps 720p 视频流。
-  来源：https://huggingface.co/papers/2607.07534
-· LingBot-VLA 2.0：开源 6B 跨具身视觉-语言-动作模型，支持 20 种机器人配置。
-  来源：https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0/
-· Nemotron Labs 3 Puzzle 75B A9B：NVIDIA 压缩 MoE 模型，75B 总参/9B 活跃，吞吐量提升 2.03 倍。
-  来源：https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b/
-· CubeSandbox：腾讯云开源的 AI Agent 沙箱，即时、并发、安全、轻量。
-  来源：https://github.com/TencentCloud/CubeSandbox
-· flint-chart：微软开源的 AI Agent 可视化语言，从简单规格生成美观图表。
+· asgeirtj/system_prompts_leaks：提取的各大 AI 模型系统提示词合集，包含 Claude、OpenAI、Google、xAI 等。
+  来源：https://github.com/asgeirtj/system_prompts_leaks
+· microsoft/flint-chart：微软开源的 AI 代理可视化语言，从简单可编辑的图表规格可靠创建美观图表。
   来源：https://github.com/microsoft/flint-chart
+· TencentCloud/CubeSandbox：腾讯云开源的即时、并发、安全、轻量级 AI 代理沙箱。
+  来源：https://github.com/TencentCloud/CubeSandbox
+· openai/codex-plugin-cc：OpenAI 官方发布的 Codex 插件，可从 Claude Code 调用 Codex 审查代码或委派任务。
+  来源：https://github.com/openai/codex-plugin-cc
+· anthropics/claude-cookbooks：Anthropic 官方 Claude 使用教程/食谱集合。
+  来源：https://github.com/anthropics/claude-cookbooks
+· VoltAgent/awesome-design-md：知名品牌设计系统的 DESIGN.md 文件分析集合，放入项目即可让编码代理生成匹配 UI。
+  来源：https://github.com/VoltAgent/awesome-design-md
+· calesthio/OpenMontage：全球首个开源代理视频制作系统，12 条管线、52 个工具、500+ 代理技能。
+  来源：https://github.com/calesthio/OpenMontage
+· stablyai/orca：并行代理工作 ADE（代理开发环境），支持用自己的订阅运行任何编码代理。
+  来源：https://github.com/stablyai/orca
+· vxcontrol/pentagi：完全自主的 AI 代理系统，可执行复杂渗透测试任务。
+  来源：https://github.com/vxcontrol/pentagi
+· kyutai-labs/pocket-tts：可在 CPU 上运行的轻量级 TTS 模型。
+  来源：https://github.com/kyutai-labs/pocket-tts
 
 🐦 AI 圈热议
-· GPT-5.6 发布日成为&quot;模型发布狂欢日&quot;：OpenAI 的 GPT-5.6、SpaceX 的 Grok 4.5、Meta 的 Muse Spark 1.1 在同一天或前后发布。社区讨论焦点已从&quot;哪个模型最强&quot;转向&quot;哪个模型的性价比最高&quot;，Grok 4.5 以竞品一半的价格切入编程 Agent 市场，引发了关于&quot;模型商品化&quot;的广泛讨论——当多个模型能力接近时，价格和 Agent 体验将成为新的竞争维度。（来源：TLDR AI、smol.ai AINews、Hacker News）
-· OpenAI 首席未来学家离职引发安全讨论：OpenAI 首席未来学家宣布离职，此前曾被马斯克公开批评。此事再次引发社区对 AI 安全与商业利益平衡的讨论，尤其是在 GPT-5.6 刚刚获得政府批准全面上线的背景下。（来源：量子位、TechCrunch）
+· Anthropic 将对 Claude Fable 5 收取使用量计费：Wired 报道 Claude 订阅用户很快需要按使用量付费才能访问 Fable 5，标志着 AI 订阅黄金时代即将结束。社区普遍认为这是 API 价格战压力下商业模式必然转型，用户对“无限订阅”的预期将被打破。
+  来源：https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/
+· GPT-5.6 Sol 在代理编码基准上击败所有竞品，价格仅为 Fable 5 的三分之一：AI 社区热议 OpenAI 新定价策略对 Anthropic 的挤压效应。Sol 在 Artificial Analysis Coding Agent Index 上得 80 分，领先 Claude Fable 5 2.8 分，而每任务成本仅 $1.04。社区观点认为“能力-价格”双杀将迫使整个行业重新定价。
+  来源：https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/
 
 💡 今日观察
-今天是 AI 行业的&quot;超级星期三&quot;——OpenAI、SpaceX、Meta 同日发布重磅模型和产品，标志着 AI 竞争从&quot;模型能力竞赛&quot;全面进入&quot;Agent 体验与成本效率竞赛&quot;阶段。最值得关注的两大趋势：一是 GPT-5.6 的 Programmatic Tool Calling 和 Grok 4.5 的定价策略正在重塑 Agent 开发范式，模型不再是唯一壁垒，工具链和生态整合成为新战场；二是 Anthropic 对 Claude Fable 5 引入按用量计费，以及 OpenAI Atlas 浏览器不到一年即关停，说明 AI 产品的商业模式和产品形态仍在剧烈迭代中，没有定论。开源侧，蚂蚁灵波系列模型（LingBot-Video、LingBot-World 2.0、LingBot-VLA 2.0）的密集发布，标志着具身智能从学术研究进入工程化落地阶段。
+今天无疑是 AI 行业的“大爆炸日”——OpenAI、Meta、SpaceX 三大巨头在同一天发布重磅模型，而且全部聚焦编码和代理能力。最值得关注的信号不是基准分数，而是价格：GPT-5.6 Sol 比 Fable 5 便宜 3 倍、Muse Spark 1.1 比 Grok 4.5 还便宜、Grok 4.5 本身已是竞品的几分之一——API 价格战已进入白热化阶段，纯靠模型能力溢价的商业模式正在瓦解。与此同时，Databricks 选择中国开源模型 GLM 5.2 作为主力编码引擎，加上蚂蚁灵波系列模型的开源，表明开源生态正在从“追赶闭源”转向“在某些场景超越闭源”。开发者应该抓住这个窗口期，建立自己的评估体系而非依赖公开基准，因为 OpenAI 自己都发现 SWE-Bench Pro 30% 有问题。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
