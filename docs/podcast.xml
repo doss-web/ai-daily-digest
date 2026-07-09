@@ -15,6 +15,31 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-07-10 周五</title>
+      <description>大家早上好，今天是2026年7月10号，欢迎收听今天的AI行业播报。今天绝对是AI圈的大日子，OpenAI、SpaceX、Meta在同一天扎堆发布重磅新品，可以说是一场“模型发布狂欢日”。咱们话不多说，直接进入正题。
+首先，OpenAI今天一口气放出了好几颗重磅炸弹。最核心的就是GPT-5.6系列正式上线，一共三款模型，分别叫Sol、Terra和Luna，价格从每百万token一块钱到三十块钱不等。其中最强的Sol在编程Agent基准上直接超越了Anthropic的Claude Fable 5。这次最值得关注的是，OpenAI引入了一个叫Programmatic Tool Calling的新功能，开发者可以根据自己的需求在性能和成本之间灵活选择，这大大降低了Agent开发的复杂度。同时，OpenAI还推出了一个叫ChatGPT Work的新产品，它不再是简单的对话工具，而是能在应用和文件之间自主行动，持续完成项目好几个小时，真正把目标变成成品。这标志着AI从对话工具进化成了长期自主工作伙伴。不过，有得就有失，之前推出的ChatGPT Atlas浏览器，上线不到一年就被宣布关停，被ChatGPT Work取代了。看来，浏览器形态的Agent这条路没走通，工作流Agent才是新方向。另外，OpenAI还发布了GPT-Live全双工语音模型，能同时听和说，对话体验更接近真人，复杂推理会委托给GPT-5.5来处理，语音交互体验可以说是质的飞跃。
+这边OpenAI热闹，那边SpaceX和Meta也没闲着。SpaceX发布了Grok 4.5，专门为编程和Agent场景训练，定价是每百万token两块钱和六块钱，只有竞争对手的一半。这价格战打得可够狠的，直接冲击了Anthropic和OpenAI的市场。Meta这边呢，推出了Muse Spark 1.1编程模型，开放了API，大幅提升了Agent工具调用和计算机使用能力，正式加入了编程Agent的混战。
+说到Anthropic，他们今天也有动作。推出了一个叫Claude Reflect的功能，类似年度回顾，能展示用户过去一个月使用AI的行为分析，这有助于提升用户粘性和透明度。不过，也有一个不太好的消息，Anthropic宣布将对Claude Fable 5收取基于使用的额外费用，订阅用户需要按量付费才能访问最佳模型。这被业内解读为AI订阅黄金时代结束的信号，开发者们得重新评估成本了。
+其他方面，Google宣布将标注AI生成的广告，在搜索、YouTube等平台新增“使用AI创建或编辑”的标签，AI内容透明度监管越来越严。DeepSeek计划自研AI芯片，从模型公司向硬件领域扩张。Meta的新AI芯片也将在9月投产，采用模块化设计，降低对NVIDIA的依赖。微软则借助AI扩大Patch Tuesday更新规模，AI驱动的安全运维成为新常态。另外，一项研究显示，69%的企业共享API Key，这暴露了AI Agent的安全风险，API凭据管理成了关键问题。
+版权方面，《纽约时报》指控OpenAI在版权案中隐藏证据，称OpenAI伪造了无法搜索训练数据的能力，隐藏了数十亿条日志。这可能是版权诉讼的关键转折，可能影响整个AI训练数据的合规标准。
+接下来看看论文和开源项目。今天有几篇论文特别值得关注。一篇叫《Agon》的论文提出了竞争式跨模型强化学习训练推理能力，两个模型互为评分者，不只是看最终答案，而是评估推理过程本身，这突破了以往只评分最终答案的局限。另一篇研究发现，训练单层Transformer就能匹配全参数强化学习训练效果，这意味着可以大幅降低后训练成本。还有一篇叫《Sparse Delta Memory》的论文，通过稀疏化扩展线性RNN状态，在保持计算效率的同时大幅提升长上下文召回能力，线性注意力模型正在追赶Transformer。
+开源项目这边，今天也是热闹非凡。一个叫ai-job-search的项目基于Claude Code，能自动评估职位、定制简历、撰写求职信，一天就涨了三千多星。还有agent-skills，是面向AI编程Agent的生产级工程技能库。OfficeCLI专为AI Agent打造，能直接操作Office文档而无需安装Office。腾讯云开源了CubeSandbox，是AI Ag</description>
+      <itunes:summary>大家早上好，今天是2026年7月10号，欢迎收听今天的AI行业播报。今天绝对是AI圈的大日子，OpenAI、SpaceX、Meta在同一天扎堆发布重磅新品，可以说是一场“模型发布狂欢日”。咱们话不多说，直接进入正题。
+首先，OpenAI今天一口气放出了好几颗重磅炸弹。最核心的就是GPT-5.6系列正式上线，一共三款模型，分别叫Sol、Terra和Luna，价格从每百万token一块钱到三十块钱不等。其中最强的Sol在编程Agent基准上直接超越了Anthropic的Claude Fable 5。这次最值得关注的是，OpenAI引入了一个叫Programmatic Tool Calling的新功能，开发者可以根据自己的需求在性能和成本之间灵活选择，这大大降低了Agent开发的复杂度。同时，OpenAI还推出了一个叫ChatGPT Work的新产品，它不再是简单的对话工具，而是能在应用和文件之间自主行动，持续完成项目好几个小时，真正把目标变成成品。这标志着AI从对话工具进化成了长期自主工作伙伴。不过，有得就有失，之前推出的ChatGPT Atlas浏览器，上线不到一年就被宣布关停，被ChatGPT Work取代了。看来，浏览器形态的Agent这条路没走通，工作流Agent才是新方向。另外，OpenAI还发布了GPT-Live全双工语音模型，能同时听和说，对话体验更接近真人，复杂推理会委托给GPT-5.5来处理，语音交互体验可以说是质的飞跃。
+这边OpenAI热闹，那边SpaceX和Meta也没闲着。SpaceX发布了Grok 4.5，专门为编程和Agent场景训练，定价是每百万token两块钱和六块钱，只有竞争对手的一半。这价格战打得可够狠的，直接冲击了Anthropic和OpenAI的市场。Meta这边呢，推出了Muse Spark 1.1编程模型，开放了API，大幅提升了Agent工具调用和计算机使用能力，正式加入了编程Agent的混战。
+说到Anthropic，他们今天也有动作。推出了一个叫Claude Reflect的功能，类似年度回顾，能展示用户过去一个月使用AI的行为分析，这有助于提升用户粘性和透明度。不过，也有一个不太好的消息，Anthropic宣布将对Claude Fable 5收取基于使用的额外费用，订阅用户需要按量付费才能访问最佳模型。这被业内解读为AI订阅黄金时代结束的信号，开发者们得重新评估成本了。
+其他方面，Google宣布将标注AI生成的广告，在搜索、YouTube等平台新增“使用AI创建或编辑”的标签，AI内容透明度监管越来越严。DeepSeek计划自研AI芯片，从模型公司向硬件领域扩张。Meta的新AI芯片也将在9月投产，采用模块化设计，降低对NVIDIA的依赖。微软则借助AI扩大Patch Tuesday更新规模，AI驱动的安全运维成为新常态。另外，一项研究显示，69%的企业共享API Key，这暴露了AI Agent的安全风险，API凭据管理成了关键问题。
+版权方面，《纽约时报》指控OpenAI在版权案中隐藏证据，称OpenAI伪造了无法搜索训练数据的能力，隐藏了数十亿条日志。这可能是版权诉讼的关键转折，可能影响整个AI训练数据的合规标准。
+接下来看看论文和开源项目。今天有几篇论文特别值得关注。一篇叫《Agon》的论文提出了竞争式跨模型强化学习训练推理能力，两个模型互为评分者，不只是看最终答案，而是评估推理过程本身，这突破了以往只评分最终答案的局限。另一篇研究发现，训练单层Transformer就能匹配全参数强化学习训练效果，这意味着可以大幅降低后训练成本。还有一篇叫《Sparse Delta Memory》的论文，通过稀疏化扩展线性RNN状态，在保持计算效率的同时大幅提升长上下文召回能力，线性注意力模型正在追赶Transformer。
+开源项目这边，今天也是热闹非凡。一个叫ai-job-search的项目基于Claude Code，能自动评估职位、定制简历、撰写求职信，一天就涨了三千多星。还有agent-skills，是面向AI编程Agent的生产级工程技能库。OfficeCLI专为AI Agent打造，能直接操作Office文档而无需安装Office。腾讯云开源了CubeSandbox，是AI Ag</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-10.mp3" length="2270448" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-10.mp3</guid>
+      <pubDate>Fri, 10 Jul 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>06:18</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-07-09 周四</title>
       <description>各位听众朋友，大家早上好！今天是2026年7月9号，欢迎收听今天的AI行业播报。今天的看点真是不少：价格战全面开打，Agent生态加速成熟，还有几家大厂在开源和盈利上交出了亮眼成绩单。好，我们马上进入正题。
 先来看一个重磅消息：SpaceX发布了Grok 4.5，这是一款专门为编程和Agent设计的模型，定价只有竞争对手的一半。这招太狠了，直接要在开发者市场掀起价格风暴，很可能改变整个API的定价格局。紧接着，OpenAI也放了个大招，推出了GPT-Live，这是一个全双工语音模型，能同时听和说，实现类人实时对话。语音交互的体验这回真的要质变了。
@@ -417,33 +442,6 @@ OpenAI也不甘寂寞。一篇论文意外曝光了GPT-5.6 Pro可能推出三个
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-26.mp3</guid>
       <pubDate>Fri, 26 Jun 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:50</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-06-25 周四</title>
-      <description>各位听众朋友，早上好！今天是2026年6月25号，欢迎收听今天的AI行业播报。今天的看点不少，咱们先来几个重磅消息：OpenAI推出了自己的推理芯片，开源模型GLM-5.2几乎能跟Opus 4.7掰手腕，成本却只要五分之一，还有，企业从Claude迁移到DeepSeek，一年能省下几百万美元。好，咱们一个一个聊。
-先说芯片这块。OpenAI跟Broadcom联手，发布了首款自研推理芯片，代号Jalapeño，计划今年底大规模部署。这芯片专为大语言模型推理优化，目标是降低推理成本，减少对NVIDIA的依赖。这步棋，直接关系到AI芯片格局的重塑。另一边，高通也没闲着，花了将近40亿美元收购了芯片软件初创公司Modular，说明芯片软件栈成了巨头争夺的焦点。不过，Cerebras上市后的首份财报不太好看，毛利率收窄，股价暴跌，CEO说市场误解了利润率展望，但投资者对AI芯片公司的盈利能力明显更谨慎了。
-模型这边，热闹得很。Google DeepMind给Gemini 3.5 Flash新增了“计算机使用”能力，能自主控制桌面环境执行任务，直接跟Claude的Computer Use对标。Mistral发布了第四代OCR模型，支持170种语言，企业级文档解析能力更强，对RAG和Agent管道来说是个好消息。字节跳动的Seedance 2.5视频模型突破了30秒门槛，接近短视频内容需求，计划7月初上线。智谱的GLM-5.2在Snowflake的基准测试里，用五分之一成本几乎匹配了Claude Opus 4.7，开源模型的性价比碾压闭源巨头，西方AI实验室的估值压力不小。
-人才流动也没停。Google两位顶尖AI研究员跳槽到了Anthropic，延续了近期人才流失的趋势。Anthropic自己还发布了Claude Tag，在Slack里通过@Claude就能调用AI执行任务，据说产品团队65%的代码都由它生成，这渗透率真够惊人的。
-企业决策方面，有家AI公司花了9个月，把模型从Claude切换到DeepSeek，迁移工作量增加了100倍，但每年省下几百万美元推理成本。成本成了企业选模型的关键，DeepSeek的性价比优势很明显。另外，Grammarly的母公司Superhuman收购了GPTZero，年营收超2亿，AI写作和检测走向一体化，内容生态整合加速。
-开源项目这边，今天也有一批好东西。OpenMontage是全球首个开源Agent视频制作系统，包含12条流水线、52个工具、500多个Agent技能，能把AI编码助手变成视频工作室。NVIDIA发布了SkillSpector，专门扫描Agent技能中的漏洞和安全风险，企业部署必备。还有个叫Agent-Reach的工具，让AI Agent一键读取Twitter、Reddit、GitHub、Bilibili等平台，零API费用，数据获取成本直接打下来。codebase-memory-mcp能把代码库索引成知识图谱，支持158种语言，毫秒级查询，Token消耗减少99%，代码理解效率飞跃。
-论文方面，阿里巴巴的Qwen-AgentWorld系列，首个语言世界模型，能模拟MCP、终端、软件工程等七类Agent环境，为Agent训练提供低成本模拟。OpenThoughts-Agent发布了开源数据管道，填补了公开Agent训练数据的空白。UC San Diego的DFlash投机解码，在NVIDIA Blackwell上实现15倍吞吐量提升，推理加速新范式。NatureBench提出90个跨学科任务，测试AI编码Agent能否复现Nature论文的SOTA结果，推动AI从“复现”走向“发现”。还有DREAM，通过自回归建模实现稠密检索嵌入，简化了检索模型训练流程。
-最后，今日观察。今天最值得关注的信号，是开源模型对闭源巨头的性价比碾压，GLM-5.2直接冲击了西方AI实验室的估值逻辑。同时，Agent基础设施正在快速标准化，从环境模拟、训练配方到安全扫描、知识图谱索引，一套完整的开发工具链正在形成。最后，推理成本已经从技术问题变成了商业决策核心，企业迁移、自研芯片、硬件优化，降本成了行业主旋律。
-好了，今天的播报就到这里。咱们明天见！</description>
-      <itunes:summary>各位听众朋友，早上好！今天是2026年6月25号，欢迎收听今天的AI行业播报。今天的看点不少，咱们先来几个重磅消息：OpenAI推出了自己的推理芯片，开源模型GLM-5.2几乎能跟Opus 4.7掰手腕，成本却只要五分之一，还有，企业从Claude迁移到DeepSeek，一年能省下几百万美元。好，咱们一个一个聊。
-先说芯片这块。OpenAI跟Broadcom联手，发布了首款自研推理芯片，代号Jalapeño，计划今年底大规模部署。这芯片专为大语言模型推理优化，目标是降低推理成本，减少对NVIDIA的依赖。这步棋，直接关系到AI芯片格局的重塑。另一边，高通也没闲着，花了将近40亿美元收购了芯片软件初创公司Modular，说明芯片软件栈成了巨头争夺的焦点。不过，Cerebras上市后的首份财报不太好看，毛利率收窄，股价暴跌，CEO说市场误解了利润率展望，但投资者对AI芯片公司的盈利能力明显更谨慎了。
-模型这边，热闹得很。Google DeepMind给Gemini 3.5 Flash新增了“计算机使用”能力，能自主控制桌面环境执行任务，直接跟Claude的Computer Use对标。Mistral发布了第四代OCR模型，支持170种语言，企业级文档解析能力更强，对RAG和Agent管道来说是个好消息。字节跳动的Seedance 2.5视频模型突破了30秒门槛，接近短视频内容需求，计划7月初上线。智谱的GLM-5.2在Snowflake的基准测试里，用五分之一成本几乎匹配了Claude Opus 4.7，开源模型的性价比碾压闭源巨头，西方AI实验室的估值压力不小。
-人才流动也没停。Google两位顶尖AI研究员跳槽到了Anthropic，延续了近期人才流失的趋势。Anthropic自己还发布了Claude Tag，在Slack里通过@Claude就能调用AI执行任务，据说产品团队65%的代码都由它生成，这渗透率真够惊人的。
-企业决策方面，有家AI公司花了9个月，把模型从Claude切换到DeepSeek，迁移工作量增加了100倍，但每年省下几百万美元推理成本。成本成了企业选模型的关键，DeepSeek的性价比优势很明显。另外，Grammarly的母公司Superhuman收购了GPTZero，年营收超2亿，AI写作和检测走向一体化，内容生态整合加速。
-开源项目这边，今天也有一批好东西。OpenMontage是全球首个开源Agent视频制作系统，包含12条流水线、52个工具、500多个Agent技能，能把AI编码助手变成视频工作室。NVIDIA发布了SkillSpector，专门扫描Agent技能中的漏洞和安全风险，企业部署必备。还有个叫Agent-Reach的工具，让AI Agent一键读取Twitter、Reddit、GitHub、Bilibili等平台，零API费用，数据获取成本直接打下来。codebase-memory-mcp能把代码库索引成知识图谱，支持158种语言，毫秒级查询，Token消耗减少99%，代码理解效率飞跃。
-论文方面，阿里巴巴的Qwen-AgentWorld系列，首个语言世界模型，能模拟MCP、终端、软件工程等七类Agent环境，为Agent训练提供低成本模拟。OpenThoughts-Agent发布了开源数据管道，填补了公开Agent训练数据的空白。UC San Diego的DFlash投机解码，在NVIDIA Blackwell上实现15倍吞吐量提升，推理加速新范式。NatureBench提出90个跨学科任务，测试AI编码Agent能否复现Nature论文的SOTA结果，推动AI从“复现”走向“发现”。还有DREAM，通过自回归建模实现稠密检索嵌入，简化了检索模型训练流程。
-最后，今日观察。今天最值得关注的信号，是开源模型对闭源巨头的性价比碾压，GLM-5.2直接冲击了西方AI实验室的估值逻辑。同时，Agent基础设施正在快速标准化，从环境模拟、训练配方到安全扫描、知识图谱索引，一套完整的开发工具链正在形成。最后，推理成本已经从技术问题变成了商业决策核心，企业迁移、自研芯片、硬件优化，降本成了行业主旋律。
-好了，今天的播报就到这里。咱们明天见！</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-25.mp3" length="1770912" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-25.mp3</guid>
-      <pubDate>Thu, 25 Jun 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:55</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
