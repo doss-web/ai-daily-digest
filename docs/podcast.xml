@@ -15,6 +15,31 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-07-11 周六</title>
+      <description>各位听众朋友，早上好！今天是2026年7月11号，欢迎收听今天的AI行业播报。今天可以说是AI圈的一个大日子，信息量非常爆炸。我们梳理了几个核心看点：一是OpenAI正式发布了GPT-5.6系列，Agent能力大幅跃升；二是AI行业的价格战和人才战都进入了白热化阶段；三是Agent技能标准正在成为社区争夺的焦点。好，话不多说，我们直接进入正题。
+先来说说今天最重磅的消息。OpenAI正式发布了GPT-5.6系列模型，包括Luna、Terra、Sol三款，同时推出了一个叫ChatGPT Work的新产品。这个ChatGPT Work可不简单，它不再只是一个问答工具，而是一个能跨邮件、日历、代码仓库执行复杂多步任务的云端AI Agent。也就是说，它从一个聊天机器人，进化成了一个能帮你干活的自动化工作平台。更厉害的是，GPT-5.6 Sol这个模型，仅凭一个相当模糊的提示，就自主完成了小模型Luna的后训练微调，在递归自我改进的基准上得分比上一代高了16.2分。这意味着AI自己训练AI的能力，已经接近实用化了，自动化研究员的目标触手可及。另外，GPT-5.6 Sol在综合基准测试上只比Anthropic的Claude Fable 5低1分，但每任务成本只有1.04美元，是对方顶级模型的三分之一。这个性价比碾压，让Anthropic的定价压力空前巨大。
+说到价格战，今天还有另一个重要玩家出手了。Meta发布了Muse Spark 1.1，并且开放了API。它的输出价格是每百万Token4.25美元，远低于OpenAI和Anthropic，而且拥有100万Token的上下文窗口和多Agent委派能力。Meta这一招，直接把AI价格战推向了新高度。看来，低成本策略正在成为打破现有格局的关键武器。
+不过，OpenAI这边也不是只有好消息。今天Apple正式起诉了OpenAI，指控他们通过挖角Apple员工，系统性地窃取AI硬件相关的商业机密，包括机密演示、原型和供应商细节。这起诉讼直接揭示了AI行业人才竞争的白热化程度，知识产权风险已经成为巨头博弈的关键战场。同时，OpenAI的二号人物Fidji Simo也因健康原因离职了，转为兼职顾问。在IPO前夕，领导层的动荡引发了市场关注。
+另外，OpenAI还做了一些战略调整。他们关闭了上线不到8个月的AI浏览器Atlas，把它的Agent浏览功能整合进了ChatGPT桌面应用和Chrome扩展。这说明OpenAI正在收缩战线，聚焦核心产品。同时，他们发现大约30%的流行AI编程测试存在缺陷，并撤回了对相关基准的背书。这给整个AI编程评估体系敲响了警钟，行业需要更可靠的评测标准。
+除了OpenAI，今天还有一些值得关注的动态。腾讯正在洽谈收购AI Agent初创公司Manus的多数股权，估值大约20亿美元。此前北京阻止了Meta的收购，这背后地缘政治因素正在影响全球AI并购格局。另外，谷歌发布了TabFM，一个无需为每个新数据集重新训练就能预测未见表格的基础模型，这可能会颠覆企业结构化数据分析的方式。还有，86%的企业表示他们的GPU利用率不到一半，这反映了AI基础设施投资与实际使用之间的巨大鸿沟。
+在开源和学术方面，今天也有一大波新东西。NVIDIA发布了压缩混合MoE模型，通过迭代压缩技术让单节点吞吐量提升了两倍多。谷歌的SensorFM在万亿分钟传感器数据上预训练，为可穿戴健康AI建立了基础模型。还有Jet-Long提出了一种动态双焦RoPE方法，让开源模型无需重新训练就能实现长上下文扩展。开源项目方面，微软开源了Flint-Chart，让AI Agent能可靠生成图表；NVIDIA开源了OpenShell，为Agent提供安全沙箱；腾讯云开源了Agent长期记忆解决方案，完全本地化，零外部API依赖。
+最后，我们聊聊今天AI圈的热议话题。Agent技能标准之争正在白热化。今天GitHub上多个Agent Skills相关项目同时爆发式增长，包括Google的Stitch Skills和社区驱动的Agent Skills标准。大家都在争夺如何为AI编码Agent编写标准化技能的主导权。另一个热议话题是Bun用Claude Fable 5在11天内重写了超过100万行代码，从Zig转到了Rust。这</description>
+      <itunes:summary>各位听众朋友，早上好！今天是2026年7月11号，欢迎收听今天的AI行业播报。今天可以说是AI圈的一个大日子，信息量非常爆炸。我们梳理了几个核心看点：一是OpenAI正式发布了GPT-5.6系列，Agent能力大幅跃升；二是AI行业的价格战和人才战都进入了白热化阶段；三是Agent技能标准正在成为社区争夺的焦点。好，话不多说，我们直接进入正题。
+先来说说今天最重磅的消息。OpenAI正式发布了GPT-5.6系列模型，包括Luna、Terra、Sol三款，同时推出了一个叫ChatGPT Work的新产品。这个ChatGPT Work可不简单，它不再只是一个问答工具，而是一个能跨邮件、日历、代码仓库执行复杂多步任务的云端AI Agent。也就是说，它从一个聊天机器人，进化成了一个能帮你干活的自动化工作平台。更厉害的是，GPT-5.6 Sol这个模型，仅凭一个相当模糊的提示，就自主完成了小模型Luna的后训练微调，在递归自我改进的基准上得分比上一代高了16.2分。这意味着AI自己训练AI的能力，已经接近实用化了，自动化研究员的目标触手可及。另外，GPT-5.6 Sol在综合基准测试上只比Anthropic的Claude Fable 5低1分，但每任务成本只有1.04美元，是对方顶级模型的三分之一。这个性价比碾压，让Anthropic的定价压力空前巨大。
+说到价格战，今天还有另一个重要玩家出手了。Meta发布了Muse Spark 1.1，并且开放了API。它的输出价格是每百万Token4.25美元，远低于OpenAI和Anthropic，而且拥有100万Token的上下文窗口和多Agent委派能力。Meta这一招，直接把AI价格战推向了新高度。看来，低成本策略正在成为打破现有格局的关键武器。
+不过，OpenAI这边也不是只有好消息。今天Apple正式起诉了OpenAI，指控他们通过挖角Apple员工，系统性地窃取AI硬件相关的商业机密，包括机密演示、原型和供应商细节。这起诉讼直接揭示了AI行业人才竞争的白热化程度，知识产权风险已经成为巨头博弈的关键战场。同时，OpenAI的二号人物Fidji Simo也因健康原因离职了，转为兼职顾问。在IPO前夕，领导层的动荡引发了市场关注。
+另外，OpenAI还做了一些战略调整。他们关闭了上线不到8个月的AI浏览器Atlas，把它的Agent浏览功能整合进了ChatGPT桌面应用和Chrome扩展。这说明OpenAI正在收缩战线，聚焦核心产品。同时，他们发现大约30%的流行AI编程测试存在缺陷，并撤回了对相关基准的背书。这给整个AI编程评估体系敲响了警钟，行业需要更可靠的评测标准。
+除了OpenAI，今天还有一些值得关注的动态。腾讯正在洽谈收购AI Agent初创公司Manus的多数股权，估值大约20亿美元。此前北京阻止了Meta的收购，这背后地缘政治因素正在影响全球AI并购格局。另外，谷歌发布了TabFM，一个无需为每个新数据集重新训练就能预测未见表格的基础模型，这可能会颠覆企业结构化数据分析的方式。还有，86%的企业表示他们的GPU利用率不到一半，这反映了AI基础设施投资与实际使用之间的巨大鸿沟。
+在开源和学术方面，今天也有一大波新东西。NVIDIA发布了压缩混合MoE模型，通过迭代压缩技术让单节点吞吐量提升了两倍多。谷歌的SensorFM在万亿分钟传感器数据上预训练，为可穿戴健康AI建立了基础模型。还有Jet-Long提出了一种动态双焦RoPE方法，让开源模型无需重新训练就能实现长上下文扩展。开源项目方面，微软开源了Flint-Chart，让AI Agent能可靠生成图表；NVIDIA开源了OpenShell，为Agent提供安全沙箱；腾讯云开源了Agent长期记忆解决方案，完全本地化，零外部API依赖。
+最后，我们聊聊今天AI圈的热议话题。Agent技能标准之争正在白热化。今天GitHub上多个Agent Skills相关项目同时爆发式增长，包括Google的Stitch Skills和社区驱动的Agent Skills标准。大家都在争夺如何为AI编码Agent编写标准化技能的主导权。另一个热议话题是Bun用Claude Fable 5在11天内重写了超过100万行代码，从Zig转到了Rust。这</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-11.mp3" length="2197872" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-11.mp3</guid>
+      <pubDate>Sat, 11 Jul 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>06:06</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-07-10 周五</title>
       <description>各位听众朋友，早上好！今天是2026年7月10号，欢迎收听今天的AI行业播报。今天可以说是AI界的一个“大爆炸日”，三大巨头同时发力，价格战全面升级，还有一系列重磅模型和开源项目集中发布。咱们赶紧来看看今天的热点。
 首先，最重磅的消息来自OpenAI。他们正式发布了GPT-5.6，并且一口气推出了三个档次的模型，分别叫Sol、Terra和Luna。同时，还推出了一个叫ChatGPT Work的代理产品，可以跨应用完成整条工作流。更让人关注的是，GPT-5.6 Sol在代理编码基准上击败了所有竞品，但价格却只有Anthropic的Claude Fable 5的三分之一。这直接引发了AI社区的热议，大家普遍认为这种“能力-价格”双杀将迫使整个行业重新定价。
@@ -415,35 +440,6 @@ OpenAI也不甘寂寞。一篇论文意外曝光了GPT-5.6 Pro可能推出三个
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-27.mp3</guid>
       <pubDate>Sat, 27 Jun 2026 08:00:00 +0800</pubDate>
       <itunes:duration>05:18</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-06-26 周五</title>
-      <description>各位听众朋友早安，今天是2026年6月26号，欢迎收听今天的AI行业播报。今天的关键词是“安全监管”和“成本革命”，咱们来看看AI圈又发生了哪些大事。
-先说说最重磅的消息，OpenAI今天有两个大动作。一方面，美国政府出于安全考虑，要求OpenAI分阶段发布GPT-5.6，目前只给少数合作伙伴预览。这说明AI安全监管真的进入实操阶段了，以后模型发布可能都会是这种“慢放”节奏。另一方面，OpenAI发布了首款自研AI推理芯片，名字挺有意思，叫Jalapeño，跟博通合作开发的。这芯片专门为大型语言模型推理设计，目的就是降低推理成本，减少对英伟达的依赖。这两件事加在一起，能看出OpenAI在安全和成本上都在下大功夫。
-与此同时，OpenAI还更新了GPT-5.5 Instant版本，在理解用户意图、处理复杂购物场景上进步明显，而且已经在API里上线了。这对用免费版ChatGPT的朋友来说是个好消息。
-模型竞争这块，今天也有新看点。Anthropic指控阿里巴巴通过系统性蒸馏攻击，非法提取他们的模型能力，这已经是公开撕破脸了。不过另一边，Anthropic的Claude在付费用户市场正在悄悄追赶ChatGPT，数据显示越来越多付费用户开始转向Claude。还有谷歌，直接把“计算机使用”能力集成到了Gemini 3.5 Flash里，模型能直接操作你的屏幕、浏览器和手机，在OSWorld基准上得分78.4，跟GPT-5.5持平。这意味着Agent能力已经内建在模型里了，开发者开发门槛会大大降低。
-苹果这边也有动作，他们跳过高端M6芯片，直接加速研发M7系列，目标是强化本地AI推理能力。而Mistral发布了第四代OCR技术，把文档提取升级成了企业级AI方案，能返回结构化文档，包括边界框和逐词置信度，这对文档智能处理是个大升级。
-开源社区今天也很热闹。有个叫OpenMontage的项目，是全球首个开源Agent视频制作系统，一天就涨了三千多颗星，有12条流水线、52个工具和500多个Agent技能，感觉AI视频生产要变天了。谷歌开源了一个叫design.md的规范，专门解决AI生成UI的一致性问题，让编码Agent能持久理解设计系统。苹果也推出了一个在Mac上运行Linux容器的工具，用Swift写的，专为苹果芯片优化，本地开发又多了一个选择。
-还有一个项目叫ai-website-cloner-template，一条命令就能用AI编码Agent克隆任何网站，前端开发门槛又降低了。另外，知名投资人Garry Tan开源了他的Claude Code配置，包含23个工具，能模拟CEO、设计师、工程经理等角色，这简直就是顶级VC的Agent工作流模板。
-最后说说几个值得关注的趋势。今天有个话题在圈里热议，Claude Code的工程负责人Fiona Fung在播客里说，“狂烧Token的时代已经过去了，现在该算ROI了”。她认为随着编码问题被解决，行业需要思考编码被解决后会发生什么，团队文化维护和角色模糊化是新的挑战。另外，GLM-5.2的成本优势引发讨论，Snowflake CEO发现它在编码任务中跟Claude Opus 4.7竞争力相当，但成本只有五分之一。这给西方AI实验室的估值带来了压力。
-今日观察：今天最值得关注的信号是AI安全监管进入实操阶段，美国政府直接要求OpenAI分阶段发布GPT-5.6，这意味着模型发布节奏将从“越快越好”转向“可控有序”。与此同时，推理成本正在成为行业分水岭，GLM-5.2以五分之一的成本匹敌Opus 4.7，而OpenAI自研芯片Jalapeño的发布也表明头部玩家正在用硬件手段锁定成本优势。最后，Agent工程化正在从“烧Token堆功能”转向“算ROI”，Claude Code团队的反思和Patronus AI的5000万美元融资都指向同一个方向——Agent的下一波竞争不在于能力上限，而在于可靠性、成本和可测试性。
-好了，今天的播报就到这里，感谢收听，我们明天见。</description>
-      <itunes:summary>各位听众朋友早安，今天是2026年6月26号，欢迎收听今天的AI行业播报。今天的关键词是“安全监管”和“成本革命”，咱们来看看AI圈又发生了哪些大事。
-先说说最重磅的消息，OpenAI今天有两个大动作。一方面，美国政府出于安全考虑，要求OpenAI分阶段发布GPT-5.6，目前只给少数合作伙伴预览。这说明AI安全监管真的进入实操阶段了，以后模型发布可能都会是这种“慢放”节奏。另一方面，OpenAI发布了首款自研AI推理芯片，名字挺有意思，叫Jalapeño，跟博通合作开发的。这芯片专门为大型语言模型推理设计，目的就是降低推理成本，减少对英伟达的依赖。这两件事加在一起，能看出OpenAI在安全和成本上都在下大功夫。
-与此同时，OpenAI还更新了GPT-5.5 Instant版本，在理解用户意图、处理复杂购物场景上进步明显，而且已经在API里上线了。这对用免费版ChatGPT的朋友来说是个好消息。
-模型竞争这块，今天也有新看点。Anthropic指控阿里巴巴通过系统性蒸馏攻击，非法提取他们的模型能力，这已经是公开撕破脸了。不过另一边，Anthropic的Claude在付费用户市场正在悄悄追赶ChatGPT，数据显示越来越多付费用户开始转向Claude。还有谷歌，直接把“计算机使用”能力集成到了Gemini 3.5 Flash里，模型能直接操作你的屏幕、浏览器和手机，在OSWorld基准上得分78.4，跟GPT-5.5持平。这意味着Agent能力已经内建在模型里了，开发者开发门槛会大大降低。
-苹果这边也有动作，他们跳过高端M6芯片，直接加速研发M7系列，目标是强化本地AI推理能力。而Mistral发布了第四代OCR技术，把文档提取升级成了企业级AI方案，能返回结构化文档，包括边界框和逐词置信度，这对文档智能处理是个大升级。
-开源社区今天也很热闹。有个叫OpenMontage的项目，是全球首个开源Agent视频制作系统，一天就涨了三千多颗星，有12条流水线、52个工具和500多个Agent技能，感觉AI视频生产要变天了。谷歌开源了一个叫design.md的规范，专门解决AI生成UI的一致性问题，让编码Agent能持久理解设计系统。苹果也推出了一个在Mac上运行Linux容器的工具，用Swift写的，专为苹果芯片优化，本地开发又多了一个选择。
-还有一个项目叫ai-website-cloner-template，一条命令就能用AI编码Agent克隆任何网站，前端开发门槛又降低了。另外，知名投资人Garry Tan开源了他的Claude Code配置，包含23个工具，能模拟CEO、设计师、工程经理等角色，这简直就是顶级VC的Agent工作流模板。
-最后说说几个值得关注的趋势。今天有个话题在圈里热议，Claude Code的工程负责人Fiona Fung在播客里说，“狂烧Token的时代已经过去了，现在该算ROI了”。她认为随着编码问题被解决，行业需要思考编码被解决后会发生什么，团队文化维护和角色模糊化是新的挑战。另外，GLM-5.2的成本优势引发讨论，Snowflake CEO发现它在编码任务中跟Claude Opus 4.7竞争力相当，但成本只有五分之一。这给西方AI实验室的估值带来了压力。
-今日观察：今天最值得关注的信号是AI安全监管进入实操阶段，美国政府直接要求OpenAI分阶段发布GPT-5.6，这意味着模型发布节奏将从“越快越好”转向“可控有序”。与此同时，推理成本正在成为行业分水岭，GLM-5.2以五分之一的成本匹敌Opus 4.7，而OpenAI自研芯片Jalapeño的发布也表明头部玩家正在用硬件手段锁定成本优势。最后，Agent工程化正在从“烧Token堆功能”转向“算ROI”，Claude Code团队的反思和Patronus AI的5000万美元融资都指向同一个方向——Agent的下一波竞争不在于能力上限，而在于可靠性、成本和可测试性。
-好了，今天的播报就到这里，感谢收听，我们明天见。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-06-26.mp3" length="1742976" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-06-26.mp3</guid>
-      <pubDate>Fri, 26 Jun 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:50</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
