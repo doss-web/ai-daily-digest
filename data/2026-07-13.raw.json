@@ -1,10 +1,10 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T05:11:35.480164+08:00",
+  "generated_at": "2026-07-13T06:52:47.643851+08:00",
   "counts": {
     "papers": 30,
     "projects": 24,
-    "news": 122
+    "news": 127
   },
   "items": {
     "papers": [
@@ -730,10 +730,43 @@
     "news": [
       {
         "category": "news",
+        "title": "Show HN: Adaptive Recall, persistent memory for AI assistants over MCP",
+        "url": "https://www.adaptiverecall.com/",
+        "normalized_url": "https://www.adaptiverecall.com",
+        "summary": "HN points: 14, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-07-12T21:08:20Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "UK has 'no future' if it fails to act on ecosystem collapse",
+        "url": "https://www.theguardian.com/global-development/2026/jul/08/uk-report-ecosystem-collapse-national-threat-food-security",
+        "normalized_url": "https://www.theguardian.com/global-development/2026/jul/08/uk-report-ecosystem-collapse-national-threat-food-security",
+        "summary": "HN points: 19, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-07-12T20:55:26Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "SpaceX built to separate retail investors from their money",
+        "url": "https://seekingalpha.com/news/4613058-spacex-built-to-separate-retail-investors-from-their-money-george-noble",
+        "normalized_url": "https://seekingalpha.com/news/4613058-spacex-built-to-separate-retail-investors-from-their-money-george-noble",
+        "summary": "HN points: 18, comments: 6",
+        "source": "Hacker News",
+        "published": "2026-07-12T20:08:49Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "6 months to live for open models",
         "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
         "normalized_url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
-        "summary": "HN points: 17, comments: 0",
+        "summary": "HN points: 24, comments: 0",
         "source": "Hacker News",
         "published": "2026-07-12T18:50:37Z",
         "importance_hint": 4,
@@ -744,7 +777,7 @@
         "title": "The One-Step Trap (In AI Research)",
         "url": "http://incompleteideas.net/IncIdeas/OneStepTrap.html",
         "normalized_url": "http://incompleteideas.net/IncIdeas/OneStepTrap.html",
-        "summary": "HN points: 27, comments: 3",
+        "summary": "HN points: 37, comments: 7",
         "source": "Hacker News",
         "published": "2026-07-12T18:41:15Z",
         "importance_hint": 3,
@@ -755,7 +788,7 @@
         "title": "I love LLMs, I hate hype",
         "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
         "normalized_url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-        "summary": "HN points: 197, comments: 103",
+        "summary": "HN points: 262, comments: 144",
         "source": "Hacker News",
         "published": "2026-07-12T18:31:56Z",
         "importance_hint": 3,
@@ -766,7 +799,7 @@
         "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
         "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
         "normalized_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-        "summary": "HN points: 275, comments: 146",
+        "summary": "HN points: 372, comments: 206",
         "source": "Hacker News",
         "published": "2026-07-12T18:25:51Z",
         "importance_hint": 3,
@@ -777,7 +810,7 @@
         "title": "I Learned to Read Again",
         "url": "https://substack.magazinenongrata.com/p/how-i-learned-to-read-again",
         "normalized_url": "https://substack.magazinenongrata.com/p/how-i-learned-to-read-again",
-        "summary": "HN points: 38, comments: 10",
+        "summary": "HN points: 65, comments: 22",
         "source": "Hacker News",
         "published": "2026-07-12T18:22:15Z",
         "importance_hint": 3,
@@ -785,13 +818,13 @@
       },
       {
         "category": "news",
-        "title": "Can We Understand How Large Language Models Reason?",
+        "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
         "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
         "normalized_url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason",
-        "summary": "HN points: 52, comments: 52",
+        "summary": "HN points: 70, comments: 59",
         "source": "Hacker News",
         "published": "2026-07-12T18:04:41Z",
-        "importance_hint": 4,
+        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -799,7 +832,7 @@
         "title": "Claude Code May–July 2026 weekly limits promotion",
         "url": "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion",
         "normalized_url": "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion",
-        "summary": "HN points: 40, comments: 59",
+        "summary": "HN points: 41, comments: 60",
         "source": "Hacker News",
         "published": "2026-07-12T18:01:29Z",
         "importance_hint": 3,
@@ -810,7 +843,7 @@
         "title": "Against Usefulness",
         "url": "https://www.motivenotes.ai/p/against-usefulness",
         "normalized_url": "https://www.motivenotes.ai/p/against-usefulness",
-        "summary": "HN points: 56, comments: 14",
+        "summary": "HN points: 69, comments: 17",
         "source": "Hacker News",
         "published": "2026-07-12T17:47:07Z",
         "importance_hint": 3,
@@ -821,7 +854,7 @@
         "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
         "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
         "normalized_url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
-        "summary": "HN points: 45, comments: 7",
+        "summary": "HN points: 86, comments: 19",
         "source": "Hacker News",
         "published": "2026-07-12T17:13:07Z",
         "importance_hint": 4,
@@ -832,7 +865,7 @@
         "title": "How Ukraine Built a War Fighting State",
         "url": "https://www.austinvernon.site/blog/ukrainewar.html",
         "normalized_url": "https://www.austinvernon.site/blog/ukrainewar.html",
-        "summary": "HN points: 37, comments: 22",
+        "summary": "HN points: 41, comments: 30",
         "source": "Hacker News",
         "published": "2026-07-12T17:11:06Z",
         "importance_hint": 3,
@@ -858,39 +891,6 @@
         "source": "Hacker News",
         "published": "2026-07-12T14:34:33Z",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Autoresearch, Claude and Constrained Optimization",
-        "url": "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization/",
-        "normalized_url": "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization",
-        "summary": "HN points: 25, comments: 4",
-        "source": "Hacker News",
-        "published": "2026-07-12T14:32:00Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Agent Harness Engineering",
-        "url": "https://addyosmani.com/blog/agent-harness-engineering/",
-        "normalized_url": "https://addyosmani.com/blog/agent-harness-engineering",
-        "summary": "HN points: 19, comments: 1",
-        "source": "Hacker News",
-        "published": "2026-07-12T14:16:31Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "AI boosts research careers but narrow the span of ideas explored: study",
-        "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
-        "normalized_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
-        "summary": "HN points: 130, comments: 96",
-        "source": "Hacker News",
-        "published": "2026-07-12T13:26:13Z",
-        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -1233,19 +1233,6 @@
       },
       {
         "category": "news",
-        "title": "Vibe Coding 时代，为什么降本不一定增效？",
-        "url": "https://sspai.com/post/111975",
-        "normalized_url": "https://sspai.com/post/111975",
-        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 Vibe Coding 给了很多人超能力，让人似乎能够不费吹灰之力，就把脑袋里面幻想的产品化作现实。在这个人人都有超能力的时代，出现了一些庞大压抑之下蹦出来的新时代优越论：理科生脑袋呆板，只有我们文科生才掌握了 Vibe Coding 时代的话语权；工程师不再重要，我们产品经理自己就可以完成从零到一；产品和工程师都不重要，我们设计师自己就能做出优雅灵动的东西；产品经理和设计师都可以进垃圾堆了，我们工程师自己就能指挥千军万马做出完美的产品。大公司也纷纷开始「拥抱 AI」，欢喜地迎接一场生产力革命，产品、设计、工程师都不重要了，裁掉一批拿来买 Token 就好。 然而，现实是残酷的。产品经理做出来的玩意全是 Bug、设计师做出来的玩意卡的要死、工程师做出来的玩意没有人用、大公司从 AI 高潮醒来后纷纷削减了 Token 预算，老老实实地把之前开除的",
-        "source": "SSPAI AI",
-        "published": "2026-07-10T02:50:28+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
-        }
-      },
-      {
-        "category": "news",
         "title": "DeepSeek cut prices 75%. The 100x problem remains",
         "url": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
         "normalized_url": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
@@ -1434,32 +1421,6 @@
         "summary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
         "source": "TechCrunch AI",
         "published": "2026-07-09T23:38:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "OpenAI launches its new family of models with GPT-5.6",
-        "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-        "normalized_url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6",
-        "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-09T22:24:24+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "An AI agent startup just let its agent run its $100M fundraise",
-        "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-        "normalized_url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise",
-        "summary": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-09T22:08:58+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
@@ -1792,6 +1753,123 @@
       },
       {
         "category": "news",
+        "title": "Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops",
+        "url": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering",
+        "summary": "Most people still use AI like a 2015 search box. You type, you read, you type again. A newer pattern replaces that manual back-and-forth with a loop. This guide explains loop engineering using two verified artifacts. The sources are Andrej Karpathy’s autoresearch repository and the Bilevel Autoresearch paper. The framing follows a write-up by @0xCodila. […] The post Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Researc",
+        "source": "MarkTechPost",
+        "published": "2026-07-12T20:07:02+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights",
+        "url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights",
+        "summary": "Thinking Machines Lab published \"The Future Worth Building Is Human.\" The essay frames human participation, model ownership, and decentralized alignment as technical challenges. It ties them to interaction models and Tinker's LoRA fine-tuning, where teams train and keep their own model weights. The post Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-12T00:46:13+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile and Triton Kernels to Flash Attention",
+        "url": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention",
+        "summary": "In this tutorial, we explore NVIDIA tile-based GPU programming with TileGym, building a Colab workflow that runs across different hardware. We probe the CUDA environment, try the real cuTile backend, and fall back to Triton when standard Colab GPUs lack the cuTile stack. We learn the core tile idea: operate on whole data tiles instead of single threads, then load, compute, and store them. We implement vector addition, fused GELU, row-wise softmax, tiled matrix multiplication, and flash attention",
+        "source": "MarkTechPost",
+        "published": "2026-07-12T00:01:06+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Ant Group’s Robbyant Unveils LingBot-VA 2.0: A Causal Video-Action Model Built Natively for Physical AI",
+        "url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0",
+        "summary": "Ant Group's Robbyant has released the LingBot-VA 2.0 technical report — a Physical AI video-action foundation model built from scratch for embodiment rather than fine-tuned from a video generator. It predicts future states ahead of execution through Foresight Reasoning, re-grounds on every real observation, and reaches 225 Hz asynchronous control. We break down the causal DiT, the sparse-MoE video stream, the semantic visual-action tokenizer, and where the paper's own numbers don't line up. The ",
+        "source": "MarkTechPost",
+        "published": "2026-07-11T07:56:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI",
+        "url": "https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi",
+        "summary": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real recordings plus 1.45M synthetic MIDIs, it transcribes full multi-instrument mixes into MIDI. The article covers its three-stage pipeline, benchmarks against YourMT3+, instrument conditioning, and setup, with an interactive explainer demo. The post Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-10T20:21:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B, Sandboxed Code Execution, and Iterative Analysis",
+        "url": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis",
+        "summary": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end. We prepare a stable Colab runtime, install the machine-learning dependencies, and load the tokenizer and model in 4-bit mode to fit limited GPU memory. We add a sandboxed execution environment that lets the model generate Python, run it safely, observe results, and continue in an agentic loop. We then hand the agent a multi-file e-commerce workspace and let it clean, join, analyze, visualize, and summarize the",
+        "source": "MarkTechPost",
+        "published": "2026-07-10T19:24:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data",
+        "url": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data",
+        "summary": "SensorFM, a wearable health foundation model from Google Research, Google DeepMind, and university collaborators. We walk through its ViT-1D masked-autoencoder backbone, pretrained on more than one trillion minutes of unlabeled sensor signals from 5,000,000 consented participants. We examine the co-scaling results across four model sizes and four data volumes, including the case where capacity outruns data. We show how frozen embeddings plus a PCA-50 linear probe beat feature-engineered baseline",
+        "source": "MarkTechPost",
+        "published": "2026-07-10T08:52:04+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness",
+        "url": "https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness",
+        "summary": "Robbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity (LingBot-World 2.0). It is a 14B causal video generation model that behaves as an interactive world simulator. The core idea is the Mixture of Bidirectional and Autoregressive (MoBA) attention mask, paired with distribution matching distillation applied over long self-rollout trajectories. Together they target long-horizon drift, the failure mode that smears textures and warps geometry in most interactive world",
+        "source": "MarkTechPost",
+        "published": "2026-07-10T04:38:20+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Fable gets another bump",
+        "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+        "normalized_url": "https://simonwillison.net/2026/Jul/12/bump",
+        "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep",
+        "source": "Simon Willison",
+        "published": "2026-07-12T21:20:07+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://simonwillison.net/atom/everything/"
+        }
+      },
+      {
+        "category": "news",
         "title": "sqlite-utils 4.1",
         "url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jul/11/sqlite-utils",
@@ -1877,19 +1955,6 @@
         "source": "Simon Willison",
         "published": "2026-07-09T16:06:15+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Rewriting Bun in Rust",
-        "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-        "normalized_url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust",
-        "summary": "Rewriting Bun in Rust Jarred Sumner has been promising this blog post ( since May 9th ) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks. Jarred spends the first half of the post praising Zig for getting Bun this far. The",
-        "source": "Simon Willison",
-        "published": "2026-07-08T23:57:21+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://simonwillison.net/atom/everything/"
         }
@@ -2169,19 +2234,6 @@
       },
       {
         "category": "news",
-        "title": "Ultra budget 20GB vram with 448GB/s for $100 bucks.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utwqf8/ultra_budget_20gb_vram_with_448gbs_for_100_bucks/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1utwqf8/ultra_budget_20gb_vram_with_448gbs_for_100_bucks",
-        "summary": "Here is the upper limit of what can be done with $100 bucks worth of video cards. You can have 3 concurrent users with plenty of context, better speeds or close enough speeds than a bunch of cards that provide less VRAM and cost 4+ times. 0.00.008.388 I log_info: verbosity = 3 (adjust with the `-lv N` CLI arg) 0.00.008.391 I device_info: 0.00.089.439 I - CUDA0 : NVIDIA P102-100 (10144 MiB, 10013 MiB free) 0.00.197.645 I - CUDA1 : NVIDIA P102-100 (10144 MiB, 10013 MiB free) 0.00.197.656 I - CPU :",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-11T21:49:49+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "next best jump from qwen 3.6 27b",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu1g3m/next_best_jump_from_qwen_36_27b/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu1g3m/next_best_jump_from_qwen_36_27b",
@@ -2202,6 +2254,19 @@
         "source": "r/LocalLLaMA",
         "published": "2026-07-12T05:06:55+00:00",
         "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft",
+        "summary": "submitted by /u/fallingdowndizzyvr [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-12T21:25:47+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
