@@ -24,13 +24,22 @@ def send_to_feishu(subject: str, markdown: str, date_str: str) -> None:
         print("[Feishu] FEISHU_WEBHOOK_URL not set, skipping.")
         return
 
-    # Feishu card markdown element has ~5000 char limit, truncate if needed
-    repo_url = f"https://github.com/doss-web/ai-daily-digest/blob/main/daily/{date_str}.md"
-    max_len = 4500
-    if len(markdown) > max_len:
-        preview = markdown[:max_len] + f"\n\n---\n> 📎 [查看完整日报]({repo_url})"
+    # Split long content into multiple markdown elements (20K char each max)
+    chunk_size = 18000
+    elements = []
+    if len(markdown) <= chunk_size:
+        elements = [{"tag": "markdown", "content": markdown}]
     else:
-        preview = markdown + f"\n\n---\n> 📎 [GitHub 原文]({repo_url})"
+        lines = markdown.split("\n")
+        chunk = ""
+        for line in lines:
+            if len(chunk) + len(line) + 1 > chunk_size:
+                elements.append({"tag": "markdown", "content": chunk})
+                chunk = line
+            else:
+                chunk += ("\n" + line) if chunk else line
+        if chunk:
+            elements.append({"tag": "markdown", "content": chunk})
 
     payload = {
         "msg_type": "interactive",
@@ -39,9 +48,7 @@ def send_to_feishu(subject: str, markdown: str, date_str: str) -> None:
                 "title": {"tag": "plain_text", "content": subject},
                 "template": "blue",
             },
-            "elements": [
-                {"tag": "markdown", "content": preview},
-            ],
+            "elements": elements,
         },
     }
 
