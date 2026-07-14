@@ -1,10 +1,10 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T22:13:43.918782+08:00",
+  "generated_at": "2026-07-14T22:22:35.450485+08:00",
   "counts": {
     "papers": 39,
     "projects": 23,
-    "news": 133
+    "news": 124
   },
   "items": {
     "papers": [
@@ -818,7 +818,7 @@
         "title": "U of Chicago law school bans laptops from classes amid AI backlash",
         "url": "https://www.the-independent.com/tech/laptop-ban-university-ai-backlash-b3013911.html",
         "normalized_url": "https://www.the-independent.com/tech/laptop-ban-university-ai-backlash-b3013911.html",
-        "summary": "HN points: 11, comments: 4",
+        "summary": "HN points: 13, comments: 4",
         "source": "Hacker News",
         "published": "2026-07-14T12:57:08Z",
         "importance_hint": 3,
@@ -829,7 +829,7 @@
         "title": "Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)",
         "url": "https://github.com/Danau5tin/ai-trains-ai",
         "normalized_url": "https://github.com/Danau5tin/ai-trains-ai",
-        "summary": "HN points: 35, comments: 13",
+        "summary": "HN points: 37, comments: 13",
         "source": "Hacker News",
         "published": "2026-07-14T12:41:25Z",
         "importance_hint": 4,
@@ -840,7 +840,7 @@
         "title": "Coding agents think ahead of time",
         "url": "https://arxiv.org/abs/2607.05188",
         "normalized_url": "https://arxiv.org/abs/2607.05188",
-        "summary": "HN points: 35, comments: 27",
+        "summary": "HN points: 40, comments: 29",
         "source": "Hacker News",
         "published": "2026-07-14T12:28:09Z",
         "importance_hint": 4,
@@ -851,7 +851,7 @@
         "title": "How to stop Claude from saying load-bearing",
         "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
         "normalized_url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-        "summary": "HN points: 46, comments: 77",
+        "summary": "HN points: 46, comments: 79",
         "source": "Hacker News",
         "published": "2026-07-14T11:46:02Z",
         "importance_hint": 3,
@@ -862,7 +862,7 @@
         "title": "Codex starts encrypting sub-agent prompts",
         "url": "https://github.com/openai/codex/issues/28058",
         "normalized_url": "https://github.com/openai/codex/issues/28058",
-        "summary": "HN points: 252, comments: 157",
+        "summary": "HN points: 267, comments: 163",
         "source": "Hacker News",
         "published": "2026-07-14T11:21:32Z",
         "importance_hint": 4,
@@ -884,7 +884,7 @@
         "title": "Indian scientists produce most detailed 3D atlas of the human brainstem",
         "url": "https://www.bbc.com/news/articles/cg53l737v1qo",
         "normalized_url": "https://www.bbc.com/news/articles/cg53l737v1qo",
-        "summary": "HN points: 117, comments: 14",
+        "summary": "HN points: 121, comments: 15",
         "source": "Hacker News",
         "published": "2026-07-14T06:43:28Z",
         "importance_hint": 3,
@@ -906,7 +906,7 @@
         "title": "Australian energy retailers must provide three hours of free daytime electricity",
         "url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/",
         "normalized_url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works",
-        "summary": "HN points: 171, comments: 259",
+        "summary": "HN points: 172, comments: 264",
         "source": "Hacker News",
         "published": "2026-07-14T04:31:48Z",
         "importance_hint": 3,
@@ -1437,6 +1437,19 @@
       },
       {
         "category": "news",
+        "title": "Superhuman’s new auto-draft feature almost makes me like AI replies",
+        "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/",
+        "normalized_url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies",
+        "summary": "Superhuman’s latest AI email drafting feature is its most convincing yet, generating replies that often required little to no editing in our testing.",
+        "source": "TechCrunch AI",
+        "published": "2026-07-14T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
         "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
         "normalized_url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again",
@@ -1535,19 +1548,6 @@
         "source": "TechCrunch AI",
         "published": "2026-07-13T16:31:23+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
-        "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
-        "normalized_url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
-        "summary": "Claude users in India are starting to see Indian rupee-denominated subscription plans.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-13T15:34:59+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1918,136 +1918,6 @@
       },
       {
         "category": "news",
-        "title": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder",
-        "url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder",
-        "summary": "Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework. It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local search, 30+ MDX components, llms.txt, and a built-in MCP server. The post Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T08:15:29+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera",
-        "url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera",
-        "summary": "Mistral AI introduced Robostral Navigate, an 8B embodied navigation model. It moves robots from a plain-language instruction using only a single RGB camera, with no LiDAR or depth sensors. The model reaches 76.6% success on R2R-CE validation unseen through a pointing method, prefix-caching training, and CISPO online reinforcement learning. The post Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera appeared first on Mark",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T07:20:38+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
-        "url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
-        "summary": "Anthropic's Claude Sonnet 5 narrows the gap to Opus 4.8 on agentic coding, at cheaper Sonnet token pricing. The post Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T00:58:47+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
-        "url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity",
-        "summary": "MORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning. It runs worlds that never reset, using parameterisable regime shifts and a six-metric evaluation protocol. Across the platform, PPO, HER, EWC, and LCM all remain far below the theoretical upper bound. The post Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity appeared first on",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T22:37:53+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
-        "url": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks",
-        "summary": "In this tutorial, we reconstruct the VideoAgent workflow as a runnable, API-key-free multi-agent pipeline. We build an intent parser, an agent library, a tool router, a graph planner, and a textual-gradient optimizer that repairs the execution graph. We wire these planning components to FFmpeg, Whisper transcription, scene detection, keyframe sampling, captioning, cross-modal indexing, and beat-synced editing. By the end, we have a system that answers questions about a video, summarizes it, and ",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T18:30:30+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
-        "url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace",
-        "summary": "Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified. The post Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failu",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T08:45:12+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations",
-        "url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1",
-        "summary": "Prime Intellect launched verifiers 0.2.0, previewing a rewritten \"v1\" core under the verifiers.v1 namespace. It splits an environment into a taskset (what), a harness (how), and a runtime (where), with an interception server that proxies requests and records training-ready traces. Any taskset runs under any compatible harness, with full prime-rl training support at launch. The post Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Eva",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T07:40:18+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes",
-        "url": "https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes",
-        "summary": "NeuroVFM is a generalist neuroimaging foundation model from the University of Michigan, trained on 5.24M clinical MRI and CT volumes. Its Vol-JEPA base extends I-JEPA and V-JEPA to volumetric medical imaging, learning brain anatomy and pathology without radiology-report labels. The post Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T00:35:36+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops",
-        "url": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering",
-        "summary": "Most people still use AI like a 2015 search box. You type, you read, you type again. A newer pattern replaces that manual back-and-forth with a loop. This guide explains loop engineering using two verified artifacts. The sources are Andrej Karpathy’s autoresearch repository and the Bilevel Autoresearch paper. The framing follows a write-up by @0xCodila. […] The post Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Researc",
-        "source": "MarkTechPost",
-        "published": "2026-07-12T20:07:02+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights",
-        "url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights",
-        "summary": "Thinking Machines Lab published \"The Future Worth Building Is Human.\" The essay frames human participation, model ownership, and decentralized alignment as technical challenges. It ties them to interaction models and Tinker's LoRA fine-tuning, where teams train and keep their own model weights. The post Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-12T00:46:13+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
         "title": "Using uvx in GitHub Actions in a cache-friendly way",
         "url": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache",
@@ -2321,6 +2191,19 @@
       },
       {
         "category": "news",
+        "title": "xAI uploads codebases 👨‍💻, Prime Intellect verifiers 🧠, Sakana smart bricks 🧱",
+        "url": "https://tldr.tech/ai/2026-07-14",
+        "normalized_url": "https://tldr.tech/ai/2026-07-14",
+        "summary": "",
+        "source": "TLDR AI",
+        "published": "2026-07-14T00:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://tldr.tech/api/rss/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "Claude Code browser 🌍, Cursor general agent 🤖, Claude Fable extension ⏳",
         "url": "https://tldr.tech/ai/2026-07-13",
         "normalized_url": "https://tldr.tech/ai/2026-07-13",
@@ -2373,19 +2256,6 @@
       },
       {
         "category": "news",
-        "title": "Joined the Dual RTX 6000 club",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvmon5/joined_the_dual_rtx_6000_club/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvmon5/joined_the_dual_rtx_6000_club",
-        "summary": "I only spent 2 hours making the bios accept the dual gpus, only 5 hours configuring VLLM to run deepseek v4 flash dspark, but totally worth it. I truly believe in the near future we will have to rely on ourselves. submitted by /u/BitXorBit [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-13T20:08:38+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "FT: Companies Turn to Chinese Open Weight Models to Cut Costs",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvenf1/ft_companies_turn_to_chinese_open_weight_models/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvenf1/ft_companies_turn_to_chinese_open_weight_models",
@@ -2393,6 +2263,19 @@
         "source": "r/LocalLLaMA",
         "published": "2026-07-13T15:23:49+00:00",
         "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Joined the Dual RTX 6000 club",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvmon5/joined_the_dual_rtx_6000_club/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvmon5/joined_the_dual_rtx_6000_club",
+        "summary": "I only spent 2 hours making the bios accept the dual gpus, only 5 hours configuring VLLM to run deepseek v4 flash dspark, but totally worth it. I truly believe in the near future we will have to rely on ourselves. submitted by /u/BitXorBit [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-13T20:08:38+00:00",
+        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
