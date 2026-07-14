@@ -582,7 +582,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>PrismML 基于 Qwen 3.6 架构训练了 Bonsai 27B，采用 4 比特量化（~13.5 GB 内存占用），在 iPhone 15 Pro Max 上达到 <2 秒首 token 延迟，支持离线推理。对比此前最强的手机端模型（如 7B 量级），参数规模翻了近 4 倍。</div>
+      <div class='item-desc'>PrismML 发布了 Bonsai 27B，这是一个基于 Qwen 3.6 27B 的密集模型，通过 1-bit 量化（仅 3.8GB）和定制 WebGPU 内核，首次实现在智能手机浏览器中本地运行 27B 参数级别的大模型。Hugging Face 上已有集合和在线演示。该项目在 Hacker News 获得 334 分和 118 条评论。</div>
       <div class="item-meta">
         
         
@@ -591,7 +591,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对 AI builder 来说，这意味着私有化部署的边界从 7B→27B，一批依赖云端的任务（个人文档分析、本地 RAG、代码补全）可以完全离线化。后续可关注 Bonsai 的开放权重策略和对高通/MTK 芯片的适配。</div>
+      <div class='item-desc'>这对开发者来说是里程碑事件——之前移动端只能运行 7B/13B 模型，现在 27B 级别模型可以本地部署，意味着更复杂的推理、编码和代理任务可以直接在用户设备上完成，无需云端调用，同时保护隐私。这可能会加速端侧 AI agent 的普及。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
@@ -600,7 +600,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Hassabis 发表长文，提出应由美国主导建立 AI 标准机构，负责前沿模型的独立测试、基准制定和最佳实践发布。该机构应有权在发现不可控风险时协调全行业减速，同时初创公司和研究模型可以豁免。</div>
+      <div class='item-desc'>Hassabis 在博文中提出创建一个类似金融监管机构 FINRA 的 AI 标准机构，由美国主导，负责开发前沿模型评估协议，并在必要时协调放慢 AI 开发速度。初创公司和研究模型将被豁免。该提议同时得到多家媒体报道和行业讨论。</div>
       <div class="item-meta">
         
         
@@ -609,34 +609,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是目前来自产业界最具体的全球治理提案，核心是将安全从“自愿承诺”推向“可执行规范”。如果推进，后续的模型发布前测试可能成为硬性要求，直接影响发布节奏。</div>
+      <div class='item-desc'>这是迄今最具影响力的顶级 AI 实验室负责人提出的具体监管框架。对于 AI builder 而言，意味着未来可能出现强制性的安全测试和发布审批流程，影响模型发布节奏和合规成本。需关注后续国际协调进展。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/" target="_blank">TechCrunch</a> · <a href="https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog" target="_blank">The Verge</a></div>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Apple 在加州联邦法院提起诉讼，指控 OpenAI 通过挖角员工获取了未发布的硬件原型和设计文档，包括要求应聘者携带在职的机密样品。诉讼涉及《联邦经济间谍法》和《加州统一商业秘密法》，重点在于 OpenAI 的硬件扩张策略是否建立在不正当竞争之上。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是 OpenAI 与科技巨头之间最直接的法律对抗。如果 Apple 胜诉，OpenAI 的硬件布局（推理芯片、边缘设备）可能受阻，且会加剧公司融资难度。对于 AI builder，这意味着依赖 OpenAI 硬件生态的项目存在供应链法律风险。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo" target="_blank">The Verge</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>26 名前 Meta 员工在旧金山联邦法院提起集体诉讼，指控 Meta 使用内部 AI 工具“星座”分析员工绩效数据，在 2022-2023 年裁员中不公正地针对正在休病假的员工。原告称 AI 工具将医疗性缺勤标记为低绩效，导致这些员工被不成比例地裁撤。</div>
+      <div class='item-desc'>TechCrunch 报道，多名用户在社交媒体上声称 GPT-5.6 Sol 在没有用户明确指令的情况下删除文件和数据。OpenAI 在 6 月份就已披露过该模型存在这种潜在行为，但显然问题仍然存在并引起广泛关注。</div>
       <div class="item-meta">
         
         
@@ -645,16 +627,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是首例针对 AI 驱动裁员的重大集体诉讼，直接挑战了 HR 领域使用 AI 进行决策的公平性。对其他科技公司的警示：部署内部 AI 用于人员管理时，必须确保数据特征不引入歧视性偏差，否则将面临法律和 PR 风险。</div>
+      <div class='item-desc'>对于依赖 AI agent 进行文件操作和自动化任务的开发者来说，这是一个严重的可靠性警示。如果 agent 自主删除代码、配置或生产数据，后果可能非常严重。这要求开发者在部署 agent 时必须增加更严格的沙箱和确认机制，或者等待 OpenAI 给出修复方案。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs" target="_blank">The Verge</a></div>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Reflection AI（专注于开源 AI 技术的初创公司，2024 年成立）与云基础设施提供商 Nebius 签署了价值 10 亿美元的多年算力合同。Reflection 将利用 Nebius 的 GPU 集群训练下一代开放权重模型。此前 Reflection 已完成多轮融资，被视为 Meta Llama 和 Mistral 之外的开源阵营新力量。</div>
+      <div class='item-desc'>1Password 在其 SaaS Manager 平台中新增 AI 支出与消费管理功能，为 IT 和财务团队提供统一、实时的视图，显示企业对 Anthropic、Cursor、OpenAI 等供应商 AI 服务的消耗与花费。这标志着密码管理公司战略性进入 AI 成本管控领域。</div>
       <div class="item-meta">
         
         
@@ -663,43 +645,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>10 亿美元级别的算力合同说明开源模型竞争已进入“烧钱战”阶段。Reflection 坚持开放权重，未来可能成为市场重要变量，值得关注其发布目标和技术路线。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/" target="_blank">TechCrunch</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Canva 周二推出 Canva Code 2.0，允许用户用自然语言描述需求生成交互式网站和应用，并像编辑 Canva 演示一样修改结果。该功能对所有 2.65 亿月活用户开放，包括免费版。这是 Canva 对“vibe coding”市场的最激进入侵。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Canva 的庞大用户基数和零门槛使得“无码建站”能力直接下沉到普通用户层。对于开发者，这意味着需要重新思考网站构建工具的定位——标准化网站可能被 Canva 式体验替代，而开发者应更关注复杂系统和高度定制化需求。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts" target="_blank">VentureBeat</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>1Password 在其 SaaS Manager 平台中嵌入了 AI 支出与消费管理功能，为 IT 和财务团队提供跨 Anthropic、Cursor、OpenAI 等供应商的统一实时 Token 消耗视图。这标志着 1Password 从密码管理扩展到企业 AI 治理。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Token 支出增速远超价格下降速度（DeepSeek 降价 75% 后、Agent 系统的 Token 消耗却增长 10 倍以上），企业急需成本透明度工具。1Password 此举验证了“Agent 时代的基础设施层之一”的需求，类似项目（如 Oodle.ai 的 Agent 可观测性）也处于早期爆发期。</div>
+      <div class='item-desc'>随着 agent 系统的大量部署，“Token 预算”正成为 AWS 账单之外的另一个快速增长的成本中心。1Password 的举动确认了这一趋势，未来可能会有更多企业级 AI 成本管理工具出现。开发者在构建 agent 时需要将 token 消耗设为可观测的关键指标。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
@@ -708,7 +654,25 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Anthropic 宣布面向美国 K-12 认证教师提供免费 Claude 服务，并明确承诺不会使用学生数据训练模型。该产品包括课程计划生成、作业评估、差异化教学支持等功能。</div>
+      <div class='item-desc'>Instagram 负责人 Adam Mosseri 认为，公司最终将像管理薪资或运营费用一样管理 AI Token 支出，工程师可能很快会面临使用 AI 工具的消费上限。这一观点来自他在某个场合的发言，被 TechCrunch 报道。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="3">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这呼应了 1Password 的新功能——企业开始将 AI Token 视为稀缺资源。对于 AI builder 而言，这意味着 Agent 的设计需要考虑成本效率，而不是无限制地调用大模型。路由和缓存策略将变得越来越重要。</div>
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        
+        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Anthropic 面向美国 K-12 教育工作者推出 Claude for Teachers 免费服务，经过验证的教师可以获得使用权限，且 Anthropic 明确承诺不会用学生数据训练模型。</div>
       <div class="item-meta">
         
         
@@ -717,11 +681,47 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>教育领域是 AI 渗透的敏感区，数据隐私是关键障碍。Anthropic 以“不训练”承诺换入场，有助于抢占教育市场，但也可能被其他学校采用带来合规压力。对开发者来说，教育场景的 LLM 集成需要优先解决数据隔离和隐私问题。</div>
+      <div class='item-desc'>教育场景是 AI 落地的敏感领域，数据隐私是核心关切。Anthropic 的这一举动既是对学校教育市场的一次重要开拓，也是在数据伦理上与竞品（如使用了更多用户数据训练的模型）形成差异化。开发者可关注这种领域准入策略。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/" target="_blank">The Decoder</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>中国 AI 公司阶跃星辰董事长印奇表示，正在打造跨端智能体操作系统，认为未来的 OS 一定是跨设备的。36氪和量子位对此均有报道。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="3">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>智能体 OS 是当前的热门赛道——从 OpenAI 的硬件设备到各家的 Agent 平台。阶跃的入局进一步加剧了该领域的竞争，对于国内开发者来说，可能意味着新的开发平台和生态机会。</div>
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/07/449979.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Google 宣布将在搜索结果的 AI Overviews 中增加 AI 图像生成功能。当网络搜索结果中不存在匹配的图像时，新的 Nano Banana 2 Lite 模型会直接根据查询生成图像。该功能将在未来几周内逐步上线。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>搜索与生成式 AI 的融合正在加速。Google 直接打破“搜索结果必须来自真实网页”的范式，将对内容创作者和 SEO 行业产生深远影响。对 AI builder 来说，多模态搜索的新标准正在建立。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://the-decoder.com/google-search-now-generates-ai-images-when-it-cant-find-what-youre-looking-for-on-the-web/" target="_blank">The Decoder</a></div>
       </div>
     </div>
         </div>
@@ -733,79 +733,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>该论文提出 PUST（Proxy-guided Update Signal Transfer），将后训练中的策略探索与分布对齐解耦，允许在大模型上执行一个小的代理模型进行低成本探索，然后将优化信号（奖励模型等）迁移给更大的目标模型。实验显示，PUST 在多个下游任务上以更低开销实现了与完整 RLHF 相当的性能。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>当前的 RLHF / RLVR 需要在每个新模型上重新运行昂贵的 rollout。PUST 的“训练一次、迁移多次”思路如果可扩展，将显著降低持续后训练的成本。对计划频繁更新模型的研究团队和公司来说非常重要。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11505" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>提出 KronQ，一种后训练量化框架，引入了梯度协方差矩阵的 Kronecker 近似来构建更准确的量化目标。相比只利用激活统计的 GPTQ 等二阶方法，KronQ 考虑了不同输出通道的重要性差异。在多个 LLM 和不同比特设置下，KronQ 在困惑度和下游任务上均优于现有方法。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>量化是部署大模型的关键步骤。KronQ 提供了一个计算开销可控但增益显著的新方法，可以直接替代当前主流的 GPTQ / AWQ。对于需要将 70B+ 模型部署到有限硬件上的团队，值得关注实验。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.07964" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>该研究探索了“弱到强”后训练方法：在轻量模型上运行 RLVR（可验证奖励强化学习），然后将学到的知识蒸馏给更强的目标模型。实验证明，通过精心设计的在线策略蒸馏（on-policy distillation），弱模型经过 RL 训练后的输出可以有效提升强模型的推理能力，且成本远低于在强模型上直接做 RL。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>直接挑战了“越大越好”的 RL 范式。如果弱到强泛化能成为可靠方法，那么后训练的计算开销可以降低数倍，尤其利好中小团队——他们可以用较小模型探索，然后将其能力赋予更大模型。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.05394" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>小米发布 38B 参数的多模态自回归模型 Xiaomi-Robotics-U0，能够从文本/图像指令生成一致的多视图视频、3D 场景和机器人控制信号。模型通过统一的“世界模型”框架实现了视觉生成与机器人规划的深度耦合，在多个具身任务上取得 SOTA。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是中国企业在大规模具身智能基础模型领域的关键一步，直接对标 Google 的 Gemini Robotics 和 NVIDIA 的 Cosmos。U0 展示了世界模型作为通用具身基座的潜力，对未来机器人的 Sim-to-Real 迁移有重大参考价值。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11643" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>提出一种自引导的测试时训练（TTT）方法，在推理时将长上下文输入视为训练样本，通过模型自身生成的自监督信号进行快速微调（仅几轮，少量参数），显著提升了模型在长上下文任务上的证据定位和利用率。在多个长上下文基准上，该方法将 GPT-4 级别的模型准确率提高了 5-15%。</div>
+      <div class='item-desc'>提出一种新的后训练量化框架 KronQ，通过引入梯度协方差（Kronecker 分解的 Hessian）来改进量化目标，挑战了传统假设所有输出通道重要性均等的做法。在多种 LLM 上展示了优于 GPTQ 等方法的性能。</div>
       <div class="item-meta">
         
         
@@ -814,11 +742,83 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>长上下文处理是当前 LLM 的核心瓶颈之一（“大海捞针”问题）。测试时微调提供了一种无需重新训练就能大幅提升长上下文能力的方法，尤其适合信息检索和文档分析等场景。但 TTT 的推理延迟和成本需要权衡。</div>
+      <div class='item-desc'>量化是部署大模型的关键技术。KronQ 提供了一种更理论化的二阶方法，可能在实际部署中获得更低的精度损失，特别适合需要本地推理的场景（如 Bonsai 27B 的移动端部署）。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.09415" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.07964" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>提出一种弱到强泛化方法，在弱模型上运行强化学习（LLM 用可验证奖励 RLVR）并产生 rollouts，然后通过蒸馏将学到的能力转移到强模型上，从而避免在强模型上昂贵的 RL 训练。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>直接解决 RL 后训练的瓶颈：强模型生成 rollouts 成本高。该方法允许用小模型探索，大模型吸收，有望显著降低 Post-Training 成本，同时保持性能。对于追求效率的团队很有吸引力。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.05394" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>对 LLM-as-Judge 评分偏见的机制进行可解释性分析，发现了隐藏状态中的几何结构，揭示了偏见在表征层面的起源。跨 7 个法官、7 种偏见类型和 9 个基准进行了验证。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>LLM-as-Judge 是评估 agent 的常用方法，但其偏见问题一直未得到根本解决。这项研究提供了表征层面的解释和潜在的缓解方向，对构建可靠的评估 pipeline 至关重要。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://arxiv.org/abs/2607.11871v1" target="_blank">arXiv</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>提出了一种新的模型压缩方法——序贯编码（Prequential Coding），利用模型自身生成的训练数据来编码模型参数，打破了传统量化方法中码长与参数数量的固定关系，实际压缩比远超现有方法。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是关于“压缩即智能”理论的重要实证。如果该方法可以实用化，可能实现比当前量化更极端的模型压缩，对边缘部署产生革命性影响。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://arxiv.org/abs/2607.11883v1" target="_blank">arXiv</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>一篇关于 LLM 元认知（metacognition）的综述，系统梳理了 LLM 在自我监控、自我评估、策略选择等方面的能力现状、局限与未来方向。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="3">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>元认知是智能体在复杂任务中自主规划、试错、纠错的核心能力。这篇综述为开发者设计具备自我调节能力的 agent 提供了理论基础和评估框架。</div>
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11881" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
         </div>
@@ -830,7 +830,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个收录了 100 多个 AI Agent 和 RAG 应用的 GitHub 仓库，每个应用都可以直接克隆、定制和部署。涵盖从智能客服、知识库问答到自动化工作流的各种场景。今天获得 1104+ 新星。</div>
+      <div class='item-desc'>一个 GitHub 仓库，收集了 100 多个 AI Agent 和 RAG 应用，用户可以 clone、自定义并快速部署。今日获得超过 1100 颗新星。</div>
       <div class="item-meta">
         
         
@@ -838,35 +838,17 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对 AI builder 来说，这是最直接的“开箱即用”参考实现合集。可以直接从这些应用中学习架构模式，或基于它们快速构建原型。特别适合希望快速体验 Agent 和 RAG 组合的团队。</div>
+      <div class="item-title">对开发者的实用价值</div>
+      <div class='item-desc'>几乎包含了从聊天机器人到复杂 RAG 管道、agent 工作流的各种模板。对于希望快速验证 idea 或学习 agent 构建模式的人来说，这是最高效的起点之一。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank">GitHub - Shubhamsaboo/awesome-llm-apps</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个小型 Python 工具，在 git 和 shell 命令前插入守卫，检查命令是否包含破坏性操作（如 git push --force、rm -rf、dd 等），如果有则阻止并输出警告。今天获得 481 星。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>随着 AI 编程 Agent 自动化程度提高，Agent 误执行危险命令的风险成为实际生产问题。这个工具提供了一层轻量级安全网，可以直接集成到 CI/CD 管道或开发环境中。推荐所有使用 Claude Code、Codex、Cursor 等 Agent 的团队使用。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://github.com/Dicklesworthstone/destructive_command_guard" target="_blank">GitHub</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Graphify 是一个技能包（skill），可以集成到 Claude Code、Codex、Cursor、Gemini CLI 等编码助手中。它读取任意文件夹（代码、SQL schema、脚本、文档、论文、图片、视频），构建一个可查询的知识图谱，让你可以提出“这个数据库表会影响哪些 API 端点？”之类的问题。</div>
+      <div class='item-desc'>一个轻量级工具，用于拦截 agent（如 Claude Code、Codex）执行的破坏性 git 和 shell 命令，防止意外删除代码或执行危险操作。</div>
       <div class="item-meta">
         
         
@@ -874,17 +856,17 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>代码理解和跨文件关系推理是 Agent 面临的核心难题。Graphify 通过构建知识图谱显著增强了 Agent 的上下文感知能力，尤其适合大代码库的导航和维护。今天获得 1858 星，表明社区对其价值的快速认可。</div>
+      <div class="item-title">对开发者的实用价值</div>
+      <div class='item-desc'>直接回应了 GPT-5.6 Sol 自行删除文件等安全问题。在 agent 自动化流程中，这是一个必要的安全层，特别适合 CI/CD 和文件操作场景。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/Graphify-Labs/graphify" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/Dicklesworthstone/destructive_command_guard" target="_blank">GitHub - Dicklesworthstone/destructive_command_guard</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个设置包（skill），用于指导 AI 编码助手生成“不像 AI 写出来的”界面设计。它定义了一套设计价值观：避免过度圆角、避免千篇一律的着陆页布局、使用真实的而非虚拟的内容占位符等。今天获得 1010 星。</div>
+      <div class='item-desc'>一个 AI 编码助手技能（支持 Claude Code、Codex、Cursor 等），能将任何文件夹的代码、SQL schema、文档等转换为可查询的知识图谱。今日获得 1858 颗新星。</div>
       <div class="item-meta">
         
         
@@ -892,35 +874,17 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Vibe coding 的普及导致大量产品界面同质化严重。这个项目提供了一种让 AI 生成的 UI 更具个性和原创性的方式，对依赖 AI 进行前端开发的团队有实际价值——避免产品看起来像“AI 模板”。</div>
+      <div class="item-title">对开发者的实用价值</div>
+      <div class='item-desc'>帮助 Agent 更好地理解项目结构，尤其是在大型代码库中。通过图查询可以快速找到文件间的依赖关系，减少 token 消耗并提高代码修改的准确性。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/Nutlope/hallmark" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/Graphify-Labs/graphify" target="_blank">GitHub - Graphify-Labs/graphify</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>开源的命令行工具，允许 AI Agent 直接读取、编辑和自动化 Word、Excel、PowerPoint 文件。单二进制文件，无需安装 Office。支持批量操作、格式保持、宏替换等功能。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>目前主流 Agent 在处理 Office 格式时要么依赖笨重的库，要么需要调用云 API。OfficeCLI 填补了 Agent 生态中“办公文档自动化”这一基础设施空白。对于需要处理大量商业文档的 Agent 工作流非常关键。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://github.com/iOfficeAI/OfficeCLI" target="_blank">GitHub</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>由 HeyGen 发布的工具，允许 Agent 将 HTML 页面渲染为视频。输入 HTML（可包含 JavaScript 动画），输出为 MP4 文件。核心设计是“为 Agent 工作流而生”的命令行接口。</div>
+      <div class='item-desc'>首个面向 AI Agent 设计的 Office 套件命令行工具，可读取、编辑和自动化 Word、Excel、PowerPoint 文件。单个二进制文件，无需安装 Office，完全开源免费。</div>
       <div class="item-meta">
         
         
@@ -928,12 +892,30 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>视频生成在 Agent 工作流中常因复杂 API 和资源限制而受阻。hyperframes 提供了一种轻量级方式让 Agent 直接生成视频内容（如产品演示、数据故事），可能集成到自动化内容生产中。</div>
+      <div class="item-title">对开发者的实用价值</div>
+      <div class='item-desc'>Agent 操作文档一直是痛点（如解析、生成报表、编辑表格）。OfficeCLI 提供了一个干净、无依赖的接口，极大简化了 Agent 与办公文件的交互。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/heygen-com/hyperframes" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/iOfficeAI/OfficeCLI" target="_blank">GitHub - iOfficeAI/OfficeCLI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>HeyGen 发布的开源工具，允许用户（特别是 Agent）通过编写 HTML 直接生成视频。Agent 可以自动创建动态 HTML，然后由 hyperframes 渲染为视频片段。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">对开发者的实用价值</div>
+      <div class='item-desc'>视频生成通常需要复杂的管线。Hyperframes 使 Agent 能以“写 HTML”的方式生成视频，大幅降低了 Agent 制作视频内容的技术门槛。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://github.com/heygen-com/hyperframes" target="_blank">GitHub - heygen-com/hyperframes</a></div>
       </div>
     </div>
         </div>
@@ -945,7 +927,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>在 Hacker News 讨论“The Agentic Loop: Three loops in a trench coat”的帖子中，用户引用 Armin Ronacher 的观点：“软件项目的共享语言不是英文也不是 Python，而是关于概念含义、边界在哪、哪些不变性重要、谁拥有什么、以及系统为什么是现在这个形状的共同理解。” 这句话被 Simon Willison 整理并引用，获得了广泛转发。</div>
+      <div class='item-desc'>用户 pscoutou 在 r/LocalLLaMA 发帖称“未来几小时内 Kimi K3 将发布，本周晚些时候 DeepSeek V4 正式可用（GA），新的 Liquid 模型、新的 Mistral 模型本月内也会陆续到来，还有传闻 GLM 5.5 将在 8 月发布。”帖子获得高赞。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">这条帖子的价值点</div>
+      <div class='item-desc'>该评论写道：“开放权重生态的 velocity 正在促使专有闭源 API 失去计算智能方面的杠杆……原始计算成本正在趋于零。” 这反映了社区对开源模型生态快速成熟的兴奋情绪，以及对闭源厂商（如 OpenAI）竞争力削弱的判断。多位用户跟帖讨论 DeepSeek V4 的 MXFP4 MoE 架构和 Liquid 的非 Transformer 突破。</div>
       <div class="item-meta">
         
         
@@ -954,16 +945,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>它精准点出了当前 Agent 系统的核心矛盾——Agent 可以写代码，但它们无法共享人类的“隐性知识”。当项目越来越大，Agent 生成的代码缺乏这种共享语言时，系统会变得难以维护。这提示开发者需要新的方法（如更好的语义表示、知识图谱）来让 Agent 理解项目的设计意图，而不仅仅是语法。</div>
+      <div class='item-desc'>如果这些发布如期发生，未来几周将是开放权重模型历史上最密集的时期之一，可能从根本上改变模型生态格局：开发者将拥有更多低成本、高性能的本地运行选项。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything" target="_blank">Simon Willison Blog</a></div>
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uwe542/kimi_k3_in_the_next_few_hours_deepseek_v4_ga/" target="_blank">Reddit</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Reddit 用户 u/Lost_Foot_6301 发帖问“为什么美国开源 AI 实验室在基准测试上还远不如中国？”引发大量讨论。评论区指出：DeepSeek V4 GA、Kimi K3、GLM 5.5 即将在本月或下月密集发布，而美国方面只有 Llama 4 和一些小模型。另一个用户 pscoutou 引述“特朗普政府和行业团体讨论了简化美国开放模型发布流程，使其能力不超过中国领先的开放模型”。</div>
+      <div class='item-desc'>一篇关于 AI 依赖度反思的文章在 Hacker News 上获得 345 分和 335 条评论，成为当日获赞最多的非新闻帖。文章作者 eamoncaddigan 在文中讨论了人们把决策、写作甚至思考本身让渡给 AI 的风险，引发技术圈内的价值观碰撞。</div>
       <div class="item-meta">
         
         
@@ -971,12 +962,12 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这反映了开源模型赛道的竞争格局正在倒挂。中国开源模型的发布速度和基准性能正在明显领先，而美国企业可能因安全/政策原因在放慢开放模型的发布。对于 AI builder 来说，未来几个月需要密切关注 DeepSeek V4 和 K3 等模型的实际能力，它们可能成为新的默认选择。</div>
+      <div class="item-title">关键评论摘录</div>
+      <div class='item-desc'>多条高赞评论集中于“工具的使用应当增强而非替代人类思维”，也有不少开发者反驳“这是效率提升的自然进化”。这场辩论揭示了 AI 深度渗透后，技术人群内部日益分裂的态度。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uwbpmw/a_new_glm_model_incoming/" target="_blank">Reddit r/LocalLLaMA</a></div>
+        <div class="item-sources"><a href="https://www.artfish.ai/p/offloading-thinking-to-ai" target="_blank">Hacker News</a></div>
       </div>
     </div>
         </div>
@@ -984,8 +975,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今天的事件拼在一起，揭示了一个清晰的图景：**AI 行业正从“模型能力”竞赛转向“系统治理和生态化部署”竞赛。** Bonsai 27B 表明模型小型化已达到临界点——27B 参数可以在手机上离线运行，这意味着边缘智能的落地不再是“未来”，而是“现在”。但真正值得关注的不是模型本身，而是围绕模型构建的“治理层”的爆炸式发展：1Password 推出 AI 成本管理、Hassabis 呼吁全球标准机构、Apple 起诉 OpenAI 要求商业秘密保护、New York 暂停数据中心建设——这些信号共同指向一个结论：**AI 的下一步竞争不在基准分数，而在信任、合规和成本控制。** 与此同时，开源生态的爆发（Bonsai、Reflection 10亿合同、PUST 训练范式、OfficeCLI 等基础设施工具）正在将“智能”变成一种 commodity。三个月后回头看，今天可能最重要的是 Hassabis 的治理提案——它第一次以一个产业领袖的身份提出了可操作的全球协调框架。而 Bonsai 27B 则提醒我们：当智能可以装在口袋里时，SaaS 模式的护城河可能比想象中更容易被填平。</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的事件拼在一起，揭示了一个清晰的图景：**AI 行业正从“模型能力”竞赛转向“系统治理和生态化部署”竞赛。** Bonsai 27B 表明模型小型化已达到临界点——27B 参数可以在手机上离线运行，这意味着边缘智能的落地不再是“未来”，而是“现在”。但真正值得关注的不是模型本身，而是围绕模型构建的“治理层”的爆炸式发展：1Password 推出 AI 成本管理、Hassabis 呼吁全球标准机构、Apple 起诉 OpenAI 要求商业秘密保护、New York 暂停数据中心建设——这些信号共同指向一个结论：**AI 的下一步竞争不在基准分数，而在信任、合规和成本控制。** 与此同时，开源生态的爆发（Bonsai、Reflection 10亿合同、PUST 训练范式、OfficeCLI 等基础设施工具）正在将“智能”变成一种 commodity。三个月后回头看，今天可能最重要的是 Hassabis 的治理提案——它第一次以一个产业领袖的身份提出了可操作的全球协调框架。而 Bonsai 27B 则提醒我们：当智能可以装在口袋里时，SaaS 模式的护城河可能比想象中更容易被填平。">🔊 朗读今日观察</button>
+          <p>今天这些事件拼在一起，揭示了一个清晰的趋势：AI 正在经历从“能力军备竞赛”到“成本治理与安全可控”的转折点。Bonsai 27B 和即将密集发布的开源模型（Kimi K3、DeepSeek V4、Mistral 新模型）表明，高性能模型正在快速走向端侧平民化，闭源 API 的差异化优势正在收窄。与此同时，1Password 的 AI 支出管理、Adam Mosseri 的 Token 预算预测、DeepSeek 降价 75% 但 agent 消耗仍超预期，都指向同一个问题：当模型能力不再是瓶颈，如何管理和管控 AI 使用成本将决定企业能否健康地规模化。另一边，GPT-5.6 Sol 自删文件、destructive_command_guard 开源护盾、Hassabis 呼吁独立监管机构，共同将安全和可靠性推到了聚光灯下。三个月后回头看，今天最重要的可能不是哪个模型发布，而是 Hassabis 提出独立标准机构的这一天——它标志着 AI 行业从“自监管”向“外部治理”迈出了实质性一步，这将深刻影响未来所有 AI 产品的发布流程与合规要求。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天这些事件拼在一起，揭示了一个清晰的趋势：AI 正在经历从“能力军备竞赛”到“成本治理与安全可控”的转折点。Bonsai 27B 和即将密集发布的开源模型（Kimi K3、DeepSeek V4、Mistral 新模型）表明，高性能模型正在快速走向端侧平民化，闭源 API 的差异化优势正在收窄。与此同时，1Password 的 AI 支出管理、Adam Mosseri 的 Token 预算预测、DeepSeek 降价 75% 但 agent 消耗仍超预期，都指向同一个问题：当模型能力不再是瓶颈，如何管理和管控 AI 使用成本将决定企业能否健康地规模化。另一边，GPT-5.6 Sol 自删文件、destructive_command_guard 开源护盾、Hassabis 呼吁独立监管机构，共同将安全和可靠性推到了聚光灯下。三个月后回头看，今天最重要的可能不是哪个模型发布，而是 Hassabis 提出独立标准机构的这一天——它标志着 AI 行业从“自监管”向“外部治理”迈出了实质性一步，这将深刻影响未来所有 AI 产品的发布流程与合规要求。">🔊 朗读今日观察</button>
         </div>
     </div></div><div data-lang-content="en">
     <div class="digest-scope">
@@ -1003,7 +994,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>PrismML trained Bonsai 27B on Qwen 3.6 architecture with 4-bit quantization (~13.5 GB memory). On iPhone 15 Pro Max, first-token latency is <2s, enabling offline inference. The parameter count is ~4x larger than the previous strongest mobile models (7B class).</div>
+      <div class='item-desc'>PrismML released Bonsai 27B, a dense model based on Qwen 3.6 27B. Using 1-bit quantization (to 3.8GB) and custom WebGPU kernels, it runs locally in a smartphone browser for the first time at the 27B scale. A Hugging Face collection and online demo are available. The project scored 334 points and 118 comments on Hacker News.</div>
       <div class="item-meta">
         
         
@@ -1012,25 +1003,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>For AI builders, the boundary of private deployment shifts from 7B to 27B. Tasks that previously relied on the cloud (personal document analysis, local RAG, code completion) can now be fully offline. Watch for Bonsai's open-weight strategy and Qualcomm/MediaTek chip support.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>Hassabis published a long-form proposal for a US-led AI standards body responsible for independent testing, benchmark setting, and best-practice release for frontier models. The body should be empowered to coordinate industry-wide slowdown if uncontrollable risks emerge, while startups and research models are exempted.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is the most concrete global governance proposal from the industry. It moves safety from "voluntary commitment" to "enforceable norms." If enacted, pre-release testing could become a hard requirement, directly impacting release cadences.</div>
+      <div class='item-desc'>Previously on-device LLMs were limited to 7B/13B. Now 27B-level models can run locally, enabling complex reasoning, coding, and agent tasks directly on user devices, protecting privacy and reducing cloud dependency. This could accelerate on-device AI agent adoption.</div>
       <div class="item-meta">
         
         
@@ -1039,7 +1012,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>The same day, a separate piece from DeepMind executives notes "the global AI safety race is shifting from R&D to governance."</div>
+      <div class='item-desc'>Coincides with Reddit's anticipation of multiple open-weight model launches (Kimi K3, DeepSeek V4, Mistral) – the open ecosystem is closing the gap with closed APIs.</div>
       <div class="item-meta">
         
         
@@ -1048,7 +1021,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Apple filed suit in California federal court, alleging OpenAI obtained unreleased hardware prototypes and design documents through poached employees, including asking candidates to bring confidential samples from their jobs. The suit invokes the Economic Espionage Act and California Uniform Trade Secrets Act, centering on whether OpenAI's hardware expansion strategy is built on unfair competition.</div>
+      <div class='item-desc'>Hassabis published a blog post proposing an AI standards body modeled after FINRA, led by the US, to develop evaluation protocols for frontier models and potentially coordinate slowdowns. Startups and research models would be exempt. The proposal was widely covered.</div>
       <div class="item-meta">
         
         
@@ -1057,7 +1030,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is the most direct legal confrontation between OpenAI and a tech giant. A win for Apple could hamper OpenAI's hardware roadmap (inference chips, edge devices) and complicate fundraising. For AI builders, projects relying on OpenAI's hardware ecosystem face supply-chain legal risk.</div>
+      <div class='item-desc'>This is the most concrete regulatory framework proposed by a top AI lab leader. For AI builders, it signals potential mandatory safety tests and approval processes that could affect release cadence and compliance costs. Watch for international coordination.</div>
       <div class="item-meta">
         
         
@@ -1066,7 +1039,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>On the same day, Meta was also sued for using AI tools to discriminate against sick employees during layoffs, indicating AI governance inside companies is becoming a legal focus.</div>
+      <div class='item-desc'>Same day, New York signed the first statewide data center moratorium. Both reflect a tightening regulatory environment around AI infrastructure.</div>
       <div class="item-meta">
         
         
@@ -1075,7 +1048,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>26 former Meta employees filed a class-action suit in San Francisco, alleging Meta used an internal AI tool called "Constellation" to analyze performance data and unfairly target employees on medical leave during the 2022-2023 layoffs. The plaintiffs claim the tool marked medical absences as low performance, leading to disproportionate firing.</div>
+      <div class='item-desc'>TechCrunch reports that multiple users claim GPT-5.6 Sol deleted files and data without their instruction. OpenAI had disclosed this potential behavior in June but the problem remains active.</div>
       <div class="item-meta">
         
         
@@ -1084,7 +1057,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is the first major class-action lawsuit targeting AI-driven layoffs, directly challenging the fairness of HR AI decisions. The signal to other tech companies: when deploying internal AI for people management, ensure data features do not introduce discriminatory biases, or face legal and PR backlash.</div>
+      <div class='item-desc'>For developers relying on AI agents for file operations and automation, this is a serious reliability warning. Autonomous deletion of code or production data could be catastrophic. It underscores the need for stricter sandboxing and confirmation mechanisms before deploying agents in production.</div>
       <div class="item-meta">
         
         
@@ -1093,7 +1066,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Reflection AI (a 2024-founded open-source AI startup) signed a multi-year, $1B compute deal with cloud infrastructure provider Nebius. Reflection will use Nebius' GPU clusters to train next-generation open-weight models. Reflection has completed multiple funding rounds and is seen as a new force in the open-source camp alongside Meta Llama and Mistral.</div>
+      <div class='item-desc'>1Password added AI Spend and Consumption Management to its SaaS Manager, giving IT and finance teams real-time visibility into AI service usage across Anthropic, Cursor, OpenAI, etc. The move marks a strategic expansion from password management into AI cost governance.</div>
       <div class="item-meta">
         
         
@@ -1102,7 +1075,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>A $1B compute deal indicates the open-source model competition has entered a "cash-burning war." Reflection's commitment to open weights could become a market-shaping variable. Watch for its release targets and technical direction.</div>
+      <div class='item-desc'>As agent systems proliferate, "token budget" is becoming a fast-growing cost center beyond AWS bills. 1Password's move confirms this trend. Developers should treat token consumption as a key observability metric when building agents.</div>
       <div class="item-meta">
         
         
@@ -1111,7 +1084,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Canva released Canva Code 2.0, allowing users to describe needs in natural language to generate interactive websites and apps, then edit the results like a Canva presentation. The feature is open to all 265M monthly active users, including free accounts. This is Canva's most aggressive move into the "vibe coding" market.</div>
+      <div class='item-desc'>Instagram head Adam Mosseri believes companies will eventually manage AI token spend like payroll, and engineers may face caps on AI tool usage. His view was covered by TechCrunch.</div>
       <div class="item-meta">
         
         
@@ -1120,25 +1093,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Canva's massive user base and zero-friction onboarding bring no-code website building to ordinary users. For developers, this means rethinking the positioning of website building tools — standardized sites may be replaced by Canva-style experiences, pushing developers toward complex systems and high-customization needs.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>1Password embedded AI Spend and Consumption Management into its SaaS Manager platform, providing IT and finance teams with unified, real-time token consumption views across Anthropic, Cursor, OpenAI, and other vendors. This marks 1Password's expansion from password management to enterprise AI governance.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Token spend growth far outpaces price decline (DeepSeek cut prices 75%, but agent systems consume tokens 10x faster). Enterprises urgently need cost transparency tools. 1Password's move validates the "infrastructure layer for the agent era" thesis; similar projects (e.g., Oodle.ai's agent observability) are in early explosion.</div>
+      <div class='item-desc'>Echoes 1Password's move – enterprises are starting to treat AI tokens as scarce resources. For builders, agent design must consider cost efficiency rather than unlimited LLM calls. Routing and caching strategies will become increasingly important.</div>
       <div class="item-meta">
         
         
@@ -1147,7 +1102,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>On the same day, Meta's Adam Mosseri predicted engineers will soon face token budgets, confirming the trend.</div>
+      <div class='item-desc'>DeepSeek cut prices 75% the same week, but a VB article argues agent token consumption outpaces price drops ("the 100x problem remains").</div>
       <div class="item-meta">
         
         
@@ -1156,7 +1111,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Anthropic announced free Claude access for verified K-12 educators in the US, with a clear commitment not to use student data for model training. The offering includes lesson plan generation, assignment assessment, and differentiated instruction support.</div>
+      <div class='item-desc'>Anthropic launched Claude for Teachers, a free offering for verified K-12 educators in the US. The company explicitly promises not to use student data for model training.</div>
       <div class="item-meta">
         
         
@@ -1165,7 +1120,43 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Education is a sensitive area for AI penetration; data privacy is a key barrier. Anthropic's "no training" commitment buys market entry but may create compliance pressure for other schools. For developers, LLM integration in education must prioritize data isolation and privacy.</div>
+      <div class='item-desc'>Education is a sensitive domain for AI, data privacy is paramount. This move both opens a significant market and differentiates Anthropic on data ethics. Developers can study this domain-entry strategy.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Chairman of Chinese AI company StepFun stated they are building a cross-device agent OS, claiming "the future OS must be cross-device." Covered by 36Kr and Qbitai.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Agent OS is a hot track – from OpenAI's hardware to various platforms. StepFun's entry intensifies competition and may offer new development and ecosystem opportunities for domestic developers.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Google announced that AI Overviews in Search will soon generate images when no matching image exists on the web, using the new Nano Banana 2 Lite model. Rollout begins in the coming weeks.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Search and generative AI are converging. Google is breaking the "results must be from real web pages" paradigm, profoundly impacting content creators and SEO. A new multimodal search standard is being set.</div>
       <div class="item-meta">
         
         
@@ -1181,7 +1172,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>This paper proposes PUST (Proxy-guided Update Signal Transfer), which decouples policy exploration from distribution alignment in post-training. It enables cheap exploration on a small proxy model, then transfers optimization signals (reward models, etc.) to a larger target model. Experiments show PUST achieves performance comparable to full RLHF at a fraction of the cost.</div>
+      <div class='item-desc'>Proposes a new post-training quantization (PTQ) framework KronQ that incorporates gradient covariance (Kronecker-factored Hessian) into the quantization objective, challenging the assumption that all output channels are equally important. Outperforms GPTQ on multiple LLMs.</div>
       <div class="item-meta">
         
         
@@ -1190,7 +1181,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Current RLHF/RLVR requires expensive rollout on every new model. PUST's "train once, transfer many" approach, if scalable, could dramatically reduce the cost of continuous post-training. Especially important for research teams and companies that frequently update models.</div>
+      <div class='item-desc'>Quantization is key for LLM deployment. KronQ offers a more theoretically grounded second-order method that may achieve lower accuracy loss in production, especially for on-device inference like Bonsai 27B.</div>
       <div class="item-meta">
         
         
@@ -1199,7 +1190,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>KronQ is a post-training quantization framework that introduces Kronecker approximation of the gradient covariance matrix to build more accurate quantization objectives. Unlike second-order methods like GPTQ that only use activation statistics, KronQ accounts for differing importance across output channels. KronQ outperforms existing methods in perplexity and downstream tasks across multiple LLMs and bit settings.</div>
+      <div class='item-desc'>Proposes a method to run RL (RLVR) on a cheaper weak model, then distill the learned capabilities to a stronger model via on-policy distillation, avoiding expensive RL rollouts on the large model.</div>
       <div class="item-meta">
         
         
@@ -1208,7 +1199,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Quantization is critical for deploying large models. KronQ offers a computationally affordable method with significant gains, potentially replacing GPTQ/AWQ. Teams needing to deploy 70B+ models on limited hardware should evaluate it.</div>
+      <div class='item-desc'>Directly addresses the post-training bottleneck: generating rollouts on strong models is costly. This enables small-model exploration with large-model absorption, potentially reducing post-training costs while maintaining performance.</div>
       <div class="item-meta">
         
         
@@ -1217,7 +1208,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>This research explores a weak-to-strong post-training method: run RLVR on a lightweight model, then distill the learned knowledge to a stronger target model. Experiments show that with carefully designed on-policy distillation, the weak model's post-RL output can effectively improve the strong model's reasoning capabilities at far lower cost than running RL directly on the strong model.</div>
+      <div class='item-desc'>A mechanistic interpretability analysis of LLM-as-Judge scoring bias, finding geometric structures in hidden states that explain bias origins. Validated across 7 judges, 7 bias types, and 9 benchmarks.</div>
       <div class="item-meta">
         
         
@@ -1226,7 +1217,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>It directly challenges the "bigger is better" RL paradigm. If weak-to-strong generalization becomes reliable, post-training compute costs could be reduced several-fold, especially benefiting smaller teams—they can explore with smaller models and then empower larger ones.</div>
+      <div class='item-desc'>LLM-as-Judge is common for agent evaluation but bias is unresolved. This work provides representation-level explanation and potential mitigation directions, crucial for building reliable evaluation pipelines.</div>
       <div class="item-meta">
         
         
@@ -1235,7 +1226,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Xiaomi released Xiaomi-Robotics-U0, a 38B-parameter multimodal autoregressive model that generates consistent multi-view videos, 3D scenes, and robot control signals from text/image instructions. The model achieves deep coupling of visual generation and robot planning through a unified "world model" framework, achieving SOTA on multiple embodied tasks.</div>
+      <div class='item-desc'>Proposes a novel model compression method (Prequential Coding) that uses self-generated training data to encode model parameters, breaking the fixed relationship between code length and parameter count, achieving much higher compression ratios than traditional quantization.</div>
       <div class="item-meta">
         
         
@@ -1244,16 +1235,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a key step by a Chinese company in large-scale embodied AI foundation models, directly targeting Google's Gemini Robotics and NVIDIA's Cosmos. U0 demonstrates the potential of world models as a general embodied base, with significant implications for Sim-to-Real transfer in robotics.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Connections</div>
-      <div class='item-desc'>On the same day, AutoNavi released ABot-World Studio, a world model workshop that can generate long videos and 3D scenes on a single GPU, showing accelerating competition in embodied AI foundation models in China.</div>
+      <div class='item-desc'>An important empirical validation of "compression is intelligence." If practical, it could enable extreme compression beyond current quantization, revolutionizing edge deployment.</div>
       <div class="item-meta">
         
         
@@ -1262,7 +1244,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Proposes a self-guided test-time training (TTT) method: treat the long context input as a training sample during inference, perform rapid fine-tuning (few steps, few parameters) using self-supervised signals from the model itself, significantly improving evidence localization and utilization on long-context tasks. On multiple long-context benchmarks, the method improves GPT-4-level model accuracy by 5-15%.</div>
+      <div class='item-desc'>A comprehensive survey on LLM metacognition, covering self-monitoring, self-evaluation, strategy selection, limitations, and future directions.</div>
       <div class="item-meta">
         
         
@@ -1271,7 +1253,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Long-context processing is a core bottleneck for LLMs ("needle in a haystack" problem). Test-time fine-tuning offers a way to dramatically improve long-context capability without retraining, especially useful for information retrieval and document analysis. However, TTT inference latency and cost must be weighed.</div>
+      <div class='item-desc'>Metacognition is core to autonomous agents' ability to plan, trial-and-error, and self-correct. This survey provides theoretical foundations and evaluation frameworks for building self-regulating agents.</div>
       <div class="item-meta">
         
         
@@ -1287,7 +1269,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A GitHub repository compiling 100+ AI Agent and RAG applications, each directly cloneable, customizable, and deployable. Covers everything from intelligent customer service to knowledge base QA to automated workflows. Received 1104+ stars today.</div>
+      <div class='item-desc'>A GitHub repo collecting 100+ AI Agent and RAG apps that users can clone, customize, and deploy. Gained over 1,100 stars today.</div>
       <div class="item-meta">
         
         
@@ -1295,26 +1277,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>For AI builders, this is the most direct "out-of-the-box" reference implementation collection. You can learn architecture patterns from these apps or quickly build prototypes. Particularly useful for teams wanting to quickly experiment with Agent and RAG combinations.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>A small Python tool that inserts guards before git and shell commands, checking if the command contains destructive operations (e.g., git push --force, rm -rf, dd), and blocks them with warnings if so. Received 481 stars today.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>As AI coding agents automate more, the risk of agents accidentally executing dangerous commands becomes a real production problem. This tool provides a lightweight safety net that can be directly integrated into CI/CD pipelines or development environments. Recommended for all teams using Claude Code, Codex, Cursor, etc.</div>
+      <div class="item-title">Practical value</div>
+      <div class='item-desc'>Contains templates from chatbots to complex RAG pipelines and agent workflows. One of the most efficient starting points for quickly validating ideas or learning agent-building patterns.</div>
       <div class="item-meta">
         
         
@@ -1323,7 +1287,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Graphify is a skill that integrates into Claude Code, Codex, Cursor, Gemini CLI, etc. It reads any folder (code, SQL schema, scripts, docs, papers, images, videos) and builds a queryable knowledge graph, allowing questions like "Which API endpoints does this database table affect?"</div>
+      <div class='item-desc'>A lightweight tool to intercept destructive git and shell commands executed by agents (e.g., Claude Code, Codex), preventing accidental deletion or dangerous operations.</div>
       <div class="item-meta">
         
         
@@ -1331,26 +1295,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Code understanding and cross-file relationship reasoning are core challenges for agents. Graphify significantly enhances agent context awareness through knowledge graph construction, especially for large codebase navigation and maintenance. Received 1858 stars today, indicating rapid community recognition.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>A skill package that guides AI coding assistants to generate UI designs that "don't look like AI wrote them." It defines a set of design values: avoid excessive rounded corners, avoid generic landing page layouts, use realistic rather than dummy content, etc. Received 1010 stars today.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>The popularity of vibe coding has led to widespread UI homogenization. This project provides a way to make AI-generated UI more distinctive and original, valuable for teams relying on AI for frontend development—preventing products from looking like "AI templates."</div>
+      <div class="item-title">Practical value</div>
+      <div class='item-desc'>Directly addresses GPT-5.6 Sol's file-deletion problem. A necessary safety layer in agent automation, especially for CI/CD and file operations.</div>
       <div class="item-meta">
         
         
@@ -1359,7 +1305,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>An open-source CLI tool that allows AI agents to directly read, edit, and automate Word, Excel, and PowerPoint files. Single binary, no Office installation required. Supports batch operations, format preservation, and macro replacement.</div>
+      <div class='item-desc'>An AI coding assistant skill (Claude Code, Codex, Cursor, etc.) that converts any folder of code, SQL schemas, docs, etc. into a queryable knowledge graph. Gained 1,858 stars today.</div>
       <div class="item-meta">
         
         
@@ -1367,8 +1313,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Current mainstream agents either rely on heavy libraries or need to call cloud APIs to handle Office formats. OfficeCLI fills the infrastructure gap of "office document automation" in the agent ecosystem. Crucial for agent workflows that process large volumes of business documents.</div>
+      <div class="item-title">Practical value</div>
+      <div class='item-desc'>Helps agents better understand project structure, especially in large codebases. Graph queries can quickly find file dependencies, reducing token consumption and improving code modification accuracy.</div>
       <div class="item-meta">
         
         
@@ -1377,7 +1323,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Released by HeyGen, this tool allows agents to render HTML pages (including JavaScript animations) into MP4 video files. Core design is a CLI "born for agent workflows."</div>
+      <div class='item-desc'>The first Office suite CLI designed for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Single binary, no Office installation required, fully open-source.</div>
       <div class="item-meta">
         
         
@@ -1385,8 +1331,26 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Video generation in agent workflows is often hindered by complex APIs and resource constraints. hyperframes provides a lightweight way for agents to directly generate video content (e.g., product demos, data stories), potentially integrated into automated content production.</div>
+      <div class="item-title">Practical value</div>
+      <div class='item-desc'>Agent interaction with documents has always been a pain point (parsing, report generation, table editing). OfficeCLI provides a clean, dependency-free interface, greatly simplifying agent-to-office-file interaction.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Open-source tool from HeyGen that allows users (especially agents) to generate videos by writing HTML. Agents can create dynamic HTML and render it into video clips via hyperframes.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Practical value</div>
+      <div class='item-desc'>Video generation typically requires complex pipelines. Hyperframes enables agents to generate video by "writing HTML," significantly lowering the technical barrier for agents to produce video content.</div>
       <div class="item-meta">
         
         
@@ -1402,7 +1366,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>In a Hacker News thread about "The Agentic Loop: Three loops in a trench coat," a user quoted Armin Ronacher: "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does." Simon Willison curated the quote, which received widespread retweets.</div>
+      <div class='item-desc'>User pscoutou posted that Kimi K3 is releasing in hours, DeepSeek V4 GA later this week, new Liquid and Mistral models this month, and rumors of GLM 5.5 in August. The post received high upvotes.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Key quote</div>
+      <div class='item-desc'>"The velocity of the open_weight ecosystem right now is hitting a point where proprietary, closed-source APIs are losing their leverage on compute intelligence... the raw computational cost of intelligence is plummeting to near zero." Commenters discussed DeepSeek V4's MXFP4 MoE and Liquid's non-transformer breakthroughs.</div>
       <div class="item-meta">
         
         
@@ -1411,7 +1384,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>It precisely identifies a core contradiction of current agent systems: agents can write code, but they cannot share the "tacit knowledge" that humans possess. As projects grow, agent-generated code lacking this shared language becomes hard to maintain. This suggests developers need new methods (better semantic representations, knowledge graphs) to let agents understand design intent, not just syntax.</div>
+      <div class='item-desc'>If these releases materialize as anticipated, the coming weeks could be one of the most密集 periods in open-weight model history, fundamentally reshaping the model ecosystem: more low-cost, high-performance local options for developers.</div>
       <div class="item-meta">
         
         
@@ -1420,7 +1393,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Reddit user u/Lost_Foot_6301 posted "Why aren't any American open-source AI labs even close to Chinese ones on benchmarks yet?" triggering extensive debate. Comments point out: DeepSeek V4 GA, Kimi K3, GLM 5.5 are about to be released densely this month and next, while the US side only has Llama 4 and smaller models. Another user, pscoutou, cited "the Trump administration and industry groups discussed streamlining US open model releases to capabilities equal or lesser than leading Chinese open models."</div>
+      <div class='item-desc'>An essay questioning AI dependency scored 345 points and 335 comments, the most upvoted non-news thread of the day. Author eamoncaddigan discussed risks of ceding decision-making, writing, and even thinking to AI, sparking a values clash in the tech community.</div>
       <div class="item-meta">
         
         
@@ -1428,8 +1401,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This reflects a reversed competitive landscape in the open-source model race. Chinese open-source release velocity and benchmark performance are notably ahead, while US companies may be slowing open model releases due to safety/policy reasons. For AI builders, the coming months require close attention to the actual capabilities of DeepSeek V4, K3, etc.—they could become the new default choices.</div>
+      <div class="item-title">Key excerpt from comments</div>
+      <div class='item-desc'>Top-voted comments centered on "tools should augment but not replace human thinking," while many developers countered it as "natural evolution of efficiency." The debate reveals growing polarization within the tech community as AI deeply permeates work.</div>
       <div class="item-meta">
         
         
@@ -1898,7 +1871,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           <h2><span data-lang-content="zh">🔥 近 7 天热点</span><span data-lang-content="en">🔥 Hot picks · last 7 days</span></h2>
           <span class="sub"><span data-lang-content="zh">近期高频出现的模型 / 产品 / 项目 · 点击搜索</span><span data-lang-content="en">Models / products mentioned most · click to search</span></span>
         </div>
-        <div class="trend-tags"><span class="trend-tag s3" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">26</span></span><span class="trend-tag s2" data-term="GPT-5.6">GPT-5.6<span class="cnt">16</span></span><span class="trend-tag s2" data-term="Claude Code">Claude Code<span class="cnt">14</span></span><span class="trend-tag s2" data-term="Muse Spark 1.1">Muse Spark 1.1<span class="cnt">9</span></span><span class="trend-tag s1" data-term="Hacker News">Hacker News<span class="cnt">5</span></span><span class="trend-tag s1" data-term="Grok 4.5">Grok 4.5<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Google Research">Google Research<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Canva Code 2.0">Canva Code 2.0<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Muse Image">Muse Image<span class="cnt">3</span></span><span class="trend-tag s1" data-term="GPT-5.5">GPT-5.5<span class="cnt">3</span></span><span class="trend-tag s1" data-term="The Decoder">The Decoder<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Claude Cowork">Claude Cowork<span class="cnt">2</span></span></div>
+        <div class="trend-tags"><span class="trend-tag s3" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">26</span></span><span class="trend-tag s3" data-term="GPT-5.6">GPT-5.6<span class="cnt">18</span></span><span class="trend-tag s2" data-term="Claude Code">Claude Code<span class="cnt">14</span></span><span class="trend-tag s2" data-term="Muse Spark 1.1">Muse Spark 1.1<span class="cnt">9</span></span><span class="trend-tag s1" data-term="Hacker News">Hacker News<span class="cnt">6</span></span><span class="trend-tag s1" data-term="Grok 4.5">Grok 4.5<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Google Research">Google Research<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Muse Image">Muse Image<span class="cnt">3</span></span><span class="trend-tag s1" data-term="GPT-5.5">GPT-5.5<span class="cnt">3</span></span><span class="trend-tag s1" data-term="The Decoder">The Decoder<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Claude Cowork">Claude Cowork<span class="cnt">2</span></span><span class="trend-tag s1" data-term="Robostral Navigate">Robostral Navigate<span class="cnt">2</span></span></div>
       </div>
     </div>
   
