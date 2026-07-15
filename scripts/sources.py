@@ -396,6 +396,10 @@ RSS_SOURCES = [
 
     # ── 社区（best-effort，云端 IP 可能被限流，失败自动跳过）─────────────────
     ("https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",           "r/LocalLLaMA",      8, 2),
+    ("https://www.reddit.com/r/indiehackers/top/.rss?t=day",         "r/indiehackers",    6, 2),
+    ("https://www.reddit.com/r/SaaS/top/.rss?t=day",                 "r/SaaS",            6, 2),
+    ("https://www.reddit.com/r/SideProject/top/.rss?t=day",          "r/SideProject",     6, 2),
+    ("https://www.reddit.com/r/selfhosted/top/.rss?t=day",           "r/selfhosted",      6, 2),
 
     # ── AI 研究者 Newsletter（更新较疏，回溯 14 天）──────────────────────────
     ("https://www.oneusefulthing.org/feed",   "One Useful Thing (Mollick)", 5, 14),
