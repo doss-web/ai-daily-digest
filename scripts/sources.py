@@ -237,41 +237,67 @@ def fetch_github_trending_page(period="daily"):
 
 
 def fetch_rss_feed(feed_url, source_name, max_items=10, cutoff_days=2):
-    """Generic RSS feed fetcher with retry for Reddit rate-limiting."""
+    """Generic feed fetcher — RSS via feedparser, Reddit JSON via raw parsing."""
     items = []
+    is_reddit_json = "reddit.com" in feed_url and feed_url.endswith(".json")
     max_retries = 3 if "reddit.com" in feed_url else 1
     for attempt in range(max_retries):
         try:
-            # Reddit rate-limits aggressive polling; stagger requests
             if "reddit.com" in feed_url and attempt > 0:
                 time.sleep(2 * attempt)
-            resp = requests.get(feed_url, headers=BROWSER_HEADERS, timeout=20)
+            url = feed_url.replace("{limit}", str(max_items * 2))
+            resp = requests.get(url, headers=BROWSER_HEADERS, timeout=20)
             resp.raise_for_status()
-            feed = feedparser.parse(resp.content)
-            if not feed.entries and "reddit.com" in feed_url:
-                raise RuntimeError(f"empty feed (likely rate-limited)")
-            cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
-            for entry in feed.entries[:max(max_items * 3, 40)]:
-                published = entry.get("published_parsed") or entry.get("updated_parsed")
-                if published:
-                    entry_date = datetime(*published[:6], tzinfo=timezone.utc)
-                    if entry_date < cutoff:
-                        continue
-                    published_at = entry_date.isoformat()
-                else:
-                    published_at = None
-                items.append(make_item(
-                    category="news",
-                    title=entry.get("title", ""),
-                    url=entry.get("link", ""),
-                    summary=entry.get("summary", ""),
-                    source=source_name,
-                    published=published_at,
-                    metadata={"feed_url": feed_url},
-                ))
-                if len(items) >= max_items:
-                    break
-            break  # success, exit retry loop
+
+            if is_reddit_json:
+                # Parse Reddit JSON API response
+                data = resp.json()
+                children = data.get("data", {}).get("children", [])
+                if not children:
+                    raise RuntimeError("empty response (likely rate-limited)")
+                for child in children[:max_items]:
+                    post = child["data"]
+                    title = post.get("title", "")
+                    permalink = "https://www.reddit.com" + post.get("permalink", "")
+                    selftext = clean_text(post.get("selftext", ""), max_chars=300)
+                    score = post.get("score", 0)
+                    num_comments = post.get("num_comments", 0)
+                    summary = f"↑{score} | 💬{num_comments} | {selftext}" if selftext else f"↑{score} | 💬{num_comments}"
+                    items.append(make_item(
+                        category="news",
+                        title=title,
+                        url=permalink,
+                        summary=summary,
+                        source=source_name,
+                        published=None,
+                        metadata={"feed_url": feed_url, "score": score, "num_comments": num_comments},
+                    ))
+            else:
+                feed = feedparser.parse(resp.content)
+                if not feed.entries and "reddit.com" in feed_url:
+                    raise RuntimeError("empty feed (likely rate-limited)")
+                cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
+                for entry in feed.entries[:max(max_items * 3, 40)]:
+                    published = entry.get("published_parsed") or entry.get("updated_parsed")
+                    if published:
+                        entry_date = datetime(*published[:6], tzinfo=timezone.utc)
+                        if entry_date < cutoff:
+                            continue
+                        published_at = entry_date.isoformat()
+                    else:
+                        published_at = None
+                    items.append(make_item(
+                        category="news",
+                        title=entry.get("title", ""),
+                        url=entry.get("link", ""),
+                        summary=entry.get("summary", ""),
+                        source=source_name,
+                        published=published_at,
+                        metadata={"feed_url": feed_url},
+                    ))
+                    if len(items) >= max_items:
+                        break
+            break  # success
         except Exception as e:
             if attempt < max_retries - 1:
                 print(f"  [{source_name}] Attempt {attempt+1} failed: {e}, retrying...")
@@ -406,10 +432,10 @@ RSS_SOURCES = [
 
     # ── 社区（best-effort，云端 IP 可能被限流，失败自动跳过）─────────────────
     ("https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",           "r/LocalLLaMA",      8, 2),
-    ("https://www.reddit.com/r/indiehackers/top/.rss?t=day",         "r/indiehackers",    6, 2),
-    ("https://www.reddit.com/r/SaaS/top/.rss?t=day",                 "r/SaaS",            6, 2),
-    ("https://www.reddit.com/r/SideProject/top/.rss?t=day",          "r/SideProject",     6, 2),
-    ("https://www.reddit.com/r/selfhosted/top/.rss?t=day",           "r/selfhosted",      6, 2),
+    ("https://www.reddit.com/r/indiehackers/top.json?t=day&limit={limit}", "r/indiehackers",    6, 2),
+    ("https://www.reddit.com/r/SaaS/top.json?t=day&limit={limit}",         "r/SaaS",            6, 2),
+    ("https://www.reddit.com/r/SideProject/top.json?t=day&limit={limit}",  "r/SideProject",     6, 2),
+    ("https://www.reddit.com/r/selfhosted/top.json?t=day&limit={limit}",   "r/selfhosted",      6, 2),
 
     # ── AI 研究者 Newsletter（更新较疏，回溯 14 天）──────────────────────────
     ("https://www.oneusefulthing.org/feed",   "One Useful Thing (Mollick)", 5, 14),
