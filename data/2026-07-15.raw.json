@@ -1,10 +1,10 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T11:31:26.273360+08:00",
+  "generated_at": "2026-07-15T11:42:34.279541+08:00",
   "counts": {
     "papers": 42,
-    "projects": 23,
-    "news": 130
+    "projects": 10,
+    "news": 122
   },
   "items": {
     "papers": [
@@ -603,7 +603,7 @@
         "url": "https://github.com/HKUDS/Vibe-Trading",
         "normalized_url": "https://github.com/HKUDS/Vibe-Trading",
         "summary": "\"Vibe-Trading: Your Personal Trading Agent\" （GitHub Trending · 今日 +1,256 star）",
-        "source": "GitHub Trending, GitHub Trending",
+        "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
@@ -616,7 +616,7 @@
         "url": "https://github.com/hasaneyldrm/exercises-dataset",
         "normalized_url": "https://github.com/hasaneyldrm/exercises-dataset",
         "summary": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app. （GitHub Trending · 今日 +851 star）",
-        "source": "GitHub Trending, GitHub Trending",
+        "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
@@ -661,197 +661,26 @@
         "metadata": {
           "stars_today": "112"
         }
-      },
-      {
-        "category": "projects",
-        "title": "iOfficeAI/OfficeCLI ⭐4",
-        "url": "https://github.com/iOfficeAI/OfficeCLI",
-        "normalized_url": "https://github.com/iOfficeAI/OfficeCLI",
-        "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "4",
-          "language": "C#"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "braedonsaunders/codeflow ⭐3",
-        "url": "https://github.com/braedonsaunders/codeflow",
-        "normalized_url": "https://github.com/braedonsaunders/codeflow",
-        "summary": "Paste any GitHub URL → interactive architecture map. See how files connect, find what breaks if you change something. No install, no accounts — runs entirely in your browser.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "3",
-          "language": "HTML"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "bradautomates/claude-video ⭐2",
-        "url": "https://github.com/bradautomates/claude-video",
-        "normalized_url": "https://github.com/bradautomates/claude-video",
-        "summary": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "2",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "raroque/boop-agent ⭐3",
-        "url": "https://github.com/raroque/boop-agent",
-        "normalized_url": "https://github.com/raroque/boop-agent",
-        "summary": "iMessage personal agent: choose Claude Agent SDK (Claude Code) or Codex app-server runtime (Codex/ChatGPT), with memory, sub-agents, automations, integrations.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "3",
-          "language": "TypeScript"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "heygen-com/hyperframes ⭐2",
-        "url": "https://github.com/heygen-com/hyperframes",
-        "normalized_url": "https://github.com/heygen-com/hyperframes",
-        "summary": "Write HTML. Render video. Built for agents.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "2",
-          "language": "TypeScript"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "MadsLorentzen/ai-job-search ⭐2",
-        "url": "https://github.com/MadsLorentzen/ai-job-search",
-        "normalized_url": "https://github.com/MadsLorentzen/ai-job-search",
-        "summary": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "2",
-          "language": "TypeScript"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "Alpha-Dojo/DojoAgents ⭐2",
-        "url": "https://github.com/Alpha-Dojo/DojoAgents",
-        "normalized_url": "https://github.com/Alpha-Dojo/DojoAgents",
-        "summary": "DojoAgents: Full-Market AI Copilot for Personal Investment",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "2",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "DeusData/codebase-memory-mcp ⭐2",
-        "url": "https://github.com/DeusData/codebase-memory-mcp",
-        "normalized_url": "https://github.com/DeusData/codebase-memory-mcp",
-        "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "2",
-          "language": "C"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "palmier-io/palmier-pro ⭐2",
-        "url": "https://github.com/palmier-io/palmier-pro",
-        "normalized_url": "https://github.com/palmier-io/palmier-pro",
-        "summary": "macOS video editor built for AI",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "2",
-          "language": "Swift"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "intercom/2x-skills ⭐2",
-        "url": "https://github.com/intercom/2x-skills",
-        "normalized_url": "https://github.com/intercom/2x-skills",
-        "summary": "A collection of claude skills we think are generic enough to be useful to everyone",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "2",
-          "language": ""
-        }
-      },
-      {
-        "category": "projects",
-        "title": "coreyhaines31/marketingskills ⭐2",
-        "url": "https://github.com/coreyhaines31/marketingskills",
-        "normalized_url": "https://github.com/coreyhaines31/marketingskills",
-        "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "2",
-          "language": "JavaScript"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "multica-ai/multica ⭐2",
-        "url": "https://github.com/multica-ai/multica",
-        "normalized_url": "https://github.com/multica-ai/multica",
-        "summary": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "2",
-          "language": "Go"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "Natively-AI-assistant/natively-cluely-ai-assistant ⭐2",
-        "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
-        "normalized_url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
-        "summary": "Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subscriptions. No data breaches.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "2",
-          "language": "TypeScript"
-        }
       }
     ],
     "news": [
       {
         "category": "news",
+        "title": "Jurassic Park computers in excruciating detail",
+        "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+        "normalized_url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+        "summary": "HN points: 12, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-07-15T02:57:47Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
         "url": "https://tailscale.com/security-bulletins",
         "normalized_url": "https://tailscale.com/security-bulletins",
-        "summary": "HN points: 63, comments: 25",
+        "summary": "HN points: 66, comments: 26",
         "source": "Hacker News",
         "published": "2026-07-15T01:08:26Z",
         "importance_hint": 3,
@@ -895,7 +724,7 @@
         "title": "Financing the AI boom: from cash flows to debt [pdf]",
         "url": "https://www.bis.org/publ/bisbull120.pdf",
         "normalized_url": "https://www.bis.org/publ/bisbull120.pdf",
-        "summary": "HN points: 108, comments: 59",
+        "summary": "HN points: 110, comments: 62",
         "source": "Hacker News",
         "published": "2026-07-14T21:58:36Z",
         "importance_hint": 3,
@@ -917,7 +746,7 @@
         "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
         "url": "https://prismml.com/news/bonsai-27b",
         "normalized_url": "https://prismml.com/news/bonsai-27b",
-        "summary": "HN points: 478, comments: 174",
+        "summary": "HN points: 480, comments: 176",
         "source": "Hacker News",
         "published": "2026-07-14T17:50:48Z",
         "importance_hint": 4,
@@ -944,6 +773,45 @@
         "published": "2026-07-14T16:06:18Z",
         "importance_hint": 4,
         "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Scaling Law一招鲜？首个晶体结构操作基准，顶级大模型集体翻车",
+        "url": "https://www.36kr.com/p/3896324152526725",
+        "normalized_url": "https://www.36kr.com/p/3896324152526725",
+        "summary": "Scaling Law遇原子操作瓶颈，AI for Science需转向Action Scaling",
+        "source": "36Kr AI",
+        "published": "2026-07-15T03:39:16+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "机器人会跳舞，却捡不起一串钥匙",
+        "url": "https://www.36kr.com/p/3896353389774469",
+        "normalized_url": "https://www.36kr.com/p/3896353389774469",
+        "summary": "对话毫厘智能CEO郦可：100万辆车、50亿公里验证之后，他决定为Physical AI打下第一根地基。",
+        "source": "36Kr AI",
+        "published": "2026-07-15T03:37:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "DeepSeek再启融资，710亿美元估值背后，AI竞争已经变了",
+        "url": "https://www.36kr.com/p/3895568122447237",
+        "normalized_url": "https://www.36kr.com/p/3895568122447237",
+        "summary": "一个月，两轮融资，DeepSeek为什么这么着急？",
+        "source": "36Kr AI",
+        "published": "2026-07-15T03:33:54+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -1031,45 +899,6 @@
         "summary": "效果优于GRPO。",
         "source": "36Kr AI",
         "published": "2026-07-15T02:32:27+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "大厂履历，加速折旧",
-        "url": "https://www.36kr.com/p/3896246242395781",
-        "normalized_url": "https://www.36kr.com/p/3896246242395781",
-        "summary": "履历是一张船票。",
-        "source": "36Kr AI",
-        "published": "2026-07-15T02:12:49+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "苹果想要“掐死”OpenAI 手机",
-        "url": "https://www.36kr.com/p/3896233959491462",
-        "normalized_url": "https://www.36kr.com/p/3896233959491462",
-        "summary": "苹果也有自己的越战泥潭",
-        "source": "36Kr AI",
-        "published": "2026-07-15T02:12:03+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "2026上半年BD全景：全球Top10 BD交易，中国独占8席",
-        "url": "https://www.36kr.com/p/3896146538481543",
-        "normalized_url": "https://www.36kr.com/p/3896146538481543",
-        "summary": "2026上半年中国创新药BD交易火热，全球Top10占8席",
-        "source": "36Kr AI",
-        "published": "2026-07-15T01:53:36+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1307,6 +1136,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "你这图「保真」吗？AI 生图时代的信息防伪",
+        "url": "https://sspai.com/post/112185",
+        "normalized_url": "https://sspai.com/post/112185",
+        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 阅前提示 ：本文所有文字内容均由本人写作，但部分图片内容为 AI 生成，每张图片均在图片标注中注释了明显的 AI 生成提示（包括生成图片的模型及版本号）。 由 ChatGPT Images 2.0 生成 上图是一张 AI 生成的图片，如果不是因为颇显离奇的出镜人物，即便你定睛细看、甚至放大数倍观察文字和毛发边缘，也极难看出这是 AI 生成的图片。你可能会认为这是《生活大爆炸》的整活。 1 「罪魁祸首」之一便是 OpenAI 在今年 4 月发布的 ChatGPT Images 2.0，这款模型首次将 Agentic 推理能力引入了图像生成模型中，借此它能够生成更加逼真、复杂的光影效果。更恐怖的是，它几乎彻底攻克了以往 AI 图片生成模型「不会写字」的顽疾，从图像中的招牌、宣传单到包装上的文字，渲染准确率极高。 2 「眼见为实」这句人类奉行了数千年",
+        "source": "SSPAI AI",
+        "published": "2026-07-13T02:52:47+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -1931,136 +1773,6 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones",
-        "url": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones",
-        "summary": "PrismML just released Bonsai 27B. It is a low-bit representation of Qwen3.6-27B, not a new pretrain. The architecture is unchanged. Two variants ship under Apache 2.0. Ternary Bonsai 27B uses {−1, 0, +1} weights at a true 1.71 bits per weight. Its ideal size is 5.9GB. 1-bit Bonsai 27B uses binary {−1, +1} weights at […] The post PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T22:51:34+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
-        "url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task",
-        "summary": "See how Vibe, Claude Code, Cursor, and Codex compare on cost, open weights, self-hosting, and async agent surfaces. The post Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T20:52:41+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms",
-        "url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms",
-        "summary": "OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and certificate fields. The post OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T20:16:51+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder",
-        "url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder",
-        "summary": "Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework. It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local search, 30+ MDX components, llms.txt, and a built-in MCP server. The post Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T08:15:29+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera",
-        "url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera",
-        "summary": "Mistral AI introduced Robostral Navigate, an 8B embodied navigation model. It moves robots from a plain-language instruction using only a single RGB camera, with no LiDAR or depth sensors. The model reaches 76.6% success on R2R-CE validation unseen through a pointing method, prefix-caching training, and CISPO online reinforcement learning. The post Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera appeared first on Mark",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T07:20:38+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
-        "url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
-        "summary": "Anthropic's Claude Sonnet 5 narrows the gap to Opus 4.8 on agentic coding, at cheaper Sonnet token pricing. The post Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-14T00:58:47+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
-        "url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity",
-        "summary": "MORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning. It runs worlds that never reset, using parameterisable regime shifts and a six-metric evaluation protocol. Across the platform, PPO, HER, EWC, and LCM all remain far below the theoretical upper bound. The post Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity appeared first on",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T22:37:53+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
-        "url": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks",
-        "summary": "In this tutorial, we reconstruct the VideoAgent workflow as a runnable, API-key-free multi-agent pipeline. We build an intent parser, an agent library, a tool router, a graph planner, and a textual-gradient optimizer that repairs the execution graph. We wire these planning components to FFmpeg, Whisper transcription, scene detection, keyframe sampling, captioning, cross-modal indexing, and beat-synced editing. By the end, we have a system that answers questions about a video, summarizes it, and ",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T18:30:30+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
-        "url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace",
-        "summary": "Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified. The post Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failu",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T08:45:12+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations",
-        "url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1",
-        "summary": "Prime Intellect launched verifiers 0.2.0, previewing a rewritten \"v1\" core under the verifiers.v1 namespace. It splits an environment into a taskset (what), a harness (how), and a runtime (where), with an interception server that proxies requests and records training-ready traces. Any taskset runs under any compatible harness, with full prime-rl training support at launch. The post Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Eva",
-        "source": "MarkTechPost",
-        "published": "2026-07-13T07:40:18+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
         }
       },
       {
