@@ -1,20 +1,59 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T06:58:35.828393+08:00",
+  "generated_at": "2026-07-15T11:31:26.273360+08:00",
   "counts": {
-    "papers": 38,
+    "papers": 42,
     "projects": 23,
-    "news": 126
+    "news": 130
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+        "url": "https://huggingface.co/papers/2607.11886",
+        "normalized_url": "https://huggingface.co/papers/2607.11886",
+        "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking the MLLM to judge a generated image or answer decomposed verification questions, SpectraReward measures how well the original prompt can be recovered from the generated image through a single image-conditioned, teacher-forced forward pass. We use the average image-conditioned prompt log-likelihood as t",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.11886"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution",
+        "url": "https://huggingface.co/papers/2607.11111",
+        "normalized_url": "https://huggingface.co/papers/2607.11111",
+        "summary": "LLM-based coding agents have significantly advanced automated software issue resolution, yet they remain highly prone to factual errors caused by insufficient repository understanding. Recent methods attempt to mitigate this limitation through pre-repair repository exploration; however, their fix-driven strategies explore repositories without identifying the agent's knowledge gaps, often yielding imprecise context that fails to bridge the underlying understanding deficit. In this paper, we propo",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.11111"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Multi-Agent LLMs Fail to Explore Each Other",
+        "url": "https://huggingface.co/papers/2607.11250",
+        "normalized_url": "https://huggingface.co/papers/2607.11250",
+        "summary": "Exploration is essential for reliable autonomy in multi-agent systems, yet it remains unclear whether large language model (LLM) agents can explore effectively when interacting with one another. We show that modern LLM agents fail to do so, often exhibiting myopic and polarized interaction patterns that lead to suboptimal coordination and increased regret. We formalize this challenge as the Multi-Agent Exploration problem, modeling it as a partially observable stochastic game (POSG) problem in w",
+        "source": "HuggingFace Papers",
+        "published": "2026-07-13T08:34:05.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.11250"
+        }
+      },
       {
         "category": "papers",
         "title": "Evidence-Backed Video Question Answering",
         "url": "https://huggingface.co/papers/2607.11862",
         "normalized_url": "https://huggingface.co/papers/2607.11862",
         "summary": "Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on textual rationales or sparse bounding boxes, which struggle to capture complex video dynamics such as occlusions and non-rigid deformations. We propose Evidence-Backed Video Question Answering (E-VQA), a novel task requiring models to jointly output a semantic answer and precise",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-07-13T17:49:10.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -79,7 +118,7 @@
         "url": "https://huggingface.co/papers/2607.11885",
         "normalized_url": "https://huggingface.co/papers/2607.11885",
         "summary": "Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained facial edits. We present a method for fine-grained identity tuning in text-to-image personalization models. Unlike standard image editing, which operates on a given image, identity tuning modifies the l",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-07-13T17:59:49.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -118,7 +157,7 @@
         "url": "https://huggingface.co/papers/2607.11881",
         "normalized_url": "https://huggingface.co/papers/2607.11881",
         "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progress across diverse real-world tasks, it is not yet clear when, how, or to what extent they can exhibit or be endowed with effective metacognitive abilities, nor how such abilities can be adapted to adv",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-07-13T17:58:37.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -196,7 +235,7 @@
         "url": "https://huggingface.co/papers/2607.11849",
         "normalized_url": "https://huggingface.co/papers/2607.11849",
         "summary": "Large language models (LLMs) have achieved remarkable performance on high-school and olympiad-style mathematics, yet their capabilities on advanced mathematics remain poorly understood. Existing benchmarks, however, fall short in both scope and evaluation granularity: they provide limited disciplinary coverage and often rely on final-answer correctness or coarse judgments, leaving the validity of the reasoning process inadequately assessed. To bridge this gap, we introduce AdvancedMathBench, a b",
-        "source": "HuggingFace Papers, arXiv",
+        "source": "HuggingFace Papers",
         "published": "2026-07-13T17:38:22.000Z",
         "importance_hint": 5,
         "metadata": {
@@ -361,261 +400,266 @@
       },
       {
         "category": "papers",
-        "title": "Trust Region Policy Distillation",
-        "url": "https://huggingface.co/papers/2607.04751",
-        "normalized_url": "https://huggingface.co/papers/2607.04751",
-        "summary": "Big goals are hard to achieve all at once; breaking them into small steps is wiser. We present Trust Region Policy Distillation (TOP-D), which transforms the notoriously unstable, high-variance On-Policy Distillation (OPD) into a stable training paradigm by dynamically constructing a proximal teacher. Theoretically, we establish a rigorous framework demonstrating that TOP-D inherently controls gradient variance. By providing a formal global convergence analysis alongside a monotonic improvement ",
-        "source": "HuggingFace Papers",
-        "published": "2026-07-06T00:00:00.000Z",
+        "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+        "url": "https://arxiv.org/abs/2607.13034v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13034v1",
+        "summary": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edit into a small code-base audit. We argue the missing capability is task-aware execution-scope estimation: judging a task's difficulty, the information it truly needs, and the shortest reliable path be",
+        "source": "arXiv",
+        "published": "2026-07-14T17:59:31+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "The Seriality Gap in Video Diffusion Models",
+        "url": "https://arxiv.org/abs/2607.13031v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13031v1",
+        "summary": "When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of standard bidirectional video diffusion degrades as the causal chain lengthens, even when provided more denoising steps. In a length-matched single-ball control, where ball-ball interactions are absent, the degradation largely disappears, isolating dependent-event structure rather than video length a",
+        "source": "arXiv",
+        "published": "2026-07-14T17:59:22+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+        "url": "https://arxiv.org/abs/2607.13028v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13028v1",
+        "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that logged data rarely contains. We present TerraZero, a procedural driving simulator and self-play training stack. A configurable C engine runs simulation on the CPU and policy inference on the GPU over a zero-copy path, sustaining 1.3M agent-steps per se",
+        "source": "arXiv",
+        "published": "2026-07-14T17:59:02+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+        "url": "https://arxiv.org/abs/2607.13027v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13027v1",
+        "summary": "Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also important agent environments because they are widely accessible and contain users' data, sensors, and daily-use applications. Existing mobile agents mainly operate smartphones through graphical user ",
+        "source": "arXiv",
+        "published": "2026-07-14T17:58:57+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
+        "url": "https://arxiv.org/abs/2607.13022v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13022v1",
+        "summary": "Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While this saturated regime is of primary interest, direct numerical simulations must resolve the full transient dynamics before reaching it, incurring significant computational cost. In Computational Fluid Dynamics, reduced-order approaches such as Large Eddy Simulation mitigate computational cost by modeling small-scale dynamics, ena",
+        "source": "arXiv",
+        "published": "2026-07-14T17:58:13+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+        "url": "https://arxiv.org/abs/2607.13017v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13017v1",
+        "summary": "World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators while carrying enough motion cues for accurate control. Existing numerical actions fail to satisfy the former, and prior visual action representations overlook the temporal motion structure across fram",
+        "source": "arXiv",
+        "published": "2026-07-14T17:57:12+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
+        "url": "https://arxiv.org/abs/2607.13013v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13013v1",
+        "summary": "Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for DiffusionGemma, a 26B mixture-of-experts model that generates text by uniform, random-token discrete diffusion rather than the absorbing-mask scheme common to recent diffusion language models. A froz",
+        "source": "arXiv",
+        "published": "2026-07-14T17:53:22+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology",
+        "url": "https://arxiv.org/abs/2607.13010v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13010v1",
+        "summary": "Dermatological practice routinely involves measuring and tracking lesion size, morphology and texture, as critical components of wound or skin cancer screening, monitoring and diagnosis. To accomplish this task, practitioners often image the skin surface with commonly available off-the-shelf camera sensors. This has led to an overwhelming research focus on 2D methods while these objectives naturally benefit from 3D information. In this paper, we demonstrate that dense monocular 3D reconstruction",
+        "source": "arXiv",
+        "published": "2026-07-14T17:51:37+00:00",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "papers",
+        "title": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
+        "url": "https://arxiv.org/abs/2607.13007v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13007v1",
+        "summary": "Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, several Monte Carlo Tree Search (MCTS) variants are commonly used in such domains. In this paper, we propose a series of enhancements for Ensemble Determinization MCTS, introducing two axes for dynamic resource allocation. First, Dynamic Number of Determinizations, increases or decreases the number of cu",
+        "source": "arXiv",
+        "published": "2026-07-14T17:51:15+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2607.04751"
-        }
+        "metadata": {}
       },
       {
         "category": "papers",
-        "title": "Self-Guided Test-Time Training for Long-Context LLMs",
-        "url": "https://huggingface.co/papers/2607.09415",
-        "normalized_url": "https://huggingface.co/papers/2607.09415",
-        "summary": "Long-context processing has become increasingly important for large language models (LLMs), but simply extending the context window does not guarantee effective utilization of long inputs. As input length grows, accuracy often degrades, indicating that models still struggle to identify and use the evidence most relevant to a question. A promising way to improve long-context utilization is test-time training (TTT), which treats the test context as a training example for instance-specific paramete",
-        "source": "HuggingFace Papers",
-        "published": "2026-07-10T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2607.09415"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Video Generation Models are General-Purpose Vision Learners",
-        "url": "https://huggingface.co/papers/2607.09024",
-        "normalized_url": "https://huggingface.co/papers/2607.09024",
-        "summary": "Driven by next-token prediction, NLP shifted from task-specific models into powerful generalist foundation models. What, then, is the equivalent catalyst needed to achieve a general-purpose model in computer vision? In this paper, we contend that large-scale text-to-video generation serves as a strong pre-training paradigm for computer vision, providing the necessary spatiotemporal priors, vision-language alignment, and scalability required for general visual intelligence. We introduce GenCeptio",
-        "source": "HuggingFace Papers",
-        "published": "2026-07-10T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2607.09024"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
-        "url": "https://arxiv.org/abs/2607.11886v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11886v1",
-        "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking the MLLM to judge a generated image or answer decomposed verification questions, SpectraReward measures how well the original prompt can be recovered from the generated image through a single image-conditioned, teacher-forced forward pass. We use the average image-conditioned prompt log-likelihood as t",
+        "title": "The Spectrum Is Not Enough: When Context Helps Time-Series Forecasting",
+        "url": "https://arxiv.org/abs/2607.13006v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13006v1",
+        "summary": "A growing family of indices scores how predictable a series is from its spectrum. Practitioners increasingly read these scores as answering a different question: whether \\emph{adding context}, a longer lookback, a retrieval plug-in, or a pretrained model, will help. These are not the same question. The value of context is a property of the operating point, not of the series. Any index built from the power spectrum is invariant under phase randomization, whereas the beyond-second-order value that",
         "source": "arXiv",
-        "published": "2026-07-13T17:59:58+00:00",
+        "published": "2026-07-14T17:50:28+00:00",
         "importance_hint": 5,
         "metadata": {}
       },
       {
         "category": "papers",
-        "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
-        "url": "https://arxiv.org/abs/2607.11883v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11883v1",
-        "summary": "Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that realize this simplicity. Parameter-based methods such as quantization produce code lengths that scale with model size, insensitive to how much information the parameters store. Prequential coding bypass",
+        "title": "Watermark Forensics for Generative Models: An Information-Theoretic Perspective",
+        "url": "https://arxiv.org/abs/2607.13003v1",
+        "normalized_url": "https://arxiv.org/abs/2607.13003v1",
+        "summary": "A watermark in a generative model's output is usually asked only whether a text is machine-made. The same mark can do more: attribute it to the user who produced it, extract a hidden payload, or localize the part that survives editing. These form a forensic ladder, and we ask what each rung costs in the sample length $n$. One object organizes the answers. Let $S$ be the secret the mark carries (a user's identity or payload), and let the information profile $ν(t)=I(S;X_t\\mid X_{<t})$ record how m",
         "source": "arXiv",
-        "published": "2026-07-13T17:58:50+00:00",
+        "published": "2026-07-14T17:49:52+00:00",
         "importance_hint": 5,
         "metadata": {}
       },
       {
         "category": "papers",
-        "title": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
-        "url": "https://arxiv.org/abs/2607.11875v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11875v1",
-        "summary": "We present a theoretical framework to explain the emergence of inductive reasoning abilities in Transformer language models. While previous works on Transformer learning dynamics have so far been mostly tied to specific tasks, we study a generalized class of inductive tasks that unifies several synthetic tasks known in the literature, including in-context n-grams and multi-hop reasoning. In this class, we theoretically prove that the training dynamics of attention models can be confined to a hig",
+        "title": "X-Lens: Real-Time Metric Depth Estimation with Heterogeneous Cameras",
+        "url": "https://arxiv.org/abs/2607.12993v1",
+        "normalized_url": "https://arxiv.org/abs/2607.12993v1",
+        "summary": "We present X-lens, a compact feed-forward model for metric depth estimation from a variable number of calibrated fisheye and pinhole views. To support real-time downstream perception, X-lens is built around a geometry-aware heterogeneous camera formulation with two key components. Learnable calibration tokens provide a coarse alignment between fisheye and pinhole projective spaces, while a Jacobian-parameterized distortion bias injected into cross-attention models local projection changes and pr",
         "source": "arXiv",
-        "published": "2026-07-13T17:56:11+00:00",
+        "published": "2026-07-14T17:45:50+00:00",
         "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
-        "url": "https://arxiv.org/abs/2607.11874v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11874v1",
-        "summary": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces. We present REGRIND, a minimalist retargeting-guided RL pipeline that learns dexterous manip",
-        "source": "arXiv",
-        "published": "2026-07-13T17:56:08+00:00",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol",
-        "url": "https://arxiv.org/abs/2607.11873v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11873v1",
-        "summary": "Institutions collect far more open-ended teaching-evaluation feedback than they read. A prior study introduced a validated protocol for classifying such comments by thematic category and sentiment, built from a documented annotation guide, an intra-annotator reliability measurement, stratified cross-validation, and a held-out evaluation on a Spanish institutional corpus with a frozen-encoder design. Two questions limit its reuse: whether a protocol fixed to 2019-era frozen embeddings stays compe",
-        "source": "arXiv",
-        "published": "2026-07-13T17:56:05+00:00",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias",
-        "url": "https://arxiv.org/abs/2607.11871v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11871v1",
-        "summary": "Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same biases admit a representation-level account in the judge's hidden state, complementary to the input-output view and operationally useful in ways it does not afford. We report three findings, across seven judges, seven bias types, and nine benchmarks. Geometry: baseline judging inputs occupy a tight acti",
-        "source": "arXiv",
-        "published": "2026-07-13T17:55:19+00:00",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "Beyond the Single Camera: Agentic Multi-View Reasoning in Sports Video Understanding",
-        "url": "https://arxiv.org/abs/2607.11844v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11844v1",
-        "summary": "Recent Multimodal Large Language Models (MLLMs) achieve strong performance on single-view video understanding benchmarks. However, sports videos involve dense occlusion, rapid motion, and complex interactions that are difficult to resolve from a single viewpoint. In practice, sports events are recorded from multiple camera angles, providing complementary evidence used by referees. Yet, no existing benchmark evaluates MLLMs on multi-view sports video understanding. To address this gap, we introdu",
-        "source": "arXiv",
-        "published": "2026-07-13T17:34:36+00:00",
-        "importance_hint": 5,
-        "metadata": {}
-      },
-      {
-        "category": "papers",
-        "title": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
-        "url": "https://arxiv.org/abs/2607.11843v1",
-        "normalized_url": "https://arxiv.org/abs/2607.11843v1",
-        "summary": "Quantum Neural Networks (QNNs) are a promising framework for quantum machine learning on near-term quantum devices, but their security risks remain insufficiently understood. Studies have shown that QNNs are vulnerable to backdoor attacks, yet existing quantum backdoors mostly rely on a fixed trigger shared by all poisoned inputs. This fixed-trigger design is a major weakness because many defenses detect or weaken the repeated patterns such triggers leave in data representations. Although input-",
-        "source": "arXiv",
-        "published": "2026-07-13T17:34:17+00:00",
-        "importance_hint": 4,
         "metadata": {}
       }
     ],
     "projects": [
       {
         "category": "projects",
-        "title": "Shubhamsaboo/awesome-llm-apps ⭐+1,104/天",
+        "title": "Shubhamsaboo/awesome-llm-apps ⭐+1,106/天",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
         "normalized_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-        "summary": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship. （GitHub Trending · 今日 +1,104 star）",
+        "summary": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship. （GitHub Trending · 今日 +1,106 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "1,104"
+          "stars_today": "1,106"
         }
       },
       {
         "category": "projects",
-        "title": "mattpocock/skills ⭐+1,864/天",
+        "title": "mattpocock/skills ⭐+1,679/天",
         "url": "https://github.com/mattpocock/skills",
         "normalized_url": "https://github.com/mattpocock/skills",
-        "summary": "Skills for Real Engineers. Straight from my .claude directory. （GitHub Trending · 今日 +1,864 star）",
+        "summary": "Skills for Real Engineers. Straight from my .claude directory. （GitHub Trending · 今日 +1,679 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "1,864"
+          "stars_today": "1,679"
         }
       },
       {
         "category": "projects",
-        "title": "Dicklesworthstone/destructive_command_guard ⭐+481/天",
+        "title": "Dicklesworthstone/destructive_command_guard ⭐+473/天",
         "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
         "normalized_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-        "summary": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. （GitHub Trending · 今日 +481 star）",
+        "summary": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. （GitHub Trending · 今日 +473 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "481"
+          "stars_today": "473"
         }
       },
       {
         "category": "projects",
-        "title": "virattt/ai-hedge-fund ⭐+156/天",
+        "title": "virattt/ai-hedge-fund ⭐+109/天",
         "url": "https://github.com/virattt/ai-hedge-fund",
         "normalized_url": "https://github.com/virattt/ai-hedge-fund",
-        "summary": "An AI Hedge Fund Team （GitHub Trending · 今日 +156 star）",
+        "summary": "An AI Hedge Fund Team （GitHub Trending · 今日 +109 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "156"
+          "stars_today": "109"
         }
       },
       {
         "category": "projects",
-        "title": "Nutlope/hallmark ⭐+1,010/天",
+        "title": "Nutlope/hallmark ⭐+1,015/天",
         "url": "https://github.com/Nutlope/hallmark",
         "normalized_url": "https://github.com/Nutlope/hallmark",
-        "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex. （GitHub Trending · 今日 +1,010 star）",
+        "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex. （GitHub Trending · 今日 +1,015 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "1,010"
+          "stars_today": "1,015"
         }
       },
       {
         "category": "projects",
-        "title": "HKUDS/Vibe-Trading ⭐+1,265/天",
+        "title": "HKUDS/Vibe-Trading ⭐+1,256/天",
         "url": "https://github.com/HKUDS/Vibe-Trading",
         "normalized_url": "https://github.com/HKUDS/Vibe-Trading",
-        "summary": "\"Vibe-Trading: Your Personal Trading Agent\" （GitHub Trending · 今日 +1,265 star）",
+        "summary": "\"Vibe-Trading: Your Personal Trading Agent\" （GitHub Trending · 今日 +1,256 star）",
         "source": "GitHub Trending, GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "1,265"
+          "stars_today": "1,256"
         }
       },
       {
         "category": "projects",
-        "title": "hasaneyldrm/exercises-dataset ⭐+864/天",
+        "title": "hasaneyldrm/exercises-dataset ⭐+851/天",
         "url": "https://github.com/hasaneyldrm/exercises-dataset",
         "normalized_url": "https://github.com/hasaneyldrm/exercises-dataset",
-        "summary": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app. （GitHub Trending · 今日 +864 star）",
+        "summary": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app. （GitHub Trending · 今日 +851 star）",
         "source": "GitHub Trending, GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "864"
+          "stars_today": "851"
         }
       },
       {
         "category": "projects",
-        "title": "AIEraDev/Clypra ⭐+66/天",
+        "title": "AIEraDev/Clypra ⭐+85/天",
         "url": "https://github.com/AIEraDev/Clypra",
         "normalized_url": "https://github.com/AIEraDev/Clypra",
-        "summary": "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities （GitHub Trending · 今日 +66 star）",
+        "summary": "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities （GitHub Trending · 今日 +85 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "66"
+          "stars_today": "85"
         }
       },
       {
         "category": "projects",
-        "title": "Graphify-Labs/graphify ⭐+1,858/天",
+        "title": "Graphify-Labs/graphify ⭐+1,851/天",
         "url": "https://github.com/Graphify-Labs/graphify",
         "normalized_url": "https://github.com/Graphify-Labs/graphify",
-        "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. （GitHub Trending · 今日 +1,858 star）",
+        "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. （GitHub Trending · 今日 +1,851 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "1,858"
+          "stars_today": "1,851"
         }
       },
       {
         "category": "projects",
-        "title": "HenryNdubuaku/maths-cs-ai-compendium ⭐+69/天",
+        "title": "HenryNdubuaku/maths-cs-ai-compendium ⭐+112/天",
         "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
         "normalized_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-        "summary": "Become a cracked AI/ML Research Engineer （GitHub Trending · 今日 +69 star）",
+        "summary": "Become a cracked AI/ML Research Engineer （GitHub Trending · 今日 +112 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "69"
+          "stars_today": "112"
         }
       },
       {
@@ -804,10 +848,54 @@
     "news": [
       {
         "category": "news",
+        "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+        "url": "https://tailscale.com/security-bulletins",
+        "normalized_url": "https://tailscale.com/security-bulletins",
+        "summary": "HN points: 63, comments: 25",
+        "source": "Hacker News",
+        "published": "2026-07-15T01:08:26Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "ChatGPT Is Down",
+        "url": "https://chatgpt.com/",
+        "normalized_url": "https://chatgpt.com",
+        "summary": "HN points: 13, comments: 11",
+        "source": "Hacker News",
+        "published": "2026-07-14T23:48:36Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "The politics of air conditioning in Switzerland",
+        "url": "https://lenews.ch/2026/05/29/the-politics-of-air-conditioning-in-switzerland/",
+        "normalized_url": "https://lenews.ch/2026/05/29/the-politics-of-air-conditioning-in-switzerland",
+        "summary": "HN points: 15, comments: 17",
+        "source": "Hacker News",
+        "published": "2026-07-14T22:50:24Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
+        "url": "https://www.benjamin-bai.com/projects/lemario",
+        "normalized_url": "https://www.benjamin-bai.com/projects/lemario",
+        "summary": "HN points: 66, comments: 8",
+        "source": "Hacker News",
+        "published": "2026-07-14T22:30:47Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Financing the AI boom: from cash flows to debt [pdf]",
         "url": "https://www.bis.org/publ/bisbull120.pdf",
         "normalized_url": "https://www.bis.org/publ/bisbull120.pdf",
-        "summary": "HN points: 25, comments: 2",
+        "summary": "HN points: 108, comments: 59",
         "source": "Hacker News",
         "published": "2026-07-14T21:58:36Z",
         "importance_hint": 3,
@@ -815,10 +903,21 @@
       },
       {
         "category": "news",
+        "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
+        "url": "https://github.com/logxio/picchio",
+        "normalized_url": "https://github.com/logxio/picchio",
+        "summary": "HN points: 13, comments: 2",
+        "source": "Hacker News",
+        "published": "2026-07-14T21:06:11Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
         "url": "https://prismml.com/news/bonsai-27b",
         "normalized_url": "https://prismml.com/news/bonsai-27b",
-        "summary": "HN points: 334, comments: 118",
+        "summary": "HN points: 478, comments: 174",
         "source": "Hacker News",
         "published": "2026-07-14T17:50:48Z",
         "importance_hint": 4,
@@ -829,7 +928,7 @@
         "title": "Pollution from Musk's unpermitted xAI power project hits in Black communities",
         "url": "https://www.reuters.com/world/americas/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/",
         "normalized_url": "https://www.reuters.com/world/americas/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14",
-        "summary": "HN points: 19, comments: 5",
+        "summary": "HN points: 21, comments: 5",
         "source": "Hacker News",
         "published": "2026-07-14T16:18:43Z",
         "importance_hint": 3,
@@ -840,7 +939,7 @@
         "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
         "url": "https://agnost.ai",
         "normalized_url": "https://agnost.ai",
-        "summary": "HN points: 37, comments: 22",
+        "summary": "HN points: 47, comments: 34",
         "source": "Hacker News",
         "published": "2026-07-14T16:06:18Z",
         "importance_hint": 4,
@@ -848,135 +947,64 @@
       },
       {
         "category": "news",
-        "title": "Are we offloading too much of our thinking to AI?",
-        "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-        "normalized_url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-        "summary": "HN points: 345, comments: 335",
-        "source": "Hacker News",
-        "published": "2026-07-14T15:18:13Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Meta used AI to target workers with medical conditions for layoffs",
-        "url": "https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/",
-        "normalized_url": "https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14",
-        "summary": "HN points: 20, comments: 4",
-        "source": "Hacker News",
-        "published": "2026-07-14T15:09:28Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "The Agentic Loop: Three loops in a trench coat",
-        "url": "https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a",
-        "normalized_url": "https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a",
-        "summary": "HN points: 65, comments: 15",
-        "source": "Hacker News",
-        "published": "2026-07-14T14:39:56Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Show HN: Oodle.ai – $10 per million agent traces",
-        "url": "https://www.oodle.ai/product/agent-observability",
-        "normalized_url": "https://www.oodle.ai/product/agent-observability",
-        "summary": "HN points: 26, comments: 7",
-        "source": "Hacker News",
-        "published": "2026-07-14T14:36:28Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Hating AI in 2026",
-        "url": "https://www.eamoncaddigan.net/posts/ai-in-2026/",
-        "normalized_url": "https://www.eamoncaddigan.net/posts/ai-in-2026",
-        "summary": "HN points: 24, comments: 15",
-        "source": "Hacker News",
-        "published": "2026-07-14T14:13:17Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "OpenAI mandates hardware-backed passkeys for Trusted Access Cyber members",
-        "url": "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts/",
-        "normalized_url": "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts",
-        "summary": "HN points: 52, comments: 21",
-        "source": "Hacker News",
-        "published": "2026-07-14T14:12:39Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "U of Chicago law school bans laptops from classes amid AI backlash",
-        "url": "https://www.the-independent.com/tech/laptop-ban-university-ai-backlash-b3013911.html",
-        "normalized_url": "https://www.the-independent.com/tech/laptop-ban-university-ai-backlash-b3013911.html",
-        "summary": "HN points: 29, comments: 12",
-        "source": "Hacker News",
-        "published": "2026-07-14T12:57:08Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Proof of care in the age of AI",
-        "url": "https://jacobfilipp.com/care/",
-        "normalized_url": "https://jacobfilipp.com/care",
-        "summary": "HN points: 164, comments: 102",
-        "source": "Hacker News",
-        "published": "2026-07-14T12:56:25Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Guardian Angels: LLM Personalization for Productivity and Security",
-        "url": "https://gwern.net/guardian-angel",
-        "normalized_url": "https://gwern.net/guardian-angel",
-        "summary": "HN points: 46, comments: 3",
-        "source": "Hacker News",
-        "published": "2026-07-14T12:50:29Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "DOGE Used AI for Housing Policy. The Government Won’t Say How",
-        "url": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
-        "normalized_url": "https://www.wired.com/story/doge-deployed-ai-housing-policy",
-        "summary": "In response to a public records request, HUD has withheld documents about DOGE’s use of AI—in part by citing a privilege that doesn’t exist.",
-        "source": "Hacker News, Wired AI",
-        "published": "2026-07-14T09:00:00+00:00",
-        "importance_hint": 3,
+        "title": "“不守规矩的人，反而占便宜”，DeepMind之父再谈AGI与前沿模型监管",
+        "url": "https://www.36kr.com/p/3896297861547655",
+        "normalized_url": "https://www.36kr.com/p/3896297861547655",
+        "summary": "竞争拉低了下限。",
+        "source": "36Kr AI",
+        "published": "2026-07-15T03:19:45+00:00",
+        "importance_hint": 5,
         "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
         "category": "news",
-        "title": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)",
-        "url": "https://github.com/Danau5tin/ai-trains-ai",
-        "normalized_url": "https://github.com/Danau5tin/ai-trains-ai",
-        "summary": "HN points: 92, comments: 39",
-        "source": "Hacker News",
-        "published": "2026-07-14T12:41:25Z",
-        "importance_hint": 4,
-        "metadata": {}
+        "title": "诺奖得主哈萨比斯震撼发声：AGI影响将是工业革命10倍",
+        "url": "https://www.36kr.com/p/3896319378311046",
+        "normalized_url": "https://www.36kr.com/p/3896319378311046",
+        "summary": "Demis Hassabis称AGI几年内实现，呼吁建立监管框架管控风险。",
+        "source": "36Kr AI",
+        "published": "2026-07-15T03:19:13+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
-        "title": "中国基模的压哨入局者，先一步布局智能体时代",
-        "url": "https://www.36kr.com/p/3895632583394947",
-        "normalized_url": "https://www.36kr.com/p/3895632583394947",
-        "summary": "智能体时代，正处于转型前夜。",
+        "title": "GPT-5.6 Sol一夜变笨，思考预算960砍到128，没智力固定的模型了？",
+        "url": "https://www.36kr.com/p/3896320634685318",
+        "normalized_url": "https://www.36kr.com/p/3896320634685318",
+        "summary": "OpenAI下调GPT推理算力预算，引发用户降智争议",
         "source": "36Kr AI",
-        "published": "2026-07-14T15:24:07+00:00",
+        "published": "2026-07-15T03:18:45+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI时代的行研：独特洞察从哪里来？",
+        "url": "https://www.36kr.com/p/3896147083675267",
+        "normalized_url": "https://www.36kr.com/p/3896147083675267",
+        "summary": "AI时代，行业研究的护城河在哪里？",
+        "source": "36Kr AI",
+        "published": "2026-07-15T02:52:30+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "36氪首发 | 前非夕科技核心业务合伙人创业，做垂域工业智能体，获数千万元种子轮融资",
+        "url": "https://www.36kr.com/p/3896298534520705",
+        "normalized_url": "https://www.36kr.com/p/3896298534520705",
+        "summary": "产品已落地首单交付。",
+        "source": "36Kr AI",
+        "published": "2026-07-15T02:40:40+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -984,51 +1012,12 @@
       },
       {
         "category": "news",
-        "title": "新能源「主力上场」，一家头部企业的源点思考",
-        "url": "https://www.36kr.com/p/3895551594006148",
-        "normalized_url": "https://www.36kr.com/p/3895551594006148",
-        "summary": "逆变器的作用，从未像当下这般关键。",
+        "title": "36氪首发 | 前阿里平头哥半导体高管创业，RISC-V芯片厂商获新一轮融资",
+        "url": "https://www.36kr.com/p/3896295689569922",
+        "normalized_url": "https://www.36kr.com/p/3896295689569922",
+        "summary": "将联手开源鸿蒙推进软硬件生态建设。",
         "source": "36Kr AI",
-        "published": "2026-07-14T14:05:36+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI与职业这三年：震荡、规律与职业群像",
-        "url": "https://www.36kr.com/p/3895232722730247",
-        "normalized_url": "https://www.36kr.com/p/3895232722730247",
-        "summary": "一份基于可验证数据与理论框架的职业演化记录",
-        "source": "36Kr AI",
-        "published": "2026-07-14T13:43:54+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "卡了半年的弦论难题，Claude一夜解开，东大教授惊到删推",
-        "url": "https://www.36kr.com/p/3895421511124611",
-        "normalized_url": "https://www.36kr.com/p/3895421511124611",
-        "summary": "人类迈入全新科学时代！卡半年的弦论笔记被Claude Fable 5一晚破解，AI甚至主动写代码验证自己的预测，AI怀疑论或彻底破产。",
-        "source": "36Kr AI",
-        "published": "2026-07-14T13:29:32+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "今日，梁文锋成AI新首富，36人靠大模型成亿万富翁",
-        "url": "https://www.36kr.com/p/3895380647560832",
-        "normalized_url": "https://www.36kr.com/p/3895380647560832",
-        "summary": "36人坐拥超1.69万亿，大模型造富太疯狂了！",
-        "source": "36Kr AI",
-        "published": "2026-07-14T13:28:37+00:00",
+        "published": "2026-07-15T02:37:46+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1036,12 +1025,12 @@
       },
       {
         "category": "news",
-        "title": "三问半导体板块巨震：为何暴跌？见顶了吗？能买入吗？",
-        "url": "https://www.36kr.com/p/3895197028350981",
-        "normalized_url": "https://www.36kr.com/p/3895197028350981",
-        "summary": "韩国散户不再“逢低抄底”，机构也在撤退",
+        "title": "强化学习新突破，清华团队提出「单rollout异步优化」方法，可稳定训练1000步",
+        "url": "https://www.36kr.com/p/3896251074627465",
+        "normalized_url": "https://www.36kr.com/p/3896251074627465",
+        "summary": "效果优于GRPO。",
         "source": "36Kr AI",
-        "published": "2026-07-14T13:23:14+00:00",
+        "published": "2026-07-15T02:32:27+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1049,12 +1038,12 @@
       },
       {
         "category": "news",
-        "title": "刚刚，Claude设计“大脑”走了，马斯克再下一城",
-        "url": "https://www.36kr.com/p/3895421757753218",
-        "normalized_url": "https://www.36kr.com/p/3895421757753218",
-        "summary": "刚刚，AI编程圈干了一件狠事。拿下Cursor的马斯克，又把劲敌Claude的设计「大脑」挖走了。",
+        "title": "大厂履历，加速折旧",
+        "url": "https://www.36kr.com/p/3896246242395781",
+        "normalized_url": "https://www.36kr.com/p/3896246242395781",
+        "summary": "履历是一张船票。",
         "source": "36Kr AI",
-        "published": "2026-07-14T13:16:19+00:00",
+        "published": "2026-07-15T02:12:49+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1062,12 +1051,12 @@
       },
       {
         "category": "news",
-        "title": "一周要闻·阿联酋&卡塔尔｜阿布扎比BlueFive联合领投可灵AI 30亿美元融资；卡塔尔宣布成立全球人工智能伦理联盟",
-        "url": "https://www.36kr.com/p/3895506591385472",
-        "normalized_url": "https://www.36kr.com/p/3895506591385472",
-        "summary": "36氪出海持续关注阿联酋、卡塔尔市场机遇，每周聚焦该地区最值得关注要闻，帮助读者把握出海商机。",
+        "title": "苹果想要“掐死”OpenAI 手机",
+        "url": "https://www.36kr.com/p/3896233959491462",
+        "normalized_url": "https://www.36kr.com/p/3896233959491462",
+        "summary": "苹果也有自己的越战泥潭",
         "source": "36Kr AI",
-        "published": "2026-07-14T13:16:02+00:00",
+        "published": "2026-07-15T02:12:03+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1075,12 +1064,12 @@
       },
       {
         "category": "news",
-        "title": "一万亿美元砸向 AI，真正赚到钱的只有这三类公司",
-        "url": "https://www.36kr.com/p/3895407587018625",
-        "normalized_url": "https://www.36kr.com/p/3895407587018625",
-        "summary": "万亿AI基建，流进了谁的口袋？",
+        "title": "2026上半年BD全景：全球Top10 BD交易，中国独占8席",
+        "url": "https://www.36kr.com/p/3896146538481543",
+        "normalized_url": "https://www.36kr.com/p/3896146538481543",
+        "summary": "2026上半年中国创新药BD交易火热，全球Top10占8席",
         "source": "36Kr AI",
-        "published": "2026-07-14T13:08:03+00:00",
+        "published": "2026-07-15T01:53:36+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1088,15 +1077,15 @@
       },
       {
         "category": "news",
-        "title": "你的AI对象，要被强制“下线”了",
-        "url": "https://www.36kr.com/p/3895394389837445",
-        "normalized_url": "https://www.36kr.com/p/3895394389837445",
-        "summary": "“不被嫌弃”的情绪",
-        "source": "36Kr AI",
-        "published": "2026-07-14T13:06:15+00:00",
-        "importance_hint": 3,
+        "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
+        "url": "https://www.qbitai.com/2026/07/450101.html",
+        "normalized_url": "https://www.qbitai.com/2026/07/450101.html",
+        "summary": "距首轮估值上涨37%",
+        "source": "量子位",
+        "published": "2026-07-15T00:54:59+00:00",
+        "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+          "feed_url": "https://www.qbitai.com/rss"
         }
       },
       {
@@ -1218,15 +1207,54 @@
       },
       {
         "category": "news",
-        "title": "100+Skill导演级专家随叫随到！这回视频Agent终于有了可用级产品",
-        "url": "https://www.qbitai.com/2026/07/449566.html",
-        "normalized_url": "https://www.qbitai.com/2026/07/449566.html",
-        "summary": "Agent携上百个Skills助我当大导演",
-        "source": "量子位",
-        "published": "2026-07-14T03:34:50+00:00",
+        "title": "WordPress 7.0 发布：内置 AI 基础能力、改进管理后台与设计套件",
+        "url": "https://www.infoq.cn/article/VAUIReF3N4Z4SkcosaYN?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/VAUIReF3N4Z4SkcosaYN",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-07-15T11:29:00+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "当数据库的两端，都不再是人",
+        "url": "https://www.infoq.cn/article/sDyPWhAWPHttlQJTUwq3?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/sDyPWhAWPHttlQJTUwq3",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-07-15T10:42:31+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局｜AICon深圳",
+        "url": "https://www.infoq.cn/article/1JIiNLEgyJ2UEPwS825r?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/1JIiNLEgyJ2UEPwS825r",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-07-15T10:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Kubernetes AI 辅助项目维护方案：恪守人为责任优先原则",
+        "url": "https://www.infoq.cn/article/mKDCAL0Tr0AaaXJlPIrE?utm_source=rss&utm_medium=article",
+        "normalized_url": "https://www.infoq.cn/article/mKDCAL0Tr0AaaXJlPIrE",
+        "summary": "点击查看原文>",
+        "source": "InfoQ 中文",
+        "published": "2026-07-15T09:43:44+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.infoq.cn/feed.xml"
         }
       },
       {
@@ -1279,71 +1307,6 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Agentic Enterprise：Snowflake AI 如何重新定义工作 ｜ Summit 2026",
-        "url": "https://www.infoq.cn/video/7hqd5Z9AFMA6h9mtcrtA?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/video/7hqd5Z9AFMA6h9mtcrtA",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-07-14T16:43:09+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "用 Claude 重写 SQL 解析器，性能暴涨 70 倍：程序员做的不是写代码，而是搭建验证闭环",
-        "url": "https://www.infoq.cn/article/kyteEZN46mi8l0eMiKuh?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/kyteEZN46mi8l0eMiKuh",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-07-14T16:25:41+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "快手 AB 场景提速 145 倍，从 Spark 到 Apache Doris 的加速实践",
-        "url": "https://www.infoq.cn/article/SEXa3rsGTsStXM7lV7al?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/SEXa3rsGTsStXM7lV7al",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-07-14T16:18:27+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AlloyDB 推出代理模型，用数据库本地推理替代外部大模型调用",
-        "url": "https://www.infoq.cn/article/9RKrYlX2xWPNabO3ErVj?utm_source=rss&utm_medium=article",
-        "normalized_url": "https://www.infoq.cn/article/9RKrYlX2xWPNabO3ErVj",
-        "summary": "点击查看原文>",
-        "source": "InfoQ 中文",
-        "published": "2026-07-14T16:00:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.infoq.cn/feed.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "你这图「保真」吗？AI 生图时代的信息防伪",
-        "url": "https://sspai.com/post/112185",
-        "normalized_url": "https://sspai.com/post/112185",
-        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 阅前提示 ：本文所有文字内容均由本人写作，但部分图片内容为 AI 生成，每张图片均在图片标注中注释了明显的 AI 生成提示（包括生成图片的模型及版本号）。 由 ChatGPT Images 2.0 生成 上图是一张 AI 生成的图片，如果不是因为颇显离奇的出镜人物，即便你定睛细看、甚至放大数倍观察文字和毛发边缘，也极难看出这是 AI 生成的图片。你可能会认为这是《生活大爆炸》的整活。 1 「罪魁祸首」之一便是 OpenAI 在今年 4 月发布的 ChatGPT Images 2.0，这款模型首次将 Agentic 推理能力引入了图像生成模型中，借此它能够生成更加逼真、复杂的光影效果。更恐怖的是，它几乎彻底攻克了以往 AI 图片生成模型「不会写字」的顽疾，从图像中的招牌、宣传单到包装上的文字，渲染准确率极高。 2 「眼见为实」这句人类奉行了数千年",
-        "source": "SSPAI AI",
-        "published": "2026-07-13T02:52:47+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -1426,10 +1389,36 @@
       },
       {
         "category": "news",
+        "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+        "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+        "normalized_url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b",
+        "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+        "source": "TechCrunch AI",
+        "published": "2026-07-15T00:27:04+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Lorde says AI glasses are ‘not sexy’",
+        "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+        "normalized_url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy",
+        "summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
+        "source": "TechCrunch AI",
+        "published": "2026-07-14T23:10:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
         "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
         "normalized_url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move",
-        "summary": "OpenAI's first hardware device is reported to be a screenless, AI-guided smart speaker that can move. Weird enough for you?",
+        "summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
         "source": "TechCrunch AI",
         "published": "2026-07-14T22:22:24+00:00",
         "importance_hint": 4,
@@ -1524,32 +1513,6 @@
         "source": "TechCrunch AI",
         "published": "2026-07-14T17:45:55+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
-        "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
-        "normalized_url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer",
-        "summary": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-14T16:22:15+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Google Images gets a Pinterest-like redesign focused on discovery",
-        "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/",
-        "normalized_url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery",
-        "summary": "Now, when users navigate to Google Images, they'll see a \"For You\" gallery of images tailored to their interests and browsing history.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-14T16:00:00+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1718,6 +1681,19 @@
         "summary": "In the 1960s an MIT professor named Joseph Weizenbaum created a chatbot called ELIZA. The conversations people had with it set precedents for the chatbots to come.",
         "source": "Wired AI",
         "published": "2026-07-14T10:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "DOGE Used AI for Housing Policy. The Government Won’t Say How",
+        "url": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
+        "normalized_url": "https://www.wired.com/story/doge-deployed-ai-housing-policy",
+        "summary": "In response to a public records request, HUD has withheld documents about DOGE’s use of AI—in part by citing a privilege that doesn’t exist.",
+        "source": "Wired AI",
+        "published": "2026-07-14T09:00:00+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
@@ -1959,10 +1935,140 @@
       },
       {
         "category": "news",
-        "title": "Quoting GitHub Changeling",
+        "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones",
+        "url": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones",
+        "summary": "PrismML just released Bonsai 27B. It is a low-bit representation of Qwen3.6-27B, not a new pretrain. The architecture is unchanged. Two variants ship under Apache 2.0. Ternary Bonsai 27B uses {−1, 0, +1} weights at a true 1.71 bits per weight. Its ideal size is 5.9GB. 1-bit Bonsai 27B uses binary {−1, +1} weights at […] The post PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-14T22:51:34+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
+        "url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task",
+        "summary": "See how Vibe, Claude Code, Cursor, and Codex compare on cost, open weights, self-hosting, and async agent surfaces. The post Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-14T20:52:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms",
+        "url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms",
+        "summary": "OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and certificate fields. The post OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-14T20:16:51+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder",
+        "url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder",
+        "summary": "Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework. It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local search, 30+ MDX components, llms.txt, and a built-in MCP server. The post Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-14T08:15:29+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera",
+        "url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera",
+        "summary": "Mistral AI introduced Robostral Navigate, an 8B embodied navigation model. It moves robots from a plain-language instruction using only a single RGB camera, with no LiDAR or depth sensors. The model reaches 76.6% success on R2R-CE validation unseen through a pointing method, prefix-caching training, and CISPO online reinforcement learning. The post Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera appeared first on Mark",
+        "source": "MarkTechPost",
+        "published": "2026-07-14T07:20:38+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
+        "url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
+        "summary": "Anthropic's Claude Sonnet 5 narrows the gap to Opus 4.8 on agentic coding, at cheaper Sonnet token pricing. The post Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-14T00:58:47+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
+        "url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity",
+        "summary": "MORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning. It runs worlds that never reset, using parameterisable regime shifts and a six-metric evaluation protocol. Across the platform, PPO, HER, EWC, and LCM all remain far below the theoretical upper bound. The post Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity appeared first on",
+        "source": "MarkTechPost",
+        "published": "2026-07-13T22:37:53+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
+        "url": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks",
+        "summary": "In this tutorial, we reconstruct the VideoAgent workflow as a runnable, API-key-free multi-agent pipeline. We build an intent parser, an agent library, a tool router, a graph planner, and a textual-gradient optimizer that repairs the execution graph. We wire these planning components to FFmpeg, Whisper transcription, scene detection, keyframe sampling, captioning, cross-modal indexing, and beat-synced editing. By the end, we have a system that answers questions about a video, summarizes it, and ",
+        "source": "MarkTechPost",
+        "published": "2026-07-13T18:30:30+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+        "url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace",
+        "summary": "Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified. The post Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failu",
+        "source": "MarkTechPost",
+        "published": "2026-07-13T08:45:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations",
+        "url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1",
+        "summary": "Prime Intellect launched verifiers 0.2.0, previewing a rewritten \"v1\" core under the verifiers.v1 namespace. It splits an environment into a taskset (what), a harness (how), and a runtime (where), with an interception server that proxies requests and records training-ready traces. Any taskset runs under any compatible harness, with full prime-rl training support at launch. The post Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Eva",
+        "source": "MarkTechPost",
+        "published": "2026-07-13T07:40:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Quoting GitHub Changelog",
         "url": "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Jul/14/github-changeling",
-        "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. — GitHub Changeling , embracing dependency cooldowns Tags: dependency-cooldowns , packaging , security , github",
+        "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. — GitHub Changelog , embracing dependency cooldowns Tags: dependency-cooldowns , packaging , security , github",
         "source": "Simon Willison",
         "published": "2026-07-14T22:43:35+00:00",
         "importance_hint": 4,
@@ -2089,19 +2195,6 @@
       },
       {
         "category": "news",
-        "title": "Native-speed vLLM transformers modeling backend",
-        "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-        "normalized_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-        "summary": "",
-        "source": "Hugging Face Blog",
-        "published": "2026-07-08T00:00:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://huggingface.co/blog/feed.xml"
-        }
-      },
-      {
-        "category": "news",
         "title": "Empowering India’s next generation of innovators with ATL Saathi",
         "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
         "normalized_url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi",
@@ -2219,6 +2312,19 @@
       },
       {
         "category": "news",
+        "title": "not much happened today",
+        "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+        "normalized_url": "https://news.smol.ai/issues/26-07-14-not-much",
+        "summary": "**OpenAI's agent products** saw a **2.5x weekly usage growth** driven by **Codex + ChatGPT Work** and demand for **GPT-5.6 Sol**. JetBrains adopted Codex as a recommended agent, while LangChain enhanced tracing and observability across multiple tools. **PrismML released Bonsai 27B**, a compressed variant of **Qwen 3.6 27B** enabling local multimodal agentic workflows on consumer devices. Tencent Hunyuan introduced 1-bit and 4-bit quantized **Hy3 295B** model deployable on a single GPU. Quantizat",
+        "source": "smol.ai AINews, smol.ai AINews",
+        "published": "2026-07-14T05:44:39+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://news.smol.ai/rss.xml"
+        }
+      },
+      {
+        "category": "news",
         "title": "xAI uploads codebases 👨‍💻, Prime Intellect verifiers 🧠, Sakana smart bricks 🧱",
         "url": "https://tldr.tech/ai/2026-07-14",
         "normalized_url": "https://tldr.tech/ai/2026-07-14",
@@ -2271,25 +2377,12 @@
       },
       {
         "category": "news",
-        "title": "I just don't get it. These big tech companies can illegally scrape the entire internet and gatekeep their better models behind higher prices. So it's natural that people look for affordable options, and there will be pro",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvwn9q/i_just_dont_get_it_these_big_tech_companies_can/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvwn9q/i_just_dont_get_it_these_big_tech_companies_can",
-        "summary": "The irony? They cry existential threat when they were the ones who made us feel that way first. submitted by /u/Blue-Sea2255 [link] [comments]",
+        "title": "Bonsai 27B: The First 27B-Class Model to Run on a Phone",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a",
+        "summary": "submitted by /u/yogthos [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-07-14T03:01:38+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Source: the Trump administration and industry groups discussed streamlining US open model releases of equal or lesser capability to leading Chinese open models",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw9ucd/source_the_trump_administration_and_industry/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw9ucd/source_the_trump_administration_and_industry",
-        "summary": "submitted by /u/pscoutou [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-14T14:11:38+00:00",
+        "published": "2026-07-14T18:57:20+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2310,12 +2403,25 @@
       },
       {
         "category": "news",
-        "title": "Bonsai 27B: The First 27B-Class Model to Run on a Phone",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a",
-        "summary": "submitted by /u/yogthos [link] [comments]",
+        "title": "Bonsai 27B: 1-bit dense LLM running locally in your browser using custom WebGPU kernels",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your",
+        "summary": "Very impressive release by the PrismML team. 1-bit quantization shrinks it from 54GB to just 3.8GB (-93%), while retaining 90% of its intelligence. - Collection on Hugging Face: https://huggingface.co/collections/prism-ml/bonsai-27b - Demo link: https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels submitted by /u/xenovatech [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-07-14T18:57:20+00:00",
+        "published": "2026-07-14T17:48:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Source: the Trump administration and industry groups discussed streamlining US open model releases of equal or lesser capability to leading Chinese open models",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw9ucd/source_the_trump_administration_and_industry/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw9ucd/source_the_trump_administration_and_industry",
+        "summary": "submitted by /u/pscoutou [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-14T14:11:38+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2336,12 +2442,12 @@
       },
       {
         "category": "news",
-        "title": "Bonsai 27B: 1-bit dense LLM running locally in your browser using custom WebGPU kernels",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your",
-        "summary": "Very impressive release by the PrismML team. 1-bit quantization shrinks it from 54GB to just 3.8GB (-93%), while retaining 90% of its intelligence. - Collection on Hugging Face: https://huggingface.co/collections/prism-ml/bonsai-27b - Demo link: https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels submitted by /u/xenovatech [link] [comments]",
+        "title": "PrismML’s new Ternary Qwen3.6 27B runs near fp16 precision on 10GB of memory!!!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwehzt/prismmls_new_ternary_qwen36_27b_runs_near_fp16/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwehzt/prismmls_new_ternary_qwen36_27b_runs_near_fp16",
+        "summary": "EDIT : \"near fp16 precision\" I intended performance in terms of benchmarks/output. Obviously 1,0,-1 cannot be fp16. Bad word choice :) EDIT 2 : Now that more people have tested it reported in, consensus (and my own stuff on more doc/retrieval tasks) is this lands better than Q2 but clearly worse than Q4_K_XL. Hallucinates more, tool-calling loops, etc (using Pi harness). The real story is memory footprint at this quality, which is still nice. Title overstated it - got excited lol. Leaving the po",
         "source": "r/LocalLLaMA",
-        "published": "2026-07-14T17:48:27+00:00",
+        "published": "2026-07-14T17:00:15+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
