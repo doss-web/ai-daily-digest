@@ -5,6 +5,7 @@ Each function returns a list of dicts with stable fields for traceability.
 
 import html
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -236,37 +237,46 @@ def fetch_github_trending_page(period="daily"):
 
 
 def fetch_rss_feed(feed_url, source_name, max_items=10, cutoff_days=2):
-    """Generic RSS feed fetcher."""
+    """Generic RSS feed fetcher with retry for Reddit rate-limiting."""
     items = []
-    try:
-        resp = requests.get(feed_url, headers=BROWSER_HEADERS, timeout=20)
-        resp.raise_for_status()
-        feed = feedparser.parse(resp.content)
-        cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
-        # Scan a generous window so high-volume feeds (HF/OpenAI blogs with
-        # hundreds of entries) still get correctly date-filtered.
-        for entry in feed.entries[:max(max_items * 3, 40)]:
-            published = entry.get("published_parsed") or entry.get("updated_parsed")
-            if published:
-                entry_date = datetime(*published[:6], tzinfo=timezone.utc)
-                if entry_date < cutoff:
-                    continue
-                published_at = entry_date.isoformat()
+    max_retries = 3 if "reddit.com" in feed_url else 1
+    for attempt in range(max_retries):
+        try:
+            # Reddit rate-limits aggressive polling; stagger requests
+            if "reddit.com" in feed_url and attempt > 0:
+                time.sleep(2 * attempt)
+            resp = requests.get(feed_url, headers=BROWSER_HEADERS, timeout=20)
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.content)
+            if not feed.entries and "reddit.com" in feed_url:
+                raise RuntimeError(f"empty feed (likely rate-limited)")
+            cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
+            for entry in feed.entries[:max(max_items * 3, 40)]:
+                published = entry.get("published_parsed") or entry.get("updated_parsed")
+                if published:
+                    entry_date = datetime(*published[:6], tzinfo=timezone.utc)
+                    if entry_date < cutoff:
+                        continue
+                    published_at = entry_date.isoformat()
+                else:
+                    published_at = None
+                items.append(make_item(
+                    category="news",
+                    title=entry.get("title", ""),
+                    url=entry.get("link", ""),
+                    summary=entry.get("summary", ""),
+                    source=source_name,
+                    published=published_at,
+                    metadata={"feed_url": feed_url},
+                ))
+                if len(items) >= max_items:
+                    break
+            break  # success, exit retry loop
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"  [{source_name}] Attempt {attempt+1} failed: {e}, retrying...")
             else:
-                published_at = None
-            items.append(make_item(
-                category="news",
-                title=entry.get("title", ""),
-                url=entry.get("link", ""),
-                summary=entry.get("summary", ""),
-                source=source_name,
-                published=published_at,
-                metadata={"feed_url": feed_url},
-            ))
-            if len(items) >= max_items:
-                break
-    except Exception as e:
-        print(f"  [{source_name}] Error: {e}")
+                print(f"  [{source_name}] Error after {max_retries} attempts: {e}")
     return items
 
 
