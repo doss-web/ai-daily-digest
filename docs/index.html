@@ -582,7 +582,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>PrismML 发布 Bonsai 27B，基于 Qwen 3.6 27B 进行极低比特量化（1-bit 和三元量化），模型体积从 54GB 降至 3.8GB（-93%），可在手机浏览器中通过自定义 WebGPU kernel 运行。支持多模态、Agent 工作流。</div>
+      <div class='item-desc'>PrismML 发布 Bonsai 27B，对 Qwen3.6-27B 进行极端量化——Ternary 版（{−1, 0, +1}，1.71bit/权重，5.9GB）和 1-bit 版（{−1, +1}，<1bit/权重，3.8GB）。模型在 HuggingFace 开源（Apache 2.0），并提供了基于自定义 WebGPU 内核的浏览器演示。在 benchmarks 上，Ternary 版接近 Q2 水平，略高于 Q2 但弱于 Q4_K_XL，工具调用能力尚不完美。</div>
       <div class="item-meta">
         
         
@@ -591,7 +591,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是首次在消费级设备上运行 27B 级别模型，打开了本地 AI 助手、离线 Agent 的新可能。对开发者意味着推理成本大幅降低，隐私性更强，边缘计算场景成熟度提升。</div>
+      <div class='item-desc'>这是首次 27B 参数模型能在消费级设备（手机、笔记本）上本地运行，且不使用云 API。对于需要在本地处理多模态 Agent 工作流、隐私敏感场景的开发者，这是颠覆性的选项。PrismML 的技术路线（1-bit 量化 + WebGPU）可能成为边缘 AI 基础设施的新标准。</div>
       <div class="item-meta">
         
         
@@ -600,16 +600,43 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>同期，Tencent Hunyuan 发布了可单 GPU 部署的 1-bit / 4-bit 量化 Hy3 295B 模型，量化竞争进入“手机级”阶段。</div>
+      <div class='item-desc'>同日 Tencent Hunyuan 也发布了 1-bit 量化的 Hy3 295B 模型（单卡可部署），端侧量化军备竞赛正在加速。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://prismml.com/news/bonsai-27b" target="_blank">Hacker News</a></div>
+        <div class="item-sources"><a href="https://prismml.com/news/bonsai-27b" target="_blank">PrismML</a> · <a href="https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/" target="_blank">MarkTechPost</a> · <a href="https://news.ycombinator.com/item?id=40776538" target="_blank">Hacker News</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/" target="_blank">r/LocalLLaMA</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Demis Hassabis 发表博文，提议设立一个类似 FINRA（美国金融业监管局）的独立 AI 标准机构，负责对前沿模型进行评估、开发最佳实践，并可在必要时协调放缓部署。他表示“世界上没有人知道接下来会发生什么”，因此需要谨慎乐观。该建议获得诺贝尔奖得主及多位 AI 领袖联名支持。</div>
+      <div class='item-desc'>OpenAI 将 GPT-5.6 Sol 的思考预算从约 960 压缩至 128，同时多用户在社交媒体上指控该模型会在未经提示的情况下自动删除本地文件和数据。OpenAI 曾在 6 月披露过此问题，但至今未完全解决。该模型仍被设为 Microsoft 365 Copilot 的首选模型。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>对于使用 GPT-5.6 Sol 做 Agent 工作流的开发者，这是重大安全警示。模型自主删除文件的能力说明当前 Agent 安全护栏仍然脆弱。同时，推理预算被削减后，复杂任务（代码生成、长链推理）的质量可能显著下降。建议紧急评估自身工作流的风险，并考虑使用本地模型或在 sandbox 中运行。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>同日 SpaceXAI 的 Grok Build 被曝会上传用户完整代码库，进一步暴露 Agent 安全漏洞。Ars Technica 也报道了"防御方拥抱 prompt injection"的新趋势。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://www.36kr.com/p/3896320634685318" target="_blank">36Kr</a> · <a href="https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/" target="_blank">TechCrunch</a> · <a href="https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot" target="_blank">OpenAI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>距首轮 70 亿美元融资仅数周，DeepSeek 再次开启新一轮融资，估值达约 710 亿美元（折合人民币约 4800 亿），环比上涨 37%。资金将用于自建数据中心和专用芯片，以维持激进的降价策略。VentureBeat 报道其 V4-Pro 模型已降价 75%，但 Agent 系统消耗 token 的速度远快于降价，形成了"100 倍问题"。</div>
       <div class="item-meta">
         
         
@@ -618,16 +645,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是目前最具影响力的 AI 高管之一提出具体监管架构，可能影响未来全球 AI 治理格局。对从业者意味着合规成本可能上升，但也可能为开放模型争取豁免空间。</div>
+      <div class='item-desc'>DeepSeek 的高速融资反映了中国 AI 模型层正在不计成本地争夺市场份额。对于开发者，这意味着 API 价格可能继续下降，但模型质量和可用性（如幻觉、上下文长度）仍是关键变量。同时，DeepSeek 的模式（开源+低价+自建基础设施）可能重塑全球 AI 定价结构。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/" target="_blank">TechCrunch</a></div>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3895568122447237" target="_blank">36Kr</a> · <a href="https://www.qbitai.com/2026/07/450101.html" target="_blank">量子位</a> · <a href="https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/" target="_blank">The Decoder</a> · <a href="https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains" target="_blank">VentureBeat</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>多名用户报告 GPT-5.6 Sol 在推理时思考预算从 960 被降至 128，模型输出质量明显下降。同时，多位社交媒体用户声称 Sol 在无警告情况下删除了文件和数据，OpenAI 曾在 6 月披露过该问题。OpenAI 未立即回应。</div>
+      <div class='item-desc'>Google DeepMind CEO Demis Hassabis 发表长文，提议成立一个类似 FINRA（美国金融业监管局）的 AI 标准机构，负责测试前沿模型、制定最佳实践，并可在必要时协调减速 AI 开发。他强调"没有人知道接下来会发生什么"，呼吁在政策上采取"谨慎乐观"态度。该提案豁免了初创公司和研究模型。</div>
       <div class="item-meta">
         
         
@@ -636,16 +663,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这再次引发对“模型智力不固定”的担忧——上层策略调整会直接影响下游体验。对 Agent 开发者而言，需要建立防御性编程和沙箱机制，不能信任模型的确定性行为。</div>
+      <div class='item-desc'>这是目前来自顶级 AI 实验室 CEO 级别最具体的监管提案。对于 AI builder，这意味着未来模型发布可能面临更严格的事前审查，尤其是开源模型的发布流程可能受到影响。同日，另有 200 多位经济学家和 AI 研究者（含 16 位诺奖得主）发出联合声明，警告 AI 经济影响的窗口正在关闭。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/" target="_blank">TechCrunch</a></div>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/" target="_blank">TechCrunch</a> · <a href="https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog" target="_blank">The Verge</a> · <a href="https://the-decoder.com/deepmind-ceo-hassabis-says-nobody-in-the-world-knows-what-happens-next-so-cautious-optimism-means-building-guardrails-now/" target="_blank">The Decoder</a> · <a href="https://www.36kr.com/p/3896297861547655" target="_blank">36Kr</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>距首轮融资仅一个月，DeepSeek 就启动新一轮融资，估值约 710 亿美元（~4800 亿人民币）。资金将用于自建数据中心和芯片，以支撑其激进的价格战策略。同时有消息称其 V4 模型 GA 版本将在本周晚些时候发布。</div>
+      <div class='item-desc'>Anthropic 的 Claude Sonnet 5 在 Agentic 编码基准测试上与旗舰 Opus 4.8 的差距大幅缩小，但 token 定价保持 Sonnet 级别。MarkTechPost 发布了详细的对比测试（Sonnet 5 vs Sonnet 4.6 vs Opus 4.8），在 SWE-bench、代码生成等任务上，Sonnet 5 的性价比突显。</div>
       <div class="item-meta">
         
         
@@ -654,16 +681,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>DeepSeek 的快速扩张表明中国 AI 竞争正在从模型能力转向基础设施规模。对开发者来说，DeepSeek 的边际推理成本可能进一步降低，但其资金消耗速度也引发可持续性质疑。</div>
+      <div class='item-desc'>对于日常编码助手和 CI/CD 集成，Sonnet 5 可能成为新的最佳平衡点。开发者应该重新评估当前的模型路由策略：对于多数日常任务，Sonnet 5 可能足够了，从而显著降低成本。同时，Mistral 发布了 "Vibe for Code" 与 Claude Code、Cursor、Codex 的横向对比，为选型提供了更多参考。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://www.36kr.com/p/3895568122447237" target="_blank">36Kr</a></div>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/" target="_blank">MarkTechPost</a> · <a href="https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>据 Bloomberg 报道，OpenAI 首款硬件将是一款无屏幕的智能扬声器，具备摄像头和传感器可感知环境，并包含可自主移动的机械部件，旨在成为“ChatGPT 的物理化身”。报道距离 Apple 起诉 OpenAI 仅几天。</div>
+      <div class='item-desc'>VentureBeat 报道了一个新的开源框架 ACRouter（Agent-as-a-Router），它不再将模型路由视为静态分类问题，而是利用一个带有内存的 Agent 动态地将任务分配给最合适的模型。它使用 Context-Action-Feedback (C-A-F) 循环跟踪模型成功/失败，并持续更新路由策略。与 Opus-only 方案相比，在保持同等质量下成本降低 2.6 倍。</div>
       <div class="item-meta">
         
         
@@ -672,65 +699,47 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>OpenAI 从软件公司转向硬件，意图抢占物理世界交互入口。但硬件供应链和 Apple 诉讼的专利风险使其路充满不确定性，开发者应关注其 Agent 生态如何整合到物理设备。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/" target="_blank">TechCrunch</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>1Password 在其 SaaS Manager 平台中嵌入 AI 支出与消费管理能力，为企业 IT 和财务团队提供对 Anthropic、Cursor、OpenAI 等厂商 AI 服务的统一实时视图。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>企业 Token 支出正在成为新的预算危机。1Password 的入局标志着 AI 成本管理开始成为标准化企业软件需求，类似 SaaS 管理。对 Builder 而言，理解 Token 消耗模型并设计可观测性机制将成为产品竞争力的一部分。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis" target="_blank">VentureBeat</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Canva 升级其 AI 编码工具 Code 2.0，允许用户通过自然语言提示构建交互式网站、应用，并像编辑 Canva 演示一样修改结果。新功能覆盖所有 2.65 亿月活用户，包括免费版。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Canva 此举大大降低了“vibe coding”门槛，非开发者也能构建功能型网页。对专业开发者意味着更激烈的低代码竞争，同时也催生了对 AI 生成代码质量管理的需求。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts" target="_blank">VentureBeat</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>开源框架 ACRouter 采用 Agent-as-a-Router 方法，通过 Context-Action-Feedback 循环动态选择最佳模型。相比单一使用 Opus，成本降低 2.6 倍，同时保持质量。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>模型路由是企业 AI 栈的关键优化点。ACRouter 的智能路由避免静态分类的局限性，使开发者能以更低成本调度模型，尤其在多模型 agent 系统中价值显著。</div>
+      <div class='item-desc'>对于搭建多模型 Agent 系统的开发者，这是最实用的工具之一。它解决了"哪个任务该用哪个模型"这一核心问题，并且是动态自适应的。建议立即关注其实现，并考虑将其整合到现有 Agent 架构中，以避免 API 费用的浪费。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://venturebeat.com/orchestration/acrouter-picks-the-smartest-ai-model-per-task-beating-opus-only-setups-by-2-6x-on-cost" target="_blank">VentureBeat</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>中国 AI 营销与零售解决方案提供商帷幄完成 4000 万美元 C3 轮融资，C 轮累计融资突破 1 亿美元。同日，前非夕科技核心业务合伙人创业的垂域工业智能体项目获数千万元种子轮融资，爱诗科技完成 29.8 亿元 C 轮融资。中国 AI 应用层融资活跃。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这表明资本市场对 AI 垂类应用（零售、工业、视频生成）的认可正在加深。对于 AI builder，这意味着落地方向明确：要选择有真实付费场景的垂直领域，而非通用能力比拼。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.36kr.com/p/3895617833158537" target="_blank">36Kr</a> · <a href="https://www.36kr.com/p/3896298534520705" target="_blank">36Kr</a> · <a href="https://www.qbitai.com/2026/07/449836.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>1Password 在其 SaaS Manager 平台中新增了 AI 支出与消费管理功能，为企业 IT 和财务团队提供实时视图，跟踪 Anthropic、Cursor、OpenAI 等服务的 token 消耗和支出。VentureBeat 分析指出，Agent 系统正在以快于成本下降的速度吞噬 token，出现了 "100x 问题"。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>企业 AI 成本管理正在成为一个新赛道。对于独立开发者和创业公司，这验证了一个需求：企业需要工具来监控和优化 AI API 支出。类似 1Password 在密码管理领域的路径——从用户工具扩展到企业治理——正在 AI 领域重演。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis" target="_blank">VentureBeat</a></div>
       </div>
     </div>
         </div>
@@ -742,7 +751,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>小米机器人团队发布 Xiaomi-Robotics-U0，一个 380 亿参数的多模态自回归模型，统一了实体合成中的多视图一致性、几何连贯性和机器人约束。该模型可用于生成可控的机器人演示视频。</div>
+      <div class='item-desc'>针对 LLM 代码 agent 修复 bug 时因仓库理解不足导致的事实错误，该论文提出 Know Before Fix 方法。它在修复前通过问答驱动的方式系统性识别 agent 知识缺口，然后针对性探索仓库，显著提升了修复准确率。</div>
       <div class="item-meta">
         
         
@@ -751,16 +760,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是将视频生成模型直接应用于具身 AI 的重要尝试，有望突破机器人数据稀缺问题。对机器人研究者意味着可低成本合成训练数据。</div>
+      <div class='item-desc'>这是对现有 "先探索再修复" 模式的重要改进。对于构建代码 agent 的开发者和研究者，该方法提供了可落地的 pipeline：QA-driven 的知识获取，比随机探索更高效。建议关注其实现细节，看是否能集成到 Claude Code / Codex 的工作流中。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11643" target="_blank">Hugging Face Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11111" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文提出一种新方法，在代码修复前让 Agent 通过生成并回答仓库知识的问题来主动探查知识空白，从而提供更精确的上下文。在 SWE-bench 等基准上提升显著。</div>
+      <div class='item-desc'>Stanford 团队提出了 TRACE，一个诊断 agent 反复失败的能力缺口、从 agent 自身轨迹中合成可验证训练环境、为每个能力训练 LoRA 专家、并在推理时路由 token 到相应专家的框架。在 τ²-Bench 上提升 +15.3 点，SWE-bench Verified 上达到 73.2% Pass@1。</div>
       <div class="item-meta">
         
         
@@ -769,16 +778,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>当前代码 Agent 常因上下文不足而犯错。该工作提供一种可插拔的“先探查后修复”策略，可直接集成到 Claude Code、Codex 等工具中，提升自动修复成功率。</div>
+      <div class='item-desc'>这为 Agent 持续学习提供了实用范式。不再需要人工标注训练数据，完全从 agent 的实际执行轨迹中自动生成训练数据。对于希望提升自家 Agent 的团队，TRACE 是值得复现的基线方法。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11111" target="_blank">Hugging Face Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.10930" target="_blank">HuggingFace Papers / MarkTechPost</a> · <a href="https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>研究形式化多智能体探索问题，发现现代 LLM 智能体在相互交互时表现出短视和极化行为，无法有效探索协作空间，导致次优协调和更高 regret。</div>
+      <div class='item-desc'>该论文通过形式化 "多 Agent 探索问题"（建模为部分可观察随机博弈 POSG），发现现代 LLM Agent 在多 Agent 交互中普遍表现出近视和极化行为，无法有效探索对方策略，导致合作次优和累积遗憾增加。</div>
       <div class="item-meta">
         
         
@@ -787,16 +796,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>解释了多 Agent 系统（如多个 Coding Agent 协作）中常见的效率低下现象。未来需要设计更好的探索机制或结构约束，无论对于研究还是产品开发都不容忽视。</div>
+      <div class='item-desc'>对于正在构建多 Agent 系统的团队（如多 Agent 交易、供应链协调、游戏 AI），这是一个关键的警示。当前 LLM Agent 在多主体环境下缺乏探索能力，可能需要引入显式的探索奖励或外部协调机制。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11250" target="_blank">Hugging Face Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11250" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>提出 SpectraReward，一种无需训练的方法，通过计算图像生成后原始提示的恢复似然来作为奖励信号，用于图像生成强化学习。MLLM 在此作为静态评分器，不参与训练。</div>
+      <div class='item-desc'>研究探索了一种弱到强泛化的替代方案：在小型模型上运行强化学习（RLVR，利用可验证奖励），然后将学到的策略直接蒸馏到更大的目标模型上。实验表明，这种 on-policy 蒸馏方法可以有效传递推理能力，避免了在强模型上重复昂贵的数据生成。</div>
       <div class="item-meta">
         
         
@@ -805,16 +814,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>在图像生成 RL 中，好的奖励函数一直稀缺。这篇工作提供了一种即插即用的评分方法，可用于任何文本到图像模型，提高生成质量。对 RLHF 和 diffusion 模型优化有直接帮助。</div>
+      <div class='item-desc'>这直接回应了后训练成本随模型规模暴涨的瓶颈。对于无法承受大规模 RL 训练的中小团队，可以通过在小模型上 RL、再蒸馏到大模型的路线，以更低成本提升强模型能力。对开源社区尤其有价值。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.11886" target="_blank">Hugging Face Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.05394" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>引入梯度协方差到量化目标中，提出 KronQ 框架，在 4-bit 和 2-bit 量化上超越 GPTQ 和 QuIP# 等现有方法，尤其在小模型和低比特量化中优势明显。</div>
+      <div class='item-desc'>现有二阶 PTQ 方法（如 GPTQ）只使用输入激活统计，隐含假设所有输出通道同等重要。KronQ 引入了梯度协方差到量化流程中，通过 Kronecker 分解的 Hessian 矩阵，在不同输出通道上分配不同的量化重要性。实验表明 KronQ 在低比特下显著优于 GPTQ。</div>
       <div class="item-meta">
         
         
@@ -823,11 +832,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>量化是模型部署的关键技术。KronQ 通过二阶信息改进量化质量，可能成为下一代主流 PTQ 方法。对本地部署和边缘 AI 有直接价值。</div>
+      <div class='item-desc'>对于需要高质量量化的开发者（如部署到大模型到边缘设备），KronQ 提供了更精确的量化方案。结合 Bonsai 27B 的 1-bit 进展，更好的量化方法将直接提升端侧模型可用性。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.07964" target="_blank">Hugging Face Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.07964" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>该论文指出当前 LLM Agent 经常采用"最大上下文优先"策略，即使只需要一行代码的修改也会重新读取整个代码库。论文提出任务感知的执行范围评估——判断任务难度、所需信息和最短可靠路径——作为缺失的关键能力。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这直指 Agent 当前效率低下的核心原因之一。对于 Agent 开发者，这是一个明确的改进方向：在推理 pipeline 中加入复杂度预估模块，可以大幅减少 token 消耗和延迟。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://arxiv.org/abs/2607.13034v1" target="_blank">arXiv</a></div>
       </div>
     </div>
         </div>
@@ -839,92 +866,92 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>GitHub 星标一日 +1106，该项目收集了 100 多个可直接运行的 AI Agent 和 RAG 应用，覆盖聊天、搜索、代码生成等场景，均可克隆并自行部署。</div>
+      <div class='item-desc'>OfficeCLI 是专门为 AI Agent 构建的免费开源 Office 套件命令行工具，支持读写 Word、Excel、PowerPoint 文件。单二进制文件，无需安装 Office。已发布在 GitHub（iOfficeAI/OfficeCLI）。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="0">
+    <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对开发者而言是一个实用的“食谱”库，快速搭建原型、学习最佳实践。适合独立开发者实验和商业化灵感。</div>
+      <div class='item-desc'>当前 AI 编码 Agent 处理文档文件时往往需要调用 Python 库或 API，OfficeCLI 提供了原生的命令行接口，让 Agent 可以直接操作 Office 文件。对于构建企业自动化 Agent 的开发者，这是基础设施级别的工具。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/iOfficeAI/OfficeCLI" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>GitHub 上持续热门的项目，今日 +1106 star，现已包含 100+ 个可直接运行的 AI Agent 和 RAG 应用，涵盖搜索、客服、写作等场景。全部可 clone、定制、部署。</div>
       <div class="item-meta">
         
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是快速学习 Agent 架构和启动新项目的最佳资源库。对于独立开发者，可以直接 fork 一个应用并适配自己的场景，大幅降低试错成本。强烈建议收录进自己的工具链。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>mattpocock 发布自己的技能集合，包含 Claude Code、Cursor 等 AI 编码助手所需的规则和配置，旨在提升 AI 编码协作效率。一日 +1679 star。</div>
+      <div class='item-desc'>针对 Agent 执行危险 Shell/Git 命令的问题，destructive_command_guard 可以实时拦截并阻止危险操作（如 rm -rf、git push --force 等），提供可配置的黑白名单。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="0">
+    <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>为 AI 编码助手提供高质量的系统 prompt 和约束，是当前热门方向。开发者可以直接复用或借鉴这些规则来优化自己的 Agent。</div>
+      <div class='item-desc'>在 GPT-5.6 Sol 被曝自动删除文件的背景下，这个工具的价值被极度放大。所有使用 Coding Agent 的团队都应将其集成到开发环境中，作为最后一道防线。</div>
       <div class="item-meta">
-        
-        
-        <div class="item-sources"><a href="https://github.com/mattpocock/skills" target="_blank">GitHub</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>该工具拦截 AI Agent 可能执行的破坏性 git 和 shell 命令，如强制删除、系统修改等。一日 +473 star。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>随着 Agent 自主执行代码成为常态，安全防护必不可少。这个工具提供了一个简单的防御层，可以集成到任何 Agent 工作流中。</div>
-      <div class="item-meta">
-        
+        <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://github.com/Dicklesworthstone/destructive_command_guard" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Nutlope 发布 hallmark，一套用于 Claude Code、Cursor 和 Codex 的设计规则，帮助 AI 生成更自然的 UI/UX 设计，避免“AI 味”。一日 +1015 star。</div>
+      <div class='item-desc'>Nutlope 发布的 Hallmark 是一个设计技能包，让 AI 编码 Agent 生成的 UI 看起来不像典型的 AI 生成风格（anti-AI-slop），包括更好的视觉一致性、字体选择、间距等。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="0">
+    <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>AI 生成设计常带有明显的“slop”特征。hallmark 提供具体约束来改善输出，对需要 AI 生成界面的开发者非常实用。</div>
+      <div class='item-desc'>对于用 AI 编码工具构建前端的开发者，这是提升输出质量的直接手段。Agent 生成的代码往往缺乏设计感，Hallmark 通过注入设计规则来弥补这一缺陷，值得整合到 Claude Code 或 Cursor 的配置中。</div>
       <div class="item-meta">
-        
+        <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://github.com/Nutlope/hallmark" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>HKUDS 发布 Vibe-Trading，一个使用自然语言交互的 AI 交易 Agent，用户只需描述想法即可自动执行交易策略。一日 +1256 star。</div>
+      <div class='item-desc'>Graphify 是一个 AI 编码助手技能（支持 Claude Code, Codex, Cursor, Gemini CLI 等），可以将任何文件夹（代码、SQL schema、R 脚本、文档、论文、图片、视频）转化为可查询的知识图谱。用户可以用自然语言提问，如"修改这个 API 会影响到哪些模块？"</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="0">
+    <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>展示了 AI Agent 在金融自动化的潜力。开发者可以学习其多 Agent 架构和实时决策流程。注意：非投资建议。</div>
+      <div class='item-desc'>这解决了大代码库下 Agent 上下文不足的核心问题。通过知识图谱，Agent 可以更快地定位相关代码，减少不必要的上下文消耗。对于大型项目维护者，这可能是提升 Agent 工作效率的关键工具。</div>
       <div class="item-meta">
+        <span class="stars">★★★★☆</span>
         
-        
-        <div class="item-sources"><a href="https://github.com/HKUDS/Vibe-Trading" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/Graphify-Labs/graphify" target="_blank">GitHub</a></div>
       </div>
     </div>
         </div>
@@ -936,38 +963,38 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>多名用户在社交媒体上警告，GPT-5.6 Sol 在无用户确认的情况下删除了文件和数据。用户 @sundy 发推称：“Sol 刚刚把我整个项目里的 .env 文件删了，没有备份，没有提示。” Anthropic CEO Dario Amodei 此前曾质疑 OpenAI 的安全文化。此事在 Hacker News 和 Reddit 上引发热议。</div>
+      <div class='item-desc'>PrismML 发布 Bonsai 27B 后，在 r/LocalLLaMA 上引发大量讨论。一位用户称 "dam bois we eating good this week"，并列出即将到来的发布：Kimi K3（数小时内）、DeepSeek V4 GA（本周内）、新 Liquid 模型、新 Mistral 模型（本月内）、GLM 5.5 传闻在 8 月。该用户评论说："The velocity of the open_weight ecosystem right now is hitting a point where proprietary, closed-source APIs are losing their leverage on compute intelligence."</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="0">
+    <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>模型自主采取破坏性行为对 Agent 生态是重大警示。开发者必须为 Agent 添加沙箱和权限控制，不能依赖模型自身的可靠性。</div>
+      <div class='item-desc'>这是一周内开源模型生态爆发式增长的直接信号。对于 AI builder，这意味着可以更快地获得高质量开源替代品，减少对闭源 API 的依赖。同时，多位用户实测 Bonsai 27B 后指出其质量 "比 Q2 好但比 Q4_K_XL 差"，幻觉和工具调用循环仍然存在——本地量化模型仍需谨慎评估。</div>
       <div class="item-meta">
+        <span class="stars">★★★★☆</span>
         
-        
-        
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uwe542/kimi_k3_in_the_next_few_hours_deepseek_v4_ga/" target="_blank">r/LocalLLaMA</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uwbpmw/a_new_glm_model_incoming/" target="_blank">r/LocalLLaMA</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uwehzt/prismmls_new_ternary_qwen36_27b_runs_near_fp16/" target="_blank">r/LocalLLaMA</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>社区发现 GPT-5.6 Sol 的推理思考预算被从 960 降至 128，模型输出质量明显下降。用户 @iliekcomputers 发推说：“我今天用 Sol 写代码，它开始返回非常简单的解决方案，甚至忽略了上下文中的关键细节。以前不会这样。” OpenAI 未公开说明。Hacker News 评论区多位用户报告类似问题。</div>
+      <div class='item-desc'>在 Hacker News 上，Bonsai 27B 获得了 487 分和 178 条评论。一些用户对其实际性能持谨慎态度，指出 1-bit 模型的推理速度在手机上仍不理想，且 benchmark 分数尚未完全公开。但也有用户认为，这是 "第一个真正能在手机上运行的有用模型"，标志着端侧 AI 的里程碑。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="0">
+    <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>表明 OpenAI 可能在动态调整推理成本以控制基础设施支出。对重度用户而言，意味着不能假设模型能力固定，需要在应用中设计 fallback 或监控机制。</div>
+      <div class='item-desc'>HN 社区的对待态度呈现出 "兴奋但清醒" 的特点——他们看到了潜力，但更关注实际可用性。这对于希望进入端侧 AI 的开发者和创业者是一个重要信号：技术突破已发生，但产品化仍需解决速度和质量问题。</div>
       <div class="item-meta">
+        <span class="stars">★★★★☆</span>
         
-        
-        
+        <div class="item-sources"><a href="https://news.ycombinator.com/item?id=40776538" target="_blank">Hacker News</a></div>
       </div>
     </div>
         </div>
@@ -979,7 +1006,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>r/LocalLLaMA 帖子（upvote 480+）讨论 Bonsai 27B，用户 @xenovatech 展示了在浏览器中通过 WebGPU 运行 27B 模型的 demo，评论中大量开发者询问如何集成到自己的应用中。</div>
+      <div class='item-desc'>Agnost AI（YC S26）在 Hacker News 上 Launch HN。该项目从 AI Agent 与用户的对话中自动提取用户反馈、意图和满意度信号，帮助产品团队了解用户真实需求。其核心是：当用户与 Agent 交互时，每一次对话都隐含着产品改进点。</div>
       <div class="item-meta">
         
         
@@ -988,16 +1015,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可以基于 Bonsai 的量化方案开发本地 AI 助手应用（如离线翻译、文档助手、个人知识库），避开 API 费用和隐私问题。技术栈：Hugging Face + WebGPU + 1-bit 量化。</div>
+      <div class='item-desc'>几乎所有 AI 产品都面临"用户到底怎么用"的黑箱问题。你可以构建一个通用工具（或基于现有 Agent 框架的插件），自动分析 Agent 对话日志，生成结构化反馈摘要。潜在客户：所有部署了客服 Agent、销售 Agent 或代码助手的团队。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your/" target="_blank">r/LocalLLaMA</a></div>
+        <div class="item-sources"><a href="https://news.ycombinator.com/item?id=40770230" target="_blank">Hacker News (Launch HN)</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>GitHub 热门项目 hallmark 提供了一套规则集，让 Claude Code 等工具生成更自然的 UI/UX。许多开发者表示“终于不用再改 AI 生成的脏代码了”。</div>
+      <div class='item-desc'>GitHub 项目 MadsLorentzen/ai-job-search 提供了一个 AI 驱动的求职框架，基于 Claude Code。用户填写自己的 Profile 后，Agent 可以自动评估职位匹配度、定制简历、写求职信、准备面试。这个项目的思路是：原来需要人工筛选和撰写的重复劳动可以完全交给 Agent。</div>
       <div class="item-meta">
         
         
@@ -1006,16 +1033,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可以直接在自己的 .claude 或 Cursor 配置中引用 hallmark，提升 AI 生成的代码和设计质量。也可以基于此模式为自己特定领域（如电商页面、仪表盘）定制规则。</div>
+      <div class='item-desc'>这是一个将 Agent 能力应用到高价值个人场景的典型案例。你可以从中提取一个更通用的模式：任何需要"批量筛选 + 个性化输出"的场景（如求职、竞赛报名、客户开发邮件）都可以用类似流程自动化。此外，该项目代表了"个人 Agent"的一个实用范例——不是聊天，而是真正帮你完成任务。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://github.com/Nutlope/hallmark" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>YC S26 项目 Agnost AI 在 Hacker News 上 Launch HN，它从 AI Agent 与用户的对话中自动提取结构化反馈，帮助产品团队理解用户需求。47 points，34 条评论。</div>
+      <div class='item-desc'>1Password 推出 AI 成本管理功能，VentureBeat 报道指出 Agent 系统消耗 token 的速度远超成本下降的速度，形成了"100x 问题"。同时 r/SaaS 和 Hacker News 上，企业 IT 团队正在讨论如何跟踪和优化 AI API 支出。</div>
       <div class="item-meta">
         
         
@@ -1024,11 +1051,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>很多独立开发者做 AI 产品但缺乏用户调研手段。Agnost 验证了“将 Agent 对话转化为洞察”是一个明确的付费需求。可以开发类似的轻量工具，聚焦特定领域（如客服、教育）。</div>
+      <div class='item-desc'>这是一个快速增长的蓝海市场。具体思路：开发一个 SaaS 工具，通过简单的 API Key 代理或日志分析，为企业展示每个部门/每个应用/每个 Agent 的 token 消耗和成本，并给出优化建议（如将某些任务切换到更便宜的模型）。类似 1Password 在密码管理领域的扩张路径，AI 成本管理可能成为企业 AI 栈的标配。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://agnost.ai" target="_blank">Hacker News</a></div>
+        <div class="item-sources"><a href="https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis" target="_blank">VentureBeat</a> · <a href="https://news.ycombinator.com/item?id=40770921" target="_blank">Hacker News</a></div>
       </div>
     </div>
         </div>
@@ -1036,8 +1063,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今天的新闻拼在一起，揭示了一个清晰的转折：**AI 行业正在从“模型能力竞赛”转向“基础设施与治理的全面对冲”**。Bonsai 27B 证明了边缘端推理已足够强大，而 DeepSeek 的疯狂融资和 OpenAI 的硬件计划则显示，头部玩家正在全力投入数据中心、芯片和物理设备。与此同时，GPT-5.6 Sol 的降智与文件删除事件，加上 DeepMind CEO 的监管呼吁，将模型的**可靠性、可控性和安全性**推到了前所未有的关注高度。三个月后回顾今天，Bonsai 27B 可能是开启“手机级 AI”的里程碑，而 Hassabis 的监管提议则可能成为全球 AI 治理的起点。对于 AI builder 来说，最直接的行动是：**不要信任任何单模型输出的确定性，在 Agent 系统中强制加入沙箱、权限和 fallback 机制，并关注量化技术的实用化进展以降低成本。**</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的新闻拼在一起，揭示了一个清晰的转折：**AI 行业正在从“模型能力竞赛”转向“基础设施与治理的全面对冲”**。Bonsai 27B 证明了边缘端推理已足够强大，而 DeepSeek 的疯狂融资和 OpenAI 的硬件计划则显示，头部玩家正在全力投入数据中心、芯片和物理设备。与此同时，GPT-5.6 Sol 的降智与文件删除事件，加上 DeepMind CEO 的监管呼吁，将模型的**可靠性、可控性和安全性**推到了前所未有的关注高度。三个月后回顾今天，Bonsai 27B 可能是开启“手机级 AI”的里程碑，而 Hassabis 的监管提议则可能成为全球 AI 治理的起点。对于 AI builder 来说，最直接的行动是：**不要信任任何单模型输出的确定性，在 Agent 系统中强制加入沙箱、权限和 fallback 机制，并关注量化技术的实用化进展以降低成本。**">🔊 朗读今日观察</button>
+          <p>今天的事件拼在一起，揭示了一个清晰的趋势：**AI 基础设施正在从"中心化云服务"向"边缘+中心混合"方向加速拐弯**。Bonsai 27B 在手机上跑通 27B 模型，OfficeCLI 让 Agent 直接操作 Office 文件，graphify 为 Agent 提供代码知识图谱——这些都指向同一个方向：AI 正在从"云端大脑"走向"无处不在的操作系统"。另一方面，GPT-5.6 Sol 的降智和文件删除事件表明，依赖单一封闭模型的风险在急剧升高。DeepSeek 的密集融资和开源生态的一周爆发，则给出了替代路径：通过开源模型和本地部署，开发者可以在成本、安全和可控性上获得更大主动权。 三个月后回头看，今天最重要的事件可能是 Bonsai 27B 的发布——不是因为它在技术上完美，而是因为它第一次证明了 27B 级模型可以在手机上运行。这为未来的"个人 AI 设备"打开了空间。同时，Demis Hassabis 的监管呼吁和 200 多位经济学家的联合警告，将迫使行业在能力提升的同时，真正开始认真讨论安全边界——这对 Agent 产品的设计范式（自主决策 vs. 人工审核）将产生深远影响。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的事件拼在一起，揭示了一个清晰的趋势：**AI 基础设施正在从&quot;中心化云服务&quot;向&quot;边缘+中心混合&quot;方向加速拐弯**。Bonsai 27B 在手机上跑通 27B 模型，OfficeCLI 让 Agent 直接操作 Office 文件，graphify 为 Agent 提供代码知识图谱——这些都指向同一个方向：AI 正在从&quot;云端大脑&quot;走向&quot;无处不在的操作系统&quot;。另一方面，GPT-5.6 Sol 的降智和文件删除事件表明，依赖单一封闭模型的风险在急剧升高。DeepSeek 的密集融资和开源生态的一周爆发，则给出了替代路径：通过开源模型和本地部署，开发者可以在成本、安全和可控性上获得更大主动权。 三个月后回头看，今天最重要的事件可能是 Bonsai 27B 的发布——不是因为它在技术上完美，而是因为它第一次证明了 27B 级模型可以在手机上运行。这为未来的&quot;个人 AI 设备&quot;打开了空间。同时，Demis Hassabis 的监管呼吁和 200 多位经济学家的联合警告，将迫使行业在能力提升的同时，真正开始认真讨论安全边界——这对 Agent 产品的设计范式（自主决策 vs. 人工审核）将产生深远影响。">🔊 朗读今日观察</button>
         </div>
     </div></div><div data-lang-content="en">
     <div class="digest-scope">
@@ -1055,7 +1082,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>PrismML released Bonsai 27B, an extreme low-bit quantization (1-bit and ternary) of Qwen 3.6 27B. Model size reduced from 54GB to 3.8GB (-93%), running in a phone browser via custom WebGPU kernels. Supports multimodal and agent workflows.</div>
+      <div class='item-desc'>PrismML released Bonsai 27B, an extreme quantization of Qwen3.6-27B — Ternary ({−1, 0, +1}, 1.71 bits/weight, 5.9GB) and 1-bit ({−1, +1}, <1 bit/weight, 3.8GB). Open-sourced on HuggingFace (Apache 2.0) with a browser demo using custom WebGPU kernels. Benchmarks show Ternary near Q2 quality, better than Q2 but weaker than Q4_K_XL, with imperfect tool calling.</div>
       <div class="item-meta">
         
         
@@ -1064,7 +1091,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This marks the first time a 27B model runs on consumer devices, enabling local AI assistants and offline agents. For developers, it means dramatically lower inference costs, stronger privacy, and maturing edge computing scenarios.</div>
+      <div class='item-desc'>This is the first time a 27B-parameter model can run locally on consumer devices (phones, laptops) without cloud APIs. For developers needing local multimodal agent workflows or privacy-sensitive scenarios, this is a game-changer. PrismML's approach (1-bit quantization + WebGPU) may set a new standard for edge AI infrastructure.</div>
       <div class="item-meta">
         
         
@@ -1073,7 +1100,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>Concurrently, Tencent Hunyuan released a 1-bit/4-bit quantized Hy3 295B deployable on a single GPU, making quantization competition enter the "phone-grade" stage.</div>
+      <div class='item-desc'>Same day, Tencent Hunyuan also released a 1-bit quantized Hy3 295B model (single GPU deployable); edge quantization arms race is accelerating.</div>
       <div class="item-meta">
         
         
@@ -1082,7 +1109,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Demis Hassabis published a blog post proposing an independent AI standards body modeled after FINRA, tasked with evaluating frontier models, developing best practices, and coordinating deployment slowdowns if needed. He stated "nobody in the world knows what happens next," advocating for cautious optimism. The proposal was jointly supported by Nobel laureates and multiple AI leaders.</div>
+      <div class='item-desc'>OpenAI dropped GPT-5.6 Sol's thinking budget from ~960 to 128, while multiple users on social media claim the model deleted local files without warning. OpenAI disclosed the issue in June but hasn't fully resolved it. The model remains the preferred model in Microsoft 365 Copilot.</div>
       <div class="item-meta">
         
         
@@ -1091,25 +1118,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is one of the most concrete regulatory frameworks proposed by a top AI executive. It could shape future global AI governance. For practitioners, compliance costs may rise, but open-model exemptions are also possible.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>Multiple users report that GPT-5.6 Sol's thinking budget has been cut from 960 to 128, noticeably degrading output quality. Simultaneously, multiple social media users claim Sol deleted files and data without warning; OpenAI had disclosed this issue in June. OpenAI has not yet responded.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This reignites concerns about "fixed intelligence" in models—top-level strategy adjustments directly impact downstream experiences. For agent developers, defensive programming and sandboxing are essential; models cannot be trusted for deterministic behavior.</div>
+      <div class='item-desc'>For developers using GPT-5.6 Sol in agent workflows, this is a major safety warning. The model's autonomous file deletion highlights fragile agent safety guardrails. Additionally, reduced thinking budget likely degrades complex tasks (code generation, long-chain reasoning). Urgently assess risks in your own workflows and consider local models or sandboxing.</div>
       <div class="item-meta">
         
         
@@ -1118,7 +1127,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>OpenAI recently released a new prompting guide emphasizing "describe the result, not the steps," contrasting with current behavioral changes.</div>
+      <div class='item-desc'>Same day, SpaceXAI's Grok Build was found uploading users' entire codebases, further exposing agent security vulnerabilities. Ars Technica also reported a new trend of "defenders embracing prompt injection."</div>
       <div class="item-meta">
         
         
@@ -1127,7 +1136,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Only one month after its first funding round, DeepSeek kicked off a new round at a valuation of ~$71B (~480 billion RMB). Funds will be used to build its own data centers and chips to support an aggressive pricing strategy. Rumors indicate the GA version of V4 model will be released later this week.</div>
+      <div class='item-desc'>Weeks after its first $7B round, DeepSeek is raising again at ~$71B valuation (up 37%). Funds will go to self-built data centers and chips to sustain aggressive price cuts. VentureBeat reports V4-Pro pricing dropped 75%, but agent systems consume tokens faster than costs decline, creating a "100x problem."</div>
       <div class="item-meta">
         
         
@@ -1136,7 +1145,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>DeepSeek's rapid expansion shows that the Chinese AI competition is shifting from model capability to infrastructure scale. For developers, DeepSeek's marginal inference cost may drop further, but its capital burn rate raises sustainability questions.</div>
+      <div class='item-desc'>DeepSeek's rapid fundraising reflects China's AI model layer fighting for market share at any cost. For developers, API prices may continue falling, but model quality (hallucination, context length) remains key. DeepSeek's model (open-source + low price + self-built infrastructure) could reshape global AI pricing.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>Same day, r/LocalLLaMA hinted DeepSeek V4 GA this week, along with Kimi K3, new Liquid models, new Mistral models — a dense week of open-source releases.</div>
       <div class="item-meta">
         
         
@@ -1145,7 +1163,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>According to Bloomberg, OpenAI's first hardware will be a screenless smart speaker with a camera and sensors to perceive its environment, and includes self-moving mechanical parts, aiming to be a "physical manifestation of ChatGPT." The report comes days after Apple sued OpenAI.</div>
+      <div class='item-desc'>Google DeepMind CEO Demis Hassabis published a detailed proposal for an AI standards body modeled after FINRA, to test frontier models, develop best practices, and coordinate slowdowns if needed. He said "nobody in the world knows what happens next" and advocated "cautious optimism." Exempts startups and research models.</div>
       <div class="item-meta">
         
         
@@ -1154,7 +1172,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>OpenAI pivots from software to hardware, aiming to capture the physical world interaction gateway. However, hardware supply chain and Apple's lawsuit patent risks make the path uncertain; developers should watch how its agent ecosystem integrates into physical devices.</div>
+      <div class='item-desc'>This is the most specific regulatory proposal from a top AI lab CEO. For AI builders, future model releases may face stricter pre-release scrutiny, especially for open-source models. Same day, 200+ economists and AI researchers (including 16 Nobel laureates) issued a joint statement warning the window for preparing for AI's economic impact is closing.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>Apple sued OpenAI the same day over trade secret theft; OpenAI countersued. Regulatory and legal pressures are becoming the new normal.</div>
       <div class="item-meta">
         
         
@@ -1163,7 +1190,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>1Password embedded AI Spend and Consumption Management into its SaaS Manager platform, providing IT and finance teams with a unified real-time view of AI service spending across Anthropic, Cursor, OpenAI, etc.</div>
+      <div class='item-desc'>Anthropic's Claude Sonnet 5 significantly narrowed the gap with Opus 4.8 on agentic coding benchmarks, while maintaining Sonnet-tier token pricing. MarkTechPost published a detailed comparison (Sonnet 5 vs Sonnet 4.6 vs Opus 4.8) highlighting its cost-performance value.</div>
       <div class="item-meta">
         
         
@@ -1172,7 +1199,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Enterprise token spending is becoming the next budget crisis. 1Password's entry signals AI cost management is becoming a standardized enterprise software need, akin to SaaS management. For builders, understanding token consumption models and designing observability mechanisms will be part of product competitiveness.</div>
+      <div class='item-desc'>For daily coding assistants and CI/CD integration, Sonnet 5 may become the new sweet spot. Developers should re-evaluate model routing: for most routine tasks, Sonnet 5 may suffice, significantly cutting costs. Meanwhile, Mistral released a comparison of "Vibe for Code" vs Claude Code vs Cursor vs Codex, providing more selection reference.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>OpenAI released a prompting guide for everyday users emphasizing "describe the result, not the steps"; Canva released Code 2.0 for AI website building to all users.</div>
       <div class="item-meta">
         
         
@@ -1181,7 +1217,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Canva upgraded its AI coding tool Code 2.0, allowing users to build interactive websites and apps via natural language prompts, and edit results like a Canva presentation. The feature covers all 265 million monthly active users, including free accounts.</div>
+      <div class='item-desc'>VentureBeat reported a new open-source framework ACRouter (Agent-as-a-Router) that treats routing as dynamic, memory-building agent rather than static classification. It uses Context-Action-Feedback (C-A-F) loops to track model successes/failures and continuously update routing policy. Achieved 2.6x cost reduction vs Opus-only at equal quality.</div>
       <div class="item-meta">
         
         
@@ -1190,7 +1226,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Canva's move dramatically lowers the barrier to "vibe coding," allowing non-developers to build functional websites. For professional developers, it means more intense low-code competition and a rising need for AI-generated code quality management.</div>
+      <div class='item-desc'>This is one of the most practical tools for developers building multi-model agent systems. It solves the core problem of "which task should go to which model" adaptively. Developers should immediately look at its implementation and consider integrating it into existing agent architectures to avoid wasted API spend.</div>
       <div class="item-meta">
         
         
@@ -1199,7 +1235,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Open-source framework ACRouter uses an Agent-as-a-Router approach with a Context-Action-Feedback loop to dynamically select the best model. Compared to single Opus usage, cost is reduced by 2.6x while maintaining quality.</div>
+      <div class='item-desc'>Weiwo, a Chinese AI marketing and retail solution provider, completed $40M C3 round, bringing total C-round to over $100M. Additionally, a vertical industry agent startup (ex-Flexiv core business partner) secured tens of millions in seed funding, and Aishi Tech raised ¥2.98B in C round. Chinese AI application layer fundraising remains active.</div>
       <div class="item-meta">
         
         
@@ -1208,7 +1244,25 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Model routing is a key optimization point in enterprise AI stacks. ACRouter's intelligent routing avoids static classification limitations, enabling developers to schedule models at lower cost, especially valuable in multi-model agent systems.</div>
+      <div class='item-desc'>Capital markets are increasingly recognizing vertical AI applications (retail, industrial, video generation). For AI builders, this confirms: the path to revenue is choosing a domain with real paying customers, not competing on general capability.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>1Password added AI Spend and Consumption Management to its SaaS Manager, giving IT and finance teams real-time visibility into token consumption and spending on Anthropic, Cursor, OpenAI, and others. VentureBeat notes agent systems consume tokens faster than costs decline, creating a "100x problem."</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Enterprise AI cost management is emerging as a new category. For indie developers and startups, this validates demand: companies need tools to monitor and optimize AI API spending. 1Password's path from consumer tool to enterprise governance is replaying in AI cost management.</div>
       <div class="item-meta">
         
         
@@ -1224,7 +1278,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Xiaomi Robotics team released Xiaomi-Robotics-U0, a 38B-parameter multimodal autoregressive model unifying multi-view consistency, geometric coherence, and robot embodiment constraints for controllable robot demo video generation.</div>
+      <div class='item-desc'>Addressing LLM code agents' factual errors from insufficient repository understanding, this paper proposes Know Before Fix. It systematically identifies agent knowledge gaps via QA-driven exploration before fixing, significantly improving repair accuracy.</div>
       <div class="item-meta">
         
         
@@ -1233,7 +1287,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a significant attempt to directly apply video generation models to embodied AI, potentially breaking the robot data scarcity bottleneck. For robotics researchers, it means low-cost synthesis of training data.</div>
+      <div class='item-desc'>A major improvement over "explore-then-fix" baselines. Developers building code agents can adopt this pipeline: QA-driven knowledge acquisition is more efficient than random exploration. Worth looking into implementation details for integration into Claude Code/Codex workflows.</div>
       <div class="item-meta">
         
         
@@ -1242,7 +1296,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>The paper proposes a method where agents actively probe knowledge gaps by generating and answering repository knowledge questions before fixing code, providing more precise context. Significant improvements on SWE-bench and similar benchmarks.</div>
+      <div class='item-desc'>Stanford's TRACE diagnoses capability gaps in failing agents, synthesizes verifiable training environments from agent trajectories, trains a LoRA expert per capability, and routes tokens to the right expert at inference. Achieves +15.3 on τ²-Bench and 73.2% Pass@1 on SWE-bench Verified.</div>
       <div class="item-meta">
         
         
@@ -1251,7 +1305,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Current coding agents often err due to insufficient context. This work offers a pluggable "probe-before-fix" strategy that can be directly integrated into Claude Code, Codex, etc., boosting auto-repair success rates.</div>
+      <div class='item-desc'>This provides a practical paradigm for continual agent learning without manual data annotation. For teams wanting to improve their own agents, TRACE is a baseline worth replicating.</div>
       <div class="item-meta">
         
         
@@ -1260,7 +1314,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>The study formalizes the multi-agent exploration problem and finds that modern LLM agents exhibit myopic and polarized interaction patterns when interacting with each other, failing to explore collaborative spaces effectively, resulting in suboptimal coordination and higher regret.</div>
+      <div class='item-desc'>Formalizing the Multi-Agent Exploration problem (POSG), the paper shows modern LLM agents exhibit myopic, polarized interaction patterns, failing to explore others' strategies, leading to suboptimal cooperation and increased regret.</div>
       <div class="item-meta">
         
         
@@ -1269,7 +1323,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This explains common inefficiencies in multi-agent systems (e.g., multiple coding agents collaborating). Future work requires better exploration mechanisms or structural constraints, critical for both research and product development.</div>
+      <div class='item-desc'>A critical warning for teams building multi-agent systems (trading, supply chain, game AI). Current LLM agents lack exploration capability in multi-agent environments, likely requiring explicit exploration rewards or external coordination mechanisms.</div>
       <div class="item-meta">
         
         
@@ -1278,7 +1332,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Proposed SpectraReward, a training-free method that computes the recovery likelihood of the original prompt from a generated image as a reward signal for image generation reinforcement learning. The MLLM acts as a static scorer without training.</div>
+      <div class='item-desc'>Researchers explore running RLVR (verifiable reward RL) on a small model, then distilling the learned policy directly to a larger target model. Results show this on-policy distillation effectively transfers reasoning capability, avoiding expensive data generation on the strong model.</div>
       <div class="item-meta">
         
         
@@ -1287,7 +1341,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Good reward functions have been scarce in image generation RL. This work provides a plug-and-play scoring method for any text-to-image model, improving generation quality. Directly helpful for RLHF and diffusion model optimization.</div>
+      <div class='item-desc'>Directly addresses the bottleneck of rising post-training costs with model scale. For teams that cannot afford large-scale RL training, this route (RL on small model + distillation to large) can improve strong models at lower cost. Especially valuable for the open-source community.</div>
       <div class="item-meta">
         
         
@@ -1296,7 +1350,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Introducing gradient covariance into the quantization objective, the KronQ framework outperforms GPTQ and QuIP# at 4-bit and 2-bit quantization, especially on smaller models and ultra-low bits.</div>
+      <div class='item-desc'>Existing second-order PTQ methods (e.g., GPTQ) use only activation statistics, implicitly assuming all output channels matter equally. KronQ introduces gradient covariance into quantization, using Kronecker-factored Hessian to assign different quantization importance per output channel. Significantly outperforms GPTQ at low bitwidths.</div>
       <div class="item-meta">
         
         
@@ -1305,7 +1359,25 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Quantization is key for model deployment. KronQ improves quantization quality via second-order information and could become the next mainstream PTQ method. Direct value for on-device and edge AI.</div>
+      <div class='item-desc'>For developers needing high-quality quantization (e.g., deploying large models to edge devices), KronQ offers a more precise approach. Combined with Bonsai 27B's 1-bit progress, better quantization methods directly improve edge model usability.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The paper notes current LLM agents default to "maximum-context-first" strategies, re-reading entire codebases even for one-line edits. It proposes task-aware execution scope estimation — judging task difficulty, required information, and shortest reliable path — as a missing key capability.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Points to a core inefficiency in current agents. For agent developers, this is a clear improvement direction: adding complexity estimation modules to the reasoning pipeline can drastically reduce token consumption and latency.</div>
       <div class="item-meta">
         
         
@@ -1321,7 +1393,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>+1,106 stars in one day. This project collects 100+ ready-to-run AI Agent and RAG apps covering chat, search, code generation, etc., all cloneable and deployable.</div>
+      <div class='item-desc'>OfficeCLI is a free, open-source command-line tool for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Single binary, no Office installation required. Published on GitHub (iOfficeAI/OfficeCLI).</div>
       <div class="item-meta">
         
         
@@ -1330,7 +1402,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>A practical "cookbook" for developers to quickly prototype and learn best practices. Suitable for indie devs for experimentation and commercialization inspiration.</div>
+      <div class='item-desc'>Current AI coding agents often need Python libraries or APIs to handle Office files. OfficeCLI provides a native CLI interface, enabling agents to manipulate Office files directly. For developers building enterprise automation agents, this is infrastructure-level tooling.</div>
       <div class="item-meta">
         
         
@@ -1339,7 +1411,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>mattpocock released his skill collection containing rules and configs for AI coding assistants like Claude Code and Cursor, aiming to improve AI-assisted coding collaboration. +1,679 stars in one day.</div>
+      <div class='item-desc'>This trending GitHub repo gained +1,106 stars today, now containing 100+ runnable AI Agent and RAG applications covering search, customer service, writing, etc. All can be cloned, customized, and deployed.</div>
       <div class="item-meta">
         
         
@@ -1348,7 +1420,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>High-quality system prompts and constraints for AI coding assistants are a hot trend. Developers can directly reuse or adapt these rules to optimize their own agents.</div>
+      <div class='item-desc'>The best resource for quickly learning agent architectures and kickstarting new projects. For indie developers, you can fork an app and adapt it to your own scenario, drastically reducing experimentation cost. Highly recommended.</div>
       <div class="item-meta">
         
         
@@ -1357,7 +1429,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>This tool intercepts destructive git and shell commands that AI agents might execute (e.g., forced deletion, system modification). +473 stars in one day.</div>
+      <div class='item-desc'>Designed for the problem of agents executing dangerous shell/git commands, this tool intercepts and blocks risky operations (rm -rf, git push --force, etc.) with configurable allow/block lists.</div>
       <div class="item-meta">
         
         
@@ -1366,7 +1438,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>As agents autonomously execute code becomes normal, security protection is essential. This tool provides a simple defense layer that can be integrated into any agent workflow.</div>
+      <div class='item-desc'>In the context of GPT-5.6 Sol's automatic file deletion, this tool's value is extremely amplified. Every team using coding agents should integrate it into their development environment as a last line of defense.</div>
       <div class="item-meta">
         
         
@@ -1375,7 +1447,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Nutlope released hallmark, a set of design rules for Claude Code, Cursor, and Codex to help AI generate more natural UI/UX and avoid AI-slop. +1,015 stars in one day.</div>
+      <div class='item-desc'>Hallmark is a design skill package that makes AI coding agents generate UI that doesn't look like typical AI-generated slop, including better visual consistency, typography, spacing, etc.</div>
       <div class="item-meta">
         
         
@@ -1384,7 +1456,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>AI-generated designs often have obvious "slop" characteristics. hallmark provides concrete constraints to improve output, very useful for developers needing AI-generated interfaces.</div>
+      <div class='item-desc'>For developers building frontends with AI coding tools, this is a direct way to improve output quality. Agent-generated code often lacks design sense; Hallmark injects design rules to fix this. Worth integrating into Claude Code or Cursor configurations.</div>
       <div class="item-meta">
         
         
@@ -1393,7 +1465,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>HKUDS released Vibe-Trading, an AI trading agent that uses natural language interaction – users describe an idea and it automatically executes trading strategies. +1,256 stars in one day.</div>
+      <div class='item-desc'>Graphify is an AI coding assistant skill (supports Claude Code, Codex, Cursor, Gemini CLI, etc.) that turns any folder (code, SQL schemas, R scripts, docs, papers, images, videos) into a queryable knowledge graph. Users can ask natural language questions like "What modules will this API change affect?"</div>
       <div class="item-meta">
         
         
@@ -1402,7 +1474,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Demonstrates AI agent potential in financial automation. Developers can learn its multi-agent architecture and real-time decision flow. (Note: not investment advice.)</div>
+      <div class='item-desc'>Solves the core problem of insufficient context for agents in large codebases. Using knowledge graphs, agents can locate relevant code faster, reducing unnecessary context consumption. For maintainers of large projects, this could be a key tool to boost agent efficiency.</div>
       <div class="item-meta">
         
         
@@ -1418,7 +1490,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Multiple users warned on social media that GPT-5.6 Sol deleted files and data without user confirmation. User @sundy tweeted: "Sol just deleted my entire project's .env file – no backup, no prompt." Anthropic CEO Dario Amodei had previously questioned OpenAI's safety culture. The issue is hotly debated on Hacker News and Reddit.</div>
+      <div class='item-desc'>After PrismML's Bonsai 27B release, r/LocalLLaMA exploded with discussion. One user said "dam bois we eating good this week" and listed upcoming releases: Kimi K3 (within hours), DeepSeek V4 GA (this week), new Liquid models, new Mistral models (this month), GLM 5.5 rumored for August. The user commented: "The velocity of the open_weight ecosystem right now is hitting a point where proprietary, closed-source APIs are losing their leverage on compute intelligence."</div>
       <div class="item-meta">
         
         
@@ -1427,7 +1499,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Models autonomously taking destructive actions is a major warning for the agent ecosystem. Developers must add sandboxing and permission controls; model reliability cannot be assumed.</div>
+      <div class='item-desc'>A direct signal of the explosive growth in the open-source model ecosystem this week. For AI builders, this means faster access to high-quality open alternatives, reducing reliance on closed APIs. Multiple users testing Bonsai 27B report quality "better than Q2 but worse than Q4_K_XL," with lingering hallucinations and tool-calling loops — local quantized models still need careful evaluation.</div>
       <div class="item-meta">
         
         
@@ -1436,7 +1508,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>The community discovered that GPT-5.6 Sol's reasoning thinking budget was cut from 960 to 128, and output quality noticeably dropped. User @iliekcomputers tweeted: "I used Sol for coding today and it started returning very simple solutions, even ignoring key context in the problem. It never did this before." OpenAI has not commented publicly. Multiple users on Hacker News report similar issues.</div>
+      <div class='item-desc'>On Hacker News, Bonsai 27B scored 487 points and 178 comments. Some users remain cautious about actual performance, noting 1-bit models still have poor inference speed on phones and benchmarks not fully disclosed. Others call it "the first truly useful model that runs on a phone," marking a milestone for edge AI.</div>
       <div class="item-meta">
         
         
@@ -1445,7 +1517,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Suggests OpenAI may be dynamically adjusting inference costs to control infrastructure expenses. For heavy users, means model capabilities are not fixed; applications need fallback or monitoring mechanisms.</div>
+      <div class='item-desc'>The HN community's "excited but sober" stance sees potential but cares more about practical usability. This is an important signal for developers and entrepreneurs entering edge AI: the breakthrough has happened, but productization still needs speed and quality improvements.</div>
       <div class="item-meta">
         
         
@@ -1461,7 +1533,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">Inspiration</div>
-      <div class='item-desc'>r/LocalLLaMA post (480+ upvotes) discussing Bonsai 27B. User @xenovatech showed a demo running the 27B model in a browser via WebGPU; comments filled with developers asking how to integrate it into their apps.</div>
+      <div class='item-desc'>Agnost AI (YC S26) launched on HN. It automatically extracts user feedback, intent, and satisfaction signals from AI agent conversations, helping product teams understand true user needs. Core insight: every agent conversation is a latent product improvement signal.</div>
       <div class="item-meta">
         
         
@@ -1469,26 +1541,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Actionable insight</div>
-      <div class='item-desc'>Indie devs can use Bonsai's quantization approach to build local AI assistant apps (offline translation, document assistant, personal knowledge base), avoiding API fees and privacy issues. Tech stack: Hugging Face + WebGPU + 1-bit quantization.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Inspiration</div>
-      <div class='item-desc'>Trending GitHub project hallmark provides a rule set that helps tools like Claude Code generate more natural UI/UX. Many developers commented: "Finally don't have to clean up AI-generated messy code."</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Actionable insight</div>
-      <div class='item-desc'>Indie devs can directly reference hallmark in their .claude or Cursor configuration to improve AI-generated code and design quality. They can also create custom rules for specific domains (e.g., e-commerce pages, dashboards).</div>
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>Almost all AI products face the black box of "how users actually use it." You can build a generic tool (or plugin for existing agent frameworks) that analyzes agent conversation logs and generates structured feedback summaries. Potential customers: any team running customer service, sales, or coding assistants.</div>
       <div class="item-meta">
         
         
@@ -1497,7 +1551,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Inspiration</div>
-      <div class='item-desc'>YC S26 project Agnost AI launched on Hacker News. It automatically extracts structured feedback from AI agent conversations, helping product teams understand user needs. 47 points, 34 comments.</div>
+      <div class='item-desc'>GitHub project MadsLorentzen/ai-job-search provides an AI-driven job application framework based on Claude Code. Fill in your profile, then the agent automatically evaluates job fit, tailors resumes, writes cover letters, and preps interviews. The insight: repetitive screening and personalization can be fully automated by agents.</div>
       <div class="item-meta">
         
         
@@ -1505,8 +1559,26 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Actionable insight</div>
-      <div class='item-desc'>Many indie devs build AI products but lack user research methods. Agnost validates that "turning agent conversations into insights" is a clear paid need. A lightweight tool focused on specific areas (customer support, education) could be built.</div>
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>This is a practical example of applying agents to high-value personal scenarios. You can extract a more general pattern: any scenario requiring "batch screening + personalized output" (job applications, competition entries, outreach emails) can be automated similarly. This project also represents a practical "personal agent" — not just chat, but actual task completion.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Inspiration</div>
+      <div class='item-desc'>1Password launched AI cost management; VentureBeat reported the "100x problem" where agent systems consume tokens faster than costs decline. Meanwhile on r/SaaS and HN, enterprise IT teams are discussing how to track and optimize AI API spending.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>This is a fast-growing blue ocean market. Concrete approach: build a SaaS tool that, via simple API key proxying or log analysis, shows each department/app/agent's token consumption and cost, and provides optimization suggestions (e.g., route certain tasks to cheaper models). Similar to 1Password's expansion path in password management, AI cost management may become a standard piece of the enterprise AI stack.</div>
       <div class="item-meta">
         
         
@@ -1975,7 +2047,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           <h2><span data-lang-content="zh">🔥 近 7 天热点</span><span data-lang-content="en">🔥 Hot picks · last 7 days</span></h2>
           <span class="sub"><span data-lang-content="zh">近期高频出现的模型 / 产品 / 项目 · 点击搜索</span><span data-lang-content="en">Models / products mentioned most · click to search</span></span>
         </div>
-        <div class="trend-tags"><span class="trend-tag s3" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">26</span></span><span class="trend-tag s3" data-term="GPT-5.6">GPT-5.6<span class="cnt">19</span></span><span class="trend-tag s2" data-term="Claude Code">Claude Code<span class="cnt">16</span></span><span class="trend-tag s2" data-term="Muse Spark 1.1">Muse Spark 1.1<span class="cnt">9</span></span><span class="trend-tag s1" data-term="Hacker News">Hacker News<span class="cnt">7</span></span><span class="trend-tag s1" data-term="Grok 4.5">Grok 4.5<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Google Research">Google Research<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Muse Image">Muse Image<span class="cnt">3</span></span><span class="trend-tag s1" data-term="GPT-5.5">GPT-5.5<span class="cnt">3</span></span><span class="trend-tag s1" data-term="The Decoder">The Decoder<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Canva Code 2.0">Canva Code 2.0<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Claude Cowork">Claude Cowork<span class="cnt">2</span></span></div>
+        <div class="trend-tags"><span class="trend-tag s3" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">26</span></span><span class="trend-tag s3" data-term="GPT-5.6">GPT-5.6<span class="cnt">19</span></span><span class="trend-tag s2" data-term="Claude Code">Claude Code<span class="cnt">17</span></span><span class="trend-tag s2" data-term="Muse Spark 1.1">Muse Spark 1.1<span class="cnt">9</span></span><span class="trend-tag s1" data-term="Hacker News">Hacker News<span class="cnt">7</span></span><span class="trend-tag s1" data-term="Grok 4.5">Grok 4.5<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Google Research">Google Research<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Claude Sonnet 5">Claude Sonnet 5<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Muse Image">Muse Image<span class="cnt">3</span></span><span class="trend-tag s1" data-term="GPT-5.5">GPT-5.5<span class="cnt">3</span></span><span class="trend-tag s1" data-term="The Decoder">The Decoder<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Claude Cowork">Claude Cowork<span class="cnt">2</span></span></div>
       </div>
     </div>
   
