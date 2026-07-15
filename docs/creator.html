@@ -36,6 +36,102 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-07-16">AI 每日简报 · 2026-07-16 周四</span>
+    <button class="cbtn" data-copy="t-2026-07-16">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-07-16.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-07-16.mp3" download="2026-07-16.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-07-16">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-07-16">AI 每日简报 · 2026-07-16 周四
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· 发生了什么：Thinking Machines Lab（前 OpenAI/Meta 研究员创办）发布了首个公开模型 Inkling，975B 参数，支持文本、图像、视频和音频输入。模型在 3.5 万张 H100 上训练，采用 Apache 2.0 开源许可，但未包含训练代码、数据或强化学习使用的协议栈（reward model / RLHF 组件）。基准测试显示其在部分多模态任务上接近 GPT-5.5 水平，但缺少标准 NLP benchmark。
+· 为什么重要：这是目前最大的开放权重模型之一（仅次于 Llama 4 的传言规模），且是多模态模型。对于希望在本地或可控环境运行大模型的开发者，Inkling 提供了一个新的选择，但缺少协议栈意味着实际部署仍需额外工作。Thinking Machines 此举试图挑战 Open AI/Anthropic 的闭源模式。
+  来源：https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/
+· 发生了什么：1Password 推出 AI Spend and Consumption Management 功能，集成在其 SaaS Manager 平台中，为企业 IT 和财务团队提供对 Anthropic、Cursor、OpenAI 等 AI 服务花费的统一实时视图。该功能可识别哪些团队、项目正在消耗 token，并设置预算告警。
+· 为什么重要：这标志着 AI 成本管理正成为企业刚需。随着 agent 采用率飙升，token 支出很容易失控。1Password 利用其在身份和安全管理上的信任基础，将 AI 成本监控纳入同一平台，可能开辟一个新的企业软件品类。开发者需要关注：企业将开始更严格地追踪 API 消耗，可能影响使用习惯和预算规划。
+  来源：https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis
+· 发生了什么：26 名前 Meta 员工在加州联邦法院提起集体诉讼，指控 Meta 在 2022-2023 年裁员 8000 人时，使用内部 AI 工具分析员工绩效数据，系统性地针对正在休病假、产假或残疾假的员工进行裁员。原告声称 AI 工具不仅评估绩效，还被用来“生成”裁员名单。
+· 为什么重要：这是首个大型 AI 驱动裁员的歧视诉讼。如果成立，将对企业使用 AI 进行人力资源决策（尤其是涉及解雇）产生巨大震慑。AI builder 需要注意：自动化人事决策的法律风险极高，模型需经过严格的公平性审计。
+  来源：https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs
+· 发生了什么：Google 正式发布 LiteRT.js —— LiteRT（原 TensorFlow Lite）的 JavaScript 绑定。它通过 WebAssembly 在浏览器中执行 .tflite 模型，支持 XNNPACK (CPU)、ML Drift (WebGPU) 和实验性 WebNN (NPU)。Google 报告相比其他 Web 推理运行时最高 3 倍提升，GPU/NPU 路径比自有的 CPU 路径快 5-60 倍。注意：tensor 需要手动管理释放。
+· 为什么重要：在浏览器端直接运行模型一直受限于性能和内存。LiteRT.js 结合 WebGPU 大幅提升了浏览器端推理能力，使 AI 应用的“零安装”部署更加现实。对开发者：这是一个值得评估的浏览器端推理方案，但手动内存管理会增加开发成本。
+  来源：https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/
+· 发生了什么：德国 Soofi 联盟（由研究机构与企业组成）发布 Soofi S，一个 31.6B 参数、激活 3.2B 参数的混合 Mamba-Transformer MoE 模型。它在德语和英语的多个 benchmark 上超越了同尺寸的 LLaMA 和 Mistral 模型，且完全开源（MIT 许可）。模型使用 Mamba 状态空间层处理长上下文，Transformer 层处理精确 token 交互。
+· 为什么重要：这是非英语开源模型的一个重要进展。对于需要德语或其他欧洲语言本地化能力的应用，Soofi S 提供了比翻译英文模型更好的选择。混合架构（Mamba + Transformer）也在验证状态空间模型与注意力机制的结合路径。
+  来源：https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/
+· 发生了什么：PrismML 发布 Bonsai 27B，通过 1-bit 和 ternary 量化将 Qwen3.6-27B 模型压缩到 4GB（1.71 bits/weight）和 5.9GB。在自有基准测试中，最小版本保留原模型 90% 性能，数学和编码分数几乎无损。Apple 据报已在对该压缩技术进行测试，以提升设备端 AI 能力。
+· 为什么重要：这验证了极端量化可以在消费级硬件上运行 27B 模型，且性能损失可控。对于设备端 AI 应用（如隐私敏感的助手、离线推理），这意味着更强大的模型可以部署在手机和笔记本上。若 Apple 采用，可能加速本地 AI 生态。
+  来源：https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/
+· 发生了什么：据量子位报道，DeepSeek 在以 4800 亿人民币（约 660 亿美元）估值进行新一轮融资，距其首轮 3500 亿估值仅间隔数周，估值上涨 37%。公司最快计划 2027 年 IPO。同时 The Decoder 报道 DeepSeek 需要资金建设自有数据中心和芯片，以支持激进的定价策略。
+· 为什么重要：DeepSeek 的融资节奏显示中国市场对 AI 模型的资本热情极为高涨。对开发者：DeepSeek 的 API 定价可能在未来维持低价竞争，但也需关注其基础设施投入带来的长期成本压力。IPO 计划表明公司希望获得更稳定的资金来源。
+  来源：https://www.qbitai.com/2026/07/450101.html
+
+📄 重要论文
+· 发生了什么：论文训练表示池化探针（representation-pooling probes）在 Eternis-Forecaster 8B 等模型的中间激活上，发现内部表征可以提供比链式思考（CoT）输出更准确的校准。探针校准效果显著优于直接输出的概率估计，这表明模型的内部知识比其表达的推理更可靠。
+· 为什么重要：对于构建需要可靠不确定性估计的应用（如预测市场、风险评估），直接使用模型的 verbalized confidence 可能不可靠。该论文提供了从模型内部抽取校准信号的方法，可能比采样或 temperature 缩放更有效。
+  来源：https://huggingface.co/papers/2607.08046
+· 发生了什么：论文将多 Agent 协作建模为部分可观测随机博弈（POSG），发现当前最强的 LLM Agent（包括 GPT-5.6、Claude Fable）在与其他 Agent 交互时表现出近视和极化（myopic and polarized）行为模式，无法进行有效探索，导致次优协调和更高的 regret。Agent 倾向于重复已知的简单策略而不是尝试探索更好的协作方式。
+· 为什么重要：多 Agent 系统在部署前需要更多关注探索机制。如果你在生产中使用多个 LLM Agent 协作完成任务（如多步骤 workflow），这篇论文揭示了一个实际风险：Agent 之间可能陷入局部最优，无法适应环境变化。
+  来源：https://huggingface.co/papers/2607.11250
+· 发生了什么：论文提出一种弱到强的泛化方法：先在较小的模型上运行 RL 训练（成本低），然后将训练后的策略通过 on-policy 蒸馏传递到更大的目标模型。实验表明，在推理任务上，这种方法比直接在大模型上运行 RL 节省大量计算资源，且性能接近。关键是用小模型的输出来监督大模型，但大模型有机会看到更多自己的 rollout。
+· 为什么重要：对于资源受限的团队，这意味着可以通过小模型的 RL 训练来提升大模型能力。这是一种实用的后训练策略，可以降低推理模型微调成本。
+  来源：https://huggingface.co/papers/2607.05394
+· 发生了什么：论文发现当前 LLM Agent 在简单任务上（如单行代码编辑）会执行不必要的上下文反复读取和依赖分析，导致成本激增。论文提出了任务感知的执行范围估计（task-aware execution-scope estimation）概念，即模型应该判断一项任务的难度、所需信息以及最短可靠路径。
+· 为什么重要：这直击 AI Agent 成本浪费的根源。如果你在使用 Codex、Cursor 等 agent，可以观察它们是否过度读取文件。论文提出的思路可能催生更高效的 Agent 设计——根据任务复杂度动态调整资源消耗。
+  来源：https://arxiv.org/abs/2607.13034
+· 发生了什么：论文发布了 MonkeyOCRv2，一个为文档 AI 设计的视觉-文本预训练模型。他们构建了 MonkeyDoc v2——据称是目前最大的文档图像预训练语料（1.13 亿张图像，覆盖 17 种语言）。通过文档特定的视觉-文本对齐预训练，在文档理解 benchmark 上刷新 SOTA。
+· 为什么重要：文档理解是 RAG 和企业 AI 的核心能力之一。MonkeyOCRv2 提供的专用预训练方法可能显著提升文档处理管线的质量，尤其是多语言场景。开发者应关注其 HuggingFace 发布，评估是否可用作文档解析的底层模型。
+  来源：https://huggingface.co/papers/2607.11562
+
+🔧 开源项目
+· 发生了什么：一个轻量级 CLI 工具，用于拦截 AI 编程 Agent（Claude Code、Codex、Cursor 等）生成的危险 git 和 shell 命令。它通过在命令执行前进行模式匹配和静态分析，阻止 rm -rf /、git push --force 到非预期远程等操作。今天获得 497+ GitHub Star。
+· 为什么重要：（对开发者的实用价值）：AI Agent 误删文件或推送敏感信息到公共仓库是真实风险。dcg 提供了一个简单层：在 agent 和工作环境之间添加防护。对于将 agent 用于生产环境或敏感代码的团队，这几乎是安全必需品。
+  来源：https://github.com/Dicklesworthstone/destructive_command_guard
+· 发生了什么：首个专为 AI Agent 设计的 Office 命令行工具。无需安装 Microsoft Office，单个二进制文件即可读写 Word、Excel、PowerPoint 文件。开源免费，支持与 Claude Code、Codex、Gemini CLI 等 agent 配合使用。
+· 为什么重要：文档自动化是企业场景的核心痛点。Agent 要操作 .docx/.xlsx 文件时，通常需要复杂的库或 API。OfficeCLI 提供了一个简洁的 agent-native 接口，允许 Agent 直接生成和编辑 Office 文件，可能解锁大量业务流程自动化场景。
+  来源：https://github.com/iOfficeAI/OfficeCLI
+· 发生了什么：VoltAgent 社区维护的合集，收录了来自官方开发团队和社区的 1000+ Agent 技能（skill/config），兼容 Claude Code、Codex、Gemini CLI、Cursor 等主流 Agent 平台。每个技能是一个可复用的提示词/配置文件，用于特定任务（如代码审查、SEO 优化、数据分析等）。
+· 为什么重要：这降低了 Agent 上手的门坎。开发者可以直接导入社区验证过的技能，而不必从头编写提示词。对于构建复杂 Agent 工作流的团队，这是一个可以大幅加速开发的资源库。
+  来源：https://github.com/VoltAgent/awesome-agent-skills
+· 发生了什么：一个帮助 Agent 生成更整洁、更符合设计规范的 UI 代码的技能包。专门设计来对抗 AI 常见的“slop”——即输出风格不一致、命名混乱、缺乏可访问性等质量问题。针对 CSS、Tailwind、组件命名等方面提供约束。
+· 为什么重要：Agent 生成的代码虽然功能正确，但可维护性和设计质量往往堪忧。hallmark 提供了一组结构化约束，可以让 Agent 输出的 UI 代码更接近人类专业开发者的标准。适合需要 Agent 交付生产级 UI 的团队。
+  来源：https://github.com/Nutlope/hallmark
+· 发生了什么：HeyGen 开源的超轻量视频生成框架。开发者可以用标准 HTML/CSS/JS 编写页面，hyperframes 自动将其渲染为视频帧。专为 AI Agent 设计，让 Agent 可以用代码直接生成视频内容，而不需要复杂的视频编辑 API。
+· 为什么重要：视频生成正在从 prompt-to-video 向 programmatic 演变。hyperframes 允许 Agent 通过编写 HTML 来精确控制视频内容，适用于动态数据可视化、自动化营销视频等场景。对于需要批量生成视频的团队，这可能比调用视频生成 API 更可控和成本更低。
+  来源：https://github.com/heygen-com/hyperframes
+
+🐦 AI 圈热议
+· 发生了什么：Linus Torvalds 在 Linux 内核邮件列表中回应关于 LLM 生成的补丁质量的争议时，明确表态：”AI 是一种工具，就像我们使用的其他工具。它无疑是实用的。我知道有些人真的很讨厌 AI，但在这个问题上，作为顶级维护者，我绝对将脚踩下。Linux 不是一个反 AI 的项目。如果有人对此有异议，他们可以 fork 它，或者走开。”这条表态在 r/LocalLLaMA、Hacker News 和 The Register 上引发了大量讨论。
+· 为什么重要：Linus 的立场代表了开源基础设施维护者中一种现实主义的转向：不是否认 AI 的缺陷，而是接受它作为工具链的一部分，并强调有意义的审查流程。这对于依赖开源生态的 AI builder 是一个积极信号——至少内核社区不会对 AI 补丁设立禁令。
+  来源：https://www.theregister.com/ai-and-ml/2026/07/15/linus-torvalds-tells-ai-haters-to-fork-off/5271894
+· 发生了什么：The Decoder 披露，自六月初起，OpenAI 的编码工具 Codex 对主 Agent 传递给子 Agent 的指令进行加密传输，开发者在日志中只能看到加密或空内容，无法追踪内部任务如何委派。对于 GPT-5.6 的 Sol 和 Terra 变体，加密是强制性的。Simon Willison 等知名研究者对此表达了担忧，认为这阻碍了调试和对 Agent 行为的理解。
+· 为什么重要：这触及了 AI Agent 透明性的核心矛盾。如果开发者无法看到 Agent 的内部决策过程，故障排查、安全性审计和信任建立将变得困难。对于在生产环境中使用 Codex 的团队，这可能是一个需要权衡的因素：便捷 vs. 可观测性。
+  来源：https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/
+
+💡 独立开发者灵感
+· 灵感来源：Hacker News 的 Launch HN 帖子：Coasty 提供了一套 API，允许开发者构建可以操作浏览器的“计算机使用 agent”。类似于 Anthropic 的 computer use 功能，但以 API 形式提供。创始人分享了他们如何用这套 API 帮客户自动化 SaaS 操作流程。
+· 可借鉴的点：独立开发者可以用 Coasty 快速构建浏览器自动化工具（如自动化表单填写、数据抓取、流程验证），而不必自己处理浏览器控制、截图解析等基础设施。可以关注竞品定价和差异化，例如构建特定垂直场景的 agent（如自动化 LinkedIn 开发信发送）。
+  来源：https://coasty.ai/docs
+· 灵感来源：Show HN 上展示的一个开源工具，使用传统计算机视觉算法和风格化渲染（非 AI/ML）将照片转为数字绘画效果。作者强调没有使用生成式 AI，而是通过像素级处理实现水彩、油画等风格。HN 上有人讨论这种“非 AI”方案对资源敏感场景的价值。
+· 可借鉴的点：独立开发者可以思考：“哪些场景下传统算法 + 脚本可能比大模型更高效/更可控？”Painterly 证明了在某些创意工具领域，确定性算法仍然有空间，尤其是在用户需要精确控制的情况下。可以结合 LLM 做风格描述解析，再用传统算法渲染，形成 hybrid 方案。
+  来源：https://github.com/jbunke/painterly
+· 灵感来源：TechCrunch 报道的初创公司 Reelful，其 app 利用 AI 从用户手机相册中自动挑选照片和片段，配上音乐和转场，生成适合社交媒体发布的短视频。针对那些想创作内容但觉得视频编辑太复杂/耗时的用户。
+· 可借鉴的点：思路可以复制到垂直场景：比如自动从电商产品的图片生成宣传短视频、从运动员训练视频自动生成精彩集锦。关键是找到“素材充足但缺乏编辑时间/技能的”用户群体，用 AI 替代繁琐的编排工作。商业模式可以是订阅制或按视频计费。
+  来源：https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/
+
+💡 今日观察
+今天的事件拼在一起，揭示了三个并行趋势：**开放模型正从“参数竞赛”转向“实用部署”**。Inkling 成为最大开放权重模型，但缺少协议栈；Soofi S 验证了非英语开源模型的价值；Bonsai 27B 和 LiteRT.js 则推动了在消费级设备上运行大模型的能力——模型大小不再是唯一指标，可部署性成为新焦点。**Agent 的安全性和透明性问题集中爆发**。Codex 加密 Agent 间指令、dcg 工具的出现、Meta AI 裁员诉讼，都在提醒：Agent 的采用正快速超过行业对其风险的理解和控制能力。**最后，科学发现正在成为大模型能力的试金石**。GPT-5.6 Sol 推翻 30 年统计猜想与 OpenAI 的 GPT-Red 自我攻击系统一起，暗示模型正在从“工具”变成“合作研究者”。三个月后回看，今天最重要的可能是 GPT-5.6 Sol 的那个数学发现——如果 AI 能可靠地产生新知识，整个科研模式将被改写。
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-07-15">AI 每日简报 · 2026-07-15 周三</span>
     <button class="cbtn" data-copy="t-2026-07-15">📋 复制标题</button>
   </div>
@@ -1329,100 +1425,6 @@
 
 💡 今日观察
 今天最值得关注的信号是 **Anthropic 的&quot;多线出击&quot;战略**：Fable 5 解禁、Sonnet 5 发布、Claude Science 推出，三件大事同日发生，表明 Anthropic 正在 IPO 前夕全力展示产品矩阵的完整性和商业能力。同时，Sonnet 5 的&quot;隐藏涨价&quot;模式和 Claude Code 的监控风波也揭示了 AI 企业在商业化扩张中的隐忧——成本透明度和用户信任正在成为新的竞争维度。另外，Meta 和 SpaceX 纷纷将过剩算力货币化，预示着 AI 基础设施将从&quot;自用&quot;走向&quot;开放市场&quot;，这可能重塑云计算格局。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-07-01">AI 每日简报 · 2026-07-01 周三</span>
-    <button class="cbtn" data-copy="t-2026-07-01">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-07-01.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-07-01.mp3" download="2026-07-01.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-07-01">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-07-01">AI 每日简报 · 2026-07-01 周三
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· Claude Sonnet 5 发布：Anthropic 发布 Claude Sonnet 5，性能接近旗舰 Opus 4.8，但价格大幅降低，定位为最具 Agent 能力的 Sonnet 模型。
-  来源：https://www.anthropic.com/news/claude-sonnet-5
-· Claude Code 涨价 5 倍且被发现隐写标记请求：Claude Code 被曝价格悄然上涨约 5 倍，同时社区发现其通过隐写术标记用户请求，引发隐私争议。
-  来源：https://www.vincentschmalbach.com/claude-code-quietly-looks-5x-more-expensive/ / https://thereallo.dev/blog/claude-code-prompt-steganography
-· Anthropic 推出 Claude Science：面向科研人员的 AI 工作台，内置 60+ 预配置技能（基因组学、计算化学等），支持本地或 HPC 集群运行。
-  来源：https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/
-· Google 发布 Nano Banana 2 Lite 和 Gemini Omni Flash：Nano Banana 2 Lite 可在 4 秒内生成图像，每千张仅 $0.034；Gemini Omni Flash 首次将视频生成与编辑引入 API。
-  来源：https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/
-· 美团开源 LongCat-2.0：1.6T 参数编码模型，全程国产芯片训练：LongCat-2.0 是一个 1.6 万亿参数 MoE 模型，完全在中国芯片上训练，已在 OpenRouter 上领先多周。
-  来源：https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips/
-· DeepSeek 开源 DSpark 推理加速框架：新框架可将 LLM 推理速度提升 60-85%，通过小模型提议 token 候选、大模型批量验证的方式实现。
-  来源：https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85
-· OpenAI 大幅降低 ChatGPT 推理成本：据 The Information 报道，OpenAI 将 ChatGPT 推理成本降低一半以上，部分时段仅需几百块 Nvidia GPU。
-  来源：https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/
-· AI 芯片初创公司 Etched 估值达 50 亿美元：Etched 宣布其 AI 推理芯片已签订 10 亿美元合同，成为 Nvidia 的重要竞争者。
-  来源：https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/
-· Amazon 成立 10 亿美元 FDE 组织：继 OpenAI 和 Anthropic 之后，Amazon 新成立的团队将嵌入企业部署专用 AI Agent。
-  来源：https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/
-· Claude Desktop 推出 Linux 测试版：Anthropic 的桌面客户端正式支持 Linux 平台。
-  来源：https://code.claude.com/docs/en/desktop-linux
-· OpenAI 预告 Codex 硬件设备：OpenAI 发布视频预告 7 月 15 日将推出与 Codex 相关的硬件设备。
-  来源：https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder
-· 智谱 AI 发布 GLM-5.2，称在网络安全场景可匹敌 Mythos：中国开源模型在特定领域缩小了与顶级模型的差距。
-  来源：https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity
-· 华为开源 OpenPangu-2.0-Flash：92B 总参数、6B 活跃参数的 512K 上下文模型，权重和推理代码均已开源。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1ujn5u3/huawei_opensources_openpangu20flash_92b_total6b/
-· Meta 秘密测试竞品聊天机器人对未成年人危机提示的响应：数百名承包商伪装成未成年人向 ChatGPT、Gemini 等发送超 45,000 条自杀、性、毒品相关提示。
-  来源：https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/
-· OpenClaw 登陆 Android 和 iOS：免费开源 Agent 编程工具正式进入移动端。
-  来源：https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/
-
-📄 重要论文
-· Scaling the Horizon, Not the Parameters：35B Agent 达到万亿参数性能：通过扩展 Agent 的交互轨迹长度和异构能力，35B MoE 模型达到了万亿参数级别的性能，平均轨迹长度达 45K token。
-  来源：https://arxiv.org/abs/2606.30616v1
-· Self-Evolving World Models for LLM Agent Planning：WorldEvolver 框架让世界模型在部署时自我进化，无需冻结下游 Agent 和模型参数，通过情景记忆和检索增强实现更好的规划。
-  来源：https://arxiv.org/abs/2606.30639v1
-· Pessimism's Paradox：保守离线训练加剧在线推理模型的奖励破解：研究发现 DPO 训练中更高的保守性（β 值）反而导致在线适应时更严重的奖励破解行为。
-  来源：https://arxiv.org/abs/2606.30627v1
-· SWE-Together：交互式用户会话中的编码 Agent 评估：新的多轮基准测试，从真实用户-Agent 编码会话中重建 109 个仓库级任务，评估 Agent 在交互场景中的表现。
-  来源：https://huggingface.co/papers/2606.29957
-· Agentic Abstention：Agent 何时应该停止行动：定义 Agent 在不确定情况下应放弃行动的问题，不同于标准 LLM 的拒绝机制。
-  来源：https://huggingface.co/papers/2606.28733
-· TabFM：零样本表格数据基础模型：Google 发布 TabFM，首个针对表格数据的零样本基础模型。
-  来源：https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/
-· OpenAI 发布 GeneBench-Pro：新的基准测试，评估 AI 在基因组学、生物学和科学研究中的性能。
-  来源：https://openai.com/index/introducing-genebench-pro
-· C²R：跨样本一致性正则化缓解稀疏自编码器的特征分裂与吸收：解决 SAE 中概念碎片化和特征异常问题的新方法。
-  来源：https://arxiv.org/abs/2606.30609v1
-
-🔧 开源项目
-· Meituan/LongCat-2.0：美团开源的 1.6T 参数 MoE 编码模型，全程国产芯片训练。
-  来源：https://github.com/Meituan/LongCat-2.0
-· DeepSeek/DSpark：MIT 许可的 LLM 推理加速框架，提升速度达 85%。
-  来源：https://github.com/DeepSeek/DSpark
-· browser-use/video-use：用编码 Agent 编辑视频的开源工具。
-  来源：https://github.com/browser-use/video-use
-· google/agents-cli：Google 推出的 CLI 工具，可将任何编码助手转化为创建、评估和部署 AI Agent 的专家。
-  来源：https://github.com/google/agents-cli
-· msitarzewski/agency-agents：完整的 AI 代理机构框架，包含前端专家、Reddit 社区运营等角色。
-  来源：https://github.com/msitarzewski/agency-agents
-· facebook/astryx：Meta 开源的完全可定制、Agent 就绪的设计系统。
-  来源：https://github.com/facebook/astryx
-· 104.dev 开源内部编码 Agent 基础设施：团队开源了其内部使用的编码 Agent 基础设施。
-  来源：https://news.ycombinator.com/item?id=48736251
-· strix：开源 AI 渗透测试工具：自动发现和修复应用漏洞的 AI 安全工具。
-  来源：https://github.com/usestrix/strix
-
-🐦 AI 圈热议
-· Claude Code 隐写标记引发隐私争议：社区发现 Claude Code 通过隐写术在用户请求中嵌入标记，Hacker News 上讨论热烈（1267 分，357 条评论）。开发者质疑这是否侵犯隐私，Anthropic 尚未正式回应。
-  来源：https://news.ycombinator.com/item?id=48736251
-· Anthropic 负责人称 HTML 比 Markdown 更利于 Agent 协作：Anthropic 负责人表示，在 Agent 协作流程中，HTML 比 Markdown 更适合人类跟进和理解智能体的工作过程。
-  来源：https://www.infoq.cn/article/i3eauD7F8KF9gVY3SD18
-
-💡 今日观察
-今天最值得关注的信号是行业格局的剧烈分化：一方面，Anthropic 同时推出 Sonnet 5、Claude Science 和 Linux 桌面端，产品矩阵快速扩张；另一方面，Claude Code 的涨价和隐写争议又让社区对其信任产生动摇。与此同时，中国 AI 阵营的突破不容忽视——美团 LongCat-2.0 全程国产芯片训练达到顶级水平，DeepSeek DSpark 进一步降低推理成本，华为和智谱也在持续开源，国产 AI 生态正在从&quot;追赶&quot;转向&quot;并跑&quot;。此外，Google 的 Nano Banana 2 Lite 和 Gemini Omni Flash 将企业级图像和视频生成成本拉低到前所未有的水平，AI 内容生成正在从实验阶段走向大规模生产。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>

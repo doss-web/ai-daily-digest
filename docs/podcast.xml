@@ -15,6 +15,35 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-07-16 周四</title>
+      <description>嗨，大家好，欢迎收听今天的AI行业每日播客，我是你们的主播。今天是2026年7月16号，星期三。
+今天AI圈相当热闹，几个大新闻绝对值得你花几分钟通勤时间来听听。咱们从最重磅的模型发布开始，再到一个差点颠覆统计学的数学发现，还有一大波关于Agent安全、开源工具和开发者灵感的消息。准备好了吗？咱们这就开聊。
+先看第一个大新闻。由前OpenAI和Meta研究员创办的Thinking Machines Lab，终于发布了他们的第一个公开模型，名字叫Inkling。这个模型有九千七百五十亿参数，支持文本、图像、视频和音频，是现在最大的开放权重多模态模型之一。他们花了三万五千张H100来训练，开源许可用的是Apache 2.0，听上去很不错。但注意一点，它没包含训练代码、数据，还有强化学习用的协议栈。也就是说，这个模型是开放的，但你想直接用起来做产品部署，还得自己再搭不少东西。不过它在多模态任务上已经接近GPT-5.5的水平，值得关注。
+另外一个让人忍不住倒吸一口气的新闻来自OpenAI。他们的最新推理模型，GPT-5.6 Sol，在九十分钟内就推翻了一个三十年的统计学猜想，叫Benjamini-Hochberg方法的核心猜想。宾夕法尼亚大学的一位教授用这个模型给出了一个全新的证明，人类研究者好几年都没解出来，它却用一个组合已知方法的思路，给了一个全新的解答。这事儿太有意义了——模型不仅会搜索知识，开始会“发现新知识”了。
+好，搞科研归搞科研，咱开发者还得关注现实中的坑。今天有几个关于Agent安全和成本控制的消息。首先，OpenAI的Codex从六月开始，对主Agent传递给子Agent的指令做了加密传输。也就是说，开发者以后在日志里看不到内部任务怎么委派的。对于调试、安全审计和信任建立，这绝对是个痛点。其次，1Password推出了AI成本管理功能，帮助企业实时监控Anthropic、Cursor、OpenAI这些服务的token支出，防止预算突然失控。看来大公司也终于意识到，Agent用多了，钱花得像流水一样。
+开源这块也很精彩。Google正式发布了LiteRT.js，让你能在浏览器里直接用WebGPU运行TensorFlow Lite模型，性能比之前快三到六十倍。同时德国AI联盟发布了Soofi S，一个三十一点六B参数但只激活三点二B参数的混合Mamba-Transformer架构模型，在德语和英语的测试上超过了同尺寸的LLaMA和Mistral，而且是完全开源。还有PrismML把Qwen3.6压到了四个GB，直接可以在手机和笔记本上跑二十七B的模型，苹果据说已经在测试这种极端压缩技术了。
+今天还有几个非常实用的开源工具，独立开发者可以多看两眼。一个叫Destructive Command Guard，是个轻量级CLI工具，专门挡Agent执行那些危险的命令，比如rm -rf / 或者 git push --force到错误仓库。你如果天天用Claude Code或者Codex搞代码，这个基本是安全必需品。另一个叫OfficeCLI，专门给Agent读写Word、Excel和PowerPoint文件的，不需要装Office，一个二进制就搞定。另外，VoltAgent社区维护了超过一千个Agent技能集，名字叫awesome-agent-skills，直接导入就能用，省了你自己从头写提示词。
+最后，咱们也不能忘了法律风险。26名前Meta员工在加州提起了集体诉讼，指控Meta在二零二二到二零二三年裁员八千人时，用内部AI工具分析绩效数据，系统性地针对正在休病假、产假或残疾假的员工进行裁员。这是首个大型AI驱动裁员的歧视诉讼，如果成立，对企业使用AI做人力资源决策会有很大震慑。
+好啦，咱们用今天的深度观察来收个尾。今天这些事件拼在一起，三个趋势很明显：开放模型正从参数竞赛转向实用部署，模型大小不再是唯一指标，本地运行能力成了新焦点；Agent的安全和透明性问题集中爆发，很多人在提醒，Agent的采用速度已经超过了我们对风险的控制能力；最后，科学发现正在成为大模型能力的试金石，GPT-5.6 Sol推翻三十年统计猜想的例子，暗示AI正在从工具变成合作研究者。三个月后回看，今天最重要的可能就是这个数学发现。
+今天就聊到这儿。如果有什么感</description>
+      <itunes:summary>嗨，大家好，欢迎收听今天的AI行业每日播客，我是你们的主播。今天是2026年7月16号，星期三。
+今天AI圈相当热闹，几个大新闻绝对值得你花几分钟通勤时间来听听。咱们从最重磅的模型发布开始，再到一个差点颠覆统计学的数学发现，还有一大波关于Agent安全、开源工具和开发者灵感的消息。准备好了吗？咱们这就开聊。
+先看第一个大新闻。由前OpenAI和Meta研究员创办的Thinking Machines Lab，终于发布了他们的第一个公开模型，名字叫Inkling。这个模型有九千七百五十亿参数，支持文本、图像、视频和音频，是现在最大的开放权重多模态模型之一。他们花了三万五千张H100来训练，开源许可用的是Apache 2.0，听上去很不错。但注意一点，它没包含训练代码、数据，还有强化学习用的协议栈。也就是说，这个模型是开放的，但你想直接用起来做产品部署，还得自己再搭不少东西。不过它在多模态任务上已经接近GPT-5.5的水平，值得关注。
+另外一个让人忍不住倒吸一口气的新闻来自OpenAI。他们的最新推理模型，GPT-5.6 Sol，在九十分钟内就推翻了一个三十年的统计学猜想，叫Benjamini-Hochberg方法的核心猜想。宾夕法尼亚大学的一位教授用这个模型给出了一个全新的证明，人类研究者好几年都没解出来，它却用一个组合已知方法的思路，给了一个全新的解答。这事儿太有意义了——模型不仅会搜索知识，开始会“发现新知识”了。
+好，搞科研归搞科研，咱开发者还得关注现实中的坑。今天有几个关于Agent安全和成本控制的消息。首先，OpenAI的Codex从六月开始，对主Agent传递给子Agent的指令做了加密传输。也就是说，开发者以后在日志里看不到内部任务怎么委派的。对于调试、安全审计和信任建立，这绝对是个痛点。其次，1Password推出了AI成本管理功能，帮助企业实时监控Anthropic、Cursor、OpenAI这些服务的token支出，防止预算突然失控。看来大公司也终于意识到，Agent用多了，钱花得像流水一样。
+开源这块也很精彩。Google正式发布了LiteRT.js，让你能在浏览器里直接用WebGPU运行TensorFlow Lite模型，性能比之前快三到六十倍。同时德国AI联盟发布了Soofi S，一个三十一点六B参数但只激活三点二B参数的混合Mamba-Transformer架构模型，在德语和英语的测试上超过了同尺寸的LLaMA和Mistral，而且是完全开源。还有PrismML把Qwen3.6压到了四个GB，直接可以在手机和笔记本上跑二十七B的模型，苹果据说已经在测试这种极端压缩技术了。
+今天还有几个非常实用的开源工具，独立开发者可以多看两眼。一个叫Destructive Command Guard，是个轻量级CLI工具，专门挡Agent执行那些危险的命令，比如rm -rf / 或者 git push --force到错误仓库。你如果天天用Claude Code或者Codex搞代码，这个基本是安全必需品。另一个叫OfficeCLI，专门给Agent读写Word、Excel和PowerPoint文件的，不需要装Office，一个二进制就搞定。另外，VoltAgent社区维护了超过一千个Agent技能集，名字叫awesome-agent-skills，直接导入就能用，省了你自己从头写提示词。
+最后，咱们也不能忘了法律风险。26名前Meta员工在加州提起了集体诉讼，指控Meta在二零二二到二零二三年裁员八千人时，用内部AI工具分析绩效数据，系统性地针对正在休病假、产假或残疾假的员工进行裁员。这是首个大型AI驱动裁员的歧视诉讼，如果成立，对企业使用AI做人力资源决策会有很大震慑。
+好啦，咱们用今天的深度观察来收个尾。今天这些事件拼在一起，三个趋势很明显：开放模型正从参数竞赛转向实用部署，模型大小不再是唯一指标，本地运行能力成了新焦点；Agent的安全和透明性问题集中爆发，很多人在提醒，Agent的采用速度已经超过了我们对风险的控制能力；最后，科学发现正在成为大模型能力的试金石，GPT-5.6 Sol推翻三十年统计猜想的例子，暗示AI正在从工具变成合作研究者。三个月后回看，今天最重要的可能就是这个数学发现。
+今天就聊到这儿。如果有什么感</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-16.mp3" length="1861920" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-16.mp3</guid>
+      <pubDate>Thu, 16 Jul 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-07-15 周三</title>
       <description>各位早上好，今天是2026年7月15号，欢迎收听今天的AI行业播报。今天有种大事扎堆儿的感觉：手机上终于能跑27B的大模型了，OpenAI的GPT-5.6惹了不小的麻烦，DeepSeek又融了一笔巨款。咱们一件一件聊。
 先说个可能改变游戏规则的，Bonsai 27B。PrismML这家公司，搞了个狠活儿，把qwen三六-27B这个模型，用一比特和三元的量化技术，给压缩到了只有3.8G和5.9G。这意味着什么？就是你手里的手机或者笔记本，不用联网，直接在浏览器里，用WebGPU就能跑一个27B参数的大模型。性能上呢，三元版在部分测试里接近Q2的水平，比Q4强有限，工具调用也不算完美。但关键是，这是第一次，这么大的模型能在消费级设备上本地运行。对于注重隐私或者需要在离线场景做Agent工作的开发者，这绝对是颠覆性的。同一天，腾讯混元也发了个一比特量化的Hy3 295B模型，也能单卡部署了，看来端侧量化的军备竞赛已经白热化了。
@@ -419,35 +448,6 @@ OpenAI也不甘寂寞。一篇论文意外曝光了GPT-5.6 Pro可能推出三个
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-02.mp3</guid>
       <pubDate>Thu, 02 Jul 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:55</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-07-01 周三</title>
-      <description>各位听众朋友们早上好，今天是2026年7月1号，欢迎收听今天的AI行业播报。今天可以说是信息量爆棚的一天，从模型发布到开源突破，从隐私争议到硬件新秀，我们一起来梳理一下。
-首先，最重磅的消息来自Anthropic，他们正式发布了Claude Sonnet 5。这款新模型性能直追旗舰级的Opus 4.8，但价格却大幅降低，被定位为最具Agent能力的Sonnet系列。对开发者来说，这意味着可以用更低的成本获得强大的智能体能力。不过，Anthropic的另一款产品Claude Code却引发了不小的风波——有用户发现它的价格悄然上涨了大约五倍，同时，社区还发现它通过隐写术在用户请求中嵌入标记，引发了隐私方面的争议。一边是新产品降价，一边是老产品涨价且存疑，Anthropic这波操作真是让人心情复杂。
-同样来自Anthropic的还有一款新产品叫Claude Science，这是一个面向科研人员的AI工作台，内置了六十多种预配置的技能，涵盖了基因组学、计算化学等领域，而且支持在本地或高性能计算集群上运行，对科研工作者来说是个好消息。另外，Claude Desktop也推出了Linux测试版，Linux用户终于可以在桌面端直接使用Claude了。
-另一边，Google也没闲着。他们发布了Nano Banana 2 Lite和Gemini Omni Flash。Nano Banana 2 Lite可以在四秒内生成图像，每千张的成本只要三美分多一点，价格低得惊人。而Gemini Omni Flash更是首次把视频生成和编辑功能直接放进了API里，企业级视频内容的生产成本被拉到了前所未有的水平。
-再来看国内阵营。美团开源了LongCat-2.0，这是一个拥有1.6万亿参数的MoE编码模型，而且全程是在国产芯片上训练的，已经在OpenRouter上领先了多周。这证明了中国在没有Nvidia芯片的条件下，同样能训练出顶级的模型。DeepSeek也开源了DSpark推理加速框架，能把大模型的推理速度提升百分之六十到八十五，通过小模型提议、大模型验证的方式，进一步减少了对高端硬件的依赖。此外，智谱AI发布了GLM-5.2，号称在网络安全场景可以匹敌Mythos，华为也开源了OpenPangu-2.0-Flash，国产AI生态正在从追赶转向并跑。
-说到硬件，AI芯片初创公司Etched估值达到了五十亿美元，他们已经签订了十亿美元的AI推理芯片合同，正在成为Nvidia的有力竞争者。Amazon也不甘落后，成立了一个十亿美元的FDE组织，专门为企业部署专用的AI Agent，这标志着企业AI部署正从工具提供转向深度嵌入服务。
-另外，Meta最近搞了一个秘密测试，他们让数百名承包商伪装成未成年人，向ChatGPT、Gemini等聊天机器人发送了超过四万五千条涉及自杀、性和毒品的危机提示，测试这些AI的响应。这暴露了AI安全测试的灰色地带，也引发了行业竞争的争议。
-论文方面，今天有几篇特别值得关注。一篇提出通过扩展Agent的交互轨迹长度，而不是模型参数规模，一个只有350亿参数的MoE模型就达到了万亿参数级别的性能，平均交互轨迹长度达到了四万五千个token。另一篇提出了WorldEvolver框架，让世界模型在部署时自我进化，通过情景记忆和检索增强来提升Agent的规划能力。还有一篇挑战了传统认知，发现DPO训练中更高的保守性反而会导致在线适应时更严重的奖励破解行为，也就是说，保守训练不一定更安全。
-开源项目方面，除了前面提到的LongCat和DSpark，Google推出了agents-cli工具，可以把任何编码助手转化为创建、评估和部署AI Agent的专家。Meta开源了astryx，一个完全可定制、Agent就绪的设计系统。还有browser-use/video-use，这是一个用编码Agent来编辑视频的开源工具，AI Agent的应用范围正在从代码扩展到视频编辑。
-最后，我们来聊聊社区热议。Claude Code的隐写标记事件在Hacker News上引发了热烈讨论，开发者质疑这是否侵犯隐私，而Anthropic目前还没有正式回应。另外，Anthropic的一位负责人表示，在Agent协作流程中，HTML比Markdown更适合人类跟进和理解智能体</description>
-      <itunes:summary>各位听众朋友们早上好，今天是2026年7月1号，欢迎收听今天的AI行业播报。今天可以说是信息量爆棚的一天，从模型发布到开源突破，从隐私争议到硬件新秀，我们一起来梳理一下。
-首先，最重磅的消息来自Anthropic，他们正式发布了Claude Sonnet 5。这款新模型性能直追旗舰级的Opus 4.8，但价格却大幅降低，被定位为最具Agent能力的Sonnet系列。对开发者来说，这意味着可以用更低的成本获得强大的智能体能力。不过，Anthropic的另一款产品Claude Code却引发了不小的风波——有用户发现它的价格悄然上涨了大约五倍，同时，社区还发现它通过隐写术在用户请求中嵌入标记，引发了隐私方面的争议。一边是新产品降价，一边是老产品涨价且存疑，Anthropic这波操作真是让人心情复杂。
-同样来自Anthropic的还有一款新产品叫Claude Science，这是一个面向科研人员的AI工作台，内置了六十多种预配置的技能，涵盖了基因组学、计算化学等领域，而且支持在本地或高性能计算集群上运行，对科研工作者来说是个好消息。另外，Claude Desktop也推出了Linux测试版，Linux用户终于可以在桌面端直接使用Claude了。
-另一边，Google也没闲着。他们发布了Nano Banana 2 Lite和Gemini Omni Flash。Nano Banana 2 Lite可以在四秒内生成图像，每千张的成本只要三美分多一点，价格低得惊人。而Gemini Omni Flash更是首次把视频生成和编辑功能直接放进了API里，企业级视频内容的生产成本被拉到了前所未有的水平。
-再来看国内阵营。美团开源了LongCat-2.0，这是一个拥有1.6万亿参数的MoE编码模型，而且全程是在国产芯片上训练的，已经在OpenRouter上领先了多周。这证明了中国在没有Nvidia芯片的条件下，同样能训练出顶级的模型。DeepSeek也开源了DSpark推理加速框架，能把大模型的推理速度提升百分之六十到八十五，通过小模型提议、大模型验证的方式，进一步减少了对高端硬件的依赖。此外，智谱AI发布了GLM-5.2，号称在网络安全场景可以匹敌Mythos，华为也开源了OpenPangu-2.0-Flash，国产AI生态正在从追赶转向并跑。
-说到硬件，AI芯片初创公司Etched估值达到了五十亿美元，他们已经签订了十亿美元的AI推理芯片合同，正在成为Nvidia的有力竞争者。Amazon也不甘落后，成立了一个十亿美元的FDE组织，专门为企业部署专用的AI Agent，这标志着企业AI部署正从工具提供转向深度嵌入服务。
-另外，Meta最近搞了一个秘密测试，他们让数百名承包商伪装成未成年人，向ChatGPT、Gemini等聊天机器人发送了超过四万五千条涉及自杀、性和毒品的危机提示，测试这些AI的响应。这暴露了AI安全测试的灰色地带，也引发了行业竞争的争议。
-论文方面，今天有几篇特别值得关注。一篇提出通过扩展Agent的交互轨迹长度，而不是模型参数规模，一个只有350亿参数的MoE模型就达到了万亿参数级别的性能，平均交互轨迹长度达到了四万五千个token。另一篇提出了WorldEvolver框架，让世界模型在部署时自我进化，通过情景记忆和检索增强来提升Agent的规划能力。还有一篇挑战了传统认知，发现DPO训练中更高的保守性反而会导致在线适应时更严重的奖励破解行为，也就是说，保守训练不一定更安全。
-开源项目方面，除了前面提到的LongCat和DSpark，Google推出了agents-cli工具，可以把任何编码助手转化为创建、评估和部署AI Agent的专家。Meta开源了astryx，一个完全可定制、Agent就绪的设计系统。还有browser-use/video-use，这是一个用编码Agent来编辑视频的开源工具，AI Agent的应用范围正在从代码扩展到视频编辑。
-最后，我们来聊聊社区热议。Claude Code的隐写标记事件在Hacker News上引发了热烈讨论，开发者质疑这是否侵犯隐私，而Anthropic目前还没有正式回应。另外，Anthropic的一位负责人表示，在Agent协作流程中，HTML比Markdown更适合人类跟进和理解智能体</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-01.mp3" length="2071008" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-01.mp3</guid>
-      <pubDate>Wed, 01 Jul 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>05:45</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
