@@ -15,6 +15,33 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-07-17 周五</title>
+      <description>各位听众朋友大家好，今天是2026年7月17号，星期六，欢迎收听今天的AI行业播报。今天可以说是开源模型的“超级星期六”，多项重磅发布让整个行业为之一振。同时，AI Agent的安全和交互方式也迎来了关键进展。我们马上开始。
+首先来看绝对的主角——月之暗面今天凌晨发布了Kimi K3，一个拥有二点八万亿参数的MoE架构开源模型。这个数字让它成了全球参数规模最大的开源模型，而且它在自研的评测中，多项指标已经逼近甚至超越了GPT-5.6 Sol和Claude Fable 5。权重承诺在7月27号前开放，许可证是Apache 2.0。这个发布的意义在于，它宣告中国开源模型正式从“高性价比”转向了“世界级性能竞争”。
+好，说到竞争，今天还有另外两位重磅选手。前OpenAI CTO Mira Murati创办的Thinking Machines Lab，发布了自己的首个模型Inkling。这个模型有9750亿总参数，激活参数41B，同样采用MoE架构，支持文本、图像和音频输入，上下文长度也是100万token。它定位为一个优秀的微调基底，而并非直接追求在所有测试中拿第一。有意思的是，同一天德国AI联盟也发布了Soofi S 30B，一个只有32亿活跃参数的混合Mamba-Transformer架构模型，在德语和英语上表现非常亮眼。一天之内，三个方向的开源模型齐发，充分说明了开源生态的活力和多样性。
+再来看巨头的动态。Google今天有两件事值得关注。首先是下一代Gemini模型被曝推迟了，据Bloomberg报道，原因是模型没有达到内部设定的性能标准。同时，他们正式把NotebookLM改名为Gemini Notebook，并将其深度整合进搜索和应用生态里。这个改名不只是换Logo，新版本还给每个笔记本配了独立的云端计算环境，支持编写和执行代码，这看起来像是Google在把AI笔记工具打造成下一代操作系统的一个入口。
+说到安全，今天也有重要进展。OpenAI发布了他们内部的自动化红队模型GPT-Red。这个模型通过自我博弈强化学习训练，在间接提示注入的攻击测试中取得了高达百分之八十四的成功率，而人类红队的成功率只有百分之十三。它还发现了一种全新的攻击方式，叫做“虚假思维链”。这标志着AI安全测试正在从依赖人工转向AI驱动的范式转变。与此同时，1Password与Claude的集成也值得关注，它让AI Agent可以安全地调用你的登录凭证来完成多步任务，这解决了agent类应用中一个很大的安全痛点。
+再来看一些硬件和工具端的新鲜事。OpenAI与键盘制造商Work Louder联合推出了Codex Micro，这是一个小巧的硬件控制器，配备按钮和摇杆。你可以用它物理地控制AI Agent的执行流程，比如暂停、重试或者切换工具。这标志着AI交互正从纯命令行延伸到物理控制层面，对于开发Agent应用的团队来说，这个设计理念很有借鉴价值。
+开源项目方面，今天也有不少亮点。Hallmark这个项目专门提供一组提示词，帮助Claude Code、Cursor这些工具生成更好看、不“AI味”的前端界面。Graphify则能把任意文件夹里的代码转成一个可查询的知识图谱，是理解大型代码库的利器。还有一个新项目OfficeCLI，让AI Agent可以直接在命令行里读写Word、Excel和PowerPoint文件，对于做企业自动化的团队来说，这简直是个即插即用的组件。
+最后看看社区里的讨论。Kimi K3发布后，在Arena.ai上的评分一度超过了GPT-5.6 Sol和Claude Fable 5，这让社区炸开了锅。很多人感叹“开源模型正在逼近闭源”，也有人质疑基准测试的可靠性。另外，Linus Torvalds今天也在内核邮件列表里明确表态，说AI就是个工具，如果有人不喜欢，可以fork出来自己走人。他为AI辅助编码站台，可能会影响更多开源项目对AI工具的态度。
+今日观察。今天所有的信息拼在一起，描绘出一幅清晰的画面：开源模型正在以惊人的速度接近闭源能力的天花板。Kimi K3不再是一句“中国性价比”，而是真正站到了世界舞台的中心；Inkling和Soofi S则展现了不同技术路线的可能性。与此同时，Agent的安全问题已经从概念讨论变成了紧迫的工程需求，从</description>
+      <itunes:summary>各位听众朋友大家好，今天是2026年7月17号，星期六，欢迎收听今天的AI行业播报。今天可以说是开源模型的“超级星期六”，多项重磅发布让整个行业为之一振。同时，AI Agent的安全和交互方式也迎来了关键进展。我们马上开始。
+首先来看绝对的主角——月之暗面今天凌晨发布了Kimi K3，一个拥有二点八万亿参数的MoE架构开源模型。这个数字让它成了全球参数规模最大的开源模型，而且它在自研的评测中，多项指标已经逼近甚至超越了GPT-5.6 Sol和Claude Fable 5。权重承诺在7月27号前开放，许可证是Apache 2.0。这个发布的意义在于，它宣告中国开源模型正式从“高性价比”转向了“世界级性能竞争”。
+好，说到竞争，今天还有另外两位重磅选手。前OpenAI CTO Mira Murati创办的Thinking Machines Lab，发布了自己的首个模型Inkling。这个模型有9750亿总参数，激活参数41B，同样采用MoE架构，支持文本、图像和音频输入，上下文长度也是100万token。它定位为一个优秀的微调基底，而并非直接追求在所有测试中拿第一。有意思的是，同一天德国AI联盟也发布了Soofi S 30B，一个只有32亿活跃参数的混合Mamba-Transformer架构模型，在德语和英语上表现非常亮眼。一天之内，三个方向的开源模型齐发，充分说明了开源生态的活力和多样性。
+再来看巨头的动态。Google今天有两件事值得关注。首先是下一代Gemini模型被曝推迟了，据Bloomberg报道，原因是模型没有达到内部设定的性能标准。同时，他们正式把NotebookLM改名为Gemini Notebook，并将其深度整合进搜索和应用生态里。这个改名不只是换Logo，新版本还给每个笔记本配了独立的云端计算环境，支持编写和执行代码，这看起来像是Google在把AI笔记工具打造成下一代操作系统的一个入口。
+说到安全，今天也有重要进展。OpenAI发布了他们内部的自动化红队模型GPT-Red。这个模型通过自我博弈强化学习训练，在间接提示注入的攻击测试中取得了高达百分之八十四的成功率，而人类红队的成功率只有百分之十三。它还发现了一种全新的攻击方式，叫做“虚假思维链”。这标志着AI安全测试正在从依赖人工转向AI驱动的范式转变。与此同时，1Password与Claude的集成也值得关注，它让AI Agent可以安全地调用你的登录凭证来完成多步任务，这解决了agent类应用中一个很大的安全痛点。
+再来看一些硬件和工具端的新鲜事。OpenAI与键盘制造商Work Louder联合推出了Codex Micro，这是一个小巧的硬件控制器，配备按钮和摇杆。你可以用它物理地控制AI Agent的执行流程，比如暂停、重试或者切换工具。这标志着AI交互正从纯命令行延伸到物理控制层面，对于开发Agent应用的团队来说，这个设计理念很有借鉴价值。
+开源项目方面，今天也有不少亮点。Hallmark这个项目专门提供一组提示词，帮助Claude Code、Cursor这些工具生成更好看、不“AI味”的前端界面。Graphify则能把任意文件夹里的代码转成一个可查询的知识图谱，是理解大型代码库的利器。还有一个新项目OfficeCLI，让AI Agent可以直接在命令行里读写Word、Excel和PowerPoint文件，对于做企业自动化的团队来说，这简直是个即插即用的组件。
+最后看看社区里的讨论。Kimi K3发布后，在Arena.ai上的评分一度超过了GPT-5.6 Sol和Claude Fable 5，这让社区炸开了锅。很多人感叹“开源模型正在逼近闭源”，也有人质疑基准测试的可靠性。另外，Linus Torvalds今天也在内核邮件列表里明确表态，说AI就是个工具，如果有人不喜欢，可以fork出来自己走人。他为AI辅助编码站台，可能会影响更多开源项目对AI工具的态度。
+今日观察。今天所有的信息拼在一起，描绘出一幅清晰的画面：开源模型正在以惊人的速度接近闭源能力的天花板。Kimi K3不再是一句“中国性价比”，而是真正站到了世界舞台的中心；Inkling和Soofi S则展现了不同技术路线的可能性。与此同时，Agent的安全问题已经从概念讨论变成了紧迫的工程需求，从</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-17.mp3" length="2033856" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-17.mp3</guid>
+      <pubDate>Fri, 17 Jul 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>05:38</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-07-16 周四</title>
       <description>哈喽，各位科技控、AI玩家们，早上好。今天是2026年7月16号，欢迎收听今天的AI行业播报。今天的AI圈可以说是神仙打架，信息量爆棚。从开源阵营杀出重磅选手，到OpenAI在安全和透明度上玩了个大反转，咱们一起来看看今天有哪些不能错过的故事。
 先说一个炸裂的消息。前OpenAI的CTO米拉·穆拉蒂创立的新公司叫Thinking Machines，今天发布了一个重磅产品，叫Inkling。这是一个参数量9750亿的多模态模型，支持文本、图像、音频，关键是它用的是Apache 2.0开源协议。公司强调说，这个模型虽然在绝对性能上可能赶不上闭源的前沿产品，但主打一个低成本和抗审查，可以直接部署在企业自己的私有云里。这事儿之所以重要，是因为它给那些对数据主权有强需求的企业，提供了一个很实在的新选项。这不是唯一的好消息，同一天，德国的一个联盟也发布了一个300亿参数的、兼顾英德双语表现的开源模型，看来开源生态今天是真的热闹。
@@ -417,35 +444,6 @@ Anthropic还发布了Claude Science，一个整合碎片化工具和数据集的
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-03.mp3</guid>
       <pubDate>Fri, 03 Jul 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:17</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-07-02 周四</title>
-      <description>各位听众朋友们早上好，今天是2026年7月2号，欢迎收听今天的AI行业日报。今天可以说是Anthropic的“大日子”，一口气放出了三款重磅产品，同时也有不少关于模型成本、开源生态和脑机接口的新动向。好，我们直接进入正题。
-先来说说Anthropic。今天最炸裂的消息是，美国商务部撤销了出口管制令，Anthropic的Claude Fable 5和Mythos 5即日起恢复全球访问权限。这意味着企业客户可以重新部署这个目前最强大的模型了。同时，他们还发布了一款新的中端模型Claude Sonnet 5，性能接近旗舰级的Opus 4.8，但价格更低，官方称它是“最具Agent能力的Sonnet模型”。另外，Anthropic还推出了一个专门为科研人员打造的AI工作台叫Claude Science，内置了60多种预配置技能，支持本地或高性能计算集群部署，敏感数据可以不出实验室。三件事同一天发生，明显是在为IPO造势，展示产品矩阵的完整性和商业能力。
-不过，有光就有影。今天也有两件事值得警惕。第一，有分析发现，Claude Sonnet 5虽然标价没变，但每个任务平均会多消耗约百分之四十的token，实际成本接近翻倍，开发者们要当心这个“隐藏涨价”模式。第二，有人在Claude Code里发现了一段隐藏的监控代码，可以标记中国用户，虽然Anthropic已经移除了这个功能，但这引发了大家对AI工具隐私和地缘政治信任的广泛讨论。
-再来看Google。他们的24小时智能助手Gemini Spark正式登陆Mac平台，支持实时追踪和更多应用。同时，Google发布了Gemini Omni Flash API，这是全新“Omni”系列的第一款模型，能把企业视频制作变成对话式交互，视频制作成本有望大幅降低。
-Meta这边也有大动作。他们计划出售AI算力和模型访问权限，直接跟AWS、Google Cloud、Azure竞争。这其实和SpaceX的思路很像，把过剩算力变成现金流。看来大模型厂商自建云的趋势越来越明显了。
-OpenAI也不甘寂寞。一篇论文意外曝光了GPT-5.6 Pro可能推出三个不同变体，这可能是Pro订阅结构首次重大调整。另外，有报道说OpenAI把guest用户的推理成本降低了一半以上，部分时段只需要几百块NVIDIA GPU就能提供服务，这对免费用户是个好消息。
-英伟达开源了一个机器人技能库叫Skill，Jim Fan说这代表了机器人学习的“范式转变”，能实现持续学习。同时，一家获得Karpathy、李飞飞、Hinton投资的Transformer专用芯片公司，已经流片并签下了10亿美元的大单，专用硬件路线得到了市场验证。
-国内也有不少亮点。硅基流动发布了招股书，揭示了AI推理时代“卖Token”这门生意的真实账本，原来并不是稳赚不赔。中国初创公司Loop的世界模型论文登上了Hugging Face热门，获得了周鸿祎和陆奇的认可。腾讯云也开源了一个叫CubeSandbox的轻量级AI Agent沙箱，用于安全运行Agent。
-最后说几个有意思的。Meta的非侵入式脑机接口取得突破，Brain2Qwerty v2通过颅外磁信号重建打字内容，准确率接近手术植入方案。Cloudflare要求AI公司在9月15号之前区分搜索爬虫和训练爬虫，否则会被大量出版商网站屏蔽，这意味着AI训练数据的获取成本会显著上升。还有，Square推出了一个功能，餐厅可以直接接受来自ChatGPT和Claude的订单，无需额外设置，低费率处理，AI Agent的商业闭环正在打通实体消费场景。
-今日观察。今天最值得关注的信号是Anthropic的“多线出击”战略，三件大事同日发生，表明他们正在IPO前夕全力展示产品矩阵的完整性和商业能力。但同时，Sonnet 5的“隐藏涨价”模式和Claude Code的监控风波也揭示了AI企业在商业化扩张中的隐忧——成本透明度和用户信任正在成为新的竞争维度。另外，Meta和SpaceX纷纷将过剩算力货币化，预示着AI基础设施将从“自用”走向“开放市场”，这可能重塑云计算格局。好了，今天的播报就到这里，我们明天见。</description>
-      <itunes:summary>各位听众朋友们早上好，今天是2026年7月2号，欢迎收听今天的AI行业日报。今天可以说是Anthropic的“大日子”，一口气放出了三款重磅产品，同时也有不少关于模型成本、开源生态和脑机接口的新动向。好，我们直接进入正题。
-先来说说Anthropic。今天最炸裂的消息是，美国商务部撤销了出口管制令，Anthropic的Claude Fable 5和Mythos 5即日起恢复全球访问权限。这意味着企业客户可以重新部署这个目前最强大的模型了。同时，他们还发布了一款新的中端模型Claude Sonnet 5，性能接近旗舰级的Opus 4.8，但价格更低，官方称它是“最具Agent能力的Sonnet模型”。另外，Anthropic还推出了一个专门为科研人员打造的AI工作台叫Claude Science，内置了60多种预配置技能，支持本地或高性能计算集群部署，敏感数据可以不出实验室。三件事同一天发生，明显是在为IPO造势，展示产品矩阵的完整性和商业能力。
-不过，有光就有影。今天也有两件事值得警惕。第一，有分析发现，Claude Sonnet 5虽然标价没变，但每个任务平均会多消耗约百分之四十的token，实际成本接近翻倍，开发者们要当心这个“隐藏涨价”模式。第二，有人在Claude Code里发现了一段隐藏的监控代码，可以标记中国用户，虽然Anthropic已经移除了这个功能，但这引发了大家对AI工具隐私和地缘政治信任的广泛讨论。
-再来看Google。他们的24小时智能助手Gemini Spark正式登陆Mac平台，支持实时追踪和更多应用。同时，Google发布了Gemini Omni Flash API，这是全新“Omni”系列的第一款模型，能把企业视频制作变成对话式交互，视频制作成本有望大幅降低。
-Meta这边也有大动作。他们计划出售AI算力和模型访问权限，直接跟AWS、Google Cloud、Azure竞争。这其实和SpaceX的思路很像，把过剩算力变成现金流。看来大模型厂商自建云的趋势越来越明显了。
-OpenAI也不甘寂寞。一篇论文意外曝光了GPT-5.6 Pro可能推出三个不同变体，这可能是Pro订阅结构首次重大调整。另外，有报道说OpenAI把guest用户的推理成本降低了一半以上，部分时段只需要几百块NVIDIA GPU就能提供服务，这对免费用户是个好消息。
-英伟达开源了一个机器人技能库叫Skill，Jim Fan说这代表了机器人学习的“范式转变”，能实现持续学习。同时，一家获得Karpathy、李飞飞、Hinton投资的Transformer专用芯片公司，已经流片并签下了10亿美元的大单，专用硬件路线得到了市场验证。
-国内也有不少亮点。硅基流动发布了招股书，揭示了AI推理时代“卖Token”这门生意的真实账本，原来并不是稳赚不赔。中国初创公司Loop的世界模型论文登上了Hugging Face热门，获得了周鸿祎和陆奇的认可。腾讯云也开源了一个叫CubeSandbox的轻量级AI Agent沙箱，用于安全运行Agent。
-最后说几个有意思的。Meta的非侵入式脑机接口取得突破，Brain2Qwerty v2通过颅外磁信号重建打字内容，准确率接近手术植入方案。Cloudflare要求AI公司在9月15号之前区分搜索爬虫和训练爬虫，否则会被大量出版商网站屏蔽，这意味着AI训练数据的获取成本会显著上升。还有，Square推出了一个功能，餐厅可以直接接受来自ChatGPT和Claude的订单，无需额外设置，低费率处理，AI Agent的商业闭环正在打通实体消费场景。
-今日观察。今天最值得关注的信号是Anthropic的“多线出击”战略，三件大事同日发生，表明他们正在IPO前夕全力展示产品矩阵的完整性和商业能力。但同时，Sonnet 5的“隐藏涨价”模式和Claude Code的监控风波也揭示了AI企业在商业化扩张中的隐忧——成本透明度和用户信任正在成为新的竞争维度。另外，Meta和SpaceX纷纷将过剩算力货币化，预示着AI基础设施将从“自用”走向“开放市场”，这可能重塑云计算格局。好了，今天的播报就到这里，我们明天见。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-02.mp3" length="1771488" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-02.mp3</guid>
-      <pubDate>Thu, 02 Jul 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>04:55</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
