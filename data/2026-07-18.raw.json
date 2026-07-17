@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T05:12:55.163163+08:00",
+  "generated_at": "2026-07-18T06:52:31.955150+08:00",
   "counts": {
     "papers": 37,
     "projects": 23,
@@ -794,10 +794,43 @@
     "news": [
       {
         "category": "news",
+        "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+        "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+        "normalized_url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+        "summary": "HN points: 25, comments: 4",
+        "source": "Hacker News",
+        "published": "2026-07-17T22:26:30Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+        "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+        "normalized_url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+        "summary": "HN points: 55, comments: 47",
+        "source": "Hacker News",
+        "published": "2026-07-17T21:24:07Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+        "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+        "normalized_url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+        "summary": "HN points: 59, comments: 31",
+        "source": "Hacker News",
+        "published": "2026-07-17T21:22:53Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Flock Safety had a car journalist stalked, wrongly accused, and detained",
         "url": "https://www.thedrive.com/news/inside-the-flock-dragnet-how-systemic-errors-led-to-police-ambushing-me-for-no-reason",
         "normalized_url": "https://www.thedrive.com/news/inside-the-flock-dragnet-how-systemic-errors-led-to-police-ambushing-me-for-no-reason",
-        "summary": "HN points: 25, comments: 0",
+        "summary": "HN points: 42, comments: 2",
         "source": "Hacker News",
         "published": "2026-07-17T19:47:12Z",
         "importance_hint": 4,
@@ -808,7 +841,7 @@
         "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
         "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
         "normalized_url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory",
-        "summary": "HN points: 25, comments: 4",
+        "summary": "HN points: 28, comments: 7",
         "source": "Hacker News",
         "published": "2026-07-17T18:28:19Z",
         "importance_hint": 3,
@@ -830,7 +863,7 @@
         "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
         "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
         "normalized_url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-        "summary": "HN points: 21, comments: 2",
+        "summary": "HN points: 23, comments: 3",
         "source": "Hacker News",
         "published": "2026-07-17T16:33:48Z",
         "importance_hint": 4,
@@ -841,7 +874,7 @@
         "title": "Homomorphically encrypted CIFAR-10 inference in 200ms",
         "url": "https://sofar.belfortlabs.cloud/",
         "normalized_url": "https://sofar.belfortlabs.cloud",
-        "summary": "HN points: 27, comments: 28",
+        "summary": "HN points: 51, comments: 29",
         "source": "Hacker News",
         "published": "2026-07-17T16:29:52Z",
         "importance_hint": 4,
@@ -852,7 +885,7 @@
         "title": "The state of open source AI",
         "url": "https://stateofopensource.ai/",
         "normalized_url": "https://stateofopensource.ai",
-        "summary": "HN points: 316, comments: 222",
+        "summary": "HN points: 348, comments: 246",
         "source": "Hacker News",
         "published": "2026-07-17T14:31:10Z",
         "importance_hint": 4,
@@ -863,7 +896,7 @@
         "title": "Claude Code: Anatomy of a Misfeature",
         "url": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
         "normalized_url": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature",
-        "summary": "HN points: 129, comments: 111",
+        "summary": "HN points: 132, comments: 115",
         "source": "Hacker News",
         "published": "2026-07-17T14:26:58Z",
         "importance_hint": 3,
@@ -874,7 +907,7 @@
         "title": "Show HN: On-chain bond market where the issuers are AI agents",
         "url": "https://selbonds.now",
         "normalized_url": "https://selbonds.now",
-        "summary": "HN points: 13, comments: 16",
+        "summary": "HN points: 14, comments: 16",
         "source": "Hacker News",
         "published": "2026-07-17T14:25:20Z",
         "importance_hint": 4,
@@ -885,7 +918,7 @@
         "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
         "url": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
         "normalized_url": "https://blog.zksecurity.xyz/posts/openvm-bugs",
-        "summary": "HN points: 74, comments: 1",
+        "summary": "HN points: 78, comments: 3",
         "source": "Hacker News",
         "published": "2026-07-17T14:21:35Z",
         "importance_hint": 3,
@@ -896,7 +929,7 @@
         "title": "Kimi K3 may be an important inflection point for AI",
         "url": "https://twitter.com/GavinSBaker/status/2078110934740980193",
         "normalized_url": "https://twitter.com/GavinSBaker/status/2078110934740980193",
-        "summary": "HN points: 16, comments: 2",
+        "summary": "HN points: 16, comments: 3",
         "source": "Hacker News",
         "published": "2026-07-17T13:39:23Z",
         "importance_hint": 3,
@@ -907,31 +940,9 @@
         "title": "VulnHunter: Capital One's agentic AI code security tool",
         "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
         "normalized_url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter",
-        "summary": "HN points: 52, comments: 29",
+        "summary": "HN points: 56, comments: 29",
         "source": "Hacker News",
         "published": "2026-07-17T12:42:12Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Apple targets dozens of OpenAI employees with legal letters",
-        "url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
-        "normalized_url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
-        "summary": "HN points: 346, comments: 297",
-        "source": "Hacker News",
-        "published": "2026-07-17T12:02:39Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Time-Series Language Models for Reasoning over Multivariate Data at Scale (ICML)",
-        "url": "https://www.aioniclabs.ai/research/opentslm",
-        "normalized_url": "https://www.aioniclabs.ai/research/opentslm",
-        "summary": "HN points: 17, comments: 12",
-        "source": "Hacker News",
-        "published": "2026-07-17T10:15:03Z",
         "importance_hint": 4,
         "metadata": {}
       },
@@ -1405,6 +1416,32 @@
       },
       {
         "category": "news",
+        "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
+        "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+        "normalized_url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act",
+        "summary": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
+        "source": "TechCrunch AI",
+        "published": "2026-07-17T22:12:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Zoom hack that says, ‘Don’t record me’",
+        "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
+        "normalized_url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me",
+        "summary": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?",
+        "source": "TechCrunch AI",
+        "published": "2026-07-17T21:20:47+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Agility Robotics plants its flag in Tesla’s backyard",
         "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
         "normalized_url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard",
@@ -1502,32 +1539,6 @@
         "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
         "source": "TechCrunch AI",
         "published": "2026-07-16T18:22:06+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Google’s AI Mode now lets you link and interact with select apps",
-        "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
-        "normalized_url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps",
-        "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-16T16:00:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Yes, you can now order DoorDash from the command line",
-        "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
-        "normalized_url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line",
-        "summary": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-16T15:38:55+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
@@ -1886,15 +1897,15 @@
       },
       {
         "category": "news",
-        "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
-        "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
-        "normalized_url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence",
-        "summary": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
-        "source": "Ars Technica AI",
-        "published": "2026-07-14T22:20:48+00:00",
+        "title": "Zuckerberg's plan to sell excess AI compute could finds its first big customer in Anthropic",
+        "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
+        "normalized_url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic",
+        "summary": "Meta is reportedly in talks with Anthropic to rent out compute capacity from its data centers. The article Zuckerberg's plan to sell excess AI compute could finds its first big customer in Anthropic appeared first on The Decoder .",
+        "source": "The Decoder",
+        "published": "2026-07-17T21:16:00+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+          "feed_url": "https://the-decoder.com/feed/"
         }
       },
       {
@@ -2009,19 +2020,6 @@
         "summary": "Sakana AI is integrating Nvidia's open-source Nemotron models into its Fugu orchestrator, which dynamically combines multiple language models for specific tasks. The core argument: Open models only become competitive with Frontier systems when used in a coordinated manner. However, the announcement does not yet provide specific benchmark figures for the new combination. The article Sakana AI's orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models a",
         "source": "The Decoder",
         "published": "2026-07-16T14:02:13+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://the-decoder.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Ex-OpenAI CTO Murati's Thinking Machines drops Inkling, a 975B parameter model that leads US labs but trails China",
-        "url": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/",
-        "normalized_url": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china",
-        "summary": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati, has released Inkling, a multimodal open-weights model with 975 billion parameters. It leads U.S. open-weights models on the Artificial Analysis Intelligence Index, though top Chinese open models still beat it on some tasks. Pricing starts at $1.87 per million input tokens, and Thinking Machines is pitching Inkling as a base for fine-tuning rather than the most powerful model available. The article Ex-OpenAI CTO Murati's Thinking Ma",
-        "source": "The Decoder",
-        "published": "2026-07-16T09:55:28+00:00",
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
@@ -2419,19 +2417,6 @@
       },
       {
         "category": "news",
-        "title": "Anthropic and OpenAI don't have secret sauce",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uygxt3/anthropic_and_openai_dont_have_secret_sauce/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uygxt3/anthropic_and_openai_dont_have_secret_sauce",
-        "summary": "I’ve always had this idea but can’t prove it. I think Anthropic and OpenAI don’t really have any secret sauce, their moat is just scale. Rumor has it Opus has 5T parameters and Mythos/Fable are 10T parameter models, while open models stayed under 1T for a long time. Only recently was that ceiling broken by DeepSeek V4 and now Kimi K3, and we’ve seen a significant jump in performance as parameter size increased. What do you think? submitted by /u/a9udn9u [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-16T22:04:16+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Anyone else completely tuning out these massive \"open weight\" drops?",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive",
@@ -2458,32 +2443,6 @@
       },
       {
         "category": "news",
-        "title": "Trellis.cpp now produces high quality assets",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyw64s/trelliscpp_now_produces_high_quality_assets/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyw64s/trelliscpp_now_produces_high_quality_assets",
-        "summary": "Some of you might remember that I posted some time ago about the GGML-ported asset production pipeline . A key elelent of that was the TRELLIS.2 port that performs image-to-3D generation. Well, I'm happy to report that after a grueling debugging session (thanks to https://www.reddit.com/user/Iajah/ ) I've managed to fix quite a few bugs and the asset quality is now on par with the reference. This means that top open source 3D generation quality is now available to everyone with a good enough GPU",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-17T10:45:57+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Will we have a 27B model with Fable capabilities in 5 months? History says yes",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyhdaf/will_we_have_a_27b_model_with_fable_capabilities/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyhdaf/will_we_have_a_27b_model_with_fable_capabilities",
-        "summary": "If history is any indication, open-source models in the 27B dense range should have caught up to what the US government banned two weeks ago because they thought they were too dangerous in less than half a year from now. Qwen 3.6 27B outperformed models that were considered frontier models only 5 months prior to its release. According to AA it's on par with GPT-5.1 and Sonnet 4.5. Do you think it is still technically possible for the Fable / GPT 5.6 / Kimi K3 class of models? And do you think la",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-16T22:21:47+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Kimi K3 is top of nextjs eval",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uza5wb/kimi_k3_is_top_of_nextjs_eval/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uza5wb/kimi_k3_is_top_of_nextjs_eval",
@@ -2497,12 +2456,51 @@
       },
       {
         "category": "news",
+        "title": "Trellis.cpp now produces high quality assets",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyw64s/trelliscpp_now_produces_high_quality_assets/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyw64s/trelliscpp_now_produces_high_quality_assets",
+        "summary": "Some of you might remember that I posted some time ago about the GGML-ported asset production pipeline . A key elelent of that was the TRELLIS.2 port that performs image-to-3D generation. Well, I'm happy to report that after a grueling debugging session (thanks to https://www.reddit.com/user/Iajah/ ) I've managed to fix quite a few bugs and the asset quality is now on par with the reference. This means that top open source 3D generation quality is now available to everyone with a good enough GPU",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-17T10:45:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "Soofi S - 30B-A3B European Open Source Model",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyysg1/soofi_s_30ba3b_european_open_source_model/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyysg1/soofi_s_30ba3b_european_open_source_model",
         "summary": "I just saw that these had dropped. Still very much early days, but nice to see a new locally runnable foundation model, along with a couple of thinking preview versions. Anyone taken a look at this yet? Am intrigued to see how it holds up compared to Qwen 3.6 and Gemma 4 (my current stack) submitted by /u/Graemer71 [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-07-17T12:49:20+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Kimi K3 (max) beats Sonnet 5 on Simple Bench",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uz419i/kimi_k3_max_beats_sonnet_5_on_simple_bench/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uz419i/kimi_k3_max_beats_sonnet_5_on_simple_bench",
+        "summary": "submitted by /u/SporksInjected [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-17T16:07:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Added SearXNG and I don't even know what to say anymore.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyjdfg/added_searxng_and_i_dont_even_know_what_to_say/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyjdfg/added_searxng_and_i_dont_even_know_what_to_say",
+        "summary": "I just have to show someone other than the guys at work who think I'm crazy. I've been working on this app since about early June of 2025 and while it has come a long way in its workspace tools, I had always only had basic web capability. But I saw some posts yet again recently about SearXNG so I just dove in early this week and added it directly (yes with ai help obviously) and its so useful. It is implemented as a sub-agent where the orchestrator/chat model calls the agent in the wrapper of a ",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-16T23:45:42+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
