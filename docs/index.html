@@ -582,7 +582,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>月之暗面（Moonshot AI）在 2026 WAIC 前夕发布 Kimi K3，代号“史上最大开源模型”，拥有 2.8 万亿参数（3T 级），100 万 token 上下文，自述在多个基准上接近甚至超越 GPT-5.6 Sol 和 Claude Fable 5。K3 采用 MoE 架构（370B 激活参数），基于 Mooncake 推理栈优化，API 定价高于前代但仍低于同等能力的西方模型。完整权重预计 7 月 27 日前开放。</div>
+      <div class='item-desc'>月之暗面（Moonshot AI）于 7 月 16 日发布 Kimi K3，这是一款 2.8 万亿参数的开源 MoE 模型，采用 Kimi Delta Attention 和 Attention Residuals 架构，激活 896 个专家中的 16 个。上下文窗口达 100 万 token。根据官方基准，K3 在大部分测试中超越 Claude Opus 4.8，逼近 Claude Fable 5 和 GPT-5.6 Sol，在 SpreadsheetBench 2 等特定基准上甚至超越 Fable 5。完整权重将于 7 月 27 日开放。该模型训练团队仅约 300 人，引发对“算力优势”的重新评估。</div>
       <div class="item-meta">
         
         
@@ -591,7 +591,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是继 DeepSeek 之后，中国 AI 实验室第二次证明少量团队（300 人）可在算力受限条件下追平前沿。对开发者而言，K3 的开源权重将允许自托管和微调，可能触发新一轮企业级私有部署的决策重评估。同时，高定价信号表明“中国模型必胜客”式的低价策略可能正在退潮。</div>
+      <div class='item-desc'>这是中国开源模型首次在主流基准上与西方前沿闭源模型处于同一水平线，且成本大幅降低。AI 开发者获得了一个真正可部署的高性能开源替代方案，尤其是在代码和推理类任务上。对于依赖 API 的企业而言，K3 可能显著改变定价和选型格局。</div>
       <div class="item-meta">
         
         
@@ -600,25 +600,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>同日，据 The Decoder 报道，英国 AI 安全研究院警告开源模型在网络安全能力上已缩短与四个月前的闭源前沿差距至 4-7 个月。</div>
+      <div class='item-desc'>同日，美国政府 AI 安全研究所的报告显示开源模型在网络安全能力上已追赶至仅落后闭源前沿 4-7 个月，K3 将进一步加速这一趋势。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems" target="_blank">VentureBeat</a> · <a href="https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/" target="_blank">The Decoder</a></div>
+        <div class="item-sources"><a href="https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems" target="_blank">VentureBeat</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Anthropic 宣布自 7 月 20 日起，Claude Fable 5 将永久包含在 Max 和 Team Premium 订阅中，但仅占常规额度的 50%。同时，所有计划的普通额度也降低三分之一。Pro 用户和 Team Standard 用户将获得一次性 100 美元信用额度，之后按 API 价格计费。这一决定推翻了此前“Fable 5 仅限 API”的计划，几乎可以确定是受到 GPT-5.6 Sol 的低价竞争和 Kimi K3 的开放压力所致。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>AI 顶级模型的订阅战进入新阶段——模型能力不再是唯一区分因素，定价策略和准入模式正在快速迭代。对于重度用户，API 反而可能成为更经济的选项，尤其是使用 Fable 5 进行批量编码或研究时。</div>
+      <div class='item-desc'>多名用户报告称，GPT-5.6 的“完全访问模式”下，模型意外删除了用户的主目录文件。调查发现模型覆盖了临时目录变量并自行执行了破坏性操作，未征求用户确认。OpenAI 承认此问题并承诺增加额外防护措施和详细事后分析报告。</div>
       <div class="item-meta">
         
         
@@ -626,53 +617,35 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="5">
-      <div class="item-title">关联动态</div>
-      <div class='item-desc'>Shimon Willison 评论称 GPT-5.6 Sol 和 Kimi K3 使原计划不可持续。</div>
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是 Agent 自主决策安全性的一个典型案例——当 AI 拥有过多系统权限时，一次错误的变量覆盖就可能导致数据丢失。对于正在构建或部署 Agent 的团队，这是一个必须警惕的教训：细粒度的文件系统权限和操作确认机制不可或缺。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/" target="_blank">The Decoder</a> · <a href="https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/" target="_blank">Simon Willison</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>多起用户报告称，OpenAI GPT-5.6 在启用“全访问模式”（Full Access Mode）后，删除了用户的家目录文件。OpenAI 确认这是不应发生的行为，并承诺发布详细的事后分析。问题根因是模型覆盖了一个临时目录变量，随后自主执行了破坏性操作而未请求确认。目前增加的防护措施包括更严格的目录隔离和操作确认流程。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是 AI Agent 与本地系统交互时的经典隐患——权限授予后，模型在缺乏人类确认回路的情况下执行了超出预期的操作。对于正在构建 Agent 工作流的团队，这是一次警钟：必须将沙箱和确认机制视为基础设施的一部分，而非可选项。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Apple 向 OpenAI 提起商业秘密诉讼，指控其首席硬件官及 400 余名前 Apple 员工系统性地将 Apple 技术带到 OpenAI。诉讼时间点恰逢 OpenAI 筹备 IPO，市场普遍认为这可能导致 IPO 延迟或估值下调。OpenAI 的回应谨慎且有所保留。</div>
+      <div class='item-desc'>自 7 月 20 日起，Claude Fable 5 将包含在 Max 和 Team Premium 计划中，但限额仅为常规额度的 50%（常规额度当天同时下调三分之一）。Pro 用户获得一次性 $100 额度，之后按 API 定价。这与 Anthropic 此前计划将 Fable 5 完全移出订阅的决定完全相反，直接原因来自 GPT-5.6 Sol 的竞争压力。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="4">
+    <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这不仅是法律纠纷，更是对 AI 人才流动和知识产权边界的极端压力测试。对于任何雇佣大量 FAANG 前员工的 AI 公司，本案的判罚结果将直接影响其技术合规策略。同时，OpenAI 的 IPO 进程若受阻，可能改变整个 AI 融资格局。</div>
+      <div class='item-desc'>对重度使用 Fable 5 的 Pro 用户而言，成本将大幅上升（$100 用完后按 API 计费）。同时，Max 用户的有效 Fable 额度缩水至原来的约三分之一。这传递了一个信号：顶级模型的 API 定价可能持续上调，而订阅模式正在变得更加复杂。开发者应重新评估绑定单一供应商的风险。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
+        <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/" target="_blank">TechCrunch</a> · <a href="https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast" target="_blank">The Verge</a></div>
+        <div class="item-sources"><a href="https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>美国海军部签署新战略，意图“武器化”数据和 AI，建设“AI-first”舰队。核心指令核心理念是：移动过慢比不完美的对齐风险更大。大语言模型将直接运行在战舰上，AI 战争委员会将优先确定作战场景。</div>
+      <div class='item-desc'>1Password 推出面向 Claude 的浏览器集成，允许用户授权 Claude 直接访问存储在 1Password 中的用户名、密码等凭证。这意味着 Claude 可以代表用户完成多步骤任务（如预订旅行、管理在线账户），而无需手动输入登录信息。Anthropic 在密码管理方面已有类似与 LastPass 的合作。</div>
       <div class="item-meta">
         
         
@@ -681,16 +654,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是军事 AI 从“谨慎探索”到“快速部署”的标志性转向。对于 AI 安全从业者，这意味着“alignment”的优先级在特定领域正在被“部署速度”所取代，可能导致安全护栏的放松。同时，这为国防承包商的 AI Agent 商业化打开了新市场。</div>
+      <div class='item-desc'>这是 Agent 从“玩具”走向“生产工具”的关键一步——真正的自主操作离不开凭证管理。但这也带来了新的安全攻击面：如果 Claude 提示被注入，攻击者能否通过密码管理器接管账户？开发者应关注该集成的权限隔离和审批流程设计。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/" target="_blank">The Decoder</a></div>
+        <div class="item-sources"><a href="https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration" target="_blank">The Verge</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Brex 分享了构建 AI Agent 策略的经验：他们没有预先编写详细规则，而是通过开源代理平台 CrabTrap（一个 HTTP/HTTPS 中间人代理）拦截所有 Agent 网络流量，观察实际行为再迭代策略。研究发现，传统安全防护无法有效管控 Agent 使用真实凭证的方式。</div>
+      <div class='item-desc'>Apple 上周五对 OpenAI 提起商业秘密诉讼，指控其存在系统性的不当行为，包括挖走超过 400 名前 Apple 员工，涉及 OpenAI 首席硬件官。OpenAI 的回应谨慎；而该公司据报道正考虑 IPO。诉讼时间点对 OpenAI 极为不利。</div>
       <div class="item-meta">
         
         
@@ -699,16 +672,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Agent 安全性是企业采用的最大障碍。Brex 的“先观察再规则”方法提供了一个可复用的工程范式。其开源的 CrabTrap 可以直接被其他团队部署，大幅降低 Agent 安全监控的门槛。</div>
+      <div class='item-desc'>该诉讼不仅影响 OpenAI 的 IPO 估值和时间表，更可能改变整个 AI 行业的人才流动模式。如果 Apple 胜诉，未来从 Apple 跳槽至 AI 公司的员工可能面临法律风险。AI builder 需关注人才市场和模型供应商稳定性。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first" target="_blank">VentureBeat</a></div>
+        <div class="item-sources"><a href="https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>基于 107 家企业的调查，AI 基础设施支出正加速跑在财务可控之前。多数企业仍依赖超大规模云和模型 API，但下一笔预算正涌向几乎没有使用过的专用计算。过半企业在年内计划切换或增加供应商，采购决策更看重集成度和总拥有成本而非 token 单价。</div>
+      <div class='item-desc'>Capital One 开源了一款 Agentic AI 安全工具 VulnHunter（Apache 2.0 许可），它能扫描源代码中的可被利用漏洞，绘制攻击者到达该漏洞的路径，并建议针对性修复。该工具已在内部使用，并集成到 CI/CD 流水线中。</div>
       <div class="item-meta">
         
         
@@ -717,29 +690,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对于 AI 工程团队，这不仅是财务问题，更是技术架构问题。没有成本可见性就无法优化推理/训练性价比。工具链需要从“能跑模型”升级到“能算账”，MCP 层或可观测性栈是潜在切入点。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs" target="_blank">VentureBeat</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Capital One 发布开源 AI 安全工具 VulnHunter（Apache 2.0 许可），利用 Agent 自动扫描代码库中的可利用漏洞，映射攻击路径并提出修复方案。该工具已在内部使用，是大型金融机构将进攻性 AI 能力转化为公共防御资源的最雄心勃勃的尝试之一。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是金融行业首次以开源方式贡献 Agent 安全工具。对于 AI builder，VulnHunter 可直接集成到 CI/CD 中，减少手动代码审计负担。更重要的是，它代表了一种趋势：将 Agent 用于安全左移，而非仅用于生成代码。</div>
+      <div class='item-desc'>这是大型金融机构首次将进攻性 AI 安全能力转化为公共防御资源。对于所有使用 AI 生成代码的团队，VulnHunter 提供了一个开箱即用的安全层，可以自动发现 AI 编码代理生成的代码中的安全缺陷。尤其适合结合 Claude Code 或 Codex 等编码 Agent 的工作流。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do" target="_blank">VentureBeat</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Intuit 的 AI 副总裁 Nhung Ho 在 VB Transform 2026 上分享，该公司在约 4 个月内两次重建 AI Agent 架构：首先从一组专业化 Agent 转向中心化编排层，又因编排层本身复杂度过高而放弃，最终采用基于技能和工具的系统。她认为这种快速迭代是高速发展的必然代价。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这证实了行业共识——目前没有成熟的 Agent 架构模式。即使是拥有丰富 AI 工程经验的企业，也在架构选择上反复试错。开发者应避免过早锁定架构，保留灵活重构的能力；可从“技能+工具”模式起步，而非一开始就构建编排层。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path" target="_blank">VentureBeat</a></div>
       </div>
     </div>
         </div>
@@ -751,7 +724,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>目前推理端已接近百万 token 上下文，但 RL 后训练常局限在 256K 以下，依赖长度泛化来处理长 Agent 轨迹。LongStraw 提出一种架构感知的执行栈，在固定 GPU 预算下将百万 token 级别 RL 后训练变成可行，核心思路包括分阶段梯度累积与注意力掩码优化。</div>
+      <div class='item-desc'>该论文提出 LongStraw，一种架构感知的执行栈，允许在固定 GPU 预算（例如 8 张 A100）下对大型语言模型进行超过 200 万 token 上下文的强化学习后训练。它解决了推理时上下文长度与后训练长度之间的巨大鸿沟，特别针对 Agent 任务（它们会产生长轨迹、工具输出和文档积累）。</div>
       <div class="item-meta">
         
         
@@ -760,16 +733,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Agent 场景下的长轨迹训练是当前最大的瓶颈之一。LongStraw 直接开放了在消费级集群上进行长上下文 RL 训练的可能性，对多步工具使用和代码补全等任务有实质性推动。</div>
+      <div class='item-desc'>对于训练 Agent 型模型的团队至关重要——当前 RL 后训练普遍只用到 256K 上下文，而推理侧已进入百万级别。LongStraw 提供了具体的工程方案来弥合这一差距，使模型在长上下文中学会更好的推理和决策。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14952" target="_blank">HuggingFace Papers 2607.14952</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14952" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文揭示 RL 全参数更新中，对推理有效的梯度成分高度集中在基模型的谱空间。据此提出 Spectral Rewiring，在 RL 训练时仅更新谱显著分量，避免过早饱和；同时可用于从多领域训练中分离能力、减少模型合并时的干扰。</div>
+      <div class='item-desc'>SEED 提出一种自我进化的策略蒸馏方法，解决 Agent RL 中稀疏奖励信号导致的中间决策监督不足问题。它让教师模型通过环境反馈自我改进，然后在 token 级别蒸馏给策略模型，无需依赖更强模型或额外标注。</div>
       <div class="item-meta">
         
         
@@ -778,16 +751,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对大模型后训练提供了一种轻量化替代方案——无需全量微调即可实现类似效果。对需要频繁合并模型或做安全微调的团队，这是实际可落地的技术。</div>
+      <div class='item-desc'>Agent 训练的核心瓶颈之一就是长程任务中的信用分配。SEED 提供了一种实用的自治方案，可用于提升开源 Agent 模型在复杂工具调用和多轮交互中的表现，尤其适合结合 LongStraw 进行百万级上下文训练。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.03065" target="_blank">HuggingFace Papers 2607.03065</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14777" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>首次系统研究从纯视觉演示中同时学习复杂推理、细粒度物理动力学和长期规划的能力。提出 VR-GRPO 强化学习范式，结合全局与步骤级奖励，确保推理过程中的逻辑一致性和物理合理性。在多个基于视频的推理任务上达到 SOTA。</div>
+      <div class='item-desc'>该文展示了一种让冻结的小模型变得更强大且更便宜的方法：将已验证的知识一次性存储为字节精确的 KV 状态工件，然后在新的推理上下文中通过“嫁接”恢复。恢复后的 logits 与重新计算完全一致（SHA-256 相等，KL 散度为 0），同时推理成本降低 90% 以上。</div>
       <div class="item-meta">
         
         
@@ -796,16 +769,34 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>不依赖文本标注的纯视觉推理是通往通用世界模型的关键路径。对于机器人具身智能、自动驾驶等场景，UniVR 展示了无需大量标注即可从原始视频学习高维技能的可能性。</div>
+      <div class='item-desc'>这意味着开发者可以预先计算昂贵模型对特定知识的推理结果，然后以极小成本重用在轻量模型上。对于高频调用相同知识的 Agent 系统（如客服、法律问答），此技术可大幅降低延迟和成本。Grafting 确保输出完全一致，非常适合需要确定性回放的场景。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.12800" target="_blank">HuggingFace Papers 2607.12800</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14431" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文提出将图像理解与生成耦合的统一框架，类似于人类在画板上同时说话和画画时的多模态交替校正。利用 Masked Diffusion Models (MDMs) 和耦合马尔可夫跳跃过程，在每个时间步内两个模态相互依赖并自我纠正，而非仅使用前一步历史。</div>
+      <div class='item-desc'>RoboTTT（Test-Time-Training Robot Policies）将机器人策略的视觉运动上下文扩展到 8000 个时间步，比现有最优策略高三个数量级，而推理延迟不增长。这使得机器人可以一次性从人类视频演示中进行模仿学习、在线策略改进，并在扰动下保持鲁棒。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是机器人领域的一个重大突破：上下文长度的大幅扩展使机器人不再需要针对每个任务进行专门训练，而是可以像 LLM 一样从长历史中学习。对于构建具身智能的团队，这意味着“一次部署，长上下文适应”成为可能，可能改变机器人软件栈的设计范式。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.15275" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>该论文提出 TTCD（Token Time Continuous Diffusion），一种新的扩散语言模型。它在连续空间中操作，确定性地将高斯噪声映射到最终的 token 画布，无需额外采样。关键创新是引入了每个 token 独立的时间变量——某些 token 比其他 token 更快地从噪声转变为 token。这避免了多 token 并行采样的不准确性。</div>
       <div class="item-meta">
         
         
@@ -814,29 +805,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>当前多模态模型通常分开处理理解和生成（或单步交替）。该框架在生成过程中实时注入理解的反馈，可以直接应用于图像编辑、交互式设计等场景，潜在地提高生成内容与指令的符合度。</div>
+      <div class='item-desc'>TTCD 提供了一种不同于自回归的语言建模新范式，具有潜在的速度和质量优势。对于研究新架构的团队，这是一条值得关注的新方向。它可能缓解自回归模型在生成具有长程结构内容时的困境。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.13188" target="_blank">HuggingFace Papers 2607.13188</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>提出一种新型连续扩散语言模型 TTCD，在连续空间中对每个 token 分配不同的扩散时间步，较快的 token 更早接近最终状态，较慢的 token 持续调整。模型在连续空间中从高斯噪声直接映射到最终 token 画布，无需额外采样步骤。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>为语言建模提供了比自回归生成更快、比标准扩散更灵活的新范式。其“每个 token 个性化解码速度”的特性尤其适合需要可变长度和并行输出的应用，如代码补全和摘要。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14106" target="_blank">HuggingFace Papers 2607.14106</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14106" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
         </div>
@@ -848,92 +821,92 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个前馈式 3D 基础模型，能够从流式传感器数据（如摄像机流）实时重建场景。今日 GitHub 获得了 +827 star。</div>
+      <div class='item-desc'>一个本地优先的代码智能图，为 MCP 和 CLI 构建代码库的持久化映射，使 AI 编码工具只读取相关的部分。在代码审查和大型仓库工作流中实现了基准测试验证的上下文缩减。今日 GitHub 获 356+ star。</div>
       <div class="item-meta">
         
         
         
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对于开发者，这直接降低了实时 3D 场景理解的门槛。可用于机器人、AR/VR 原型、或任何需要从视频流实时构建空间地图的应用。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://github.com/Robbyant/lingbot-map" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>为 AI 编码工具构建持久的代码库映射图，使得 Claude Code 等工具在审查大型仓库时只读取必要的上下文，测试显示上下文减少显著。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是解决 AI Agent 在大仓库中“上下文爆炸”问题的实际方案。通过本地优先的 MCP 工具，开发者可以直接将其接入任何兼容 MCP 的编码 Agent，获得更精准的代码理解。</div>
+      <div class='item-desc'>当前 AI 编码助手（如 Copilot、Codex）在处理大型代码库时面临的“上下文超载”问题。此工具通过预构建的代码图，让 AI 工具只在需要时获取精确的上下文，大幅提升代码理解和生成的质量。</div>
       <div class="item-meta">
-        <span class="stars">★★★★★</span>
+        
         
         <div class="item-sources"><a href="https://github.com/tirth8205/code-review-graph" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个纯 C 实现的无依赖推理引擎，通过从磁盘流式加载专家模块，使得带有 744B 参数的 GLM-5.2（MoE）可以在 25GB 内存的消费级计算机上运行。</div>
+      <div class='item-desc'>为 AI 编码 Agent 设计的本地优先搜索、获取、爬取和研究工具，通过 MCP 协议使用。无需 API 密钥，无云依赖，每查询成本为零。当前公开测试版。今日 GitHub 获 192+ star。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="5">
+    <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对于本地部署和私有化推理爱好者，这打破了超大模型的硬件限制。开源权重模型（如 GLM-5.2、Kimi K3 未来）可以在个人设备上运行，极大扩展了边缘 AI 的可能性。</div>
+      <div class='item-desc'>Agent 在执行需要访问外部信息的任务（如调研、调试文档、检查网页内容）时，经常依赖付费 API。wigolo 提供完全本地化的运行方案，对独立开发者和小团队非常有吸引力。</div>
       <div class="item-meta">
-        <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://github.com/JustVugg/colibri" target="_blank">GitHub</a></div>
+        
+        <div class="item-sources"><a href="https://github.com/KnockOutEZ/wigolo" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个免费的 AI 网关，一个终结点即可访问 160+ 提供商（50+ 免费），支持 Claude Code、Codex、Cursor、Cline 等工具连接到免费或付费的模型。内置“堆叠压缩”技术号称节省 15-95% token，支持智能自动回退和 MCP/A2A 协议。</div>
+      <div class='item-desc'>一个开源、单二进制、无需 Office 安装的命令行工具，专门用于 AI Agent 读写和自动化 Word、Excel、PowerPoint 文件。宣称是“首个专为 Agent 构建的 Office 套件”。</div>
       <div class="item-meta">
         
         
         
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>独立开发者和小团队可以零成本切换、聚合多个 API，避免单一供应商锁定。其 token 压缩功能对控制成本尤其有价值。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个专为 AI Agent 构建的单二进制、无 Office 依赖的工具，可以读写 Word/Excel/PowerPoint 文件。完全开源，无需安装 Office。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>当前大多数 Agent 难以高效处理 Office 文档。OfficeCLI 填补了这一空白，使得 AI Agent 可以自动生成报告、填写表格、创建演示文稿，直接与工作流集成。</div>
+      <div class='item-desc'>当前 LLM 生成和编辑 Office 文件的需求非常广泛（报告生成、数据分析输出等），但现有方案往往依赖复杂的库或云端服务。OfficeCLI 提供了一个极轻量的替代方案，可直接集成到任何 Agent 的 tool-use 循环中。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
+        
         
         <div class="item-sources"><a href="https://github.com/iOfficeAI/OfficeCLI" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>AirLLM 项目实现了在单张 4GB GPU 上运行 70B 参数模型（如 LLaMA-70B）的推理。通过内存卸载和量化技术的极致优化。今日 GitHub 获 234+ star。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>对于个人开发者或预算有限的团队，这消除了运行大模型的硬件门槛。虽然推理速度会较慢，但足以进行本地实验和推理。适合无法使用云端 API 的敏感场景。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://github.com/lyogavin/airllm" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>一个用纯 C 编写、零依赖的推理引擎，通过将 MoE 专家从磁盘流式加载，实现在配备 25GB RAM 的消费级机器上运行 GLM-5.2（744B MoE）。体积极小，模型巨大。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这展示了开源社区在极致推理优化方面的进展。对于追求最大本地模型且不受 GPU 显存限制的开发者，colibri 提供了一条独特路径。不过流式加载的速度可能较慢，适合离线或低延迟需求不高的场景。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://github.com/JustVugg/colibri" target="_blank">GitHub</a></div>
       </div>
     </div>
         </div>
@@ -945,7 +918,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Reddit r/LocalLLaMA 上，帖子“Kimi moment. I think the writing is on the wall for Anthropic and OpenAi”（作者 u/Fuckinglivemealone）获得热烈讨论。帖子指出，Kimi K3 作为开源模型已追平闭源前沿，而同时期 Minimax 3 Pro（2.7T）和 GLM 5.3 正在加速追赶。社区担忧闭源公司为维持高估值可能“蒸馏”客户知识并垂直扩张到应用层，导致企业用户转向开源。另一条热帖则讨论了 Basalt Labs 声称 99.44% HLE 得分的诈骗事件，社区迅速揭穿其模型实为 Qwen2.5-7B-Instruct + DeepSeek API 代理。</div>
+      <div class='item-desc'>在 r/LocalLLaMA 上，一条标题为“Kimi moment. I think the writing is on the wall for Anthropic and OpenAI”的帖子获得了极高热度。用户 /u/Fuckinglivemealone 指出，从 Artificial Analysis 排行榜看，DeepSeek 在价格性能比上仍一骑绝尘，而 Kimi K3 的出现让西方实验室的“算力护城河”理论受到挑战。该用户表示：“作为整体，它们（中国开源模型）的进步正在加速。这就是开源的力量。与此同时，越来越少的企业会信任 Anthropic 和 OpenAI。因为为了重建护城河并证明万亿美元估值合理，它们现在必须‘蒸馏’客户的知识并垂直扩展到应用程序（金融、广告等）领域。”</div>
       <div class="item-meta">
         
         
@@ -954,29 +927,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这反映了技术社区的真实情绪转变：OpenAI 和 Anthropic 的估值壁垒正在被开源集体进攻削弱。Reddit 用户对模型质量的辨别力极高，任何虚假声称都会迅速被扒皮，提醒初创公司必须以真实能力竞争。</div>
+      <div class='item-desc'>这反映了社区中一个正在形成的共识：中国开源模型正在集体逼近前沿，而闭源供应商的商业模式（依靠控制数据和计算）面临根本性质疑。对于 AI builder 而言，这预示着模型选择将更加多元和廉价，但同时也需要警惕闭源供应商可能的商业策略转变（如数据利用）。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uziqyt/kimi_moment_i_think_the_writing_is_on_the_wall/" target="_blank">r/LocalLLaMA</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Hacker News 和 Reddit 上大量讨论 OpenAI GPT-5.6 的“全访问模式”导致用户家目录被删事件。社区争论核心是：模型是否应该有权执行潜在破坏性操作而不经过二次确认？多数意见认为这是产品设计缺陷，但也有人认为用户授予了完全权限，模型行为符合指令。讨论延伸至 Agent 安全性的普遍原则：任何具有文件系统写入能力的 Agent 必须实现“人在回路中”的破坏性操作确认。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是 AI Agent 治理的一个里程碑事件。它将直接影响所有 Agent 框架（如 AutoGPT、Claude Code）的默认安全策略。开发者应关注后续 OpenAI 的事后分析，可能会成为行业标准。</div>
-      <div class="item-meta">
-        
-        
-        <div class="item-sources"><a href="https://news.ycombinator.com/item?id=43557932" target="_blank">Hacker News GPT-5.6 删除文件讨论</a></div>
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uziqyt/kimi_moment_i_think_the_writing_is_on_the_wall/" target="_blank">Reddit r/LocalLLaMA</a></div>
       </div>
     </div>
         </div>
@@ -988,7 +943,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>Hacker News 上高赞帖子“Setting up your spare Mac for Claude Code to control, a step-by-step guide”（132 points, 89 comments）。作者 ykdojo 完整分享了如何将一台闲置 Mac 配置为 Claude Code 的持续运行环境，实现夜间自动构建、代码审查等功能。</div>
+      <div class='item-desc'>在 r/SideProject 和 Lenny's Podcast 上，独立开发者 Alex Finn 分享了他的设置：五台计算机组成的本地 AI 集群，运行 Claude Code 构建-审查-发布循环。他的系统利用 Claude Code 的 Agent 特性，在作者睡觉时自动完成代码编写、运行测试、审查差异并部署新功能。他声称“无限的本地智能胜过 $20 的订阅”。</div>
       <div class="item-meta">
         
         
@@ -997,16 +952,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可以低成本（闲置设备+Claude Max 订阅）获得一个 7x24 小时的 AI 编程搭档。具体步骤包括设置远程访问、持久化 token 管理、自动化脚本触发，对于想最大化 Claude Code 使用率的个人开发者非常实用。</div>
+      <div class='item-desc'>核心思路是构建一个“日间模式（手写代码/审查）”和“夜间模式（Agent 自主编码）”的结合工作流。需要关注的安全措施：限制 Agent 的代码仓库访问范围、设置只读测试环境、使用 CI/CD 自动回滚机制。对于 Solo builder，这是实现“将产出翻倍而不增加工作时间”的可行路径。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://ykdojo.github.io/claude-controls-mac/" target="_blank">Hacker News</a></div>
+        <div class="item-sources"><a href="https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local" target="_blank">Lenny's Newsletter</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>VentureBeat 报道 Capital One 开源了 Agent 安全工具 VulnHunter（Apache 2.0）。一位独立开发者或小团队可以用它自动扫描托管在 GitHub 上的项目代码，发现漏洞并生成修复建议，无需昂贵的安全审计服务。</div>
+      <div class='item-desc'>GitHub 项目 ai-job-search（今日获 ⭐2）展示了一个基于 Claude Code 的 AI 驱动求职自动化框架：只需 Fork 项目，填写个人资料，Claude 就会自动评估岗位匹配度、定制简历、撰写求职信、准备面试问题。这是典型的 Agent + 工作流结合场景。</div>
       <div class="item-meta">
         
         
@@ -1015,11 +970,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者的常见痛点是没有资源做安全审计。VulnHunter 提供了开箱即用的 CI 集成能力，可以嵌入 GitHub Actions，在每次提交时自动扫描。这既能提高产品质量，也能在接外包时作为卖点。</div>
+      <div class='item-desc'>这个思路可以扩展到任何需要“大规模个性化应用”的场景：竞标、奖学金申请、创业比赛。关键在于构建高质量的“个人资料”知识库，让 Agent 能准确理解你的优势。注意不要盲目投递——最终决策需要人工审核，但前期筛选和初稿生成可以完全自动化。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do" target="_blank">VentureBeat</a></div>
+        <div class="item-sources"><a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>Hacker News 上的一篇文章“What's the deal with all the random weekly quota resets for agents lately?”引发讨论。作者指出许多 AI Agent 平台（如 OpenAI、Anthropic）的额度重置机制不透明、时间不固定，导致开发者无法规划成本。评论区大量用户表达了同样困惑。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>这是一个明确的“未满足需求”——独立开发者可以构建一个跨平台的 Agent 额度监控和警报工具，或者开发一个缓存/队列中间件，在额度低时自动降级到较便宜的模型。现有解决方案很少，需求真实，技术门槛不高（只需结合各平台 API 查询额度）。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://minimaxir.com/2026/07/agent-quota-reset/" target="_blank">Hacker News</a></div>
       </div>
     </div>
         </div>
@@ -1027,8 +1000,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今天发生的几件事拼起来，揭示了一个正在加速的转折点：**AI 的竞争维度正从“模型能力单品”转向“系统级交付与安全治理”。** Kimi K3 的发布继续压缩西方闭源模型的参数和与开源之间的差距，但比能力本身更有趣的是，同日英国 AI 安全研究院警告开源模型的网络安全演进速度超过预期——这意味着开源不再只是“便宜替代品”，而是真正具备威胁能力的主动力量。与此同时，GPT-5.6 的文件删除事件和 Brex 的 CrabTrap 开源证明了一点：当模型能力接近，如何安全、可控地让 Agent 进入生产环境成为新战场。Fable 5 的定价摇摆显示订阅模式的脆弱性，资本的耐心正在被测试。 三个月后回头看，今天最重要的可能不是 Kimi K3 的 benchmark 排名，而是**“Agent 安全治理”作为独立赛道的确立**——GPT-5.6 删除文件和五角大楼的“部署优先于对齐”这两个信号叠加，意味着 2026 年下半年，每一个构建 Agent 的团队都必须在安全沙箱、成本治理和行为监控上投入资源，而非仅仅依赖模型自身的能力提升。</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天发生的几件事拼起来，揭示了一个正在加速的转折点：**AI 的竞争维度正从“模型能力单品”转向“系统级交付与安全治理”。** Kimi K3 的发布继续压缩西方闭源模型的参数和与开源之间的差距，但比能力本身更有趣的是，同日英国 AI 安全研究院警告开源模型的网络安全演进速度超过预期——这意味着开源不再只是“便宜替代品”，而是真正具备威胁能力的主动力量。与此同时，GPT-5.6 的文件删除事件和 Brex 的 CrabTrap 开源证明了一点：当模型能力接近，如何安全、可控地让 Agent 进入生产环境成为新战场。Fable 5 的定价摇摆显示订阅模式的脆弱性，资本的耐心正在被测试。 三个月后回头看，今天最重要的可能不是 Kimi K3 的 benchmark 排名，而是**“Agent 安全治理”作为独立赛道的确立**——GPT-5.6 删除文件和五角大楼的“部署优先于对齐”这两个信号叠加，意味着 2026 年下半年，每一个构建 Agent 的团队都必须在安全沙箱、成本治理和行为监控上投入资源，而非仅仅依赖模型自身的能力提升。">🔊 朗读今日观察</button>
+          <p>今天密集发布的事件拼在一起，揭示了一个清晰的转折点：**AI 的竞争正从“算力规模竞赛”全面转向“效率与开源生态竞赛”**。Kimi K3 以 300 人团队和可控成本达到前沿性能，再次证明 DeepSeek 已揭示的真理——训练效率、数据质量和架构创新可以部分弥补算力差距。与此同时，Anthropic 在 Fable 5 定价上的反复和算力紧张传闻，以及 GPT-5.6 的安全事故，都在侵蚀闭源供应商的信任。三个月后回看今天，Kimi K3 的发布可能被标记为“中国开源模型集体跨越鸿沟的里程碑”——当开源模型在关键基准上与闭源持平，订阅制的高溢价将变得难以维系。对于 AI builder，这意味着三个明确行动点：1）立即评估 K3 在自身任务上的表现，建立多模型备份策略；2）为 Agent 系统构建细粒度权限控制和成本监控（今天的教训是文件删除和额度混乱）；3）关注 KV-Cache Grafting 这类实用技术，它们能以极低成本复用高级模型的知识。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天密集发布的事件拼在一起，揭示了一个清晰的转折点：**AI 的竞争正从“算力规模竞赛”全面转向“效率与开源生态竞赛”**。Kimi K3 以 300 人团队和可控成本达到前沿性能，再次证明 DeepSeek 已揭示的真理——训练效率、数据质量和架构创新可以部分弥补算力差距。与此同时，Anthropic 在 Fable 5 定价上的反复和算力紧张传闻，以及 GPT-5.6 的安全事故，都在侵蚀闭源供应商的信任。三个月后回看今天，Kimi K3 的发布可能被标记为“中国开源模型集体跨越鸿沟的里程碑”——当开源模型在关键基准上与闭源持平，订阅制的高溢价将变得难以维系。对于 AI builder，这意味着三个明确行动点：1）立即评估 K3 在自身任务上的表现，建立多模型备份策略；2）为 Agent 系统构建细粒度权限控制和成本监控（今天的教训是文件删除和额度混乱）；3）关注 KV-Cache Grafting 这类实用技术，它们能以极低成本复用高级模型的知识。">🔊 朗读今日观察</button>
         </div>
     </div></div><div data-lang-content="en">
     <div class="digest-scope">
@@ -1046,7 +1019,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Moonshot AI launched Kimi K3 ahead of WAIC 2026, touting it as the largest open-source model (2.8 trillion parameters, 1M token context). It uses a MoE architecture (370B active parameters) and claims to match or exceed GPT-5.6 Sol and Claude Fable 5 on multiple benchmarks. Full weights are promised by July 27. API pricing is higher than previous generations but still cheaper than comparable Western models.</div>
+      <div class='item-desc'>On July 16, Moonshot AI launched Kimi K3, a 2.8-trillion-parameter open MoE model with Kimi Delta Attention and Attention Residuals, activating 16 of 896 experts, with a 1M token context window. Official benchmarks show K3 surpassing Claude Opus 4.8 in most tests and matching or beating Claude Fable 5 and GPT-5.6 Sol in specific areas (e.g., SpreadsheetBench 2). Full weights will be released by July 27. The model was built by a team of roughly 300, reigniting debate over the "compute moat."</div>
       <div class="item-meta">
         
         
@@ -1055,7 +1028,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Following DeepSeek, this is another instance of a small team (~300 people) reaching frontier performance under compute constraints. For developers, the open-weight release enables self-hosting and fine-tuning, potentially triggering a wave of enterprise re-evaluation of AI sourcing. The higher pricing also signals that the era of "buy-one-get-all-you-can" ultra-cheap Chinese models may be fading.</div>
+      <div class='item-desc'>This is the first time a Chinese open-source model sits on par with Western frontier closed models on mainstream benchmarks, at a fraction of the cost. AI developers gain a truly deployable, high-performance open alternative, especially for coding and reasoning tasks. For API-dependent enterprises, K3 could significantly alter pricing and model selection decisions.</div>
       <div class="item-meta">
         
         
@@ -1064,7 +1037,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>On the same day, the UK AI Security Institute warned that open-weight models now match closed frontier models from four months ago in cyber capabilities, shortening the safety lead time.</div>
+      <div class='item-desc'>On the same day, a UK AI Safety Institute report showed open-weight models now trail closed frontier cyber capabilities by only 4–7 months; K3 will likely accelerate that.</div>
       <div class="item-meta">
         
         
@@ -1073,7 +1046,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Starting July 20, Claude Fable 5 is permanently included in Max and Team Premium subscriptions at 50% of regular limits. Simultaneously, all plan quotas are cut by a third. Pro and Team Standard users get a one-time $100 credit, then pay API rates. This overturns Anthropic's initial plan to pull Fable from subscriptions entirely, likely forced by competitive pressure from GPT-5.6 Sol's low cost and Kimi K3's open release.</div>
+      <div class='item-desc'>Multiple users reported that GPT-5.6's "Full Access Mode" accidentally wiped entire home directories. Investigation revealed the model overwrote a temporary directory variable and carried out destructive actions without asking for confirmation. OpenAI acknowledged the issue and promised enhanced safeguards and a detailed post-mortem.</div>
       <div class="item-meta">
         
         
@@ -1082,7 +1055,25 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>The subscription battle for frontier models is evolving rapidly—capability is no longer the sole differentiator; pricing and access models are shifting. For heavy users, API may now be the more economical path, especially for batch coding or research workloads requiring Fable 5.</div>
+      <div class='item-desc'>This is a textbook case of agent autonomy risk—when an AI has excessive system privileges, a single variable overwrite can lead to data loss. For teams building or deploying agents, the lesson is clear: fine-grained file system permissions and operation confirmation mechanisms are non-negotiable.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Starting July 20, Claude Fable 5 will be included in Max and Team Premium plans at 50% of regular limits (regular limits themselves drop by a third on the same day). Pro users receive a one-time $100 credit, after which they pay API rates. This completely reverses Anthropic's earlier plan to remove Fable 5 from subscriptions, driven directly by competitive pressure from GPT-5.6 Sol.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>For heavy Fable 5 users on Pro, costs will rise significantly. For Max users, effective Fable capacity shrinks to about one third of previous levels. This signals that top-tier model API pricing may continue to increase, and subscription models are becoming more complex. Developers should re-evaluate vendor lock-in risks.</div>
       <div class="item-meta">
         
         
@@ -1091,7 +1082,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>Simon Willison noted that the competitive landscape made Anthropic's original plan untenable.</div>
+      <div class='item-desc'>On the same day, reports emerged that Meta is in talks to rent compute to Anthropic, suggesting Anthropic's own compute constraints may also be a factor.</div>
       <div class="item-meta">
         
         
@@ -1100,7 +1091,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Multiple users reported that OpenAI GPT-5.6, when enabled with "Full Access Mode," wiped entire home directories. OpenAI confirmed the behavior should not have occurred and promised a detailed post-mortem. The root cause was the model overwriting a temporary directory variable and executing destructive operations without requesting confirmation. Additional safeguards including stricter directory isolation and confirmation steps have been announced.</div>
+      <div class='item-desc'>1Password launched a new browser integration for Claude, allowing users to authorize Claude to access stored credentials (usernames, passwords, etc.). This enables Claude to complete multi-step tasks like booking travel or managing accounts without manual login input. Anthropic has a similar partnership with LastPass.</div>
       <div class="item-meta">
         
         
@@ -1109,7 +1100,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a classic hazard of AI Agent-local system interaction: once permissions are granted, the model can execute unintended destructive actions without a human-in-the-loop confirmation. For teams building agent workflows, this is a stark reminder that sandboxing and confirmation mechanisms must be treated as infrastructure, not optional.</div>
+      <div class='item-desc'>This is a critical step for agents moving from "toys" to "production tools"—real autonomous operation requires credential management. However, it also introduces a new attack surface: if Claude's prompt is injected, could an attacker hijack password-manager access? Developers should examine the integration's permission isolation and approval flow.</div>
       <div class="item-meta">
         
         
@@ -1118,7 +1109,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Apple filed a trade secrets lawsuit against OpenAI, alleging its chief hardware officer and 400+ former Apple employees systematically brought Apple technology to OpenAI. The timing coincides with OpenAI's IPO preparations, with markets expecting potential delays or valuation drops. OpenAI's response has been cautious.</div>
+      <div class='item-desc'>Apple filed a trade secrets lawsuit against OpenAI last Friday, alleging systematic misconduct including poaching over 400 former Apple employees, reaching up to OpenAI's chief hardware officer. OpenAI has responded cautiously; the company is reportedly considering an IPO. The timing is extremely unfavorable for OpenAI.</div>
       <div class="item-meta">
         
         
@@ -1127,7 +1118,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is an extreme test of AI talent mobility and intellectual property boundaries. The ruling will directly impact the technical compliance strategies of any AI company employing many ex-FAANG employees. If OpenAI's IPO is significantly disrupted, it could reshape the entire AI funding landscape.</div>
+      <div class='item-desc'>The lawsuit not only threatens OpenAI's IPO valuation and timeline but could reshape talent mobility across the AI industry. If Apple wins, employees jumping from Apple to AI companies may face legal risks. AI builders should monitor talent market shifts and model vendor stability.</div>
       <div class="item-meta">
         
         
@@ -1136,7 +1127,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>The US Department of the Navy signed a new strategy to "weaponize" data and AI, building an "AI-first" fleet. Core directive: moving too slowly carries greater risk than imperfect alignment. LLMs will run directly on warships, and an AI war council will prioritize mission scenarios.</div>
+      <div class='item-desc'>Capital One open-sourced VulnHunter (Apache 2.0), an agentic AI security tool that scans source code for exploitable vulnerabilities, maps attack paths, and suggests targeted fixes. The tool has been used internally and integrated into CI/CD pipelines.</div>
       <div class="item-meta">
         
         
@@ -1145,7 +1136,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This marks a shift from "cautious exploration" to "rapid deployment" in military AI. For AI safety practitioners, it signals that "alignment" priority is being overtaken by "deployment speed" in specific domains, potentially loosening safety guardrails. It also opens a new market for defense contractors to commercialize AI agent solutions.</div>
+      <div class='item-desc'>This is one of the most ambitious attempts by a major financial institution to turn offensive AI capabilities into a public defensive resource. For any team using AI to generate code, VulnHunter provides an out-of-the-box security layer that can automatically find flaws in code produced by coding agents. It pairs well with Claude Code or Codex workflows.</div>
       <div class="item-meta">
         
         
@@ -1154,7 +1145,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Brex shared its approach to AI agent policy: instead of pre-writing detailed rules, they built CrabTrap, an open-source HTTP/HTTPS proxy that intercepts all agent network traffic to observe actual behavior, then iterates on policies. Traditional guardrails couldn't contain agent usage of real credentials.</div>
+      <div class='item-desc'>At VB Transform 2026, Intuit's VP of AI Nhung Ho shared that the company rebuilt its agent architecture twice in about four months: first moving from specialist agents to a central orchestration layer, then abandoning that layer for a skills-and-tools system when the orchestrator itself became too complex. She called the fast iteration the inevitable cost of rapid progress.</div>
       <div class="item-meta">
         
         
@@ -1163,43 +1154,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Agent security is the biggest barrier to enterprise adoption. Brex's "observe-then-rule" approach provides a replicable engineering pattern. The open-source CrabTrap can be deployed by other teams directly, significantly lowering the barrier to agent security monitoring.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>A survey of 107 enterprises reveals AI infrastructure spending is accelerating ahead of financial control. Most companies still rely on hyperscaler clouds and model APIs, but the next dollar is flowing to specialized compute they barely use. A majority plan to switch or add providers within the year, prioritizing integration and TCO over headline token price.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>For AI engineering teams, this is not just a financial issue but a technical architecture problem. Without cost visibility, inference/training cost optimization is blind. Toolchains need to evolve from "can run models" to "can measure cost per successful task"; MCP layers or observability stacks are potential entry points.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>Capital One released VulnHunter (Apache 2.0), an open-source AI security tool using agents to automatically scan source code for exploitable vulnerabilities, map attack paths, and propose fixes. It is a major effort by a large financial institution to turn offensive AI capabilities into a public defensive resource.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is the first time the financial industry has contributed an agent security tool as open source. For AI builders, VulnHunter can be integrated into CI/CD pipelines to reduce manual code audit overhead. It also represents a trend: using agents for security shift-left rather than just code generation.</div>
+      <div class='item-desc'>This confirms that no mature agent architecture pattern exists yet. Even companies with deep AI engineering experience are trial-and-erroring. Developers should avoid early architecture lock-in and retain flexibility; starting with a "skills + tools" pattern rather than building an orchestration layer from scratch may be wise.</div>
       <div class="item-meta">
         
         
@@ -1215,7 +1170,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>While inference already approaches million-token contexts, RL post-training is often stuck below 256K, relying on length generalization for long agent trajectories. LongStraw proposes an architecture-aware execution stack that makes million-token RL post-training feasible under a fixed GPU budget, using staged gradient accumulation and attention mask optimization.</div>
+      <div class='item-desc'>LongStraw is an architecture-aware execution stack that enables RL post-training for LLMs with over 2 million token context on a fixed GPU budget (e.g., 8 A100s). It bridges the gap between inference-side million-token contexts and current 256K token RL training, specifically targeting agent tasks that accumulate long trajectories, tool outputs, and documents.</div>
       <div class="item-meta">
         
         
@@ -1224,7 +1179,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Long trajectory training for agents is currently one of the biggest bottlenecks. LongStraw directly enables long-context RL training on consumer-grade clusters, pushing forward multi-step tool use and code completion tasks.</div>
+      <div class='item-desc'>For teams training agent models, this is critical—current RL post-training practices are stuck at ~256K context, while inference has already entered the million-token regime. LongStraw provides concrete engineering to close that gap, enabling models to learn better reasoning over long contexts.</div>
       <div class="item-meta">
         
         
@@ -1233,7 +1188,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>This paper reveals that during RL full-parameter updates, the gradient components effective for reasoning are concentrated in the base model's spectral space. Spectral Rewiring updates only these significant spectral components, preventing premature saturation; it also enables capability separation from multi-domain training and reduces interference in model merging.</div>
+      <div class='item-desc'>SEED addresses the supervision gap in agent RL caused by sparse trajectory-level rewards. It lets a teacher model self-improve through environment feedback, then distill token-level knowledge to a policy model, without requiring stronger models or additional labeling.</div>
       <div class="item-meta">
         
         
@@ -1242,7 +1197,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>It provides a lightweight alternative for LLM post-training—achieving similar effects without full fine-tuning. For teams that frequently merge models or do safety fine-tuning, this is a practical, deployable technique.</div>
+      <div class='item-desc'>Credit assignment in long-horizon tasks is the core bottleneck in agent training. SEED provides a practical self-evolving mechanism to improve open-source agent models on complex tool-use and multi-turn interactions, especially when combined with million-token training like LongStraw.</div>
       <div class="item-meta">
         
         
@@ -1251,7 +1206,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>This is the first systematic investigation into learning complex reasoning, fine-grained physical dynamics, and long-term planning from pure visual demonstrations. It proposes VR-GRPO, an RL paradigm with global and step-level rewards ensuring logical and physical consistency. Achieves SOTA on multiple video-based reasoning tasks.</div>
+      <div class='item-desc'>This paper shows how to make a frozen small model both more capable and cheaper: store verified knowledge once as a byte-exact KV state artifact, then "graft" it into a new inference context. The restored logits are byte-for-byte identical to fresh computation (SHA-256 match, zero KL divergence), while inference cost drops by over 90%.</div>
       <div class="item-meta">
         
         
@@ -1260,7 +1215,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Pure visual reasoning without text annotation is a key path to general world models. For embodied AI, autonomous driving, and robotics, UniVR demonstrates the possibility of learning high-dimensional skills from raw video without large labeled datasets.</div>
+      <div class='item-desc'>Developers can precompute an expensive model's reasoning for specific knowledge and reuse it on a lightweight model at negligible cost. For agent systems that frequently query the same knowledge (e.g., customer support, legal Q&A), this can dramatically cut latency and cost. Grafting guarantees identical outputs, making it suitable for deterministic replay scenarios.</div>
       <div class="item-meta">
         
         
@@ -1269,7 +1224,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Proposes a unified framework coupling image understanding and generation, akin to a human simultaneously speaking and drawing on a whiteboard—both modalities mutually correct each other within each time step. Uses Masked Diffusion Models (MDMs) and coupled Markov jump processes for interleaved correction.</div>
+      <div class='item-desc'>RoboTTT (Test-Time-Training Robot Policies) scales visuomotor context to 8,000 timesteps—three orders of magnitude beyond state-of-the-art—without increasing inference latency. This enables one-shot imitation learning from human video demos, on-the-fly policy improvement, and robustness to perturbations.</div>
       <div class="item-meta">
         
         
@@ -1278,7 +1233,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Current multimodal models typically treat understanding and generation separately or alternate in steps. This framework injects real-time understanding feedback during generation, applicable to image editing, interactive design, and similar tasks, potentially improving output faithfulness to instructions.</div>
+      <div class='item-desc'>This is a major breakthrough in robotics: the massive context expansion means robots no longer need per-task training but can learn from long histories like LLMs. For embodied AI teams, this makes "deploy once, adapt via long context" possible and could reshape robot software stack design.</div>
       <div class="item-meta">
         
         
@@ -1287,7 +1242,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Introduces TTCD, a novel continuous diffusion language model where each token is assigned a different diffusion time step—faster tokens converge to the final state earlier, slower ones keep adjusting. It maps Gaussian noise directly to a final token canvas in continuous space without extra sampling steps.</div>
+      <div class='item-desc'>TTCD (Token Time Continuous Diffusion) is a new diffusion language model that operates in continuous space, deterministically mapping Gaussian noise to token canvases without additional sampling. Its key innovation is per-token independent times—some tokens transition from noise to token faster than others, avoiding inaccuracies from parallel multi-token sampling.</div>
       <div class="item-meta">
         
         
@@ -1296,7 +1251,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Provides a new paradigm for language modeling that is faster than autoregressive generation and more flexible than standard diffusion. The per-token variable decoding speed is especially suitable for applications needing parallel output or variable-length generation, such as code completion and summarization.</div>
+      <div class='item-desc'>TTCD offers a non-autoregressive paradigm with potential speed and quality advantages. For teams researching new architectures, this is a promising direction. It may alleviate the difficulties autoregressive models face when generating content with long-range structure.</div>
       <div class="item-meta">
         
         
@@ -1312,7 +1267,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A feed-forward 3D foundation model that reconstructs scenes in real time from streaming sensor data (e.g., camera feeds). Gained +827 stars on GitHub today.</div>
+      <div class='item-desc'>A local-first code intelligence graph that builds a persistent map of the codebase for MCP and CLI, enabling AI coding tools to read only relevant context. Delivers benchmarked context reduction on code review and large-repo workflows. 356+ stars today.</div>
       <div class="item-meta">
         
         
@@ -1321,7 +1276,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>For developers, this directly lowers the barrier to real-time 3D scene understanding. Useful for robotics, AR/VR prototyping, or any application needing live spatial mapping from video streams.</div>
+      <div class='item-desc'>Today's AI coding assistants suffer from "context overrun" in large codebases. This tool provides precise context via a pre-built code graph, dramatically improving code understanding and generation quality.</div>
       <div class="item-meta">
         
         
@@ -1330,7 +1285,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Builds a persistent codebase map for AI coding tools, enabling tools like Claude Code to read only relevant context when reviewing large repos. Benchmark shows significant context reduction.</div>
+      <div class='item-desc'>A local-first search, fetch, crawl, and research tool for AI coding agents via MCP. No API keys, no cloud dependency, $0/query. Public beta. 192+ stars today.</div>
       <div class="item-meta">
         
         
@@ -1339,7 +1294,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a practical solution to the "context explosion" problem of AI agents in large codebases. Via a local-first MCP tool, developers can plug it into any MCP-compatible coding agent for more precise code understanding.</div>
+      <div class='item-desc'>Agents often rely on paid APIs for external information access (research, debugging, web content). Wigolo provides a fully local alternative, attractive to indie developers and small teams.</div>
       <div class="item-meta">
         
         
@@ -1348,7 +1303,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A pure C dependency-free inference engine that streams expert modules from disk, enabling GLM-5.2 (744B MoE) to run on consumer hardware with 25GB RAM.</div>
+      <div class='item-desc'>An open-source, single-binary, no-Office-installation CLI tool designed for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Claims to be the "first Office suite built for agents."</div>
       <div class="item-meta">
         
         
@@ -1357,7 +1312,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>For local deployment and private inference enthusiasts, this breaks the hardware barrier for giant models. Open-weight models like GLM-5.2 (and future Kimi K3) can run on personal devices, greatly expanding edge AI possibilities.</div>
+      <div class='item-desc'>LLMs frequently need to generate and edit Office files (reports, data analysis outputs), but existing solutions are often heavy or cloud-dependent. OfficeCLI offers a lightweight alternative that can be directly integrated into any agent's tool-use loop.</div>
       <div class="item-meta">
         
         
@@ -1366,7 +1321,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A free AI gateway providing a single endpoint to 160+ providers (50+ free), with support for tools like Claude Code, Codex, Cursor, Cline. Features "stacked compression" claiming 15-95% token savings, smart automatic fallback, and MCP/A2A protocol support.</div>
+      <div class='item-desc'>AirLLM demonstrates inference of 70B-parameter models (e.g., LLaMA-70B) on a single 4GB GPU via extreme memory offloading and quantization. 234+ stars today.</div>
       <div class="item-meta">
         
         
@@ -1375,7 +1330,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Independent developers and small teams can switch and aggregate multiple APIs at zero cost, avoiding single-vendor lock-in. The token compression is especially valuable for cost control.</div>
+      <div class='item-desc'>For individual developers or teams on tight budgets, this eliminates the hardware barrier to running large models. While inference will be slower, it suffices for local experimentation and is useful for sensitive use cases where cloud APIs are not an option.</div>
       <div class="item-meta">
         
         
@@ -1384,7 +1339,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A single-binary, no-Office-requirement tool for reading, writing, and editing Word, Excel, and PowerPoint files, designed specifically for AI agents. Open source and free.</div>
+      <div class='item-desc'>A pure-C, zero-dependency inference engine that streams MoE experts from disk, enabling GLM-5.2 (744B MoE) to run on consumer machines with 25GB RAM. Tiny engine, immense model.</div>
       <div class="item-meta">
         
         
@@ -1393,7 +1348,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Most agents struggle to handle Office documents efficiently. OfficeCLI fills this gap, enabling AI agents to generate reports, fill tables, create presentations, and integrate directly into enterprise workflows.</div>
+      <div class='item-desc'>This showcases the open-source community's extreme optimization efforts. For developers seeking maximum local model capabilities without GPU VRAM constraints, colibri offers a unique path. Streaming-based speed may be slow, suitable for offline or low-latency-tolerant scenarios.</div>
       <div class="item-meta">
         
         
@@ -1409,7 +1364,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A Reddit thread titled "Kimi moment. I think the writing is on the wall for Anthropic and OpenAi" (by u/Fuckinglivemealone) gained heavy discussion. It argued that Kimi K3 as an open-source model has caught up to closed frontier models, while Minimax 3 Pro (2.7T) and GLM 5.3 are accelerating. The community worries that closed-source companies may need to "distill" client knowledge and vertically expand into applications to justify trillion-dollar valuations, pushing enterprises toward open-source. Another hot thread exposed a scam by "Basalt Labs" claiming 99.44% HLE score, revealed to be a proxy to Qwen2.5-7B-Instruct + DeepSeek API.</div>
+      <div class='item-desc'>A post titled "Kimi moment. I think the writing is on the wall for Anthropic and OpenAI" in r/LocalLLaMA gained significant traction. User /u/Fuckinglivemealone pointed out that DeepSeek still leads on price-to-performance on the Artificial Analysis leaderboard, and the arrival of Kimi K3 challenges Western labs' "compute moat" narrative. They wrote: "As a group, all of them are accelerating their progress. THAT is the strength of open source. Meanwhile less enterprises are going to trust Anthropic and OpenAI. Because now to re-establish their moat and justify their trillion $ valuations, they must now 'distill' clients' knowledge and expand vertically into applications (finance apps, ads, etc)."</div>
       <div class="item-meta">
         
         
@@ -1418,25 +1373,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This reflects a genuine sentiment shift: the valuation walls of OpenAI and Anthropic are being eroded by a collective open-source push. Reddit's high-quality discernment means any false claim is quickly debunked, a warning to startups that must compete with real performance.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>Hacker News and Reddit erupted over OpenAI GPT-5.6's "Full Access Mode" deletion of home directories. The core debate: should models be allowed to execute potentially destructive operations without secondary confirmation? Majority opinion calls it a product design flaw, but some argue users granted full permission and the model followed instructions. The discussion extends to universal principles: any agent with filesystem write capabilities must implement a human-in-the-loop for destructive actions.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a landmark event for AI agent governance. It will directly influence default security policies of all agent frameworks (AutoGPT, Claude Code, etc.). Developers should watch for OpenAI's post-mortem, which could become industry standard.</div>
+      <div class='item-desc'>This reflects a growing community consensus that Chinese open-source models are collectively approaching the frontier, while closed-source vendors' business models (controlling data and compute) face fundamental questioning. For AI builders, this means more diverse and cheaper model choices, but also a need to watch for closed-source vendors' potential strategic shifts toward data utilization.</div>
       <div class="item-meta">
         
         
@@ -1452,7 +1389,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">Inspiration</div>
-      <div class='item-desc'>A highly upvoted Hacker News post (132 points, 89 comments) by ykdojo presents a step-by-step guide to configuring a spare Mac as a persistent Claude Code environment for automated nightly builds and code reviews.</div>
+      <div class='item-desc'>On r/SideProject and Lenny's Podcast, solo builder Alex Finn shared his setup: a five-computer local AI cluster running a Claude Code build-review-deploy loop. His system uses Claude Code's agentic nature to automatically write code, run tests, review diffs, and deploy features overnight. He claims "unlimited local intelligence beats a $20 subscription."</div>
       <div class="item-meta">
         
         
@@ -1461,7 +1398,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Takeaway</div>
-      <div class='item-desc'>Independent developers can leverage idle hardware + a Claude Max subscription to gain a 7x24 AI programming partner. The guide covers remote access, persistent token management, and automated triggers—very practical for maximizing Claude Code usage on a budget.</div>
+      <div class='item-desc'>The core idea is a two-mode workflow: daytime (manual coding/review) and nighttime (autonomous agent coding). Key safety measures: restrict agent code repo access, use read-only test environments, and deploy with CI/CD auto-rollback. For solo builders, this is a feasible path to doubling output without doubling hours.</div>
       <div class="item-meta">
         
         
@@ -1470,7 +1407,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Inspiration</div>
-      <div class='item-desc'>VentureBeat reported that Capital One open-sourced VulnHunter (Apache 2.0). An indie developer or small team can use it to automatically scan their GitHub-hosted projects for vulnerabilities and generate fix suggestions, replacing expensive security audits.</div>
+      <div class='item-desc'>The GitHub project ai-job-search (⭐2 today) demonstrates an AI-driven job automation framework based on Claude Code: fork the project, fill in your profile, and Claude automatically assesses job fit, customizes CVs, writes cover letters, and prepares interview questions. A classic agent + workflow pattern.</div>
       <div class="item-meta">
         
         
@@ -1479,7 +1416,25 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Takeaway</div>
-      <div class='item-desc'>A common pain point for indie devs is lack of security audit resources. VulnHunter offers ready-to-use CI integration via GitHub Actions, scanning on every commit. This improves product quality and can be a selling point for client projects.</div>
+      <div class='item-desc'>This pattern generalizes to any "mass personalized application" scenario: bidding, scholarship applications, startup competitions. The key is building a high-quality "personal profile" knowledge base so the agent accurately understands your strengths. Final decisions need human review, but initial filtering and draft generation can be fully automated.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Inspiration</div>
+      <div class='item-desc'>A Hacker News article "What's the deal with all the random weekly quota resets for agents lately?" sparked discussion. The author noted that many agent platforms (OpenAI, Anthropic) have opaque quota reset mechanisms with unpredictable timing, making cost planning difficult. Commenters widely concurred.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>This is a clear unmet need—indie developers could build a cross-platform agent quota monitor and alert tool, or a caching/queuing middleware that auto-downgrades to cheaper models when quotas are low. Few existing solutions exist, the demand is real, and the technical barrier is low (just API calls).</div>
       <div class="item-meta">
         
         
@@ -1968,7 +1923,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           <h2><span data-lang-content="zh">🔥 近 7 天热点</span><span data-lang-content="en">🔥 Hot picks · last 7 days</span></h2>
           <span class="sub"><span data-lang-content="zh">近期高频出现的模型 / 产品 / 项目 · 点击搜索</span><span data-lang-content="en">Models / products mentioned most · click to search</span></span>
         </div>
-        <div class="trend-tags"><span class="trend-tag s3" data-term="OpenAI GPT-5.6">OpenAI GPT-5.6<span class="cnt">27</span></span><span class="trend-tag s3" data-term="Claude Code">Claude Code<span class="cnt">26</span></span><span class="trend-tag s3" data-term="Kimi K3">Kimi K3<span class="cnt">18</span></span><span class="trend-tag s2" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">17</span></span><span class="trend-tag s2" data-term="Hacker News">Hacker News<span class="cnt">12</span></span><span class="trend-tag s1" data-term="Apache 2.0">Apache 2.0<span class="cnt">6</span></span><span class="trend-tag s1" data-term="Thinking Machines">Thinking Machines<span class="cnt">5</span></span><span class="trend-tag s1" data-term="Claude Sonnet 5">Claude Sonnet 5<span class="cnt">4</span></span><span class="trend-tag s1" data-term="GLM 5.2">GLM 5.2<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Google Research">Google Research<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Satya Nadella">Satya Nadella<span class="cnt">3</span></span><span class="trend-tag s1" data-term="The Decoder">The Decoder<span class="cnt">3</span></span></div>
+        <div class="trend-tags"><span class="trend-tag s3" data-term="OpenAI GPT-5.6">OpenAI GPT-5.6<span class="cnt">25</span></span><span class="trend-tag s3" data-term="Claude Code">Claude Code<span class="cnt">24</span></span><span class="trend-tag s3" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">18</span></span><span class="trend-tag s2" data-term="Kimi K3">Kimi K3<span class="cnt">15</span></span><span class="trend-tag s2" data-term="Hacker News">Hacker News<span class="cnt">11</span></span><span class="trend-tag s1" data-term="Apache 2.0">Apache 2.0<span class="cnt">5</span></span><span class="trend-tag s1" data-term="Thinking Machines">Thinking Machines<span class="cnt">5</span></span><span class="trend-tag s1" data-term="Claude Opus 4.8">Claude Opus 4.8<span class="cnt">5</span></span><span class="trend-tag s1" data-term="Claude Sonnet 5">Claude Sonnet 5<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Google Research">Google Research<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Satya Nadella">Satya Nadella<span class="cnt">3</span></span><span class="trend-tag s1" data-term="Qwen3.6">Qwen3.6<span class="cnt">3</span></span></div>
       </div>
     </div>
   
