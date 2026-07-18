@@ -15,6 +15,29 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-07-19 周日</title>
+      <description>各位听众朋友们，大家早上好！今天是2026年7月19号，欢迎收听今天的AI行业播客。今天AI圈可以说是炸开了锅，几个大新闻都凑到了一起。一来，中国的月之暗面发布了史上最大的开源模型，直接把参数拉到将近三万亿，性能直追顶尖闭源模型。二来，OpenAI的GPT-5.6干了一件大事，也干了一件“坏事”——它解开了数学界一个三十年悬而未决的问题，但同时，它也误删了不少用户的文件。还有一个重磅消息是，Anthropic突然变卦，把自家的顶级模型放进了订阅计划里，但额度直接砍了一半。咱们这就来梳理一下今天最重要的几件事。
+首先，聊聊模型之间的这场“神仙打架”。最炸裂的新闻，毫无疑问是月之暗面，也就是Moonshot AI，正式发布了他们的大模型——Kimi K3。这个模型有多大呢？二点八万亿参数，也就是两万八千亿，是目前全球最大的开源模型，没有之一。而且它的性能，在多个关键测试上已经非常接近OpenAI的GPT-5.6 Sol和Anthropic的Claude Fable 5。最关键的是，月之暗面承诺，这个月内就会把模型权重全部开源。这意味着，任何开发者、任何企业，都有可能自己下载、部署、微调这样一个接近世界顶级水平的模型。这不仅仅是对OpenAI和Anthropic的一次冲击，更是对西方“算力是唯一壁垒”这个叙事的一次正面回击。联想到之前的DeepSeek，中国团队又一次证明了，在算力受限的情况下，顶尖的算法和工程能力依然可以追平甚至超越对手。不过，有意思的是，Kimi K3的API定价并不便宜，这也释放了一个信号：国产大模型可能正在从“低价抢市场”转向“以能力换价格”。
+说到模型能力，OpenAI的GPT-5.6今天也刷了一波屏，但原因比较复杂。一方面，它确实展示了惊人的能力。有位数学家在使用GPT-5.6做推理论证的时候，模型居然直接给出了一个被验证正确的凸优化算法，这个算法在数学界已经悬而未决长达三十年。这件事引发了社区对AI科学发现能力的广泛讨论，看来AI作为科研助手的潜力远比我们想象的要大。但另一方面，GPT-5.6也暴露了一个巨大的隐患。有不少用户报告说，当他们给GPT-5.6开启“全访问模式”后，这个模型竟然直接把用户的整个个人文件夹给删掉了。OpenAI后来承认这是设计缺陷，模型在执行破坏性操作前没有二次确认。这事给所有正在构建AI Agent的团队敲响了警钟——权限管理、沙箱隔离和人类确认回路，真不是可有可无的，而是安全的基础设施。
+好，我们再看看另一家巨头Anthropic的戏剧性转变。他们之前一直强调，自家最强的Claude Fable 5模型只通过API提供，不包含在订阅计划里。但这个口风今天彻底变了。从明天，也就是7月20号开始，Fable 5将永久加入Max和Team Premium订阅计划，但有一个关键前提：它最多只能占用你常规额度的百分之五十。同时，所有订阅计划的额度也统一下调了三分之一。这意味着，如果你是重度用户，想多用Fable 5，反而要考虑转去用API计费了。这显然是在GPT-5.6和Kimi K3的降价和开源双重压力下，做出的被迫调整。顶级模型的订阅大战，已经进入了定价和准入门槛激烈博弈的新阶段。
+说到诉讼，Apple和OpenAI今天也有一场大戏。苹果正式对OpenAI提起了商业秘密诉讼，指控他们挖走了超过四百名前苹果员工，并系统性地将苹果的技术带到了OpenAI。这个诉讼的时间点非常微妙，正好卡在OpenAI忙着筹备IPO的关口。市场上普遍认为，这起官司很可能导致OpenAI的IPO进程被推迟，或者估值被下调。这不仅是两家巨头之间的法律纠纷，更是对整个AI行业人才流动和知识产权边界的一次压力测试。
+另一边，军方也开始加速拥抱AI。五角大楼最近签署了一项新的AI战略，核心思路非常直接——他们认为，在军事应用上，因为追求百分之百的安全对齐而行动缓慢，这本身带来的风险，比不完美的AI还要大。所以，他们决定要在战舰上直接部署大语言模型，快速建设“AI优先”的舰队。这标志着军事AI从谨慎探索正式转向了快速部署，对于AI安全领域的从业者来说，这绝对是一个需要高度关注的信号。
+最后，咱们说两个对开发者很实用的消息。一个是金融巨头Capital One，他们开源了一个叫VulnHunter的工具，这个工具可以用AI</description>
+      <itunes:summary>各位听众朋友们，大家早上好！今天是2026年7月19号，欢迎收听今天的AI行业播客。今天AI圈可以说是炸开了锅，几个大新闻都凑到了一起。一来，中国的月之暗面发布了史上最大的开源模型，直接把参数拉到将近三万亿，性能直追顶尖闭源模型。二来，OpenAI的GPT-5.6干了一件大事，也干了一件“坏事”——它解开了数学界一个三十年悬而未决的问题，但同时，它也误删了不少用户的文件。还有一个重磅消息是，Anthropic突然变卦，把自家的顶级模型放进了订阅计划里，但额度直接砍了一半。咱们这就来梳理一下今天最重要的几件事。
+首先，聊聊模型之间的这场“神仙打架”。最炸裂的新闻，毫无疑问是月之暗面，也就是Moonshot AI，正式发布了他们的大模型——Kimi K3。这个模型有多大呢？二点八万亿参数，也就是两万八千亿，是目前全球最大的开源模型，没有之一。而且它的性能，在多个关键测试上已经非常接近OpenAI的GPT-5.6 Sol和Anthropic的Claude Fable 5。最关键的是，月之暗面承诺，这个月内就会把模型权重全部开源。这意味着，任何开发者、任何企业，都有可能自己下载、部署、微调这样一个接近世界顶级水平的模型。这不仅仅是对OpenAI和Anthropic的一次冲击，更是对西方“算力是唯一壁垒”这个叙事的一次正面回击。联想到之前的DeepSeek，中国团队又一次证明了，在算力受限的情况下，顶尖的算法和工程能力依然可以追平甚至超越对手。不过，有意思的是，Kimi K3的API定价并不便宜，这也释放了一个信号：国产大模型可能正在从“低价抢市场”转向“以能力换价格”。
+说到模型能力，OpenAI的GPT-5.6今天也刷了一波屏，但原因比较复杂。一方面，它确实展示了惊人的能力。有位数学家在使用GPT-5.6做推理论证的时候，模型居然直接给出了一个被验证正确的凸优化算法，这个算法在数学界已经悬而未决长达三十年。这件事引发了社区对AI科学发现能力的广泛讨论，看来AI作为科研助手的潜力远比我们想象的要大。但另一方面，GPT-5.6也暴露了一个巨大的隐患。有不少用户报告说，当他们给GPT-5.6开启“全访问模式”后，这个模型竟然直接把用户的整个个人文件夹给删掉了。OpenAI后来承认这是设计缺陷，模型在执行破坏性操作前没有二次确认。这事给所有正在构建AI Agent的团队敲响了警钟——权限管理、沙箱隔离和人类确认回路，真不是可有可无的，而是安全的基础设施。
+好，我们再看看另一家巨头Anthropic的戏剧性转变。他们之前一直强调，自家最强的Claude Fable 5模型只通过API提供，不包含在订阅计划里。但这个口风今天彻底变了。从明天，也就是7月20号开始，Fable 5将永久加入Max和Team Premium订阅计划，但有一个关键前提：它最多只能占用你常规额度的百分之五十。同时，所有订阅计划的额度也统一下调了三分之一。这意味着，如果你是重度用户，想多用Fable 5，反而要考虑转去用API计费了。这显然是在GPT-5.6和Kimi K3的降价和开源双重压力下，做出的被迫调整。顶级模型的订阅大战，已经进入了定价和准入门槛激烈博弈的新阶段。
+说到诉讼，Apple和OpenAI今天也有一场大戏。苹果正式对OpenAI提起了商业秘密诉讼，指控他们挖走了超过四百名前苹果员工，并系统性地将苹果的技术带到了OpenAI。这个诉讼的时间点非常微妙，正好卡在OpenAI忙着筹备IPO的关口。市场上普遍认为，这起官司很可能导致OpenAI的IPO进程被推迟，或者估值被下调。这不仅是两家巨头之间的法律纠纷，更是对整个AI行业人才流动和知识产权边界的一次压力测试。
+另一边，军方也开始加速拥抱AI。五角大楼最近签署了一项新的AI战略，核心思路非常直接——他们认为，在军事应用上，因为追求百分之百的安全对齐而行动缓慢，这本身带来的风险，比不完美的AI还要大。所以，他们决定要在战舰上直接部署大语言模型，快速建设“AI优先”的舰队。这标志着军事AI从谨慎探索正式转向了快速部署，对于AI安全领域的从业者来说，这绝对是一个需要高度关注的信号。
+最后，咱们说两个对开发者很实用的消息。一个是金融巨头Capital One，他们开源了一个叫VulnHunter的工具，这个工具可以用AI</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-19.mp3" length="2515248" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-19.mp3</guid>
+      <pubDate>Sun, 19 Jul 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>06:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-07-18 周六</title>
       <description>各位听众朋友们，早上好！今天是2026年7月18号。今天的AI圈，可以说是“重量级发布”和“安全警钟”同时敲响。一边是开源模型Kimi K3的横空出世，参数规模震撼业界；另一边，GPT-5.6一个操作失误，把用户文件给删了。好，话不多说，我们直接进入正题。
 首先，今天绝对的重磅炸弹来自月之暗面，他们发布了Kimi K3。这个模型有多大？2.8万亿参数，是目前全球最大的开源模型。它的性能据说已经逼近GPT-5.6 Sol和Claude Fable。更厉害的是，他们自研的Kimi Delta Attention技术，把解码速度提升了6倍多，而且模型权重承诺就在这个月27号发布。紧接着，Mira Murati的团队Thinking Machines Lab也发布了他们的第一个开源模型Inkling，975亿参数，用的是Apache 2.0许可，支持文本、图像、音频、视频多种输入。你看，今天这日子，开源社区可是热闹非凡，感觉前沿水平真的在快速拉近。
@@ -417,35 +440,6 @@ OpenAI的联合创始人Brockman今天也提出了一个大胆的预言，他认
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-05.mp3</guid>
       <pubDate>Sun, 05 Jul 2026 08:00:00 +0800</pubDate>
       <itunes:duration>05:00</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-07-04 周六</title>
-      <description>各位听众朋友早上好，今天是2026年7月4号，欢迎收听今天的AI行业播报。今天的关键词是“实用化落地”——从巨头到开源社区，所有人都在思考同一个问题：怎么让AI真正干活、产生价值。好，我们直接进入正题。
-先说一个重磅回归的消息。Anthropic的Claude Fable 5和Mythos 5在全球恢复访问了。美国商务部解除了出口管制，Anthropic还加上了新的安全分类器。这意味着最强模型又回来了，企业可以重新评估自己的依赖策略。说到依赖策略，VentureBeat的数据显示，三分之二的企业已经建立了多模型对冲策略，Fable 5被禁那几周暴露了单一依赖的风险，现在大家更倾向于多模型、去耦合的架构了。
-另一个大新闻是微软。他们砸了25亿美元成立了一家叫Frontier Company的AI部署公司，直接把6000名AI工程师嵌入到企业客户里面去。这说明什么？大厂下场做深度部署，AI服务模式正在发生质变。与此同时，Anthropic也在加速摆脱对英伟达的依赖，他们正在跟三星电子谈定制AI芯片的事，已经招了芯片工程师。OpenAI那边也没闲着，Sam Altman提议把5%的股权捐给美国主权财富基金，想跟政府绑定利益，影响行业监管走向。
-说到监管，Zuckerberg在内部会议上承认，AI Agent进展不及预期，公司围绕Agent的重组推进缓慢。行业领袖坦承落地难度，这其实是个理性信号。不过开源社区可没闲着。Meta悄悄发布了叫Pocket的实验性AI应用，用户可以用文本提示生成和分享互动小游戏，AI正在从工具走向消费级内容生成平台。Facebook还开源了Astryx，一个可定制、Agent就绪的设计系统，这是Agent时代的前端新范式。
-中国这边也有动作。智谱AI现在叫Z.ai，推出了免费桌面应用ZCode，基于GLM-5.2的Agentic开发环境，直接对标Cursor、Claude Code和GitHub Copilot，中国AI编程工具强势入局。快手旗下的AI视频部门可灵融资20亿美元，准备在香港上市，AI视频赛道资本化加速。
-Anthropic还发布了Claude Science，一个整合碎片化工具和数据集的AI科学家工作台，并且宣布要自主开发药物。AI公司从工具提供者变成了产业参与者。Google DeepMind跟独立电影公司A24也达成了研究合作，探索AI在创意领域的应用。
-论文方面，今天有几个值得关注的突破。Mistral发布了Leanstral 1.5，一个Apache-2.0协议的形式验证模型，119B参数但只激活6.5B，在PutnamBench上解决了587个问题，还在57个仓库里发现了5个未知bug。NVIDIA开源了Nemotron-Labs-TwoTower扩散语言模型，瞄准文本生成吞吐瓶颈，扩散语言模型正在走向实用。阿里巴巴提出SkillWeaver框架，能把Agent的Token使用量降低99%，这是成本优化的重大突破。
-英国AI安全研究所发现，标准基准系统性低估了Agent能力，增加Token预算后软件工程成功率能提升约25%。评测方法论需要重新设计。还有一篇论文证明，GRPO、Dr. GRPO和DAPO这三种主流推理训练方法本质上是同一个操作——都在调整标准偏差。这有助于统一理解推理训练方法。另一篇论文揭示了测试时扩展存在两个根本上限，更多采样反而可能有害，挑战了“更多采样等于更好”的共识。
-开源项目也很热闹。usestrix/strix是一个AI渗透测试工具，一天涨了2800多星。OpenAI发布了codex-plugin-cc，让Claude Code能用OpenAI Codex审查代码。Chrome DevTools团队推出了MCP服务器，让编码Agent具备浏览器调试能力。腾讯云开源了CubeSandbox，一个即时、并发、安全、轻量级的AI Agent沙箱。LangChain推出了openwiki，一个CLI工具，能自动编写和维护代码库的Agent文档。
-最后说一个行业热议的话题。AI Coding的成瘾性争议在Hacker News上炸开了锅。工程师过度依赖AI生成代码，导致理解深度下降、技术债累积。Simon Willison在AIE大会上引用了一个观点：“理解才能参与”，强调</description>
-      <itunes:summary>各位听众朋友早上好，今天是2026年7月4号，欢迎收听今天的AI行业播报。今天的关键词是“实用化落地”——从巨头到开源社区，所有人都在思考同一个问题：怎么让AI真正干活、产生价值。好，我们直接进入正题。
-先说一个重磅回归的消息。Anthropic的Claude Fable 5和Mythos 5在全球恢复访问了。美国商务部解除了出口管制，Anthropic还加上了新的安全分类器。这意味着最强模型又回来了，企业可以重新评估自己的依赖策略。说到依赖策略，VentureBeat的数据显示，三分之二的企业已经建立了多模型对冲策略，Fable 5被禁那几周暴露了单一依赖的风险，现在大家更倾向于多模型、去耦合的架构了。
-另一个大新闻是微软。他们砸了25亿美元成立了一家叫Frontier Company的AI部署公司，直接把6000名AI工程师嵌入到企业客户里面去。这说明什么？大厂下场做深度部署，AI服务模式正在发生质变。与此同时，Anthropic也在加速摆脱对英伟达的依赖，他们正在跟三星电子谈定制AI芯片的事，已经招了芯片工程师。OpenAI那边也没闲着，Sam Altman提议把5%的股权捐给美国主权财富基金，想跟政府绑定利益，影响行业监管走向。
-说到监管，Zuckerberg在内部会议上承认，AI Agent进展不及预期，公司围绕Agent的重组推进缓慢。行业领袖坦承落地难度，这其实是个理性信号。不过开源社区可没闲着。Meta悄悄发布了叫Pocket的实验性AI应用，用户可以用文本提示生成和分享互动小游戏，AI正在从工具走向消费级内容生成平台。Facebook还开源了Astryx，一个可定制、Agent就绪的设计系统，这是Agent时代的前端新范式。
-中国这边也有动作。智谱AI现在叫Z.ai，推出了免费桌面应用ZCode，基于GLM-5.2的Agentic开发环境，直接对标Cursor、Claude Code和GitHub Copilot，中国AI编程工具强势入局。快手旗下的AI视频部门可灵融资20亿美元，准备在香港上市，AI视频赛道资本化加速。
-Anthropic还发布了Claude Science，一个整合碎片化工具和数据集的AI科学家工作台，并且宣布要自主开发药物。AI公司从工具提供者变成了产业参与者。Google DeepMind跟独立电影公司A24也达成了研究合作，探索AI在创意领域的应用。
-论文方面，今天有几个值得关注的突破。Mistral发布了Leanstral 1.5，一个Apache-2.0协议的形式验证模型，119B参数但只激活6.5B，在PutnamBench上解决了587个问题，还在57个仓库里发现了5个未知bug。NVIDIA开源了Nemotron-Labs-TwoTower扩散语言模型，瞄准文本生成吞吐瓶颈，扩散语言模型正在走向实用。阿里巴巴提出SkillWeaver框架，能把Agent的Token使用量降低99%，这是成本优化的重大突破。
-英国AI安全研究所发现，标准基准系统性低估了Agent能力，增加Token预算后软件工程成功率能提升约25%。评测方法论需要重新设计。还有一篇论文证明，GRPO、Dr. GRPO和DAPO这三种主流推理训练方法本质上是同一个操作——都在调整标准偏差。这有助于统一理解推理训练方法。另一篇论文揭示了测试时扩展存在两个根本上限，更多采样反而可能有害，挑战了“更多采样等于更好”的共识。
-开源项目也很热闹。usestrix/strix是一个AI渗透测试工具，一天涨了2800多星。OpenAI发布了codex-plugin-cc，让Claude Code能用OpenAI Codex审查代码。Chrome DevTools团队推出了MCP服务器，让编码Agent具备浏览器调试能力。腾讯云开源了CubeSandbox，一个即时、并发、安全、轻量级的AI Agent沙箱。LangChain推出了openwiki，一个CLI工具，能自动编写和维护代码库的Agent文档。
-最后说一个行业热议的话题。AI Coding的成瘾性争议在Hacker News上炸开了锅。工程师过度依赖AI生成代码，导致理解深度下降、技术债累积。Simon Willison在AIE大会上引用了一个观点：“理解才能参与”，强调</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-04.mp3" length="2227824" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-04.mp3</guid>
-      <pubDate>Sat, 04 Jul 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>06:11</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
