@@ -1,10 +1,10 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T05:11:47.884954+08:00",
+  "generated_at": "2026-07-20T06:55:34.892323+08:00",
   "counts": {
     "papers": 30,
     "projects": 26,
-    "news": 124
+    "news": 120
   },
   "items": {
     "papers": [
@@ -754,12 +754,34 @@
     "news": [
       {
         "category": "news",
+        "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+        "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+        "normalized_url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+        "summary": "HN points: 93, comments: 36",
+        "source": "Hacker News",
+        "published": "2026-07-19T21:18:10Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Heavy TV watching associated with smaller brain structures, study finds",
         "url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures/",
         "normalized_url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures",
-        "summary": "HN points: 48, comments: 17",
+        "summary": "HN points: 82, comments: 51",
         "source": "Hacker News",
         "published": "2026-07-19T20:25:58Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "AI advice reduced \"I don't know\" answers from 44% to 3%",
+        "url": "https://osf.io/preprints/psyarxiv/5y6m4_v1",
+        "normalized_url": "https://osf.io/preprints/psyarxiv/5y6m4_v1",
+        "summary": "HN points: 17, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-07-19T17:09:34Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -768,7 +790,7 @@
         "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
         "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
         "normalized_url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-        "summary": "HN points: 137, comments: 46",
+        "summary": "HN points: 170, comments: 59",
         "source": "Hacker News",
         "published": "2026-07-19T16:02:25Z",
         "importance_hint": 3,
@@ -779,7 +801,7 @@
         "title": "Clever hacker fits 537,000 domains in a $5 ESP32 ad-blocking dongle",
         "url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
         "normalized_url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
-        "summary": "HN points: 64, comments: 23",
+        "summary": "HN points: 69, comments: 24",
         "source": "Hacker News",
         "published": "2026-07-19T14:07:07Z",
         "importance_hint": 3,
@@ -803,54 +825,10 @@
         "title": "Anthropic runs large-scale code migrations with Claude Code",
         "url": "https://claude.com/blog/ai-code-migration",
         "normalized_url": "https://claude.com/blog/ai-code-migration",
-        "summary": "HN points: 19, comments: 23",
+        "summary": "HN points: 23, comments: 23",
         "source": "Hacker News",
         "published": "2026-07-19T08:31:15Z",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Protester calls out Amazon CTO for allowing Israel to use their AI towards Gaza",
-        "url": "https://www.reddit.com/r/chaoticgood/s/4Pla2e38AV",
-        "normalized_url": "https://www.reddit.com/r/chaoticgood/s/4Pla2e38AV",
-        "summary": "HN points: 24, comments: 5",
-        "source": "Hacker News",
-        "published": "2026-07-19T08:29:38Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
-        "url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
-        "normalized_url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
-        "summary": "HN points: 51, comments: 79",
-        "source": "Hacker News",
-        "published": "2026-07-19T08:00:24Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Ollama: All Aboard Open Models",
-        "url": "https://ollama.com/blog/all-aboard-open-models",
-        "normalized_url": "https://ollama.com/blog/all-aboard-open-models",
-        "summary": "HN points: 63, comments: 42",
-        "source": "Hacker News",
-        "published": "2026-07-19T07:59:44Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-        "url": "https://github.com/openai/codex/pull/33972/files",
-        "normalized_url": "https://github.com/openai/codex/pull/33972/files",
-        "summary": "HN points: 263, comments: 118",
-        "source": "Hacker News",
-        "published": "2026-07-19T07:54:39Z",
-        "importance_hint": 5,
         "metadata": {}
       },
       {
@@ -1297,6 +1275,19 @@
       },
       {
         "category": "news",
+        "title": "What to watch for after Jensen Huang’s Japan visit",
+        "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+        "normalized_url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+        "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+        "source": "TechCrunch AI",
+        "published": "2026-07-19T21:16:07+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
         "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
         "normalized_url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans",
@@ -1408,19 +1399,6 @@
         "source": "TechCrunch AI",
         "published": "2026-07-17T20:19:49+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI-driven memory crunch jolts India’s smartphone market",
-        "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-        "normalized_url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market",
-        "summary": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
-        "source": "TechCrunch AI",
-        "published": "2026-07-17T20:09:27+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1557,32 +1535,6 @@
       },
       {
         "category": "news",
-        "title": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
-        "url": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/",
-        "normalized_url": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak",
-        "summary": "On today’s Uncanny Valley, we unpack OpenAI’s ongoing drama, both legal and reputational, and whether these developments could further hurt the company—particularly in its fight against Anthropic.",
-        "source": "Wired AI",
-        "published": "2026-07-16T22:17:27+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
-        "url": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
-        "normalized_url": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs",
-        "summary": "Resellers threatened to ditch HP printing supplies for counterfeits.",
-        "source": "Ars Technica AI",
-        "published": "2026-07-16T22:02:31+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
-        }
-      },
-      {
-        "category": "news",
         "title": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"",
         "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/",
         "normalized_url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5",
@@ -1713,6 +1665,32 @@
       },
       {
         "category": "news",
+        "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
+        "url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query",
+        "summary": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills into self-hostable 4B and 9B checkpoints. The post Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-07-19T22:20:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+        "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+        "normalized_url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch",
+        "summary": "Alibaba's Qwen team previewed Qwen3.8-Max-Preview, a 2.4 trillion-parameter multimodal MoE model it calls \"second only to Fable 5.\" The preview is live on Token Plan, Qoder, and QoderWork at 10% of standard pricing. What is not live: any benchmark table, model card, license, per-token price, or active-parameter count. This breakdown separates what Alibaba confirmed from what it only claimed. The post Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s K",
+        "source": "MarkTechPost",
+        "published": "2026-07-19T21:42:50+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep",
         "url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
         "normalized_url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep",
@@ -1811,32 +1789,6 @@
         "source": "MarkTechPost",
         "published": "2026-07-18T06:32:43+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
-        "url": "https://www.marktechpost.com/2026/07/17/build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/17/build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph",
-        "summary": "Introduction This tutorial starts where most agent demos stop: giving the agent persistent memory, operational context, and a place to write back what happened. An event operator does not just need an agent that can summarize a weather report or generate a generic plan. The operator needs an agent that can remember what happened at […] The post Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-17T22:12:57+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Zyphra Releases ZUNA1.1: An Apache 2.0 EEG Foundation Model With Variable-Length Inputs From 0.5 To 30 Seconds",
-        "url": "https://www.marktechpost.com/2026/07/17/zyphra-releases-zuna1-1-an-apache-2-0-eeg-foundation-model-with-variable-length-inputs-from-0-5-to-30-seconds/",
-        "normalized_url": "https://www.marktechpost.com/2026/07/17/zyphra-releases-zuna1-1-an-apache-2-0-eeg-foundation-model-with-variable-length-inputs-from-0-5-to-30-seconds",
-        "summary": "Zyphra released ZUNA1.1 on July 16, 2026, under the Apache 2.0 license. The 380M masked diffusion autoencoder reconstructs, denoises, and upsamples scalp-EEG across arbitrary channel layouts. It accepts variable-length inputs from 0.5 to 30 seconds, against ZUNA1's fixed five seconds. Reported NMSE holds or improves while the input range widens. The post Zyphra Releases ZUNA1.1: An Apache 2.0 EEG Foundation Model With Variable-Length Inputs From 0.5 To 30 Seconds appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-07-17T21:35:27+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.marktechpost.com/feed/"
         }
@@ -2233,19 +2185,6 @@
       },
       {
         "category": "news",
-        "title": "OSS gathering in Shanghai",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0nm43/oss_gathering_in_shanghai/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0nm43/oss_gathering_in_shanghai",
-        "summary": "This seems awesome meetup. Within a day, Qwen started the move with 3.8 version. Hoping for more moves from others soon. Tweet : https://xcancel.com/RenLeanna/status/2078144481812185186#m submitted by /u/pmttyji [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-07-19T11:02:22+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "HuggingFace security incident report: \"the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails\"",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ywoi/huggingface_security_incident_report_the_attacker/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ywoi/huggingface_security_incident_report_the_attacker",
@@ -2253,6 +2192,19 @@
         "source": "r/LocalLLaMA",
         "published": "2026-07-19T19:00:20+00:00",
         "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OSS gathering in Shanghai",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0nm43/oss_gathering_in_shanghai/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0nm43/oss_gathering_in_shanghai",
+        "summary": "This seems awesome meetup. Within a day, Qwen started the move with 3.8 version. Hoping for more moves from others soon. Tweet : https://xcancel.com/RenLeanna/status/2078144481812185186#m submitted by /u/pmttyji [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-07-19T11:02:22+00:00",
+        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
