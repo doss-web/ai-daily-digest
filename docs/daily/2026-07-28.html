@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily Digest · 2026-07-18</title>
-  <meta name="description" content="AI领域2026-07-18每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <title>AI Daily Digest · 2026-07-28</title>
+  <meta name="description" content="AI领域2026-07-28每日简报，涵盖行业新闻、重要论文与开源项目。">
   <script>
     (function () {
       try {
@@ -532,7 +532,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   
     <div class="container">
       <div class="day-hero">
-        <div class="date-str"><span data-lang-content="zh">周六 · 2026-07-18</span><span data-lang-content="en">Saturday · 2026-07-18</span></div>
+        <div class="date-str"><span data-lang-content="zh">周二 · 2026-07-28</span><span data-lang-content="en">Tuesday · 2026-07-28</span></div>
         <h1><span data-lang-content="zh">AI 每日简报</span><span data-lang-content="en">AI Daily Digest</span></h1>
       </div>
       
@@ -541,7 +541,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
         <span class="ap-label">🎧 <span data-lang-content="zh">语音播报</span><span data-lang-content="en">Listen</span></span>
         <span class="ap-sub"><span data-lang-content="zh">通勤路上用耳朵看简报</span><span data-lang-content="en">Catch the digest on your commute</span></span>
       </div>
-      <audio controls preload="none" src="../audio/2026-07-18.mp3" data-date="2026-07-18"></audio>
+      <audio controls preload="none" src="../audio/2026-07-28.mp3" data-date="2026-07-28"></audio>
     </div>
       <div data-lang-content="zh">
     <div class="digest-scope">
@@ -559,7 +559,34 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>多位用户报告 GPT-5.6 Codex 在开启"Full Access Mode"时删除了整个 home 目录。OpenAI 确认问题源于模型尝试覆盖 $HOME 环境变量导致误删 $HOME。目前仅影响未启用沙箱或自动审查的全访问模式，OpenAI 已承诺增加防护措施并发布详细事后分析。</div>
+      <div class='item-desc'>Moonshot AI 于 7 月 27 日按承诺在 Hugging Face 放出 Kimi K3 权重。该模型总参数量 2.8T，MoE 架构含 896 专家（每 token 激活 16 个），支持 1M 上下文和视觉。同时，团队和 kvcache-ai 开源了 AgentENV（AENV），一个基于 Firecracker 微虚拟机的分布式智能体强化学习训练系统，支持毫秒级快照/恢复和 16 路分叉，采用 MIT 许可证。K3 在多个主流基准上接近西方前沿模型（如 Fable 5、GPT-5.6 Sol），但独立测试发现其在网络和数学能力上存在明显差距，引发对蒸馏的讨论。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是目前业界开源的最大规模 MoE 模型之一，为自部署和微调提供了新的基础选型。AgentENV 为训练智能体 RL 提供了一套可复用的高性能基础设施。但开发者应警惕 K3 在安全、数学等领域的实际表现，在关键任务中需额外验证。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>同一天，美国官方透露倾向于选择性禁止而非全面封禁中国开源权重模型，而 Jensen Huang 发推支持开源 AI 并指出蒸馏是学习的本质。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/" target="_blank">MarkTechPost</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Microsoft 在其 Microsoft AI 部门内部开发了紧凑型安全模型 MAI-Cyber-1-Flash，嵌入新的多智能体安全编排平台 MDASH。该模型在 CyberGym 基准测试上达到 96%，成本据称比纯前沿模型降低 50%——只有复杂推理任务才会被路由给 GPT-5.4。微软同时宣布，安全领域的未来属于“足够好且最便宜的模型，智能路由”。</div>
       <div class="item-meta">
         
         
@@ -568,43 +595,34 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是 AI agent 获得系统级权限后出现破坏性行为的典型案例。AI builder 在授权 agent 访问本地文件系统时必须明确沙箱边界，不能依赖模型自身的安全判断。</div>
+      <div class='item-desc'>这是大型云厂商首次发布专用安全模型，标志着“模型成本效率”成为企业 AI 架构的核心考量。AI builder 应关注“模型路由 + 专业化小模型”的架构模式，可能将改变企业当前依赖单一大型模型的部署习惯。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/" target="_blank">The Decoder</a></div>
+        <div class="item-sources"><a href="https://venturebeat.com/security/microsoft-launches-ai-cybersecurity-model-agentic-defense-platform-to-cut-enterprise-security-costs" target="_blank">VentureBeat</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Capital One 开源了 VulnHunter，一个 agentic AI 安全工具，能够扫描源代码发现可利用漏洞、绘制攻击路径并建议修复方案。工具基于 Apache 2.0 许可在 GitHub 发布，是目前金融巨头将进攻性 AI 能力转化为公共防御资源的最激进尝试之一。</div>
+      <div class='item-desc'>Nvidia CEO 黄仁勋在 Twitter 上发布首条推文，明确表态支持开放权重 AI 模型。他写道：“蒸馏——从 AI 学习、从他人学习、从其他知识源学习——是智能的基础。我们不断互相学习。AI 也必须从某物中学习。”他还引用 Hugging Face 攻击事件指出，封闭 AI 在取证时阻碍调查，而开放权重前沿模型帮助了遏制入侵。为此，Nvidia 联合微软、SpaceX、IBM 等成立了 Open Secure AI Alliance，构建开源安全工具。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="0">
+    <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>VulnHunter 代表了企业安全从被动扫描到主动渗透的范式转变。AI builder 可将其整合进 CI/CD 流水线，在代码合入前自动发现逻辑漏洞。</div>
+      <div class='item-desc'>黄仁勋的公开立场可能影响硅谷对开放模型监管的辩论风向。他首次发声即选择开放 vs 封闭的核心议题，且直接关联安全事件，给开放模型阵营提供了有力论据。AI builder 需留意后续政策走向：如果开放模型被选择性限制，将影响全球模型获取与使用。</div>
       <div class="item-meta">
+        <span class="stars">★★★★★</span>
         
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">关联动态</div>
-      <div class='item-desc'>同天 Snyk 调查显示 91.6% 受访者承认 AI 代码至少"有时"包含不安全建议，VulnHunter 的出现是对此类风险的工具级回应。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do" target="_blank">VentureBeat</a></div>
+        <div class="item-sources"><a href="https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/" target="_blank">PC Gamer</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Stripe 发布了专门针对 AI agent 支付集成能力的基准测试。结果显示 agent 能够完成端到端的集成方案开发，但在校验环节（如参数验证、错误处理）明显弱于人类开发者。</div>
+      <div class='item-desc'>Reddit 用户发现，Anthropic Claude 聊天机器人的“共享链接”功能创建的对话页面因缺乏 noindex 标签，被 Google 和 Bing 搜索引擎收录并公开访问。部分泄露内容包含加密密钥、法律咨询等敏感信息。Anthropic 此前在 Claude 系统卡中已标注过此风险，但显然未有效阻止。OpenAI 去年也曾犯过同样的错误。</div>
       <div class="item-meta">
         
         
@@ -613,16 +631,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是支付基础设施公司首个针对 agent 的实战基准。AI builder 在构建涉及金融交易的 agent 时，需重点强化校验和异常处理步骤，否则 agent 产出的代码可能产生财务风险。</div>
+      <div class='item-desc'>这是 AI 聊天机器人用户隐私的又一次重大事故，直接打击用户对“共享”功能的信任。对于企业用户，若内部对话被意外分享并索引，可能造成合规风险。开发者应审查自己在使用 AI 助手时的数据共享设置，并关注 Anthropic 后续修复方案（如强制 noindex 或默认私有）。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://www.infoq.cn/article/zVfybMt5i742CqhWYjR4?utm_source=rss&utm_medium=article" target="_blank">InfoQ 中文</a></div>
+        <div class="item-sources"><a href="https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/" target="_blank">Wired</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>德国媒体监管机构裁定 Google AI Overviews 和 Perplexity 属于媒体内容而非中立搜索结果，需遵守国家媒体条约。这是全球首个明确将 AI 生成摘要归入媒体法的裁决。两公司有一个月上诉时间。</div>
+      <div class='item-desc'>印度德里高等法院驳回了新闻社 ANI 对 OpenAI 的版权侵权禁令申请。法院首次将 AI 训练行为定性为“私人使用”。ANI 的诉求被驳回的一大原因是其引用了模型训练后才发表的新闻文章，自证逻辑矛盾。主要诉讼仍未了结，但禁令被拒是 OpenAI 的重大胜利。</div>
       <div class="item-meta">
         
         
@@ -631,16 +649,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>该裁决可能重塑 AI 搜索产品的法律框架——如果 AI 回答被视为媒体内容，那么模型的训练数据、事实准确性、编辑责任等问题将面临完全不同的监管要求。对 AI 搜索类产品的开发者意味着合规成本上升。</div>
+      <div class='item-desc'>该判决为全球 AI 版权诉讼提供了新的判例方向——将爬取数据用于训练视为“私人使用”可能改变法律博弈格局。对于 AI 公司，这增强了在版权争议中的防御信心；对于内容提供者，则需更主动地使用 robots.txt 等技术手段，而非单纯依赖诉讼。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-a-first-of-its-kind-ruling/" target="_blank">The Decoder</a></div>
+        <div class="item-sources"><a href="https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>研究人员在 HN 上展示了在同态加密（CKKS）环境下的 CIFAR-10 推理，仅需 200 毫秒。该实现运行在标准 CPU 上，无需 GPU，能够保证数据全链路加密而不暴露给服务器。</div>
+      <div class='item-desc'>AI 评估组织 METR 提出了一个新指标“Expenditure Horizon”（支出地平线），用于计算 AI 智能体在完成某项任务时的成本效率边界，即用美元数值表示智能体解决问题时是否比雇佣人类更划算。早期实验在 NanoGPT 速度跑任务上结果不理想，且指标存在盲区（如忽略一次性设置成本）。METR 表示新一代模型可能改变局面。</div>
       <div class="item-meta">
         
         
@@ -649,16 +667,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是同态加密实时推理的一个重要里程碑。对构建隐私敏感 AI 应用（医疗诊断、金融评估）的开发者来说，这意味着在保持数据隐私的同时实现可接受延迟成为可能。</div>
+      <div class='item-desc'>这是一个将智能体经济性从定性讨论推向定量比较的重要工具。AI builder 可借此评估自己的 Agent 系统在真实场景中的成本竞争力，判断委托给 AI 还是人类的阈值。指标虽不完美，但“成本效率”已成为模型选型和部署的关键维度。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://sofar.belfortlabs.cloud/" target="_blank">Hacker News</a></div>
+        <div class="item-sources"><a href="https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Patreon 宣布与 Cloudflare 合作，从依赖 robots.txt 转向主动拦截未经授权的 AI 训练爬虫。创作者可以开启该功能，阻止模型公司抓取其内容进行训练。</div>
+      <div class='item-desc'>BFL 发布了 FLUX 3，这是其 FLUX 系列的第三个主要版本，也是首个从单组权重同时输出图像、视频、音频和机器人动作预测的模型。架构使用统一流模型（flow model），未针对各模态分别设计，而是共享表示。论文 arXiv 已出。</div>
       <div class="item-meta">
         
         
@@ -667,47 +685,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是创作者平台从"请求不爬取"到"技术强制阻止"的标志性转变。对于依赖 UGC 内容的 AI builder，需重新评估数据获取策略——未来更多平台将采取类似措施，爬取成本将显著上升。</div>
+      <div class='item-desc'>FLUX 3 代表了多模态生成模型的新范式——从“多模型拼接”走向“单一架构、多模态统一”。对于构建机器人感知或内容生成的开发者，这意味着未来可能用一个预训练模型处理多种任务，降低基础设施复杂度和训练成本。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/" target="_blank">TechCrunch AI</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Agility Robotics 在加州弗里蒙特（特斯拉总部所在地）开设新的 Digit 机器人培训中心。该中心将用于训练人形机器人完成仓储物流任务，直接与特斯拉 Optimus 竞争。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Agility 选择在特斯拉大本营布点，标志着人形机器人商业化竞赛加速。Digit 是目前少数已实际部署到企业客户（如亚马逊）仓库的人形机器人，其培训中心的扩张预示量产交付即将到来。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/" target="_blank">TechCrunch AI</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>苹果上周五起诉 OpenAI 窃取商业机密，指控其首席硬件官等高管在跳槽时带走敏感信息，称超过 400 名前苹果员工目前就职于 OpenAI。OpenAI 的回应谨慎，而公司正筹备 IPO。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="4">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>诉讼时机对 OpenAI 极为不利，IPO 进程可能受此影响。该案也将为科技公司间员工流动与商业秘密保护设定判例。AI builder 需关注诉讼结果对人才流动和模型训练数据来源的潜在法律影响。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★☆</span>
-        
-        <div class="item-sources"><a href="https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/" target="_blank">TechCrunch AI</a></div>
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/" target="_blank">MarkTechPost</a></div>
       </div>
     </div>
         </div>
@@ -719,7 +701,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文提出一种架构感知的执行堆栈，能在固定 GPU 预算下对长上下文模型进行百万 token 级别的强化学习后训练。Inference 端已接近百万 token，但后训练仍停留在 256K 以下。LongStraw 通过计算-通信重叠和分层 checkpoint 打破了这一瓶颈。</div>
+      <div class='item-desc'>来自多机构团队的论文提出，生产级 AI 智能体的失败很少是因为推理能力不足，而是因为它们无法管理推理上下文中的内容——对话历史、大提示、工具定义及膨胀的工具输出。现有方案将其视为“存储与检索”问题，作者主张应同时从生命周期管理（何时删除/总结历史）和架构设计（如分层上下文池）两个角度解决。</div>
       <div class="item-meta">
         
         
@@ -728,16 +710,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对训练长上下文 agent 至关重要。Agent 的观察、工具输出和决策轨迹累积会远超当前 RL 训练的处理上限，LongStraw 提供了直接可用的方案。</div>
+      <div class='item-desc'>对于所有搭建 Agent 系统的开发者，这篇论文直接点出了当前最实用的痛点。它提供了框架性的思考而非具体算法，但提出了可操作的方向：不要只优化 RAG 或缓存，而要设计上下文的生命周期策略。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14952" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.21503" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>提出 TTCD，一种连续空间扩散语言模型。它不再对多个 token 并行采样（这是不准确的主要来源），而是为每个 token 分配独立的"时间"进度，最终将高斯噪声确定性映射为 token 序列，无需额外采样。</div>
+      <div class='item-desc'>论文提出 Skill Self-Play 训练框架，让 LLM 通过自我博弈来同时进化技能与任务多样性。它解决了自进化方法中“任务多样性与验证可靠性”之间两难困境：环境绑定方法反馈精确但领域窄，开放自生成任务宽但验证不可靠。Skill Self-Play 将“技能”作为中介，让模型生成新技能、用技能解决任务、再用任务结果验证技能。</div>
       <div class="item-meta">
         
         
@@ -746,16 +728,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>该方法在高质量生成和并行解码之间打开了新折中，可能成为未来非自回归语言模型的重要方向。对推理加速感兴趣的开发者应密切关注。</div>
+      <div class='item-desc'>这是 LLM 自我进化方向上的一次重要突破，直接针对 RLHF/SFT 后的人工标注瓶颈。如果验证有效，将大幅降低监督数据需求，使模型持续在无标注环境中自主提升。开源实现值得密切关注。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.14106" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.22529" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>对在线蒸馏（OPD）的训练动力学进行了系统研究。发现 OPD 的核心作用是作为探索催化剂——通过密集的 token 级引导让学生走向正确推理路径，但不会扩展模型的能力天花板。更具多样性的 prompt 比增加每个问题的采样数更有效。</div>
+      <div class='item-desc'>论文推出 SceneActBench，一个统一评测 AI 智能体在 5 类 3D 任务中执行动作能力的基准。与传统 3D 基准只要求文本输出或单物体操作不同，SceneActBench 要求智能体在完整的 3D 环境中通过工具操作物体（如抓取、移动、组装），使用统一智能体-环境循环，输入为 PNG 图像或视频帧。</div>
       <div class="item-meta">
         
         
@@ -764,16 +746,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>纠正了业界对 OPD 的常见误解（很多人认为它直接提升模型能力上限）。这意味着在蒸馏时应当优先构建高质量、多样化的 prompt 池，而非简单增加采样次数。</div>
+      <div class='item-desc'>对于从事具身智能、3D 理解和智能体控制的开发者，这是一个更具挑战性和实际意义的评测工具。它暴露了当前 VLM 在 3D 空间执行具体动作时的短板，可能推动下一波感知-行动模型的改进方向。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.13399" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.22393" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>提出 Test-Time-Training 机器人策略，将视觉-运动上下文扩展到 8000 时间步，比当前最先进策略高三个数量级，且推理延迟不增加。在新能力方面：支持少样本模仿学习（从人类视频演示）、在线策略改进、对扰动鲁棒。</div>
+      <div class='item-desc'>论文提出第一个端到端评估 LLM 和智能体准备工作（数据构建 + 质量评估）能力的基准 DataPrep-Bench。包含 40 个数据集、7 类数据构建任务和 4 类质量评估任务。初期评测显示，最强模型（GPT-5.6 Sol）在数据构建上的成功率仅 35%，智能体工作流可以将性能提升 1.56–3.05 倍。</div>
       <div class="item-meta">
         
         
@@ -782,29 +764,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是机器人基础模型领域的突破性进展——前所未有的上下文长度让机器人能够从单段人类视频中学习新技能，无需重新训练。对机器人研究人员来说，RoboTTT 可能会成为后续工作的基石。</div>
+      <div class='item-desc'>训练数据的质量决定了模型能力的上限，但此前缺乏系统评估。该基准为数据工程团队和 AutoML 研究者提供了明确的评估标准，揭示数据准备是当前 AI 管线中最薄弱的环节之一。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.15275" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.20465" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Wan-Streamer 提出将视频建模为"世界 + 事件流"：世界是稳定上下文（场景、环境、音色等），事件流是随时间变化的所有内容（行为、语音、场景变化）。模型在这个框架下进行原生流式交互。</div>
+      <div class='item-desc'>论文发布 Robostral Navigate，一个 8B 参数的视觉-语言模型，仅通过单目 RGB 图像流完成导航任务，不依赖深度传感器、多摄像头或预构建地图。在 Habitat-MP3D 等多环境中达到或超过依赖深度输入的基线模型。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="4">
+    <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>该分解将视频生成中"静态主体"和"动态事件"分离，使模型能够复用世界表征，仅生成事件流，大幅降低计算成本。对视频生成、交互式世界模型的开发者是重要的设计范式。</div>
+      <div class='item-desc'>导航系统对传感器的苛刻要求一直是规模化部署的障碍。Robostral Navigate 证明了“最简单传感器 + 大模型”的路径有效，大幅降低机器人导航的硬件成本。对于想用低成本硬件实现导航的团队，这是一个必须关注的模型。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
+        <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.15038" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.20785" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
         </div>
@@ -816,7 +798,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Open Interpreter 当天新增对 Kimi K3 等开放权重模型的支持，使其成为第一个支持 2.8T 参数模型本地的 agent 框架。该项目在 GitHub 上单日收获 431 星。</div>
+      <div class='item-desc'>阿里开源了经过其大规模生产环境验证的代码审查工具，采用混合架构（确定性管道 + LLM Agent），支持行级精确评论，内置 NPE、线程安全、XSS、SQL 注入等规则集，兼容 OpenAI 与 Anthropic API。今日 GitHub 趋势 +980 star。</div>
       <div class="item-meta">
         
         
@@ -825,16 +807,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>开发者现在可以用开源模型（如 Kimi K3）运行与 GPT-4 级别能力相当的自主编程 agent，无需支付 API 费用或受限于闭源模型配额。</div>
+      <div class='item-desc'>这为开发团队提供了一个可直接部署的、企业级代码审查方案，避免重复造轮子。混合架构选择有启发性：用确定性规则处理可穷举的风险，用 LLM 处理模糊问题，既保证可靠又节省成本。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://github.com/openinterpreter/openinterpreter" target="_blank">GitHub Trending</a></div>
+        <div class="item-sources"><a href="https://github.com/alibaba/open-code-review" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个被设计用来解决 AI 生成代码"千篇一律"问题的工具，通过注入设计准则（变量命名风格、注释密度、错误处理模式等）指导 coding agent 生成更接近人类审美的代码。单日 1486 星。</div>
+      <div class='item-desc'>一个自托管的 AI 伴侣项目，支持实时语音聊天、Minecraft 和 Factorio 游戏操作，定位为“你拥有的 Grok 伴侣”。可在 Web/macOS/Windows 上运行，今日 GitHub 趋势 +554 star。</div>
       <div class="item-meta">
         
         
@@ -843,34 +825,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>Vibe Coding 社区首次出现针对"AI 代码味道"的工具。当团队发现 AI 提交的代码难以维护时，hallmark 提供了一种无侵入的方式让 agent 遵循项目风格——直接关系到代码长期可维护性。</div>
+      <div class='item-desc'>展示了个人化 AI 代理在娱乐场景中的可能性，尤其是与游戏交互的成熟度。独立开发者可以借鉴其多模态实时交互架构，并探索游戏 NPC/AI 面板的 niche。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/Nutlope/hallmark" target="_blank">GitHub Trending</a></div>
+        <div class="item-sources"><a href="https://github.com/moeru-ai/airi" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>GitHub 官方发布了 Copilot SDK，允许开发者在自己的应用和服务中集成 Copilot Agent，支持多平台（桌面、Web、移动）。该 SDK 提供了完整的 API 和事件管道。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这代表 Copilot 从 IDE 插件走向平台化。独立开发者可以基于 Copilot Agent 构建自定义编码助手，或将其嵌入自己的工作流。与 Claude Code 等工具形成直接竞争。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://github.com/github/copilot-sdk" target="_blank">GitHub Trending</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>PrismML 将 Qwen3.6-27B 量化到 1.125 比特/权重（binary g128），模型从 54GB 压缩至 3.9GB，在 iPhone 上可实现本地运行，保留约 90% 的基准性能。甚至嵌入层、注意力投影和 LM head 都做了二值化。</div>
+      <div class='item-desc'>一个设计语言/规范，旨在提升 AI 编程助手（如 Cursor、Claude Code）生成前端设计代码的质量。今日 GitHub 趋势 +849 star。</div>
       <div class="item-meta">
         
         
@@ -879,16 +843,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是大模型端侧推理的极限实验——1-bit 量化让 27B 模型跑进 4GB 内存。对移动端 AI 应用开发者来说，这意味着无需依赖云端即可运行接近前沿水平的模型。</div>
+      <div class='item-desc'>AI 编程助手在 UI 设计方面表现不佳是常见痛点。Impeccable 提供了一种“教模型设计规范”的思路，通过定义 token 化的设计语言来引导输出。前端开发者可将其集成到提示词或 Skill 中。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/PrismML-Eng/Bonsai-demo" target="_blank">GitHub Trending</a></div>
+        <div class="item-sources"><a href="https://github.com/pbakaus/impeccable" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>微软发布 Flint，一种专为 AI agent 设计的可视化语言。它使用简单、可人工编辑的规格描述，让 agent 可靠地生成可定制的图表。支持从数据到 SVG/PNG 的直接渲染。</div>
+      <div class='item-desc'>该工具输入一张参考图像，输出用代码构成的、动画就绪的 Three.js 模型（非传统 mesh，而是程序化几何），通过质量门控确保效果，token 消耗低。</div>
       <div class="item-meta">
         
         
@@ -897,11 +861,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>当前 AI agent 生成的图表往往丑陋且缺乏控制力。Flint 提供了一种人类可读的中间表示，agent 可以生成，开发者也可以手动调优，解决了"黑盒绘图"的痛点。</div>
+      <div class='item-desc'>对于需要快速将 2D 概念转化为 3D 展示的 Web 开发者，这是一种全新的工作流：避免传统建模管线，直接在 HTML 中使用。尤其在 AI 生成内容与前端展示结合的场景中价值突出。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://github.com/microsoft/flint-chart" target="_blank">GitHub Trending</a></div>
+        <div class="item-sources"><a href="https://github.com/img2threejs/img2threejs" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>一个开源 AI 网关，提供统一端点，支持 290+ 供应商（其中 90+ 免费）、500+ 模型（包括 Kimi、Claude、GPT、Gemini、GLM、DeepSeek 等），兼容 Claude Code、Codex、Cursor 等。特性包括配额感知自动回退、RTK+Caveman 压缩节省 15-95% token、MCP/A2A 协议。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是目前覆盖最广的免费开源 AI 网关之一，独立开发者可以立即将其作为 API 代理，实现模型切换、负载均衡和成本优化，无需从头集成多个 SDK。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank">GitHub</a></div>
       </div>
     </div>
         </div>
@@ -913,7 +895,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>用户在帖子《Anyone else completely tuning out these massive "open weight" drops?》中吐槽："GLM-5.2 有 753B 参数、1M 上下文，MIT 许可……但这些东西究竟哪里'本地'了？700B+ 的 MoE 放不进任何个人设备。就算压到 q1 或 q2 GGUF，你也跑不动。我双 GPU 加 ROCm 优化，但这些庞然大物物理上就不可能。" 帖子获得大量 upvote，反映了开源社区对"开放权重"与"可运行性"之间日益扩大的差距的不满。</div>
+      <div class='item-desc'>Nvidia CEO 黄仁勋发表首条推文，响应开放/封闭权重之争。核心片段：“蒸馏——从 AI 学习、从他人学习、从其他知识源学习——是智能的基础。AI 也必须从某物中学习。”他同时引用 Hugging Face 攻击事件，称封闭模型在取证时阻碍了调查，而开放权重模型帮助遏制了攻击。他还宣布成立 Open Secure AI Alliance。该推文在 r/LocalLLaMA 和 Twitter 上被广泛转发，Reddit 用户评论称“老黄说出了社区的心声”。</div>
       <div class="item-meta">
         
         
@@ -922,11 +904,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这揭示了开源模型社区的一个核心矛盾：模型越来越强大，但"本地运行"的门槛也对应提高。对于 local LLM 的忠实用户，他们更期待中等规模（30B 左右）且真正可部署的模型，而非盲目追求参数量的军备竞赛。</div>
+      <div class='item-desc'>黄仁勋作为 AI 基础设施最大供应商的 CEO，立场直接影响商业生态。他的首次发声选择这个敏感议题，且站在开放阵营，可能促使更多公司公开表态，并影响美国政府对开源模型的监管态度。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/" target="_blank">r/LocalLLaMA</a></div>
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/" target="_blank">r/LocalLLaMA</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>周末，Reddit 用户发现 Anthropic Claude 的“共享链接”未设置 noindex，导致对话内容被 Google 和 Bing 索引并公开访问，其中包含加密密钥、法律咨询等敏感信息。该帖在 r/ClaudeAI 获得数千 upvote，舆论普遍指责 Anthropic 未尽到默认隐私保护责任。去年 OpenAI 也曾出现过类似问题。Anthropic 在系统卡中已提及此风险，但未采取有效措施。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是 AI 聊天机器人隐私问题的又一次标志性事件。对于企业用户，风险尤高——如果员工分享内部对话并意外暴露，可能造成合规事故。这也提示所有 AI 产品开发者：默认私有、安全 by design 应成为基本线，而非依赖用户手动设置。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.reddit.com/r/ClaudeAI/" target="_blank">r/ClaudeAI</a></div>
       </div>
     </div>
         </div>
@@ -938,7 +938,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>Reddit r/LocalLLaMA 帖子《Bonsai 27B runs locally on an iPhone - a 27B model in 3.9GB》。用户展示了一个基于 Qwen3.6-27B 的 1-bit 量化版本，通过 binary g128 方案将 27B 模型从 54GB 压缩到 3.9GB，在 iPhone 上运行并保留 90% 基准性能。</div>
+      <div class='item-desc'>来自 Hacker News Show HN 帖子，作者发布了 FeyNoBg，一个开源的自动背景移除模型，同时附带了训练库，支持自定义训练。HN 上获 64 points，18 条评论。帖子核心：开发者可以用自己的数据微调背景移除模型，而非依赖 REMBG 等黑盒服务。</div>
       <div class="item-meta">
         
         
@@ -947,16 +947,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可以借用 PrismML 的量化方案，将类似的中等规模模型（如 Llama 3.1 70B）量化到小尺寸后打包成移动端 App。具体思路：选择一个性能足够但不过大的基座模型，应用极致量化（1-2 bit），再加入垂直领域微调数据以弥补量化损失。这验证了一个此前被认为不太可能的需求场景——在手机上运行接近前沿水平的模型，无需联网。</div>
+      <div class='item-desc'>独立开发者可以直接使用该模型集成到自己的应用（图片编辑工具、电商产品图处理），或将其作为参考构建定制化的图像预处理管线。自带训练库意味着可以针对特定品类（如人物、汽车、食品）优化效果，形成差异化。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uyz9n2/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/" target="_blank">r/LocalLLaMA</a></div>
+        <div class="item-sources"><a href="https://news.ycombinator.com/item?id=49074693" target="_blank">Hacker News</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>Reddit 用户分享将 SearXNG（自托管元搜索引擎）集成进自己的 AI 工作流，作为子 agent 被 orchestrator 调用。原帖称自己从 2025 年 6 月开始开发，此前只有基础 Web 能力，加入 SearXNG 后效果 "so useful"——模型可以实时获取搜索结果，且完全脱离 Google/Bing 等商业搜索引擎的追踪。</div>
+      <div class='item-desc'>来自 GitHub 开源项目 OmniRoute，宣称是“免费 MIT AI 网关，一个端点支持 290+ 供应商、500+ 模型，包括 Kimi、Claude、GPT、Gemini、GLM 等，兼容 Claude Code、Codex、Cursor”。该项目在 GitHub Trending 上获得关注。原帖展示了构建一个零成本 API 代理的完整方案。</div>
       <div class="item-meta">
         
         
@@ -965,16 +965,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可以构建"私有 AI 助手 + 自建搜索"的完整产品。SearXNG 聚合多个搜索引擎返回无追踪结果，结合本地 LLM 能提供比 Perplexity 更隐私的替代方案。技术路线：用 SearXNG 作后端搜索 API，通过 MCP 或自定义 agent 框架暴露给 LLM，实现上下文检索增强。</div>
+      <div class='item-desc'>独立开发者可以立即部署此网关作为自己的 AI 服务后端，以极低成本切换模型、实现自动回退和 token 压缩。对于依赖 API 调用付费的个人项目，这可以大幅节省开支。同时，该项目展示了如何利用免费 API 配额构建商业级代理的思路，但不建议触及欺诈边界。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uyjdfg/added_searxng_and_i_dont_even_know_what_to_say/" target="_blank">r/LocalLLaMA</a></div>
+        <div class="item-sources"><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>Reddit 用户报告经过调试，TRELLIS.cpp 的图像到 3D 生成质量已与参考实现持平，任何拥有足够 GPU 的人都能运行。TRELLIS 是 GGML 移植的 3D 生成管道，支持从单张图片生成高质量 3D 资产。</div>
+      <div class='item-desc'>来自 Lenny's Newsletter 的播客访谈，嘉宾 Maddie Reese 没有编程背景，但使用 Cursor（AI 代码助手）和 Raspberry Pi 构建了一个可接受短信的热敏打印机、一个 Twitter 寻呼机，以及一个个人 API。她强调“有趣比实用更可贵”的动机，成功做出了令人惊叹的硬件产品。</div>
       <div class="item-meta">
         
         
@@ -983,11 +983,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可利用 TRELLIS.cpp 构建 3D 内容工具（如电商商品展示、游戏资产自动生成）。具体思路：前端用户上传图片，后端调用 TRELLIS 生成 glTF/OBJ 模型，再结合 AI 纹理修复、法线贴图等后续处理，形成完整的"图到 3D"产品。该工具完全开源，无需调用商业 API。</div>
+      <div class='item-desc'>对于非技术背景的独立开发者，这证明了 AI 编程助手可以大幅降低硬件项目的门槛。思路是：先有一个有趣的 idea（物理交互），然后用自然语言描述给 Cursor，再通过 Raspberry Pi 连接实体世界。这种“AI + 低成本硬件”的组合是独立开发者可以复制的创新模式，尤其适合打造个性化的小众产品。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1uyw64s/trelliscpp_now_produces_high_quality_assets/" target="_blank">r/LocalLLaMA</a></div>
+        <div class="item-sources"><a href="https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware" target="_blank">Lenny's Newsletter</a></div>
       </div>
     </div>
         </div>
@@ -995,8 +995,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今天最突出的信号是**开源模型在能力上真正逼近了闭源前沿**——Kimi K3 和 Inkling 相继发布，性能与 GPT-5.6 Sol、Claude Fable 在同一区间。但与此同时，"开源"的定义正在被重新界定：2.8 万亿参数、700B+ MoE 这样的模型对个人开发者已经无法运行，开源的受益者将主要是企业和云平台。这解释了为什么 Bonsai 的 1-bit 量化演示在社区获得如此热度——它证明了即使资源有限，通过压缩仍可享受模型进步。另一方面，安全事件集中爆发（GPT-5.6 删除文件、Vibe Coding 漏洞报告、Snyk 调查显示 91.6% 的 AI 代码存在安全问题）提醒我们：AI agent 的能力越强，其失控时的破坏力也越大。Meta 向对手出租算力 100 亿美元这一动向，则暗示了 AI 基础设施正在从"军备竞赛"走向"商品化"——当算力过剩时，巨头会更愿意出售而非囤积。三个月后回头看，Kimi K3 作为一个非 DeepSeek 系的 3T 级开源模型，可能成为开放权重社区从"跟跑"到"并跑"的转折点。</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天最突出的信号是**开源模型在能力上真正逼近了闭源前沿**——Kimi K3 和 Inkling 相继发布，性能与 GPT-5.6 Sol、Claude Fable 在同一区间。但与此同时，&quot;开源&quot;的定义正在被重新界定：2.8 万亿参数、700B+ MoE 这样的模型对个人开发者已经无法运行，开源的受益者将主要是企业和云平台。这解释了为什么 Bonsai 的 1-bit 量化演示在社区获得如此热度——它证明了即使资源有限，通过压缩仍可享受模型进步。另一方面，安全事件集中爆发（GPT-5.6 删除文件、Vibe Coding 漏洞报告、Snyk 调查显示 91.6% 的 AI 代码存在安全问题）提醒我们：AI agent 的能力越强，其失控时的破坏力也越大。Meta 向对手出租算力 100 亿美元这一动向，则暗示了 AI 基础设施正在从&quot;军备竞赛&quot;走向&quot;商品化&quot;——当算力过剩时，巨头会更愿意出售而非囤积。三个月后回头看，Kimi K3 作为一个非 DeepSeek 系的 3T 级开源模型，可能成为开放权重社区从&quot;跟跑&quot;到&quot;并跑&quot;的转折点。">🔊 朗读今日观察</button>
+          <p>今天的信息密度极高，但将事件拼合起来，可以看到三个清晰的结构性趋势： **第一，“成本效率”正式取代“最大模型”成为企业 AI 的北极星。** 微软发布 MAI-Cyber-1-Flash 并公开声称“未来属于足够好且最便宜的模型，智能路由”；METR 推出“Expenditure Horizon”来量化智能体 vs 人类成本；Cursor 的 agent swarm 实验证明，前沿模型做规划、便宜模型做执行的架构在测试集上拿到 100%——这些信号共同指向同一个结论：不管模型多强，如果不能以合理成本落地，就会被市场边缘化。AI builder 应当立即审视自己的推理管线，引入路由层和专业化小模型，而不是继续追逐单一“最强”模型。 **第二，开源 vs 封闭模型的战争进入白热化，且与安全叙事深度绑定。** Jensen Huang 的首条推文直接以 Hugging Face 攻击事件为由，指责封闭模型阻碍安全取证；Nvidia 联合微软等成立 Open Secure AI Alliance，将“开源”与“安全”绑定。与此同时，美国被曝倾向于选择性限制中国开源模型，但 OpenAI 和 Anthropic 在私下仍在游说政府施压。未来几个月，开源模型的可获取性可能面临政策变数，开发者应关注备选模型和合规预案。 **第三，AI 隐私事故从“偶发”变成“常态化”，信任成本急剧上升。** Claude 共享会话被 Google 索引事件是继 ChatGPT 泄露对话、OpenAI 数据泄漏后的又一次大规模暴露。尽管多家公司已有前车之鉴，但根因（默认不私有、noindex 缺失）仍未解决。对于构建 AI 产品的团队，这提示一个严峻现实：用户对“数据安全”的敏感度正在快速提高，一次泄露就可能毁掉品牌信誉。产品设计中应将“默认私有”和“显式授权”作为第一性原则，而不是事后打补丁。 三个月后回看，今天可能最重要的新闻是 **Jensen Huang 的首条推文**——它标志着 AI 基础设施最大玩家在开放 vs 封闭议题上正式站队，其长期影响力可能超过任何单个模型的发布。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的信息密度极高，但将事件拼合起来，可以看到三个清晰的结构性趋势： **第一，“成本效率”正式取代“最大模型”成为企业 AI 的北极星。** 微软发布 MAI-Cyber-1-Flash 并公开声称“未来属于足够好且最便宜的模型，智能路由”；METR 推出“Expenditure Horizon”来量化智能体 vs 人类成本；Cursor 的 agent swarm 实验证明，前沿模型做规划、便宜模型做执行的架构在测试集上拿到 100%——这些信号共同指向同一个结论：不管模型多强，如果不能以合理成本落地，就会被市场边缘化。AI builder 应当立即审视自己的推理管线，引入路由层和专业化小模型，而不是继续追逐单一“最强”模型。 **第二，开源 vs 封闭模型的战争进入白热化，且与安全叙事深度绑定。** Jensen Huang 的首条推文直接以 Hugging Face 攻击事件为由，指责封闭模型阻碍安全取证；Nvidia 联合微软等成立 Open Secure AI Alliance，将“开源”与“安全”绑定。与此同时，美国被曝倾向于选择性限制中国开源模型，但 OpenAI 和 Anthropic 在私下仍在游说政府施压。未来几个月，开源模型的可获取性可能面临政策变数，开发者应关注备选模型和合规预案。 **第三，AI 隐私事故从“偶发”变成“常态化”，信任成本急剧上升。** Claude 共享会话被 Google 索引事件是继 ChatGPT 泄露对话、OpenAI 数据泄漏后的又一次大规模暴露。尽管多家公司已有前车之鉴，但根因（默认不私有、noindex 缺失）仍未解决。对于构建 AI 产品的团队，这提示一个严峻现实：用户对“数据安全”的敏感度正在快速提高，一次泄露就可能毁掉品牌信誉。产品设计中应将“默认私有”和“显式授权”作为第一性原则，而不是事后打补丁。 三个月后回看，今天可能最重要的新闻是 **Jensen Huang 的首条推文**——它标志着 AI 基础设施最大玩家在开放 vs 封闭议题上正式站队，其长期影响力可能超过任何单个模型的发布。">🔊 朗读今日观察</button>
         </div>
     </div></div><div data-lang-content="en">
     <div class="digest-scope">
@@ -1014,7 +1014,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Multiple users reported GPT-5.6 Codex deleting entire home directories when in "Full Access Mode." OpenAI confirmed the issue stems from the model attempting to override the $HOME environment variable, leading to accidental deletion of $HOME. It only affects full-access mode without sandbox or auto-review. OpenAI has promised additional safeguards and a detailed post-mortem.</div>
+      <div class='item-desc'>Moonshot AI released Kimi K3 model weights on Hugging Face on July 27 as promised. The model has 2.8T total parameters, MoE with 896 experts (16 active per token), supports 1M context and vision. Simultaneously, they open-sourced AgentENV (AENV) under MIT, a distributed RL training system for agents based on Firecracker microVMs, with millisecond snapshot/resume and 16-way fork. K3 approaches Western frontier models (e.g., Fable 5, GPT-5.6 Sol) on multiple benchmarks, but independent tests show gaps in cybersecurity and math, sparking distillation discussions.</div>
       <div class="item-meta">
         
         
@@ -1023,7 +1023,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a textbook case of an AI agent causing destructive behavior after gaining system-level privileges. AI builders must enforce clear sandbox boundaries when granting file system access to agents and cannot rely on the model's own safety judgment.</div>
+      <div class='item-desc'>This is one of the largest open-source MoE models available, offering a new baseline for self-deployment and fine-tuning. AgentENV provides reusable high-performance infrastructure for training agent RL. Developers should be cautious about K3's actual performance on safety and math tasks and conduct additional validation for critical use cases.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>On the same day, the U.S. reportedly favors selective bans over blanket restrictions on Chinese open-weight models; Jensen Huang tweeted in defense of open AI, citing distillation as fundamental.</div>
       <div class="item-meta">
         
         
@@ -1041,7 +1050,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[The Decoder](https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/)</div>
+      <div class='item-desc'>[MarkTechPost](https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/)</div>
       <div class="item-meta">
         
         
@@ -1050,7 +1059,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Capital One open-sourced VulnHunter, an agentic AI security tool that scans source code for exploitable vulnerabilities, maps attack paths, and proposes fixes. Released under Apache 2.0 on GitHub, it is one of the most aggressive attempts by a major financial institution to turn offensive AI capabilities into a public defensive resource.</div>
+      <div class='item-desc'>Microsoft developed a compact security model, MAI-Cyber-1-Flash, inside its Microsoft AI division, embedded in the new MDASH multi-agent orchestration platform. The model scores 96% on the CyberGym benchmark and costs reportedly 50% less than pure frontier models — only complex reasoning tasks are routed to GPT-5.4. Microsoft stated the future of security belongs to "the cheapest model that's good enough, routed intelligently."</div>
       <div class="item-meta">
         
         
@@ -1059,7 +1068,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>VulnHunter represents a shift from passive scanning to proactive penetration testing in enterprise security. AI builders can integrate it into CI/CD pipelines to discover logical vulnerabilities before code ships.</div>
+      <div class='item-desc'>This is the first dedicated security model from a major cloud vendor, signaling that "model cost efficiency" is now a core consideration in enterprise AI architecture. AI builders should pay attention to the "model routing + specialized small model" pattern, which may shift deployment habits away from relying on a single large model.</div>
       <div class="item-meta">
         
         
@@ -1068,7 +1077,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Connections</div>
-      <div class='item-desc'>On the same day, a Snyk survey showed 91.6% of respondents admit AI code contains unsafe suggestions "sometimes." VulnHunter is a tool-level response to that risk.</div>
+      <div class='item-desc'>Same day, Nvidia co-founded Open Secure AI Alliance with Microsoft and others; Sakana AI released Fugu-Cyber, a security-tuned model.</div>
       <div class="item-meta">
         
         
@@ -1077,7 +1086,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Importance</div>
-      <div class='item-desc'>★★★★☆</div>
+      <div class='item-desc'>★★★★★</div>
       <div class="item-meta">
         
         
@@ -1086,7 +1095,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[VentureBeat](https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do)</div>
+      <div class='item-desc'>[VentureBeat](https://venturebeat.com/security/microsoft-launches-ai-cybersecurity-model-agentic-defense-platform-to-cut-enterprise-security-costs)</div>
       <div class="item-meta">
         
         
@@ -1095,7 +1104,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Stripe published a benchmark specifically for AI agent payment integration capabilities. Results show agents can complete end-to-end integration solutions but are significantly weaker than human developers at validation steps (e.g., parameter checking, error handling).</div>
+      <div class='item-desc'>Nvidia CEO Jensen Huang posted his first tweet, clearly taking a stance in favor of open-weight AI models. He wrote: "Distillation — learning from AI, learning from other people, and learning from other sources of knowledge, is fundamental to intelligence. We are constantly learning from one another. AI also has to learn from something." He also cited the Hugging Face incident, arguing that closed AI impeded forensic investigation, while an open-weight frontier model helped contain the intrusion. To that end, Nvidia, Microsoft, SpaceX, IBM, and others formed the Open Secure AI Alliance to build open-source security tools.</div>
       <div class="item-meta">
         
         
@@ -1104,7 +1113,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is the first real-world benchmark from a payment infrastructure company targeting agents. AI builders working on fintech agents need to strengthen validation and exception handling, or agent-generated code could introduce financial risk.</div>
+      <div class='item-desc'>Huang's public stance could sway the debate over open model regulation in Silicon Valley. His first-ever post choosing this core issue and linking it to a security incident provides strong ammunition for the open model camp. AI builders should watch subsequent policy moves: if open models face selective restrictions, global model access and usage could be impacted.</div>
       <div class="item-meta">
         
         
@@ -1113,7 +1122,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Importance</div>
-      <div class='item-desc'>★★★★☆</div>
+      <div class='item-desc'>★★★★★</div>
       <div class="item-meta">
         
         
@@ -1122,7 +1131,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[InfoQ Chinese](https://www.infoq.cn/article/zVfybMt5i742CqhWYjR4?utm_source=rss&utm_medium=article)</div>
+      <div class='item-desc'>[PC Gamer](https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/)</div>
       <div class="item-meta">
         
         
@@ -1131,7 +1140,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>German media regulators ruled that Google AI Overviews and Perplexity constitute media content, not neutral search results, and must comply with the State Media Treaty. This is the first ruling globally to classify AI-generated summaries under media law. Both companies have one month to appeal.</div>
+      <div class='item-desc'>Reddit users discovered that conversation pages created via Anthropic Claude's "share link" feature lacked a noindex tag, making them indexed and publicly accessible by Google and Bing. Some exposed content included encryption keys and legal consultations. Anthropic had previously noted this risk in its Claude system card but apparently did not effectively prevent it. OpenAI made the same mistake last year.</div>
       <div class="item-meta">
         
         
@@ -1140,7 +1149,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This ruling could reshape the legal framework for AI search products. If AI answers are treated as media content, training data, fact-checking, and editorial responsibility face entirely different regulatory requirements. Compliance costs will rise for AI search product developers.</div>
+      <div class='item-desc'>This is another major privacy incident for AI chatbots, directly undermining user trust in the "share" feature. For enterprise users, if internal conversations are accidentally shared and indexed, it can create compliance risks. Developers should review their data sharing settings when using AI assistants and watch for Anthropic's follow-up fixes (e.g., enforcing noindex or default private).</div>
       <div class="item-meta">
         
         
@@ -1158,7 +1167,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[The Decoder](https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-a-first-of-its-kind-ruling/)</div>
+      <div class='item-desc'>[Wired](https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/)</div>
       <div class="item-meta">
         
         
@@ -1167,7 +1176,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Researchers on HN demonstrated CIFAR-10 inference under CKKS homomorphic encryption in just 200ms, running on standard CPU without GPU. The implementation keeps data encrypted end-to-end without exposing it to the server.</div>
+      <div class='item-desc'>The Delhi High Court rejected the copyright infringement injunction filed by Indian news agency ANI against OpenAI. For the first time, a court classified AI training as "private use." A key reason for denial was that ANI cited articles published after the model was trained, contradicting its own argument. The main trial remains pending.</div>
       <div class="item-meta">
         
         
@@ -1176,7 +1185,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a significant milestone for real-time inference under homomorphic encryption. For developers building privacy-sensitive AI applications (medical diagnostics, financial assessment), it means acceptable latency while preserving data privacy is now achievable.</div>
+      <div class='item-desc'>This ruling provides a new precedent for global AI copyright litigation — classifying training data scraping as "private use" could shift the legal landscape. For AI companies, it bolsters defense against copyright claims; for content providers, it underscores the need for technical measures like robots.txt rather than relying solely on litigation.</div>
       <div class="item-meta">
         
         
@@ -1194,7 +1203,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[Hacker News](https://sofar.belfortlabs.cloud/)</div>
+      <div class='item-desc'>[The Decoder](https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/)</div>
       <div class="item-meta">
         
         
@@ -1203,7 +1212,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Patreon partnered with Cloudflare to shift from relying on robots.txt to actively blocking unauthorized AI training crawlers. Creators can enable the feature to prevent model companies from scraping their content for training.</div>
+      <div class='item-desc'>AI evaluation organization METR proposed a new metric, "Expenditure Horizon," that puts a dollar figure on how cost-effective AI agents are at solving problems — i.e., whether it's cheaper to use an agent or hire a human. Early tests on the NanoGPT speedrun were underwhelming, and the metric has blind spots (e.g., ignoring one-time setup costs). METR says newer models could change the picture.</div>
       <div class="item-meta">
         
         
@@ -1212,7 +1221,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is a landmark shift from "request not to scrape" to "technically enforce blocking" by a creator platform. AI builders relying on UGC content must reassess data acquisition strategies—more platforms will follow, raising scraping costs significantly.</div>
+      <div class='item-desc'>This is a significant tool for moving agent economics from qualitative discussion to quantitative comparison. AI builders can use it to evaluate the cost competitiveness of their agent systems in real scenarios and determine the threshold for delegating tasks to AI vs. humans. Although imperfect, "cost efficiency" has become a key dimension in model selection and deployment.</div>
       <div class="item-meta">
         
         
@@ -1230,7 +1239,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[TechCrunch AI](https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/)</div>
+      <div class='item-desc'>[The Decoder](https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/)</div>
       <div class="item-meta">
         
         
@@ -1239,7 +1248,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Agility Robotics opened a new Digit robot training center in Fremont, California, the home of Tesla's headquarters. The center will train humanoid robots for warehouse logistics, directly competing with Tesla's Optimus.</div>
+      <div class='item-desc'>BFL released FLUX 3, the third major version in the FLUX series and the first to simultaneously output image, video, audio, and robot action predictions from a single set of weights. It uses a unified flow model architecture without separate designs per modality. The paper is on arXiv.</div>
       <div class="item-meta">
         
         
@@ -1248,7 +1257,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Agility's choice to establish a base in Tesla's territory signals accelerating competition in humanoid robot commercialization. Digit is one of the few humanoid robots already deployed in enterprise warehouses (e.g., Amazon); this expansion hints at imminent volume production and delivery.</div>
+      <div class='item-desc'>FLUX 3 represents a new paradigm in multimodal generative models — moving from "multiple models stitched together" to a single architecture with unified representations. For developers building robot perception or content generation, this means potentially using one pretrained model for multiple tasks, reducing infrastructure complexity and training costs.</div>
       <div class="item-meta">
         
         
@@ -1266,43 +1275,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[TechCrunch AI](https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/)</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>Apple filed a trade secrets lawsuit against OpenAI last Friday, alleging that its chief hardware officer and other executives took sensitive information when jumping ship. Apple claims over 400 former Apple employees now work at OpenAI. OpenAI has responded cautiously, and the company is reportedly preparing for an IPO.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>The timing is extremely unfavorable for OpenAI—IPO plans could be impacted. The case will also set a precedent for employee mobility and trade secret protection between tech companies. AI builders should watch for potential legal ripple effects on talent movement and training data sourcing.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Importance</div>
-      <div class='item-desc'>★★★★☆</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Source</div>
-      <div class='item-desc'>[TechCrunch AI](https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/)</div>
+      <div class='item-desc'>[MarkTechPost](https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/)</div>
       <div class="item-meta">
         
         
@@ -1318,7 +1291,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>The paper proposes an architecture-aware execution stack that enables million-token-level reinforcement learning post-training for long-context models under a fixed GPU budget. Inference contexts already approach a million tokens, but post-training remains stuck below 256K. LongStraw breaks this bottleneck through compute-communication overlap and hierarchical checkpointing.</div>
+      <div class='item-desc'>A multi-institution paper argues that production AI agent failures are rarely due to poor reasoning but rather an inability to manage what's in the reasoning context: conversation history, large prompts, tool definitions, and ballooning tool outputs. Current approaches frame this as a storage-and-retrieval problem; the authors argue for solving it from both lifecycle management (when to delete/summarize history) and architectural design (e.g., hierarchical context pools).</div>
       <div class="item-meta">
         
         
@@ -1327,7 +1300,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Critical for training long-context agents. Agent observations, tool outputs, and decision trajectories accumulate far beyond current RL training limits. LongStraw offers a directly applicable solution.</div>
+      <div class='item-desc'>For anyone building agent systems, this paper directly addresses the most practical pain point. It provides a framework rather than a specific algorithm but suggests actionable directions: don't just optimize RAG or caching; design a lifecycle strategy for context.</div>
       <div class="item-meta">
         
         
@@ -1345,7 +1318,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.14952)</div>
+      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.21503)</div>
       <div class="item-meta">
         
         
@@ -1354,7 +1327,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Introduces TTCD, a continuous-space diffusion language model that assigns independent "time" progress to each token instead of parallel sampling (a major source of inaccuracy). It deterministically maps Gaussian noise to a final token sequence without extra sampling.</div>
+      <div class='item-desc'>The paper proposes a Skill Self-Play training framework that lets LLMs simultaneously evolve skills and task diversity through self-play. It solves the dilemma in self-evolution methods between task diversity and verification reliability: environment-bound methods give precise feedback but narrow domains, while open-ended self-generation broadens tasks but lacks reliable verification. Skill Self-Play uses "skills" as an intermediate: the model generates new skills, uses them to solve tasks, then validates skills via task results.</div>
       <div class="item-meta">
         
         
@@ -1363,7 +1336,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This opens a new trade-off between high-quality generation and parallel decoding, potentially becoming an important direction for non-autoregressive language models. Developers interested in inference acceleration should pay close attention.</div>
+      <div class='item-desc'>This is a significant breakthrough in LLM self-evolution, directly targeting the human annotation bottleneck after RLHF/SFT. If validated, it could dramatically reduce supervision data needs, enabling models to improve autonomously in unlabeled environments. Open-source implementation is worth close attention.</div>
       <div class="item-meta">
         
         
@@ -1381,7 +1354,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.14106)</div>
+      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.22529)</div>
       <div class="item-meta">
         
         
@@ -1390,7 +1363,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A systematic study of on-policy distillation (OPD) training dynamics. The key finding: OPD acts as an exploration catalyst—it steers the student toward correct reasoning paths via dense token-level guidance without expanding the model's capability ceiling. Prompt diversity matters more than the number of samples per problem.</div>
+      <div class='item-desc'>The paper introduces SceneActBench, a unified benchmark for evaluating AI agents on five types of 3D tasks requiring physical actions. Unlike traditional 3D benchmarks that require only text outputs or single-object operations, SceneActBench requires agents to manipulate objects (grasp, move, assemble) in complete 3D environments via tools, using a unified agent-environment loop with PNG images or video frames as input.</div>
       <div class="item-meta">
         
         
@@ -1399,7 +1372,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Corrects a common misconception in the industry (many believe OPD directly raises the model's capability ceiling). It means practitioners should prioritize building high-quality, diverse prompt pools rather than simply increasing sampling counts during distillation.</div>
+      <div class='item-desc'>For developers working on embodied AI, 3D understanding, and agent control, this is a more challenging and practical evaluation tool. It exposes current VLM weaknesses in executing concrete actions in 3D space, likely driving improvements in perception-action models.</div>
       <div class="item-meta">
         
         
@@ -1417,7 +1390,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.13399)</div>
+      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.22393)</div>
       <div class="item-meta">
         
         
@@ -1426,7 +1399,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Proposes Test-Time-Training Robot Policies that scale visuomotor context to 8,000 timesteps—three orders of magnitude beyond the state of the art—without increasing inference latency. Unlocks new capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, and robustness to perturbations.</div>
+      <div class='item-desc'>The paper proposes the first end-to-end benchmark, DataPrep-Bench, for evaluating LLMs and agents on training data preparation (data construction + quality assessment). It includes 40 datasets, 7 data construction tasks, and 4 quality assessment tasks. Initial evaluations show the strongest model (GPT-5.6 Sol) achieves only 35% success on data construction; agentic workflows can boost performance 1.56–3.05x.</div>
       <div class="item-meta">
         
         
@@ -1435,7 +1408,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>A breakthrough in robot foundation models—unprecedented context length allows robots to learn new skills from a single human video without retraining. For robotics researchers, RoboTTT is likely to become a foundational building block for future work.</div>
+      <div class='item-desc'>The quality of training data determines model capability ceilings, yet systematic evaluation was lacking. This benchmark provides clear standards for data engineering teams and AutoML researchers, revealing data preparation as one of the weakest links in current AI pipelines.</div>
       <div class="item-meta">
         
         
@@ -1453,7 +1426,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.15275)</div>
+      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.20465)</div>
       <div class="item-meta">
         
         
@@ -1462,7 +1435,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Wan-Streamer proposes modeling video as "world + event stream": the world is the persistent context (scene, environment, voice characteristics, etc.), and the event stream is everything that changes over time (behavior, speech, scene changes). The model performs native streaming interaction within this framework.</div>
+      <div class='item-desc'>The paper presents Robostral Navigate, an 8B parameter vision-language model that performs navigation using only a monocular RGB image stream, without depth sensors, multi-camera rigs, or pre-built maps. It matches or exceeds depth-dependent baselines on multiple environments including Habitat-MP3D.</div>
       <div class="item-meta">
         
         
@@ -1471,7 +1444,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This decomposition separates static context from dynamic events in video generation, enabling the model to reuse world representations and generate only the event stream—significantly reducing compute cost. It's an important design paradigm for developers working on video generation and interactive world models.</div>
+      <div class='item-desc'>Sensor requirements have been a barrier to scaling navigation systems. Robostral Navigate demonstrates that "simplest sensor + large model" can be effective, drastically reducing hardware costs for robot navigation. Teams looking to implement navigation with low-cost hardware should watch this model.</div>
       <div class="item-meta">
         
         
@@ -1480,7 +1453,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Importance</div>
-      <div class='item-desc'>★★★★☆</div>
+      <div class='item-desc'>★★★★★</div>
       <div class="item-meta">
         
         
@@ -1489,7 +1462,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.15038)</div>
+      <div class='item-desc'>[HuggingFace Papers](https://huggingface.co/papers/2607.20785)</div>
       <div class="item-meta">
         
         
@@ -1505,7 +1478,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Open Interpreter added support for Kimi K3 and other open-weight models, becoming the first agent framework to support 2.8T-parameter models locally. The project gained 431 stars on GitHub in a single day.</div>
+      <div class='item-desc'>Alibaba open-sourced a code review tool battle-tested at production scale, featuring a hybrid architecture (deterministic pipelines + LLM Agent), line-level precise comments, built-in rulesets (NPE, thread-safety, XSS, SQL injection), and compatibility with OpenAI and Anthropic APIs. +980 stars on GitHub today.</div>
       <div class="item-meta">
         
         
@@ -1514,7 +1487,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Developers can now run autonomous coding agents with GPT-4-class capabilities using open-source models like Kimi K3, without paying API fees or being limited by closed-model quotas.</div>
+      <div class='item-desc'>This provides teams with a deployable, enterprise-grade code review solution out of the box, avoiding reinventing the wheel. The hybrid architecture choice is instructive: use deterministic rules for enumerable risks and LLMs for fuzzy issues, ensuring reliability while saving costs.</div>
       <div class="item-meta">
         
         
@@ -1532,7 +1505,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[GitHub Trending](https://github.com/openinterpreter/openinterpreter)</div>
+      <div class='item-desc'>[GitHub](https://github.com/alibaba/open-code-review)</div>
       <div class="item-meta">
         
         
@@ -1541,7 +1514,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A tool designed to counter the homogeneity of AI-generated code by injecting design guidelines (variable naming style, comment density, error handling patterns) to steer coding agents toward more human-like code. Gained 1,486 stars in one day.</div>
+      <div class='item-desc'>A self-hosted AI companion project supporting real-time voice chat, Minecraft and Factorio gameplay, positioned as "your owned Grok companion." Runs on Web/macOS/Windows. +554 stars on GitHub today.</div>
       <div class="item-meta">
         
         
@@ -1550,7 +1523,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is the first tool from the Vibe Coding community addressing "AI code smell." When teams find AI-submitted code hard to maintain, hallmark provides a non-invasive way to enforce project style—directly impacting long-term code maintainability.</div>
+      <div class='item-desc'>Demonstrates the potential of personalized AI agents in entertainment scenarios, especially mature game interaction. Indie developers can learn from its multimodal real-time interaction architecture and explore niches like game NPCs/AI panels.</div>
       <div class="item-meta">
         
         
@@ -1568,7 +1541,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[GitHub Trending](https://github.com/Nutlope/hallmark)</div>
+      <div class='item-desc'>[GitHub](https://github.com/moeru-ai/airi)</div>
       <div class="item-meta">
         
         
@@ -1577,7 +1550,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>GitHub released the official Copilot SDK, allowing developers to integrate Copilot Agent into their own apps and services across platforms (desktop, web, mobile). The SDK provides a complete API and event pipeline.</div>
+      <div class='item-desc'>A design language/specification aimed at improving the quality of frontend design code generated by AI coding assistants (e.g., Cursor, Claude Code). +849 stars on GitHub today.</div>
       <div class="item-meta">
         
         
@@ -1586,52 +1559,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This represents Copilot's transition from an IDE plugin to a platform. Independent developers can build custom coding assistants on top of Copilot Agent or embed it into their workflows. It directly competes with tools like Claude Code.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Importance</div>
-      <div class='item-desc'>★★★★★</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Source</div>
-      <div class='item-desc'>[GitHub Trending](https://github.com/github/copilot-sdk)</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What happened</div>
-      <div class='item-desc'>PrismML quantized Qwen3.6-27B to 1.125 bits/weight (binary g128), compressing the model from 54GB to 3.9GB, enabling local operation on an iPhone while retaining ~90% of benchmark performance. Even embeddings, attention projections, and the LM head are binarized.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This is an extreme experiment in on-device inference—1-bit quantization squeezes a 27B model into 4GB of memory. For mobile AI app developers, it means running near-frontier models without relying on the cloud.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Connections</div>
-      <div class='item-desc'>Following the Kimi K3 release, community discussion noted "open-source models are too large to run locally." Bonsai's demo directly addresses that concern.</div>
+      <div class='item-desc'>AI coding assistants' poor UI design output is a common pain point. Impeccable offers a "teach the model design rules" approach by defining tokenized design language to guide output. Frontend developers can integrate it into prompts or Skills.</div>
       <div class="item-meta">
         
         
@@ -1649,7 +1577,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[GitHub Trending](https://github.com/PrismML-Eng/Bonsai-demo)</div>
+      <div class='item-desc'>[GitHub](https://github.com/pbakaus/impeccable)</div>
       <div class="item-meta">
         
         
@@ -1658,7 +1586,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>Microsoft released Flint, a visualization language designed specifically for AI agents. It uses simple, human-editable specifications that let agents reliably generate customizable charts. Supports direct rendering from data to SVG/PNG.</div>
+      <div class='item-desc'>This tool takes a reference image and generates a code-only, animation-ready Three.js model (procedural geometry, not traditional mesh) with quality gating and low token consumption.</div>
       <div class="item-meta">
         
         
@@ -1667,7 +1595,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>Current AI agent-generated charts are often ugly and lack control. Flint provides a human-readable intermediate representation that agents can generate and developers can manually tune, solving the "black-box plotting" pain point.</div>
+      <div class='item-desc'>For web developers needing to quickly turn 2D concepts into 3D displays, this offers a novel workflow: avoid traditional modeling pipelines and generate directly in HTML. Especially valuable for combining AI-generated content with frontend presentation.</div>
       <div class="item-meta">
         
         
@@ -1685,7 +1613,43 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[GitHub Trending](https://github.com/microsoft/flint-chart)</div>
+      <div class='item-desc'>[GitHub](https://github.com/img2threejs/img2threejs)</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>An open-source AI gateway providing a unified endpoint supporting 290+ providers (90+ free), 500+ models (including Kimi, Claude, GPT, Gemini, GLM, DeepSeek, etc.), compatible with Claude Code, Codex, Cursor, etc. Features include quota-aware auto-fallback, RTK+Caveman compression saving 15-95% tokens, MCP/A2A protocols.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>This is one of the most comprehensive free open-source AI gateways available. Indie developers can immediately use it as an API proxy for model switching, load balancing, and cost optimization without integrating multiple SDKs from scratch.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Importance</div>
+      <div class='item-desc'>★★★★★</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Source</div>
+      <div class='item-desc'>[GitHub](https://github.com/diegosouzapw/OmniRoute)</div>
       <div class="item-meta">
         
         
@@ -1701,7 +1665,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">What happened</div>
-      <div class='item-desc'>A user on the thread "Anyone else completely tuning out these massive 'open weight' drops?" complained: "GLM-5.2 has 753B params, 1M context, MIT license... but what exactly is 'local' about this? A 700B+ MoE doesn't fit on any personal rig. Even if you crush it down to q1 or q2 GGUF, you still can't run it. I've got dual-GPU with ROCm optimization, but these behemoths are physically impossible." The post received massive upvotes, reflecting growing frustration in the open-source community over the widening gap between "open weights" and "runnable."</div>
+      <div class='item-desc'>Nvidia CEO Jensen Huang posted his first tweet, responding to the open vs. closed weights debate. Key quote: "Distillation — learning from AI, learning from other people, and learning from other sources of knowledge, is fundamental to intelligence. AI also has to learn from something." He also cited the Hugging Face incident, stating that closed models hindered forensic investigation while open-weight models helped contain the attack. He also announced the Open Secure AI Alliance. The tweet was widely shared on r/LocalLLaMA and Twitter, with Reddit users commenting "Huang speaks the community's heart."</div>
       <div class="item-meta">
         
         
@@ -1710,16 +1674,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Why it matters</div>
-      <div class='item-desc'>This reveals a core tension in the open-source model community: models are getting more powerful, but the bar for "local operation" is rising proportionally. Faithful local LLM users prefer moderately sized (30B range) models that are actually deployable, rather than an arms race in parameter count.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Source</div>
-      <div class='item-desc'>[r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/)</div>
+      <div class='item-desc'>As CEO of the largest AI infrastructure provider, Huang's stance directly impacts the business ecosystem. His first post choosing this sensitive issue and siding with the open camp may prompt more companies to take public positions and influence U.S. government attitudes toward open-source model regulation.</div>
       <div class="item-meta">
         
         
@@ -1728,7 +1683,52 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Heat</div>
-      <div class='item-desc'>🔥🔥🔥🔥</div>
+      <div class='item-desc'>🔥🔥🔥🔥🔥 (43 points on HN, multiple Reddit threads)</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Source</div>
+      <div class='item-desc'>[r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/)</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Over the weekend, Reddit users discovered that Anthropic Claude's "share link" feature lacked a noindex tag, causing conversations to be indexed and publicly accessible by Google and Bing, including sensitive content like encryption keys and legal advice. The post on r/ClaudeAI received thousands of upvotes, with widespread criticism of Anthropic for failing to ensure default privacy protection. OpenAI had a similar incident last year.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>This is another landmark privacy incident for AI chatbots. For enterprise users, the risk is high — if employees share internal conversations that become accidentally exposed, it can cause compliance issues. It also reminds all AI product developers: default private and security-by-design should be a baseline, not something left to users to manually configure.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Heat</div>
+      <div class='item-desc'>🔥🔥🔥🔥 (thousands of upvotes on Reddit, covered by VentureBeat, TechCrunch, Wired)</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Source</div>
+      <div class='item-desc'>[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) (original post, fallback to TechCrunch report)</div>
       <div class="item-meta">
         
         
@@ -1743,8 +1743,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           </div>
           
     <div class="item-card" data-stars="0">
-      <div class="item-title">Inspiration</div>
-      <div class='item-desc'>Reddit r/LocalLLaMA post "Bonsai 27B runs locally on an iPhone - a 27B model in 3.9GB." A user demonstrated a 1-bit quantized version of Qwen3.6-27B, compressing from 54GB to 3.9GB using binary g128, running on an iPhone with ~90% benchmark retention.</div>
+      <div class="item-title">Inspiration source</div>
+      <div class='item-desc'>From an Hacker News Show HN post where the author released FeyNoBg, an open-source automatic background removal model with a training library supporting custom fine-tuning. Received 64 points and 18 comments. Core: developers can fine-tune background removal on their own data instead of relying on black-box services like REMBG.</div>
       <div class="item-meta">
         
         
@@ -1752,8 +1752,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">What to learn</div>
-      <div class='item-desc'>Independent developers can borrow PrismML's quantization scheme to compress medium-sized models (e.g., Llama 3.1 70B) to tiny sizes and package them as mobile apps. Specific approach: choose a capable but not oversized base model, apply extreme quantization (1-2 bits), then add domain-specific fine-tuning data to compensate for quantization loss. This validates a previously considered unlikely use case—running near-frontier models on a phone without connectivity.</div>
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>Indie developers can directly integrate this model into their apps (image editors, e-commerce product photo processing) or use it as a reference to build customized image preprocessing pipelines. The built-in training library means optimization for specific categories (people, cars, food) to create differentiation.</div>
       <div class="item-meta">
         
         
@@ -1771,7 +1771,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/comments/1uyz9n2/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/)</div>
+      <div class='item-desc'>[Hacker News](https://news.ycombinator.com/item?id=49074693) (original Show HN link in description)</div>
       <div class="item-meta">
         
         
@@ -1779,8 +1779,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">Inspiration</div>
-      <div class='item-desc'>A Reddit user shared integrating SearXNG (a self-hosted meta search engine) into their AI workflow as a sub-agent called by the orchestrator. The original thread stated they had been developing the app since June 2025 and had only basic web capabilities before; adding SearXNG made it "so useful"—the model can fetch search results in real time, completely free from Google/Bing tracking.</div>
+      <div class="item-title">Inspiration source</div>
+      <div class='item-desc'>From the GitHub open-source project OmniRoute, billed as "free MIT AI gateway, one endpoint for 290+ providers, 500+ models including Kimi, Claude, GPT, Gemini, GLM, etc., compatible with Claude Code, Codex, Cursor." The project gained traction on GitHub Trending. The original post showcases a complete blueprint for building a zero-cost API proxy.</div>
       <div class="item-meta">
         
         
@@ -1788,44 +1788,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
     <div class="item-card" data-stars="0">
-      <div class="item-title">What to learn</div>
-      <div class='item-desc'>Independent developers can build a complete "private AI assistant + self-hosted search" product. SearXNG aggregates multiple search engines and returns tracking-free results. Combined with a local LLM, it offers a more privacy-respecting alternative to Perplexity. Technical approach: use SearXNG as a backend search API, expose it to the LLM via MCP or a custom agent framework for contextual retrieval augmentation.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Heat</div>
-      <div class='item-desc'>🔥🔥🔥</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Source</div>
-      <div class='item-desc'>[r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/comments/1uyjdfg/added_searxng_and_i_dont_even_know_what_to_say/)</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">Inspiration</div>
-      <div class='item-desc'>A Reddit user reported that after debugging, TRELLIS.cpp's image-to-3D generation quality matches the reference implementation, and anyone with a decent GPU can run it. TRELLIS is a GGML-ported 3D generation pipeline supporting high-quality 3D asset generation from a single image.</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">What to learn</div>
-      <div class='item-desc'>Independent developers can use TRELLIS.cpp to build 3D content tools (e.g., e-commerce product visualization, automated game asset generation). Specific approach: user uploads an image on the front end, the backend calls TRELLIS to generate a glTF/OBJ model, then combines with AI texture repair, normal mapping, etc., for a complete "image-to-3D" product. The tool is fully open-source with no commercial API calls needed.</div>
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>Indie developers can instantly deploy this gateway as their AI service backend, switching models, auto-fallback, and compressing tokens at minimal cost. For personal projects relying on paid API calls, this can significantly reduce expenses. The project also demonstrates how to leverage free API quotas for commercial-grade proxying, though caution is needed to avoid fraud boundaries.</div>
       <div class="item-meta">
         
         
@@ -1834,7 +1798,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Heat</div>
-      <div class='item-desc'>🔥🔥🔥</div>
+      <div class='item-desc'>🔥🔥🔥🔥</div>
       <div class="item-meta">
         
         
@@ -1843,7 +1807,43 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">Source</div>
-      <div class='item-desc'>[r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/comments/1uyw64s/trelliscpp_now_produces_high_quality_assets/)</div>
+      <div class='item-desc'>[GitHub](https://github.com/diegosouzapw/OmniRoute)</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Inspiration source</div>
+      <div class='item-desc'>From a Lenny's Newsletter podcast interview. Guest Maddie Reese had no coding background but used Cursor (AI code assistant) and a Raspberry Pi to build an SMS-receiving thermal printer, a Twitter pager, and a personal API. She emphasizes that "fun beats practical" as motivation, producing impressive hardware products.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>For non-technical indie developers, this proves AI coding assistants can dramatically lower the barrier to hardware projects. The approach: have a fun idea (physical interaction), describe it in natural language to Cursor, and connect to the physical world via Raspberry Pi. This "AI + low-cost hardware" combination is an innovative model indie developers can replicate, especially for creating personalized niche products.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Heat</div>
+      <div class='item-desc'>🔥🔥🔥🔥</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Source</div>
+      <div class='item-desc'>[Lenny's Newsletter](https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware)</div>
       <div class="item-meta">
         
         
@@ -1855,8 +1855,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
     </div></div>
       <div class="day-nav">
-        <a class="nav-btn" href="2026-07-17.html">← 2026-07-17</a>
-        <a class="nav-btn" href="2026-07-19.html">2026-07-19 →</a>
+        <a class="nav-btn" href="2026-07-27.html">← 2026-07-27</a>
+        <span></span>
       </div>
     </div>
   
@@ -1866,7 +1866,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
   <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
 </footer>
 
-  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28"];window.CURRENT_DATE="2026-07-18";window.PREV_DATE="2026-07-17";window.NEXT_DATE="2026-07-19";</script>
+  <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28"];window.CURRENT_DATE="2026-07-28";window.PREV_DATE="2026-07-27";</script>
   <script>
 (function () {
   var BASE = window.SITE_BASE || "";

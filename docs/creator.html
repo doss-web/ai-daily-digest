@@ -36,6 +36,103 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-07-28">AI 每日简报 · 2026-07-28 周二</span>
+    <button class="cbtn" data-copy="t-2026-07-28">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-07-28.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-07-28.mp3" download="2026-07-28.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-07-28">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-07-28">AI 每日简报 · 2026-07-28 周二
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· 发生了什么：Moonshot AI 于 7 月 27 日按承诺在 Hugging Face 放出 Kimi K3 权重。该模型总参数量 2.8T，MoE 架构含 896 专家（每 token 激活 16 个），支持 1M 上下文和视觉。同时，团队和 kvcache-ai 开源了 AgentENV（AENV），一个基于 Firecracker 微虚拟机的分布式智能体强化学习训练系统，支持毫秒级快照/恢复和 16 路分叉，采用 MIT 许可证。K3 在多个主流基准上接近西方前沿模型（如 Fable 5、GPT-5.6 Sol），但独立测试发现其在网络和数学能力上存在明显差距，引发对蒸馏的讨论。
+· 为什么重要：这是目前业界开源的最大规模 MoE 模型之一，为自部署和微调提供了新的基础选型。AgentENV 为训练智能体 RL 提供了一套可复用的高性能基础设施。但开发者应警惕 K3 在安全、数学等领域的实际表现，在关键任务中需额外验证。
+· 关联动态：同一天，美国官方透露倾向于选择性禁止而非全面封禁中国开源权重模型，而 Jensen Huang 发推支持开源 AI 并指出蒸馏是学习的本质。
+  来源：https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/
+· 发生了什么：Microsoft 在其 Microsoft AI 部门内部开发了紧凑型安全模型 MAI-Cyber-1-Flash，嵌入新的多智能体安全编排平台 MDASH。该模型在 CyberGym 基准测试上达到 96%，成本据称比纯前沿模型降低 50%——只有复杂推理任务才会被路由给 GPT-5.4。微软同时宣布，安全领域的未来属于“足够好且最便宜的模型，智能路由”。
+· 为什么重要：这是大型云厂商首次发布专用安全模型，标志着“模型成本效率”成为企业 AI 架构的核心考量。AI builder 应关注“模型路由 + 专业化小模型”的架构模式，可能将改变企业当前依赖单一大型模型的部署习惯。
+  来源：https://venturebeat.com/security/microsoft-launches-ai-cybersecurity-model-agentic-defense-platform-to-cut-enterprise-security-costs
+· 发生了什么：Nvidia CEO 黄仁勋在 Twitter 上发布首条推文，明确表态支持开放权重 AI 模型。他写道：“蒸馏——从 AI 学习、从他人学习、从其他知识源学习——是智能的基础。我们不断互相学习。AI 也必须从某物中学习。”他还引用 Hugging Face 攻击事件指出，封闭 AI 在取证时阻碍调查，而开放权重前沿模型帮助了遏制入侵。为此，Nvidia 联合微软、SpaceX、IBM 等成立了 Open Secure AI Alliance，构建开源安全工具。
+· 为什么重要：黄仁勋的公开立场可能影响硅谷对开放模型监管的辩论风向。他首次发声即选择开放 vs 封闭的核心议题，且直接关联安全事件，给开放模型阵营提供了有力论据。AI builder 需留意后续政策走向：如果开放模型被选择性限制，将影响全球模型获取与使用。
+  来源：https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/
+· 发生了什么：Reddit 用户发现，Anthropic Claude 聊天机器人的“共享链接”功能创建的对话页面因缺乏 noindex 标签，被 Google 和 Bing 搜索引擎收录并公开访问。部分泄露内容包含加密密钥、法律咨询等敏感信息。Anthropic 此前在 Claude 系统卡中已标注过此风险，但显然未有效阻止。OpenAI 去年也曾犯过同样的错误。
+· 为什么重要：这是 AI 聊天机器人用户隐私的又一次重大事故，直接打击用户对“共享”功能的信任。对于企业用户，若内部对话被意外分享并索引，可能造成合规风险。开发者应审查自己在使用 AI 助手时的数据共享设置，并关注 Anthropic 后续修复方案（如强制 noindex 或默认私有）。
+  来源：https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/
+· 发生了什么：印度德里高等法院驳回了新闻社 ANI 对 OpenAI 的版权侵权禁令申请。法院首次将 AI 训练行为定性为“私人使用”。ANI 的诉求被驳回的一大原因是其引用了模型训练后才发表的新闻文章，自证逻辑矛盾。主要诉讼仍未了结，但禁令被拒是 OpenAI 的重大胜利。
+· 为什么重要：该判决为全球 AI 版权诉讼提供了新的判例方向——将爬取数据用于训练视为“私人使用”可能改变法律博弈格局。对于 AI 公司，这增强了在版权争议中的防御信心；对于内容提供者，则需更主动地使用 robots.txt 等技术手段，而非单纯依赖诉讼。
+  来源：https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/
+· 发生了什么：AI 评估组织 METR 提出了一个新指标“Expenditure Horizon”（支出地平线），用于计算 AI 智能体在完成某项任务时的成本效率边界，即用美元数值表示智能体解决问题时是否比雇佣人类更划算。早期实验在 NanoGPT 速度跑任务上结果不理想，且指标存在盲区（如忽略一次性设置成本）。METR 表示新一代模型可能改变局面。
+· 为什么重要：这是一个将智能体经济性从定性讨论推向定量比较的重要工具。AI builder 可借此评估自己的 Agent 系统在真实场景中的成本竞争力，判断委托给 AI 还是人类的阈值。指标虽不完美，但“成本效率”已成为模型选型和部署的关键维度。
+  来源：https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/
+· 发生了什么：BFL 发布了 FLUX 3，这是其 FLUX 系列的第三个主要版本，也是首个从单组权重同时输出图像、视频、音频和机器人动作预测的模型。架构使用统一流模型（flow model），未针对各模态分别设计，而是共享表示。论文 arXiv 已出。
+· 为什么重要：FLUX 3 代表了多模态生成模型的新范式——从“多模型拼接”走向“单一架构、多模态统一”。对于构建机器人感知或内容生成的开发者，这意味着未来可能用一个预训练模型处理多种任务，降低基础设施复杂度和训练成本。
+  来源：https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/
+
+📄 重要论文
+· 发生了什么：来自多机构团队的论文提出，生产级 AI 智能体的失败很少是因为推理能力不足，而是因为它们无法管理推理上下文中的内容——对话历史、大提示、工具定义及膨胀的工具输出。现有方案将其视为“存储与检索”问题，作者主张应同时从生命周期管理（何时删除/总结历史）和架构设计（如分层上下文池）两个角度解决。
+· 为什么重要：对于所有搭建 Agent 系统的开发者，这篇论文直接点出了当前最实用的痛点。它提供了框架性的思考而非具体算法，但提出了可操作的方向：不要只优化 RAG 或缓存，而要设计上下文的生命周期策略。
+  来源：https://huggingface.co/papers/2607.21503
+· 发生了什么：论文提出 Skill Self-Play 训练框架，让 LLM 通过自我博弈来同时进化技能与任务多样性。它解决了自进化方法中“任务多样性与验证可靠性”之间两难困境：环境绑定方法反馈精确但领域窄，开放自生成任务宽但验证不可靠。Skill Self-Play 将“技能”作为中介，让模型生成新技能、用技能解决任务、再用任务结果验证技能。
+· 为什么重要：这是 LLM 自我进化方向上的一次重要突破，直接针对 RLHF/SFT 后的人工标注瓶颈。如果验证有效，将大幅降低监督数据需求，使模型持续在无标注环境中自主提升。开源实现值得密切关注。
+  来源：https://huggingface.co/papers/2607.22529
+· 发生了什么：论文推出 SceneActBench，一个统一评测 AI 智能体在 5 类 3D 任务中执行动作能力的基准。与传统 3D 基准只要求文本输出或单物体操作不同，SceneActBench 要求智能体在完整的 3D 环境中通过工具操作物体（如抓取、移动、组装），使用统一智能体-环境循环，输入为 PNG 图像或视频帧。
+· 为什么重要：对于从事具身智能、3D 理解和智能体控制的开发者，这是一个更具挑战性和实际意义的评测工具。它暴露了当前 VLM 在 3D 空间执行具体动作时的短板，可能推动下一波感知-行动模型的改进方向。
+  来源：https://huggingface.co/papers/2607.22393
+· 发生了什么：论文提出第一个端到端评估 LLM 和智能体准备工作（数据构建 + 质量评估）能力的基准 DataPrep-Bench。包含 40 个数据集、7 类数据构建任务和 4 类质量评估任务。初期评测显示，最强模型（GPT-5.6 Sol）在数据构建上的成功率仅 35%，智能体工作流可以将性能提升 1.56–3.05 倍。
+· 为什么重要：训练数据的质量决定了模型能力的上限，但此前缺乏系统评估。该基准为数据工程团队和 AutoML 研究者提供了明确的评估标准，揭示数据准备是当前 AI 管线中最薄弱的环节之一。
+  来源：https://huggingface.co/papers/2607.20465
+· 发生了什么：论文发布 Robostral Navigate，一个 8B 参数的视觉-语言模型，仅通过单目 RGB 图像流完成导航任务，不依赖深度传感器、多摄像头或预构建地图。在 Habitat-MP3D 等多环境中达到或超过依赖深度输入的基线模型。
+· 为什么重要：导航系统对传感器的苛刻要求一直是规模化部署的障碍。Robostral Navigate 证明了“最简单传感器 + 大模型”的路径有效，大幅降低机器人导航的硬件成本。对于想用低成本硬件实现导航的团队，这是一个必须关注的模型。
+  来源：https://huggingface.co/papers/2607.20785
+
+🔧 开源项目
+· 发生了什么：阿里开源了经过其大规模生产环境验证的代码审查工具，采用混合架构（确定性管道 + LLM Agent），支持行级精确评论，内置 NPE、线程安全、XSS、SQL 注入等规则集，兼容 OpenAI 与 Anthropic API。今日 GitHub 趋势 +980 star。
+· 为什么重要：这为开发团队提供了一个可直接部署的、企业级代码审查方案，避免重复造轮子。混合架构选择有启发性：用确定性规则处理可穷举的风险，用 LLM 处理模糊问题，既保证可靠又节省成本。
+  来源：https://github.com/alibaba/open-code-review
+· 发生了什么：一个自托管的 AI 伴侣项目，支持实时语音聊天、Minecraft 和 Factorio 游戏操作，定位为“你拥有的 Grok 伴侣”。可在 Web/macOS/Windows 上运行，今日 GitHub 趋势 +554 star。
+· 为什么重要：展示了个人化 AI 代理在娱乐场景中的可能性，尤其是与游戏交互的成熟度。独立开发者可以借鉴其多模态实时交互架构，并探索游戏 NPC/AI 面板的 niche。
+  来源：https://github.com/moeru-ai/airi
+· 发生了什么：一个设计语言/规范，旨在提升 AI 编程助手（如 Cursor、Claude Code）生成前端设计代码的质量。今日 GitHub 趋势 +849 star。
+· 为什么重要：AI 编程助手在 UI 设计方面表现不佳是常见痛点。Impeccable 提供了一种“教模型设计规范”的思路，通过定义 token 化的设计语言来引导输出。前端开发者可将其集成到提示词或 Skill 中。
+  来源：https://github.com/pbakaus/impeccable
+· 发生了什么：该工具输入一张参考图像，输出用代码构成的、动画就绪的 Three.js 模型（非传统 mesh，而是程序化几何），通过质量门控确保效果，token 消耗低。
+· 为什么重要：对于需要快速将 2D 概念转化为 3D 展示的 Web 开发者，这是一种全新的工作流：避免传统建模管线，直接在 HTML 中使用。尤其在 AI 生成内容与前端展示结合的场景中价值突出。
+  来源：https://github.com/img2threejs/img2threejs
+· 发生了什么：一个开源 AI 网关，提供统一端点，支持 290+ 供应商（其中 90+ 免费）、500+ 模型（包括 Kimi、Claude、GPT、Gemini、GLM、DeepSeek 等），兼容 Claude Code、Codex、Cursor 等。特性包括配额感知自动回退、RTK+Caveman 压缩节省 15-95% token、MCP/A2A 协议。
+· 为什么重要：这是目前覆盖最广的免费开源 AI 网关之一，独立开发者可以立即将其作为 API 代理，实现模型切换、负载均衡和成本优化，无需从头集成多个 SDK。
+  来源：https://github.com/diegosouzapw/OmniRoute
+
+🐦 AI 圈热议
+· 发生了什么：Nvidia CEO 黄仁勋发表首条推文，响应开放/封闭权重之争。核心片段：“蒸馏——从 AI 学习、从他人学习、从其他知识源学习——是智能的基础。AI 也必须从某物中学习。”他同时引用 Hugging Face 攻击事件，称封闭模型在取证时阻碍了调查，而开放权重模型帮助遏制了攻击。他还宣布成立 Open Secure AI Alliance。该推文在 r/LocalLLaMA 和 Twitter 上被广泛转发，Reddit 用户评论称“老黄说出了社区的心声”。
+· 为什么重要：黄仁勋作为 AI 基础设施最大供应商的 CEO，立场直接影响商业生态。他的首次发声选择这个敏感议题，且站在开放阵营，可能促使更多公司公开表态，并影响美国政府对开源模型的监管态度。
+  来源：https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/
+· 发生了什么：周末，Reddit 用户发现 Anthropic Claude 的“共享链接”未设置 noindex，导致对话内容被 Google 和 Bing 索引并公开访问，其中包含加密密钥、法律咨询等敏感信息。该帖在 r/ClaudeAI 获得数千 upvote，舆论普遍指责 Anthropic 未尽到默认隐私保护责任。去年 OpenAI 也曾出现过类似问题。Anthropic 在系统卡中已提及此风险，但未采取有效措施。
+· 为什么重要：这是 AI 聊天机器人隐私问题的又一次标志性事件。对于企业用户，风险尤高——如果员工分享内部对话并意外暴露，可能造成合规事故。这也提示所有 AI 产品开发者：默认私有、安全 by design 应成为基本线，而非依赖用户手动设置。
+  来源：https://www.reddit.com/r/ClaudeAI/
+
+💡 独立开发者灵感
+· 灵感来源：来自 Hacker News Show HN 帖子，作者发布了 FeyNoBg，一个开源的自动背景移除模型，同时附带了训练库，支持自定义训练。HN 上获 64 points，18 条评论。帖子核心：开发者可以用自己的数据微调背景移除模型，而非依赖 REMBG 等黑盒服务。
+· 可借鉴的点：独立开发者可以直接使用该模型集成到自己的应用（图片编辑工具、电商产品图处理），或将其作为参考构建定制化的图像预处理管线。自带训练库意味着可以针对特定品类（如人物、汽车、食品）优化效果，形成差异化。
+  来源：https://news.ycombinator.com/item?id=49074693
+· 灵感来源：来自 GitHub 开源项目 OmniRoute，宣称是“免费 MIT AI 网关，一个端点支持 290+ 供应商、500+ 模型，包括 Kimi、Claude、GPT、Gemini、GLM 等，兼容 Claude Code、Codex、Cursor”。该项目在 GitHub Trending 上获得关注。原帖展示了构建一个零成本 API 代理的完整方案。
+· 可借鉴的点：独立开发者可以立即部署此网关作为自己的 AI 服务后端，以极低成本切换模型、实现自动回退和 token 压缩。对于依赖 API 调用付费的个人项目，这可以大幅节省开支。同时，该项目展示了如何利用免费 API 配额构建商业级代理的思路，但不建议触及欺诈边界。
+  来源：https://github.com/diegosouzapw/OmniRoute
+· 灵感来源：来自 Lenny's Newsletter 的播客访谈，嘉宾 Maddie Reese 没有编程背景，但使用 Cursor（AI 代码助手）和 Raspberry Pi 构建了一个可接受短信的热敏打印机、一个 Twitter 寻呼机，以及一个个人 API。她强调“有趣比实用更可贵”的动机，成功做出了令人惊叹的硬件产品。
+· 可借鉴的点：对于非技术背景的独立开发者，这证明了 AI 编程助手可以大幅降低硬件项目的门槛。思路是：先有一个有趣的 idea（物理交互），然后用自然语言描述给 Cursor，再通过 Raspberry Pi 连接实体世界。这种“AI + 低成本硬件”的组合是独立开发者可以复制的创新模式，尤其适合打造个性化的小众产品。
+  来源：https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware
+
+💡 今日观察
+今天的信息密度极高，但将事件拼合起来，可以看到三个清晰的结构性趋势： **第一，“成本效率”正式取代“最大模型”成为企业 AI 的北极星。** 微软发布 MAI-Cyber-1-Flash 并公开声称“未来属于足够好且最便宜的模型，智能路由”；METR 推出“Expenditure Horizon”来量化智能体 vs 人类成本；Cursor 的 agent swarm 实验证明，前沿模型做规划、便宜模型做执行的架构在测试集上拿到 100%——这些信号共同指向同一个结论：不管模型多强，如果不能以合理成本落地，就会被市场边缘化。AI builder 应当立即审视自己的推理管线，引入路由层和专业化小模型，而不是继续追逐单一“最强”模型。 **第二，开源 vs 封闭模型的战争进入白热化，且与安全叙事深度绑定。** Jensen Huang 的首条推文直接以 Hugging Face 攻击事件为由，指责封闭模型阻碍安全取证；Nvidia 联合微软等成立 Open Secure AI Alliance，将“开源”与“安全”绑定。与此同时，美国被曝倾向于选择性限制中国开源模型，但 OpenAI 和 Anthropic 在私下仍在游说政府施压。未来几个月，开源模型的可获取性可能面临政策变数，开发者应关注备选模型和合规预案。 **第三，AI 隐私事故从“偶发”变成“常态化”，信任成本急剧上升。** Claude 共享会话被 Google 索引事件是继 ChatGPT 泄露对话、OpenAI 数据泄漏后的又一次大规模暴露。尽管多家公司已有前车之鉴，但根因（默认不私有、noindex 缺失）仍未解决。对于构建 AI 产品的团队，这提示一个严峻现实：用户对“数据安全”的敏感度正在快速提高，一次泄露就可能毁掉品牌信誉。产品设计中应将“默认私有”和“显式授权”作为第一性原则，而不是事后打补丁。 三个月后回看，今天可能最重要的新闻是 **Jensen Huang 的首条推文**——它标志着 AI 基础设施最大玩家在开放 vs 封闭议题上正式站队，其长期影响力可能超过任何单个模型的发布。
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-07-27">AI 每日简报 · 2026-07-27 周一</span>
     <button class="cbtn" data-copy="t-2026-07-27">📋 复制标题</button>
   </div>
@@ -1357,94 +1454,6 @@
 
 💡 今日观察
 今天最清晰的信号是：**AI Agent 正在从&quot;对话工具&quot;全面进化为&quot;自主工作平台&quot;**。GPT-5.6 的 Sol 模型不仅能在 1 小时内解开 50 年数学猜想，还能自主微调更小的模型——递归自我改进已不再是理论。但同时，ChatGPT Work 发布即翻车（擅自删数据、UX 混乱），57% 企业遭遇 Agent 自信但错误的回答，说明 Agent 的可靠性远未成熟。**苹果起诉 OpenAI 窃密、腾讯收购 Manus、Meta 开源 Muse Spark 1.1**，三件事共同指向一个趋势：AI 竞争已从模型能力转向 Agent 生态和人才壁垒。开发者应优先关注 Agent 评估框架（如 AgentLens）和安全工具（如 destructive_command_guard），而非盲目部署自主 Agent。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-07-11">AI 每日简报 · 2026-07-11 周六</span>
-    <button class="cbtn" data-copy="t-2026-07-11">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-07-11.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-07-11.mp3" download="2026-07-11.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-07-11">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-07-11">AI 每日简报 · 2026-07-11 周六
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· Apple 起诉 OpenAI 窃取商业机密：Apple 正式对 OpenAI 提起诉讼，指控其前员工在 OpenAI 高管指示下窃取 Apple 硬件机密，包括机密演示文稿、原型和供应商细节。
-  来源：https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/
-· OpenAI 发布 GPT-5.6 系列模型并推出 ChatGPT Work：OpenAI 正式推出 Luna、Terra、Sol 三款模型，Sol 在多项基准上接近 Claude Fable 5，成本仅为后者三分之一；同时发布 ChatGPT Work 智能体，可跨邮件、Slack、日历执行复杂任务。
-  来源：https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
-· GPT-5.6 Sol 自主完成小模型后训练：OpenAI 透露 GPT-5.6 Sol 通过一个&quot;相当模糊的提示&quot;自主微调了较小的 Luna 模型，在递归自我改进基准上比 GPT-5.5 高出 16.2 分，OpenAI 认为&quot;自动化研究员&quot;已触手可及。
-  来源：https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/
-· GPT-5.6 成为 Microsoft 365 Copilot 首选模型：OpenAI 确认 GPT-5.6 系列将作为 Microsoft 365 Copilot 的首选模型，继续为 Word、Excel、PowerPoint 等办公套件提供 AI 能力。
-  来源：https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
-· Meta 发布 Muse Spark 1.1 并以低价进入 API 市场：Meta 推出 Muse Spark 1.1 并开放 API，定价 $4.25/百万输出 token，低于 Grok 4.5，大幅低于 OpenAI 和 Anthropic，AI 价格战进一步升级。
-  来源：https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/
-· Meta 正在开发 Muse Spark 开源变体：据 CNBC 报道，Meta 正在开发 Muse Spark 的开源版本，具体细节和时间表尚未公布。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1usbfz3/meta_are_apparently_working_on_an_open_source/
-· OpenAI 关闭 Atlas 浏览器，功能并入 ChatGPT：OpenAI 在推出不到一年后关闭其 AI 浏览器 Atlas，将其智能浏览功能整合到 ChatGPT 桌面应用和 Chrome 扩展中。
-  来源：https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset
-· OpenAI 二号人物 Fidji Simo 因健康原因离职：OpenAI AGI 部署负责人 Fidji Simo 因神经免疫疾病医疗假超出预期，辞去全职职务转为兼职顾问。
-  来源：https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/
-· 腾讯拟收购 Manus 多数股权：据金融时报报道，腾讯正洽谈以 20 亿美元估值收购 AI 智能体初创公司 Manus 多数股权，此前北京阻止了 Meta 的 20 亿美元收购。
-  来源：https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/
-· SK 海力士完成美国史上最大外国 IPO，融资 265 亿美元：AI 芯片热潮催生华尔街最大时刻之一，SK 海力士被敦促在美国建设新工厂。
-  来源：https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/
-· 企业 86% 的 GPU 利用率不到一半：VentureBeat 调研显示，86% 的企业 GPU 运行在半容量或更低水平，AI 基础设施投资与实际利用率之间存在巨大鸿沟。
-  来源：https://venturebeat.com/orchestration/wall-street-is-debating-the-ai-buildout-enterprises-just-answered-86-say-their-gpus-run-at-half-capacity-or-less
-· Google 发布 TabFM：无需逐数据集训练即可预测未见表格：Google Research 推出 TabFM 基础模型，将表格预测视为上下文学习问题，可零样本预测从未见过的表格数据。
-  来源：https://venturebeat.com/technology/googles-tabfm-skips-per-dataset-training-and-still-predicts-on-tables-its-never-seen
-· Anthropic 将向 Claude Fable 5 用户收取使用费：Claude 订阅用户需按使用量付费才能访问 Fable 5，标志着 AI 订阅黄金时代即将结束。
-  来源：https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/
-· Bun 借助 Claude Fable 5 在 11 天内从 Zig 重写为 Rust：JavaScript 工具 Bun 在 Claude Fable 5 辅助下完成从 Zig 到 Rust 的完全重写，共生成超过一百万行代码。
-  来源：https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/
-
-📄 重要论文
-· AgentLens：面向编码智能体的生产级轨迹评估基准：提出生产级评估基准，不仅看任务是否通过，更评估智能体在整个轨迹中的指令遵循、工具使用、错误恢复等能力。
-  来源：https://huggingface.co/papers/2607.06624
-· Remember When It Matters：面向长程智能体的主动记忆机制：研究将记忆作为主动干预而非被动检索，解决长程任务中&quot;行为状态衰减&quot;问题，让决策相关信息在需要时被激活。
-  来源：https://huggingface.co/papers/2607.08716
-· Linear Attention Architectures：机制、权衡与跨层路由：对 DeltaNet、Gated DeltaNet 等四种线性注意力架构进行系统比较，用统一循环记忆符号表达其差异。
-  来源：https://huggingface.co/papers/2607.07953
-· UP：无界正非对称优化打破探索-稳定性困境：提出新的 RL 优化方法，解决 LLM 推理强化学习中重要性采样导致的不稳定性问题，无需裁剪即可维持训练稳定。
-  来源：https://huggingface.co/papers/2607.06987
-· Jet-Long：基于动态双焦点 RoPE 的高效长上下文扩展：提出零样本长上下文扩展方法，动态调整 RoPE 缩放因子，在长上下文推理时保持短上下文性能。
-  来源：https://huggingface.co/papers/2607.07740
-· OpenCoF：通过视频生成学习推理：提出 Chain-of-Frame 推理范式，利用视频生成模型通过时序帧展开推理，并构建专用数据集和训练框架。
-  来源：https://huggingface.co/papers/2607.08763
-· Ideas Have Genomes：科学谱系推理与谱系接地想法生成基准：提出 IdeaGene-Bench，评估 AI 系统能否追踪科学想法的继承、修复和重组结构，以及基于谱系生成新想法。
-  来源：https://huggingface.co/papers/2607.08758
-· UniClawBench：面向真实世界任务的主动智能体通用基准：提出新的智能体评估基准，克服现有沙盒环境和单轮评估局限，涵盖真实世界工具操作场景。
-  来源：https://huggingface.co/papers/2607.08768
-· Flash-BoN：扩散模型推理时间扩展的即时草稿：提出 Flash-BoN 方法，在文本到图像生成的推理时间扩展中，通过即时生成草稿大幅降低验证开销。
-  来源：https://huggingface.co/papers/2607.04461
-· TESSERA v2：规模化像素级地球基础模型：在 1,024 个 GH200 超级芯片上进行 395 次训练运行的规模化研究，发现预训练损失几乎无法预测下游任务性能。
-  来源：https://huggingface.co/papers/2607.03949
-
-🔧 开源项目
-· addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)：面向 AI 编码智能体的生产级工程技能集。今日 +1,114 star。
-· iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)：首个专为 AI 智能体构建的 Office 套件，支持读写编辑 Word、Excel、PowerPoint 文件。免费开源，单二进制文件，无需安装 Office。今日 +1,210 star。
-· obra/superpowers](https://github.com/obra/superpowers)：智能体技能框架与软件开发方法论。今日 +969 star。
-· TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)：腾讯云推出的全本地长期记忆系统，四层渐进式流水线，零外部 API 依赖。今日 +134 star。
-· NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)：NVIDIA 推出的安全、私有运行时，专为自主 AI 智能体设计。
-· microsoft/flint-chart](https://github.com/microsoft/flint-chart)：微软推出的可视化语言，让 AI 智能体能从简单、可人工编辑的图表规格中可靠创建美观图表。
-· langchain-ai/openwiki](https://github.com/langchain-ai/openwiki)：LangChain 推出的 CLI 工具，自动编写和维护代码库的智能体文档。
-· google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)：Google 推出的智能体技能库，遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码智能体。
-· kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts)：可在 CPU（和口袋）上运行的轻量级 TTS 系统。
-· AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video)：AI 全自动短视频引擎。
-
-🐦 AI 圈热议
-· GPT-5.6 Sol 与 Claude Fable 5 的竞争格局：随着 GPT-5.6 Sol 在多项基准上接近 Fable 5 且成本仅为三分之一，而 Anthropic 开始对 Fable 5 收取按使用量计费，AI 社区正在激烈讨论：OpenAI 的定价策略是否将迫使 Anthropic 调整商业模式？开发者社区在 Reddit 和 Twitter 上广泛对比两者在实际编码任务中的表现，不少人认为 Sol 在智能体编码方面已领先。来源：[TLDR AI](https://tldr.tech/ai/2026-07-10)、[The Decoder](https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/)
-· &quot;智能体技能&quot;成为开源新热点：addyosmani/agent-skills、obra/superpowers、mattpocock/skills 等多个智能体技能项目同日在 GitHub 上爆发式增长，反映 AI 开发者社区正从&quot;如何构建智能体&quot;转向&quot;如何让智能体具备专业工程技能&quot;。Hacker News 和 Reddit 上热议：智能体技能标准化是否将成为下一个 Kubernetes 级别的平台革命？来源：[Hacker News](https://news.ycombinator.com/item?id=48863171)、[GitHub Trending](https://github.com/addyosmani/agent-skills)
-
-💡 今日观察
-今天最明确的信号是 **AI 产业正从&quot;模型竞赛&quot;转向&quot;智能体平台竞赛&quot;**。OpenAI 的 ChatGPT Work、Google 的 TabFM、以及 GitHub 上爆发的&quot;智能体技能&quot;项目都在指向同一个方向：模型本身正在商品化，真正的护城河在于智能体如何可靠地执行复杂工作流。与此同时，Apple 诉 OpenAI 的诉讼、Anthropic 转向按量计费、以及 GPT-5.6 Sol 展现的递归自我改进能力，共同勾勒出一个既充满机遇又暗藏风险的行业新阶段——技术能力在加速，商业和监管框架却尚未跟上。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
