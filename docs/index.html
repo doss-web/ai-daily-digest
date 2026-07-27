@@ -582,7 +582,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Moonshot AI 于 7 月 27 日按承诺在 Hugging Face 放出 Kimi K3 权重。该模型总参数量 2.8T，MoE 架构含 896 专家（每 token 激活 16 个），支持 1M 上下文和视觉。同时，团队和 kvcache-ai 开源了 AgentENV（AENV），一个基于 Firecracker 微虚拟机的分布式智能体强化学习训练系统，支持毫秒级快照/恢复和 16 路分叉，采用 MIT 许可证。K3 在多个主流基准上接近西方前沿模型（如 Fable 5、GPT-5.6 Sol），但独立测试发现其在网络和数学能力上存在明显差距，引发对蒸馏的讨论。</div>
+      <div class='item-desc'>上周末 Reddit 用户 -void1 发现，使用 Claude “分享对话”功能生成的链接因页面缺少 `noindex` 标签，被 Google 和 Bing 正常爬取并显示在搜索结果中。用户可通过任意链接查看他人完整对话，内容包含加密货币密钥、法律咨询、医疗信息等。这是继去年 OpenAI 同类错误后的又一次大规模隐私泄露。TechCrunch、VentureBeat、Wired、The Decoder 等多家媒体均报道。</div>
       <div class="item-meta">
         
         
@@ -591,7 +591,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是目前业界开源的最大规模 MoE 模型之一，为自部署和微调提供了新的基础选型。AgentENV 为训练智能体 RL 提供了一套可复用的高性能基础设施。但开发者应警惕 K3 在安全、数学等领域的实际表现，在关键任务中需额外验证。</div>
+      <div class='item-desc'>对 AI builder 而言，这表明“share”功能的安全默认设置仍不成熟。任何提供可分享对话链接的 AI 产品都应在发布前进行搜索引擎索引策略审计。Anthropic 尚未发布官方声明，但开发者应自行检查是否已禁用分享功能或添加 noindex。</div>
       <div class="item-meta">
         
         
@@ -600,16 +600,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>同一天，美国官方透露倾向于选择性禁止而非全面封禁中国开源权重模型，而 Jensen Huang 发推支持开源 AI 并指出蒸馏是学习的本质。</div>
+      <div class='item-desc'>同日，OpenAI 的 Hugging Face 入侵事件再次引发对齐与控制辩论，AI 模型安全与隐私成为当日核心议题。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/" target="_blank">MarkTechPost</a></div>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/" target="_blank">TechCrunch</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Microsoft 在其 Microsoft AI 部门内部开发了紧凑型安全模型 MAI-Cyber-1-Flash，嵌入新的多智能体安全编排平台 MDASH。该模型在 CyberGym 基准测试上达到 96%，成本据称比纯前沿模型降低 50%——只有复杂推理任务才会被路由给 GPT-5.4。微软同时宣布，安全领域的未来属于“足够好且最便宜的模型，智能路由”。</div>
+      <div class='item-desc'>微软宣布推出 MAI-Cyber-1-Flash，一个紧凑型安全模型，内部由 Microsoft AI (MAI) 部门开发。它被嵌入 MDASH（微软多代理安全协调平台），在 CyberGym 基准上达到 96% 的得分。微软声称相比纯前沿模型，成本可降低 50%，因为复杂推理任务会被路由到 OpenAI 的 GPT-5.4。同日，微软 CEO 纳德拉表示“依赖单一 AI 做一切的公司可能无法生存”，强调 AI 网关和自研模型的重要性。</div>
       <div class="item-meta">
         
         
@@ -618,7 +618,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是大型云厂商首次发布专用安全模型，标志着“模型成本效率”成为企业 AI 架构的核心考量。AI builder 应关注“模型路由 + 专业化小模型”的架构模式，可能将改变企业当前依赖单一大型模型的部署习惯。</div>
+      <div class='item-desc'>标志着 AI 安全竞争从“谁有最大模型”转向“谁能提供最便宜但足够好的模型”。对企业 AI 安全采购者，这提供了一个新的低成本路径：可以用小型专业模型处理 90% 的威胁，仅对高难度任务调用昂贵模型。微软的策略是“分层路由”的典型案例，可能被其他领域复制。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
@@ -627,7 +627,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Nvidia CEO 黄仁勋在 Twitter 上发布首条推文，明确表态支持开放权重 AI 模型。他写道：“蒸馏——从 AI 学习、从他人学习、从其他知识源学习——是智能的基础。我们不断互相学习。AI 也必须从某物中学习。”他还引用 Hugging Face 攻击事件指出，封闭 AI 在取证时阻碍调查，而开放权重前沿模型帮助了遏制入侵。为此，Nvidia 联合微软、SpaceX、IBM 等成立了 Open Secure AI Alliance，构建开源安全工具。</div>
+      <div class='item-desc'>NVIDIA 宣布与微软、SpaceX、IBM 等公司成立 Open Secure AI Alliance，旨在构建和共享开源 AI 安全工具，以防御来自前沿模型的攻击。联盟明确回应“需要开源工具才能有效防御”。值得注意的是 OpenAI、Google DeepMind 和 Anthropic 不在创始成员之列。Jensen Huang 亦在推特上首次发言，支持开放权重模型，称“蒸馏是学习的基础”，并提到 Hugging Face 事件中，封闭式 AI 阻碍了取证，而开放权重模型帮助遏制了入侵。</div>
       <div class="item-meta">
         
         
@@ -636,16 +636,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>黄仁勋的公开立场可能影响硅谷对开放模型监管的辩论风向。他首次发声即选择开放 vs 封闭的核心议题，且直接关联安全事件，给开放模型阵营提供了有力论据。AI builder 需留意后续政策走向：如果开放模型被选择性限制，将影响全球模型获取与使用。</div>
+      <div class='item-desc'>这是硅谷在 AI 安全上的一次关键分裂。开源安全联盟的成立意味着产业进入“共同防御”模式，但封闭模型厂商的缺席可能导致安全工具无法覆盖最先进的模型。对 AI builder 来说，未来安全工具可能会优先支持开源模型，使用闭源模型的企业需要自建防护层。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/" target="_blank">PC Gamer</a></div>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity" target="_blank">The Verge</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Reddit 用户发现，Anthropic Claude 聊天机器人的“共享链接”功能创建的对话页面因缺乏 noindex 标签，被 Google 和 Bing 搜索引擎收录并公开访问。部分泄露内容包含加密密钥、法律咨询等敏感信息。Anthropic 此前在 Claude 系统卡中已标注过此风险，但显然未有效阻止。OpenAI 去年也曾犯过同样的错误。</div>
+      <div class='item-desc'>Moonshot AI 兑现 7 月 27 日的承诺，在 HuggingFace 上发布了 Kimi K3 的模型权重。模型为 2.8T 总参数混合专家（MoE），896 个专家，每 token 激活 16 个，支持 1M 上下文和视觉。同时开源了 AgentENV（AENV）——一个用于智能体强化学习训练的分布式系统，基于 Firecracker 微虚拟机，支持毫秒级快照/恢复和 16 路 fork。独立测试发现 Kimi K3 在网络安全和数学性能上与西方前沿模型仍有明显差距，可能源于蒸馏。</div>
       <div class="item-meta">
         
         
@@ -654,16 +654,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是 AI 聊天机器人用户隐私的又一次重大事故，直接打击用户对“共享”功能的信任。对于企业用户，若内部对话被意外分享并索引，可能造成合规风险。开发者应审查自己在使用 AI 助手时的数据共享设置，并关注 Anthropic 后续修复方案（如强制 noindex 或默认私有）。</div>
+      <div class='item-desc'>Kimi K3 的发布加剧了中美开源模型的竞赛。对开发者，1.4TB 的量化权重对部署提出了极高要求（r/LocalLLaMA 上用户估算在 A100 上推理成本高昂）。AgentENV 的开源则直接可供训练 agentic RL 使用，这可能是比模型本身更持久的贡献。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/" target="_blank">Wired</a></div>
+        <div class="item-sources"><a href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>印度德里高等法院驳回了新闻社 ANI 对 OpenAI 的版权侵权禁令申请。法院首次将 AI 训练行为定性为“私人使用”。ANI 的诉求被驳回的一大原因是其引用了模型训练后才发表的新闻文章，自证逻辑矛盾。主要诉讼仍未了结，但禁令被拒是 OpenAI 的重大胜利。</div>
+      <div class='item-desc'>Perplexity 官方发布 `pplx` CLI 工具，支持 `pplx search web` 和 `pplx content fetch` 两条命令，输出纯 JSON。提供 macOS arm64 和 Linux 的单一二进制文件（含校验和验证），并附带了 Claude Code、Codex CLI 等 Agent Skill 集成方案。</div>
       <div class="item-meta">
         
         
@@ -672,34 +672,52 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>该判决为全球 AI 版权诉讼提供了新的判例方向——将爬取数据用于训练视为“私人使用”可能改变法律博弈格局。对于 AI 公司，这增强了在版权争议中的防御信心；对于内容提供者，则需更主动地使用 robots.txt 等技术手段，而非单纯依赖诉讼。</div>
+      <div class='item-desc'>对 AI builder，这是一个极其实用的工具：Agent 可直接通过 CLI 调用 Perplexity 搜索 API，返回结构化结果，无需自己处理 HTTP 请求和认证。特别是“单一二进制 + JSON 输出”的设计，在 agent 工作流中非常干净。这可能会成为 coding agent 获取实时信息的标准方式。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx/" target="_blank">MarkTechPost</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>德里高等法院拒绝了印度主要新闻机构 ANI 对 OpenAI 的版权禁令请求。法院首次将 AI 训练归类为“私人使用”，并指出 ANI 引用了模型训练完成后才发布的文章，削弱了自身论点。主要诉讼仍在进行。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是 AI 版权领域的一个重大先例，可能影响其他司法管辖区。如果“训练=私人使用”这一逻辑被接受，将极大降低全球 AI 公司在训练数据上的合规风险。对 AI builder 来说，这意味着在印度市场的数据使用风险降低，但各国判决差异仍需关注。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
         
         <div class="item-sources"><a href="https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>AI 评估组织 METR 提出了一个新指标“Expenditure Horizon”（支出地平线），用于计算 AI 智能体在完成某项任务时的成本效率边界，即用美元数值表示智能体解决问题时是否比雇佣人类更划算。早期实验在 NanoGPT 速度跑任务上结果不理想，且指标存在盲区（如忽略一次性设置成本）。METR 表示新一代模型可能改变局面。</div>
+      <div class='item-desc'>据报道，特朗普政府计划对中国 AI 模型实施有针对性的禁令，而非全面禁止。此前，在公众压力下，OpenAI 和 Google DeepMind 签署了反对监管开放权重模型的公开信，但私下仍游说限制。文章指出安全关切与强大的商业利益之间存在矛盾。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="4">
+    <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是一个将智能体经济性从定性讨论推向定量比较的重要工具。AI builder 可借此评估自己的 Agent 系统在真实场景中的成本竞争力，判断委托给 AI 还是人类的阈值。指标虽不完美，但“成本效率”已成为模型选型和部署的关键维度。</div>
+      <div class='item-desc'>反映了美国政策内部的纠结：一方面担心中国模型带来国家安全风险，另一方面担心全面禁令会损害美国自身的开放创新生态。对开发者，这意味着未来使用中国开源模型（如 Kimi K3）可能面临区域限制，需要关注出口管制名单的更新。</div>
       <div class="item-meta">
-        <span class="stars">★★★★☆</span>
+        <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/" target="_blank">The Decoder</a></div>
+        <div class="item-sources"><a href="https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/" target="_blank">The Decoder</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>BFL 发布了 FLUX 3，这是其 FLUX 系列的第三个主要版本，也是首个从单组权重同时输出图像、视频、音频和机器人动作预测的模型。架构使用统一流模型（flow model），未针对各模态分别设计，而是共享表示。论文 arXiv 已出。</div>
+      <div class='item-desc'>Cursor 让升级后的 agent swarm 和其前身尝试仅凭文档用 Rust 重写 SQLite（无源码无网络访问）。新系统将规划者和执行者分离，所有配置最终都在测试套件上获得 100% 分数。旧 swarm 则被自己产生的合并冲突阻塞。</div>
       <div class="item-meta">
         
         
@@ -708,11 +726,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>FLUX 3 代表了多模态生成模型的新范式——从“多模型拼接”走向“单一架构、多模态统一”。对于构建机器人感知或内容生成的开发者，这意味着未来可能用一个预训练模型处理多种任务，降低基础设施复杂度和训练成本。</div>
+      <div class='item-desc'>这是一个成本效率的实证：用前沿模型（如 Opus）做规划和架构决策，用便宜的模型（如 Flash）做重复编码，可以同时降低成本和提高成功率。这为 AI builder 设计多 agent 系统提供了明确参考模式。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/" target="_blank">MarkTechPost</a></div>
+        <div class="item-sources"><a href="https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/" target="_blank">The Decoder</a></div>
       </div>
     </div>
         </div>
@@ -724,7 +742,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>来自多机构团队的论文提出，生产级 AI 智能体的失败很少是因为推理能力不足，而是因为它们无法管理推理上下文中的内容——对话历史、大提示、工具定义及膨胀的工具输出。现有方案将其视为“存储与检索”问题，作者主张应同时从生命周期管理（何时删除/总结历史）和架构设计（如分层上下文池）两个角度解决。</div>
+      <div class='item-desc'>论文提出 Skill Self-Play 方法，让 LLM 通过与自身共同进化的技能进行交互来自我提升。它解决了自我进化中任务多样性与验证可靠性之间的根本困境：环境约束方法反馈精确但领域狭窄，开放自我生成则缺乏可靠验证。技能被认为是手动设计的中间体，作为可验证的训练信号来源。</div>
       <div class="item-meta">
         
         
@@ -733,25 +751,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对于所有搭建 Agent 系统的开发者，这篇论文直接点出了当前最实用的痛点。它提供了框架性的思考而非具体算法，但提出了可操作的方向：不要只优化 RAG 或缓存，而要设计上下文的生命周期策略。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.21503" target="_blank">HuggingFace Papers</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文提出 Skill Self-Play 训练框架，让 LLM 通过自我博弈来同时进化技能与任务多样性。它解决了自进化方法中“任务多样性与验证可靠性”之间两难困境：环境绑定方法反馈精确但领域窄，开放自生成任务宽但验证不可靠。Skill Self-Play 将“技能”作为中介，让模型生成新技能、用技能解决任务、再用任务结果验证技能。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是 LLM 自我进化方向上的一次重要突破，直接针对 RLHF/SFT 后的人工标注瓶颈。如果验证有效，将大幅降低监督数据需求，使模型持续在无标注环境中自主提升。开源实现值得密切关注。</div>
+      <div class='item-desc'>对 LLM 训练研究者，这提供了一种无需人类标注即可持续提升模型能力的新范式。Skill Self-Play 可能成为继 RLHF 之后的下一个重要训练信号来源，尤其适合 agentic 任务的训练。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
@@ -760,7 +760,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文推出 SceneActBench，一个统一评测 AI 智能体在 5 类 3D 任务中执行动作能力的基准。与传统 3D 基准只要求文本输出或单物体操作不同，SceneActBench 要求智能体在完整的 3D 环境中通过工具操作物体（如抓取、移动、组装），使用统一智能体-环境循环，输入为 PNG 图像或视频帧。</div>
+      <div class='item-desc'>Molt 是一个 PyTorch 原生框架，专门为 agentic RL 研究设计。其核心理念是代码库简洁到研究者可以完全理解，同时能被 AI 编码助手轻松阅读和重构。它试图降低在主流框架中修改算法时穿过多层抽象的成本。</div>
       <div class="item-meta">
         
         
@@ -769,16 +769,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对于从事具身智能、3D 理解和智能体控制的开发者，这是一个更具挑战性和实际意义的评测工具。它暴露了当前 VLM 在 3D 空间执行具体动作时的短板，可能推动下一波感知-行动模型的改进方向。</div>
+      <div class='item-desc'>对从事 agent RL 的研究者和工程师，Molt 提供了一个更轻量、更易修改的替代方案。如果它能够简化实验迭代速度，可能加速 agent 训练领域的创新。同时，它与 Kuaishou 的 KAT-Coder 等强调基础设施瓶颈的观点一致。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.22393" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.21653" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文提出第一个端到端评估 LLM 和智能体准备工作（数据构建 + 质量评估）能力的基准 DataPrep-Bench。包含 40 个数据集、7 类数据构建任务和 4 类质量评估任务。初期评测显示，最强模型（GPT-5.6 Sol）在数据构建上的成功率仅 35%，智能体工作流可以将性能提升 1.56–3.05 倍。</div>
+      <div class='item-desc'>OpenForgeRL 是一个开源框架，用于在多样的环境中端到端训练基于 harness 的 agent。现代 agent（如 Claude Code、Codex）依赖复杂的推理 harness，但这些 harness 使得传统 SFT/RL 栈难以直接训练。OpenForgeRL 填补了这个空白，支持训练有状态、多进程的 harness 推理。</div>
       <div class="item-meta">
         
         
@@ -787,16 +787,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>训练数据的质量决定了模型能力的上限，但此前缺乏系统评估。该基准为数据工程团队和 AutoML 研究者提供了明确的评估标准，揭示数据准备是当前 AI 管线中最薄弱的环节之一。</div>
+      <div class='item-desc'>大多数 agent 训练的瓶颈正是“无法训练 harness 原生 agent”。OpenForgeRL 直接解决了这个问题，允许开发者将复杂的工具调用、多步推理过程作为训练的一部分端到端优化。这对构建更可靠的 coding agent 和一般 agent 至关重要。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.20465" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.21557" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>论文发布 Robostral Navigate，一个 8B 参数的视觉-语言模型，仅通过单目 RGB 图像流完成导航任务，不依赖深度传感器、多摄像头或预构建地图。在 Habitat-MP3D 等多环境中达到或超过依赖深度输入的基线模型。</div>
+      <div class='item-desc'>论文指出生产环境 agent 的失败往往不是因为推理能力不足，而是因为无法管理上下文中的内容：对话历史、大型提示、工具定义和扩张的工具输出。目前的解决方案将之视为“存储与检索”问题。论文主张应将其重构为生命周期管理和架构设计问题。</div>
       <div class="item-meta">
         
         
@@ -805,11 +805,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>导航系统对传感器的苛刻要求一直是规模化部署的障碍。Robostral Navigate 证明了“最简单传感器 + 大模型”的路径有效，大幅降低机器人导航的硬件成本。对于想用低成本硬件实现导航的团队，这是一个必须关注的模型。</div>
+      <div class='item-desc'>这是当前 agent 系统中最被低估的问题。任何长时间运行的 agent 都会面对 token 成本爆炸和上下文丢失。该论文提供了一个新的思考框架，可能引导出更好的上下文压缩、摘要和分层架构设计。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://huggingface.co/papers/2607.20785" target="_blank">HuggingFace Papers</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.21503" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>研究者构建了 Finance-LaTeX SKILL，一个基于专家知识合成复杂布局金融文档的工具。基于此，他们生成了 2,000 个专业级金融文档的 QA 数据集（含图表、表格、法律条款等），用于评估 agent 在工业级金融文档上的推理能力。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>金融分析是 agent 最重要的应用领域之一，但缺乏高质量基准。FinanceComplexQA 填补了这一空白，包含复杂的布局和跨页引用，更接近真实场景。对构建金融 agent 的团队，这是必须关注的测试集。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2607.19238" target="_blank">HuggingFace Papers</a></div>
       </div>
     </div>
         </div>
@@ -821,7 +839,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>阿里开源了经过其大规模生产环境验证的代码审查工具，采用混合架构（确定性管道 + LLM Agent），支持行级精确评论，内置 NPE、线程安全、XSS、SQL 注入等规则集，兼容 OpenAI 与 Anthropic API。今日 GitHub 趋势 +980 star。</div>
+      <div class='item-desc'>阿里巴巴开源了一个混合架构代码审查工具，结合确定性管道和 LLM Agent，提供精确的行级评论。内置规则涵盖 NPE、线程安全、XSS、SQL 注入等。在 GitHub 上当日获得近 1000 star。</div>
       <div class="item-meta">
         
         
@@ -830,7 +848,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这为开发团队提供了一个可直接部署的、企业级代码审查方案，避免重复造轮子。混合架构选择有启发性：用确定性规则处理可穷举的风险，用 LLM 处理模糊问题，既保证可靠又节省成本。</div>
+      <div class='item-desc'>这是可直接集成到 CI/CD 的实用工具。对团队来说，可以立即用于补充或替代人工 Code Review，特别是针对常见的安全和并发缺陷。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
@@ -839,7 +857,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个自托管的 AI 伴侣项目，支持实时语音聊天、Minecraft 和 Factorio 游戏操作，定位为“你拥有的 Grok 伴侣”。可在 Web/macOS/Windows 上运行，今日 GitHub 趋势 +554 star。</div>
+      <div class='item-desc'>同上“行业新闻”条目，Perplexity 发布了官方 CLI 工具，适用于 agent 工作流。</div>
       <div class="item-meta">
         
         
@@ -848,16 +866,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>展示了个人化 AI 代理在娱乐场景中的可能性，尤其是与游戏交互的成熟度。独立开发者可以借鉴其多模态实时交互架构，并探索游戏 NPC/AI 面板的 niche。</div>
+      <div class='item-desc'>对开发者实用价值高：无需 SDK，直接 `pplx search web "query"` 即可，输出 JSON，易于集成到代码 agent 的 tool-use 中。适合自动化搜索和信息收集。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/moeru-ai/airi" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/PerplexityAI/pplx" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个设计语言/规范，旨在提升 AI 编程助手（如 Cursor、Claude Code）生成前端设计代码的质量。今日 GitHub 趋势 +849 star。</div>
+      <div class='item-desc'>Kronos 声称是“金融市场语言的基础模型”，在 GitHub 上当日 +442 star。详情未知，但标题暗示是一个针对金融数据的预训练模型。</div>
       <div class="item-meta">
         
         
@@ -866,47 +884,47 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>AI 编程助手在 UI 设计方面表现不佳是常见痛点。Impeccable 提供了一种“教模型设计规范”的思路，通过定义 token 化的设计语言来引导输出。前端开发者可将其集成到提示词或 Skill 中。</div>
+      <div class='item-desc'>金融领域专用 LLM/基础模型是热门方向。如果 Kronos 在金融任务上表现突出，可能降低开发金融 agent 的门槛。但需实际评测验证。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://github.com/pbakaus/impeccable" target="_blank">GitHub</a></div>
+        <div class="item-sources"><a href="https://github.com/shiyu-coder/Kronos" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>该工具输入一张参考图像，输出用代码构成的、动画就绪的 Three.js 模型（非传统 mesh，而是程序化几何），通过质量门控确保效果，token 消耗低。</div>
+      <div class='item-desc'>一个名为 Feyn 的团队发布了 FeyNoBg，一个自动背景移除模型，附带训练库。在 Hacker News 上获得 77 分。</div>
       <div class="item-meta">
         
         
         
       </div>
     </div>
-    <div class="item-card" data-stars="5">
+    <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>对于需要快速将 2D 概念转化为 3D 展示的 Web 开发者，这是一种全新的工作流：避免传统建模管线，直接在 HTML 中使用。尤其在 AI 生成内容与前端展示结合的场景中价值突出。</div>
+      <div class='item-desc'>背景移除是一个经典但仍有需求的任务。该项目不仅提供模型，还开放了训练代码，可用于微调自定义背景移除场景。对电商、内容创作等场景的独立开发者很有价值。</div>
       <div class="item-meta">
-        <span class="stars">★★★★★</span>
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://usefeyn.com/blog/feynobg/" target="_blank">Hacker News</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>一个开源项目，能从参考图片重建出纯代码的、过程式的、质量分级、动画就绪的 Three.js 模型。强调 token 效率。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>是 AI 辅助 3D 内容生成的一个有趣方向。不同于传统的图片生成 3D 网格，它生成可编程的 Three.js 代码，易于编辑和动画化。对游戏开发和 web 3D 展示有潜在价值。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
         
         <div class="item-sources"><a href="https://github.com/img2threejs/img2threejs" target="_blank">GitHub</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">发生了什么</div>
-      <div class='item-desc'>一个开源 AI 网关，提供统一端点，支持 290+ 供应商（其中 90+ 免费）、500+ 模型（包括 Kimi、Claude、GPT、Gemini、GLM、DeepSeek 等），兼容 Claude Code、Codex、Cursor 等。特性包括配额感知自动回退、RTK+Caveman 压缩节省 15-95% token、MCP/A2A 协议。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="5">
-      <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是目前覆盖最广的免费开源 AI 网关之一，独立开发者可以立即将其作为 API 代理，实现模型切换、负载均衡和成本优化，无需从头集成多个 SDK。</div>
-      <div class="item-meta">
-        <span class="stars">★★★★★</span>
-        
-        <div class="item-sources"><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank">GitHub</a></div>
       </div>
     </div>
         </div>
@@ -918,7 +936,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Nvidia CEO 黄仁勋发表首条推文，响应开放/封闭权重之争。核心片段：“蒸馏——从 AI 学习、从他人学习、从其他知识源学习——是智能的基础。AI 也必须从某物中学习。”他同时引用 Hugging Face 攻击事件，称封闭模型在取证时阻碍了调查，而开放权重模型帮助遏制了攻击。他还宣布成立 Open Secure AI Alliance。该推文在 r/LocalLLaMA 和 Twitter 上被广泛转发，Reddit 用户评论称“老黄说出了社区的心声”。</div>
+      <div class='item-desc'>NVIDIA CEO Jensen Huang 在推特上发布了他的第一条推文，明确支持开放权重 AI 模型。他回应了 Hugging Face 入侵事件，说“封闭式 AI 阻碍了取证，开放权重模型帮助遏制入侵”。在 Axios 采访中他进一步表示：“蒸馏——从 AI 学习，从他人学习，从其他知识源学习——是智能的基础。AI 也必须从某些东西学习。” 这条推文在 Reddit r/LocalLLaMA 和 Hacker News 上被广泛转发和讨论（HN 44 points，Reddit 数百 upvotes）。</div>
       <div class="item-meta">
         
         
@@ -927,16 +945,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>黄仁勋作为 AI 基础设施最大供应商的 CEO，立场直接影响商业生态。他的首次发声选择这个敏感议题，且站在开放阵营，可能促使更多公司公开表态，并影响美国政府对开源模型的监管态度。</div>
+      <div class='item-desc'>这标志着开源阵营获得了一位重量级产业领袖的公开站队。Jensen 的立场可能对 NVIDIA 与开源社区的关系产生深远影响，并间接影响美国关于开放权重模型监管政策。对 AI builder，这强化了持续使用和贡献开源模型的信心。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/" target="_blank">r/LocalLLaMA</a></div>
+        
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>周末，Reddit 用户发现 Anthropic Claude 的“共享链接”未设置 noindex，导致对话内容被 Google 和 Bing 索引并公开访问，其中包含加密密钥、法律咨询等敏感信息。该帖在 r/ClaudeAI 获得数千 upvote，舆论普遍指责 Anthropic 未尽到默认隐私保护责任。去年 OpenAI 也曾出现过类似问题。Anthropic 在系统卡中已提及此风险，但未采取有效措施。</div>
+      <div class='item-desc'>一位大学教授在作业中嵌入了对人类不可见但 AI 模型能读到的提示（如“在回答中包含单词‘banana’”），结果 35 名学生中的 32 人落入了陷阱，显示了他们直接复制了 AI 生成的答案。在 Hacker News 上获得 77 分和 73 条评论，Reddit 也有广泛讨论。</div>
       <div class="item-meta">
         
         
@@ -945,11 +963,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是 AI 聊天机器人隐私问题的又一次标志性事件。对于企业用户，风险尤高——如果员工分享内部对话并意外暴露，可能造成合规事故。这也提示所有 AI 产品开发者：默认私有、安全 by design 应成为基本线，而非依赖用户手动设置。</div>
+      <div class='item-desc'>对 AI builder 和教育技术开发者，这是一个直接的应用场景：AI 内容检测可以被动地通过“陷阱”实现，而不是依赖主动检测器。但这也引发了关于教育评估和学术诚信的更大争议：如果学生被激励使用 AI，检测手段永远处于被动地位。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://www.reddit.com/r/ClaudeAI/" target="_blank">r/ClaudeAI</a></div>
+        
       </div>
     </div>
         </div>
@@ -961,7 +979,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>来自 Hacker News Show HN 帖子，作者发布了 FeyNoBg，一个开源的自动背景移除模型，同时附带了训练库，支持自定义训练。HN 上获 64 points，18 条评论。帖子核心：开发者可以用自己的数据微调背景移除模型，而非依赖 REMBG 等黑盒服务。</div>
+      <div class='item-desc'>在 r/LocalLLaMA 上，有用户讨论 Kimi K3 的部署方案。博主表示他们将尝试在 A100、H200 和 B300 上托管 K3，并分享了一个残酷的数学：K3 的 1.4TB 量化权重在 A100（80GB）上需要多 GPU 并严重依赖 CPU 卸载，推理成本高昂。评论区有人表示“这加剧了开源社区的两极化——小模型爱好者被巨型 MoE 排挤”。</div>
       <div class="item-meta">
         
         
@@ -970,16 +988,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可以直接使用该模型集成到自己的应用（图片编辑工具、电商产品图处理），或将其作为参考构建定制化的图像预处理管线。自带训练库意味着可以针对特定品类（如人物、汽车、食品）优化效果，形成差异化。</div>
+      <div class='item-desc'>如果你计划部署大型开源模型（如 Kimi K3），必须提前做硬件成本论证。独立开发者可能更适合关注中小型模型（如 Qwen 系列、Llama 系列），或者利用 API 而非自行部署巨型模型。也可以关注模型蒸馏技术来降低部署成本。</div>
       <div class="item-meta">
         
         
-        <div class="item-sources"><a href="https://news.ycombinator.com/item?id=49074693" target="_blank">Hacker News</a></div>
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v81qw0/kimi_k3_weights_drop_today_were_deploying_on/" target="_blank">r/LocalLLaMA</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">灵感来源</div>
-      <div class='item-desc'>来自 GitHub 开源项目 OmniRoute，宣称是“免费 MIT AI 网关，一个端点支持 290+ 供应商、500+ 模型，包括 Kimi、Claude、GPT、Gemini、GLM 等，兼容 Claude Code、Codex、Cursor”。该项目在 GitHub Trending 上获得关注。原帖展示了构建一个零成本 API 代理的完整方案。</div>
+      <div class='item-desc'>Lenny's Newsletter 报道了 Maddie Reese 的故事，她从零编程基础开始，使用 Cursor 和 Raspberry Pi 构建了一个任何人都可以发送消息的热敏打印机、一个工作的 Twitter 寻呼机，以及一个个人 API。关键理念是“有趣胜过实用”。</div>
       <div class="item-meta">
         
         
@@ -988,29 +1006,29 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>独立开发者可以立即部署此网关作为自己的 AI 服务后端，以极低成本切换模型、实现自动回退和 token 压缩。对于依赖 API 调用付费的个人项目，这可以大幅节省开支。同时，该项目展示了如何利用免费 API 配额构建商业级代理的思路，但不建议触及欺诈边界。</div>
-      <div class="item-meta">
-        
-        
-        <div class="item-sources"><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank">GitHub</a></div>
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">灵感来源</div>
-      <div class='item-desc'>来自 Lenny's Newsletter 的播客访谈，嘉宾 Maddie Reese 没有编程背景，但使用 Cursor（AI 代码助手）和 Raspberry Pi 构建了一个可接受短信的热敏打印机、一个 Twitter 寻呼机，以及一个个人 API。她强调“有趣比实用更可贵”的动机，成功做出了令人惊叹的硬件产品。</div>
-      <div class="item-meta">
-        
-        
-        
-      </div>
-    </div>
-    <div class="item-card" data-stars="0">
-      <div class="item-title">可借鉴的点</div>
-      <div class='item-desc'>对于非技术背景的独立开发者，这证明了 AI 编程助手可以大幅降低硬件项目的门槛。思路是：先有一个有趣的 idea（物理交互），然后用自然语言描述给 Cursor，再通过 Raspberry Pi 连接实体世界。这种“AI + 低成本硬件”的组合是独立开发者可以复制的创新模式，尤其适合打造个性化的小众产品。</div>
+      <div class='item-desc'>AI coding agent（如 Cursor、Claude Code）大幅降低了硬件原型制作的编程门槛。独立开发者可以尝试“AI + 小型硬件”的组合，以极低的成本创建实体产品。这种“物理数字体验”在市场上往往有更高的溢价空间。你可以不必先学 C 语言和焊接，用自然语言和 AI agent 就能做出原型。</div>
       <div class="item-meta">
         
         
         <div class="item-sources"><a href="https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware" target="_blank">Lenny's Newsletter</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>36Kr 报道 Reddit 后悔与谷歌的 6000 万美元数据授权协议，因为 AI 聊天机器人开始直接从 Reddit 内容中提取答案，导致用户不必访问 Reddit，从而损害了 Reddit 的流量和广告收入。Reddit 内部员工表示“AI 聊天机器人正在杀死 Reddit 的商业模式”。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>这是一个未满足的需求信号：内容创作者需要保护其内容不被 AI 直接消费的同时又能从中获益。可能的解决方案包括：为 AI 提供“引用页面”的独特付费模式、开发防抓取的内容格式（如仅限于特定交互的 Threaded content）、或创建 AI 友好的内容授权平台。独立开发者可考虑构建连接 AI 和内容平台的中介层。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.36kr.com/p/3913786107778183" target="_blank">36Kr</a></div>
       </div>
     </div>
         </div>
@@ -1018,8 +1036,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       
         <div class="observation">
           <h2>💡 今日观察</h2>
-          <p>今天的信息密度极高，但将事件拼合起来，可以看到三个清晰的结构性趋势： **第一，“成本效率”正式取代“最大模型”成为企业 AI 的北极星。** 微软发布 MAI-Cyber-1-Flash 并公开声称“未来属于足够好且最便宜的模型，智能路由”；METR 推出“Expenditure Horizon”来量化智能体 vs 人类成本；Cursor 的 agent swarm 实验证明，前沿模型做规划、便宜模型做执行的架构在测试集上拿到 100%——这些信号共同指向同一个结论：不管模型多强，如果不能以合理成本落地，就会被市场边缘化。AI builder 应当立即审视自己的推理管线，引入路由层和专业化小模型，而不是继续追逐单一“最强”模型。 **第二，开源 vs 封闭模型的战争进入白热化，且与安全叙事深度绑定。** Jensen Huang 的首条推文直接以 Hugging Face 攻击事件为由，指责封闭模型阻碍安全取证；Nvidia 联合微软等成立 Open Secure AI Alliance，将“开源”与“安全”绑定。与此同时，美国被曝倾向于选择性限制中国开源模型，但 OpenAI 和 Anthropic 在私下仍在游说政府施压。未来几个月，开源模型的可获取性可能面临政策变数，开发者应关注备选模型和合规预案。 **第三，AI 隐私事故从“偶发”变成“常态化”，信任成本急剧上升。** Claude 共享会话被 Google 索引事件是继 ChatGPT 泄露对话、OpenAI 数据泄漏后的又一次大规模暴露。尽管多家公司已有前车之鉴，但根因（默认不私有、noindex 缺失）仍未解决。对于构建 AI 产品的团队，这提示一个严峻现实：用户对“数据安全”的敏感度正在快速提高，一次泄露就可能毁掉品牌信誉。产品设计中应将“默认私有”和“显式授权”作为第一性原则，而不是事后打补丁。 三个月后回看，今天可能最重要的新闻是 **Jensen Huang 的首条推文**——它标志着 AI 基础设施最大玩家在开放 vs 封闭议题上正式站队，其长期影响力可能超过任何单个模型的发布。</p>
-          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的信息密度极高，但将事件拼合起来，可以看到三个清晰的结构性趋势： **第一，“成本效率”正式取代“最大模型”成为企业 AI 的北极星。** 微软发布 MAI-Cyber-1-Flash 并公开声称“未来属于足够好且最便宜的模型，智能路由”；METR 推出“Expenditure Horizon”来量化智能体 vs 人类成本；Cursor 的 agent swarm 实验证明，前沿模型做规划、便宜模型做执行的架构在测试集上拿到 100%——这些信号共同指向同一个结论：不管模型多强，如果不能以合理成本落地，就会被市场边缘化。AI builder 应当立即审视自己的推理管线，引入路由层和专业化小模型，而不是继续追逐单一“最强”模型。 **第二，开源 vs 封闭模型的战争进入白热化，且与安全叙事深度绑定。** Jensen Huang 的首条推文直接以 Hugging Face 攻击事件为由，指责封闭模型阻碍安全取证；Nvidia 联合微软等成立 Open Secure AI Alliance，将“开源”与“安全”绑定。与此同时，美国被曝倾向于选择性限制中国开源模型，但 OpenAI 和 Anthropic 在私下仍在游说政府施压。未来几个月，开源模型的可获取性可能面临政策变数，开发者应关注备选模型和合规预案。 **第三，AI 隐私事故从“偶发”变成“常态化”，信任成本急剧上升。** Claude 共享会话被 Google 索引事件是继 ChatGPT 泄露对话、OpenAI 数据泄漏后的又一次大规模暴露。尽管多家公司已有前车之鉴，但根因（默认不私有、noindex 缺失）仍未解决。对于构建 AI 产品的团队，这提示一个严峻现实：用户对“数据安全”的敏感度正在快速提高，一次泄露就可能毁掉品牌信誉。产品设计中应将“默认私有”和“显式授权”作为第一性原则，而不是事后打补丁。 三个月后回看，今天可能最重要的新闻是 **Jensen Huang 的首条推文**——它标志着 AI 基础设施最大玩家在开放 vs 封闭议题上正式站队，其长期影响力可能超过任何单个模型的发布。">🔊 朗读今日观察</button>
+          <p>今天的事件拼在一起，揭示了一个清晰的分化趋势：AI 产业正在从“模型军备竞赛”转向“安全、成本和生态竞争”。Claude 的隐私泄露、微软的 MAI-Cyber-1-Flash 安全模型、NVIDIA 主导的 Open Secure AI Alliance 三者共同指向：随着模型能力增长，安全不再是附加模块，而是核心基础设施。另一个重要信号是成本效率的精细量化：METR 的“expenditure horizon”、Cursor 的 swarm 演示、微软的模型路由策略都在回答同一个问题——“什么时候用便宜模型，什么时候用贵模型”。这将成为接下来每个 AI builder 都要掌握的技能。三个月后回头看，今天可能最重要的不是某个模型的 benchmark，而是 NVIDIA 罕见地在开源安全联盟成立上公开站队——这或许标志着开放权重模型从“社区运动”正式进入“产业标准”阶段。Jensen Huang 的第一条推文就是为此，这不是偶然。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天的事件拼在一起，揭示了一个清晰的分化趋势：AI 产业正在从“模型军备竞赛”转向“安全、成本和生态竞争”。Claude 的隐私泄露、微软的 MAI-Cyber-1-Flash 安全模型、NVIDIA 主导的 Open Secure AI Alliance 三者共同指向：随着模型能力增长，安全不再是附加模块，而是核心基础设施。另一个重要信号是成本效率的精细量化：METR 的“expenditure horizon”、Cursor 的 swarm 演示、微软的模型路由策略都在回答同一个问题——“什么时候用便宜模型，什么时候用贵模型”。这将成为接下来每个 AI builder 都要掌握的技能。三个月后回头看，今天可能最重要的不是某个模型的 benchmark，而是 NVIDIA 罕见地在开源安全联盟成立上公开站队——这或许标志着开放权重模型从“社区运动”正式进入“产业标准”阶段。Jensen Huang 的第一条推文就是为此，这不是偶然。">🔊 朗读今日观察</button>
         </div>
     </div></div><div data-lang-content="en">
     <div class="digest-scope">
@@ -2390,7 +2408,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           <h2><span data-lang-content="zh">🔥 近 7 天热点</span><span data-lang-content="en">🔥 Hot picks · last 7 days</span></h2>
           <span class="sub"><span data-lang-content="zh">近期高频出现的模型 / 产品 / 项目 · 点击搜索</span><span data-lang-content="en">Models / products mentioned most · click to search</span></span>
         </div>
-        <div class="trend-tags"><span class="trend-tag s3" data-term="Claude Code">Claude Code<span class="cnt">23</span></span><span class="trend-tag s2" data-term="Hugging Face">Hugging Face<span class="cnt">15</span></span><span class="trend-tag s2" data-term="Kimi K3">Kimi K3<span class="cnt">12</span></span><span class="trend-tag s2" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">9</span></span><span class="trend-tag s2" data-term="Hacker News">Hacker News<span class="cnt">9</span></span><span class="trend-tag s2" data-term="GPT-5.6">GPT-5.6<span class="cnt">8</span></span><span class="trend-tag s1" data-term="Claude Opus 5">Claude Opus 5<span class="cnt">6</span></span><span class="trend-tag s1" data-term="FLUX 3">FLUX 3<span class="cnt">5</span></span><span class="trend-tag s1" data-term="GLM-5.2">GLM-5.2<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Simon Willison">Simon Willison<span class="cnt">4</span></span><span class="trend-tag s1" data-term="The Decoder">The Decoder<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Laguna S 2.1">Laguna S 2.1<span class="cnt">4</span></span></div>
+        <div class="trend-tags"><span class="trend-tag s3" data-term="Claude Code">Claude Code<span class="cnt">23</span></span><span class="trend-tag s3" data-term="Kimi K3">Kimi K3<span class="cnt">16</span></span><span class="trend-tag s2" data-term="Hugging Face">Hugging Face<span class="cnt">15</span></span><span class="trend-tag s2" data-term="Hacker News">Hacker News<span class="cnt">11</span></span><span class="trend-tag s2" data-term="Claude Fable 5">Claude Fable 5<span class="cnt">8</span></span><span class="trend-tag s1" data-term="GPT-5.6">GPT-5.6<span class="cnt">6</span></span><span class="trend-tag s1" data-term="Claude Opus 5">Claude Opus 5<span class="cnt">6</span></span><span class="trend-tag s1" data-term="The Decoder">The Decoder<span class="cnt">5</span></span><span class="trend-tag s1" data-term="GLM-5.2">GLM-5.2<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Simon Willison">Simon Willison<span class="cnt">4</span></span><span class="trend-tag s1" data-term="Laguna S 2.1">Laguna S 2.1<span class="cnt">4</span></span><span class="trend-tag s1" data-term="A100">A100<span class="cnt">4</span></span></div>
       </div>
     </div>
   
