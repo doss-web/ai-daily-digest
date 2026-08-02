@@ -16,12 +16,46 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-08-03 周一</title>
-      <description>抱歉，我看到你贴的简报里只有标题和生成备注，没有包含具体的新闻条目内容。麻烦把完整的简报正文（各条新闻）发给我，我会立刻帮你改写成适合通勤收听的播报稿。</description>
-      <itunes:summary>抱歉，我看到你贴的简报里只有标题和生成备注，没有包含具体的新闻条目内容。麻烦把完整的简报正文（各条新闻）发给我，我会立刻帮你改写成适合通勤收听的播报稿。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-03.mp3" length="85968" type="audio/mpeg"/>
+      <description>AI 每日简报，周一，2026-08-03。以下是今天的重点。
+行业新闻。
+发生了什么。距首个开源模型 Inkling 发布仅两周，Mira Murati 领导的 Thinking Machines 推出 Inkling-Small——276B 总参、12B 活跃参数的 MoE 多模态推理模型，Apache 2.0 协议。它在多项 benchmark 上反超体积更大的前辈，与 Inkling 差距在 1 分以内，且 NVFP4 量化版可在单张 NVIDIA B300 上运行。
+为什么重要。这是开源社区首次在旗舰级 MoE 上实现&quot;四分之一体积、同等性能&quot;的直接验证。对自托管和私有化部署团队，它意味着顶级模型能力开始进入单卡预算范围。
+关联动态。同一天 DeepSeek-V4-Flash 也以 13B 活跃参数对标 428B 模型，开源模型的&quot;效率竞赛&quot;正在取代单纯的参数军备竞赛。
+发生了什么。DeepSeek 在 Hugging Face 发布 V4-Flash-0731 并开放官方 API 公测，标注为取代预览版的正式版本。模型架构与尺寸不变，增益来自重新后训练（re-post-training），而非新设计。其 13B 活跃参数的 MoE 在 Terminal-Bench 得分 82.7，Artificial Analysis 排名超越 428B 的 MiniMax M3；定价 $0.14/$0.27 每百万 token，缓存命中享 98% 折扣，MIT 协议开源。
+为什么重要。按 Simon Willison 的评价，这可能是当前&quot;单位智能价格&quot;最优的模型。对 agent 类应用开发者，成本结构发生实质性变化——长上下文、高缓存命中的 agent 工作负载成本可压低两个数量级。
+关联动态。llama.cpp 同日新增对 V4-Flash 的 MTP/DSpark 支持，本地推理生态同步跟进。
+发生了什么。OpenAI 发布名为 Presence 的新企业产品，目标是把 AI agent 从内部工作流推向生产级外部部署——客服、内部流程均可覆盖。与现有 Workspace Agents 不同，Presence 专注外部场景，复杂案例由 OpenAI 自家工程师介入兜底。
+为什么重要。这是 OpenAI 从&quot;卖模型&quot;到&quot;卖生产就绪 agent&quot;的关键一步。对正在纠结 agent 落地稳定性的团队，Presence 的出现意味着&quot;agent 运维&quot;正在成为云厂商级别服务，而非每家公司自建。
+发生了什么。Meta AI 提出双 agent 架构：一个独立的记忆 agent 维护结构化记忆库，判断何时提醒主 agent、何时保持沉默。这个设计针对长程任务中 agent 反复犯同一错误、忘记已诊断问题的顽疾，在两个 benchmark 上最高提升 8.3 个百分点。
+为什么重要。长任务可靠性是 agent 进入生产的最大瓶颈。Meta 的方案不需要改主模型，只需加一个轻量记忆 agent——这是可立即复制的工程模式。
+关联动态。同日腾讯云开源 TencentDB-Agent-Memory（团队级记忆中心），&quot;agent 记忆&quot;成为本周最集中的工程主题之一。
+发生了什么。OpenAI 官方宣布降低 GPT-5.6 Luna 和 Terra 的定价，配合更高效的模型架构，目标是把企业大规模 AI 工作流的单次推理成本压缩到可接受区间。
+为什么重要。OpenAI 罕见的主动降价，直接回应 DeepSeek-V4-Flash 等开源模型的性价比攻势。对开发者，这意味着 API 选型的&quot;价格-智能&quot;坐标系正在快速下移，之前因成本搁置的 agent 方案可以重新评估。
+发生了什么。Google 周四推出的 Google Earth AI 功能允许用户用文本提示编辑卫星图像，周五即被关闭。该工具本质上可对真实世界生成深度伪造——安全研究者 Henk van Ess 用几句话生成了&quot;墨西哥边境难民&quot;和&quot;加沙医院附近弹坑&quot;的假卫星图。
+为什么重要。地理空间内容的真实性一旦被破坏，修复成本极高。这个案例是&quot;AI 生成能力与高风险真实场景&quot;冲突的最直观样本，也为所有在地图、医疗、司法等敏感领域做生成式功能的团队提供了红线参考。
+发生了什么。MiniMax 发布 </description>
+      <itunes:summary>AI 每日简报，周一，2026-08-03。以下是今天的重点。
+行业新闻。
+发生了什么。距首个开源模型 Inkling 发布仅两周，Mira Murati 领导的 Thinking Machines 推出 Inkling-Small——276B 总参、12B 活跃参数的 MoE 多模态推理模型，Apache 2.0 协议。它在多项 benchmark 上反超体积更大的前辈，与 Inkling 差距在 1 分以内，且 NVFP4 量化版可在单张 NVIDIA B300 上运行。
+为什么重要。这是开源社区首次在旗舰级 MoE 上实现&quot;四分之一体积、同等性能&quot;的直接验证。对自托管和私有化部署团队，它意味着顶级模型能力开始进入单卡预算范围。
+关联动态。同一天 DeepSeek-V4-Flash 也以 13B 活跃参数对标 428B 模型，开源模型的&quot;效率竞赛&quot;正在取代单纯的参数军备竞赛。
+发生了什么。DeepSeek 在 Hugging Face 发布 V4-Flash-0731 并开放官方 API 公测，标注为取代预览版的正式版本。模型架构与尺寸不变，增益来自重新后训练（re-post-training），而非新设计。其 13B 活跃参数的 MoE 在 Terminal-Bench 得分 82.7，Artificial Analysis 排名超越 428B 的 MiniMax M3；定价 $0.14/$0.27 每百万 token，缓存命中享 98% 折扣，MIT 协议开源。
+为什么重要。按 Simon Willison 的评价，这可能是当前&quot;单位智能价格&quot;最优的模型。对 agent 类应用开发者，成本结构发生实质性变化——长上下文、高缓存命中的 agent 工作负载成本可压低两个数量级。
+关联动态。llama.cpp 同日新增对 V4-Flash 的 MTP/DSpark 支持，本地推理生态同步跟进。
+发生了什么。OpenAI 发布名为 Presence 的新企业产品，目标是把 AI agent 从内部工作流推向生产级外部部署——客服、内部流程均可覆盖。与现有 Workspace Agents 不同，Presence 专注外部场景，复杂案例由 OpenAI 自家工程师介入兜底。
+为什么重要。这是 OpenAI 从&quot;卖模型&quot;到&quot;卖生产就绪 agent&quot;的关键一步。对正在纠结 agent 落地稳定性的团队，Presence 的出现意味着&quot;agent 运维&quot;正在成为云厂商级别服务，而非每家公司自建。
+发生了什么。Meta AI 提出双 agent 架构：一个独立的记忆 agent 维护结构化记忆库，判断何时提醒主 agent、何时保持沉默。这个设计针对长程任务中 agent 反复犯同一错误、忘记已诊断问题的顽疾，在两个 benchmark 上最高提升 8.3 个百分点。
+为什么重要。长任务可靠性是 agent 进入生产的最大瓶颈。Meta 的方案不需要改主模型，只需加一个轻量记忆 agent——这是可立即复制的工程模式。
+关联动态。同日腾讯云开源 TencentDB-Agent-Memory（团队级记忆中心），&quot;agent 记忆&quot;成为本周最集中的工程主题之一。
+发生了什么。OpenAI 官方宣布降低 GPT-5.6 Luna 和 Terra 的定价，配合更高效的模型架构，目标是把企业大规模 AI 工作流的单次推理成本压缩到可接受区间。
+为什么重要。OpenAI 罕见的主动降价，直接回应 DeepSeek-V4-Flash 等开源模型的性价比攻势。对开发者，这意味着 API 选型的&quot;价格-智能&quot;坐标系正在快速下移，之前因成本搁置的 agent 方案可以重新评估。
+发生了什么。Google 周四推出的 Google Earth AI 功能允许用户用文本提示编辑卫星图像，周五即被关闭。该工具本质上可对真实世界生成深度伪造——安全研究者 Henk van Ess 用几句话生成了&quot;墨西哥边境难民&quot;和&quot;加沙医院附近弹坑&quot;的假卫星图。
+为什么重要。地理空间内容的真实性一旦被破坏，修复成本极高。这个案例是&quot;AI 生成能力与高风险真实场景&quot;冲突的最直观样本，也为所有在地图、医疗、司法等敏感领域做生成式功能的团队提供了红线参考。
+发生了什么。MiniMax 发布 </itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-03.mp3" length="5910192" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-03.mp3</guid>
       <pubDate>Mon, 03 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:14</itunes:duration>
+      <itunes:duration>16:25</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
