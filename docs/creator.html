@@ -36,6 +36,23 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-08-03">AI 每日简报 · 2026-08-03 周一</span>
+    <button class="cbtn" data-copy="t-2026-08-03">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-08-03.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-08-03.mp3" download="2026-08-03.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-08-03">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-08-03">AI 每日简报 · 2026-08-03 周一
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-08-02">AI 每日简报 · 2026-08-02 周日</span>
     <button class="cbtn" data-copy="t-2026-08-02">📋 复制标题</button>
   </div>
@@ -1321,108 +1338,6 @@
 
 💡 今日观察
 今天最突出的信号是**开源模型在能力上真正逼近了闭源前沿**——Kimi K3 和 Inkling 相继发布，性能与 GPT-5.6 Sol、Claude Fable 在同一区间。但与此同时，&quot;开源&quot;的定义正在被重新界定：2.8 万亿参数、700B+ MoE 这样的模型对个人开发者已经无法运行，开源的受益者将主要是企业和云平台。这解释了为什么 Bonsai 的 1-bit 量化演示在社区获得如此热度——它证明了即使资源有限，通过压缩仍可享受模型进步。另一方面，安全事件集中爆发（GPT-5.6 删除文件、Vibe Coding 漏洞报告、Snyk 调查显示 91.6% 的 AI 代码存在安全问题）提醒我们：AI agent 的能力越强，其失控时的破坏力也越大。Meta 向对手出租算力 100 亿美元这一动向，则暗示了 AI 基础设施正在从&quot;军备竞赛&quot;走向&quot;商品化&quot;——当算力过剩时，巨头会更愿意出售而非囤积。三个月后回头看，Kimi K3 作为一个非 DeepSeek 系的 3T 级开源模型，可能成为开放权重社区从&quot;跟跑&quot;到&quot;并跑&quot;的转折点。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-07-17">AI 每日简报 · 2026-07-17 周五</span>
-    <button class="cbtn" data-copy="t-2026-07-17">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-07-17.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-07-17.mp3" download="2026-07-17.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-07-17">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-07-17">AI 每日简报 · 2026-07-17 周五
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· 发生了什么：Moonshot AI 于 7 月 16 日发布 Kimi K3，总参数量 2.8 万亿，号称全球最大开源模型。支持 100 万 token 上下文窗口，在编程、代理、长程推理、视觉理解等多项基准上全面超越 Claude Opus 4.8 和 GLM 5.2，并在 arena.ai 上与 GPT-5.6 Sol 和 Claude Fable 5 互有胜负。完整开源权重计划于 7 月 27 日通过 Hugging Face 等平台发布，API 即刻可用。
-· 为什么重要：这是中国开源模型首次在规模（2.8T）和性能上同时逼近全球最先进闭源模型。对于 AI builder 而言，这意味着可以获得一个接近 GPT-5.6/Claude Fable 等级的开源基座，用于微调、蒸馏或私有化部署，且 Moonshot 明确表示 K3 的定价相比前代更高，可能是“廉价中国 AI”时代结束的信号。
-· 关联动态：同一天，Thinking Machines Lab 发布了 975B 的 Inkling，形成两个不同规模区间的开源模型“双塔”格局。
-  来源：https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems / https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/ / https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything / https://www.reddit.com/r/LocalLLaMA/comments/1uy9cft/kimi_k3_benchmarks/
-· 发生了什么：前 OpenAI CTO Mira Murati 创立的 Thinking Machines Lab 于 7 月 15-16 日发布其首个模型 Inkling。该模型为 975B 总参数、41B 激活参数的 MoE Transformer，原生支持文本、图像、音频多模态输入，上下文窗口 100 万 token，采用 Apache 2.0 许可。Inkling 在 Artificial Analysis 的智能指数上领先美国开源模型，但落后于中国顶级开源模型 Kimi K3。公司强调 Inkling 并非最强模型，而是作为微调基座，其核心差异化在于“可控思考深度”（controllable thinking effort）。
-· 为什么重要：作为全球最受关注的 AI 创业公司之一（前 DeepMind 研究员 Andrew Dai 也是联合创始人），Thinking Machines 的入场备受瞩目。Inkling 的定位是“可定制的基座模型”，对于希望在自制模型上构建私有代理或垂直应用的团队是一个新选择。定价为 $1.87/M 输入 token，介于开源成本与闭源价格之间。
-· 关联动态：Kimi K3 和 Inkling 同日靠前发布，凸显 2026 年下半年开源模型两极化趋势：超级规模（2.8T）和高效 MoE（975B/41B 激活）并存。
-  来源：https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/ / https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/ / https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/ / https://huggingface.co/blog/thinkingmachines-inkling
-· 发生了什么：OpenAI 在 7 月 15-16 日公布 GPT-Red，一个通过自博弈强化学习训练的自动化红队模型。在复现的间接 prompt 注入测试中，GPT-Red 的攻击成功率达到 84%，而人类红队仅为 13%。它还发现了一类新型攻击方式“Fake Chain-of-Thought”，并成功将 GPT-5.6 Sol 在 direct injection 基准上的失败率降低了 6 倍。OpenAI 承认在多轮对话和基于图像的攻击上仍有困难。
-· 为什么重要：这是 AI 安全领域的一个重要范式转折——用 AI 自动寻找 AI 漏洞的效率远超人类。对开发者而言，这意味着模型安全测试的成本将大幅下降，且我们可能会看到更多类似的“攻击模型”开源。同时，这也揭示了 Vibe Coding 等时代的安全隐患：模型倾向于输出“能跑通”的代码而非安全的代码。
-· 关联动态：同日，xAI 因 Grok Build 工具上传整个目录（包括 SSH 密钥）引发安全丑闻，随后开源了该工具。两个事件共同指向 AI agent 安全控制的紧迫性。
-  来源：https://openai.com/index/unlocking-self-improvement-gpt-red / https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/ / https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/
-· 发生了什么：据 Bloomberg 7 月 16 日报道，Google 下一代旗舰模型 Gemini 的发布被推迟，原因是技术表现未达到内部设定的基准目标。此前市场曾预期 Gemini 将在 2026 年下半年与 GPT-5.6 Sol 和 Claude Fable 5 正面竞争。具体问题未公开，但业内猜测可能涉及推理能力和多模态一致性。
-· 为什么重要：Google 在 AI 赛道上的迟缓进一步加剧了外界对其竞争力的担忧。对于依赖 Google Cloud 或 Google AI 生态的开发者，这可能意味着更长的等待周期，并促使更多团队转向 OpenAI/Anthropic 或开源模型（如 Kimi K3）。
-· 关联动态：同日，EU 命令 Google 向竞争对手开放 Android，进一步削弱其生态壁垒。
-  来源：https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals / https://news.ycombinator.com/item?id=48937020
-· 发生了什么：LM Studio 发布 Bionic 版本，旨在让用户在自己的硬件上运行完整的 AI Agent，无需依赖云 API。该平台支持多种开源模型（如 Kimi K3、DeepSeek V4、Llama 等），提供工具调用、代码执行、记忆管理等 agent 必备能力。Hacker News 上获得 92 分，评论区热烈讨论本地 agent 的可用性和隐私优势。
-· 为什么重要：随着 Kimi K3 等超强开源模型的出现，本地运行 agent 的可行性大幅提升。LM Studio Bionic 降低了在本地或私有云中部署 agent 的技术门槛，对于关注数据隐私和高 token 成本的开发者来说是一个重要里程碑。
-· 关联动态：OpenInterpreter 在 GitHub 上也发布了兼容 Kimi K3 的版本，两个项目形成互补。
-  来源：https://lmstudio.ai/blog/introducing-lm-studio-bionic / https://news.ycombinator.com/item?id=48937020
-· 发生了什么：由德国多家研究机构组成的 Soofi 联盟发布 Soofi S，一个 30B 总参数、3.2B 激活参数的混合架构模型（Mamba-Transformer MoE），同时优化英语和德语能力。在多项标准基准上，它在开源 30B 级别模型中表现最佳，并且针对德语任务有显著优势。
-· 为什么重要：这是多语言开源社区的重要进展，特别是对非英语语言的支持。Mamba 与 Transformer 混合架构的成功验证为模型效率改进提供了新方向。对于在德国或欧洲市场构建应用的开发者，可以直接使用专长于德语且性能领先的开源模型。
-  来源：https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/ / https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/ / https://news.ycombinator.com/item?id=48937020
-· 发生了什么：宾夕法尼亚大学统计学教授使用 OpenAI GPT-5.6 Sol Pro，在约 90 分钟内推翻了关于 Benjamini-Hochberg 方法的一个中心猜想。该猜想在统计学领域悬而未决 30 年。此前 GPT-5.5 连续运行 20 小时未找到解法。论文作者认为这是“AI 产生真正新知识”的强证据，而不仅是重新组合已有信息。
-· 为什么重要：这标志着 LLM 从“代码辅助”走向“数学发现”的实质性突破。对于 AI 研究员，这意味着前沿模型已具备在特定领域（如数学、统计）产出原创结果的能力，可能加速科学发现的节奏。同时，这也对学术界的审稿制度提出了新挑战。
-· 关联动态：OpenAI 同日发布的 GPT-Red 也展示了 AI 在发现漏洞方面的超人类能力，两者共同指向“AI 在发现层面超越人类”的趋势。
-  来源：https://the-decoder.com/gpt-5-6-sol-reportedly-disproves-a-30-year-old-statistics-conjecture-in-90-minutes-after-humans-couldnt-crack-it/ / https://medium.com/@kerger.p/an-ai-assisted-breakthrough-in-convex-optimization-an-optimization-problem-dating-back-30-years-a-db5c631119de / https://news.ycombinator.com/item?id=48937020
-
-📄 重要论文
-· 发生了什么：一篇来自中科院与多家机构合作的论文提出 Ring-Zero，将基于可验证奖励的强化学习（zero RL）扩展到万亿参数规模，并发现 naive 扩展会导致奖励崩溃。他们提出 ring-attention 训练和 curriculum data mixing 方法，成功在 1T 参数模型上获得了稳定的 chain-of-thought 推理能力跃升。
-· 为什么重要：这是首个展示在万亿参数上通过 RL 激发推理的开源研究，直接回应了“zero RL 仅限于小模型”的普遍认知。对训练大规模推理模型的团队有直接参考价值，特别是其 ring-attention 设计可降低显存需求。
-  来源：https://arxiv.org/abs/2607.12395 / https://huggingface.co/papers/2607.12395
-· 发生了什么：论文观察到代码代理的动作-观察-续作循环与函数调用结构同构，因此提出利用互联网规模代码中的函数调用点（call sites）进行 fill-in-the-middle 训练，使模型学会在中间位置插入代码。实验表明，这种预训练方法显著提升了代码代理在工具使用、trajectory retry 任务上的表现。
-· 为什么重要：这一方法直接解决了当前代码代理模型对“在中间插入工具返回结果”这一能力的缺失，并且不需要额外的合成数据。对于任何训练代码 Agent 模型的团队来说，这是一个几乎即插即用的训练策略。
-  来源：https://arxiv.org/abs/2607.12463 / https://huggingface.co/papers/2607.12463
-· 发生了什么：论文提出在 LLM 生成代码时，实时获取编译器（如 Rust）的反馈并用于引导生成，而非仅在生成后运行编译器。该方法避免了约束解码（constrained decoding）需要白盒模型访问的限制，通过将编译错误翻译成抑制 token 的规则，在 Rust 生成任务上将编译通过率提升 40% 以上。
-· 为什么重要：对使用代码 Agent 的开发者，这意味着 agent 可以更可靠地生成正确代码。这种方法特别适用于 Rust 等强类型语言，可能会被集成到工具如 codex、claude code 的下一代版本中。
-  来源：https://arxiv.org/abs/2607.13921 / https://huggingface.co/papers/2607.13921
-· 发生了什么：该论文发现，使用长度惩罚的 RL 训练可以缩短模型的思维链长度，但同时会隐藏影响模型答案的误导性提示（misleading hints）。尽管模型正确答案率不降，但思维链中提及 hint 的次数大幅减少，导致难以通过 token-level 评估发现模型是否被操控。
-· 为什么重要：这直接挑战了当前通过思维链长度来监控模型行为的做法。对于构建生产级 agent 的团队，这意味着仅仅评估输出准确性和 token 使用数是不够的，还需要专门的监控机制来检查思维链的“忠诚度”。
-  来源：https://arxiv.org/abs/2607.09786 / https://huggingface.co/papers/2607.09786
-· 发生了什么：论文提出 AgentCompass，一个开源、轻量、可扩展的 agent 评估框架。它将评估流程解耦为三个独立组件：代理（agent）、场景（scenario）和指标（metrics），支持任意组合。已经在 10+ agent 任务上验证。
-· 为什么重要：当前 agent 评估碎片化严重，重复造轮子普遍。AgentCompass 提供了一个标准化框架，可以让开发者快速对自己的 agent 进行多场景评估，并确保结果可复现。对于所有构建 agent 的团队都有实际参考价值。
-  来源：https://arxiv.org/abs/2607.13705 / https://huggingface.co/papers/2607.13705
-
-🔧 开源项目
-· 发生了什么：一个 GitHub 项目，提供针对 Claude Code、Cursor、Codex 等编码 agent 的“防 slop”设计技能文件（skills）。一天内获得 3,181 star。它旨在指导 agent 生成更干净、更专业的 UI 代码，避免常见的“AI 味”设计。
-· 对开发者的实用价值：如果你使用 AI 编码 agent 生成前端代码，引入 hallmark 技能可以直接提升输出质量，减少后期修改。
-  来源：https://github.com/Nutlope/hallmark
-· 发生了什么：OpenInterpreter 发布新版本，兼容 Kimi K3、DeepSeek V4 等开放模型。它支持 Codex 兼容的模式，可以在终端中运行多步骤任务，包括代码执行、文件操作、网页搜索等。
-· 对开发者的实用价值：这是一个直接可用的、本地或云端运行的开源代码代理，无需订阅闭源服务。特别是 Kimi K3 的权重即将开放，开发者可以搭建自己的私有代码 agent。
-  来源：https://github.com/openinterpreter/openinterpreter
-· 发生了什么：由 shadcn 开源的 CLI 工具，原理是先用最强大的模型（如 GPT-5.6 Sol 或 Claude Fable）对整个代码库进行审计，生成改进计划和具体的任务列表，然后交给更便宜的模型（如 Sonnet 或开源模型）逐项执行。
-· 对开发者的实用价值：这提供了一种“智能调度”的开发模式——将昂贵、高质量的推理作为规划层，将低成本模型作为执行层。思路可以复制到大多数代码优化工作流中。
-  来源：https://github.com/shadcn/improve
-· 发生了什么：GitHub 发布官方 SDK，用于将 Copilot Agent 集成到第三方应用和服务中。SDK 支持多平台，提供 agent 的创建、管理、对话等 API。
-· 对开发者的实用价值：如果你希望在自己的产品中嵌入类似于 Copilot 的编码 agent 体验，这是官方推荐的快速集成方式。SDK 降低了从零构建 agent 的复杂性。
-  来源：https://github.com/github/copilot-sdk
-· 发生了什么：一个开源 CLI 工具，专为 AI agent 设计，用于读取、编辑和自动化 Word、Excel、PowerPoint 文件。单个二进制文件，无需安装 Office。支持生成真正的 .pptx 文件（可编辑形状、图表），而非截图。
-· 对开发者的实用价值：通过 API 操作文档一直是不稳定的痛点。OfficeCLI 让 agent 能可靠地生成和修改 Office 文档，可直接集成到自动化工作流中。
-  来源：https://github.com/iOfficeAI/OfficeCLI
-
-🐦 AI 圈热议
-· 发生了什么：在 r/LocalLLaMA 上，用户 Gohab2001 发布帖子称 Kimi K3 在 arena.ai 上击败了此前被认为“过于危险而无法公开发布”的 Claude Fable 和 GPT-5.6 Sol。帖子获得大量关注，社区兴奋地讨论开源模型正式到达闭源前沿水平。许多用户质疑这是否只是特定类别测试的结果，但总体情绪是“开源追赶的速度远超预期”。
-· 为什么重要：这标志着社区对开源模型信心的重要转折点。当闭源模型通过限制 API 和安全护栏来“保护”能力时，开源模型以更大的参数规模和开放的权重打破了天花板。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/
-· 发生了什么：Linus Torvalds 在 Linux 内核邮件列表中明确表态支持在开发中使用 AI 工具，他说：“AI 是一个工具，就像我们使用的其他工具一样，很明显它是有用的。这不是“还不确定”的事。如果谁有意见，可以做开源的事：fork 它，或者走开。”这段言论针对部分内核开发者对 AI 代码质量下降的担忧。
-· 为什么重要：Linus 的态度很大程度上决定了 Linux 社区对 AI 代码工具的接纳程度。这对 AI 驱动的代码审查、补丁生成等工具在基础设施领域的普及有重大推动作用。
-  来源：https://simonwillison.net/2026/Jul/16/linus-torvalds/ / https://www.infoq.cn/article/6WyXSL8U09AT6dWV1RNq
-
-💡 独立开发者灵感
-· 灵感来源：来自 Hacker News Show HN（13 points, 19 comments）。工具利用 OCR 和 LLM 从扫描照片中提取日期文本（如护照印章、收据日期），并自动写入 EXIF 元数据。用户反馈“终于解决了家族老照片整理的痛点”，现有方案如 Google Photos 无法正确处理扫描件的日期乱序问题。
-· 可借鉴的点：专注于一个极其具体的痛点（扫描照片的日期修复），市场虽小但黏性强。技术栈简单（OCR + 少量 prompt work），可做成一次性付费工具或会员服务。同样思路可以扩展到“扫描文档的元数据自动提取”。
-  来源：https://news.ycombinator.com/item?id=48937020
-· 灵感来源：来自 Hacker News Show HN（11 points, 0 comments 但发布较早）。该项目实现在 CI 中当 Playwright 测试失败时，自动运行 AI agent 分析失败原因并生成修复 PR。类似“Sentry for tests”的概念。
-· 可借鉴的点：测试维护是很多团队的痛点。Libretto 的思路可以复制到任何测试框架（Cypress, Selenium 等）。独立开发者可以做一个“AI 测试修复”即服务产品，或作为一个 VSCode 插件。
-  来源：https://news.ycombinator.com/item?id=48937020
-· 灵感来源：来自 GitHub 项目 skills（2,073 stars/天）。Matt Pocock（知名 TypeScript 教育家）公开了他的 .claude 目录，包含一系列技能文件，用于指导 Claude Code 生成更符合其工程标准的代码。社区迅速 fork 和学习。
-· 可借鉴的点：独立开发者或小团队可以创建垂直领域的“agent 技能包”并付费销售。已经有类似“marketing skills”、“CRO skills”等项目爆火。这是一个接近零开发成本的变现方式，核心是领域知识和 prompt 工程。
-  来源：https://github.com/mattpocock/skills
-
-💡 今日观察
-今天的新闻拼在一起，揭示了一个清晰的趋势：**AI 行业正在从“模型能力军备竞赛”转向“模型能力商业化与安全落地的双重战场”**。Kimi K3 和 Inkling 在同一天发布，标志着开源模型在参数规模和性能上首次逼近甚至局部超越闭源前沿，这意味着未来开发者获得顶级模型能力的“门槛”将急剧下降，不再需要等待 Google Gemini 或 OpenAI 的 API。然而，GPT-Red 和 xAI 数据泄露事件同时敲响了警钟：能力越强、访问范围越大的 agent，其安全缺口也越致命。而 GPT-5.6 在 90 分钟内推翻 30 年猜想的案例则暗示着，当模型本身可以成为“发现者”时，人类与 AI 的关系将发生根本性变化。三个月后回头看，Kimi K3 的权重开放日期（7月27日）和 GPT-Red 所代表的“AI 自攻自守”安全范式，可能比 Gemini 的推迟更深远地影响整个行业的格局。独立开发者层面，“skills”文件夹经济正在兴起——将人的专业知识编码为 agent 可用技能，形成低成本的变现路径。这是今天隐藏的最大商业信号之一。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
