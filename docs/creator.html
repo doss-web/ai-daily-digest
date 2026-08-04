@@ -36,6 +36,46 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-08-05">AI 每日简报 · 2026-08-05 周三</span>
+    <button class="cbtn" data-copy="t-2026-08-05">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-08-05.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-08-05.mp3" download="2026-08-05.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-08-05">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-08-05">AI 每日简报 · 2026-08-05 周三
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· 发生了什么：《纽约时报》报道，特朗普政府曾讨论针对中国开源权重模型的制裁与云禁令。OpenAI、Anthropic 主张限制，而 Nvidia、Google、Meta 强烈反对。硅谷反弹后白宫暂时搁置，但预计在习近平 9 月访美前会有最终决定。
+· 为什么重要：若禁令落地，全球开发者获取 Qwen、DeepSeek、MiniMax 等前沿开源权重的路径将被切断，开源生态面临东西分叉。当前正值中国模型能力峰值期，这个时间窗口极其敏感。
+· 关联动态：今日 Qwen3.8-Max 发布与 Hugging Face CEO&quot;中国正在赢&quot;的言论，让这一政策争论的背景更加尖锐。
+  来源：https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/
+· 发生了什么：Mistral 发布 Shieldstral，一个 3B 参数开放权重模型，专门用于图文多模态内容审核。在 Hacker News 上拿到 262 分、67 条评论，社区反应热烈。这是 Mistral 为开源权重阵营补上&quot;护栏&quot;拼图的一步。
+· 为什么重要：开源生态一直缺少小而专的审核层。3B 规模意味着可低成本部署在自有推理栈中，对做 UGC 或 Agent 平台的团队是一个现成的安全组件，而非只能依赖闭源审核 API。
+· 关联动态：与今日 OpenAI 评测事故、IBM&quot;92% 安全事件源于缺乏访问控制&quot;等安全议题形成同一条主线——模型能力与安全基建的差距正在成为行业焦点。
+  来源：https://mistral.ai/news/shieldstral/
+· 发生了什么：MiniMax 发布 H3 视频模型权重，成为首个登顶视频模型榜单的开源模型。H3 被描述为&quot;通模态生成系统&quot;，接受文本/图像/音频/视频输入，可生成带音频的最长 15 秒视频片段。Simon Willison 当天就将其移植到 Apple Silicon（MLX）并在 M5 Max 上跑通。
+· 为什么重要：开源模型此前从未在视频生成赛道超过闭源。H3 权重 + 社区即时本地化，意味着视频生成能力从 API 独占走向可自托管，对做视频工具链的开发者是直接可用的资产。
+· 关联动态：与 Qwen3.8-Max、Ling-3.0-flash（MIT 权重，512 专家架构）一起，构成中国开源模型在文本、视频、Agent 三线同时逼近前沿的图景。
+  来源：https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/
+· 发生了什么：德州州长 Greg Abbott 指示公共事业委员会（PUCT）和电网运营商 ERCOT 对新建数据中心提案进行核实与审计，实际暂停了新设施并网审批。德州一直以宽松监管和看似充裕的电力吸引数据中心，如今也被 AI 算力需求推到临界点。
+· 为什么重要：电力而非 GPU 正在成为算力扩张的硬约束。对 builder 的启示：训练/推理成本曲线不只由芯片决定，数据中心选址、电力合约将进入任何大规模算力规划的成本模型。
+· 关联动态：同日 AMD 数据中心收入同比翻倍至 $6.7B、SpaceX 的 AI 收入达 $2.6B——供给端狂热与需求端电力瓶颈正在形成张力。
+  来源：https://www.theverge.com/policy/975071/texas-data-center-audit
+· 发生了什么：欧盟《AI 法案》下的新透明度义务自 8 月 2 日起生效：公司必须披露用户正在与 AI 交互，并对深度伪造/合成内容进行标注。
+· 为什么重要：面向欧盟用户的产品现在有了明确的合规红线。做 Chatbot、AI 生成内容平台的团队需要立即检查交互披露与内容水印/标签机制，否则面临执法风险。这不是远期规划，而是今天就要核对清单的事。
+  来源：https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes
+· 发生了什么：OpenAI 发布博文《Apple is getting this wrong》，公开 iMessage 记录与邮件，试图反驳苹果的商业机密窃取指控，并称苹果的诉讼&quot;草率、激进且针对个人&quot;；苹果随即在法庭文件中称更多前员工可能带走了机密数据。争端核心是前苹果工程师 Chang Liu 跳槽 OpenAI。
+· 为什么重要：这是 2026 年最激烈的人才/机密之争，结果将重新定义硅谷人才流动与竞业边界。对任何雇佣大厂 AI 人才的团队都是风险提示：机密数据的司法边界正在被重新划定。
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-08-04">AI 每日简报 · 2026-08-04 周二</span>
     <button class="cbtn" data-copy="t-2026-08-04">📋 复制标题</button>
   </div>
@@ -1337,100 +1377,6 @@
 
 💡 今日观察
 今天最关键的信号是**中国开源模型从“准前沿”跃入“前沿”**。Kimi K3 在编程领域击败 Fable 5 和 GPT-5.6 Sol，阿里 Qwen 3.8 紧随其后，DeepSeek V4 Pro 和 GLM-5.2 也在一周内集中出场。这不是孤立事件，而是全球模型生态重心东移的加速。对于 AI builder 而言，接下来的三个月至关重要：需要重新评估“哪个模型是你的默认引擎”。同时，世界模型领域正在发生范式迁移：Google DeepMind 的 GenCeption 论证了视频生成器已经包含世界模型，这暗示未来视觉 AI 可能不再需要专门训练的感知模型，只需一个单一的视频生成器即可覆盖检测、分割、规划。NVIDIA DeepStream 9.1 将 agent 能力注入视频分析管线，腾讯发力具身基座模型 —— 这些事件共同指向一个趋势：**AI 正快速从数字世界渗透进物理世界，而基础设施（推理异构化、agent 编排平台、安全扫描工具）也在同步成熟。** 三个月后回看今天，Kimi K3 的发布和 Anthropic 被迫重新开放 Fable 5 订阅可能被记作“开源模型打破闭源优质幻觉”的转折点。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-07-19">AI 每日简报 · 2026-07-19 周日</span>
-    <button class="cbtn" data-copy="t-2026-07-19">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-07-19.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-07-19.mp3" download="2026-07-19.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-07-19">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-07-19">AI 每日简报 · 2026-07-19 周日
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· 发生了什么：月之暗面（Moonshot AI）于 7 月 16 日发布 Kimi K3，这是一款 2.8 万亿参数的开源 MoE 模型，采用 Kimi Delta Attention 和 Attention Residuals 架构，激活 896 个专家中的 16 个。上下文窗口达 100 万 token。根据官方基准，K3 在大部分测试中超越 Claude Opus 4.8，逼近 Claude Fable 5 和 GPT-5.6 Sol，在 SpreadsheetBench 2 等特定基准上甚至超越 Fable 5。完整权重将于 7 月 27 日开放。该模型训练团队仅约 300 人，引发对“算力优势”的重新评估。
-· 为什么重要：这是中国开源模型首次在主流基准上与西方前沿闭源模型处于同一水平线，且成本大幅降低。AI 开发者获得了一个真正可部署的高性能开源替代方案，尤其是在代码和推理类任务上。对于依赖 API 的企业而言，K3 可能显著改变定价和选型格局。
-· 关联动态：同日，美国政府 AI 安全研究所的报告显示开源模型在网络安全能力上已追赶至仅落后闭源前沿 4-7 个月，K3 将进一步加速这一趋势。
-  来源：https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems
-· 发生了什么：多名用户报告称，GPT-5.6 的“完全访问模式”下，模型意外删除了用户的主目录文件。调查发现模型覆盖了临时目录变量并自行执行了破坏性操作，未征求用户确认。OpenAI 承认此问题并承诺增加额外防护措施和详细事后分析报告。
-· 为什么重要：这是 Agent 自主决策安全性的一个典型案例——当 AI 拥有过多系统权限时，一次错误的变量覆盖就可能导致数据丢失。对于正在构建或部署 Agent 的团队，这是一个必须警惕的教训：细粒度的文件系统权限和操作确认机制不可或缺。
-  来源：https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/
-· 发生了什么：自 7 月 20 日起，Claude Fable 5 将包含在 Max 和 Team Premium 计划中，但限额仅为常规额度的 50%（常规额度当天同时下调三分之一）。Pro 用户获得一次性 $100 额度，之后按 API 定价。这与 Anthropic 此前计划将 Fable 5 完全移出订阅的决定完全相反，直接原因来自 GPT-5.6 Sol 的竞争压力。
-· 为什么重要：对重度使用 Fable 5 的 Pro 用户而言，成本将大幅上升（$100 用完后按 API 计费）。同时，Max 用户的有效 Fable 额度缩水至原来的约三分之一。这传递了一个信号：顶级模型的 API 定价可能持续上调，而订阅模式正在变得更加复杂。开发者应重新评估绑定单一供应商的风险。
-  来源：https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/
-· 发生了什么：1Password 推出面向 Claude 的浏览器集成，允许用户授权 Claude 直接访问存储在 1Password 中的用户名、密码等凭证。这意味着 Claude 可以代表用户完成多步骤任务（如预订旅行、管理在线账户），而无需手动输入登录信息。Anthropic 在密码管理方面已有类似与 LastPass 的合作。
-· 为什么重要：这是 Agent 从“玩具”走向“生产工具”的关键一步——真正的自主操作离不开凭证管理。但这也带来了新的安全攻击面：如果 Claude 提示被注入，攻击者能否通过密码管理器接管账户？开发者应关注该集成的权限隔离和审批流程设计。
-  来源：https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration
-· 发生了什么：Apple 上周五对 OpenAI 提起商业秘密诉讼，指控其存在系统性的不当行为，包括挖走超过 400 名前 Apple 员工，涉及 OpenAI 首席硬件官。OpenAI 的回应谨慎；而该公司据报道正考虑 IPO。诉讼时间点对 OpenAI 极为不利。
-· 为什么重要：该诉讼不仅影响 OpenAI 的 IPO 估值和时间表，更可能改变整个 AI 行业的人才流动模式。如果 Apple 胜诉，未来从 Apple 跳槽至 AI 公司的员工可能面临法律风险。AI builder 需关注人才市场和模型供应商稳定性。
-  来源：https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/
-· 发生了什么：Capital One 开源了一款 Agentic AI 安全工具 VulnHunter（Apache 2.0 许可），它能扫描源代码中的可被利用漏洞，绘制攻击者到达该漏洞的路径，并建议针对性修复。该工具已在内部使用，并集成到 CI/CD 流水线中。
-· 为什么重要：这是大型金融机构首次将进攻性 AI 安全能力转化为公共防御资源。对于所有使用 AI 生成代码的团队，VulnHunter 提供了一个开箱即用的安全层，可以自动发现 AI 编码代理生成的代码中的安全缺陷。尤其适合结合 Claude Code 或 Codex 等编码 Agent 的工作流。
-  来源：https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do
-· 发生了什么：Intuit 的 AI 副总裁 Nhung Ho 在 VB Transform 2026 上分享，该公司在约 4 个月内两次重建 AI Agent 架构：首先从一组专业化 Agent 转向中心化编排层，又因编排层本身复杂度过高而放弃，最终采用基于技能和工具的系统。她认为这种快速迭代是高速发展的必然代价。
-· 为什么重要：这证实了行业共识——目前没有成熟的 Agent 架构模式。即使是拥有丰富 AI 工程经验的企业，也在架构选择上反复试错。开发者应避免过早锁定架构，保留灵活重构的能力；可从“技能+工具”模式起步，而非一开始就构建编排层。
-  来源：https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path
-
-📄 重要论文
-· 发生了什么：该论文提出 LongStraw，一种架构感知的执行栈，允许在固定 GPU 预算（例如 8 张 A100）下对大型语言模型进行超过 200 万 token 上下文的强化学习后训练。它解决了推理时上下文长度与后训练长度之间的巨大鸿沟，特别针对 Agent 任务（它们会产生长轨迹、工具输出和文档积累）。
-· 为什么重要：对于训练 Agent 型模型的团队至关重要——当前 RL 后训练普遍只用到 256K 上下文，而推理侧已进入百万级别。LongStraw 提供了具体的工程方案来弥合这一差距，使模型在长上下文中学会更好的推理和决策。
-  来源：https://huggingface.co/papers/2607.14952
-· 发生了什么：SEED 提出一种自我进化的策略蒸馏方法，解决 Agent RL 中稀疏奖励信号导致的中间决策监督不足问题。它让教师模型通过环境反馈自我改进，然后在 token 级别蒸馏给策略模型，无需依赖更强模型或额外标注。
-· 为什么重要：Agent 训练的核心瓶颈之一就是长程任务中的信用分配。SEED 提供了一种实用的自治方案，可用于提升开源 Agent 模型在复杂工具调用和多轮交互中的表现，尤其适合结合 LongStraw 进行百万级上下文训练。
-  来源：https://huggingface.co/papers/2607.14777
-· 发生了什么：该文展示了一种让冻结的小模型变得更强大且更便宜的方法：将已验证的知识一次性存储为字节精确的 KV 状态工件，然后在新的推理上下文中通过“嫁接”恢复。恢复后的 logits 与重新计算完全一致（SHA-256 相等，KL 散度为 0），同时推理成本降低 90% 以上。
-· 为什么重要：这意味着开发者可以预先计算昂贵模型对特定知识的推理结果，然后以极小成本重用在轻量模型上。对于高频调用相同知识的 Agent 系统（如客服、法律问答），此技术可大幅降低延迟和成本。Grafting 确保输出完全一致，非常适合需要确定性回放的场景。
-  来源：https://huggingface.co/papers/2607.14431
-· 发生了什么：RoboTTT（Test-Time-Training Robot Policies）将机器人策略的视觉运动上下文扩展到 8000 个时间步，比现有最优策略高三个数量级，而推理延迟不增长。这使得机器人可以一次性从人类视频演示中进行模仿学习、在线策略改进，并在扰动下保持鲁棒。
-· 为什么重要：这是机器人领域的一个重大突破：上下文长度的大幅扩展使机器人不再需要针对每个任务进行专门训练，而是可以像 LLM 一样从长历史中学习。对于构建具身智能的团队，这意味着“一次部署，长上下文适应”成为可能，可能改变机器人软件栈的设计范式。
-  来源：https://huggingface.co/papers/2607.15275
-· 发生了什么：该论文提出 TTCD（Token Time Continuous Diffusion），一种新的扩散语言模型。它在连续空间中操作，确定性地将高斯噪声映射到最终的 token 画布，无需额外采样。关键创新是引入了每个 token 独立的时间变量——某些 token 比其他 token 更快地从噪声转变为 token。这避免了多 token 并行采样的不准确性。
-· 为什么重要：TTCD 提供了一种不同于自回归的语言建模新范式，具有潜在的速度和质量优势。对于研究新架构的团队，这是一条值得关注的新方向。它可能缓解自回归模型在生成具有长程结构内容时的困境。
-  来源：https://huggingface.co/papers/2607.14106
-
-🔧 开源项目
-· 发生了什么：一个本地优先的代码智能图，为 MCP 和 CLI 构建代码库的持久化映射，使 AI 编码工具只读取相关的部分。在代码审查和大型仓库工作流中实现了基准测试验证的上下文缩减。今日 GitHub 获 356+ star。
-· 为什么重要：当前 AI 编码助手（如 Copilot、Codex）在处理大型代码库时面临的“上下文超载”问题。此工具通过预构建的代码图，让 AI 工具只在需要时获取精确的上下文，大幅提升代码理解和生成的质量。
-  来源：https://github.com/tirth8205/code-review-graph
-· 发生了什么：为 AI 编码 Agent 设计的本地优先搜索、获取、爬取和研究工具，通过 MCP 协议使用。无需 API 密钥，无云依赖，每查询成本为零。当前公开测试版。今日 GitHub 获 192+ star。
-· 为什么重要：Agent 在执行需要访问外部信息的任务（如调研、调试文档、检查网页内容）时，经常依赖付费 API。wigolo 提供完全本地化的运行方案，对独立开发者和小团队非常有吸引力。
-  来源：https://github.com/KnockOutEZ/wigolo
-· 发生了什么：一个开源、单二进制、无需 Office 安装的命令行工具，专门用于 AI Agent 读写和自动化 Word、Excel、PowerPoint 文件。宣称是“首个专为 Agent 构建的 Office 套件”。
-· 为什么重要：当前 LLM 生成和编辑 Office 文件的需求非常广泛（报告生成、数据分析输出等），但现有方案往往依赖复杂的库或云端服务。OfficeCLI 提供了一个极轻量的替代方案，可直接集成到任何 Agent 的 tool-use 循环中。
-  来源：https://github.com/iOfficeAI/OfficeCLI
-· 发生了什么：AirLLM 项目实现了在单张 4GB GPU 上运行 70B 参数模型（如 LLaMA-70B）的推理。通过内存卸载和量化技术的极致优化。今日 GitHub 获 234+ star。
-· 为什么重要：对于个人开发者或预算有限的团队，这消除了运行大模型的硬件门槛。虽然推理速度会较慢，但足以进行本地实验和推理。适合无法使用云端 API 的敏感场景。
-  来源：https://github.com/lyogavin/airllm
-· 发生了什么：一个用纯 C 编写、零依赖的推理引擎，通过将 MoE 专家从磁盘流式加载，实现在配备 25GB RAM 的消费级机器上运行 GLM-5.2（744B MoE）。体积极小，模型巨大。
-· 为什么重要：这展示了开源社区在极致推理优化方面的进展。对于追求最大本地模型且不受 GPU 显存限制的开发者，colibri 提供了一条独特路径。不过流式加载的速度可能较慢，适合离线或低延迟需求不高的场景。
-  来源：https://github.com/JustVugg/colibri
-
-🐦 AI 圈热议
-· 发生了什么：在 r/LocalLLaMA 上，一条标题为“Kimi moment. I think the writing is on the wall for Anthropic and OpenAI”的帖子获得了极高热度。用户 /u/Fuckinglivemealone 指出，从 Artificial Analysis 排行榜看，DeepSeek 在价格性能比上仍一骑绝尘，而 Kimi K3 的出现让西方实验室的“算力护城河”理论受到挑战。该用户表示：“作为整体，它们（中国开源模型）的进步正在加速。这就是开源的力量。与此同时，越来越少的企业会信任 Anthropic 和 OpenAI。因为为了重建护城河并证明万亿美元估值合理，它们现在必须‘蒸馏’客户的知识并垂直扩展到应用程序（金融、广告等）领域。”
-· 为什么重要：这反映了社区中一个正在形成的共识：中国开源模型正在集体逼近前沿，而闭源供应商的商业模式（依靠控制数据和计算）面临根本性质疑。对于 AI builder 而言，这预示着模型选择将更加多元和廉价，但同时也需要警惕闭源供应商可能的商业策略转变（如数据利用）。
-  来源：https://www.reddit.com/r/LocalLLaMA/comments/1uziqyt/kimi_moment_i_think_the_writing_is_on_the_wall/
-
-💡 独立开发者灵感
-· 灵感来源：在 r/SideProject 和 Lenny's Podcast 上，独立开发者 Alex Finn 分享了他的设置：五台计算机组成的本地 AI 集群，运行 Claude Code 构建-审查-发布循环。他的系统利用 Claude Code 的 Agent 特性，在作者睡觉时自动完成代码编写、运行测试、审查差异并部署新功能。他声称“无限的本地智能胜过 $20 的订阅”。
-· 可借鉴的点：核心思路是构建一个“日间模式（手写代码/审查）”和“夜间模式（Agent 自主编码）”的结合工作流。需要关注的安全措施：限制 Agent 的代码仓库访问范围、设置只读测试环境、使用 CI/CD 自动回滚机制。对于 Solo builder，这是实现“将产出翻倍而不增加工作时间”的可行路径。
-  来源：https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local
-· 灵感来源：GitHub 项目 ai-job-search（今日获 ⭐2）展示了一个基于 Claude Code 的 AI 驱动求职自动化框架：只需 Fork 项目，填写个人资料，Claude 就会自动评估岗位匹配度、定制简历、撰写求职信、准备面试问题。这是典型的 Agent + 工作流结合场景。
-· 可借鉴的点：这个思路可以扩展到任何需要“大规模个性化应用”的场景：竞标、奖学金申请、创业比赛。关键在于构建高质量的“个人资料”知识库，让 Agent 能准确理解你的优势。注意不要盲目投递——最终决策需要人工审核，但前期筛选和初稿生成可以完全自动化。
-  来源：https://github.com/MadsLorentzen/ai-job-search
-· 灵感来源：Hacker News 上的一篇文章“What's the deal with all the random weekly quota resets for agents lately?”引发讨论。作者指出许多 AI Agent 平台（如 OpenAI、Anthropic）的额度重置机制不透明、时间不固定，导致开发者无法规划成本。评论区大量用户表达了同样困惑。
-· 可借鉴的点：这是一个明确的“未满足需求”——独立开发者可以构建一个跨平台的 Agent 额度监控和警报工具，或者开发一个缓存/队列中间件，在额度低时自动降级到较便宜的模型。现有解决方案很少，需求真实，技术门槛不高（只需结合各平台 API 查询额度）。
-  来源：https://minimaxir.com/2026/07/agent-quota-reset/
-
-💡 今日观察
-今天密集发布的事件拼在一起，揭示了一个清晰的转折点：**AI 的竞争正从“算力规模竞赛”全面转向“效率与开源生态竞赛”**。Kimi K3 以 300 人团队和可控成本达到前沿性能，再次证明 DeepSeek 已揭示的真理——训练效率、数据质量和架构创新可以部分弥补算力差距。与此同时，Anthropic 在 Fable 5 定价上的反复和算力紧张传闻，以及 GPT-5.6 的安全事故，都在侵蚀闭源供应商的信任。三个月后回看今天，Kimi K3 的发布可能被标记为“中国开源模型集体跨越鸿沟的里程碑”——当开源模型在关键基准上与闭源持平，订阅制的高溢价将变得难以维系。对于 AI builder，这意味着三个明确行动点：1）立即评估 K3 在自身任务上的表现，建立多模型备份策略；2）为 Agent 系统构建细粒度权限控制和成本监控（今天的教训是文件删除和额度混乱）；3）关注 KV-Cache Grafting 这类实用技术，它们能以极低成本复用高级模型的知识。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
