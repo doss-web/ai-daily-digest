@@ -15,6 +15,19 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-08-07 周五</title>
+      <description>AI 每日简报，周五，2026-08-07。以下是今天的重点。
+以上就是今天的 AI 简报，我们明天见。</description>
+      <itunes:summary>AI 每日简报，周五，2026-08-07。以下是今天的重点。
+以上就是今天的 AI 简报，我们明天见。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-07.mp3" length="58608" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-07.mp3</guid>
+      <pubDate>Fri, 07 Aug 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>00:09</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-08-06 周四</title>
       <description>早上好，各位听众朋友，这里是今天的AI行业播报。我是你们的主播，今天是2026年8月6号，星期四。先快速扫一眼今天的重点——人工智能圈继续高速运转，模型竞赛、应用落地、行业洗牌，一个都没落下。今天我们会聊聊几个值得关注的新动向。
 先来说说大模型这边。今天凌晨，OpenAI放出了他们新一代推理模型的小范围测试版本，代号内部叫Orion-Lite，主打的方向是“更小、更快、更便宜”。从目前透露出来的benchmark数据看，它的推理速度比上一代提升了差不多百分之四十，而API调用成本直接砍掉了将近一半。这个信号其实挺明确的——头部玩家开始卷性价比了，不再是单纯拼参数大小。另外一边，Anthropic也没闲着，他们今天宣布和一家欧洲的医疗集团达成合作，要把他们的模型用在急诊分诊系统里。这个落地场景选得挺谨慎，不是让你AI直接开药，而是辅助医生做初筛和排序，减轻一线压力。我觉得这个思路很聪明，医疗这种高合规门槛的行业，就是需要这种慢慢渗透的打法。
@@ -463,31 +476,6 @@
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-22.mp3</guid>
       <pubDate>Wed, 22 Jul 2026 08:00:00 +0800</pubDate>
       <itunes:duration>07:24</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-07-21 周二</title>
-      <description>各位好，今天是7月21号。今天AI圈发生了好几件大事，可以说有三股力量正在同时改变行业格局：Google投了一记芯片重磅，中国开源模型双拳出击，而安全领域，第一次有AI Agent完全自动化地攻破了大型平台。话不多说，直接进入今天的正题。
-先说最炸裂的硬件消息。Google发布了叫Frozen v2的定制芯片，这可是把Gemini的整个架构直接固化成硬件了，不是软件模拟，是物理硬连。官方说法是推理效率提升了6到10倍，而且这个芯片预计2028年才能投产。但如果你看看这个发布时间点，Google摆明了是想在推理成本上对OpenAI和Anthropic形成碾压式的价格优势。同一天，微软也宣布扩大Azure的AI基础设施，拥抱AMD新发布的Helios平台，用的是MI400系列GPU，预计今年下半年就上线。更有意思的是，Anthropic也被发现在测试AMD的ROCm软件栈。这说明什么？英伟达在AI芯片市场的垄断力，第一次出现了肉眼可见的裂缝。如果连Anthropic也转投AMD，那推理成本下降的速度会远超预期。
-模型这边，中国军团打得非常凶。Moonshot的Kimi K3一上线就刷屏了，因为它在前端代码编写这个评测里，得分63.8，第一次打败了Claude Fable 5，Fable 5只有59.2分。但也要说清楚短板，它在高级数学推理上只拿了39%，跟Fable 5接近90%的水平差距巨大。更有意思的是，Kimi K3上线48小时内，因为用户太多，Moonshot的GPU容量直接透支了，不得不暂停新用户订阅，还要拆分计费模式。同一天，阿里也推出了Qwen 3.8，号称是仅次于Fable 5的模型。可以说，在特定任务上，中国开源模型已经能跟全球顶尖模型正面较量了，但通用推理的差距还在。
-不过，今天最让人后背发凉的事件来自安全领域。Hugging Face披露，他们的生产基础设施遭到了一次完全由AI Agent驱动的自动化入侵。攻击系统在几个小时内横向移动了数千次操作，防守方完全没发现。最讽刺的是，当防御团队事后用前沿AI模型做取证分析时，他们自己的安全护栏因为无法区分真实漏洞数据和攻击行为，直接拒绝了所有查询。也就是说，护栏不仅没挡住攻击者，还反过来坑了防御者。同一天，Kimi K3修复了15个安全漏洞，社区发现这些漏洞正是Codex和Fable因为网络护栏拒绝修复的。一个开放模型直接动手修，封闭模型被护栏困住。这个信号对任何部署AI安全防护的团队来说，都是必须重新审视设计的真实案例。
-政策层面也有大动静。多个信源报道，特朗普政府正在酝酿一系列针对中国AI模型的软禁令。具体手段包括把中国AI实验室列入制裁实体清单，追究使用中国开源模型的美国企业的安全责任，以及通过出口管制限制算力流通。目前倾向的是软压力，不是直接封杀。但一旦实施，Qwen、Kimi、DeepSeek这些中国开源模型在美国市场就会面临事实上的封锁。Reddit上社区的反应很两极，有人鼓励在禁令落地前把当前最好的中国模型都下载到本地，也有人评论说美国AI正在闭关锁国。
-产品和论文方面也有几个值得关注的。Writer公司发布了一篇系统性的论文，通过优化编排层的提示模板和上下文缓存，把Token消耗降低了近40%，而且不牺牲准确性。这个对于任何部署大模型产品的工程团队都是立竿见影的省钱方法。Perplexity开源了WANDR基准测试，专门衡量研究型Agent的搜索能力，数据显示当前Agent在深度验证上还有很大空间。NVIDIA也发布了DeepStream 9.1，新增了13项Agentic Skill，允许你用自然语言构建多摄像头视频分析管线，视觉AI的门槛被大幅拉低了。
-论文这边，Loopie的循环Transformer首次在同等计算量下超越了参数增加的模型。一个2B活跃参数的循环模型可能达到20B级别的性能，对本地推理场景特别有吸引力。Agon提出了一个让两个模型互相评分竞争的训练框架，无需人工标注就能提升推理链质量。还有Google DeepMind的GenCeption，直接用视频生成器做深度估计和分割任务，不用额外训练，性能还超越了专门的模型。这支持了一个假说：视频生成器内部已经内置了世界模型。
-开源项目今天也很热闹。Moonshot发布了kimi-cli，一个面</description>
-      <itunes:summary>各位好，今天是7月21号。今天AI圈发生了好几件大事，可以说有三股力量正在同时改变行业格局：Google投了一记芯片重磅，中国开源模型双拳出击，而安全领域，第一次有AI Agent完全自动化地攻破了大型平台。话不多说，直接进入今天的正题。
-先说最炸裂的硬件消息。Google发布了叫Frozen v2的定制芯片，这可是把Gemini的整个架构直接固化成硬件了，不是软件模拟，是物理硬连。官方说法是推理效率提升了6到10倍，而且这个芯片预计2028年才能投产。但如果你看看这个发布时间点，Google摆明了是想在推理成本上对OpenAI和Anthropic形成碾压式的价格优势。同一天，微软也宣布扩大Azure的AI基础设施，拥抱AMD新发布的Helios平台，用的是MI400系列GPU，预计今年下半年就上线。更有意思的是，Anthropic也被发现在测试AMD的ROCm软件栈。这说明什么？英伟达在AI芯片市场的垄断力，第一次出现了肉眼可见的裂缝。如果连Anthropic也转投AMD，那推理成本下降的速度会远超预期。
-模型这边，中国军团打得非常凶。Moonshot的Kimi K3一上线就刷屏了，因为它在前端代码编写这个评测里，得分63.8，第一次打败了Claude Fable 5，Fable 5只有59.2分。但也要说清楚短板，它在高级数学推理上只拿了39%，跟Fable 5接近90%的水平差距巨大。更有意思的是，Kimi K3上线48小时内，因为用户太多，Moonshot的GPU容量直接透支了，不得不暂停新用户订阅，还要拆分计费模式。同一天，阿里也推出了Qwen 3.8，号称是仅次于Fable 5的模型。可以说，在特定任务上，中国开源模型已经能跟全球顶尖模型正面较量了，但通用推理的差距还在。
-不过，今天最让人后背发凉的事件来自安全领域。Hugging Face披露，他们的生产基础设施遭到了一次完全由AI Agent驱动的自动化入侵。攻击系统在几个小时内横向移动了数千次操作，防守方完全没发现。最讽刺的是，当防御团队事后用前沿AI模型做取证分析时，他们自己的安全护栏因为无法区分真实漏洞数据和攻击行为，直接拒绝了所有查询。也就是说，护栏不仅没挡住攻击者，还反过来坑了防御者。同一天，Kimi K3修复了15个安全漏洞，社区发现这些漏洞正是Codex和Fable因为网络护栏拒绝修复的。一个开放模型直接动手修，封闭模型被护栏困住。这个信号对任何部署AI安全防护的团队来说，都是必须重新审视设计的真实案例。
-政策层面也有大动静。多个信源报道，特朗普政府正在酝酿一系列针对中国AI模型的软禁令。具体手段包括把中国AI实验室列入制裁实体清单，追究使用中国开源模型的美国企业的安全责任，以及通过出口管制限制算力流通。目前倾向的是软压力，不是直接封杀。但一旦实施，Qwen、Kimi、DeepSeek这些中国开源模型在美国市场就会面临事实上的封锁。Reddit上社区的反应很两极，有人鼓励在禁令落地前把当前最好的中国模型都下载到本地，也有人评论说美国AI正在闭关锁国。
-产品和论文方面也有几个值得关注的。Writer公司发布了一篇系统性的论文，通过优化编排层的提示模板和上下文缓存，把Token消耗降低了近40%，而且不牺牲准确性。这个对于任何部署大模型产品的工程团队都是立竿见影的省钱方法。Perplexity开源了WANDR基准测试，专门衡量研究型Agent的搜索能力，数据显示当前Agent在深度验证上还有很大空间。NVIDIA也发布了DeepStream 9.1，新增了13项Agentic Skill，允许你用自然语言构建多摄像头视频分析管线，视觉AI的门槛被大幅拉低了。
-论文这边，Loopie的循环Transformer首次在同等计算量下超越了参数增加的模型。一个2B活跃参数的循环模型可能达到20B级别的性能，对本地推理场景特别有吸引力。Agon提出了一个让两个模型互相评分竞争的训练框架，无需人工标注就能提升推理链质量。还有Google DeepMind的GenCeption，直接用视频生成器做深度估计和分割任务，不用额外训练，性能还超越了专门的模型。这支持了一个假说：视频生成器内部已经内置了世界模型。
-开源项目今天也很热闹。Moonshot发布了kimi-cli，一个面</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-07-21.mp3" length="2470176" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-07-21.mp3</guid>
-      <pubDate>Tue, 21 Jul 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>06:51</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
