@@ -1,10 +1,10 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-09T04:55:00.056062+08:00",
+  "generated_at": "2026-08-09T06:31:29.211562+08:00",
   "counts": {
     "papers": 30,
     "projects": 18,
-    "news": 124
+    "news": 134
   },
   "items": {
     "papers": [
@@ -651,10 +651,21 @@
     "news": [
       {
         "category": "news",
+        "title": "YouTube Mistakenly Penalizes Kurzgesagt for AI-Generated Slop",
+        "url": "https://kotaku.com/youtube-mistakenly-penalizes-popular-science-channel-kurzgesagt-for-ai-generated-slop-2000722702",
+        "normalized_url": "https://kotaku.com/youtube-mistakenly-penalizes-popular-science-channel-kurzgesagt-for-ai-generated-slop-2000722702",
+        "summary": "HN points: 13, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-08-08T20:47:57Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
         "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
         "normalized_url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral",
-        "summary": "HN points: 291, comments: 140",
+        "summary": "HN points: 409, comments: 193",
         "source": "Hacker News",
         "published": "2026-08-08T18:09:31Z",
         "importance_hint": 3,
@@ -665,7 +676,7 @@
         "title": "TinySol, a tiny solitaire game for DOS",
         "url": "https://classicbits.net/coding-and-software/my-software/monosol/",
         "normalized_url": "https://classicbits.net/coding-and-software/my-software/monosol",
-        "summary": "HN points: 22, comments: 4",
+        "summary": "HN points: 36, comments: 7",
         "source": "Hacker News",
         "published": "2026-08-08T17:42:40Z",
         "importance_hint": 3,
@@ -676,7 +687,7 @@
         "title": "Fastmail offers EU data region",
         "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
         "normalized_url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region",
-        "summary": "HN points: 225, comments: 104",
+        "summary": "HN points: 274, comments: 121",
         "source": "Hacker News",
         "published": "2026-08-08T16:04:51Z",
         "importance_hint": 3,
@@ -687,7 +698,7 @@
         "title": "OpenAI Trained Models While They Were Coordinating Exploits via Message Boards",
         "url": "https://thezvi.substack.com/p/openai-trained-its-models-for-months",
         "normalized_url": "https://thezvi.substack.com/p/openai-trained-its-models-for-months",
-        "summary": "HN points: 21, comments: 7",
+        "summary": "HN points: 25, comments: 9",
         "source": "Hacker News, Hacker News",
         "published": "2026-08-08T15:39:29Z",
         "importance_hint": 5,
@@ -698,7 +709,7 @@
         "title": "Message your other Claude Code sessions",
         "url": "https://code.claude.com/docs/en/cross-session-messaging",
         "normalized_url": "https://code.claude.com/docs/en/cross-session-messaging",
-        "summary": "HN points: 17, comments: 8",
+        "summary": "HN points: 32, comments: 14",
         "source": "Hacker News",
         "published": "2026-08-08T15:34:49Z",
         "importance_hint": 3,
@@ -709,7 +720,7 @@
         "title": "Sensitive Info Goes into 'No Reply' Emails Constantly. This Guy Sees It All",
         "url": "https://www.wired.com/story/sensitive-info-goes-into-no-reply-emails-constantly-this-guy-sees-it-all/",
         "normalized_url": "https://www.wired.com/story/sensitive-info-goes-into-no-reply-emails-constantly-this-guy-sees-it-all",
-        "summary": "HN points: 34, comments: 8",
+        "summary": "HN points: 38, comments: 8",
         "source": "Hacker News",
         "published": "2026-08-08T14:07:06Z",
         "importance_hint": 3,
@@ -720,7 +731,7 @@
         "title": "Gentoo bugzilla closed due AI bot scraper overload",
         "url": "https://social.treehouse.systems/@mgorny/117058483039362779",
         "normalized_url": "https://social.treehouse.systems/@mgorny/117058483039362779",
-        "summary": "HN points: 132, comments: 88",
+        "summary": "HN points: 145, comments: 100",
         "source": "Hacker News",
         "published": "2026-08-08T13:55:42Z",
         "importance_hint": 3,
@@ -731,7 +742,7 @@
         "title": "A domain can now say it is for sale, in DNS",
         "url": "https://specification.website/spec/foundations/for-sale-dns/",
         "normalized_url": "https://specification.website/spec/foundations/for-sale-dns",
-        "summary": "HN points: 270, comments: 117",
+        "summary": "HN points: 306, comments: 124",
         "source": "Hacker News",
         "published": "2026-08-08T13:26:51Z",
         "importance_hint": 3,
@@ -742,7 +753,7 @@
         "title": "Auto Mode will be the default in Claude Code – because humans can't be trusted",
         "url": "https://thenewstack.io/claude-code-auto-mode/",
         "normalized_url": "https://thenewstack.io/claude-code-auto-mode",
-        "summary": "HN points: 15, comments: 4",
+        "summary": "HN points: 16, comments: 4",
         "source": "Hacker News",
         "published": "2026-08-08T11:35:06Z",
         "importance_hint": 3,
@@ -777,7 +788,7 @@
         "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
         "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
         "normalized_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
-        "summary": "HN points: 328, comments: 102",
+        "summary": "HN points: 348, comments: 107",
         "source": "Hacker News, Google DeepMind",
         "published": "2026-08-08T09:18:50Z",
         "importance_hint": 5,
@@ -792,17 +803,6 @@
         "source": "Hacker News",
         "published": "2026-08-08T07:41:28Z",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Mythos social engineering AISI INC-2026-07-28-01",
-        "url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-        "normalized_url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-        "summary": "HN points: 79, comments: 19",
-        "source": "Hacker News",
-        "published": "2026-08-08T03:41:56Z",
-        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -1262,6 +1262,19 @@
       },
       {
         "category": "news",
+        "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+        "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+        "normalized_url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s",
+        "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+        "source": "TechCrunch AI",
+        "published": "2026-08-08T21:24:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "OpenAI acquires presentation startup NextSlide",
         "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
         "normalized_url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
@@ -1373,19 +1386,6 @@
         "source": "TechCrunch AI",
         "published": "2026-08-06T17:34:42+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-        "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-        "normalized_url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company",
-        "summary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
-        "source": "TechCrunch AI",
-        "published": "2026-08-06T17:00:37+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1782,6 +1782,136 @@
       },
       {
         "category": "news",
+        "title": "Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run",
+        "url": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run",
+        "summary": "Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and Stanford University released Shepherd, an MIT-licensed Python runtime substrate that records every agent-environment interaction as a typed event in a Git-like execution trace. Each",
+        "source": "MarkTechPost",
+        "published": "2026-08-08T20:54:49+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary",
+        "url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary",
+        "summary": "Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every baseline in its comparison panel returns 0.0 beyond 2M, and leads BFCL v4 at 70.94 while placing second on Terminal-Bench 2.1. Prefill reaches 137,200 tokens/s at full context on a single B200, with decode flat near 335 tokens/s. Weights are not published; deployment is licensed into VPC, on-premises, or",
+        "source": "MarkTechPost",
+        "published": "2026-08-08T17:04:39+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
+        "url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export",
+        "summary": "Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point datasets and real-time streaming to creating custom mark plugins and exporting publication-ready visuals. The post Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-08-08T09:42:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+        "url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b",
+        "summary": "Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy. Operators supply the policy as a plain-language query at inference time and get back a calibrated safety score from one forward pass — no retraining required to re-target the model. Built on Ministral-3-3B-Base-2512 with a Pixtral vision encoder and trained on roughly 54.1M samples, it reports 84.9% ",
+        "source": "MarkTechPost",
+        "published": "2026-08-08T04:36:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents",
+        "url": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0",
+        "summary": "Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph. It is MIT-licensed, self-hosted via Docker, and integrates with Claude Code, OpenClaw, Hermes and CodeBuddy. The differentiator is not retrieval but governance: ACL-based visibility decides which agent gets which asset, and which version is valid. The post Tencent Cloud Open-Sources Tenc",
+        "source": "MarkTechPost",
+        "published": "2026-08-07T21:52:48+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever, Hosted NIMs, LanceDB, Reranking, and Grounded Generation",
+        "url": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation",
+        "summary": "In this tutorial, we build an advanced multimodal retrieval-augmented generation pipeline with NVIDIA NeMo Retriever. We begin by configuring a Python 3.12 environment, installing the required packages, and performing offline PDF text extraction without relying on a GPU or external API key. We then extend the workflow with hosted NVIDIA NIM endpoints to detect page […] The post Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever, Hosted NIMs, LanceDB, Reranking, and Grounded Generation",
+        "source": "MarkTechPost",
+        "published": "2026-08-07T21:13:38+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class",
+        "url": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework",
+        "summary": "NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework for building AI agents. Agent development today is split across prompt templates, tool schemas, callback code, and workflow graphs. NOOA collapses all of it into one Python class. Methods are the actions the model can take. Fields are agent state. Docstrings are prompts. […] The post NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class app",
+        "source": "MarkTechPost",
+        "published": "2026-08-07T20:42:02+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot",
+        "url": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator",
+        "summary": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository. It reads a repository before writing anything — detecting the language, test framework, existing conventions, and the real build and test commands — then plans, writes, runs and validates the tests it produces. On Microsoft's internal 152-task benchmark it completed 140 tasks against 120 for stock GitHub Copilot on the same model, with the gain concentrated almost ",
+        "source": "MarkTechPost",
+        "published": "2026-08-07T05:42:45+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights",
+        "url": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model",
+        "summary": "Liquid AI released LFM2.5-2.6B, an agentic model that plans, calls tools, and completes multi-step tasks entirely on-device. The 2.69B parameter model pairs 22 double-gated short convolution blocks with 8 GQA blocks across 30 layers, handles 131,072 tokens of context, and decodes at 220 tokens/s on an M5 Max in under 2.5 GB. Open weights ship in GGUF, MLX, and ONNX. The post Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights appeared firs",
+        "source": "MarkTechPost",
+        "published": "2026-08-07T03:42:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
+        "url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
+        "normalized_url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers",
+        "summary": "Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath. The browser drops human-facing features like tabs and extensions in favor of what agents need: machine-readable content, scalability, and isolation. Built in 12 weeks using Rust components like Blitz, Stylo, and Boa JS, it already passes 215,000+ Web Platform Tests. Benchmarks show 3.1–3.8× less CPU and 4.7–7.0× less memo",
+        "source": "MarkTechPost",
+        "published": "2026-08-06T19:35:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
         "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
         "normalized_url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h",
@@ -2120,12 +2250,12 @@
       },
       {
         "category": "news",
-        "title": "Is anyone else finding DeepSeek-V4-Flash unreliable for non-coding tasks?",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vikgrj/is_anyone_else_finding_deepseekv4flash_unreliable/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vikgrj/is_anyone_else_finding_deepseekv4flash_unreliable",
-        "summary": "(I am not a native speaker, written by myself, so please bear with me) I really want to like DeepSeek-V4-Flash-0731. But it has serious flaws that don't align with the high score on intelligence benchmarks. And those flaws render it useless unfortunetely for anything else except, maybe, coding. It fails in subtleties that seem small but are crucial, and fails in more obvious tasks that should be easy to solve. Those errors make it unreliable enough for me to not even trust it the simplest tasks ",
+        "title": "Showoff Saturday: Local 4x 6000 Pro (multi-year progression)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear",
+        "summary": "Not the biggest or shiniest, but it's mine From gaming machine inference on the original llama models, to a 4x RTX 6000 Pro Max Q + 4x 3090s local AI cluster. Pictures are in reverse chronological order! With the pricing apocalypse meaning less builds shared here recently, thought I'd put mine out there with a multi-year picture progression since I always enjoyed these. Goals/motivation: (1) run locally, (2) keep my private keys/data out of the cloud, and (3) inspiration for learning. Build Time",
         "source": "r/LocalLLaMA",
-        "published": "2026-08-08T02:53:36+00:00",
+        "published": "2026-08-08T17:04:42+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2133,12 +2263,12 @@
       },
       {
         "category": "news",
-        "title": "Showoff Saturday: Local 4x 6000 Pro (multi-year progression)",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear",
-        "summary": "Not the biggest or shiniest, but it's mine From gaming machine inference on the original llama models, to a 4x RTX 6000 Pro Max Q + 4x 3090s local AI cluster. Pictures are in reverse chronological order! With the pricing apocalypse meaning less builds shared here recently, thought I'd put mine out there with a multi-year picture progression since I always enjoyed these. Goals/motivation: (1) run locally, (2) keep my private keys/data out of the cloud, and (3) inspiration for learning. Build Time",
+        "title": "Is anyone else finding DeepSeek-V4-Flash unreliable for non-coding tasks?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vikgrj/is_anyone_else_finding_deepseekv4flash_unreliable/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vikgrj/is_anyone_else_finding_deepseekv4flash_unreliable",
+        "summary": "(I am not a native speaker, written by myself, so please bear with me) I really want to like DeepSeek-V4-Flash-0731. But it has serious flaws that don't align with the high score on intelligence benchmarks. And those flaws render it useless unfortunetely for anything else except, maybe, coding. It fails in subtleties that seem small but are crucial, and fails in more obvious tasks that should be easy to solve. Those errors make it unreliable enough for me to not even trust it the simplest tasks ",
         "source": "r/LocalLLaMA",
-        "published": "2026-08-08T17:04:42+00:00",
+        "published": "2026-08-08T02:53:36+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2159,13 +2289,13 @@
       },
       {
         "category": "news",
-        "title": "Qwen 3.6 27B flags/settings in llama.cpp",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vida0h/qwen_36_27b_flagssettings_in_llamacpp/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vida0h/qwen_36_27b_flagssettings_in_llamacpp",
-        "summary": "I run the following on a 5090 and have been okay with its performance, it does most things somewhere 80-100 t/s, though that can slow down at full 262k context - more like 40 t/s at times. I use it primarily in appdev tasks. This just barely fits in the 5090, no vision, with very very little room to spare. The batch sizes (-b / -ub) I had at a much different number initially, but bracketing my coding tests settled there for the best performance with the best output. I see that a lot of people ha",
+        "title": "I got tired of my 300GB model loads taking 5min on RPC. PR 26291 speeds it 300% to 1min30sec (4060ti+ddr4) + (4060ti+ddr5)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vilcil/i_got_tired_of_my_300gb_model_loads_taking_5min/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vilcil/i_got_tired_of_my_300gb_model_loads_taking_5min",
+        "summary": "- On b10173 - \"state\":\"loading\" 4min54sec. - With this PR and GGML_RPC_LOAD_THREADS 12 - \"state\":\"loading\" 1min38sec Interestingly the biggest bottleneck wasnt networking, disk IO, or any of that pci gen2/3/4... It was 1 CPU thread doing all the work while the others sat idle during the model load. This handles _part_ of the problem, but there is still room for more noted in comments. https://github.com/ggml-org/llama.cpp/pull/26291 The PR is close to ready, will need a docs change if they want ",
         "source": "r/LocalLLaMA",
-        "published": "2026-08-07T21:25:24+00:00",
-        "importance_hint": 3,
+        "published": "2026-08-08T03:37:37+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
