@@ -1,10 +1,10 @@
 {
   "date": "2026-08-20",
-  "generated_at": "2026-08-20T04:51:05.328341+08:00",
+  "generated_at": "2026-08-20T06:26:54.146340+08:00",
   "counts": {
     "papers": 40,
-    "projects": 21,
-    "news": 139
+    "projects": 20,
+    "news": 130
   },
   "items": {
     "papers": [
@@ -564,19 +564,6 @@
       },
       {
         "category": "projects",
-        "title": "akitaonrails/ai-memory ⭐+609/天",
-        "url": "https://github.com/akitaonrails/ai-memory",
-        "normalized_url": "https://github.com/akitaonrails/ai-memory",
-        "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors （GitHub Trending · 今日 +609 star）",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars_today": "609"
-        }
-      },
-      {
-        "category": "projects",
         "title": "mattpocock/skills ⭐+1,214/天",
         "url": "https://github.com/mattpocock/skills",
         "normalized_url": "https://github.com/mattpocock/skills",
@@ -799,6 +786,28 @@
     "news": [
       {
         "category": "news",
+        "title": "OpenAI's Unraveling Has Begun",
+        "url": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
+        "normalized_url": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
+        "summary": "HN points: 19, comments: 6",
+        "source": "Hacker News",
+        "published": "2026-08-19T21:00:57Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Human brain organoids record the passage of time over multiple years",
+        "url": "https://www.nature.com/articles/s41586-026-10877-x",
+        "normalized_url": "https://www.nature.com/articles/s41586-026-10877-x",
+        "summary": "HN points: 12, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-08-19T20:07:06Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Daily Reminder to Not Listen to Google's AI Overview",
         "url": "https://whatever.scalzi.com/2026/08/19/daily-reminder-to-not-listen-to-googles-ai-overview/",
         "normalized_url": "https://whatever.scalzi.com/2026/08/19/daily-reminder-to-not-listen-to-googles-ai-overview",
@@ -810,21 +819,10 @@
       },
       {
         "category": "news",
-        "title": "Ramp Launches a Model Router",
-        "url": "https://router.com",
-        "normalized_url": "https://router.com",
-        "summary": "HN points: 46, comments: 19",
-        "source": "Hacker News",
-        "published": "2026-08-19T19:26:18Z",
-        "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
         "title": "X's algorithm feeds off ragebait and impacts Democrats more, study finds",
         "url": "https://www.404media.co/xs-algorithm-feeds-off-ragebait-and-impacts-democrats-more-study-finds/",
         "normalized_url": "https://www.404media.co/xs-algorithm-feeds-off-ragebait-and-impacts-democrats-more-study-finds",
-        "summary": "HN points: 15, comments: 2",
+        "summary": "HN points: 16, comments: 4",
         "source": "Hacker News",
         "published": "2026-08-19T19:13:47Z",
         "importance_hint": 3,
@@ -846,7 +844,7 @@
         "title": "Cop Explains Why He Used License Plate Reader to Stalk Woman",
         "url": "https://www.404media.co/i-saw-a-shiny-thing-cop-explains-why-he-used-license-plate-reader-to-stalk-woman/",
         "normalized_url": "https://www.404media.co/i-saw-a-shiny-thing-cop-explains-why-he-used-license-plate-reader-to-stalk-woman",
-        "summary": "HN points: 47, comments: 30",
+        "summary": "HN points: 54, comments: 42",
         "source": "Hacker News",
         "published": "2026-08-19T17:50:35Z",
         "importance_hint": 3,
@@ -857,7 +855,7 @@
         "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
         "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
         "normalized_url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
-        "summary": "HN points: 82, comments: 17",
+        "summary": "HN points: 175, comments: 50",
         "source": "Hacker News",
         "published": "2026-08-19T17:47:29Z",
         "importance_hint": 4,
@@ -868,7 +866,7 @@
         "title": "Best Buy 'Repaired' a 64GB Laptop by Making It 32GB",
         "url": "https://www.extremetech.com/computing/best-buy-repaired-a-64gb-laptop-by-making-it-32gb",
         "normalized_url": "https://www.extremetech.com/computing/best-buy-repaired-a-64gb-laptop-by-making-it-32gb",
-        "summary": "HN points: 24, comments: 1",
+        "summary": "HN points: 29, comments: 3",
         "source": "Hacker News",
         "published": "2026-08-19T17:17:44Z",
         "importance_hint": 3,
@@ -879,7 +877,7 @@
         "title": "Show HN: Frugal Tokens – explore costs and usage across coding agents",
         "url": "https://demo.frugaltokens.com/",
         "normalized_url": "https://demo.frugaltokens.com",
-        "summary": "HN points: 23, comments: 6",
+        "summary": "HN points: 25, comments: 6",
         "source": "Hacker News",
         "published": "2026-08-19T17:07:35Z",
         "importance_hint": 4,
@@ -890,7 +888,7 @@
         "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
         "url": "https://github.com/onecli/onecli",
         "normalized_url": "https://github.com/onecli/onecli",
-        "summary": "HN points: 39, comments: 12",
+        "summary": "HN points: 45, comments: 14",
         "source": "Hacker News",
         "published": "2026-08-19T16:29:02Z",
         "importance_hint": 4,
@@ -901,7 +899,7 @@
         "title": "Extensible Software in the age of LLMs",
         "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
         "normalized_url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms",
-        "summary": "HN points: 78, comments: 35",
+        "summary": "HN points: 89, comments: 40",
         "source": "Hacker News",
         "published": "2026-08-19T16:26:05Z",
         "importance_hint": 3,
@@ -909,10 +907,10 @@
       },
       {
         "category": "news",
-        "title": "Chain-of-Thought Reasoning in the Wild Is Not Always Faithful",
+        "title": "Chain-of-Thought Reasoning in the Wild Is Not Always Faithful (2025)",
         "url": "https://arxiv.org/abs/2503.08679",
         "normalized_url": "https://arxiv.org/abs/2503.08679",
-        "summary": "HN points: 52, comments: 30",
+        "summary": "HN points: 56, comments: 35",
         "source": "Hacker News",
         "published": "2026-08-19T16:18:57Z",
         "importance_hint": 4,
@@ -923,7 +921,7 @@
         "title": "Mathematics in the age of AI",
         "url": "https://arxiv.org/abs/2608.16753",
         "normalized_url": "https://arxiv.org/abs/2608.16753",
-        "summary": "HN points: 71, comments: 49",
+        "summary": "HN points: 96, comments: 76",
         "source": "Hacker News",
         "published": "2026-08-19T15:14:25Z",
         "importance_hint": 3,
@@ -937,28 +935,6 @@
         "summary": "HN points: 20, comments: 20",
         "source": "Hacker News",
         "published": "2026-08-19T13:28:44Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Devices with GrapheneOS support should be available in 2027",
-        "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
-        "normalized_url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
-        "summary": "HN points: 546, comments: 346",
-        "source": "Hacker News",
-        "published": "2026-08-19T11:46:58Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "A joke domain purchase turned in geopolitical warfare",
-        "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-        "normalized_url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war",
-        "summary": "HN points: 602, comments: 80",
-        "source": "Hacker News",
-        "published": "2026-08-19T11:21:50Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -1419,6 +1395,32 @@
       },
       {
         "category": "news",
+        "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+        "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+        "normalized_url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+        "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+        "source": "TechCrunch AI",
+        "published": "2026-08-19T22:10:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+        "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+        "normalized_url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup",
+        "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+        "source": "TechCrunch AI",
+        "published": "2026-08-19T21:51:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "AI was supposed to win people over by now — it hasn’t",
         "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
         "normalized_url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
@@ -1517,32 +1519,6 @@
         "source": "TechCrunch AI",
         "published": "2026-08-19T12:00:00+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
-        "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
-        "normalized_url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers",
-        "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
-        "source": "TechCrunch AI",
-        "published": "2026-08-19T10:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-        "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-        "normalized_url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform",
-        "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
-        "source": "TechCrunch AI",
-        "published": "2026-08-18T22:14:25+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1747,7 +1723,7 @@
         "title": "From AI Copilots to Agent Swarms",
         "url": "https://spectrum.ieee.org/amd-agent-swarms",
         "normalized_url": "https://spectrum.ieee.org/amd-agent-swarms",
-        "summary": "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging code, and testing the software. At the time, we were hoping for a 25 percent productivity boost from AI use over the course of two or three years. But with each new release, the capabilities of Large Language Models (LL",
+        "summary": "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging code, and testing the software. At the time, we were hoping for a 25 percent productivity boost from AI use over the course of two or three years. But with each new release, the capabilities of large language models (LL",
         "source": "IEEE Spectrum AI",
         "published": "2026-08-17T14:00:01+00:00",
         "importance_hint": 4,
@@ -1922,110 +1898,6 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "NVIDIA Releases TensorRT Model Connect in Public Preview: Hugging Face Checkpoint to Native C++ Inference in Two Commands",
-        "url": "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands",
-        "summary": "NVIDIA has released TensorRT Model Connect (TRTMC) in public preview, an Apache-2.0 project that takes a supported Hugging Face or local checkpoint to end-to-end TensorRT inference in two commands, with no intermediate ONNX export. The build emits a versioned .bundle artifact that runs through native C++ task APIs, so inference executes without PyTorch in the runtime path. NVIDIA's July 29, 2026 GB300 snapshot covers 105 release profiles across 76 model families. The post NVIDIA Releases TensorR",
-        "source": "MarkTechPost",
-        "published": "2026-08-18T21:49:04+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meet SAM (Sovereign Agent Mesh): A Zero-Config, Zero-Trust P2P Network for AI Agents",
-        "url": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents",
-        "summary": "Google has open-sourced SAM (Sovereign Agent Mesh) under Apache-2.0 — and it has nothing to do with Segment Anything. SAM is a zero-config, zero-trust P2P overlay that lets autonomous agents discover and call each other's MCP tools across cloud, on-prem, laptop and edge environments, without exposing a single internal endpoint to the public internet. Identity flows from OIDC into Biscuit capability tokens, so nodes authorize every request offline under a strict default-deny model. The post Meet ",
-        "source": "MarkTechPost",
-        "published": "2026-08-18T13:29:10+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Cartesia Ships Sonic-3.6: A Streaming TTS Model That Now Leads Both Artificial Analysis Speech Arenas",
-        "url": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas",
-        "summary": "Cartesia has released Sonic-3.6, a streaming text-to-speech model built on state space models rather than transformers. It now ranks #1 on both Artificial Analysis speech leaderboards — 1,283 Elo on Provider Voice and 1,123 on Controlled Voice, the board that clones every model onto the same eight reference voices to isolate the synthesis engine. Cartesia states sub-90ms time-to-first-audio. The model is available in beta on Cartesia's own API The post Cartesia Ships Sonic-3.6: A Streaming TTS M",
-        "source": "MarkTechPost",
-        "published": "2026-08-18T10:37:49+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots",
-        "url": "https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode",
-        "summary": "Nous Research has shipped Bot Mode for Hermes Agent, its MIT-licensed open source agent. Bot Mode replaces the single-agent session list with a roster of named bots. Each bot is a real Hermes profile, with its own chat, memory, skills, and pinned model. It is now bundled and default-on in Hermes Desktop. The post Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-08-18T02:05:28+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
-        "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation",
-        "summary": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler. The gap it targets is narrow but stubborn: frontier models already produce correct CUDA, they just produce slow CUDA. On KernelBench, the base model Seed1.6 passes 74.0% […] The post ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation appeared first on MarkTech",
-        "source": "MarkTechPost",
-        "published": "2026-08-18T01:10:28+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
-        "url": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3",
-        "summary": "MiniMax released MiniMax-Music3, an open-weights text-to-music model. Given lyrics with section tags and a structured caption, it generates a complete song of up to five minutes in a single pass, as 32 kHz, 16-bit stereo WAV. Here is the architecture, the three serving paths, and the license conditions that matter before you ship. The post MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption appeared first on Mark",
-        "source": "MarkTechPost",
-        "published": "2026-08-17T18:36:40+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
-        "url": "https://www.marktechpost.com/2026/08/17/end-to-end-document-intelligence-pipeline-with-doctr-for-ocr/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/17/end-to-end-document-intelligence-pipeline-with-doctr-for-ocr",
-        "summary": "Develop a complete document intelligence pipeline with docTR, integrating OCR, layout analysis, and KIE for production-oriented extraction and searchable PDF creation. The post Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-08-17T17:52:50+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
-        "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview",
-        "summary": "DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing. The post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-08-17T09:06:32+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
         }
       },
       {
@@ -2459,38 +2331,12 @@
       },
       {
         "category": "news",
-        "title": "DFlash 2 available for Qwen 3.8 27B and Muse Glimmer",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs2tsn/dflash_2_available_for_qwen_38_27b_and_muse/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs2tsn/dflash_2_available_for_qwen_38_27b_and_muse",
-        "summary": "Apparently a second version of DFlash from the original authors of DFlash GGUF quants are already made available with an accompanying llama.cpp PR: https://github.com/ggml-org/llama.cpp/pull/27342 submitted by /u/rerri [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-08-18T21:36:48+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "We have Q3.8 35B at home: 3x new Ornith 1.5 released",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released",
         "summary": "Anyone tried them yet? https://huggingface.co/ornith-ai/Ornith-1.5-9B https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B https://huggingface.co/ornith-ai/Ornith-1.5-397B https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF https://huggingface.co/ornith-ai/Ornith-1.5-397B-GGUF Disclaimer: Not affiliated with ornith. I just surf huggingface for new models every 30m or so. I'm addicted. submitted by /u/AppealSame4367 [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-08-19T13:53:01+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "GLM5.3 Artificial Analysis Benchmarks",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs3joh/glm53_artificial_analysis_benchmarks/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs3joh/glm53_artificial_analysis_benchmarks",
-        "summary": "submitted by /u/anderspitman [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-08-18T22:05:13+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -2505,6 +2351,32 @@
         "source": "r/LocalLLaMA",
         "published": "2026-08-19T04:39:19+00:00",
         "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "updated unsloth/Qwen3.8-27B-GGUF · Hugging Face",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsmdni/updated_unslothqwen3827bgguf_hugging_face/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsmdni/updated_unslothqwen3827bgguf_hugging_face",
+        "summary": "looks like GGUF files were just updated submitted by /u/jacek2023 [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-08-19T13:25:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Ornith-1.5 (397B [DeepSWE 56], 35B-A3B, 9B)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b",
+        "summary": "Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-improving strategies. It achieves state-of-the-art performance among open-source models of comparable size and delivers performance comparable to Claude Opus 4.8 across reasoning, agentic, and coding tasks: ✅Terminal-Bench 2.1 (86.1) ✅SWE-Bench (86 on verified, 65.1 on pro, 79.6 on Multilingual) ✅DeepSWE (56) ✅HLE (44.6) ✅ClawEval (81.4) ✅Tool Decathlon (71.2) https://huggingf",
+        "source": "r/LocalLLaMA",
+        "published": "2026-08-19T14:58:07+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
