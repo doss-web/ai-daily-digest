@@ -16,14 +16,48 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-08-24 周一</title>
-      <description>抱歉，我看到你提供的简报里只有标题和生成说明，实际的新闻条目内容好像没有贴进来，是空的。
-能把那几条 AI 行业的重点新闻正文发给我吗？我拿到具体内容后，马上帮你改写成口语化的播报稿，包含开场问候、今天的看点、主题串讲和“今日观察”收尾，控制在 600 到 1000 字，适合通勤路上收听的那种节奏。</description>
-      <itunes:summary>抱歉，我看到你提供的简报里只有标题和生成说明，实际的新闻条目内容好像没有贴进来，是空的。
-能把那几条 AI 行业的重点新闻正文发给我吗？我拿到具体内容后，马上帮你改写成口语化的播报稿，包含开场问候、今天的看点、主题串讲和“今日观察”收尾，控制在 600 到 1000 字，适合通勤路上收听的那种节奏。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-24.mp3" length="157968" type="audio/mpeg"/>
+      <description>AI 每日简报，周一，2026-08-24。以下是今天的重点。
+行业新闻。
+发生了什么。过去一周刷屏的匿名模型 Ox Alpha 以强 coding 与 agentic 能力引发社区狂欢，并限时免费开放。量子位通过 tokenizer、视频编码方式、API 报错等工程细节，判断它带有智谱 GLM 家族血缘；smol.ai AINews 进一步推断其基于 743B 的 GLM-5.2 底座，加上 SAO 等长程任务增强，收益来自 post-training 与基础设施而非单纯参数量。TechCrunch 同日也发文追问其真实身份。
+为什么重要。一个匿名模型能靠性能引发全球讨论，说明中文开源模型的 post-training 已经和闭源前沿同台竞争；对 builder 来说，GLM-5.3 系正式开放后很可能成为 agent 任务的低成本新默认选项。
+关联动态。这与&quot;Anthropic 旗舰模型被便宜工具分流&quot;是同一条产业趋势的两面。
+发生了什么。Bloomberg 报道，三星、SK 海力士、美光持续 DRAM 短缺，采用 Vera Rubin 与 Grace Blackwell 芯片的 NVIDIA 服务器将涨价约 15%，直接冲击微软、谷歌、Meta 等正在投入数十亿美元建设 AI 基础设施的云巨头。量子位同题报道补充了 1GW 数据中心成本激增 50 亿美元的具体账目。
+为什么重要。内存正在取代 GPU 成为 AI 基础设施最紧的瓶颈，涨价最终会传导到所有应用的 token 成本。AI builder 在规划长期项目时，应当把推理成本上浮纳入预算，并更积极地采用 KV cache 等成本优化手段。
+关联动态。同一天 NVIDIA 发布 KV cache 转移技术，方向恰好是&quot;省内存/省计算&quot;。
+发生了什么。Analyst Zilan Qian 的调查显示，Anthropic 对中国的地域封锁、自拍人脸验证等准入控制，正被一套完整的&quot;中转站&quot;网络系统性绕过。中国开发者能以官方标价约 10% 的价格买到 Claude token。
+为什么重要。这说明在开源模型快速进步的背景下，开发者的&quot;最好模型需求&quot;仍然强烈到值得冒险走灰色渠道。对做全球生意的团队而言，这也是一个警示：AI 领域的&quot;地理封锁&quot;护城河在供需压力下很容易失效，需要把安全与合规设计建立在更本质的层面。
+关联动态。与 Ox Alpha 刷屏并列看，中国开发者既在拥抱开源模型，也在追逐闭源最强的能力。
+发生了什么。OpenAI 此前反对 SB 53 法案，如今公开呼吁加州对其加强。同周 OpenAI 宣布为符合条件的 API 客户提供 Zero Data Retention（零数据保留），并预览 Private Safety Processing——在不牺牲数据隐私的前提下做高级 AI 安全审查。
+为什么重要。这是重要的监管信号：联邦立法停滞背景下，加州法案可能成为美国事实上的 AI 安全标准。OpenAI 从反对到支持的转向，说明前沿实验室正在主动塑造监管剧本，而不是被动应对。对 AI builder 而言，合规要求的变化会直接落到产品设计上。
+关联动态。TechCrunch 同日报道前沿实验室仍未公开 rogue model 的 containment 方案——表态积极，操作仍不透明。
+发生了什么。英国 AI 实验室 Inherent（由 DeepMind 校友创立）发布研究智能体 Faraday，声称在&quot;复现科学论文&quot;这一任务上超越了 Anthropic 和 OpenAI 的模型。Faraday 将论文复现视为创新的跳板——能复现，才能在复现基础上做改进。
+为什么重要。这是&quot;AI 做科研&quot;赛道从论文解读走向实验复现的信号。论文复现涉及长上下文理解、代码执行、实验验证等多环节，整个流程的工程实现方式对做科研自动化、长程 agent 的团队有参考价值。
+关联动态。同日有研究文章质疑&quot;AI 让科学家做更多工作但做得更差&quot;，科研自动化的价值需要被批判性审视。
+发生了什么。AWS 开源了 Dogwood 框架，目标是规范 agent 在真实业务环境中的工具调用——该调哪个工具、什么权限、如何审计。这是大厂第一次把&quot;工具调用治理&quot;作为独立框架开源。
+为什么重要。工具调用治理是 agen</description>
+      <itunes:summary>AI 每日简报，周一，2026-08-24。以下是今天的重点。
+行业新闻。
+发生了什么。过去一周刷屏的匿名模型 Ox Alpha 以强 coding 与 agentic 能力引发社区狂欢，并限时免费开放。量子位通过 tokenizer、视频编码方式、API 报错等工程细节，判断它带有智谱 GLM 家族血缘；smol.ai AINews 进一步推断其基于 743B 的 GLM-5.2 底座，加上 SAO 等长程任务增强，收益来自 post-training 与基础设施而非单纯参数量。TechCrunch 同日也发文追问其真实身份。
+为什么重要。一个匿名模型能靠性能引发全球讨论，说明中文开源模型的 post-training 已经和闭源前沿同台竞争；对 builder 来说，GLM-5.3 系正式开放后很可能成为 agent 任务的低成本新默认选项。
+关联动态。这与&quot;Anthropic 旗舰模型被便宜工具分流&quot;是同一条产业趋势的两面。
+发生了什么。Bloomberg 报道，三星、SK 海力士、美光持续 DRAM 短缺，采用 Vera Rubin 与 Grace Blackwell 芯片的 NVIDIA 服务器将涨价约 15%，直接冲击微软、谷歌、Meta 等正在投入数十亿美元建设 AI 基础设施的云巨头。量子位同题报道补充了 1GW 数据中心成本激增 50 亿美元的具体账目。
+为什么重要。内存正在取代 GPU 成为 AI 基础设施最紧的瓶颈，涨价最终会传导到所有应用的 token 成本。AI builder 在规划长期项目时，应当把推理成本上浮纳入预算，并更积极地采用 KV cache 等成本优化手段。
+关联动态。同一天 NVIDIA 发布 KV cache 转移技术，方向恰好是&quot;省内存/省计算&quot;。
+发生了什么。Analyst Zilan Qian 的调查显示，Anthropic 对中国的地域封锁、自拍人脸验证等准入控制，正被一套完整的&quot;中转站&quot;网络系统性绕过。中国开发者能以官方标价约 10% 的价格买到 Claude token。
+为什么重要。这说明在开源模型快速进步的背景下，开发者的&quot;最好模型需求&quot;仍然强烈到值得冒险走灰色渠道。对做全球生意的团队而言，这也是一个警示：AI 领域的&quot;地理封锁&quot;护城河在供需压力下很容易失效，需要把安全与合规设计建立在更本质的层面。
+关联动态。与 Ox Alpha 刷屏并列看，中国开发者既在拥抱开源模型，也在追逐闭源最强的能力。
+发生了什么。OpenAI 此前反对 SB 53 法案，如今公开呼吁加州对其加强。同周 OpenAI 宣布为符合条件的 API 客户提供 Zero Data Retention（零数据保留），并预览 Private Safety Processing——在不牺牲数据隐私的前提下做高级 AI 安全审查。
+为什么重要。这是重要的监管信号：联邦立法停滞背景下，加州法案可能成为美国事实上的 AI 安全标准。OpenAI 从反对到支持的转向，说明前沿实验室正在主动塑造监管剧本，而不是被动应对。对 AI builder 而言，合规要求的变化会直接落到产品设计上。
+关联动态。TechCrunch 同日报道前沿实验室仍未公开 rogue model 的 containment 方案——表态积极，操作仍不透明。
+发生了什么。英国 AI 实验室 Inherent（由 DeepMind 校友创立）发布研究智能体 Faraday，声称在&quot;复现科学论文&quot;这一任务上超越了 Anthropic 和 OpenAI 的模型。Faraday 将论文复现视为创新的跳板——能复现，才能在复现基础上做改进。
+为什么重要。这是&quot;AI 做科研&quot;赛道从论文解读走向实验复现的信号。论文复现涉及长上下文理解、代码执行、实验验证等多环节，整个流程的工程实现方式对做科研自动化、长程 agent 的团队有参考价值。
+关联动态。同日有研究文章质疑&quot;AI 让科学家做更多工作但做得更差&quot;，科研自动化的价值需要被批判性审视。
+发生了什么。AWS 开源了 Dogwood 框架，目标是规范 agent 在真实业务环境中的工具调用——该调哪个工具、什么权限、如何审计。这是大厂第一次把&quot;工具调用治理&quot;作为独立框架开源。
+为什么重要。工具调用治理是 agen</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-24.mp3" length="4882752" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-24.mp3</guid>
       <pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:26</itunes:duration>
+      <itunes:duration>13:33</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>

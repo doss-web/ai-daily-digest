@@ -1,10 +1,10 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T04:45:03.366939+08:00",
+  "generated_at": "2026-08-24T06:23:43.307352+08:00",
   "counts": {
     "papers": 30,
     "projects": 27,
-    "news": 115
+    "news": 112
   },
   "items": {
     "papers": [
@@ -868,17 +868,6 @@
       },
       {
         "category": "news",
-        "title": "NanoGPT Speedrun Frontier",
-        "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-        "normalized_url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-        "summary": "HN points: 127, comments: 31",
-        "source": "Hacker News",
-        "published": "2026-08-22T22:14:27Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
         "title": "「一次流片成功、全球首发多层DRAM堆叠」光羽芯辰首颗 3D 堆叠芯片正式开始量产部署",
         "url": "https://www.36kr.com/p/3951700909751433",
         "normalized_url": "https://www.36kr.com/p/3951700909751433",
@@ -1425,19 +1414,6 @@
       },
       {
         "category": "news",
-        "title": "Google Discover is getting an AI chatbot-tuned feed",
-        "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
-        "normalized_url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
-        "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your […]",
-        "source": "The Verge AI",
-        "published": "2026-08-20T21:50:22+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
         "title": "The Unlikely Place at the Center of China’s AI Boom",
         "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
         "normalized_url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom",
@@ -1744,19 +1720,6 @@
         "source": "MarkTechPost",
         "published": "2026-08-21T21:15:53+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text",
-        "url": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text/",
-        "normalized_url": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text",
-        "summary": "S1-mini is a 462 MB open-weights normalizer that sits after ASR, removing fillers and resolving self-corrections locally. The post Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-08-20T22:23:17+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.marktechpost.com/feed/"
         }
