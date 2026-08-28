@@ -15,6 +15,19 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-08-28 周五</title>
+      <description>抱歉，今天的简报内容似乎没有完整发过来。我只收到了标题“AI Daily Digest - 2026-08-28”和一行生成说明，中间的具体条目是空的。
+麻烦把原始简报重新粘贴一下，我马上帮你改写成适合通勤收听的播报稿。</description>
+      <itunes:summary>抱歉，今天的简报内容似乎没有完整发过来。我只收到了标题“AI Daily Digest - 2026-08-28”和一行生成说明，中间的具体条目是空的。
+麻烦把原始简报重新粘贴一下，我马上帮你改写成适合通勤收听的播报稿。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-28.mp3" length="113328" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-28.mp3</guid>
+      <pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>00:18</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-08-27 周四</title>
       <description>早上好，各位通勤路上的朋友！今天是2026年8月27号，星期四。欢迎收听今天的AI行业播报，我是你们的主播。
 今天这期节目信息量非常大啊，从芯片到模型，从企业软件到开源生态，几个大新闻几乎同时落地。咱们闲话少叙，抓紧时间进入正题。
@@ -463,25 +476,6 @@ OpenAI这边也有大动作。它一改之前的态度，公开呼吁加州要�
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-14.mp3</guid>
       <pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate>
       <itunes:duration>08:21</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-08-13 周四</title>
-      <description>各位通勤路上的朋友，早上好！今天是2026年8月13号，星期四。欢迎收听今天的AI行业播报。
-不过今天开场有点小状况——早上我打开每日简报，结果数据源那边一片空白，一个字都没传上来，估计是哪个抓取脚本凌晨偷偷摸鱼了。既然没有现成的新闻念，咱就不走寻常路，我干脆跟大家聊聊最近这段时间AI行业反复出现、绕不开的几个大主题。
-第一个，还是大模型本身。经过前两年的狂热和调整，行业基本形成共识：光拼参数规模已经没多大意思了，现在比的是推理能力、使用成本，还有谁能把模型真正塞进业务场景。头部厂商的节奏都转向了把模型做得更小、更快、更便宜，让更多中小企业也用得起。
-第二个，是AI应用的落地潮。前两年大家还在问AI能干什么，今年已经在琢磨怎么把AI变成实打实的收入和效率了。客服、编程、内容生产、法律文书、医疗辅助，几乎每个垂直行业都在打磨自己的AI工作流。资本市场的态度也很直接：有营收的AI公司，比只有故事的AI公司值钱得多。
-第三个，是算力和能源基建。别看大众天天聊应用，真正卡脖子的还是芯片和电力。业内有种说法，未来AI的竞争</description>
-      <itunes:summary>各位通勤路上的朋友，早上好！今天是2026年8月13号，星期四。欢迎收听今天的AI行业播报。
-不过今天开场有点小状况——早上我打开每日简报，结果数据源那边一片空白，一个字都没传上来，估计是哪个抓取脚本凌晨偷偷摸鱼了。既然没有现成的新闻念，咱就不走寻常路，我干脆跟大家聊聊最近这段时间AI行业反复出现、绕不开的几个大主题。
-第一个，还是大模型本身。经过前两年的狂热和调整，行业基本形成共识：光拼参数规模已经没多大意思了，现在比的是推理能力、使用成本，还有谁能把模型真正塞进业务场景。头部厂商的节奏都转向了把模型做得更小、更快、更便宜，让更多中小企业也用得起。
-第二个，是AI应用的落地潮。前两年大家还在问AI能干什么，今年已经在琢磨怎么把AI变成实打实的收入和效率了。客服、编程、内容生产、法律文书、医疗辅助，几乎每个垂直行业都在打磨自己的AI工作流。资本市场的态度也很直接：有营收的AI公司，比只有故事的AI公司值钱得多。
-第三个，是算力和能源基建。别看大众天天聊应用，真正卡脖子的还是芯片和电力。业内有种说法，未来AI的竞争</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-13.mp3" length="548496" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-13.mp3</guid>
-      <pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>01:31</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
