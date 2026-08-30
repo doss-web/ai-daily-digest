@@ -15,6 +15,19 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-08-31 周一</title>
+      <description>抱歉，我注意到你发来的简报里只有标题和生成标注，没有包含具体的新闻条目内容。
+麻烦把完整的简报正文（包括各条新闻标题和摘要）重新发给我，我会立刻帮你改写成今天 2026-08-31 的口语化播报稿。</description>
+      <itunes:summary>抱歉，我注意到你发来的简报里只有标题和生成标注，没有包含具体的新闻条目内容。
+麻烦把完整的简报正文（包括各条新闻标题和摘要）重新发给我，我会立刻帮你改写成今天 2026-08-31 的口语化播报稿。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-31.mp3" length="106992" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-31.mp3</guid>
+      <pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>00:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-08-30 周日</title>
       <description>AI 每日简报，周日，2026-08-30。以下是今天的重点。
 行业新闻。
@@ -469,19 +482,6 @@ OpenAI这边也有大动作。它一改之前的态度，公开呼吁加州要�
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-17.mp3</guid>
       <pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate>
       <itunes:duration>09:51</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-08-16 周日</title>
-      <description>抱歉，您提供的简报正文内容似乎为空——只有日期和页脚，没有任何实际的新闻条目。我无法基于空白内容来改写播报稿。
-请您把今天要播报的具体条目（比如公司动态、模型发布、政策消息等）发给我，我会立刻按您要求的口语化风格，生成一篇 600 到 1000 字、适合 4 到 6 分钟收听的通勤播报稿。我们随时可以开始。</description>
-      <itunes:summary>抱歉，您提供的简报正文内容似乎为空——只有日期和页脚，没有任何实际的新闻条目。我无法基于空白内容来改写播报稿。
-请您把今天要播报的具体条目（比如公司动态、模型发布、政策消息等）发给我，我会立刻按您要求的口语化风格，生成一篇 600 到 1000 字、适合 4 到 6 分钟收听的通勤播报稿。我们随时可以开始。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-16.mp3" length="159696" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-16.mp3</guid>
-      <pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:26</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
