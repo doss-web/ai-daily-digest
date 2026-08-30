@@ -1,10 +1,10 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-30T06:42:21.002324+08:00",
+  "generated_at": "2026-08-30T07:56:34.771622+08:00",
   "counts": {
     "papers": 30,
     "projects": 26,
-    "news": 137
+    "news": 136
   },
   "items": {
     "papers": [
@@ -753,10 +753,21 @@
     "news": [
       {
         "category": "news",
+        "title": "Defrag98: Windows 98 Disk Defragmenter Simulator Online",
+        "url": "https://defrag98.com",
+        "normalized_url": "https://defrag98.com",
+        "summary": "HN points: 44, comments: 22",
+        "source": "Hacker News",
+        "published": "2026-08-29T22:51:17Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Domain-Driven Agents",
         "url": "https://coldtake.dev/blog/domain-driven-agents",
         "normalized_url": "https://coldtake.dev/blog/domain-driven-agents",
-        "summary": "HN points: 25, comments: 1",
+        "summary": "HN points: 34, comments: 5",
         "source": "Hacker News",
         "published": "2026-08-29T19:28:28Z",
         "importance_hint": 4,
@@ -767,7 +778,7 @@
         "title": "Warp builds self-improving agents on Claude",
         "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
         "normalized_url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-        "summary": "HN points: 52, comments: 49",
+        "summary": "HN points: 55, comments: 52",
         "source": "Hacker News",
         "published": "2026-08-29T19:09:33Z",
         "importance_hint": 4,
@@ -778,7 +789,7 @@
         "title": "LLMs are making me lose my savviness",
         "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/",
         "normalized_url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness",
-        "summary": "HN points: 50, comments: 54",
+        "summary": "HN points: 51, comments: 64",
         "source": "Hacker News",
         "published": "2026-08-29T18:38:52Z",
         "importance_hint": 3,
@@ -789,7 +800,7 @@
         "title": "vLLM v0.28.0",
         "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
         "normalized_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-        "summary": "HN points: 70, comments: 24",
+        "summary": "HN points: 84, comments: 30",
         "source": "Hacker News",
         "published": "2026-08-29T18:22:00Z",
         "importance_hint": 3,
@@ -811,7 +822,7 @@
         "title": "Claude Code is going reduce limits by 25% from September 14",
         "url": "https://twitter.com/ClaudeDevs/status/2093742321473065266",
         "normalized_url": "https://twitter.com/ClaudeDevs/status/2093742321473065266",
-        "summary": "HN points: 23, comments: 13",
+        "summary": "HN points: 24, comments: 13",
         "source": "Hacker News",
         "published": "2026-08-29T17:27:31Z",
         "importance_hint": 3,
@@ -822,7 +833,7 @@
         "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
         "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
         "normalized_url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-        "summary": "HN points: 191, comments: 35",
+        "summary": "HN points: 218, comments: 47",
         "source": "Hacker News",
         "published": "2026-08-29T17:19:47Z",
         "importance_hint": 3,
@@ -844,7 +855,7 @@
         "title": "The growing divide between AI hype and software engineering reality",
         "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
         "normalized_url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai",
-        "summary": "HN points: 59, comments: 73",
+        "summary": "HN points: 59, comments: 74",
         "source": "Hacker News",
         "published": "2026-08-29T16:16:32Z",
         "importance_hint": 3,
@@ -855,7 +866,7 @@
         "title": "Debian votes to allow \"responsible use of generative AI\"",
         "url": "https://lwn.net/Articles/1091231/",
         "normalized_url": "https://lwn.net/Articles/1091231",
-        "summary": "HN points: 465, comments: 419",
+        "summary": "HN points: 469, comments: 431",
         "source": "Hacker News",
         "published": "2026-08-29T14:02:10Z",
         "importance_hint": 3,
@@ -902,17 +913,6 @@
         "summary": "HN points: 39, comments: 25",
         "source": "Hacker News",
         "published": "2026-08-29T02:58:12Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "ASCII City: Traffic and Detail Update [video]",
-        "url": "https://www.youtube.com/watch?v=DSRooHo_HSI",
-        "normalized_url": "https://www.youtube.com/watch?v=DSRooHo_HSI",
-        "summary": "HN points: 13, comments: 0",
-        "source": "Hacker News",
-        "published": "2026-08-29T02:11:05Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -2069,19 +2069,6 @@
         "source": "Simon Willison",
         "published": "2026-08-26T08:07:55+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "EVE Online: The Move to Python 3 Begins!",
-        "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
-        "normalized_url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3",
-        "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for examp",
-        "source": "Simon Willison",
-        "published": "2026-08-25T22:59:30+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://simonwillison.net/atom/everything/"
         }
