@@ -16,14 +16,44 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-08-31 周一</title>
-      <description>抱歉，我注意到你发来的简报里只有标题和生成标注，没有包含具体的新闻条目内容。
-麻烦把完整的简报正文（包括各条新闻标题和摘要）重新发给我，我会立刻帮你改写成今天 2026-08-31 的口语化播报稿。</description>
-      <itunes:summary>抱歉，我注意到你发来的简报里只有标题和生成标注，没有包含具体的新闻条目内容。
-麻烦把完整的简报正文（包括各条新闻标题和摘要）重新发给我，我会立刻帮你改写成今天 2026-08-31 的口语化播报稿。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-31.mp3" length="106992" type="audio/mpeg"/>
+      <description>AI 每日简报，周一，2026-08-31。以下是今天的重点。
+行业新闻。
+发生了什么。OpenAI 在 SpaceX 完成对 Cursor 的收购后，宣布终止向其提供 OpenAI 模型的合同，官方声明中被点名的理由是马斯克&quot;有打破合同的历史&quot;。Cursor 联创 Michael Truell 随后淡化影响，称 OpenAI 模型仅占工具 AI 流量的 5%。这是 AI 模型供应商第一次以收购方背景为由，主动切断对下游开发工具的分销。
+为什么重要。无论 5% 这个数字是否为公关话术，这一决定都确立了模型层的&quot;上游权力&quot;——应用层公司的股权结构可以成为断供理由。对依赖单一模型供应商的 AI 工具，这是必须纳入风险模型的信号。
+关联动态。Cursor 被切断后势必更依赖 Anthropic 系模型，而 Anthropic 今天正被两大音乐出版集团起诉——下游的议价空间并没有变大。
+发生了什么。索尼音乐出版（Sony Music Publishing）与华纳查普尔（Warner Chappell）在北加州联邦法院起诉 Anthropic 及其 CEO Dario Amodei，指控其用&quot;数万首&quot;受版权保护的音乐作品训练 Claude，每件作品索赔最高 15 万美元，加上移除版权管理信息每次最高 2.5 万美元。原告称这是&quot;历史上最大规模、最明目张胆的知识产权盗窃之一&quot;。就在几个月前，Anthropic 刚以 15 亿美元与图书作者达成和解。
+为什么重要。将 CEO 列为个人被告在 AI 版权诉讼中罕见，意味着原告试图突破&quot;公司责任&quot;的防火墙。对任何用大规模数据训练模型的团队，这条案子的走向都是风向标。
+关联动态。同一天 Anthropic 还在发布自我改进 AI 研究——技术前沿与法律风险同时加速，是这家公司当前状态的真实写照。
+发生了什么。Google Research 发布 WikiSkill 框架，Agent 在每次运行后把成功与失败经验写入一个 wiki 式的持久知识库，后续任务可以查询这些记录来避免重蹈覆辙，而不是每次从零开始。论文显示更大模型从 WikiSkill 中获益更多，但小模型 + WikiSkill 可以匹敌没有 WikiSkill 的大模型。
+为什么重要。这是 Agent 记忆问题的轻量级、架构无关的解法，不需要改权重，也不需要向量数据库的复杂管线，直接可作为技能层接入现有 Agent 系统。对任何在做多轮/长时任务的 builder，这是今天最值得读的框架。
+关联动态。同日另一篇研究显示 8B 模型靠更好的 harness 追上 Opus 4.5——&quot;Agent 系统质量&quot;正在取代&quot;模型参数&quot;成为性能瓶颈。
+发生了什么。Meta 研究者演示，在复杂企业工作流（如 CRM 数据迁移）中，一个 80 亿参数的模型可以达到 Claude Opus 4.5 的表现——关键在于&quot;harness&quot;（运行时层）：模型在执行中持续获得服务器日志、状态跟踪器和控制流反馈，而不是只靠上下文窗口硬扛。这直接挑战了&quot;更大模型必然更好&quot;的假设。
+为什么重要。对 AI builder 的启示很直接：与其等更强模型或付更高 API 费用，不如先把 Agent 的运行时环境做好——给模型更好的反馈信号、状态管理和工具调用机制。成本差异可能是一个数量级。
+关联动态。与 WikiSkill 指向同一结论——Agent 的进步正在从&quot;模型参数&quot;转向&quot;系统架构&quot;。
+发生了什么。腾讯发布 Hy4 Preview，总参数 770B、激活参数 49B 的 MoE 模型，1M token 上下文窗口，1.56TB 权重，已在 Hugging Face 开源。相比 7 月的 Hy3（295B 总参/21B 激活/256K 上下文）是大幅跃升。当前为纯文本输入版本，无视觉能力。
+为什么重要。开源模型的天花板被再次抬高。49B 激活参数意味着量化后单张 A100/H100 可跑，1M 上下文对长文档、代码库分析有实际价值。对不想绑定闭源 API 的团队，这是新的可选项。
+发生了什么。LAION 发布 Big Video Dataset（BVD），包含 8000 万个视频、1000 万小时时长、5500 万条自动描述片段，是迄今最大的开源视频数据集之一。基于 BVD </description>
+      <itunes:summary>AI 每日简报，周一，2026-08-31。以下是今天的重点。
+行业新闻。
+发生了什么。OpenAI 在 SpaceX 完成对 Cursor 的收购后，宣布终止向其提供 OpenAI 模型的合同，官方声明中被点名的理由是马斯克&quot;有打破合同的历史&quot;。Cursor 联创 Michael Truell 随后淡化影响，称 OpenAI 模型仅占工具 AI 流量的 5%。这是 AI 模型供应商第一次以收购方背景为由，主动切断对下游开发工具的分销。
+为什么重要。无论 5% 这个数字是否为公关话术，这一决定都确立了模型层的&quot;上游权力&quot;——应用层公司的股权结构可以成为断供理由。对依赖单一模型供应商的 AI 工具，这是必须纳入风险模型的信号。
+关联动态。Cursor 被切断后势必更依赖 Anthropic 系模型，而 Anthropic 今天正被两大音乐出版集团起诉——下游的议价空间并没有变大。
+发生了什么。索尼音乐出版（Sony Music Publishing）与华纳查普尔（Warner Chappell）在北加州联邦法院起诉 Anthropic 及其 CEO Dario Amodei，指控其用&quot;数万首&quot;受版权保护的音乐作品训练 Claude，每件作品索赔最高 15 万美元，加上移除版权管理信息每次最高 2.5 万美元。原告称这是&quot;历史上最大规模、最明目张胆的知识产权盗窃之一&quot;。就在几个月前，Anthropic 刚以 15 亿美元与图书作者达成和解。
+为什么重要。将 CEO 列为个人被告在 AI 版权诉讼中罕见，意味着原告试图突破&quot;公司责任&quot;的防火墙。对任何用大规模数据训练模型的团队，这条案子的走向都是风向标。
+关联动态。同一天 Anthropic 还在发布自我改进 AI 研究——技术前沿与法律风险同时加速，是这家公司当前状态的真实写照。
+发生了什么。Google Research 发布 WikiSkill 框架，Agent 在每次运行后把成功与失败经验写入一个 wiki 式的持久知识库，后续任务可以查询这些记录来避免重蹈覆辙，而不是每次从零开始。论文显示更大模型从 WikiSkill 中获益更多，但小模型 + WikiSkill 可以匹敌没有 WikiSkill 的大模型。
+为什么重要。这是 Agent 记忆问题的轻量级、架构无关的解法，不需要改权重，也不需要向量数据库的复杂管线，直接可作为技能层接入现有 Agent 系统。对任何在做多轮/长时任务的 builder，这是今天最值得读的框架。
+关联动态。同日另一篇研究显示 8B 模型靠更好的 harness 追上 Opus 4.5——&quot;Agent 系统质量&quot;正在取代&quot;模型参数&quot;成为性能瓶颈。
+发生了什么。Meta 研究者演示，在复杂企业工作流（如 CRM 数据迁移）中，一个 80 亿参数的模型可以达到 Claude Opus 4.5 的表现——关键在于&quot;harness&quot;（运行时层）：模型在执行中持续获得服务器日志、状态跟踪器和控制流反馈，而不是只靠上下文窗口硬扛。这直接挑战了&quot;更大模型必然更好&quot;的假设。
+为什么重要。对 AI builder 的启示很直接：与其等更强模型或付更高 API 费用，不如先把 Agent 的运行时环境做好——给模型更好的反馈信号、状态管理和工具调用机制。成本差异可能是一个数量级。
+关联动态。与 WikiSkill 指向同一结论——Agent 的进步正在从&quot;模型参数&quot;转向&quot;系统架构&quot;。
+发生了什么。腾讯发布 Hy4 Preview，总参数 770B、激活参数 49B 的 MoE 模型，1M token 上下文窗口，1.56TB 权重，已在 Hugging Face 开源。相比 7 月的 Hy3（295B 总参/21B 激活/256K 上下文）是大幅跃升。当前为纯文本输入版本，无视觉能力。
+为什么重要。开源模型的天花板被再次抬高。49B 激活参数意味着量化后单张 A100/H100 可跑，1M 上下文对长文档、代码库分析有实际价值。对不想绑定闭源 API 的团队，这是新的可选项。
+发生了什么。LAION 发布 Big Video Dataset（BVD），包含 8000 万个视频、1000 万小时时长、5500 万条自动描述片段，是迄今最大的开源视频数据集之一。基于 BVD </itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-31.mp3" length="6075072" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-31.mp3</guid>
       <pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:17</itunes:duration>
+      <itunes:duration>16:52</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
