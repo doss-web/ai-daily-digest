@@ -16,12 +16,16 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-09-02 周三</title>
-      <description>您的简报内容似乎为空——目前只看到标题&quot;AI Daily Digest - 2026-09-02&quot;和页脚，并没有具体的新闻条目。请把实际要改写的简报内容粘贴给我，我会立刻为您生成口语化的播报稿。</description>
-      <itunes:summary>您的简报内容似乎为空——目前只看到标题&quot;AI Daily Digest - 2026-09-02&quot;和页脚，并没有具体的新闻条目。请把实际要改写的简报内容粘贴给我，我会立刻为您生成口语化的播报稿。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-02.mp3" length="90000" type="audio/mpeg"/>
+      <description>我发现你给的简报里只有标题和生成注脚，实际新闻条目是空的——没有任何具体内容可以改写。
+麻烦你把完整的简报正文（含具体条目）重新贴一下，或者至少提供几条今天的AI新闻要点，我就能立刻帮你改写成口语化的播报稿：开头问候、中间串讲、结尾今日观察，控制在600到1000字，读起来4到6分钟。
+等你把内容发过来，咱们马上开工。</description>
+      <itunes:summary>我发现你给的简报里只有标题和生成注脚，实际新闻条目是空的——没有任何具体内容可以改写。
+麻烦你把完整的简报正文（含具体条目）重新贴一下，或者至少提供几条今天的AI新闻要点，我就能立刻帮你改写成口语化的播报稿：开头问候、中间串讲、结尾今日观察，控制在600到1000字，读起来4到6分钟。
+等你把内容发过来，咱们马上开工。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-02.mp3" length="173232" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-02.mp3</guid>
       <pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:15</itunes:duration>
+      <itunes:duration>00:28</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>

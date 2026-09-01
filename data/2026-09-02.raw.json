@@ -1,10 +1,10 @@
 {
   "date": "2026-09-02",
-  "generated_at": "2026-09-02T06:41:19.523654+08:00",
+  "generated_at": "2026-09-02T07:52:07.348021+08:00",
   "counts": {
     "papers": 42,
     "projects": 9,
-    "news": 134
+    "news": 138
   },
   "items": {
     "papers": [
@@ -653,10 +653,21 @@
     "news": [
       {
         "category": "news",
+        "title": "My local model setup on an M4 Pro Mac Mini",
+        "url": "https://lws.io/blog/my-local-model-setup/",
+        "normalized_url": "https://lws.io/blog/my-local-model-setup",
+        "summary": "HN points: 18, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-09-01T22:30:52Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
         "url": "https://masteranza.github.io/weedout/",
         "normalized_url": "https://masteranza.github.io/weedout",
-        "summary": "HN points: 18, comments: 2",
+        "summary": "HN points: 31, comments: 10",
         "source": "Hacker News",
         "published": "2026-09-01T22:06:57Z",
         "importance_hint": 3,
@@ -667,7 +678,7 @@
         "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
         "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
         "normalized_url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence",
-        "summary": "HN points: 117, comments: 59",
+        "summary": "HN points: 158, comments: 113",
         "source": "Hacker News",
         "published": "2026-09-01T20:19:11Z",
         "importance_hint": 4,
@@ -691,7 +702,7 @@
         "title": "The EU's repair policies are changing the way tech is designed",
         "url": "https://theconversation.com/the-eus-repair-policies-are-changing-the-way-tech-is-designed-288468",
         "normalized_url": "https://theconversation.com/the-eus-repair-policies-are-changing-the-way-tech-is-designed-288468",
-        "summary": "HN points: 26, comments: 0",
+        "summary": "HN points: 29, comments: 0",
         "source": "Hacker News",
         "published": "2026-09-01T19:59:32Z",
         "importance_hint": 3,
@@ -713,7 +724,7 @@
         "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
         "url": "https://danluu.com/zitron/",
         "normalized_url": "https://danluu.com/zitron",
-        "summary": "HN points: 250, comments: 285",
+        "summary": "HN points: 332, comments: 392",
         "source": "Hacker News",
         "published": "2026-09-01T18:35:15Z",
         "importance_hint": 3,
@@ -721,7 +732,7 @@
       },
       {
         "category": "news",
-        "title": "There Is No AI",
+        "title": "There is no AI",
         "url": "https://wadler.blogspot.com/2026/08/there-is-no-ai.html",
         "normalized_url": "https://wadler.blogspot.com/2026/08/there-is-no-ai.html",
         "summary": "HN points: 20, comments: 6",
@@ -735,7 +746,7 @@
         "title": "Claude Fable 5.1 and Claude Mythos 5.1",
         "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
         "normalized_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-        "summary": "HN points: 778, comments: 745",
+        "summary": "HN points: 844, comments: 804",
         "source": "Hacker News, Hacker News",
         "published": "2026-09-01T17:53:53Z",
         "importance_hint": 3,
@@ -746,7 +757,7 @@
         "title": "UEFA's Champions League draw creates unfair clusters; a Cayley graph fixes it",
         "url": "https://sariyuce.com/blog/2026/UEFA-Draw/",
         "normalized_url": "https://sariyuce.com/blog/2026/UEFA-Draw",
-        "summary": "HN points: 34, comments: 10",
+        "summary": "HN points: 34, comments: 11",
         "source": "Hacker News",
         "published": "2026-09-01T17:57:09Z",
         "importance_hint": 3,
@@ -757,7 +768,7 @@
         "title": "Atlas: A World Model for Spatial Intelligence",
         "url": "https://www.worldlabs.ai/blog/atlas",
         "normalized_url": "https://www.worldlabs.ai/blog/atlas",
-        "summary": "HN points: 110, comments: 23",
+        "summary": "HN points: 131, comments: 25",
         "source": "Hacker News",
         "published": "2026-09-01T17:36:02Z",
         "importance_hint": 4,
@@ -768,7 +779,7 @@
         "title": "The war with Iran will not be won through airstrikes, so what's left?",
         "url": "https://www.jpost.com/defense-and-tech/article-906985",
         "normalized_url": "https://www.jpost.com/defense-and-tech/article-906985",
-        "summary": "HN points: 19, comments: 30",
+        "summary": "HN points: 20, comments: 30",
         "source": "Hacker News",
         "published": "2026-09-01T17:13:30Z",
         "importance_hint": 3,
@@ -779,7 +790,7 @@
         "title": "Thanks to Lake Ontario, MapQuest is popular all over again",
         "url": "https://www.washingtonpost.com/politics/2026/09/01/thanks-lake-ontario-mapquest-is-popular-all-over-again/",
         "normalized_url": "https://www.washingtonpost.com/politics/2026/09/01/thanks-lake-ontario-mapquest-is-popular-all-over-again",
-        "summary": "HN points: 105, comments: 71",
+        "summary": "HN points: 108, comments: 72",
         "source": "Hacker News",
         "published": "2026-09-01T16:25:02Z",
         "importance_hint": 3,
@@ -787,25 +798,27 @@
       },
       {
         "category": "news",
-        "title": "USPS whistleblower describes new plans for voting by mail hidden from the public",
-        "url": "https://www.cnn.com/2026/09/01/politics/usps-whistleblower-mail-ballot-rules-trump",
-        "normalized_url": "https://www.cnn.com/2026/09/01/politics/usps-whistleblower-mail-ballot-rules-trump",
-        "summary": "HN points: 11, comments: 4",
+        "title": "Anthropic admits AI 'not perfectly aligned' with human values",
+        "url": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values",
+        "normalized_url": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values",
+        "summary": "HN points: 11, comments: 6",
         "source": "Hacker News",
-        "published": "2026-09-01T16:06:53Z",
-        "importance_hint": 3,
+        "published": "2026-09-01T16:16:54Z",
+        "importance_hint": 4,
         "metadata": {}
       },
       {
         "category": "news",
-        "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
-        "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
-        "normalized_url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis",
-        "summary": "HN points: 184, comments: 175",
-        "source": "Hacker News",
-        "published": "2026-09-01T15:53:42Z",
-        "importance_hint": 3,
-        "metadata": {}
+        "title": "AI时代，社会科学研究设计比任何时候都重要",
+        "url": "https://www.36kr.com/p/3963099358084226",
+        "normalized_url": "https://www.36kr.com/p/3963099358084226",
+        "summary": "当AI能在十分钟内爬取十万条社交数据、用三分钟跑完复杂回归模型、甚至自动生成文献综述初稿时，社会科学学习者和研",
+        "source": "36Kr AI",
+        "published": "2026-09-01T23:18:24+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -919,19 +932,6 @@
         "summary": "数据和经验越采越便宜，而结果的“判决”越来越值钱。",
         "source": "36Kr AI",
         "published": "2026-09-01T13:13:41+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "透视3.8万亿元社保基金：成立26年赚2.29万亿元，平均收益率7.62%",
-        "url": "https://www.36kr.com/p/3964621134355977",
-        "normalized_url": "https://www.36kr.com/p/3964621134355977",
-        "summary": "投资增值成为基金资产持续扩张的核心引擎",
-        "source": "36Kr AI",
-        "published": "2026-09-01T13:07:01+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1407,6 +1407,97 @@
       },
       {
         "category": "news",
+        "title": "Google needs Hollywood more than the studios need AI",
+        "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+        "normalized_url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+        "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the studios that would also […]",
+        "source": "The Verge AI",
+        "published": "2026-09-01T22:50:29+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+        "summary": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing […]",
+        "source": "The Verge AI",
+        "published": "2026-09-01T22:01:36+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+        "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into […]",
+        "source": "The Verge AI",
+        "published": "2026-09-01T20:45:49+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+        "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to […]",
+        "source": "The Verge AI",
+        "published": "2026-09-01T19:02:54+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Apple accuses OpenAI of destroying evidence",
+        "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+        "normalized_url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+        "summary": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about \"destroying […]",
+        "source": "The Verge AI",
+        "published": "2026-09-01T18:19:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "John Deere launched an AI chatbot for farmers",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+        "summary": "John Deere is testing a new \"JD\" AI assistant that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their \"field, machine and operational data\" to answer questions on topics like equipment settings, fuel usage, or harvest timing. The […]",
+        "source": "The Verge AI",
+        "published": "2026-09-01T16:00:52+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google Pics is like Canva, but with even more AI",
+        "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+        "normalized_url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+        "summary": "Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses. Built around Gemini and the Nano Banana generative AI model, Google Pics is designed to give more granular control over prompt-based image making and manipulation, allowing […]",
+        "source": "The Verge AI",
+        "published": "2026-09-01T16:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
         "title": "Nvidia’s controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
         "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
         "normalized_url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
@@ -1439,45 +1530,6 @@
         "summary": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Meta just reached […]",
         "source": "The Verge AI",
         "published": "2026-08-31T14:00:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "ChatGPT to face tougher regulation in the EU",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-        "summary": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
-        "source": "The Verge AI",
-        "published": "2026-08-31T13:27:36+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Instagram cracks down on AI accounts pretending to be human",
-        "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
-        "normalized_url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
-        "summary": "Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that people don't like seeing a profile […]",
-        "source": "The Verge AI",
-        "published": "2026-08-31T13:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
-        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
-        "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, […]",
-        "source": "The Verge AI",
-        "published": "2026-08-30T15:35:10+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
@@ -1537,10 +1589,10 @@
       },
       {
         "category": "news",
-        "title": "Cash in on the AI Boom by Renting Out Your Spare Compute",
+        "title": "Cash In on the AI Boom by Renting Out Your Spare Compute",
         "url": "https://spectrum.ieee.org/ai-inference-distributed-computing",
         "normalized_url": "https://spectrum.ieee.org/ai-inference-distributed-computing",
-        "summary": "If you own an at-home server, a gaming computer, or just a laptop that doesn’t get much love, listen up. You can now put that spare computing power to use and earn some passive income in the process. AI companies are hungry for more compute to run AI inference—the process of using a pre-trained model to respond to queries—and they’re willing to pay you for it. “Imagine Uber or Airbnb, but for AI inference computing tasks,” says Ilman Shazhaev , founder and CEO of Far Labs , based in Abu Dhabi. T",
+        "summary": "If you own an at-home server, a gaming computer, or just a laptop that doesn’t get much love, listen up. You can now put that spare computing power to use and earn some passive income in the process. AI companies are hungry for more compute to run AI inference—the process of using a pretrained model to respond to queries—and they’re willing to pay you for it. “Imagine Uber or Airbnb, but for AI-inference computing tasks,” says Ilman Shazhaev , founder and CEO of Far Labs , based in Abu Dhabi. Th",
         "source": "IEEE Spectrum AI",
         "published": "2026-09-01T14:00:03+00:00",
         "importance_hint": 4,
@@ -2239,19 +2291,6 @@
       },
       {
         "category": "news",
-        "title": "Don't sleep on Vision support for coding!",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3vcvh/dont_sleep_on_vision_support_for_coding/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3vcvh/dont_sleep_on_vision_support_for_coding",
-        "summary": "Normally, whenever a new model dropped, I always chose the non-vision version just to save VRAM; I though that only use case was when you were the one sending the picture. However, with the release of QWEN 3.8 27B I decided to give it a shot, and it has been one of the best decisions I have made, as this makes the model way more capable for autonomous coding. With no vision, the model will try to complete the task and get back to you once it thinks that it is done with no problem. But there are ",
-        "source": "r/LocalLLaMA",
-        "published": "2026-08-31T23:49:45+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Really stunned by the Singularity comment section",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4oadx/really_stunned_by_the_singularity_comment_section/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4oadx/really_stunned_by_the_singularity_comment_section",
@@ -2285,6 +2324,19 @@
         "source": "r/LocalLLaMA",
         "published": "2026-09-01T14:35:56+00:00",
         "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A very confusing report from Puget Systems",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w403mv/a_very_confusing_report_from_puget_systems/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w403mv/a_very_confusing_report_from_puget_systems",
+        "summary": "Just to name a few: running Qwen3 8B on a 32GB GPU running Qwen3.6-27B Q4_K_M on 2 x R9700 quote: \"each prompt was sized at 500 input and 500 output tokens\" for a full system that costs $18,775?? I don't understand what they are doing. Am I reading something wrong? submitted by /u/iwinux [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-01T03:19:16+00:00",
+        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
