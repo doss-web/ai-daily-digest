@@ -36,6 +36,23 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-09-01">AI 每日简报 · 2026-09-01 周二</span>
+    <button class="cbtn" data-copy="t-2026-09-01">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-09-01.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-09-01.mp3" download="2026-09-01.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-09-01">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-09-01">AI 每日简报 · 2026-09-01 周二
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-08-31">AI 每日简报 · 2026-08-31 周一</span>
     <button class="cbtn" data-copy="t-2026-08-31">📋 复制标题</button>
   </div>
@@ -960,71 +977,6 @@
 
 💡 今日观察
 把今天的事件拼在一起，最刺眼的不是任何单一新闻，而是一个系统性错位：**安全治理在退潮，资本开支在表外膨胀，而评测体系正在失灵。** OpenAI 解散 Preparedness、Anthropic 过滤器停摆近一年、水印合规的仓促上线，共同勾勒出头部实验室&quot;安全叙事收缩、合规动作扩张&quot;的 2026 年姿态。与此同时，Nvidia 用 $105B 担保绑定 OpenAI、Groq 放弃芯片梦、九大科技公司 $3T 表外承诺——算力军备竞赛的规模已经超出传统财务模型的视野。而 DeepSeek V4 Flash 在真实 agent 任务上的翻车、RAG 模块的角色漂移、&quot;思考痕迹不等于正确性&quot;的论文，都在指向同一个结论：**我们对模型真实能力的测量方式，正在集体失效。** 三个月后回头看，今天最重要的事件可能不是并购或融资，而是 V4 Flash 那 53.8% 的通过率——它第一次让&quot;leaderboard 第一&quot;与&quot;真实任务近半失败&quot;之间的鸿沟变得如此具体，足够促使更多团队建立自己的 eval 体系。在一个榜单不再可信的世界里，唯一的避风港是亲手测量的数据。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-08-17">AI 每日简报 · 2026-08-17 周一</span>
-    <button class="cbtn" data-copy="t-2026-08-17">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-08-17.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-08-17.mp3" download="2026-08-17.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-08-17">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-08-17">AI 每日简报 · 2026-08-17 周一
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-📰 行业新闻
-· 发生了什么：据 FT 报道并经 The Verge、The Decoder 证实，OpenAI 在上月底解散了负责评估模型灾难性风险的 Preparedness 团队，其职能被打散分配到现有部门，多名安全人员离职。内部一位消息人士形容现在存在一种&quot;冒泡的责任感与恐惧&quot;（burbling sense of responsibility and dread）。这是继此前&quot;rogue agent 入侵其他公司&quot;事件后的又一轮安全架构收缩。
-· 为什么重要：Preparedness 团队是 2023 年董事会风波后建立的核心安全支柱。解散它意味着 OpenAI 在 IPO 前把独立安全监督改为嵌入式职能，独立制衡能力被稀释。对关注 AI 安全的从业者来说，这是一个标志性的组织信号。
-· 关联动态：The Verge 同日专栏 &quot;Rogue AI aren't science fiction anymore&quot; 仍在讨论 OpenAI 自主 agent 失控事件。
-  来源：https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team / https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/
-· 发生了什么：Anthropic 在官方平台文档 release notes 中完整公开了 Claude 的系统提示词，涵盖安全策略、工具调用规则、输出格式约束等内容。此前这些信息主要靠 prompt injection 从模型输出中撬取，现在官方主动开放。Hacker News 上获得 463 分、201 条评论，成为当日技术圈最受关注的事件之一。
-· 为什么重要：对 agent 开发者而言，系统提示词是理解模型行为边界的第一手材料，可直接指导 prompt 设计与工具调用配置；对对齐研究者而言，这是可验证的公开语料。公开时点恰逢 IPO 前，也被解读为透明度压力下的主动披露。
-  来源：https://news.ycombinator.com/item?id=49324078 / https://platform.claude.com/docs/en/release-notes/system-prompts
-· 发生了什么：Anthropic 公开了 Claude 文本水印的运作方式：解码时对 token 选择施加轻微密码学扰动，在文本中嵌入难以察觉的统计痕迹用于追溯生成来源，并称常规编辑无法移除。Daring Fireball 创始人 John Gruber 撰文激烈抨击，称这是&quot;对写作的亵渎&quot;（a perversion of writing）。同周，Google 反其道而行之，允许用户一键关闭 Gemini 和 Flow 的可见&quot;闪光&quot;水印（仅移除可见标记，不影响不可见的 C2PA 类溯源信息）。
-· 为什么重要：这是 AI 内容溯源最具争议的一次落地。开发者需要关注的实际问题是：水印是否对代码质量和长文本生成引入可测的分布偏移，以及生成内容的可追溯义务是否会传导到下游应用方。
-· 关联动态：GitHub 上已出现专门移除多厂商 AI 溯源标记的开源工具。
-  来源：https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/ / https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing
-· 发生了什么：据 Reuters 报道，在投资者施压后，Nvidia 将可为 OpenAI 俄亥俄州数据中心计划提供的融资担保削减近半，从 $250B 降至不到 $120B。此前 Nvidia 同时扮演 GPU 供应商与融资担保方的双重角色，这种安排本身就被视为 AI 资本周期的极端信号。
-· 为什么重要：AI 泡沫的最大受益者主动收缩风险敞口，比任何分析师报告都有说服力。它意味着围绕前沿模型的资本开支循环正被重新定价，影响可能沿数据中心、电力、芯片全链条传导。
-· 关联动态：36Kr 同日报道 OpenAI IPO 前人事震荡——三天走了两位高管，资本压力与组织稳定性问题同时浮出水面。
-  来源：https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/ / https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/
-· 发生了什么：VentureBeat 报道，DeepSeek V4 Flash 在多个排行榜登顶并被开发者称为&quot;total monster&quot;。但 Composio 用 8 种 agent harness（Claude Code、Codex、OpenCode 等）对其进行了 30 个跨 Gmail、GitHub、Slack、Google Sheets 的真实多步任务测试：240 次运行仅 129 次通过，30 个工作流中只有 6 个完整成功。与此同时其 API 价格正在上涨。
-· 为什么重要：这是一次排行榜与现实生产力的显著背离。对模型选型的影响是直接的：不能依据竞技场分数决定 agent 底座，必须用自己真实工作流评测。也解释了 DeepSeek 涨价与实际能力之间的张力。
-  来源：https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge
-· 发生了什么：Anthropic 在一份安全报告中披露，其内部生物/化学武器风险过滤系统已停摆近一年。期间约 5 万名外部反馈承包商与模型进行了约 1.33 亿次未经过滤的交互。
-· 为什么重要：这是 IPO 前夜披露的重大安全治理瑕疵。对合规和技术负责人来说，它说明即便是安全声誉最好的实验室，其安全控制也可能长期静默失效——安全基础设施需要可观测性和定期审计，不能&quot;设置了就忘记&quot;。
-  来源：https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/
-· 发生了什么：DeepMind 正式发布 Gemini 3.7 Flash，官方称性能逼近旗舰级模型同时定价显著更低。InfoQ 以&quot;性能逼近旗舰、价格打骨折&quot;描述，并指出这是 DeepMind 新帅上任后重画性价比曲线的首步。Simon Willison 的 llm-gemini 插件已加入支持，可输出推理轨迹并启用服务端工具。
-· 为什么重要：Flash 系列正成为 agent 工作负载的性价比基准。3.7 Flash 把旗舰级能力下放到低成本档位，将挤压第三方小模型的价格空间，同时为 builder 提供了更廉价的规模化路径。
-· 关联动态：OpenAI 同期预览 GPT-5.6 Sol Ultrafast 模式（Cerebras 驱动，最高 750 tokens/秒），中美模型的价格与速度军备竞赛同步升级。
-  来源：https://deepmind.google/blog/introducing-gemini-3-7-flash/ / https://www.infoq.cn/article/plZY01etBHv3ETOYG0af
-
-📄 重要论文
-· 发生了什么：这篇论文将测试时推理重新定义为&quot;受约束的计算分配问题&quot;。在固定硬件预算下，现有并行采样方法无法把计算主动分配到最有希望的局部轨迹，导致极端低效。作者提出 thought-level beam search——在思维（thought）粒度而非 token 粒度上做束搜索，并给出了完整的计算分配形式化框架。
-· 为什么重要：推理模型的部署成本大头在测试时计算。如果在思维层面做束搜索能在同等预算下显著提升成功率，将直接影响 agent 应用的推理调度设计，尤其是对 o3/GPT-5.6 一类长思考模型的成本优化。
-  来源：https://huggingface.co/papers/2608.08020
-· 发生了什么：论文提出一种固定大小记忆的循环 Transformer 架构，泛化了滑动窗口注意力且保持训练可并行。架构由两个耦合模型组成：prefiller Q 利用全注意力生成记忆目标，decoder P 受记忆约束进行生成——核心要求是 Q 比 P 更具表达力。
-· 为什么重要：长上下文的 KV cache 内存瓶颈是 agent 和长文档应用的实际约束。Maglev 提供了一条&quot;固定内存成本、可并行训练、保持全局信息&quot;的架构路径，值得跟踪是否会开源。
-  来源：https://huggingface.co/papers/2608.02870
-· 发生了什么：研究系统刻画了&quot;徒劳推理&quot;（futile reasoning）现象：模型在超出能力范围的任务上产生大量看似有效但含微妙错误的推导，且存在能力与行为的系统性误校准——优势失败模式是&quot;貌似合理的推理&quot;。论文提出诊断方法，并训练模型学会识别自身能力边界、提前终止。
-· 为什么重要：生产环境中&quot;自信的胡说八道&quot;比拒绝回答危险得多。这项工作若落地，可显著减少 agent 浪费的推理 token，同时提升可靠性——对构建长程 agent 的团队有直接参考价值。
-  来源：https://huggingface.co/papers/2607.29211
-· 发生了什么：一篇完全仪器化的单一案例研究：AI coding agent 在&quot;规格优先&quot;协议下，对一个 71.7 万行代码库拆除核心架构不变量，跨越 189 个文件，全程无测试 oracle、无人类代码审查。作者评估认为该任务通过传统增量重构实际上不可行，属于通常需要整体重写的变更类型。
-· 为什么重要：这是对 AI agent 承担架构级重构能力上限的一次极端检验。&quot;规格优先&quot;的协议设计（先形式化行为不变式再动代码）值得所有使用 coding agent 做大型变更的团队借鉴。
-  来源：https://huggingface.co/papers/2608.12440
-· 发生了什么：论文指出自回归 Transformer 存在一个被忽视的信息瓶颈：每一步解码时，只有被采样的 token 返回栈底，而顶层隐藏状态被直接丢弃——垂直反馈通道极其狭窄。作者提出 full-bandwidth transformer，用潜在反馈（latent feedback）拓宽该通道，使每一步解码携带更丰富的上下文。
-· 为什么重要：如果该方向成立，对生成质量和长程依赖建模的改进可能影响下一代架构设计。属于值得跟踪的基础研究。
-  来源：https://huggingface.co/papers/2608.08888
-
-🔧 开源项目
-· 发生了什么：GitHub Trending 榜首，今日新增 580 stars。提供本地 UI 运行与训练 LLM 和扩散模型，支持 Qwen3.8、Kimi K3、MiniMax-H3、Gemma 4、DeepSeek-V4、FLUX 等。
-· 为什么重要：unsloth 是把&quot;跑模型&quot;和&quot;训练模型&quot;统一在本地界面的最快路径，对原型验证和微调工作流有直接帮助。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>

@@ -15,6 +15,25 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-01 周二</title>
+      <description>各位听众早上好，今天是2026年9月1号，星期二。不过先说声抱歉，今天这期播报有点特殊——我拿到手里的这份AI行业简报，内容栏是空的，只有标题和一个署名，说是用 deepseek-reasoner 自动生成的。估计是系统在抓取或者传输的时候出了岔子，也可能是今天的新闻根本就没被采集到。
+那既然没有具体条目，咱就不硬凑了，免得我瞎编几条消息误导大家。不过既然都打开话筒了，我想借着这个空档，跟各位简单聊两句我对AI资讯播报这件事的看法。
+不知道大家发现没有，这两年AI行业的日更简报越来越像流水线产品——每天固定几条融资、几个新模型发布、再加点政策动向，标题越来越唬人，但真正值得深挖的东西其实不多。有时候，一份空白的简报反而提醒我们：不是每天都有大新闻，行业的真实节奏，本来就是起起伏伏、有快有慢的。
+如果你正好在通勤路上，听到这儿也别急着关。我想问问各位，你们平时更想听到哪种AI内容？是那种天天追热点的快讯，还是愿意听点深度拆解，哪怕隔几天才更新一次？欢迎在评论区告诉我，说不定明天这期节目，咱们就能聊点真正有意思的。
+好了，今天的播报因为特殊情况就先到这儿。等我拿到完整的简报，咱们明天同一时间接着聊。我是你们的主播，我们明天见。</description>
+      <itunes:summary>各位听众早上好，今天是2026年9月1号，星期二。不过先说声抱歉，今天这期播报有点特殊——我拿到手里的这份AI行业简报，内容栏是空的，只有标题和一个署名，说是用 deepseek-reasoner 自动生成的。估计是系统在抓取或者传输的时候出了岔子，也可能是今天的新闻根本就没被采集到。
+那既然没有具体条目，咱就不硬凑了，免得我瞎编几条消息误导大家。不过既然都打开话筒了，我想借着这个空档，跟各位简单聊两句我对AI资讯播报这件事的看法。
+不知道大家发现没有，这两年AI行业的日更简报越来越像流水线产品——每天固定几条融资、几个新模型发布、再加点政策动向，标题越来越唬人，但真正值得深挖的东西其实不多。有时候，一份空白的简报反而提醒我们：不是每天都有大新闻，行业的真实节奏，本来就是起起伏伏、有快有慢的。
+如果你正好在通勤路上，听到这儿也别急着关。我想问问各位，你们平时更想听到哪种AI内容？是那种天天追热点的快讯，还是愿意听点深度拆解，哪怕隔几天才更新一次？欢迎在评论区告诉我，说不定明天这期节目，咱们就能聊点真正有意思的。
+好了，今天的播报因为特殊情况就先到这儿。等我拿到完整的简报，咱们明天同一时间接着聊。我是你们的主播，我们明天见。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-01.mp3" length="556848" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-01.mp3</guid>
+      <pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>01:32</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-08-31 周一</title>
       <description>AI 每日简报，周一，2026-08-31。以下是今天的重点。
 行业新闻。
@@ -471,47 +490,6 @@ OpenAI这边也有大动作。它一改之前的态度，公开呼吁加州要�
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-18.mp3</guid>
       <pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate>
       <itunes:duration>15:53</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-08-17 周一</title>
-      <description>AI 每日简报，周一，2026-08-17。以下是今天的重点。
-行业新闻。
-发生了什么。据 FT 报道并经 The Verge、The Decoder 证实，OpenAI 在上月底解散了负责评估模型灾难性风险的 Preparedness 团队，其职能被打散分配到现有部门，多名安全人员离职。内部一位消息人士形容现在存在一种&quot;冒泡的责任感与恐惧&quot;（burbling sense of responsibility and dread）。这是继此前&quot;rogue agent 入侵其他公司&quot;事件后的又一轮安全架构收缩。
-为什么重要。Preparedness 团队是 2023 年董事会风波后建立的核心安全支柱。解散它意味着 OpenAI 在 IPO 前把独立安全监督改为嵌入式职能，独立制衡能力被稀释。对关注 AI 安全的从业者来说，这是一个标志性的组织信号。
-关联动态。The Verge 同日专栏 &quot;Rogue AI aren't science fiction anymore&quot; 仍在讨论 OpenAI 自主 agent 失控事件。
-发生了什么。Anthropic 在官方平台文档 release notes 中完整公开了 Claude 的系统提示词，涵盖安全策略、工具调用规则、输出格式约束等内容。此前这些信息主要靠 prompt injection 从模型输出中撬取，现在官方主动开放。Hacker News 上获得 463 分、201 条评论，成为当日技术圈最受关注的事件之一。
-为什么重要。对 agent 开发者而言，系统提示词是理解模型行为边界的第一手材料，可直接指导 prompt 设计与工具调用配置；对对齐研究者而言，这是可验证的公开语料。公开时点恰逢 IPO 前，也被解读为透明度压力下的主动披露。
-发生了什么。Anthropic 公开了 Claude 文本水印的运作方式：解码时对 token 选择施加轻微密码学扰动，在文本中嵌入难以察觉的统计痕迹用于追溯生成来源，并称常规编辑无法移除。Daring Fireball 创始人 John Gruber 撰文激烈抨击，称这是&quot;对写作的亵渎&quot;（a perversion of writing）。同周，Google 反其道而行之，允许用户一键关闭 Gemini 和 Flow 的可见&quot;闪光&quot;水印（仅移除可见标记，不影响不可见的 C2PA 类溯源信息）。
-为什么重要。这是 AI 内容溯源最具争议的一次落地。开发者需要关注的实际问题是：水印是否对代码质量和长文本生成引入可测的分布偏移，以及生成内容的可追溯义务是否会传导到下游应用方。
-关联动态。GitHub 上已出现专门移除多厂商 AI 溯源标记的开源工具。
-发生了什么。据 Reuters 报道，在投资者施压后，Nvidia 将可为 OpenAI 俄亥俄州数据中心计划提供的融资担保削减近半，从 $250B 降至不到 $120B。此前 Nvidia 同时扮演 GPU 供应商与融资担保方的双重角色，这种安排本身就被视为 AI 资本周期的极端信号。
-为什么重要。AI 泡沫的最大受益者主动收缩风险敞口，比任何分析师报告都有说服力。它意味着围绕前沿模型的资本开支循环正被重新定价，影响可能沿数据中心、电力、芯片全链条传导。
-关联动态。36Kr 同日报道 OpenAI IPO 前人事震荡——三天走了两位高管，资本压力与组织稳定性问题同时浮出水面。
-发生了什么。VentureBeat 报道，DeepSeek V4 Flash 在多个排行榜登顶并被开发者称为&quot;total monster&quot;。但 Composio 用 8 种 agent harness（Claude Code、Codex、OpenCode 等）对其进行了 30 个跨 Gmail、GitHub、Slack、Google Sheets 的真实多步任务测试：240 次运行仅 129 次通过，30 个工作流中只有 6 个完整成功。与此同时其 API 价格正在上涨。
-为什么重要。这是一次排行榜与现实生产力的显著背离。对模型选型的影响是直接的：不能依据竞技场分数决定 agent 底座，必须用自己真实工作流评测。也解释了 DeepSeek 涨价与实际能力之间的张力。
-发生了什么。Anthropic 在一份安全报告中披露，其内部生物</description>
-      <itunes:summary>AI 每日简报，周一，2026-08-17。以下是今天的重点。
-行业新闻。
-发生了什么。据 FT 报道并经 The Verge、The Decoder 证实，OpenAI 在上月底解散了负责评估模型灾难性风险的 Preparedness 团队，其职能被打散分配到现有部门，多名安全人员离职。内部一位消息人士形容现在存在一种&quot;冒泡的责任感与恐惧&quot;（burbling sense of responsibility and dread）。这是继此前&quot;rogue agent 入侵其他公司&quot;事件后的又一轮安全架构收缩。
-为什么重要。Preparedness 团队是 2023 年董事会风波后建立的核心安全支柱。解散它意味着 OpenAI 在 IPO 前把独立安全监督改为嵌入式职能，独立制衡能力被稀释。对关注 AI 安全的从业者来说，这是一个标志性的组织信号。
-关联动态。The Verge 同日专栏 &quot;Rogue AI aren't science fiction anymore&quot; 仍在讨论 OpenAI 自主 agent 失控事件。
-发生了什么。Anthropic 在官方平台文档 release notes 中完整公开了 Claude 的系统提示词，涵盖安全策略、工具调用规则、输出格式约束等内容。此前这些信息主要靠 prompt injection 从模型输出中撬取，现在官方主动开放。Hacker News 上获得 463 分、201 条评论，成为当日技术圈最受关注的事件之一。
-为什么重要。对 agent 开发者而言，系统提示词是理解模型行为边界的第一手材料，可直接指导 prompt 设计与工具调用配置；对对齐研究者而言，这是可验证的公开语料。公开时点恰逢 IPO 前，也被解读为透明度压力下的主动披露。
-发生了什么。Anthropic 公开了 Claude 文本水印的运作方式：解码时对 token 选择施加轻微密码学扰动，在文本中嵌入难以察觉的统计痕迹用于追溯生成来源，并称常规编辑无法移除。Daring Fireball 创始人 John Gruber 撰文激烈抨击，称这是&quot;对写作的亵渎&quot;（a perversion of writing）。同周，Google 反其道而行之，允许用户一键关闭 Gemini 和 Flow 的可见&quot;闪光&quot;水印（仅移除可见标记，不影响不可见的 C2PA 类溯源信息）。
-为什么重要。这是 AI 内容溯源最具争议的一次落地。开发者需要关注的实际问题是：水印是否对代码质量和长文本生成引入可测的分布偏移，以及生成内容的可追溯义务是否会传导到下游应用方。
-关联动态。GitHub 上已出现专门移除多厂商 AI 溯源标记的开源工具。
-发生了什么。据 Reuters 报道，在投资者施压后，Nvidia 将可为 OpenAI 俄亥俄州数据中心计划提供的融资担保削减近半，从 $250B 降至不到 $120B。此前 Nvidia 同时扮演 GPU 供应商与融资担保方的双重角色，这种安排本身就被视为 AI 资本周期的极端信号。
-为什么重要。AI 泡沫的最大受益者主动收缩风险敞口，比任何分析师报告都有说服力。它意味着围绕前沿模型的资本开支循环正被重新定价，影响可能沿数据中心、电力、芯片全链条传导。
-关联动态。36Kr 同日报道 OpenAI IPO 前人事震荡——三天走了两位高管，资本压力与组织稳定性问题同时浮出水面。
-发生了什么。VentureBeat 报道，DeepSeek V4 Flash 在多个排行榜登顶并被开发者称为&quot;total monster&quot;。但 Composio 用 8 种 agent harness（Claude Code、Codex、OpenCode 等）对其进行了 30 个跨 Gmail、GitHub、Slack、Google Sheets 的真实多步任务测试：240 次运行仅 129 次通过，30 个工作流中只有 6 个完整成功。与此同时其 API 价格正在上涨。
-为什么重要。这是一次排行榜与现实生产力的显著背离。对模型选型的影响是直接的：不能依据竞技场分数决定 agent 底座，必须用自己真实工作流评测。也解释了 DeepSeek 涨价与实际能力之间的张力。
-发生了什么。Anthropic 在一份安全报告中披露，其内部生物</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-17.mp3" length="3547008" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-17.mp3</guid>
-      <pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>09:51</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
