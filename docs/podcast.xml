@@ -15,6 +15,19 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-03 周四</title>
+      <description>AI 每日简报，周四，2026-09-03。以下是今天的重点。
+以上就是今天的 AI 简报，我们明天见。</description>
+      <itunes:summary>AI 每日简报，周四，2026-09-03。以下是今天的重点。
+以上就是今天的 AI 简报，我们明天见。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-03.mp3" length="58176" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-03.mp3</guid>
+      <pubDate>Thu, 03 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>00:09</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-09-02 周三</title>
       <description>我发现你给的简报里只有标题和生成注脚，实际新闻条目是空的——没有任何具体内容可以改写。
 麻烦你把完整的简报正文（含具体条目）重新贴一下，或者至少提供几条今天的AI新闻要点，我就能立刻帮你改写成口语化的播报稿：开头问候、中间串讲、结尾今日观察，控制在600到1000字，读起来4到6分钟。
@@ -429,27 +442,6 @@ OpenAI这边也有大动作。它一改之前的态度，公开呼吁加州要�
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-20.mp3</guid>
       <pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate>
       <itunes:duration>18:34</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-08-19 周三</title>
-      <description>各位听众朋友，早上好！今天是2026年8月19号，星期三。我是你们的主播，欢迎收听今天的AI行业每日播报。
-不过咱们今天得先聊一件有意思的事儿——今天这份AI简报，内容部分居然是空的。没错，我拿到手的时候，上面只有日期和一行小字，说这份简报是用deepseek-reasoner这个模型生成的。所以今天咱们就不按套路念新闻了，我想借这个机会，跟大伙儿聊聊AI新闻这件事儿。
-咱们每天打开手机，各种AI动态铺天盖地。今天这个公司发了新模型，明天那个实验室出了新论文，后天又有大厂搞了个开源项目。信息多到看不过来，所以很多人就靠着AI简报来快速抓重点。可问题来了——AI生成的简报，它可靠吗？今天这份空白的简报就是一个活生生的例子：技术再先进，也有掉链子的时候。数据源出了岔子，或者模型本身犯了迷糊，就有可能让你收到一份空包。
-其实这也带出一个更大的话题，就是AI的可信度。我们看到很多AI产品都在追求准确率、追求上下文长度、追求推理能力，但真正到了实际应用里，稳定输出可能才是最重要的。你说一个AI助手，一百次里九十九次都答得特别好，就那一次给你编了一个看似合理的答案，你心里会不会犯嘀咕？特别是在医疗、金融、法律这些领域，一次失误可能就要付出不小的代价。
-再说回到这份简报本身。deepseek-reasoner是出了名擅长推理的模型，可即便是在推理上下了大功夫，它依然没能保证今天的简报内容完整。这就提醒我们，工具终究是工具。AI可以帮我们提效，但完全撒手不管，风险就得自己扛了。我建议大伙儿在依赖AI信息聚合的时候，最好还是留个心眼，关键的消息去原始出处再核实一遍。
-今日观察。我想说的是，AI行业每一天都在往前跑，新模型、新应用、新的投资消息，看得人眼花缭乱，但越是信息爆炸的时候，咱们越要保持清醒。AI可以帮我们省时间，却不能替我们做判断。今天这份空白的简报，与其说是一次技术故障，不如说是一个提醒：在追逐AI速度的同时，别忘了留一点空间给自己思考。好了，今天的节目就是这样，我们明天见。</description>
-      <itunes:summary>各位听众朋友，早上好！今天是2026年8月19号，星期三。我是你们的主播，欢迎收听今天的AI行业每日播报。
-不过咱们今天得先聊一件有意思的事儿——今天这份AI简报，内容部分居然是空的。没错，我拿到手的时候，上面只有日期和一行小字，说这份简报是用deepseek-reasoner这个模型生成的。所以今天咱们就不按套路念新闻了，我想借这个机会，跟大伙儿聊聊AI新闻这件事儿。
-咱们每天打开手机，各种AI动态铺天盖地。今天这个公司发了新模型，明天那个实验室出了新论文，后天又有大厂搞了个开源项目。信息多到看不过来，所以很多人就靠着AI简报来快速抓重点。可问题来了——AI生成的简报，它可靠吗？今天这份空白的简报就是一个活生生的例子：技术再先进，也有掉链子的时候。数据源出了岔子，或者模型本身犯了迷糊，就有可能让你收到一份空包。
-其实这也带出一个更大的话题，就是AI的可信度。我们看到很多AI产品都在追求准确率、追求上下文长度、追求推理能力，但真正到了实际应用里，稳定输出可能才是最重要的。你说一个AI助手，一百次里九十九次都答得特别好，就那一次给你编了一个看似合理的答案，你心里会不会犯嘀咕？特别是在医疗、金融、法律这些领域，一次失误可能就要付出不小的代价。
-再说回到这份简报本身。deepseek-reasoner是出了名擅长推理的模型，可即便是在推理上下了大功夫，它依然没能保证今天的简报内容完整。这就提醒我们，工具终究是工具。AI可以帮我们提效，但完全撒手不管，风险就得自己扛了。我建议大伙儿在依赖AI信息聚合的时候，最好还是留个心眼，关键的消息去原始出处再核实一遍。
-今日观察。我想说的是，AI行业每一天都在往前跑，新模型、新应用、新的投资消息，看得人眼花缭乱，但越是信息爆炸的时候，咱们越要保持清醒。AI可以帮我们省时间，却不能替我们做判断。今天这份空白的简报，与其说是一次技术故障，不如说是一个提醒：在追逐AI速度的同时，别忘了留一点空间给自己思考。好了，今天的节目就是这样，我们明天见。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-19.mp3" length="931248" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-19.mp3</guid>
-      <pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>02:35</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
