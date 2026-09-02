@@ -17,13 +17,45 @@
     <item>
       <title>AI 每日简报 · 2026-09-03 周四</title>
       <description>AI 每日简报，周四，2026-09-03。以下是今天的重点。
-以上就是今天的 AI 简报，我们明天见。</description>
+行业新闻。
+发生了什么。Gemini 3.8 Flash 于 9 月 2 日上线，距 3.7 Flash 仅数周。Google 称其通过&quot;更努力的思考&quot;（对复杂任务执行更多推理步骤、迭代调用工具）来提升表现，是六周内第三个预算级（Flash）模型。3.8 Flash Cyber 面向&quot;可信防御者&quot;开放，CWE-Bench 达 47.2% pass@1。两个变体共享基础权重，仅安全缓解措施不同。
+为什么重要。虽然输入/输出 token 单价与 3.7 Flash 相同（$0.75/$3.75 每百万 token），但&quot;工作更努力&quot;意味着每个任务实际多消耗约 30% 输出 token——这是通过推理时计算变相加价。开发者需要按&quot;每任务成本&quot;而非&quot;每 token 价格&quot;重新核算。
+关联动态。Anthropic 同日用 Fable 5.1 的 45% Agent 降价打同一场&quot;每任务成本&quot;战争；Google 的前沿大模型仍缺席，只能用 Flash 系列应对。
+发生了什么。Meta Superintelligence Labs 推出 Muse Voice Transcribe，将流式 ASR、端点检测和 20+ 说话人分离合并进单个自回归模型，而不是传统三系统拼接架构。公开 API 定价 $0.18/小时音频，主打&quot;边发生边处理&quot;而非等录音结束。
+为什么重要。当前生产级语音栈的每次模型间切换都引入延迟和故障点，单模型设计直接消灭了握手开销。$0.18/小时的价格显著低于转录+分离叠加成本，企业级实时会议、客服质检的边际成本将被重写。
+关联动态。Google DeepMind 同日也有 Gemini 3.5 Transcribe，实时语音转写赛道正在同时打价格战和架构战。
+发生了什么。特朗普政府在 NYT 诉 OpenAI 版权案中提交法庭之友意见书，支持 OpenAI 关于&quot;用他人版权材料训练 AI 属于合理使用&quot;的论点，称&quot;美国在持续发展强大且有竞争力的 AI 产业方面有重大利益&quot;。该意见书与版权局的报告结论直接矛盾——版权局局长在报告发布后不久即被解职。
+为什么重要。这是美国联邦政府在&quot;训练数据是否构成合理使用&quot;这一根本问题上最明确的站队。若法院采纳，将大幅降低所有实验室的训练数据法律风险；若驳回，整个预训练范式的商业模式都会动摇。AI builder 应把此案视为决定数据管线命运的关键节点。
+关联动态。同一天 Anthropic 向监管与媒体开放 Claude 文本水印检测 API——版权攻防正在从&quot;训练是否合法&quot;延伸到&quot;输出是否可溯源&quot;。
+发生了什么。市长 Zohran Mamdani 宣布新政策：2026-27 学年起，约 60 万公立学校学生（2-K 至八年级）将被禁止在课堂使用 AI，为期一年。政策同时附带更严格的数字设备限制，高中阶段不受影响。
+为什么重要。纽约是全美最大学区，这一年的&quot;暂停&quot;会直接决定下一代用户对 AI 的默认态度，并给教育类 AI 产品的市场预期划出一条清晰的政策分界线。
+发生了什么。五角大楼在其官方 AI 平台 GenAI.mil 上新增两个模型：OpenAI 的 ChatGPT Mil 和 xAI 的 Grok for Government。此前该平台已托管 Anthropic、Meta 等模型。
+为什么重要。两大消费级模型首次进入美军官方工作流，意味着政府合规（数据隔离、审计）与前沿模型能力的结合点已经打通；对做 government AI 的厂商而言，GenAI.mil 正在成为事实上的采购渠道。
+发生了什么。Google Research 与 Technion 的新研究发现，LLM 幻觉往往不是&quot;知识缺失&quot;——信息已参数化编码在模型中，只是生成时未能浮现。实验中，通过延长推理时间，前沿模型可恢复最多 65% 原先无法直接回忆的事实。
+为什么重要。这动摇了&quot;幻觉 = 知识缺失&quot;的默认诊断。对工程团队而言，增加上下文/检索可能不如给模型更多推理预算有效；这也为&quot;推理时计算换准确率&quot;提供了直接证据，呼应 Gemini 3.8 Flash&quot;更努力思考&quot;的产品逻辑。
+发生了什么。蚂蚁集团推出统一宽表系统 OmniTable，以一套宽表覆盖 35P</description>
       <itunes:summary>AI 每日简报，周四，2026-09-03。以下是今天的重点。
-以上就是今天的 AI 简报，我们明天见。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-03.mp3" length="58176" type="audio/mpeg"/>
+行业新闻。
+发生了什么。Gemini 3.8 Flash 于 9 月 2 日上线，距 3.7 Flash 仅数周。Google 称其通过&quot;更努力的思考&quot;（对复杂任务执行更多推理步骤、迭代调用工具）来提升表现，是六周内第三个预算级（Flash）模型。3.8 Flash Cyber 面向&quot;可信防御者&quot;开放，CWE-Bench 达 47.2% pass@1。两个变体共享基础权重，仅安全缓解措施不同。
+为什么重要。虽然输入/输出 token 单价与 3.7 Flash 相同（$0.75/$3.75 每百万 token），但&quot;工作更努力&quot;意味着每个任务实际多消耗约 30% 输出 token——这是通过推理时计算变相加价。开发者需要按&quot;每任务成本&quot;而非&quot;每 token 价格&quot;重新核算。
+关联动态。Anthropic 同日用 Fable 5.1 的 45% Agent 降价打同一场&quot;每任务成本&quot;战争；Google 的前沿大模型仍缺席，只能用 Flash 系列应对。
+发生了什么。Meta Superintelligence Labs 推出 Muse Voice Transcribe，将流式 ASR、端点检测和 20+ 说话人分离合并进单个自回归模型，而不是传统三系统拼接架构。公开 API 定价 $0.18/小时音频，主打&quot;边发生边处理&quot;而非等录音结束。
+为什么重要。当前生产级语音栈的每次模型间切换都引入延迟和故障点，单模型设计直接消灭了握手开销。$0.18/小时的价格显著低于转录+分离叠加成本，企业级实时会议、客服质检的边际成本将被重写。
+关联动态。Google DeepMind 同日也有 Gemini 3.5 Transcribe，实时语音转写赛道正在同时打价格战和架构战。
+发生了什么。特朗普政府在 NYT 诉 OpenAI 版权案中提交法庭之友意见书，支持 OpenAI 关于&quot;用他人版权材料训练 AI 属于合理使用&quot;的论点，称&quot;美国在持续发展强大且有竞争力的 AI 产业方面有重大利益&quot;。该意见书与版权局的报告结论直接矛盾——版权局局长在报告发布后不久即被解职。
+为什么重要。这是美国联邦政府在&quot;训练数据是否构成合理使用&quot;这一根本问题上最明确的站队。若法院采纳，将大幅降低所有实验室的训练数据法律风险；若驳回，整个预训练范式的商业模式都会动摇。AI builder 应把此案视为决定数据管线命运的关键节点。
+关联动态。同一天 Anthropic 向监管与媒体开放 Claude 文本水印检测 API——版权攻防正在从&quot;训练是否合法&quot;延伸到&quot;输出是否可溯源&quot;。
+发生了什么。市长 Zohran Mamdani 宣布新政策：2026-27 学年起，约 60 万公立学校学生（2-K 至八年级）将被禁止在课堂使用 AI，为期一年。政策同时附带更严格的数字设备限制，高中阶段不受影响。
+为什么重要。纽约是全美最大学区，这一年的&quot;暂停&quot;会直接决定下一代用户对 AI 的默认态度，并给教育类 AI 产品的市场预期划出一条清晰的政策分界线。
+发生了什么。五角大楼在其官方 AI 平台 GenAI.mil 上新增两个模型：OpenAI 的 ChatGPT Mil 和 xAI 的 Grok for Government。此前该平台已托管 Anthropic、Meta 等模型。
+为什么重要。两大消费级模型首次进入美军官方工作流，意味着政府合规（数据隔离、审计）与前沿模型能力的结合点已经打通；对做 government AI 的厂商而言，GenAI.mil 正在成为事实上的采购渠道。
+发生了什么。Google Research 与 Technion 的新研究发现，LLM 幻觉往往不是&quot;知识缺失&quot;——信息已参数化编码在模型中，只是生成时未能浮现。实验中，通过延长推理时间，前沿模型可恢复最多 65% 原先无法直接回忆的事实。
+为什么重要。这动摇了&quot;幻觉 = 知识缺失&quot;的默认诊断。对工程团队而言，增加上下文/检索可能不如给模型更多推理预算有效；这也为&quot;推理时计算换准确率&quot;提供了直接证据，呼应 Gemini 3.8 Flash&quot;更努力思考&quot;的产品逻辑。
+发生了什么。蚂蚁集团推出统一宽表系统 OmniTable，以一套宽表覆盖 35P</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-03.mp3" length="5932512" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-03.mp3</guid>
       <pubDate>Thu, 03 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:09</itunes:duration>
+      <itunes:duration>16:28</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>

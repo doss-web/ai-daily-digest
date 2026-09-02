@@ -543,17 +543,1020 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
       <audio controls preload="none" src="../audio/2026-09-03.mp3" data-date="2026-09-03"></audio>
     </div>
-      
+      <div data-lang-content="zh">
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span><span class="tab" data-cat="buzz">热议</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
+        <div class="category" data-cat="news">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Gemini 3.8 Flash 于 9 月 2 日上线，距 3.7 Flash 仅数周。Google 称其通过"更努力的思考"（对复杂任务执行更多推理步骤、迭代调用工具）来提升表现，是六周内第三个预算级（Flash）模型。3.8 Flash Cyber 面向"可信防御者"开放，CWE-Bench 达 47.2% pass@1。两个变体共享基础权重，仅安全缓解措施不同。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>虽然输入/输出 token 单价与 3.7 Flash 相同（$0.75/$3.75 每百万 token），但"工作更努力"意味着每个任务实际多消耗约 30% 输出 token——这是通过推理时计算变相加价。开发者需要按"每任务成本"而非"每 token 价格"重新核算。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>Anthropic 同日用 Fable 5.1 的 45% Agent 降价打同一场"每任务成本"战争；Google 的前沿大模型仍缺席，只能用 Flash 系列应对。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Meta Superintelligence Labs 推出 Muse Voice Transcribe，将流式 ASR、端点检测和 20+ 说话人分离合并进单个自回归模型，而不是传统三系统拼接架构。公开 API 定价 $0.18/小时音频，主打"边发生边处理"而非等录音结束。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>当前生产级语音栈的每次模型间切换都引入延迟和故障点，单模型设计直接消灭了握手开销。$0.18/小时的价格显著低于转录+分离叠加成本，企业级实时会议、客服质检的边际成本将被重写。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>Google DeepMind 同日也有 Gemini 3.5 Transcribe，实时语音转写赛道正在同时打价格战和架构战。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises" target="_blank">VentureBeat</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>特朗普政府在 NYT 诉 OpenAI 版权案中提交法庭之友意见书，支持 OpenAI 关于"用他人版权材料训练 AI 属于合理使用"的论点，称"美国在持续发展强大且有竞争力的 AI 产业方面有重大利益"。该意见书与版权局的报告结论直接矛盾——版权局局长在报告发布后不久即被解职。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是美国联邦政府在"训练数据是否构成合理使用"这一根本问题上最明确的站队。若法院采纳，将大幅降低所有实验室的训练数据法律风险；若驳回，整个预训练范式的商业模式都会动摇。AI builder 应把此案视为决定数据管线命运的关键节点。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>同一天 Anthropic 向监管与媒体开放 Claude 文本水印检测 API——版权攻防正在从"训练是否合法"延伸到"输出是否可溯源"。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>市长 Zohran Mamdani 宣布新政策：2026-27 学年起，约 60 万公立学校学生（2-K 至八年级）将被禁止在课堂使用 AI，为期一年。政策同时附带更严格的数字设备限制，高中阶段不受影响。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="3">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>纽约是全美最大学区，这一年的"暂停"会直接决定下一代用户对 AI 的默认态度，并给教育类 AI 产品的市场预期划出一条清晰的政策分界线。</div>
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        
+        <div class="item-sources"><a href="https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>五角大楼在其官方 AI 平台 GenAI.mil 上新增两个模型：OpenAI 的 ChatGPT Mil 和 xAI 的 Grok for Government。此前该平台已托管 Anthropic、Meta 等模型。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>两大消费级模型首次进入美军官方工作流，意味着政府合规（数据隔离、审计）与前沿模型能力的结合点已经打通；对做 government AI 的厂商而言，GenAI.mil 正在成为事实上的采购渠道。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil/" target="_blank">The Decoder</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Google Research 与 Technion 的新研究发现，LLM 幻觉往往不是"知识缺失"——信息已参数化编码在模型中，只是生成时未能浮现。实验中，通过延长推理时间，前沿模型可恢复最多 65% 原先无法直接回忆的事实。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这动摇了"幻觉 = 知识缺失"的默认诊断。对工程团队而言，增加上下文/检索可能不如给模型更多推理预算有效；这也为"推理时计算换准确率"提供了直接证据，呼应 Gemini 3.8 Flash"更努力思考"的产品逻辑。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://venturebeat.com/orchestration/frontier-models-can-recover-up-to-65-of-facts-they-cant-directly-recall-just-by-thinking-longer" target="_blank">VentureBeat</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>蚂蚁集团推出统一宽表系统 OmniTable，以一套宽表覆盖 35PB 大模型预训练语料，将数据处理效率提升 5.6 倍，论文获评 VLDB 2026 工业赛道最佳论文。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>数据清洗是中文大模型军备竞赛中最不被看见的瓶颈。OmniTable 证明了"宽表 + 统一 schema"可以替代大量 ETL 胶水代码——对任何自建预训练/后训练数据管线的团队都是可借鉴的架构思路。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/09/483104.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>阿里发布 Qwen3.8-Max，据量子位报道其在多项前端编程 benchmark 上跃居全球第一，定位直接对标当日发布的 Claude Fable 5.1 与 Gemini 3.8 Flash。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>Qwen 系列一直是开源/API 双轨性价比标杆。前端编程（HTML/CSS/React 等长尾、视觉密集任务）是 Agent 落地最活跃的场景之一，这一细分第一意味着国产模型在真实开发者工作流中具备了可替换闭源模型的能力。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>LocalLLaMA 社区同日出现对 Qwen 3.8"编码强但协作差"的吐槽——benchmark 第一与真实协作体验之间的落差值得跟踪。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/09/483101.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="paper">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>首个系统研究"LLM-as-a-judge"在 Agentic 工具调用（工作流 DAG）上可靠性的 benchmark，包含 3,808 个实例、6 种 DAG 拓扑、3 个难度层级。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>LLM 裁判被广泛用于 Agent 系统的自动评估与训练信号，但其在依赖关系驱动的工作流上的可靠性此前从未被系统验证。如果你的 Agent 评估管线在用 LLM 打分，这篇论文直接关系到你的 eval 是否可信。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2608.26623" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>研究者在严格控制每 token FLOPs、非嵌入参数和 KV cache 的前提下研究 MoE 循环架构，提出"中间一半层循环两次"的配方 SMELT，并给出相应的缩放定律。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>此前对循环 Transformer 的比较大多固定模型尺寸，混淆了架构优势与额外算力。SMELT 在"算力公平"条件下验证循环能否白拿深度收益——对推理成本敏感的架构选型有直接指导意义。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2609.01343" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>论文提出 HoH 框架，让编码 Agent 在现有 harness 之上运行"规划-编码-测试"迭代循环，实现跨多日的持续自我改进，将高层需求转化为完整可用软件系统。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>当前编码 Agent 评测多为单任务、小时级。HoH 直接把"自主软件开发"的时间尺度推到多日，并证明持续改进是可能的——这是通向真正 autonomous software engineer 的一个重要实验证据。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2609.01481" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>一篇提出"言语强化学习（VRL）"范式的综述/框架论文，以"反馈在 Agent 生命周期何时生效、修改什么"为轴，将语言反馈方法组织为三大支柱。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>自然语言正在成为改善语言 Agent 的主要反馈通道。这篇论文给一个快速碎片化的领域提供了统一坐标系——做 Agent 自我改进的人值得先读它再选方向。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://arxiv.org/abs/2609.01597v1" target="_blank">arXiv</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>研究者建立数学模型，定义"递归再生数 R_AI"，用于判断 AI 参与自身研发时，能力增长是被放大还是被阻尼；推导出反馈变为自我强化的临界条件。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>AI-for-AI-R&D 的反馈问题首次有了一个可与流行病学 R0 类比的定量框架。无论你是做自动化的研究者还是评估 AI 风险的从业者，这个"临界条件"思维都值得纳入自己的判断工具箱。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2609.00137" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="project">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>TypeScript 知名教育家 Matt Pocock 将自己 `.agents` 目录里的真实 skills 开源，打包为"给真正工程师用的 Claude Code skills"。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是少有的、由资深工程师从真实工作流中提炼的 skills 集合，而非玩具示例。直接抄作业的成本远低于自己摸索 prompt/skill 工程。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/mattpocock/skills" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>开源项目 atlas 提出"给 Agent 做源码管理"：同时使用多个编码 Agent、跟踪它们的改动，并在一个地方查询。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>多 Agent 并行改代码的最大痛点是"不知道谁改了什么、为什么改"。atlas 把 git 的审阅/回滚心智带进 Agent 工作流，是 Agent 协作基础设施里稀缺的一环。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/pacifio/atlas" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Qwen 开发者开源 zg，在 Apache 2.0 下把 ripgrep、BM25 和向量搜索统一到单一接口后面，附带刻意精简的 MCP 面，并设置本地内容与远程模型之间的授权门。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>Agent 从自然语言描述跳到精确代码行，通常需要切换多个工具。zg 让本地全文+语义搜索一体化，且 MCP 面很小——这正是 RAG/Agent 工具链里缺的那块"本地优先"拼图。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search/" target="_blank">MarkTechPost</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>NVIDIA 发布 Apache-2.0 的 Rust 代理/库 Switchyard，将 LLM 请求解码为 provider 中立类型，支持 passthrough、随机、LLM 分类器、stage-router 四种路由算法，并把响应翻译回客户端格式。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这意味着 Claude Code 或 Codex CLI 可以不改一行配置直接跑在 vLLM、NIM 或 Ollama 上。项目仍是 pre-alpha、官方明示勿用于生产，但"模型后端可插拔"正是企业规避供应商锁定的关键能力。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/" target="_blank">MarkTechPost</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Chrome DevTools 团队官方发布的 MCP 服务器，让编码 Agent 直接调用 Chrome DevTools 协议进行真实浏览器调试。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>前端 Agent 的最大瓶颈是"看不见页面"。官方 MCP 意味着 Debug 能力与 DevTools 同步演进，前端自动化 Agent 的可靠性上限将被整体抬高。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="buzz">
+          <div class="category-header">
+            <h2>💬 AI 圈热议</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>r/LocalLLaMA 热帖 "Everyone is t/s maxing.. 3.8.. but after a week of using it for work I'm tempted to switch back to 3.6" 引发共鸣。原帖引用："Qwen 3.8 is a damn good coder, but a terrible collaborator… It can't maintain a common style, if I give it a script with a certain naming and layout, 3.6 one shots small changes that fit into my structure. 3.8 will add code that looks much more advanced … But if it's just my [codebase], that's a dealbreaker。" 评论区大量开发者表示同样因为风格一致性/过度改动而回退版本。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>社区正在从"刷榜时代"进入"协作体验时代"：t/s 与 benchmark 分数无法衡量"是否尊重既有代码风格"。对 AI builder 而言，这是"模型评估必须包含代码库内一致性和 diff 体积"的强信号。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>阿里同日发布 Qwen3.8-Max 并宣称前端编程全球第一——benchmark 叙事与真实协作体验的落差正是当前最值得跟踪的裂缝。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4wjxd/everyone_is_ts_maxing_38_but_after_a_week_of/" target="_blank">r/LocalLLaMA</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Simon Willison 注意到 Anthropic 重新整理了 Claude 消费级应用的 system prompt 页面（改为按模型分页），并发现新版 prompt 花了大量篇幅禁止复现歌词，即使是对应"高/中/低"思考级别的三只鹈鹕插图对比，也比他预期的更强调版权边界。他写道："I love that they do this, and that they share not just the current prompts but historic changes"。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>版权压力正从训练端传导到推理端的 prompt 层——这与 DOJ 支持合理使用、Anthropic 开放水印检测 API 是同一条产业链的正反两面：训练可以合法，但生成内容的可溯源与限制将成为默认要求。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/" target="_blank">Simon Willison</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="other">
+          <div class="category-header">
+            <h2>💡 独立开发者灵感</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>r/LocalLLaMA 用户用 GLM 5.3 Flash（Q4 量化，租用 4 卡 RTX PRO 6000）为真实《我的世界》写 Fabric mod，从"生成黑洞"玩法诉求出发，通过"提需求→审查→再提"的迭代循环逐步完善。作者特意说明这不是单次 prompt 或循环脚本，而是人机协作的渐进开发。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>用"真实游戏的真实 API + 本地量化模型"做 Agent 评测，比任何 benchmark 都更能暴露模型的真实工程能力；对做"模型评测/沙盒产品"的开发者，这是一个低成本可复制的玩法模板。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/" target="_blank">r/LocalLLaMA</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>r/LocalLLaMA 用户发帖称自己买的 5 张 CMP 170HX 中 2 张两周内报废、1 张到手即 tensor core 缺陷，vLLM 一启动就掉卡。原帖结论："Current prices DO NOT justify the risk you are taking"。评论区大量自建集群用户分享了类似的矿卡故障率数据。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>如果你在做"低成本推理集群"类产品，硬件可靠性数据就是你的护城河；而在二手市场买卡前，把 40%+ 的故障率计入成本模型是必须的。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4wyvg/25_of_my_cmp_170hx_have_died_after_2_weeks_and/" target="_blank">r/LocalLLaMA</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>Quesma 博客做了系列实验：让主流多模态 LLM 识别蘑菇。作者发现模型在蘑菇识别上错误率高且"自信地犯错"，并与 71 条 HN 评论一起讨论了"AI 建议在生死攸关的垂直领域是否应该存在"。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>高错误成本领域（医疗、野外生存、食品安全）是 LLM 的直接应用禁区，但也意味着"AI 辅助 + 人工确认 + 免责边界"的产品设计仍有大量未被满足的需求——用户已经意识到不能信任纯 AI 答案，却缺少一个负责任的中间层。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://quesma.com/blog/mushroom-llm-vision/" target="_blank">Hacker News</a></div>
+      </div>
+    </div>
+        </div>
       <div class="empty-filter">该筛选条件下没有内容。</div>
       
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>把今天的事件拼在一起看，一个清晰的转折是：**大模型的竞争单位正在从"每 token 价格"变成"每任务成本"，而实现方式是把更多计算推向推理时**。Anthropic 用 45% 的 Agent 降价和 75% 的缓存降价打价格战，Google 用"更努力思考"的 Gemini 3.8 Flash 变相增加单任务 token 消耗，Google Research 则用"想得更久能找回 65% 的事实"为推理时计算提供学术背书——三件事指向同一个结论：模型的知识与能力早已"够用"，瓶颈在推理时的调用方式。与此同时，OpenAI Astra 的"循环深度"架构和 Critical 级网络能力评级，说明前沿模型的能力上限正在进入安全界无法用传统监控覆盖的盲区；而世界模型（World Labs Atlas、H3-World）的落地，则把战场从文本推理扩展到"可交互的 3D 世界"——这既是机器人数据的新来源，也是 Agent 训练的新沙盒。三个月后回看，今天最重要的事件可能不是任何一个模型发布，而是**美国司法部在 NYT 案中支持合理使用的意见书**：它第一次让"训练数据合法性"这个悬在所有实验室头上的达摩克利斯之剑有了明确的政治风向，无论法院最终如何裁决，AI 版权问题的游戏规则都已被改写。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="把今天的事件拼在一起看，一个清晰的转折是：**大模型的竞争单位正在从&quot;每 token 价格&quot;变成&quot;每任务成本&quot;，而实现方式是把更多计算推向推理时**。Anthropic 用 45% 的 Agent 降价和 75% 的缓存降价打价格战，Google 用&quot;更努力思考&quot;的 Gemini 3.8 Flash 变相增加单任务 token 消耗，Google Research 则用&quot;想得更久能找回 65% 的事实&quot;为推理时计算提供学术背书——三件事指向同一个结论：模型的知识与能力早已&quot;够用&quot;，瓶颈在推理时的调用方式。与此同时，OpenAI Astra 的&quot;循环深度&quot;架构和 Critical 级网络能力评级，说明前沿模型的能力上限正在进入安全界无法用传统监控覆盖的盲区；而世界模型（World Labs Atlas、H3-World）的落地，则把战场从文本推理扩展到&quot;可交互的 3D 世界&quot;——这既是机器人数据的新来源，也是 Agent 训练的新沙盒。三个月后回看，今天最重要的事件可能不是任何一个模型发布，而是**美国司法部在 NYT 案中支持合理使用的意见书**：它第一次让&quot;训练数据合法性&quot;这个悬在所有实验室头上的达摩克利斯之剑有了明确的政治风向，无论法院最终如何裁决，AI 版权问题的游戏规则都已被改写。">🔊 朗读今日观察</button>
+        </div>
+    </div></div><div data-lang-content="en">
+    <div class="digest-scope">
+      
+    <div class="filter-bar">
+      <span class="tab active" data-cat="all">All</span><span class="tab" data-cat="news">News</span><span class="tab" data-cat="paper">Papers</span><span class="tab" data-cat="project">Projects</span>
+      <span class="star-toggle">★ Top picks (4+)</span>
     </div>
+      
+        <div class="category" data-cat="news">
+          <div class="category-header">
+            <h2>📰 Industry</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Gemini 3.8 Flash launched on September 2, just weeks after 3.7 Flash. Google says it "works harder" by performing more reasoning steps on complex tasks and iteratively calling tools; it is the third budget Flash model in six weeks. 3.8 Flash Cyber, restricted to "trusted defenders," scores 47.2% pass@1 on CWE-Bench. Both variants share the same base weights and differ only in safety mitigations.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Token prices match 3.7 Flash ($0.75/$3.75 per million), but "working harder" burns roughly 30% more output tokens per task — a stealth price increase via reasoning-time compute. Developers should re-budget on per-task cost, not per-token price.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>Anthropic's Fable 5.1 launch fights the same "per-task cost" war on the same day; Google's frontier models remain absent, leaving Flash to carry the competitive load.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Meta Superintelligence Labs released Muse Voice Transcribe, collapsing streaming ASR, endpoint detection, and diarization for 20+ speakers into a single autoregressive model instead of the conventional three-system pipeline. Public API pricing is $0.18 per hour of audio, designed to process speech while it happens.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Every hand-off in a stitched-together voice stack adds latency and failure modes; a single model eliminates that overhead. At $0.18/hour, real-time meetings and contact-center QA get a new price floor.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>Google DeepMind also has Gemini 3.5 Transcribe — the real-time transcription race is now simultaneously about architecture and price.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The Trump administration filed an amicus brief in The New York Times' copyright suit against OpenAI, supporting the argument that training AI on copyrighted material is fair use. "The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry," the brief reads. The filing directly contradicts the US Copyright Office's report, whose director was fired shortly after its publication.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>This is the federal government's clearest stance yet on whether training data constitutes fair use. Adoption would slash legal risk across every lab; rejection would threaten the pretraining paradigm itself. AI builders should treat this case as the pivotal event for their data pipelines.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>On the same day, Anthropic opened its Claude text-watermark detection API to regulators and media — copyright battles are moving from "is training legal" to "can outputs be traced."</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Mayor Zohran Mamdani announced a one-year moratorium effective the 2026-2027 school year, barring roughly 600,000 public school students from 2-K through eighth grade from using AI in classrooms. The policy comes with additional restrictions on digital devices; high school is unaffected.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>New York is the largest school district in the US. A full-year pause will shape the default attitudes of the next generation of users and draws a clear policy line for the ed-tech AI market.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The US military added OpenAI's ChatGPT Mil and xAI's Grok for Government to GenAI.mil, its official AI platform that already hosts models from Anthropic, Meta, and others.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Two consumer-frontier models are now inside official US government workflows, proving that compliance (data isolation, audit) and frontier capability can coexist. For government-AI vendors, GenAI.mil is becoming the de facto procurement channel.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>A new study from Google Research and Technion shows that hallucination is often not missing knowledge: the information is encoded parametrically but fails to surface during generation. With extended reasoning, frontier models recovered up to 65% of facts they could not recall directly.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>This undermines the default "hallucination = knowledge gap" diagnosis. More retrieval or context may be less effective than more reasoning budget — direct evidence that reasoning-time compute buys accuracy, and a rationale for Gemini 3.8 Flash's "work harder" product logic.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Ant Group introduced OmniTable, a unified wide-table system covering 35PB of LLM pretraining corpora, improving data-processing efficiency by 5.6x and winning the VLDB 2026 industrial-track best paper award.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Data curation is the least visible bottleneck in the Chinese LLM race. OmniTable demonstrates that a wide-table + unified schema can replace mountains of ETL glue code — an architecture directly transferable to any team building pretraining/post-training data pipelines.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Alibaba released Qwen3.8-Max, which per QbitAI claims the top spot on multiple front-end programming benchmarks — positioned directly against the same-day launches of Claude Fable 5.1 and Gemini 3.8 Flash.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Front-end coding (HTML/CSS/React and other long-tail, visually dense tasks) is one of the most active agent-deployment domains. Leading that niche means a Chinese model can plausibly replace closed models in real developer workflows.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>The LocalLLaMA community is simultaneously complaining that Qwen 3.8 is a strong coder but a poor collaborator — the gap between benchmark #1 and real collaboration experience is worth tracking.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="paper">
+          <div class="category-header">
+            <h2>📄 Papers</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The first benchmark to systematically study LLM-as-a-judge reliability on agentic tool-calling over workflow DAGs — 3,808 instances, six DAG topologies, three difficulty tiers.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>LLM judges are widely used as automated evaluation and training signals for agent systems, but their reliability on dependency-driven workflows was unexamined. If your agent eval pipeline uses LLM scoring, this paper determines whether your eval is trustworthy.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The authors study looping on Mixture-of-Experts Transformers while closely matching per-token FLOPs, non-embedding parameters, and KV cache, arriving at a recipe that loops the middle half of layers twice, with scaling laws to match.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Previous looped-transformer comparisons conflated architectural advantage with extra compute. SMELT tests whether looping buys depth fairly — directly relevant to architecture selection under inference-cost pressure.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The HoH framework runs existing coding-agent harnesses through iterative planning-coding-testing loops, enabling agents to continually improve software across multi-day autonomous development sessions.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Most coding-agent evals are single-task and hour-scale. HoH pushes the time horizon of autonomous development to days and shows continual improvement is achievable — an important evidence point on the road to truly autonomous software engineers.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>A unified account of Verbal Reinforcement Learning, organizing the field around when verbal feedback takes effect in an agent's lifecycle and what it modifies, across three pillars.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Natural language is becoming the primary feedback channel for improving language agents. This paper gives a fast-fragmenting field a common coordinate system — anyone working on agent self-improvement should read it before picking a direction.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>A mathematical model defines a "recursive reproduction number," R_AI, determining whether AI capability growth is amplified or damped as AI is used in its own R&D, and derives the critical conditions for self-amplifying feedback.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>The feedback problem of AI-for-AI-R&D finally has a quantitative framework comparable to epidemiology's R0. Whether you build automation or assess AI risk, the "criticality" mindset belongs in your toolkit.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="project">
+          <div class="category-header">
+            <h2>🔧 Open Source</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>TypeScript educator Matt Pocock open-sourced the real skills from his own `.agents` directory as "Skills for Real Engineers" for Claude Code and similar harnesses.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>This is a rare case of skills extracted from a senior engineer's actual workflow rather than toy examples. Copying is far cheaper than figuring out prompt/skill engineering yourself.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Atlas proposes version control for AI agents: run multiple coding agents, track their changes, and query them in one place.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>The biggest pain of parallel agentic coding is not knowing who changed what and why. Atlas brings git-style review and rollback mental models to agent workflows — a rare missing piece of agent-collaboration infrastructure.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Qwen developers released zg under Apache 2.0, unifying ripgrep, BM25, and vector search behind a single interface, with a deliberately small MCP surface and an authorization gate between local content and remote models.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Agents moving from natural-language descriptions to exact code spans usually switch between multiple tools. zg unifies local full-text and semantic search with minimal MCP surface — the missing local-first piece in many RAG/agent toolchains.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>NVIDIA open-sourced Switchyard (Apache-2.0, Rust), decoding LLM traffic into provider-neutral types, routing via passthrough/random/LLM-classifier/stage-router algorithms, and translating responses back to the client's format. The project is explicitly pre-alpha.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Claude Code or Codex CLI could run unchanged against vLLM, NIM, or Ollama. Even pre-alpha, pluggable model backends are exactly what enterprises need to escape vendor lock-in.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The Chrome DevTools team published an official MCP server letting coding agents drive the Chrome DevTools Protocol for real browser debugging.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>The biggest bottleneck for front-end agents is not being able to see the page. An official MCP means debugging capability tracks DevTools itself, raising the reliability ceiling for front-end automation agents.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="other">
+          <div class="category-header">
+            <h2>💬 Discourse</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The thread "Everyone is t/s maxing.. 3.8.. but after a week of using it for work I'm tempted to switch back to 3.6" struck a nerve. Quoting the post: "Qwen 3.8 is a damn good coder, but a terrible collaborator… It can't maintain a common style, if I give it a script with a certain naming and layout, 3.6 one shots small changes that fit into my structure. 3.8 will add code that looks much more advanced … But if it's just my [codebase], that's a dealbreaker." Many commenters report reverting versions over style consistency and over-editing.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>The community is shifting from "benchmark-chasing" to "collaboration experience": t/s and benchmark scores cannot measure whether a model respects existing code style. For AI builders this is a strong signal that model evaluation must include in-repo consistency and diff size.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>Alibaba released Qwen3.8-Max the same day claiming #1 in front-end coding — the gap between benchmark narrative and real collaborative experience is the crack to watch.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Simon Willison noticed Anthropic reorganized its consumer-app system prompts into per-model pages, and that the new prompts devote substantial space to prohibiting lyric reproduction — even his comparison of three pelicans generated at high/medium/low thinking levels came with more copyright caution than expected. He writes: "I love that they do this, and that they share not just the current prompts but historic changes."</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>Copyright pressure is migrating from the training side into the prompt layer at inference time — the flip side of DOJ backing fair use and Anthropic opening its watermark-detection API: training may be legal, but traceability and restriction of generated content will become the default requirement.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="other">
+          <div class="category-header">
+            <h2>💡 Indie Dev Radar</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Inspiration</div>
+      <div class='item-desc'>An r/LocalLLaMA user used GLM 5.3 Flash (Q4 quantized, on a rented 4x RTX PRO 6000 box) to write a real Minecraft Fabric mod — a "black hole" gameplay feature — through iterative human review: request changes, review them, repeat. The author stresses this was not a single prompt or a loop script but progressive human-agent collaboration.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>Using a real game's real API plus a local quantized model is a far better agent evaluation than any benchmark. For developers building eval or sandbox products, this is a cheap, replicable playbook.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Inspiration</div>
+      <div class='item-desc'>An r/LocalLLaMA user reports that 2 of 5 CMP 170HX cards died within two weeks and a third shipped with defective tensor cores; vLLM drops one GPU immediately and another throws CUDA errors on startup. Conclusion: "Current prices DO NOT justify the risk you are taking." Commenters running self-hosted clusters shared similar failure rates.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>If you're building low-cost inference cluster products, hardware reliability data is your moat; and anyone buying used mining cards must factor a ~40%+ failure rate into their cost model.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Inspiration</div>
+      <div class='item-desc'>The Quesma blog ran controlled experiments asking mainstream multimodal LLMs to identify mushrooms, finding high error rates paired with confident mistakes. The post and its 71 HN comments debate whether AI advice should exist at all in life-or-death verticals.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Takeaway</div>
+      <div class='item-desc'>High-cost-of-error domains (health, wilderness survival, food safety) remain off-limits for pure-LLM answers — which is exactly why "AI assistance + human confirmation + explicit liability boundaries" is an unserved product gap. Users already know not to trust bare AI answers but lack a responsible middle layer.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+      <div class="empty-filter">No items match this filter.</div>
+      
+    </div></div>
       <div class="day-nav">
         <a class="nav-btn" href="2026-09-02.html">← 2026-09-02</a>
         <span></span>
