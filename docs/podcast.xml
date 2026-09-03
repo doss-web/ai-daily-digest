@@ -15,6 +15,17 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-04 周五</title>
+      <description>抱歉，我没有在简报正文中找到任何具体的新闻条目——你发来的内容只有标题（AI Daily Digest - 2026-09-04）和文件底部的生成标记，没有可供改写的实际条目。方便把完整的简报内容贴过来吗？我会立刻按口语化的播报稿来改写。</description>
+      <itunes:summary>抱歉，我没有在简报正文中找到任何具体的新闻条目——你发来的内容只有标题（AI Daily Digest - 2026-09-04）和文件底部的生成标记，没有可供改写的实际条目。方便把完整的简报内容贴过来吗？我会立刻按口语化的播报稿来改写。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-04.mp3" length="117936" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-04.mp3</guid>
+      <pubDate>Fri, 04 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>00:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-09-03 周四</title>
       <description>AI 每日简报，周四，2026-09-03。以下是今天的重点。
 行业新闻。
@@ -431,49 +442,6 @@ OpenAI这边也有大动作。它一改之前的态度，公开呼吁加州要�
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-21.mp3</guid>
       <pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate>
       <itunes:duration>17:41</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-08-20 周四</title>
-      <description>AI 每日简报，周四，2026-08-20。以下是今天的重点。
-行业新闻。
-发生了什么。据 The Decoder 报道，Anthropic 在营收上首次超越 OpenAI。这是 AI 竞赛开始以来两家头部实验室排名第一次在收入维度上发生互换。结合 Anthropic 上周发布的 Claude 新模型和持续扩张的企业客户版图，这一变化标志着竞争格局进入新阶段。
-为什么重要。Anthropic 以&quot;安全优先&quot;为品牌定位，其收入反超说明企业客户正在用真金白银为安全和可控性投票——这对所有面向企业市场的 AI 产品有直接信号意义。
-关联动态。同一天 OpenAI 推出 Zero Data Retention 和 Private Safety Processing，试图在隐私保护上扳回一城，两家在&quot;谁能更好保护企业数据&quot;上的竞争正在白热化。
-发生了什么。Stripe 在致投资者信中宣布今年上半年营收增长 41%，并确认以超过 80 亿美元收购模型路由平台 OpenRouter。信中更直言 2026 年 1 月 1 日是&quot;奇点的开始&quot;，并将其作为继续维持私有化的理由之一。OpenRouter 是目前开发者使用最广泛的模型统一入口之一。
-为什么重要。模型分发权正在向聚合层集中。Stripe 拿下 OpenRouter 意味着它同时掌握了 AI 应用的支付层和模型路由层，这对依赖 OpenRouter 做模型分发的团队有直接连带影响——定价、抽成策略都可能随 Stripe 的整合而变。
-发生了什么。OpenAI 宣布为符合条件的 API 客户提供零数据保留（ZDR），并首次预览 Private Safety Processing——一种在不牺牲数据隐私的前提下进行高级 AI 安全检测的技术方案。TechCrunch 指出，这轮产品发布是 OpenAI 与 Anthropic 在&quot;企业客户隐私保护&quot;维度上的直接竞争。
-为什么重要。企业采用 AI 的主要障碍之一就是数据安全。ZDR 从&quot;我们不使用你的数据训练&quot;升级为&quot;我们根本不存储你的数据&quot;，会显著改变金融、医疗等高合规要求行业的采购决策。
-关联动态。Anthropic 同期在收入上超越 OpenAI，OpenAI 此时打出隐私牌，针对性明显。
-发生了什么。据 The Decoder 报道，中国政府开始允许小批量 Nvidia H200 芯片进入大陆市场，目的是帮助国内 AI 企业在算力上保持与美国的竞争节奏。H200 并非最新一代芯片，但其 HBM 内存优势对推理和训练均有明显提升。
-为什么重要。此前中国 AI 企业主要依赖国产芯片（如华为昇腾）和被阉割的 H20。H200 的流入意味着国内模型训练和推理的成本结构可能出现变化，开源模型生态的迭代速度也可能因此提速。
-发生了什么。宇树科技在 A 股上市首日开盘暴涨 620%，成为中国&quot;机器人第一股&quot;。这家以四足机器人和人形机器人闻名的公司在 2026 世界机器人大会（WRC）期间完成敲钟，市场对其估值给出了极高溢价。同日，多家具身智能公司（超维动力、章鱼动力、银河通用等）在 WRC 上展示了从乒乓球对局到&quot;脑-手-数据&quot;技术体系的新进展。
-为什么重要。具身智能从实验室叙事进入二级市场定价阶段。620% 的开盘涨幅意味着资本对具身智能赛道的热情仍然极高，但也把该领域的估值泡沫风险推到了台前。对 AI builder 来说，具身智能的数据采集和训练基础设施（如具身数据底座开卖）正在成为新的商业机会点。
-发生了什么。Google 在 Gemini 中上线了专门的 Student Hub，提供研究资料收集、学习笔记、自动生成闪卡、练习测验等一体化功能，并增强了对图表和图像的支持。这是 Google 继 NotebookLM 之后在教育场景的又一次加码，直接对标 OpenAI 在校园市场的布局。
-为什么重要。教育是 AI 助手渗透率最高的场景之一，也是用户习惯养成的最佳入口。谁先占据学生的日常学习流程，谁就锁定了未来 5-10 年的高粘性用户群。对 AI 产品创业者而言，学生群体对&quot;能直接帮我通过考试&quot;的工具付费意愿极强。
-发生了什么。Anthropic 宣布其 Claude 模型可以在无人干预的情况下自主设计能对接体内靶点结构的小型蛋白质，命中率最高达 35</description>
-      <itunes:summary>AI 每日简报，周四，2026-08-20。以下是今天的重点。
-行业新闻。
-发生了什么。据 The Decoder 报道，Anthropic 在营收上首次超越 OpenAI。这是 AI 竞赛开始以来两家头部实验室排名第一次在收入维度上发生互换。结合 Anthropic 上周发布的 Claude 新模型和持续扩张的企业客户版图，这一变化标志着竞争格局进入新阶段。
-为什么重要。Anthropic 以&quot;安全优先&quot;为品牌定位，其收入反超说明企业客户正在用真金白银为安全和可控性投票——这对所有面向企业市场的 AI 产品有直接信号意义。
-关联动态。同一天 OpenAI 推出 Zero Data Retention 和 Private Safety Processing，试图在隐私保护上扳回一城，两家在&quot;谁能更好保护企业数据&quot;上的竞争正在白热化。
-发生了什么。Stripe 在致投资者信中宣布今年上半年营收增长 41%，并确认以超过 80 亿美元收购模型路由平台 OpenRouter。信中更直言 2026 年 1 月 1 日是&quot;奇点的开始&quot;，并将其作为继续维持私有化的理由之一。OpenRouter 是目前开发者使用最广泛的模型统一入口之一。
-为什么重要。模型分发权正在向聚合层集中。Stripe 拿下 OpenRouter 意味着它同时掌握了 AI 应用的支付层和模型路由层，这对依赖 OpenRouter 做模型分发的团队有直接连带影响——定价、抽成策略都可能随 Stripe 的整合而变。
-发生了什么。OpenAI 宣布为符合条件的 API 客户提供零数据保留（ZDR），并首次预览 Private Safety Processing——一种在不牺牲数据隐私的前提下进行高级 AI 安全检测的技术方案。TechCrunch 指出，这轮产品发布是 OpenAI 与 Anthropic 在&quot;企业客户隐私保护&quot;维度上的直接竞争。
-为什么重要。企业采用 AI 的主要障碍之一就是数据安全。ZDR 从&quot;我们不使用你的数据训练&quot;升级为&quot;我们根本不存储你的数据&quot;，会显著改变金融、医疗等高合规要求行业的采购决策。
-关联动态。Anthropic 同期在收入上超越 OpenAI，OpenAI 此时打出隐私牌，针对性明显。
-发生了什么。据 The Decoder 报道，中国政府开始允许小批量 Nvidia H200 芯片进入大陆市场，目的是帮助国内 AI 企业在算力上保持与美国的竞争节奏。H200 并非最新一代芯片，但其 HBM 内存优势对推理和训练均有明显提升。
-为什么重要。此前中国 AI 企业主要依赖国产芯片（如华为昇腾）和被阉割的 H20。H200 的流入意味着国内模型训练和推理的成本结构可能出现变化，开源模型生态的迭代速度也可能因此提速。
-发生了什么。宇树科技在 A 股上市首日开盘暴涨 620%，成为中国&quot;机器人第一股&quot;。这家以四足机器人和人形机器人闻名的公司在 2026 世界机器人大会（WRC）期间完成敲钟，市场对其估值给出了极高溢价。同日，多家具身智能公司（超维动力、章鱼动力、银河通用等）在 WRC 上展示了从乒乓球对局到&quot;脑-手-数据&quot;技术体系的新进展。
-为什么重要。具身智能从实验室叙事进入二级市场定价阶段。620% 的开盘涨幅意味着资本对具身智能赛道的热情仍然极高，但也把该领域的估值泡沫风险推到了台前。对 AI builder 来说，具身智能的数据采集和训练基础设施（如具身数据底座开卖）正在成为新的商业机会点。
-发生了什么。Google 在 Gemini 中上线了专门的 Student Hub，提供研究资料收集、学习笔记、自动生成闪卡、练习测验等一体化功能，并增强了对图表和图像的支持。这是 Google 继 NotebookLM 之后在教育场景的又一次加码，直接对标 OpenAI 在校园市场的布局。
-为什么重要。教育是 AI 助手渗透率最高的场景之一，也是用户习惯养成的最佳入口。谁先占据学生的日常学习流程，谁就锁定了未来 5-10 年的高粘性用户群。对 AI 产品创业者而言，学生群体对&quot;能直接帮我通过考试&quot;的工具付费意愿极强。
-发生了什么。Anthropic 宣布其 Claude 模型可以在无人干预的情况下自主设计能对接体内靶点结构的小型蛋白质，命中率最高达 35</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-20.mp3" length="6686640" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-20.mp3</guid>
-      <pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>18:34</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
