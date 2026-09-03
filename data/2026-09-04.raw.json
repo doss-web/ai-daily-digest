@@ -1,13 +1,26 @@
 {
   "date": "2026-09-04",
-  "generated_at": "2026-09-04T06:40:54.726017+08:00",
+  "generated_at": "2026-09-04T07:50:23.980057+08:00",
   "counts": {
     "papers": 42,
     "projects": 15,
-    "news": 133
+    "news": 142
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "An Empirical Study on Zero-Data Bootstrapping for Conversational Recommender Systems",
+        "url": "https://huggingface.co/papers/2504.15476",
+        "normalized_url": "https://huggingface.co/papers/2504.15476",
+        "summary": "Conversational Recommender Systems (CRS) typically require domain-specific dialogue data, which is costly, scarce, and often unavailable in new domains. We conduct a systematic empirical study of zero-data CRS bootstrapping: generating synthetic conversational supervision from non-conversational signals---item reviews, metadata, and user-item interactions---without any in-domain dialogue corpus. We compare two information-theoretic selection strategies, Jensen-Shannon diversity and Fisher inform",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2504.15476"
+        }
+      },
       {
         "category": "papers",
         "title": "Sparse Readout Prism: Explaining Logit-Lens Scores in Features Instead of Tokens",
@@ -387,19 +400,6 @@
       },
       {
         "category": "papers",
-        "title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
-        "url": "https://huggingface.co/papers/2609.01865",
-        "normalized_url": "https://huggingface.co/papers/2609.01865",
-        "summary": "Embedding-based code retrieval is a core component of coding agents and retrieval-augmented code generation, where retrieving correct code matters more than retrieving lexically similar code. Existing code-retrieval benchmarks do not plant controlled, execution-verified single-edit variants of each query's canonical implementation in the search pool, leaving the question of whether embeddings can functionally discriminate correct from near-clone-but-incorrect code unanswered in a retrieval setti",
-        "source": "HuggingFace Papers",
-        "published": "2026-09-01T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2609.01865"
-        }
-      },
-      {
-        "category": "papers",
         "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
         "url": "https://arxiv.org/abs/2609.02887v1",
         "normalized_url": "https://arxiv.org/abs/2609.02887v1",
@@ -731,10 +731,34 @@
     "news": [
       {
         "category": "news",
+        "title": "NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade",
+        "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+        "normalized_url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+        "summary": "HN points: 12, comments: 4",
+        "source": "Hacker News",
+        "published": "2026-09-03T23:14:00Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
+        "url": "https://spectrum.ieee.org/ai-engineer-skills",
+        "normalized_url": "https://spectrum.ieee.org/ai-engineer-skills",
+        "summary": "A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An ope",
+        "source": "Hacker News, IEEE Spectrum AI",
+        "published": "2026-09-02T13:00:04+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
         "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
         "url": "https://armature.tech/blog/which-tools-coding-agents-install",
         "normalized_url": "https://armature.tech/blog/which-tools-coding-agents-install",
-        "summary": "HN points: 34, comments: 9",
+        "summary": "HN points: 64, comments: 17",
         "source": "Hacker News",
         "published": "2026-09-03T21:20:34Z",
         "importance_hint": 3,
@@ -745,7 +769,7 @@
         "title": "GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index",
         "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
         "normalized_url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
-        "summary": "HN points: 19, comments: 9",
+        "summary": "HN points: 20, comments: 10",
         "source": "Hacker News",
         "published": "2026-09-03T20:11:25Z",
         "importance_hint": 4,
@@ -756,7 +780,7 @@
         "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
         "url": "https://arcprize.org/blog/astra",
         "normalized_url": "https://arcprize.org/blog/astra",
-        "summary": "HN points: 127, comments: 69",
+        "summary": "HN points: 149, comments: 81",
         "source": "Hacker News",
         "published": "2026-09-03T19:45:00Z",
         "importance_hint": 4,
@@ -767,7 +791,7 @@
         "title": "GPT-6 Astra System Card",
         "url": "https://deploymentsafety.openai.com/gpt-6-astra",
         "normalized_url": "https://deploymentsafety.openai.com/gpt-6-astra",
-        "summary": "HN points: 24, comments: 1",
+        "summary": "HN points: 25, comments: 1",
         "source": "Hacker News",
         "published": "2026-09-03T19:30:38Z",
         "importance_hint": 3,
@@ -791,7 +815,7 @@
         "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
         "url": "https://inference-docs.cerebras.ai/models/overview",
         "normalized_url": "https://inference-docs.cerebras.ai/models/overview",
-        "summary": "HN points: 381, comments: 118",
+        "summary": "HN points: 404, comments: 123",
         "source": "Hacker News",
         "published": "2026-09-03T18:32:13Z",
         "importance_hint": 3,
@@ -802,7 +826,7 @@
         "title": "OpenAI begins rolling out GPT-6 Astra",
         "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
         "normalized_url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-        "summary": "HN points: 233, comments: 221",
+        "summary": "HN points: 237, comments: 227",
         "source": "Hacker News",
         "published": "2026-09-03T18:18:22Z",
         "importance_hint": 4,
@@ -846,7 +870,7 @@
         "title": "Renowned NYC Washington Square Park Chess Hustler 'Chichi' Detained by ICE",
         "url": "https://www.chess.com/news/view/washington-square-park-hustler-chichi-detained-by-ice",
         "normalized_url": "https://www.chess.com/news/view/washington-square-park-hustler-chichi-detained-by-ice",
-        "summary": "HN points: 24, comments: 5",
+        "summary": "HN points: 25, comments: 9",
         "source": "Hacker News",
         "published": "2026-09-03T17:44:29Z",
         "importance_hint": 3,
@@ -865,25 +889,68 @@
       },
       {
         "category": "news",
-        "title": "Judge Tells RFK Jr. To Stop Using Fake AI Studies on Teen Pregnancy",
-        "url": "https://newrepublic.com/post/215001/judge-rfk-jr-hhs-fake-ai-studies-teen-pregnancy",
-        "normalized_url": "https://newrepublic.com/post/215001/judge-rfk-jr-hhs-fake-ai-studies-teen-pregnancy",
-        "summary": "HN points: 16, comments: 2",
-        "source": "Hacker News",
-        "published": "2026-09-03T17:33:00Z",
-        "importance_hint": 3,
-        "metadata": {}
+        "title": "129亿美元，英伟达收购“抱抱脸”，1800万开发者被老黄“偷家”",
+        "url": "https://www.36kr.com/p/3967793637356036",
+        "normalized_url": "https://www.36kr.com/p/3967793637356036",
+        "summary": "英伟达129.3亿美元收购开放AI平台Hugging Face",
+        "source": "36Kr AI",
+        "published": "2026-09-03T23:50:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
-        "title": "Instrument clusters are now paid extras in two Hyundai models",
-        "url": "https://www.caranddriver.com/news/a73583741/hyundai-instrument-cluster-paid-option/",
-        "normalized_url": "https://www.caranddriver.com/news/a73583741/hyundai-instrument-cluster-paid-option",
-        "summary": "HN points: 23, comments: 29",
-        "source": "Hacker News",
-        "published": "2026-09-03T17:25:47Z",
-        "importance_hint": 4,
-        "metadata": {}
+        "title": "Muse Spark 1.3来了，Meta开始拼AI智能体效率",
+        "url": "https://www.36kr.com/p/3967796330082819",
+        "normalized_url": "https://www.36kr.com/p/3967796330082819",
+        "summary": "Meta发布Muse Spark 1.3，强化长任务与编码能力。",
+        "source": "36Kr AI",
+        "published": "2026-09-03T23:46:03+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "官方前瞻来了，IFA 2026倒计时：从生成到执行，AI如何重塑硬件？",
+        "url": "https://www.36kr.com/p/3967745454249601",
+        "normalized_url": "https://www.36kr.com/p/3967745454249601",
+        "summary": "AI走进现实，机器人登堂入室，未来已来。",
+        "source": "36Kr AI",
+        "published": "2026-09-03T23:45:44+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "10亿级预算、百万小时数据狂欢：具身离「开箱即用」还有多远",
+        "url": "https://www.36kr.com/p/3967681693194120",
+        "normalized_url": "https://www.36kr.com/p/3967681693194120",
+        "summary": "具身行业的数据豪赌",
+        "source": "36Kr AI",
+        "published": "2026-09-03T23:45:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代",
+        "url": "https://www.36kr.com/p/3968319085523209",
+        "normalized_url": "https://www.36kr.com/p/3968319085523209",
+        "summary": "OpenAI：欢迎来到 AGI 时代",
+        "source": "36Kr AI",
+        "published": "2026-09-03T23:43:57+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -952,67 +1019,28 @@
       },
       {
         "category": "news",
-        "title": "OpenAI也开始卖广告：半年67亿",
-        "url": "https://www.36kr.com/p/3967608416432647",
-        "normalized_url": "https://www.36kr.com/p/3967608416432647",
-        "summary": "OpenAI为什么要\"走老路\"？",
-        "source": "36Kr AI",
-        "published": "2026-09-03T13:31:51+00:00",
+        "title": "新版GPT Image 2.5已经能伪造GPT-6发布会了",
+        "url": "https://www.qbitai.com/2026/09/483948.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/483948.html",
+        "summary": "改进GPT Image 2的噪点问题",
+        "source": "量子位",
+        "published": "2026-09-03T21:57:08+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+          "feed_url": "https://www.qbitai.com/rss"
         }
       },
       {
         "category": "news",
-        "title": "英伟达官方推理指南来了，6倍无损加速，最优解全是华人写的",
-        "url": "https://www.36kr.com/p/3967588251311360",
-        "normalized_url": "https://www.36kr.com/p/3967588251311360",
-        "summary": "踩着同行的肩膀，卷出四代进化",
-        "source": "36Kr AI",
-        "published": "2026-09-03T13:30:46+00:00",
-        "importance_hint": 4,
+        "title": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+        "url": "https://www.qbitai.com/2026/09/483898.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/483898.html",
+        "summary": "全球最强C",
+        "source": "量子位",
+        "published": "2026-09-03T21:50:07+00:00",
+        "importance_hint": 5,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "ARR 3亿美元的Kimi，为什么还在追着投资人要钱？",
-        "url": "https://www.36kr.com/p/3967584794269577",
-        "normalized_url": "https://www.36kr.com/p/3967584794269577",
-        "summary": "Kimi 越来越不像 Anthropic 了",
-        "source": "36Kr AI",
-        "published": "2026-09-03T13:30:07+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "如今的低端机能用吗？不一定卡，但可能容易坏",
-        "url": "https://www.36kr.com/p/3967597393588489",
-        "normalized_url": "https://www.36kr.com/p/3967597393588489",
-        "summary": "内存小的最大问题，可能是设备潜在使用寿命。",
-        "source": "36Kr AI",
-        "published": "2026-09-03T13:28:21+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "\"退烧\"告别粗放扩张，中国线下音乐节走向何方？",
-        "url": "https://www.36kr.com/p/3967407670779143",
-        "normalized_url": "https://www.36kr.com/p/3967407670779143",
-        "summary": "大浪淘沙",
-        "source": "36Kr AI",
-        "published": "2026-09-03T13:26:52+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+          "feed_url": "https://www.qbitai.com/rss"
         }
       },
       {
@@ -1115,32 +1143,6 @@
         "source": "量子位",
         "published": "2026-09-03T00:51:16+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "SkyProduction天工工作台：从剧本到成片，一套工作台把精品短剧创作真正跑起来",
-        "url": "https://www.qbitai.com/2026/09/483274.html",
-        "normalized_url": "https://www.qbitai.com/2026/09/483274.html",
-        "summary": "SkyProduction（天工工作台）全新版本于8月31日正式上线",
-        "source": "量子位",
-        "published": "2026-09-02T09:22:16+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.qbitai.com/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
-        "url": "https://www.qbitai.com/2026/09/483104.html",
-        "normalized_url": "https://www.qbitai.com/2026/09/483104.html",
-        "summary": "蚂蚁集团推出统一宽表系统OmniTable，论文获评VLDB 2026工业赛道最佳论文",
-        "source": "量子位",
-        "published": "2026-09-02T06:20:17+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.qbitai.com/rss"
         }
@@ -1259,7 +1261,7 @@
         "published": "2026-09-01T00:27:26+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+          "feed_url": "https://hub.slarker.me/sspai/tag/AI"
         }
       },
       {
@@ -1628,19 +1630,6 @@
       },
       {
         "category": "news",
-        "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
-        "url": "https://spectrum.ieee.org/ai-engineer-skills",
-        "normalized_url": "https://spectrum.ieee.org/ai-engineer-skills",
-        "summary": "A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An ope",
-        "source": "IEEE Spectrum AI",
-        "published": "2026-09-02T13:00:04+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
-        }
-      },
-      {
-        "category": "news",
         "title": "Cash In on the AI Boom by Renting Out Your Spare Compute",
         "url": "https://spectrum.ieee.org/ai-inference-distributed-computing",
         "normalized_url": "https://spectrum.ieee.org/ai-inference-distributed-computing",
@@ -1832,6 +1821,136 @@
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://the-decoder.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+        "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+        "summary": "OpenAI released GPT-6 Astra on September 3, 2026, positioning it as a computer-use flagship rather than a chat model. It reports 72.6% on OSWorld V2-Offline, replaces Codex compaction with searchable notes, and ships a 1.05M-token context at $10/$50 per million tokens. It is also the first OpenAI model to cross the Critical cybersecurity threshold, which shapes who can use it and for what. The post OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Th",
+        "source": "MarkTechPost",
+        "published": "2026-09-03T21:16:11+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
+        "url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment",
+        "summary": "Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This week, they published anthropics/commerce-agents, a reference blueprint containing a shopping agent and a merchant agent, along with four […] The post Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Teleco",
+        "source": "MarkTechPost",
+        "published": "2026-09-03T19:46:59+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
+        "url": "https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2",
+        "summary": "Perplexity has shipped hybrid compute for its Mac app, splitting a single Perplexity Computer task between frontier models in the cloud and a compact model running on the user's machine. Tasks start in the cloud for search, planning and reasoning, then hand sensitive steps down to the Mac without restarting or losing context. An on-device privacy gate decides what may cross: keep local, mask, refuse, or ask for consent. Perplexity also open-sourced the 0.6B classifier behind that gate, which rec",
+        "source": "MarkTechPost",
+        "published": "2026-09-03T18:51:52+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon",
+        "url": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon",
+        "summary": "Perplexity has open sourced Lily, the local inference engine behind Hybrid Compute in Perplexity Computer. Built in Rust with custom Metal kernels for one model on one chip family, it averages 1.23x MLX-LM's prefill throughput and 1.35x its decode throughput on a 40-core, 128 GB M5 Max. The post Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-09-03T06:57:07+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search",
+        "url": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search",
+        "summary": "We look at zg (zvec-grep), the local-first search layer that Qwen Developers just open-sourced under Apache 2.0. We explain how it puts ripgrep, BM25, and vector search behind a single interface, so an agent can move from a plain-language description to an exact line span without switching tools. We cover the deliberately small MCP surface, the on-device embedding catalog, and the authorization gate that stands between local content and remote models. The post Qwen Developers Open-Sources zg (zv",
+        "source": "MarkTechPost",
+        "published": "2026-09-02T23:48:47+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs",
+        "url": "https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation",
+        "summary": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back into the client's format, so Claude Code or Codex CLI can run against vLLM, NIM, or Ollama unchanged. The project is pre-alpha and not for production. The post Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenA",
+        "source": "MarkTechPost",
+        "published": "2026-09-02T18:05:52+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: One Core Model, Two Access Envelopes",
+        "url": "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes",
+        "summary": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run on the same foundational intelligence, split by safety mitigations rather than model size. Gemini 3.8 Flash is generally available at $0.75 and $3.75 per 1M tokens, introductory through December 31, 2026. Flash Cyber reaches 47.2% pass@1 on CWE-Bench and is restricted to vetted defenders through the Fairwind Program. This article covers the benchmarks, the token-for-accuracy tradeoff, and what dep",
+        "source": "MarkTechPost",
+        "published": "2026-09-02T17:20:24+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
+        "url": "https://www.marktechpost.com/2026/09/02/anthropic-enterprise-frontier-safeguards-efs/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/02/anthropic-enterprise-frontier-safeguards-efs",
+        "summary": "Anthropic announced Enterprise Frontier Safeguards on September 1, 2026, an architecture that stores monitoring data in the customer's own cloud account rather than Anthropic's. Detection stays automated and Anthropic-run; custody, encryption keys, and flag review stay with the customer. Built with more than 100 enterprises and rolling out in phases this fall. The post Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection appea",
+        "source": "MarkTechPost",
+        "published": "2026-09-02T07:38:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and Endpointing",
+        "url": "https://www.marktechpost.com/2026/09/01/meta-superintelligence-labs-releases-muse-voice-transcribe-one-real-time-model-for-streaming-asr-diarization-and-endpointing/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/01/meta-superintelligence-labs-releases-muse-voice-transcribe-one-real-time-model-for-streaming-asr-diarization-and-endpointing",
+        "summary": "Most production voice stacks are three systems stitched together. One model transcribes, a second separates speakers, and a detector decides when the user stopped talking. Each hand-off adds latency and a new failure mode. Muse Voice Transcribe, announced by Meta Superintelligence Labs this week, collapses those three jobs into a single autoregressive model. Meta calls […] The post Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and",
+        "source": "MarkTechPost",
+        "published": "2026-09-02T05:37:12+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device",
+        "url": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device/",
+        "normalized_url": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device",
+        "summary": "Agentic assistants have a structural problem: the context that makes them useful — deal documents, privileged files, client records — is exactly the context users cannot send to a cloud endpoint. This week, Perplexity shipped its answer for Mac. Hybrid compute splits a single Perplexity Computer task between frontier models in the cloud and a […] The post Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-09-02T05:12:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
         }
       },
       {
@@ -2304,6 +2423,19 @@
       },
       {
         "category": "news",
+        "title": "The benchmarks the big labs don't want you to see",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see",
+        "summary": "submitted by /u/jd_3d [link] [comments]",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-03T22:54:58+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "local AI can't be disabled",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aec4/local_ai_cant_be_disabled/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aec4/local_ai_cant_be_disabled",
@@ -2317,38 +2449,25 @@
       },
       {
         "category": "news",
-        "title": "Qwen-3.8-Next-Flash Ngram Hot-Swappable Knowledge Injector for llama.cpp",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w64y26/qwen38nextflash_ngram_hotswappable_knowledge/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w64y26/qwen38nextflash_ngram_hotswappable_knowledge",
-        "summary": "Looking into the new Qwen architecture, I was curious if you could modify the Ngram PLE Table to make it work like a long-term knowledge database. It turns out that, with some limitations, you can. I coded a small modification to llama.cpp to modify the table in-memory, allowing you to patch it with new data in real time. The PLE table is updated on every prompt, so now you can hot-swap parts of it without reloading the model. The limitation is that it’s hard to control the output reliably, as t",
-        "source": "r/LocalLLaMA",
-        "published": "2026-09-03T11:40:27+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "IFM/K2-Horizon-MoVA-36B-A4B-GGUF · Hugging Face",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w67wso/ifmk2horizonmova36ba4bgguf_hugging_face/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w67wso/ifmk2horizonmova36ba4bgguf_hugging_face",
-        "summary": "more sizes (probably still uploading): https://huggingface.co/IFM/K2-Horizon-32B-GGUF https://huggingface.co/IFM/K2-Horizon-7B-GGUF https://huggingface.co/IFM/K2-Horizon-3.7B-GGUF https://huggingface.co/IFM/K2-Horizon-0.9B-GGUF from IFM: K2-Horizon-MoVA-36B-A4B is the sparse member of the K2-Horizon family: a Mixture-of-Experts model with Mixture-of-Values attention (MoVA) that stores 36B parameters and runs 4B per token. We have released the final checkpoint; intermediate checkpoints, along wit",
-        "source": "r/LocalLLaMA",
-        "published": "2026-09-03T13:47:54+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "Bernie Sanders proposes to ban AI",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6egid/bernie_sanders_proposes_to_ban_ai/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6egid/bernie_sanders_proposes_to_ban_ai",
         "summary": "Defined as AI exceeding human cognitive abilities. 20 years in prison. Plenty of local models already fall under that big of an umbrella in some capacities. This is why it's not enough to say that you could torrent open models so who cares what the politicians do. They want you to not have access to anything good and will put you in prison for it. submitted by /u/the320x200 [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-09-03T17:44:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Qwen-3.8-Next-Flash Ngram Hot-Swappable Knowledge Injector for llama.cpp",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w64y26/qwen38nextflash_ngram_hotswappable_knowledge/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w64y26/qwen38nextflash_ngram_hotswappable_knowledge",
+        "summary": "Looking into the new Qwen architecture, I was curious if you could modify the Ngram PLE Table to make it work like a long-term knowledge database. It turns out that, with some limitations, you can. I coded a small modification to llama.cpp to modify the table in-memory, allowing you to patch it with new data in real time. The PLE table is updated on every prompt, so now you can hot-swap parts of it without reloading the model. The limitation is that it’s hard to control the output reliably, as t",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-03T11:40:27+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"

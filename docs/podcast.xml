@@ -16,12 +16,14 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-09-04 周五</title>
-      <description>抱歉，我没有在简报正文中找到任何具体的新闻条目——你发来的内容只有标题（AI Daily Digest - 2026-09-04）和文件底部的生成标记，没有可供改写的实际条目。方便把完整的简报内容贴过来吗？我会立刻按口语化的播报稿来改写。</description>
-      <itunes:summary>抱歉，我没有在简报正文中找到任何具体的新闻条目——你发来的内容只有标题（AI Daily Digest - 2026-09-04）和文件底部的生成标记，没有可供改写的实际条目。方便把完整的简报内容贴过来吗？我会立刻按口语化的播报稿来改写。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-04.mp3" length="117936" type="audio/mpeg"/>
+      <description>你发来的简报内容似乎没有加载出来——我只看到了标题「AI Daily Digest - 2026-09-04」和底部的生成备注，中间没有任何具体的新闻条目。这样我没法改写成播报稿。
+麻烦重新把完整的简报贴一次（或者确认一下是不是粘贴时内容被截断了），我拿到具体条目后，马上按电台口播的风格给你整理出来，保证控制在 600 到 1000 字，4 到 6 分钟能播完。</description>
+      <itunes:summary>你发来的简报内容似乎没有加载出来——我只看到了标题「AI Daily Digest - 2026-09-04」和底部的生成备注，中间没有任何具体的新闻条目。这样我没法改写成播报稿。
+麻烦重新把完整的简报贴一次（或者确认一下是不是粘贴时内容被截断了），我拿到具体条目后，马上按电台口播的风格给你整理出来，保证控制在 600 到 1000 字，4 到 6 分钟能播完。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-04.mp3" length="177264" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-04.mp3</guid>
       <pubDate>Fri, 04 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:19</itunes:duration>
+      <itunes:duration>00:29</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
