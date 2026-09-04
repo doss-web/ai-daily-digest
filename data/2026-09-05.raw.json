@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-05T06:25:58.808760+08:00",
+  "generated_at": "2026-09-05T07:47:43.396108+08:00",
   "counts": {
     "papers": 38,
     "projects": 12,
@@ -8,6 +8,19 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
+        "url": "https://huggingface.co/papers/2609.02887",
+        "normalized_url": "https://huggingface.co/papers/2609.02887",
+        "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved ques",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-02T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.02887"
+        }
+      },
       {
         "category": "papers",
         "title": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement",
@@ -387,19 +400,6 @@
       },
       {
         "category": "papers",
-        "title": "Replacing Training with Memory: Listwise Selection for Text-to-SQL",
-        "url": "https://huggingface.co/papers/2609.00834",
-        "normalized_url": "https://huggingface.co/papers/2609.00834",
-        "summary": "Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then selecting the best one. Listwise selection, by jointly comparing multiple candidates, has been widely adopted, but fine-tuning listwise selectors is costly. We thus propose a fine-tuning-free listwise selector. We replace two major fine-tuning objectives with inference-time strategies: (1) learning selection criteria as ordering and (2) mitigating positional bias. First, we build",
-        "source": "HuggingFace Papers",
-        "published": "2026-09-01T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2609.00834"
-        }
-      },
-      {
-        "category": "papers",
         "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
         "url": "https://arxiv.org/abs/2609.04203v1",
         "normalized_url": "https://arxiv.org/abs/2609.04203v1",
@@ -651,9 +651,20 @@
         "title": "GPT-6 Astra on OpenRouter",
         "url": "https://openrouter.ai/openai/gpt-6-astra",
         "normalized_url": "https://openrouter.ai/openai/gpt-6-astra",
-        "summary": "HN points: 20, comments: 10",
+        "summary": "HN points: 71, comments: 29",
         "source": "Hacker News",
         "published": "2026-09-04T21:39:19Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "The Rise of the Billionaire Lobby",
+        "url": "https://jacobin.com/2026/09/california-proposition-40-billionaire-tax-lobby",
+        "normalized_url": "https://jacobin.com/2026/09/california-proposition-40-billionaire-tax-lobby",
+        "summary": "HN points: 11, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-09-04T21:01:30Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -662,7 +673,7 @@
         "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
         "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
         "normalized_url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it",
-        "summary": "HN points: 25, comments: 2",
+        "summary": "HN points: 29, comments: 2",
         "source": "Hacker News",
         "published": "2026-09-04T21:00:02Z",
         "importance_hint": 4,
@@ -673,7 +684,7 @@
         "title": "GPT-6 Astra Generally Available",
         "url": "https://twitter.com/OpenAI/status/2095968413646737608",
         "normalized_url": "https://twitter.com/OpenAI/status/2095968413646737608",
-        "summary": "HN points: 18, comments: 6",
+        "summary": "HN points: 21, comments: 6",
         "source": "Hacker News",
         "published": "2026-09-04T20:16:50Z",
         "importance_hint": 3,
@@ -684,7 +695,7 @@
         "title": "Can AI design circuit boards yet?",
         "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
         "normalized_url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet",
-        "summary": "HN points: 98, comments: 66",
+        "summary": "HN points: 131, comments: 72",
         "source": "Hacker News",
         "published": "2026-09-04T19:48:29Z",
         "importance_hint": 3,
@@ -695,7 +706,7 @@
         "title": "Government Rails Site Hit Hours After CVE Patch",
         "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
         "normalized_url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch",
-        "summary": "HN points: 55, comments: 12",
+        "summary": "HN points: 63, comments: 14",
         "source": "Hacker News",
         "published": "2026-09-04T19:06:39Z",
         "importance_hint": 3,
@@ -719,7 +730,7 @@
         "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
         "url": "https://twitter.com/ggerganov/status/2095897173376618881",
         "normalized_url": "https://twitter.com/ggerganov/status/2095897173376618881",
-        "summary": "HN points: 64, comments: 19",
+        "summary": "HN points: 69, comments: 25",
         "source": "Hacker News",
         "published": "2026-09-04T17:12:22Z",
         "importance_hint": 5,
@@ -727,10 +738,10 @@
       },
       {
         "category": "news",
-        "title": "\"Next-token predictor\" is the wrong mental model for LLMs",
+        "title": "“Next-token predictor” is the wrong mental model for LLMs",
         "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
         "normalized_url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
-        "summary": "HN points: 43, comments: 99",
+        "summary": "HN points: 64, comments: 154",
         "source": "Hacker News",
         "published": "2026-09-04T17:09:24Z",
         "importance_hint": 4,
@@ -741,7 +752,7 @@
         "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
         "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
         "normalized_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
-        "summary": "HN points: 54, comments: 28",
+        "summary": "HN points: 59, comments: 29",
         "source": "Hacker News",
         "published": "2026-09-04T16:24:50Z",
         "importance_hint": 4,
@@ -752,7 +763,7 @@
         "title": "Corporate America is getting hooked on open-source AI",
         "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
         "normalized_url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-        "summary": "HN points: 246, comments: 229",
+        "summary": "HN points: 255, comments: 246",
         "source": "Hacker News",
         "published": "2026-09-04T15:33:45Z",
         "importance_hint": 3,
@@ -763,7 +774,7 @@
         "title": "Pause OpenAI Now",
         "url": "https://garymarcus.substack.com/p/pause-openai-now",
         "normalized_url": "https://garymarcus.substack.com/p/pause-openai-now",
-        "summary": "HN points: 37, comments: 30",
+        "summary": "HN points: 37, comments: 31",
         "source": "Hacker News",
         "published": "2026-09-04T15:24:07Z",
         "importance_hint": 4,
@@ -774,7 +785,7 @@
         "title": "Gmail to end support for \"Send as\" for third-party addresses, such as @yahoo.com",
         "url": "https://support.google.com/mail/answer/22370?hl=en",
         "normalized_url": "https://support.google.com/mail/answer/22370?hl=en",
-        "summary": "HN points: 177, comments: 125",
+        "summary": "HN points: 181, comments: 125",
         "source": "Hacker News",
         "published": "2026-09-04T15:03:03Z",
         "importance_hint": 3,
@@ -785,32 +796,10 @@
         "title": "'People are going to get screwed' Pennsylvania voters unite against data centres",
         "url": "http://www.ft.com/content/8252d574-ae2a-4403-9cf9-031295ba67f5",
         "normalized_url": "http://www.ft.com/content/8252d574-ae2a-4403-9cf9-031295ba67f5",
-        "summary": "HN points: 95, comments: 176",
+        "summary": "HN points: 95, comments: 180",
         "source": "Hacker News",
         "published": "2026-09-04T13:33:01Z",
         "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "How Fairphone built the Fairphone Gen 6+",
-        "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
-        "normalized_url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6",
-        "summary": "HN points: 183, comments: 157",
-        "source": "Hacker News",
-        "published": "2026-09-04T12:43:49Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Meta new layoff goal of 60% to AI after moving 30% engineers to labelers",
-        "url": "https://blog.pragmaticengineer.com/the-pulse-meta-wanted-to-reduce-teams-by-60-because-of-ai/",
-        "normalized_url": "https://blog.pragmaticengineer.com/the-pulse-meta-wanted-to-reduce-teams-by-60-because-of-ai",
-        "summary": "HN points: 22, comments: 12",
-        "source": "Hacker News",
-        "published": "2026-09-04T12:03:27Z",
-        "importance_hint": 4,
         "metadata": {}
       },
       {
@@ -1179,6 +1168,32 @@
       },
       {
         "category": "news",
+        "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+        "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+        "normalized_url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
+        "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-04T23:36:14+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+        "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+        "normalized_url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+        "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-04T23:15:11+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
         "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
         "normalized_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
@@ -1277,32 +1292,6 @@
         "source": "TechCrunch AI",
         "published": "2026-09-04T00:48:42+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-        "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-        "normalized_url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation",
-        "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
-        "source": "TechCrunch AI",
-        "published": "2026-09-03T19:36:29+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Abliteration.ai is making a business out of removing AI guardrails",
-        "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-        "normalized_url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
-        "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
-        "source": "TechCrunch AI",
-        "published": "2026-09-03T18:37:57+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1539,6 +1528,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+        "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+        "normalized_url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+        "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+        "source": "Ars Technica AI",
+        "published": "2026-09-04T22:17:36+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
@@ -2297,19 +2299,6 @@
       },
       {
         "category": "news",
-        "title": "The benchmarks the big labs don't want you to see",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see",
-        "summary": "submitted by /u/jd_3d [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-09-03T22:54:58+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "NVIDIA's $12,930,300,000.00 acquisition of Hugging Face contains an easter egg. The first 6 numbers of the acquisition price represent the decimal conversion of Unicode character U+1F917. The 🤗 emoji.",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w71bax/nvidias_1293030000000_acquisition_of_hugging_face/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w71bax/nvidias_1293030000000_acquisition_of_hugging_face",
@@ -2317,19 +2306,6 @@
         "source": "r/LocalLLaMA",
         "published": "2026-09-04T11:07:46+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Can the bubble pop please?",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6nihk/can_the_bubble_pop_please/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6nihk/can_the_bubble_pop_please",
-        "summary": "submitted by /u/hedonihilistic [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-09-03T23:18:09+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
@@ -2388,12 +2364,38 @@
       },
       {
         "category": "news",
+        "title": "I benchmarked 21 Qwen3.8 27B variants on 16GB VRAM",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7ee1c/i_benchmarked_21_qwen38_27b_variants_on_16gb_vram/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7ee1c/i_benchmarked_21_qwen38_27b_variants_on_16gb_vram",
+        "summary": "After Qwen3.8 27B came out, I decided to benchmark the models that could fit in my GPU (RTX 5080) on my actual code ( C code), the results were not completely unexpected but some quants were definitely underwhelming. TLDR : Best overall: bartowski/Qwen3.8-27B-IQ4_XS . Best uncensored: huihui-ai/Huihui-Qwen3.8-27B-abliterated-UD-IQ4_XS . For a bit more context: jpetrina/Qwen3.8-27B-IQ4_XS-pure or uncensored: Bucoid/Qwen3.8-27B-Uncensored-IQ4_XS_4BPW (sorted by Mean KLD) Model Mean KLD Same top p ",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-04T19:33:44+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
         "title": "Has anyone already tried IFM's new K2-Horizon-MoVA-36B-A4B?",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6t0a9/has_anyone_already_tried_ifms_new/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6t0a9/has_anyone_already_tried_ifms_new",
         "summary": "How good/bad is it against comparable MoEs the same size? How does it compare against Qwen 3.6 35BA3B? Since we don't have 3.8 35B this seems like an upgrade if we look at some benchmarks like terminal bench, but they don't have SWE bench pro on the benchmarks table, and i don't really know anything about this lab, I'm wondering if it trades blows with models like tiel coder or if it's some benchmaxxed model like ornith? At a single glance it looks really decent but haven't tried it in depth yet",
         "source": "r/LocalLLaMA",
         "published": "2026-09-04T03:31:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Drummer's Artemis 31B v1 and v1.1 - Coming back with a bang!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w77ath/drummers_artemis_31b_v1_and_v11_coming_back_with/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w77ath/drummers_artemis_31b_v1_and_v11_coming_back_with",
+        "summary": "Hey everyone, been a while! https://huggingface.co/TheDrummer/Artemis-31B-v1.1 https://huggingface.co/TheDrummer/Artemis-31B-v1 A few months ago, Gemma graced us with models that served as a much needed downpour from a year-long drought. I'm so happy to see us thrive once again. The difference between v1 and v1.1 is quite simple: v1 was an early attempt, an overdue release that excelled in prose and writing, while requiring some handholding to get over quirks like stuttering. v1.1 is a more refi",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-04T15:18:34+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
