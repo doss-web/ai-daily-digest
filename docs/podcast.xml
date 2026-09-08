@@ -16,14 +16,16 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-09-09 周三</title>
-      <description>抱歉，这份简报里只有日期和标题，实际的新闻条目内容没有传上来，所以我没有可以改写的素材。
-麻烦把包含具体条目的简报原文发给我，比如有哪些公司动态、模型发布、行业政策之类的。拿到内容后，我会立刻帮你改写成 600 到 1000 字、适合通勤路上听的口播稿。我们到时候见。</description>
-      <itunes:summary>抱歉，这份简报里只有日期和标题，实际的新闻条目内容没有传上来，所以我没有可以改写的素材。
-麻烦把包含具体条目的简报原文发给我，比如有哪些公司动态、模型发布、行业政策之类的。拿到内容后，我会立刻帮你改写成 600 到 1000 字、适合通勤路上听的口播稿。我们到时候见。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-09.mp3" length="144720" type="audio/mpeg"/>
+      <description>看起来这份简报里只有标题和页脚，没有具体的新闻条目内容。你提到的&quot;下面这份简报&quot;目前是空的，我没办法凭空编造今天的 AI 行业新闻来播报——那样会误导听众。
+麻烦你把完整的简报正文（各条新闻内容）贴过来，我会按照口语化播报的要求，帮你改写成适合 4-6 分钟收听的播报稿。内容包括：开头问候和日期、串联式播报、以及&quot;今日观察&quot;收尾，专有名词保留英文，整体控制在 600-1000 字。
+等你把内容发来，我马上开工。</description>
+      <itunes:summary>看起来这份简报里只有标题和页脚，没有具体的新闻条目内容。你提到的&quot;下面这份简报&quot;目前是空的，我没办法凭空编造今天的 AI 行业新闻来播报——那样会误导听众。
+麻烦你把完整的简报正文（各条新闻内容）贴过来，我会按照口语化播报的要求，帮你改写成适合 4-6 分钟收听的播报稿。内容包括：开头问候和日期、串联式播报、以及&quot;今日观察&quot;收尾，专有名词保留英文，整体控制在 600-1000 字。
+等你把内容发来，我马上开工。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-09.mp3" length="219888" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-09.mp3</guid>
       <pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:24</itunes:duration>
+      <itunes:duration>00:36</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>

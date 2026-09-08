@@ -1,10 +1,10 @@
 {
   "date": "2026-09-09",
-  "generated_at": "2026-09-09T06:47:58.741188+08:00",
+  "generated_at": "2026-09-09T07:54:51.910208+08:00",
   "counts": {
     "papers": 30,
     "projects": 13,
-    "news": 129
+    "news": 130
   },
   "items": {
     "papers": [
@@ -522,7 +522,7 @@
         "title": "browser-use/browser-use ⭐+320/天",
         "url": "https://github.com/browser-use/browser-use",
         "normalized_url": "https://github.com/browser-use/browser-use",
-        "summary": "🌐 Make websites accessible for AI agents. Automate tasks online with ease. （GitHub Trending · 今日 +320 star）",
+        "summary": "Agents that use the browser. （GitHub Trending · 今日 +320 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
@@ -573,13 +573,24 @@
     "news": [
       {
         "category": "news",
-        "title": "Large Language Models Develop Novel Social Biases Through Adaptive Exploration",
+        "title": "Large language models develop novel social biases through adaptive exploration",
         "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
         "normalized_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
-        "summary": "HN points: 27, comments: 5",
+        "summary": "HN points: 61, comments: 28",
         "source": "Hacker News",
         "published": "2026-09-08T21:47:38Z",
         "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Tao: Open math problems being non-renewably mined by AI",
+        "url": "https://mathstodon.xyz/@tao/117237320796901560",
+        "normalized_url": "https://mathstodon.xyz/@tao/117237320796901560",
+        "summary": "HN points: 65, comments: 35",
+        "source": "Hacker News",
+        "published": "2026-09-08T21:00:52Z",
+        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -600,7 +611,7 @@
         "title": "Meta Failed to Catch Hundreds of AI Child Abuse Ads",
         "url": "https://www.wired.com/story/meta-failed-to-catch-hundreds-of-ai-child-abuse-ads-some-included-images-of-real-kids/",
         "normalized_url": "https://www.wired.com/story/meta-failed-to-catch-hundreds-of-ai-child-abuse-ads-some-included-images-of-real-kids",
-        "summary": "HN points: 28, comments: 2",
+        "summary": "HN points: 30, comments: 3",
         "source": "Hacker News",
         "published": "2026-09-08T19:43:54Z",
         "importance_hint": 4,
@@ -611,7 +622,7 @@
         "title": "Muse: Meta's personal AI agent, features and capabilities",
         "url": "https://ai.meta.com/muse/",
         "normalized_url": "https://ai.meta.com/muse",
-        "summary": "HN points: 202, comments: 195",
+        "summary": "HN points: 212, comments: 206",
         "source": "Hacker News",
         "published": "2026-09-08T19:25:00Z",
         "importance_hint": 5,
@@ -635,9 +646,20 @@
         "title": "Flights cancelled at UK airports due to ATC issue",
         "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
         "normalized_url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
-        "summary": "HN points: 112, comments: 97",
+        "summary": "HN points: 115, comments: 100",
         "source": "Hacker News",
         "published": "2026-09-08T18:26:27Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "GrapheneOS on AI Usage",
+        "url": "https://grapheneos.social/@GrapheneOS/117236529351603001",
+        "normalized_url": "https://grapheneos.social/@GrapheneOS/117236529351603001",
+        "summary": "HN points: 13, comments: 0",
+        "source": "Hacker News",
+        "published": "2026-09-08T18:00:58Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -646,7 +668,7 @@
         "title": "Cognition (Devin) raises $2B at $48B valuation",
         "url": "https://cognition.com/blog/series-e",
         "normalized_url": "https://cognition.com/blog/series-e",
-        "summary": "HN points: 15, comments: 1",
+        "summary": "HN points: 19, comments: 2",
         "source": "Hacker News",
         "published": "2026-09-08T17:16:20Z",
         "importance_hint": 3,
@@ -668,7 +690,7 @@
         "title": "\"Please Remove All Mannered Prose\" and Other LLM Incantations",
         "url": "https://matthewritch.com/blog/2026/09/08/Mannered-Prose-Style-Prompts/",
         "normalized_url": "https://matthewritch.com/blog/2026/09/08/Mannered-Prose-Style-Prompts",
-        "summary": "HN points: 11, comments: 1",
+        "summary": "HN points: 15, comments: 1",
         "source": "Hacker News",
         "published": "2026-09-08T17:08:51Z",
         "importance_hint": 3,
@@ -679,7 +701,7 @@
         "title": "OUI-1: world's first model for Generative UI",
         "url": "https://www.openui.com/blog/oui-1",
         "normalized_url": "https://www.openui.com/blog/oui-1",
-        "summary": "HN points: 54, comments: 58",
+        "summary": "HN points: 56, comments: 59",
         "source": "Hacker News",
         "published": "2026-09-08T17:07:54Z",
         "importance_hint": 4,
@@ -690,7 +712,7 @@
         "title": "Show HN: LLM Attention Visualization",
         "url": "https://ishamf.dev/p/llm-attention-visualizer/",
         "normalized_url": "https://ishamf.dev/p/llm-attention-visualizer",
-        "summary": "HN points: 101, comments: 19",
+        "summary": "HN points: 108, comments: 19",
         "source": "Hacker News",
         "published": "2026-09-08T16:59:41Z",
         "importance_hint": 3,
@@ -716,28 +738,6 @@
         "source": "Hacker News",
         "published": "2026-09-08T16:54:03Z",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "10x More Efficient Pretraining",
-        "url": "https://magic.dev/blog/pretraining",
-        "normalized_url": "https://magic.dev/blog/pretraining",
-        "summary": "HN points: 17, comments: 2",
-        "source": "Hacker News",
-        "published": "2026-09-08T16:23:04Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Show HN: Sparrow-2 – Noise cancellation isn't designed for conversational AI",
-        "url": "https://sparrow2.tavuslabs.org/",
-        "normalized_url": "https://sparrow2.tavuslabs.org",
-        "summary": "HN points: 11, comments: 2",
-        "source": "Hacker News",
-        "published": "2026-09-08T16:16:58Z",
-        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -1408,12 +1408,25 @@
         "title": "Google DeepMind Maps 9 Billion Possible DNA Variants",
         "url": "https://spectrum.ieee.org/alphagenome-atlas",
         "normalized_url": "https://spectrum.ieee.org/alphagenome-atlas",
-        "summary": "DNA is often explained as a codebook or set of instructions for producing proteins, and ultimately, life. Some stretches of DNA, called genes, code for proteins, but the vast majority of DNA is considered “non-coding.” Some of it has no known function, while other segments are critical to regulating gene activity. These regulatory elements can interact in complicated ways, and their effects can vary across different cells and tissues. Some also influence genes located far away in the genome. Und",
+        "summary": "DNA is often explained as a codebook or set of instructions for producing proteins, and ultimately, life. Some stretches of DNA, called genes, code for proteins, but the vast majority of DNA is considered “noncoding.” Some of it has no known function, while other segments are critical to regulating gene activity. These regulatory elements can interact in complicated ways, and their effects can vary across different cells and tissues. Some also influence genes located far away in the genome. Unde",
         "source": "IEEE Spectrum AI",
         "published": "2026-09-08T14:00:05+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why this month's Microsoft patch release is a doozy",
+        "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+        "normalized_url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical",
+        "summary": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+        "source": "Ars Technica AI",
+        "published": "2026-09-08T21:11:46+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
@@ -1678,6 +1691,19 @@
       },
       {
         "category": "news",
+        "title": "Introducing ChatGPT Images 2.5",
+        "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+        "normalized_url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25",
+        "summary": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sun",
+        "source": "Simon Willison",
+        "published": "2026-09-08T22:46:33+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://simonwillison.net/atom/everything/"
+        }
+      },
+      {
+        "category": "news",
         "title": "llm 0.35",
         "url": "https://simonwillison.net/2026/Sep/7/llm/",
         "normalized_url": "https://simonwillison.net/2026/Sep/7/llm",
@@ -1762,19 +1788,6 @@
         "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's",
         "source": "Simon Willison",
         "published": "2026-09-06T14:40:07+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://simonwillison.net/atom/everything/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "There's No Limit to How Bad Code Can Get",
-        "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-        "normalized_url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get",
-        "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know t",
-        "source": "Simon Willison",
-        "published": "2026-09-06T09:08:06+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://simonwillison.net/atom/everything/"
@@ -2094,19 +2107,6 @@
       },
       {
         "category": "news",
-        "title": "I made Warrior Quest, a local LLM-powered dark-fantasy RPG where the model only plays NPCs and the actual game state stays deterministic",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa84sa/i_made_warrior_quest_a_local_llmpowered/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa84sa/i_made_warrior_quest_a_local_llmpowered",
-        "summary": "The LLM is limited to NPC emulation. Game state, world logic, quests, and the authored story are handled by deterministic game systems rather than the LLM. I built it this way because I wanted the freedom of talking to NPCs like you would at a tabletop game, without handing the actual game state or canon over to an LLM. This started as a personal project. As it became more and more fun to actually play, I decided I wanted to release it. I've been a DM and a software engineer for over a decade, s",
-        "source": "r/LocalLLaMA",
-        "published": "2026-09-07T23:37:20+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "GPU guide (GB per dollar, bandwidth)",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waq7hu/gpu_guide_gb_per_dollar_bandwidth/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1waq7hu/gpu_guide_gb_per_dollar_bandwidth",
@@ -2114,6 +2114,19 @@
         "source": "r/LocalLLaMA",
         "published": "2026-09-08T14:37:52+00:00",
         "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "inclusionAI/Ling-3.0-flash-VL · Hugging Face",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wasdnn/inclusionailing30flashvl_hugging_face/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wasdnn/inclusionailing30flashvl_hugging_face",
+        "summary": "Ling-3.0-flash-VL inherits the language, reasoning, and long-context capabilities of Ling-3.0-flash, while extending them with native image and video understanding. The model has 124B total parameters, with only 5.5B parameters activated per token, and supports a context window of up to 1M tokens. The architecture of Ling-3.0-flash-VL is designed to integrate visual information into real-world reasoning and agentic workflows. A ViT visual encoder extracts features from images and videos, while a",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-08T15:57:12+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
@@ -2133,12 +2146,12 @@
       },
       {
         "category": "news",
-        "title": "inclusionAI/Ling-3.0-flash-VL · Hugging Face",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wasdnn/inclusionailing30flashvl_hugging_face/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wasdnn/inclusionailing30flashvl_hugging_face",
-        "summary": "Ling-3.0-flash-VL inherits the language, reasoning, and long-context capabilities of Ling-3.0-flash, while extending them with native image and video understanding. The model has 124B total parameters, with only 5.5B parameters activated per token, and supports a context window of up to 1M tokens. The architecture of Ling-3.0-flash-VL is designed to integrate visual information into real-world reasoning and agentic workflows. A ViT visual encoder extracts features from images and videos, while a",
+        "title": "Qwen3-0.6B (400 MB) on a Samsung Note 8 (2017) phone drives a real desktop Chrome",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapzjg/qwen306b_400_mb_on_a_samsung_note_8_2017_phone/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapzjg/qwen306b_400_mb_on_a_samsung_note_8_2017_phone",
+        "summary": "Up front: I'm one of the people building the page-perception layer used here. We started by testing small local models. The result turned out to be more interesting than the original test. 12 small models, 3 verifiable tasks, logs, and offline replay. Setup: Galaxy Note 8 (2017, Android 9, 6 GB), llama.cpp in Termux, Qwen3-0.6B Q4_K_M. A laptop with Chrome open, not headless. The phone drives the browser through our relay. What the model does: it gets a structured representation of the page (her",
         "source": "r/LocalLLaMA",
-        "published": "2026-09-08T15:57:12+00:00",
+        "published": "2026-09-08T14:29:24+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
