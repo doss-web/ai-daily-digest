@@ -16,14 +16,14 @@
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
       <title>AI 每日简报 · 2026-09-10 周四</title>
-      <description>抱歉，我注意到你给的内容里只有简报的标题和生成备注，但今天的具体新闻条目没有贴出来。
-麻烦你把完整的 AI Daily Digest 简报内容发给我，我再帮你改写成口语化的播报稿。格式上不用管，直接粘贴新闻条目就行，我会按照你要求的口语风格、时长和结构来写。</description>
-      <itunes:summary>抱歉，我注意到你给的内容里只有简报的标题和生成备注，但今天的具体新闻条目没有贴出来。
-麻烦你把完整的 AI Daily Digest 简报内容发给我，我再帮你改写成口语化的播报稿。格式上不用管，直接粘贴新闻条目就行，我会按照你要求的口语风格、时长和结构来写。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-10.mp3" length="136080" type="audio/mpeg"/>
+      <description>抱歉，您的简报正文似乎没有贴出来。我这边只看到了标题和生成信息，没有实际的新闻条目内容。
+请您把 2026-09-10 那天的 AI 行业简报内容重新粘贴一下，我就立刻把它改写成适合通勤路上收听的播报稿。</description>
+      <itunes:summary>抱歉，您的简报正文似乎没有贴出来。我这边只看到了标题和生成信息，没有实际的新闻条目内容。
+请您把 2026-09-10 那天的 AI 行业简报内容重新粘贴一下，我就立刻把它改写成适合通勤路上收听的播报稿。</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-10.mp3" length="106992" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-10.mp3</guid>
       <pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:22</itunes:duration>
+      <itunes:duration>00:17</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
