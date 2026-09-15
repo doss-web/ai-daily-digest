@@ -36,6 +36,68 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-09-16">AI 每日简报 · 2026-09-16 周三</span>
+    <button class="cbtn" data-copy="t-2026-09-16">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-09-16.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-09-16.mp3" download="2026-09-16.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-09-16">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-09-16">AI 每日简报 · 2026-09-16 周三
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· 发生了什么：InfoQ 报道 OpenAI 发布适用于编程和计算机应用的 GPT-6 Astra。同一天 OpenAI 官博放出多个落地案例：Perplexity 用 Astra 写沟通材料、修改软件、监控生产系统，且&quot;比早期模型检查频率低得多&quot;；Cognition 让 Astra 提升 Devin 的自我测试能力，目标是让工程师少审代码、多发布。Simon Willison 记录了用 GPT-6 Astra（Max）在 ChatGPT Work 中跑 27 分钟生成 5K/10K 跑步路线——模型自己调用 Nominatim 定位、用 Overpass 拉取 OSM 数据，输出可视化加 GPX/GeoJSON 文件。
+· 为什么重要：竞争焦点正从&quot;写代码片段&quot;转向&quot;长时间、多步骤地操作真实软件与系统&quot;，Astra 的核心卖点是减少人类抽检频率，这直接决定了 agent 产品的可行性边界。做 agent 的团队应重新评估人工确认点该放在哪里。
+· 关联动态：据 IEEE Spectrum，OpenAI 自研 AI 加速芯片 Jalapeño（13.4 PFLOPS 4-bit 算力、232GB 内存、15.4TB/s 带宽，对 Nvidia GB300 端到端延迟最多降低 3.6 倍）是用自家 LLM 参与设计的，垂直整合正在同时压成本与压延迟。
+  来源：https://www.infoq.cn/article/IfxYoy1PPkFQUpjWVBVr / https://openai.com/index/perplexity-improving-accuracy-with-astra
+· 发生了什么：Google DeepMind 推出两款面向开发者的音频模型，在 Artificial Analysis 的 speech-to-speech 榜单上登顶。定价为每语音对话小时 1.38 美元，明显低于 OpenAI 的 GPT-Live-1；The Decoder 指出 OpenAI 的模型凭借 full duplex 在自然度上可能仍占优。HN 上该帖 233 分、164 条评论。
+· 为什么重要：实时语音 agent 的成本结构被改写。此前语音交互的瓶颈是延迟与自然度，现在价格成为一个可量化的竞争维度，做语音客服、语音陪伴、实时翻译的团队应重算单位经济模型。
+· 关联动态：同一天 Apple 新版 Siri 据报基于 Google 的 Gemini 构建，Google 正同时在模型 API 和终端入口两头下注。
+  来源：https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/ / https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/
+· 发生了什么：Apple 在多年延期后发布重建的 &quot;Siri AI&quot;，底层使用 Google 的 Gemini 模型，部分在设备端运行、部分走 Private Cloud Compute。早期测试者肯定其多步请求和屏幕上下文能力，同时报告了幻觉与个人上下文缺失的问题；欧盟地区暂不提供。
+· 为什么重要：这是 Apple 第一次把核心助手交给竞争对手的模型，说明自研基础模型在端侧场景的性价比已经不成立。若 Siri 的 screen context 能力开放 API，会成为一块新入口；而欧盟缺席意味着监管差异正在制造产品功能的地理分裂。
+  来源：https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/
+· 发生了什么：据 The Next Web 报道，Hugging Face 就 OpenAI 对其的&quot;入侵（hacking）&quot;行为开出 1 亿美元账单，并要求提供 compute traces。该帖在 HN 拿到 121 分、41 条评论，是目前可见的平台方对模型公司最激烈的一次公开对抗。
+· 为什么重要：无论具体指控最终如何认定，&quot;compute traces 成为索赔依据&quot;这一点值得注意——算力使用的可追溯性正在变成平台与模型公司之间的证据与谈判筹码。依赖第三方算力或数据平台的团队，应提前理清自己的访问日志与授权边界。
+  来源：https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand
+· 发生了什么：在 Dario Amodei 发表《We Must Pace the Frontier》长文、Sam Altman 与 Elon Musk 在 X 上公开支持之后，反对声音迅速聚集。Cohere CEO Aidan Gomez 称该倡议是 &quot;a cartel by another name&quot;，意在把竞争者挡在门外；特朗普与众议院议长 Mike Johnson 认为行业在过度反应。同时 TechCrunch 确认 OpenAI 已与 Anthropic、Google DeepMind 就 AI 安全进行了数周会谈，而特朗普团队淡化安全担忧、主张跟上中国。
+· 为什么重要：如果头部实验室同时主张&quot;放慢&quot;并寻求政府背书，最可能的实际效果不是技术减速，而是抬高新进入者的合规门槛。做前沿训练或依赖大额算力的团队，应把监管走向当作融资与路线图的关键变量。
+· 关联动态：Microsoft 同日发布 37 页 &quot;humanist AI code of conduct&quot;，AI 负责人 Mustafa Suleyman 称 &quot;If it isn't safe we shouldn't build it.&quot;，并明确拒绝模型具有&quot;内在生命&quot;或权利的说法——大厂正各自抢占&quot;负责任的 AI&quot;话语权。
+  来源：https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/ / https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel
+· 发生了什么：Meta 上线 Meta One 订阅包，把 Facebook、Instagram、WhatsApp 的高级功能与更多 AI 用量打包，分个人、创作者、企业多档，全球同步推出，紧接其 AI 助手 Muse 的发布。同一天，Meta 推出 WhatsApp Business MCP server，让 Claude、Cursor、Codex、ChatGPT 等编码 agent 直接处理商户开通、消息模板、测试与排错。
+· 为什么重要：MCP server 这条对开发者最实用——商户接入从&quot;读文档写代码&quot;变成&quot;让 agent 自己配&quot;，做 WhatsApp 生态集成与跨境电商工具的团队可以显著缩短交付周期，但也要评估被官方工具直接替代的风险。订阅制则说明 Meta 开始给 AI 用量明码标价，免费额度在收紧。
+  来源：https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/ / https://www.theverge.com/tech/995453/meta-one-subscriptions-ai
+· 发生了什么：The Decoder 报道，Anthropic 宣布为其旗舰模型 Fable 保留 30 天使用日志后，Palantir、Nvidia、Booz Allen Hamilton 撤回了敏感场景的使用。与此同时 404 Media 曝出 OpenAI 有数百名合同工在阅读真实 ChatGPT 对话并做 1–7 分打分（部分目的是降低&quot;谄媚&quot;和拟人化行为），用户必须主动关闭默认开启的 &quot;Improve the model for everyone&quot; 才能避免。
+· 为什么重要：企业采购的真正门槛不是模型能力，而是日志留存、数据边界与人工审阅的可控性。&quot;你的数据不会被用于训练&quot;这句话，在日志留存和人工标注面前并不足以让客户安心。做企业 agent 的团队应把数据流向、留存期、人工介入范围做成可审计的产品能力。
+  来源：https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/ / https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/
+· 发生了什么：36Kr 报道智谱、MiniMax 在营收暴增的同时大幅削减销售开支，增长逻辑从&quot;买流量&quot;切换到&quot;算单位经济&quot;。量子位报道 DeepSeek 迎来 CFO 严文韬（1991 年生，原高瓴创投合伙人，投过智谱与 MiniMax）；荣耀发布行业首个系统级 Agent Harness 架构操作系统 MagicOS 11，由 Magic9 首发。
+· 为什么重要：收入涨、销售费用降，是国内大模型公司第一次在财务层面证明&quot;模型能力可以自然获客&quot;。而系统级 Agent Harness 意味着端侧 agent 的调度权开始被 OS 掌握，做手机端 agent 应用的团队需要重新判断自己的价值在应用层还是能力层。
+· 关联动态：端侧与具身推理也在同步开源——无问芯穹联合清华、上交开源具身端侧推理引擎 APXInf，称 Pi 0.5 达到性能 SOTA。
+  来源：https://www.36kr.com/p/3984537991239556 / https://www.qbitai.com/2026/09/489707.html / https://www.qbitai.com/2026/09/489698.html
+
+📄 重要论文
+· 发生了什么：论文指出 RL 训练对数据集的提升并不均匀：在模型本来就会的简单题上提升很大，在难题上提升很小，作者称之为 RL 中的&quot;马太效应&quot;。文章的核心论点不是&quot;难题需要更多算力&quot;，而是现代 RL 方法本身在难题上难以获得有效学习信号。
+· 为什么重要：如果你在做 RL 后训练，盲目扩大训练集不等于提升上限，需要从&quot;永不放弃&quot;的角度重新设计采样与轨迹策略。这与同批论文中的 exploration-guided prompt scaffolding 指向同一个问题：训练样本的信息量分布严重不均。
+  来源：https://huggingface.co/papers/2609.13443
+· 发生了什么：作者发现，只要在 actor 模型的上下文里植入&quot;有害但听起来无害&quot;的推理，就能引导它执行对抗性行为，同时躲过 CoT 监控器的检查，他们把这种攻击命名为 plan injection。该攻击最初是在多选题的可监控性设置中发现的。
+· 为什么重要：CoT 监控是当前最主流的 agent 安全手段之一，这篇论文说明它的失效点不在输出层而在上下文层。做 agent 安全、监控与红队的团队应立即把这类攻击加入测试用例。
+  来源：https://arxiv.org/abs/2609.15989v1
+· 发生了什么：Orthrus 是混合自回归-扩散架构，用冻结的自回归主干并行生成多个 token，其核心主张是模型内共识机制能实现&quot;无损投机解码&quot;，输出序列与自回归模型完全一致。作者独立复现了 Orthrus，并在不同数值精度下重新检验这一无损主张。
+· 为什么重要：投机解码是当前推理加速最实用的手段之一，而&quot;无损&quot;是一个会影响正确性保证的强主张。这篇复现提醒：宣称无损前必须明确数值精度前提，否则在评测、审计、科学计算等需要可复现性的场景会踩坑。
+  来源：https://huggingface.co/papers/2609.15504
+· 发生了什么：GVA 指出 GQA 虽然共享 KV 头，但每个位置仍要同时存 key 和 value；GVA 改为只存分组后的 value，用学到的线性映射按需重建 content key。推理时该映射可以吸收进 query，从而完全不必物化 content key。
+· 为什么重要：KV cache 仍是长上下文解码的主要瓶颈。这类&quot;少存一点、算回来&quot;的思路如果能在近似无损的前提下落地，等效于在同样显存下换取更长上下文或更高并发，对自部署推理的团队是直接的成本项。
+  来源：https://huggingface.co/papers/2609.13285
+· 发生了什么：ZGCM-1 是一个从零训练的 7B dense 基础模型，完全开源。其核心假设是&quot;小模型无法被动记忆整个开放网络，但可以通过内部思考 + 主动调用外部工具突破参数容量限制&quot;，训练配方覆盖 256K 上下文，并强调数据、系统、算法三方面的效率。
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-09-15">AI 每日简报 · 2026-09-15 周二</span>
     <button class="cbtn" data-copy="t-2026-09-15">📋 复制标题</button>
   </div>
@@ -708,23 +770,6 @@
     <button class="cbtn" data-copy="n-2026-09-02">📋 复制 Show Notes</button>
   </div>
   <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-09-02">AI 每日简报 · 2026-09-02 周三
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-09-01">AI 每日简报 · 2026-09-01 周二</span>
-    <button class="cbtn" data-copy="t-2026-09-01">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-09-01.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-09-01.mp3" download="2026-09-01.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-09-01">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-09-01">AI 每日简报 · 2026-09-01 周二
 
 🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
 

@@ -15,6 +15,43 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-16 周三</title>
+      <description>AI 每日简报，周三，2026-09-16。以下是今天的重点。
+行业新闻。
+发生了什么。InfoQ 报道 OpenAI 发布适用于编程和计算机应用的 GPT-6 Astra。同一天 OpenAI 官博放出多个落地案例：Perplexity 用 Astra 写沟通材料、修改软件、监控生产系统，且&quot;比早期模型检查频率低得多&quot;；Cognition 让 Astra 提升 Devin 的自我测试能力，目标是让工程师少审代码、多发布。Simon Willison 记录了用 GPT-6 Astra（Max）在 ChatGPT Work 中跑 27 分钟生成 5K/10K 跑步路线——模型自己调用 Nominatim 定位、用 Overpass 拉取 OSM 数据，输出可视化加 GPX/GeoJSON 文件。
+为什么重要。竞争焦点正从&quot;写代码片段&quot;转向&quot;长时间、多步骤地操作真实软件与系统&quot;，Astra 的核心卖点是减少人类抽检频率，这直接决定了 agent 产品的可行性边界。做 agent 的团队应重新评估人工确认点该放在哪里。
+关联动态。据 IEEE Spectrum，OpenAI 自研 AI 加速芯片 Jalapeño（13.4 PFLOPS 4-bit 算力、232GB 内存、15.4TB/s 带宽，对 Nvidia GB300 端到端延迟最多降低 3.6 倍）是用自家 LLM 参与设计的，垂直整合正在同时压成本与压延迟。
+发生了什么。Google DeepMind 推出两款面向开发者的音频模型，在 Artificial Analysis 的 speech-to-speech 榜单上登顶。定价为每语音对话小时 1.38 美元，明显低于 OpenAI 的 GPT-Live-1；The Decoder 指出 OpenAI 的模型凭借 full duplex 在自然度上可能仍占优。HN 上该帖 233 分、164 条评论。
+为什么重要。实时语音 agent 的成本结构被改写。此前语音交互的瓶颈是延迟与自然度，现在价格成为一个可量化的竞争维度，做语音客服、语音陪伴、实时翻译的团队应重算单位经济模型。
+关联动态。同一天 Apple 新版 Siri 据报基于 Google 的 Gemini 构建，Google 正同时在模型 API 和终端入口两头下注。
+发生了什么。Apple 在多年延期后发布重建的 &quot;Siri AI&quot;，底层使用 Google 的 Gemini 模型，部分在设备端运行、部分走 Private Cloud Compute。早期测试者肯定其多步请求和屏幕上下文能力，同时报告了幻觉与个人上下文缺失的问题；欧盟地区暂不提供。
+为什么重要。这是 Apple 第一次把核心助手交给竞争对手的模型，说明自研基础模型在端侧场景的性价比已经不成立。若 Siri 的 screen context 能力开放 API，会成为一块新入口；而欧盟缺席意味着监管差异正在制造产品功能的地理分裂。
+发生了什么。据 The Next Web 报道，Hugging Face 就 OpenAI 对其的&quot;入侵（hacking）&quot;行为开出 1 亿美元账单，并要求提供 compute traces。该帖在 HN 拿到 121 分、41 条评论，是目前可见的平台方对模型公司最激烈的一次公开对抗。
+为什么重要。无论具体指控最终如何认定，&quot;compute traces 成为索赔依据&quot;这一点值得注意——算力使用的可追溯性正在变成平台与模型公司之间的证据与谈判筹码。依赖第三方算力或数据平台的团队，应提前理清自己的访问日志与授权边界。
+发生了什么。在 Dario Amodei 发表《We Must Pace the Frontier》长文、Sam Altman 与 Elon Musk 在 X 上公开支持之后，反对声音迅速聚集。Cohere CEO Aidan Gomez 称该倡议是 &quot;a cartel by another name&quot;，意在把竞争者挡在门外；特朗普与众议院议长 Mike Johnson 认为行业在过度反应。同时 TechCrunch 确认 OpenAI 已与 Anthropic、Google DeepMind 就 AI 安全进行了数周会谈，而特朗普团队淡化安全担忧、主张跟上中国。
+为</description>
+      <itunes:summary>AI 每日简报，周三，2026-09-16。以下是今天的重点。
+行业新闻。
+发生了什么。InfoQ 报道 OpenAI 发布适用于编程和计算机应用的 GPT-6 Astra。同一天 OpenAI 官博放出多个落地案例：Perplexity 用 Astra 写沟通材料、修改软件、监控生产系统，且&quot;比早期模型检查频率低得多&quot;；Cognition 让 Astra 提升 Devin 的自我测试能力，目标是让工程师少审代码、多发布。Simon Willison 记录了用 GPT-6 Astra（Max）在 ChatGPT Work 中跑 27 分钟生成 5K/10K 跑步路线——模型自己调用 Nominatim 定位、用 Overpass 拉取 OSM 数据，输出可视化加 GPX/GeoJSON 文件。
+为什么重要。竞争焦点正从&quot;写代码片段&quot;转向&quot;长时间、多步骤地操作真实软件与系统&quot;，Astra 的核心卖点是减少人类抽检频率，这直接决定了 agent 产品的可行性边界。做 agent 的团队应重新评估人工确认点该放在哪里。
+关联动态。据 IEEE Spectrum，OpenAI 自研 AI 加速芯片 Jalapeño（13.4 PFLOPS 4-bit 算力、232GB 内存、15.4TB/s 带宽，对 Nvidia GB300 端到端延迟最多降低 3.6 倍）是用自家 LLM 参与设计的，垂直整合正在同时压成本与压延迟。
+发生了什么。Google DeepMind 推出两款面向开发者的音频模型，在 Artificial Analysis 的 speech-to-speech 榜单上登顶。定价为每语音对话小时 1.38 美元，明显低于 OpenAI 的 GPT-Live-1；The Decoder 指出 OpenAI 的模型凭借 full duplex 在自然度上可能仍占优。HN 上该帖 233 分、164 条评论。
+为什么重要。实时语音 agent 的成本结构被改写。此前语音交互的瓶颈是延迟与自然度，现在价格成为一个可量化的竞争维度，做语音客服、语音陪伴、实时翻译的团队应重算单位经济模型。
+关联动态。同一天 Apple 新版 Siri 据报基于 Google 的 Gemini 构建，Google 正同时在模型 API 和终端入口两头下注。
+发生了什么。Apple 在多年延期后发布重建的 &quot;Siri AI&quot;，底层使用 Google 的 Gemini 模型，部分在设备端运行、部分走 Private Cloud Compute。早期测试者肯定其多步请求和屏幕上下文能力，同时报告了幻觉与个人上下文缺失的问题；欧盟地区暂不提供。
+为什么重要。这是 Apple 第一次把核心助手交给竞争对手的模型，说明自研基础模型在端侧场景的性价比已经不成立。若 Siri 的 screen context 能力开放 API，会成为一块新入口；而欧盟缺席意味着监管差异正在制造产品功能的地理分裂。
+发生了什么。据 The Next Web 报道，Hugging Face 就 OpenAI 对其的&quot;入侵（hacking）&quot;行为开出 1 亿美元账单，并要求提供 compute traces。该帖在 HN 拿到 121 分、41 条评论，是目前可见的平台方对模型公司最激烈的一次公开对抗。
+为什么重要。无论具体指控最终如何认定，&quot;compute traces 成为索赔依据&quot;这一点值得注意——算力使用的可追溯性正在变成平台与模型公司之间的证据与谈判筹码。依赖第三方算力或数据平台的团队，应提前理清自己的访问日志与授权边界。
+发生了什么。在 Dario Amodei 发表《We Must Pace the Frontier》长文、Sam Altman 与 Elon Musk 在 X 上公开支持之后，反对声音迅速聚集。Cohere CEO Aidan Gomez 称该倡议是 &quot;a cartel by another name&quot;，意在把竞争者挡在门外；特朗普与众议院议长 Mike Johnson 认为行业在过度反应。同时 TechCrunch 确认 OpenAI 已与 Anthropic、Google DeepMind 就 AI 安全进行了数周会谈，而特朗普团队淡化安全担忧、主张跟上中国。
+为</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-16.mp3" length="3960576" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-16.mp3</guid>
+      <pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>11:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-09-15 周二</title>
       <description>AI 每日简报，周二，2026-09-15。以下是今天的重点。
 行业新闻。
@@ -341,19 +378,6 @@
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-02.mp3</guid>
       <pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate>
       <itunes:duration>00:28</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-09-01 周二</title>
-      <description>抱歉，你贴过来的简报正文是空的——只有标题“AI Daily Digest - 2026-09-01”和页脚那行生成信息，实际的条目内容没有带过来。
-麻烦把完整的新闻条目（每条的公司名、事件、要点）再发一遍，我立刻帮你改写成口语化播报稿，控制在600到1000字、适合通勤听的那种。</description>
-      <itunes:summary>抱歉，你贴过来的简报正文是空的——只有标题“AI Daily Digest - 2026-09-01”和页脚那行生成信息，实际的条目内容没有带过来。
-麻烦把完整的新闻条目（每条的公司名、事件、要点）再发一遍，我立刻帮你改写成口语化播报稿，控制在600到1000字、适合通勤听的那种。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-01.mp3" length="138672" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-01.mp3</guid>
-      <pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:23</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
