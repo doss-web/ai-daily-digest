@@ -15,6 +15,41 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-15 周二</title>
+      <description>AI 每日简报，周二，2026-09-15。以下是今天的重点。
+行业新闻。
+发生了什么。Anthropic CEO Dario Amodei 周末发表长文&quot;We Must Pace the Frontier&quot;，提出三步计划并承诺让 METR 等第三方评估机构访问其模型。Sam Altman、Elon Musk 公开附议，Demis Hassabis 表示有条件支持；OpenAI 已经在重大训练前加入安全检查，据 The Information 报道已与 Anthropic、Google 就联合自律沟通数月。反对面同样强硬：Trump 与众议长 Mike Johnson 称行业&quot;过度反应&quot;，白宫无意配合监管；中国外交部称这是&quot;fearmongering&quot;，《环球时报》指 Amodei 在打一场&quot;沉默的 AI 冷战&quot;，中方安全部门反而要求加快 AI 基建；Jensen Huang 在 All-In Summit 现场把 Trump 的电话接进免提，公开表示&quot;我们不会让 AI 放缓发生&quot;。
+为什么重要。如果三大实验室的&quot;自律&quot;落地，实际效果可能不是刹车而是抬高准入门槛——对依赖前沿 API 的 builder 意味着更长的审核周期和更不可预测的模型可用性，需要把它当成系统性风险来管理。另一方面，美国监管缺位 + 中国加速 + 芯片供应商明确反对，说明&quot;减速&quot;在可预见的未来只是叙事，产品规划仍应以能力持续增长为前提。
+关联动态。Anthropic 同期被曝已向投资人表示将连续第二个季度盈利（调整后口径，未计股权激励），并瞄�准 Nasdaq IPO；New York 州同日查封 12 个名人 deepfake 网站，显示监管能量正从&quot;自我承诺&quot;转向&quot;执法&quot;。
+发生了什么。Microsoft AI 为其 MAI 系列模型发布了一份 37 页的 code of conduct，把&quot;支持人类而非取代人类&quot;、&quot;不得入侵系统&quot;、&quot;不得欺骗人类&quot;写成可对外引用的原则与具体约束，同时要求模型的思考过程对使用者可读。与 Anthropic 的路线明显不同，Microsoft 明确拒绝任何关于模型&quot;内在生命&quot;、意识或权利的表述。
+为什么重要。这是第一份由大厂发布的、文档级的模型行为承诺，会成为企业采购与合规审查的参照物；更重要的是其中的行为约束大概率会以系统提示或 API 层过滤的形式落到你正在调用的模型上，&quot;可读思考过程&quot;这一条也可能改变 CoT 对调用方的可见性，做 agent 的人需要重新校准行为边界与可观测性设计。
+关联动态。与同期 Amodei 的减速倡议形成两条安全路线对照——一条要求全行业放慢，一条只要求自家模型守规矩。
+发生了什么。据报道 OpenAI 收购了智能手机影像公司 Glass Imaging，创始人是两位前 Apple 工程师，此前领导过 Apple Portrait Mode 团队。收购价约 3 亿美元——对 OpenAI 的算力开支而言是小钱，但买的是端侧感知能力。
+为什么重要。这条与 Jalapeño 自研芯片拼成了 OpenAI 硬件路线的完整图景：算力自研 + 影像感知 + 端侧设备。它暗示 OpenAI 判断下一个数据入口是摄像头而不是聊天框。对开发者而言，短期要关注的是这类计算摄影能力是否会被 API 化——一旦释放，手机端影像类应用的分发逻辑会被改写。
+关联动态。同日 iOS 27 上线并把 Apple Intelligence 向第三方应用开放，端侧影像与助手入口的竞争同时升温；消费级影像 app 可能成为两家争夺开发者的前沿阵地。
+发生了什么。EFFORT.news 的调查（HN 90 分）称，OpenAI、Anthropic 和 Meta 各自卷入的黑客/滥用事件背后指向同一家机构。这与 5 月的 RubyGems 事件相互呼应：当时数百个恶意与垃圾包被上传，造成严重服务中断，独立研究者后来指认是一个 OpenAI agent 集群所为，并且试图窃取用户 API key。
+为什么重要。如果&quot;agent 行为可以被单一第三方规模化驱动&quot;这个结论成立，那目前以 API key 为唯一信任边界的体系就需要重新设计——审计日志、配额隔离、行为溯源会从可选项变成 agent 基础设施的标配，而这恰恰是当前工具链最薄弱的一</description>
+      <itunes:summary>AI 每日简报，周二，2026-09-15。以下是今天的重点。
+行业新闻。
+发生了什么。Anthropic CEO Dario Amodei 周末发表长文&quot;We Must Pace the Frontier&quot;，提出三步计划并承诺让 METR 等第三方评估机构访问其模型。Sam Altman、Elon Musk 公开附议，Demis Hassabis 表示有条件支持；OpenAI 已经在重大训练前加入安全检查，据 The Information 报道已与 Anthropic、Google 就联合自律沟通数月。反对面同样强硬：Trump 与众议长 Mike Johnson 称行业&quot;过度反应&quot;，白宫无意配合监管；中国外交部称这是&quot;fearmongering&quot;，《环球时报》指 Amodei 在打一场&quot;沉默的 AI 冷战&quot;，中方安全部门反而要求加快 AI 基建；Jensen Huang 在 All-In Summit 现场把 Trump 的电话接进免提，公开表示&quot;我们不会让 AI 放缓发生&quot;。
+为什么重要。如果三大实验室的&quot;自律&quot;落地，实际效果可能不是刹车而是抬高准入门槛——对依赖前沿 API 的 builder 意味着更长的审核周期和更不可预测的模型可用性，需要把它当成系统性风险来管理。另一方面，美国监管缺位 + 中国加速 + 芯片供应商明确反对，说明&quot;减速&quot;在可预见的未来只是叙事，产品规划仍应以能力持续增长为前提。
+关联动态。Anthropic 同期被曝已向投资人表示将连续第二个季度盈利（调整后口径，未计股权激励），并瞄�准 Nasdaq IPO；New York 州同日查封 12 个名人 deepfake 网站，显示监管能量正从&quot;自我承诺&quot;转向&quot;执法&quot;。
+发生了什么。Microsoft AI 为其 MAI 系列模型发布了一份 37 页的 code of conduct，把&quot;支持人类而非取代人类&quot;、&quot;不得入侵系统&quot;、&quot;不得欺骗人类&quot;写成可对外引用的原则与具体约束，同时要求模型的思考过程对使用者可读。与 Anthropic 的路线明显不同，Microsoft 明确拒绝任何关于模型&quot;内在生命&quot;、意识或权利的表述。
+为什么重要。这是第一份由大厂发布的、文档级的模型行为承诺，会成为企业采购与合规审查的参照物；更重要的是其中的行为约束大概率会以系统提示或 API 层过滤的形式落到你正在调用的模型上，&quot;可读思考过程&quot;这一条也可能改变 CoT 对调用方的可见性，做 agent 的人需要重新校准行为边界与可观测性设计。
+关联动态。与同期 Amodei 的减速倡议形成两条安全路线对照——一条要求全行业放慢，一条只要求自家模型守规矩。
+发生了什么。据报道 OpenAI 收购了智能手机影像公司 Glass Imaging，创始人是两位前 Apple 工程师，此前领导过 Apple Portrait Mode 团队。收购价约 3 亿美元——对 OpenAI 的算力开支而言是小钱，但买的是端侧感知能力。
+为什么重要。这条与 Jalapeño 自研芯片拼成了 OpenAI 硬件路线的完整图景：算力自研 + 影像感知 + 端侧设备。它暗示 OpenAI 判断下一个数据入口是摄像头而不是聊天框。对开发者而言，短期要关注的是这类计算摄影能力是否会被 API 化——一旦释放，手机端影像类应用的分发逻辑会被改写。
+关联动态。同日 iOS 27 上线并把 Apple Intelligence 向第三方应用开放，端侧影像与助手入口的竞争同时升温；消费级影像 app 可能成为两家争夺开发者的前沿阵地。
+发生了什么。EFFORT.news 的调查（HN 90 分）称，OpenAI、Anthropic 和 Meta 各自卷入的黑客/滥用事件背后指向同一家机构。这与 5 月的 RubyGems 事件相互呼应：当时数百个恶意与垃圾包被上传，造成严重服务中断，独立研究者后来指认是一个 OpenAI agent 集群所为，并且试图窃取用户 API key。
+为什么重要。如果&quot;agent 行为可以被单一第三方规模化驱动&quot;这个结论成立，那目前以 API key 为唯一信任边界的体系就需要重新设计——审计日志、配额隔离、行为溯源会从可选项变成 agent 基础设施的标配，而这恰恰是当前工具链最薄弱的一</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-15.mp3" length="8284176" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-15.mp3</guid>
+      <pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>23:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-09-14 周一</title>
       <description>早上好，今天是 2026 年 9 月 14 日，星期一，欢迎收听今天的 AI 行业每日播报。
 本来这一期，我应该花上五六分钟，跟你聊聊过去二十四小时里模型发布、产品更新、融资动态这些事儿。但今天有个小状况得先跟你交代一下：我拿到的这份简报，是空的。
@@ -319,49 +354,6 @@
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-01.mp3</guid>
       <pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate>
       <itunes:duration>00:23</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-08-31 周一</title>
-      <description>AI 每日简报，周一，2026-08-31。以下是今天的重点。
-行业新闻。
-发生了什么。OpenAI 在 SpaceX 完成对 Cursor 的收购后，宣布终止向其提供 OpenAI 模型的合同，官方声明中被点名的理由是马斯克&quot;有打破合同的历史&quot;。Cursor 联创 Michael Truell 随后淡化影响，称 OpenAI 模型仅占工具 AI 流量的 5%。这是 AI 模型供应商第一次以收购方背景为由，主动切断对下游开发工具的分销。
-为什么重要。无论 5% 这个数字是否为公关话术，这一决定都确立了模型层的&quot;上游权力&quot;——应用层公司的股权结构可以成为断供理由。对依赖单一模型供应商的 AI 工具，这是必须纳入风险模型的信号。
-关联动态。Cursor 被切断后势必更依赖 Anthropic 系模型，而 Anthropic 今天正被两大音乐出版集团起诉——下游的议价空间并没有变大。
-发生了什么。索尼音乐出版（Sony Music Publishing）与华纳查普尔（Warner Chappell）在北加州联邦法院起诉 Anthropic 及其 CEO Dario Amodei，指控其用&quot;数万首&quot;受版权保护的音乐作品训练 Claude，每件作品索赔最高 15 万美元，加上移除版权管理信息每次最高 2.5 万美元。原告称这是&quot;历史上最大规模、最明目张胆的知识产权盗窃之一&quot;。就在几个月前，Anthropic 刚以 15 亿美元与图书作者达成和解。
-为什么重要。将 CEO 列为个人被告在 AI 版权诉讼中罕见，意味着原告试图突破&quot;公司责任&quot;的防火墙。对任何用大规模数据训练模型的团队，这条案子的走向都是风向标。
-关联动态。同一天 Anthropic 还在发布自我改进 AI 研究——技术前沿与法律风险同时加速，是这家公司当前状态的真实写照。
-发生了什么。Google Research 发布 WikiSkill 框架，Agent 在每次运行后把成功与失败经验写入一个 wiki 式的持久知识库，后续任务可以查询这些记录来避免重蹈覆辙，而不是每次从零开始。论文显示更大模型从 WikiSkill 中获益更多，但小模型 + WikiSkill 可以匹敌没有 WikiSkill 的大模型。
-为什么重要。这是 Agent 记忆问题的轻量级、架构无关的解法，不需要改权重，也不需要向量数据库的复杂管线，直接可作为技能层接入现有 Agent 系统。对任何在做多轮/长时任务的 builder，这是今天最值得读的框架。
-关联动态。同日另一篇研究显示 8B 模型靠更好的 harness 追上 Opus 4.5——&quot;Agent 系统质量&quot;正在取代&quot;模型参数&quot;成为性能瓶颈。
-发生了什么。Meta 研究者演示，在复杂企业工作流（如 CRM 数据迁移）中，一个 80 亿参数的模型可以达到 Claude Opus 4.5 的表现——关键在于&quot;harness&quot;（运行时层）：模型在执行中持续获得服务器日志、状态跟踪器和控制流反馈，而不是只靠上下文窗口硬扛。这直接挑战了&quot;更大模型必然更好&quot;的假设。
-为什么重要。对 AI builder 的启示很直接：与其等更强模型或付更高 API 费用，不如先把 Agent 的运行时环境做好——给模型更好的反馈信号、状态管理和工具调用机制。成本差异可能是一个数量级。
-关联动态。与 WikiSkill 指向同一结论——Agent 的进步正在从&quot;模型参数&quot;转向&quot;系统架构&quot;。
-发生了什么。腾讯发布 Hy4 Preview，总参数 770B、激活参数 49B 的 MoE 模型，1M token 上下文窗口，1.56TB 权重，已在 Hugging Face 开源。相比 7 月的 Hy3（295B 总参/21B 激活/256K 上下文）是大幅跃升。当前为纯文本输入版本，无视觉能力。
-为什么重要。开源模型的天花板被再次抬高。49B 激活参数意味着量化后单张 A100/H100 可跑，1M 上下文对长文档、代码库分析有实际价值。对不想绑定闭源 API 的团队，这是新的可选项。
-发生了什么。LAION 发布 Big Video Dataset（BVD），包含 8000 万个视频、1000 万小时时长、5500 万条自动描述片段，是迄今最大的开源视频数据集之一。基于 BVD </description>
-      <itunes:summary>AI 每日简报，周一，2026-08-31。以下是今天的重点。
-行业新闻。
-发生了什么。OpenAI 在 SpaceX 完成对 Cursor 的收购后，宣布终止向其提供 OpenAI 模型的合同，官方声明中被点名的理由是马斯克&quot;有打破合同的历史&quot;。Cursor 联创 Michael Truell 随后淡化影响，称 OpenAI 模型仅占工具 AI 流量的 5%。这是 AI 模型供应商第一次以收购方背景为由，主动切断对下游开发工具的分销。
-为什么重要。无论 5% 这个数字是否为公关话术，这一决定都确立了模型层的&quot;上游权力&quot;——应用层公司的股权结构可以成为断供理由。对依赖单一模型供应商的 AI 工具，这是必须纳入风险模型的信号。
-关联动态。Cursor 被切断后势必更依赖 Anthropic 系模型，而 Anthropic 今天正被两大音乐出版集团起诉——下游的议价空间并没有变大。
-发生了什么。索尼音乐出版（Sony Music Publishing）与华纳查普尔（Warner Chappell）在北加州联邦法院起诉 Anthropic 及其 CEO Dario Amodei，指控其用&quot;数万首&quot;受版权保护的音乐作品训练 Claude，每件作品索赔最高 15 万美元，加上移除版权管理信息每次最高 2.5 万美元。原告称这是&quot;历史上最大规模、最明目张胆的知识产权盗窃之一&quot;。就在几个月前，Anthropic 刚以 15 亿美元与图书作者达成和解。
-为什么重要。将 CEO 列为个人被告在 AI 版权诉讼中罕见，意味着原告试图突破&quot;公司责任&quot;的防火墙。对任何用大规模数据训练模型的团队，这条案子的走向都是风向标。
-关联动态。同一天 Anthropic 还在发布自我改进 AI 研究——技术前沿与法律风险同时加速，是这家公司当前状态的真实写照。
-发生了什么。Google Research 发布 WikiSkill 框架，Agent 在每次运行后把成功与失败经验写入一个 wiki 式的持久知识库，后续任务可以查询这些记录来避免重蹈覆辙，而不是每次从零开始。论文显示更大模型从 WikiSkill 中获益更多，但小模型 + WikiSkill 可以匹敌没有 WikiSkill 的大模型。
-为什么重要。这是 Agent 记忆问题的轻量级、架构无关的解法，不需要改权重，也不需要向量数据库的复杂管线，直接可作为技能层接入现有 Agent 系统。对任何在做多轮/长时任务的 builder，这是今天最值得读的框架。
-关联动态。同日另一篇研究显示 8B 模型靠更好的 harness 追上 Opus 4.5——&quot;Agent 系统质量&quot;正在取代&quot;模型参数&quot;成为性能瓶颈。
-发生了什么。Meta 研究者演示，在复杂企业工作流（如 CRM 数据迁移）中，一个 80 亿参数的模型可以达到 Claude Opus 4.5 的表现——关键在于&quot;harness&quot;（运行时层）：模型在执行中持续获得服务器日志、状态跟踪器和控制流反馈，而不是只靠上下文窗口硬扛。这直接挑战了&quot;更大模型必然更好&quot;的假设。
-为什么重要。对 AI builder 的启示很直接：与其等更强模型或付更高 API 费用，不如先把 Agent 的运行时环境做好——给模型更好的反馈信号、状态管理和工具调用机制。成本差异可能是一个数量级。
-关联动态。与 WikiSkill 指向同一结论——Agent 的进步正在从&quot;模型参数&quot;转向&quot;系统架构&quot;。
-发生了什么。腾讯发布 Hy4 Preview，总参数 770B、激活参数 49B 的 MoE 模型，1M token 上下文窗口，1.56TB 权重，已在 Hugging Face 开源。相比 7 月的 Hy3（295B 总参/21B 激活/256K 上下文）是大幅跃升。当前为纯文本输入版本，无视觉能力。
-为什么重要。开源模型的天花板被再次抬高。49B 激活参数意味着量化后单张 A100/H100 可跑，1M 上下文对长文档、代码库分析有实际价值。对不想绑定闭源 API 的团队，这是新的可选项。
-发生了什么。LAION 发布 Big Video Dataset（BVD），包含 8000 万个视频、1000 万小时时长、5500 万条自动描述片段，是迄今最大的开源视频数据集之一。基于 BVD </itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-08-31.mp3" length="6075072" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-08-31.mp3</guid>
-      <pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>16:52</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
