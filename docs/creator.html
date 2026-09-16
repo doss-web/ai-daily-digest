@@ -36,6 +36,45 @@
 
 <div class="ep">
   <div class="ep-h">
+    <span class="ep-title" id="t-2026-09-17">AI 每日简报 · 2026-09-17 周四</span>
+    <button class="cbtn" data-copy="t-2026-09-17">📋 复制标题</button>
+  </div>
+  <audio controls preload="none" src="audio/2026-09-17.mp3"></audio>
+  <div class="acts">
+    <a class="cbtn" href="audio/2026-09-17.mp3" download="2026-09-17.mp3">⬇️ 下载音频</a>
+    <button class="cbtn" data-copy="n-2026-09-17">📋 复制 Show Notes</button>
+  </div>
+  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-09-17">AI 每日简报 · 2026-09-17 周四
+
+🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
+
+📰 行业新闻
+· 发生了什么：Google DeepMind 成立跨学科研究平台 DeepMind Institute，由 Demis Hassabis、Shane Legg、James Manyika 共同领导，除技术专家外还引入艺术、人文与政策领域研究者，聚焦 AGI 相关的安全、治理与控制风险。它不是产品团队，而是把 AGI 议题从内部对齐组扩展成一个对外学术接口。
+· 为什么重要：前沿实验室正在争夺&quot;AGI 治理&quot;的问题定义权——谁能定义问题框架，谁就能影响后续的监管口径和人才流向。对研究者，这意味着人文/政策背景进入前沿实验室的正式通道；对 builder，DMI 的产出很可能成为未来模型卡与合规文档的模板。
+· 关联动态：与同一天 OpenAI 的错位披露框架、以及华盛顿的监管博弈形成同一条&quot;谁来定义安全标准&quot;的主线。
+  来源：https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi/
+· 发生了什么：Google 推出 Google Home MCP server 的早期访问，第三方 agent（Claude、ChatGPT、Open Claw 等）可通过自然语言控制已连接设备、读取摄像头摘要、访问智能家居活动数据，底层使用标准化的 Model Context Protocol。这是 MCP 从开发者工具链首次正式进入消费级物理设备的控制层。
+· 为什么重要：当 MCP 成为智能家居的事实标准接口，权限模型（谁能看摄像头、谁能开锁、审计日志留存多久）会立刻变成产品设计与安全评审的核心问题。做智能家居集成、家庭 agent 或隐私审计工具的开发者，现在就该研究它的授权粒度与攻击面。
+· 关联动态：同一天 TechCrunch 报道实验室想引入&quot;内部审计员&quot;，另一篇则反问&quot;也许你们该先把前门关上&quot;——agent 权限扩张与审计能力脱节是今天贯穿多条新闻的主线。
+  来源：https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date / https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/
+· 发生了什么：据 The Information，Apple 正在开发面向企业 AI 推理的服务器，搭载两颗或四颗 M8 Ultra 芯片，可能采用 Nvidia 的 NVLink Fusion 互联技术，最早不早于 2029 年推出。Apple 在 2011 年停产 Xserve 后基本退出企业硬件，而 OpenAI 与 Anthropic 已在大批量采购 Mac 硬件跑 AI 负载，客观上为这一产品做了需求验证。
+· 为什么重要：这是 Apple 第一次以&quot;推理服务器供应商&quot;而非终端厂商的身份进入 AI 基础设施，方向直指自托管推理。对依赖 GPU 云的中小团队，如果 2029 年真出现高带宽统一内存的推理机型，单位 token 成本结构可能被重写——值得提前跟踪的是它与 Nvidia 的互联合作会走到哪一步。
+· 关联动态：同日 SK Hynix 与 Intel 洽谈在美国生产内存芯片，算力与内存的供给端同时在重新配置。
+  来源：https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/ / https://www.theverge.com/tech/996321/apple-servers-ai-nvidia
+· 发生了什么：OpenAI 发布新的 AI 广告体验，包括 Sponsored Agents、面向营销者的工具包，以及与 HubSpot 和 Shopify 的集成。这是 ChatGPT 商业化从纯订阅向广告与 agent 电商延伸的关键一步。
+· 为什么重要：&quot;Sponsored Agents&quot;意味着广告单元本身可能变成可执行动作的 agent，而不只是展示位——做电商、agent 中间件与归因分析的开发者，需要重新设计&quot;可被 agent 调用的商品与转化路径&quot;。HubSpot/Shopify 的第一方集成也给出了技术栈信号。
+  来源：https://openai.com/index/reimagining-advertising-with-ai
+· 发生了什么：前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布 Jev，模型刻意不生成自然语言，只输出分类结果，响应时间低至 70 毫秒、token 价格极低。它保证答案严格落在预设选项内，但官方也承认这并不防止选错。
+· 为什么重要：把&quot;分类/裁决&quot;从 chat 模型里剥离出来，是 agent 与工作流场景降低延迟与成本的现实路径——路由、风控、UI 状态机这类任务根本不需要文本生成。真正要观察的是它在分布外输入下的失败模式。
+· 关联动态：HN 上已经出现 vinnylarouge/jevlike 这类反向工程实现（37 分、5 条评论），说明小模型的复现门槛并不高，护城河在数据与验证流程而非权重本身。
+  来源：https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/ / https://github.com/vinnylarouge/jevlike
+· 发生了什么：Bernie Sanders 主张冻结数据中心建设，Steve Bannon 阵营同样要求给
+
+———
+完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
+</div>
+<div class="ep">
+  <div class="ep-h">
     <span class="ep-title" id="t-2026-09-16">AI 每日简报 · 2026-09-16 周三</span>
     <button class="cbtn" data-copy="t-2026-09-16">📋 复制标题</button>
   </div>
@@ -800,23 +839,6 @@
 
 💡 今日观察
 把今天的事件拼在一起看，一个清晰的转折是：**大模型的竞争单位正在从&quot;每 token 价格&quot;变成&quot;每任务成本&quot;，而实现方式是把更多计算推向推理时**。Anthropic 用 45% 的 Agent 降价和 75% 的缓存降价打价格战，Google 用&quot;更努力思考&quot;的 Gemini 3.8 Flash 变相增加单任务 token 消耗，Google Research 则用&quot;想得更久能找回 65% 的事实&quot;为推理时计算提供学术背书——三件事指向同一个结论：模型的知识与能力早已&quot;够用&quot;，瓶颈在推理时的调用方式。与此同时，OpenAI Astra 的&quot;循环深度&quot;架构和 Critical 级网络能力评级，说明前沿模型的能力上限正在进入安全界无法用传统监控覆盖的盲区；而世界模型（World Labs Atlas、H3-World）的落地，则把战场从文本推理扩展到&quot;可交互的 3D 世界&quot;——这既是机器人数据的新来源，也是 Agent 训练的新沙盒。三个月后回看，今天最重要的事件可能不是任何一个模型发布，而是**美国司法部在 NYT 案中支持合理使用的意见书**：它第一次让&quot;训练数据合法性&quot;这个悬在所有实验室头上的达摩克利斯之剑有了明确的政治风向，无论法院最终如何裁决，AI 版权问题的游戏规则都已被改写。
-
-———
-完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>
-</div>
-<div class="ep">
-  <div class="ep-h">
-    <span class="ep-title" id="t-2026-09-02">AI 每日简报 · 2026-09-02 周三</span>
-    <button class="cbtn" data-copy="t-2026-09-02">📋 复制标题</button>
-  </div>
-  <audio controls preload="none" src="audio/2026-09-02.mp3"></audio>
-  <div class="acts">
-    <a class="cbtn" href="audio/2026-09-02.mp3" download="2026-09-02.mp3">⬇️ 下载音频</a>
-    <button class="cbtn" data-copy="n-2026-09-02">📋 复制 Show Notes</button>
-  </div>
-  <details><summary>预览 Show Notes</summary><pre class="notes" id="n-2026-09-02">AI 每日简报 · 2026-09-02 周三
-
-🎧 每天 5 分钟，用耳朵掌握 AI 领域最新动态。全自动采集 · DeepSeek 智能筛选。
 
 ———
 完整图文与往期：https://jimmuji.github.io/ai-daily-digest/</pre></details>

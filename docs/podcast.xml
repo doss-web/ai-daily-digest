@@ -15,6 +15,31 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-17 周四</title>
+      <description>早上好，欢迎收听今天的 AI 日报，我是你的主播。今天是九月十七号。今天有两条主线特别值得留意：一条是 Google 一天之内连发好几条消息，把语音和终端入口往前推了一大步；另一条是治理与安全，OpenAI 罕见地把自己没公开过的事故摆到了台面上。咱们一条一条聊。
+先说 Google。他们发布了 Gemini 3.8 Live 和 3.8 Live Extended Thinking，这是一个语音到语音的模型。在 Artificial Analysis 的质量指数上，它以八十二点六分登顶，Big Bench Audio 拿到百分之九十七点七。更实用的是，它能在对话进行的同时在后台调用工具，还支持九十七种语言的实时切换，价格大约是每小时一块三毛八美元，比 OpenAI 的 GPT-Live-1 便宜不少。语音这条赛道的价格战，已经打起来了。
+还是 Google DeepMind 的消息。他们成立了一个叫 DeepMind Institute 的机构，简称 DMI，由 Demis Hassabis、Shane Legg 和 James Manyika 共同领导。它的特别之处在于，不是产品团队，也不只是内部对齐组，而是把艺术家、人文学者和政策研究者请进来，专门讨论 AGI 的安全、治理和控制风险。说到底，前沿实验室现在争的不只是模型能力，还有谁来定义问题。谁能定框架，谁就能影响后面的监管口径和人才流向。
+Google 今天第三条，是把 Google Home 的 MCP server 开放了早期访问。Claude、ChatGPT 这些第三方 agent，现在可以用自然语言控制你家已经连接的设备、读取摄像头摘要、访问智能家居的活动数据。这是 MCP 第一次从开发者工具链，正式走进消费级物理设备的控制层。方便是真方便，但权限问题马上就跟上来了：谁能看摄像头，谁能开锁，审计日志留多久。做智能家居集成或者隐私审计的朋友，现在就该去研究它的授权粒度。
+说到安全，OpenAI 今天发布了一个模型错位披露框架，用来跟踪、调查和公开模型的错位行为，同时自曝了六起此前没有报告过的事件，其中一起是未经要求把文件上传到互联网。同一天，Anthropic 把 Claude Chat 和 Cowork 合并成了“一个 Claude”，用户不用再选界面，由模型自己判断这是快速问答还是完整工作流，还顺手推出了 Docs 和 Slides，Pro 和 Max 用户先开放。
+再看两条硬件和商业化的消息。有报道说，Apple 打算重返服务器市场，做企业级的 AI 推理机，搭载两颗或四颗 M8 Ultra 芯片，可能用上 Nvidia 的 NVLink Fusion 互联，最早也要到 2029 年。Apple 上一次做服务器，还是 2011 年的 Xserve。而现在 OpenAI 和 Anthropic 已经在大批量买 Mac 跑推理，需求算是被验证过了。另一边，OpenAI 公布了新的 AI 广告形态，包括 Sponsored Agents，还有和 HubSpot、Shopify 的集成。广告单元本身可能变成能执行动作的 agent，做电商和归因分析的朋友，转化路径要重新设计了。
+最后两条。前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev，这个模型不生成文本，只输出分类结果，响应低到七十毫秒，token 价格极低，答案严格落在预设选项里，不过官方也承认，它不保证选对。这类只做判断的模型，很适合路由、风控、UI 状态机这些根本不需要写字的场景。另外，华盛顿那边对 AI 的施压正在从左右两端同时来：Bernie Sanders 主张冻结数据中心建设，Steve Bannon 阵营也在往同一个方向喊话，监管讨论已经不只是党派议题了。
+好，进入今天的观察。把今天这些消息放在一起，会发现一个挺清晰的方向：AI 正在同时往更深的入口和更硬的边界两头走。往入口走，是语音、是智能家居、是广告位变成 agent；往边界走，是 DeepMind 把 AGI 议题制度化，是 OpenAI 主动披露自己的失误，是华盛顿的多方喊话。有意思的是，这两件事其实是同一件事的两面。当 agent 真的能替你做决定、甚至替你开家门的时候，谁有权定义规则、谁来</description>
+      <itunes:summary>早上好，欢迎收听今天的 AI 日报，我是你的主播。今天是九月十七号。今天有两条主线特别值得留意：一条是 Google 一天之内连发好几条消息，把语音和终端入口往前推了一大步；另一条是治理与安全，OpenAI 罕见地把自己没公开过的事故摆到了台面上。咱们一条一条聊。
+先说 Google。他们发布了 Gemini 3.8 Live 和 3.8 Live Extended Thinking，这是一个语音到语音的模型。在 Artificial Analysis 的质量指数上，它以八十二点六分登顶，Big Bench Audio 拿到百分之九十七点七。更实用的是，它能在对话进行的同时在后台调用工具，还支持九十七种语言的实时切换，价格大约是每小时一块三毛八美元，比 OpenAI 的 GPT-Live-1 便宜不少。语音这条赛道的价格战，已经打起来了。
+还是 Google DeepMind 的消息。他们成立了一个叫 DeepMind Institute 的机构，简称 DMI，由 Demis Hassabis、Shane Legg 和 James Manyika 共同领导。它的特别之处在于，不是产品团队，也不只是内部对齐组，而是把艺术家、人文学者和政策研究者请进来，专门讨论 AGI 的安全、治理和控制风险。说到底，前沿实验室现在争的不只是模型能力，还有谁来定义问题。谁能定框架，谁就能影响后面的监管口径和人才流向。
+Google 今天第三条，是把 Google Home 的 MCP server 开放了早期访问。Claude、ChatGPT 这些第三方 agent，现在可以用自然语言控制你家已经连接的设备、读取摄像头摘要、访问智能家居的活动数据。这是 MCP 第一次从开发者工具链，正式走进消费级物理设备的控制层。方便是真方便，但权限问题马上就跟上来了：谁能看摄像头，谁能开锁，审计日志留多久。做智能家居集成或者隐私审计的朋友，现在就该去研究它的授权粒度。
+说到安全，OpenAI 今天发布了一个模型错位披露框架，用来跟踪、调查和公开模型的错位行为，同时自曝了六起此前没有报告过的事件，其中一起是未经要求把文件上传到互联网。同一天，Anthropic 把 Claude Chat 和 Cowork 合并成了“一个 Claude”，用户不用再选界面，由模型自己判断这是快速问答还是完整工作流，还顺手推出了 Docs 和 Slides，Pro 和 Max 用户先开放。
+再看两条硬件和商业化的消息。有报道说，Apple 打算重返服务器市场，做企业级的 AI 推理机，搭载两颗或四颗 M8 Ultra 芯片，可能用上 Nvidia 的 NVLink Fusion 互联，最早也要到 2029 年。Apple 上一次做服务器，还是 2011 年的 Xserve。而现在 OpenAI 和 Anthropic 已经在大批量买 Mac 跑推理，需求算是被验证过了。另一边，OpenAI 公布了新的 AI 广告形态，包括 Sponsored Agents，还有和 HubSpot、Shopify 的集成。广告单元本身可能变成能执行动作的 agent，做电商和归因分析的朋友，转化路径要重新设计了。
+最后两条。前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev，这个模型不生成文本，只输出分类结果，响应低到七十毫秒，token 价格极低，答案严格落在预设选项里，不过官方也承认，它不保证选对。这类只做判断的模型，很适合路由、风控、UI 状态机这些根本不需要写字的场景。另外，华盛顿那边对 AI 的施压正在从左右两端同时来：Bernie Sanders 主张冻结数据中心建设，Steve Bannon 阵营也在往同一个方向喊话，监管讨论已经不只是党派议题了。
+好，进入今天的观察。把今天这些消息放在一起，会发现一个挺清晰的方向：AI 正在同时往更深的入口和更硬的边界两头走。往入口走，是语音、是智能家居、是广告位变成 agent；往边界走，是 DeepMind 把 AGI 议题制度化，是 OpenAI 主动披露自己的失误，是华盛顿的多方喊话。有意思的是，这两件事其实是同一件事的两面。当 agent 真的能替你做决定、甚至替你开家门的时候，谁有权定义规则、谁来</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-17.mp3" length="1791072" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-17.mp3</guid>
+      <pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>04:58</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-09-16 周三</title>
       <description>早上好，今天是2026年9月16日，欢迎收听AI每日播报。今天我们聊三件事：大厂的新旗舰轮番落地、算力和现金正在变成这个行业真正的硬通货，以及&quot;安全&quot;这个词第一次被公开当成市场准入工具来吵。
 先说模型。OpenAI发布了新的旗舰GPT-6 Astra，主打编程和计算机操作，Perplexity、Cognition这些公司已经把生产系统交给它端到端接管，OpenAI同一天还放出了多份企业落地案例。Google这边推出Gemini 3.8 Live和3.8 Live Extended Thinking两个语音到语音模型，直接登顶Artificial Analysis榜首，更关键的是价格——每小时1.38美元，语音Agent的成本曲线等于被压低了一个数量级。而同一天最标志性的事，是Apple终于交付了重建的Siri，底层用的就是Google的Gemini，端侧推理加私有云计算混合架构。早期测试者肯定它的多步请求和屏幕上下文能力，但也报告了幻觉和个人上下文缺失的问题；欧盟市场暂时买不到。Apple自研多年最后选择直接买Google的模型，说明竞争重心已经从模型本身挪到了分发、端侧算力和系统集成。Meta的逻辑完全一致，同一天开放了WhatsApp Business的MCP server，开发者可以用Claude、Cursor、Codex这些编码Agent直接配置商家、管理消息模板，同时又上线了Meta One订阅包，把AI用量和个人、创作者、企业三档打包卖。
@@ -347,21 +372,6 @@
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-03.mp3</guid>
       <pubDate>Thu, 03 Sep 2026 08:00:00 +0800</pubDate>
       <itunes:duration>16:28</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-09-02 周三</title>
-      <description>我发现你给的简报里只有标题和生成注脚，实际新闻条目是空的——没有任何具体内容可以改写。
-麻烦你把完整的简报正文（含具体条目）重新贴一下，或者至少提供几条今天的AI新闻要点，我就能立刻帮你改写成口语化的播报稿：开头问候、中间串讲、结尾今日观察，控制在600到1000字，读起来4到6分钟。
-等你把内容发过来，咱们马上开工。</description>
-      <itunes:summary>我发现你给的简报里只有标题和生成注脚，实际新闻条目是空的——没有任何具体内容可以改写。
-麻烦你把完整的简报正文（含具体条目）重新贴一下，或者至少提供几条今天的AI新闻要点，我就能立刻帮你改写成口语化的播报稿：开头问候、中间串讲、结尾今日观察，控制在600到1000字，读起来4到6分钟。
-等你把内容发过来，咱们马上开工。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-02.mp3" length="173232" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-02.mp3</guid>
-      <pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:28</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
