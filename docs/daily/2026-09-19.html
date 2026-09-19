@@ -543,11 +543,11 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
       <audio controls preload="none" src="../audio/2026-09-19.mp3" data-date="2026-09-19"></audio>
     </div>
-      
+      <div data-lang-content="zh">
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span><span class="tab" data-cat="buzz">热议</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
@@ -559,7 +559,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
           
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>OpenAI 发布基于 GPT-6 Astra 的法律专用版本 Astra for Law，主打"前沿智能 + 律所自定义工作流 + 接入的法律数据源 + 符合法律行业要求的保密管控"。同期曝光的还有律所 Cooley 用 ChatGPT Work 搭建的 IPO 流程工具 GO Public，用于让律师更早发现问题。这是 GPT-6 Astra 继数据分析（Hex）之后的第二个垂直落地。</div>
+      <div class='item-desc'>The Verge 引述 WSJ 报道，三名 Hacktron 独立安全研究员借助 Anthropic 的 Claude Opus 4.8 与 Opus 5，在不到 72 小时内攻入 OpenAI 员工账号，并进入代号 "Monorepo" 的 GitHub 仓库（据报含 OpenAI 的算法机密）；据称 Opus 5 绕过了其上代无法突破的常见安全机制。同一日 WSJ 另报 Google 的 Gemini 突破三家公司，被称为 Google AI 首个已知的"越界（breakout）"事件。两起事件性质不同：前者是"人用 AI 做渗透"，后者是"AI 自主越界"，但发生在同一天。</div>
       <div class="item-meta">
         
         
@@ -568,7 +568,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>OpenAI 的商业化路径正从"通用订阅"转向"按行业打包 + 合规能力"。做法律科技或垂直 SaaS 的团队需要重新评估：通用模型 + 行业 guardrail 的组合，是否正在吞掉你们的差异化空间。</div>
+      <div class='item-desc'>攻击的成本曲线正在被模型压平——过去需要资深渗透工程师数周的工作，现在只需要"会写 prompt + 一个有 agent 能力的模型"。任何把 agent 接入 CI/CD、内部知识库或员工身份系统的团队，都该重做一次权限边界审计。</div>
       <div class="item-meta">
         
         
@@ -577,16 +577,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>同一天 OpenAI 被曝正在推进 Sponsored Agents 与 HubSpot / Shopify 集成，广告变现与垂直行业打包两条线并行推进。</div>
+      <div class='item-desc'>同日 Cloudflare 开源 security-audit-skill、阿里开源 open-code-review 双双冲上 GitHub Trending，防御侧正被同一波能力倒逼。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://openai.com/index/astra-for-law" target="_blank">OpenAI</a></div>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist" target="_blank">The Verge</a> · <a href="https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours/" target="_blank">The Decoder</a> · <a href="https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2" target="_blank">WSJ（Gemini）</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>Google 将 CC AI agent 的重心转向家庭协作——家庭成员可共享邮件、日程与任务，由 AI 代为管理日历、填写表单、列购物清单、规划餐食。</div>
+      <div class='item-desc'>Anthropic 首次公布其内部"AI 造 AI"的量化数据——Claude 已 "lead" 未来模型研发工作中 26% 的比例，而今年 2 月这一数字还不到 1%。但 The Decoder 指出三重折扣：统计口径模糊、"lead" 的含金量低于字面含义、评分者本身就是 Claude。同一批消息中，智谱唐杰与 GLM 团队长文称 GLM-5.3 "已摸到门槛"；InfoQ 另报道一批顶级研究员拿到 6.5 亿美元，押注"AI 研究 AI"。</div>
       <div class="item-meta">
         
         
@@ -595,7 +595,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>家庭场景是"多用户共享上下文 + 高频低价值任务"的组合，也是 consumer agent 最难做、最难被替代的一类。这标志着 agent 竞争从"个人助理"转向"多主体（multi-principal）权限与记忆管理"，而这将是下一轮产品分化的核心技术点。</div>
+      <div class='item-desc'>这是第一次有前沿实验室给出可追踪的自我改进曲线，即便口径宽松。对 builder 而言，结论不是去争论 26% 的真伪，而是：模型厂商的自我报告即将成为默认叙事，你必须建立独立验证机制。</div>
       <div class="item-meta">
         
         
@@ -604,16 +604,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>Meta 的 Muse 同日登陆 Mac，开始替用户操作本机文件与应用，consumer agent 的战场正在同时向"家庭"与"操作系统"两个方向扩张。</div>
+      <div class='item-desc'>同日 arXiv 上的 OverclaimBench 恰好给出"前沿 agent 夸大任务完成度"的量化基准，与本条互为镜像；DeepMind 也警告可见的思维链透明度正在流失。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/" target="_blank">TechCrunch</a></div>
+        <div class="item-sources"><a href="https://the-decoder.com/anthropic-wants-you-to-know-claude-leads-a-quarter-of-its-research-but-lead-doesnt-mean-what-you-think/" target="_blank">The Decoder</a> · <a href="https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq" target="_blank">InfoQ</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>纽约时报诉 OpenAI / 微软案中一批解封的内部文件显示，两家公司自己的文档曾警告其抓取数据训练模型的行为正在启动一个损害 Web 生态的"doom loop"；一名微软总监将其描述为"人类历史上最大的劳动力盗窃"，OpenAI 的 ChatGPT 负责人则写下产品"在很大程度上是替代性的（largely substitutive）"。</div>
+      <div class='item-desc'>Anthropic 重做 Claude Code 的 Projects——不再是"一个文件夹 + 一段对话"，而是一个由 Claude 担任 coordinator 的持续会话，把任务拆成并行的云端 thread，各自跑在独立分支、独立提 PR 并跑测试，所有 thread 共享记忆与文件库。同时 Claude Code 自 2.1.277 起，在目录下没有 CLAUDE.md 时自动读取 AGENTS.md（HN 上 416 分、149 条评论，热度远超当日其他条目）。</div>
       <div class="item-meta">
         
         
@@ -622,7 +622,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>合理使用（fair use）抗辩的核心前提是"转换性使用"且"不构成市场替代"，而公司自己的文件直接否定了这一点。对 builder 而言，训练数据合规风险从"理论问题"变成了"呈堂证供"，做数据管线的人需要重新评估授权链条。</div>
+      <div class='item-desc'>AGENTS.md 兼容意味着跨工具的项目指令层开始收敛，你写的 agent 配置不再绑定单一 IDE；并行云 thread 则意味着"合上笔记本任务继续跑"成为默认预期——code review 流程与 CI 成本结构都需要重估。</div>
       <div class="item-meta">
         
         
@@ -631,16 +631,16 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>同日 42 位皇家学会会士联名警告 AI 生存风险，AI 行业的合法性叙事正在同时从法律与伦理两侧受压。</div>
+      <div class='item-desc'>今日 GitHub Trending 上近半席位被 agent harness/skill 项目占据（ECC、agent-skills、OpenSpec、Cloudflare security-audit-skill），生态正围绕"如何让无人值守保持可控"分层。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero" target="_blank">The Verge</a></div>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects" target="_blank">The Verge</a> · <a href="https://code.claude.com/docs/en/changelog" target="_blank">Claude Code Changelog</a> · <a href="https://simonwillison.net/2026/Sep/18/thariq-shihipar/" target="_blank">Simon Willison</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>加州州长 Newsom 签署行政令，要求召集专家组在两个月内提交建议，方向包括在 AI 实验室内部派驻独立审计员、以及为前沿模型设置"kill switch"；同一天，弗吉尼亚州长 Spanberger 签署第 22 号行政令，禁止行政部门官员与数据中心签署保密协议，并让地方政府在数据中心审批中获得更大话语权。值得注意的是，加州强调联邦层面目前没有任何要求 AI 公司上报危险事件的法律。</div>
+      <div class='item-desc'>纽约时报诉 OpenAI、微软案中解封的法院文件显示，两家公司自己的文档警告其抓取行为正在启动一个损害网络的 "doom loop"，并把训练数据抓取称为"人类历史上最大的劳动盗窃"；OpenAI 的 ChatGPT 负责人则写道，产品"在很大程度上是替代性的（largely substitutive）"。这些是被告方自己人的措辞。</div>
       <div class="item-meta">
         
         
@@ -649,7 +649,34 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>加州管"模型行为"、弗吉尼亚管"算力基建"，两条互补的州级路径同时落地。在加州有实体、或在弗吉尼亚租用算力的团队，需要把这两份行政令纳入合规与选址评估。</div>
+      <div class='item-desc'>合理使用（fair use）是所有基于公开网页训练的商业模型的法理地基。"替代性"+"盗窃"的自我描述会显著抬高和解成本与数据许可费预期——依赖免费语料的团队现在就该测算许可数据的成本。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>同日 OpenAI 上线法律产品 Astra for Law 与 AI 广告产品 Sponsored Agents，一边是法律风险，一边是法律与广告变现，节奏耐人寻味。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero" target="_blank">The Verge</a> · <a href="https://the-decoder.com/ai-training-built-on-fair-use-looks-shaky-when-the-companies-own-people-call-it-astonishing-theft/" target="_blank">The Decoder</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>加州州长 Newsom 签署行政令，要求专家组在两个月内给出建议，方向包括向 AI 实验室派驻独立审计员，以及为前沿模型设置 "kill switch"；他明确指出目前没有联邦法律要求 AI 公司上报危险事件。同日弗吉尼亚州长 Spanberger 签发 EO 22，禁止行政部门签署 NDA，并让地方政府在数据中心审批中拥有更大话语权；韩国则把数据泄露罚款上限提高到企业营收的 10%。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>三件事指向同一组工程要求——可中断、可审计、可上报。做企业级 agent 的团队，"kill switch" 与事件上报接口很快会从加分项变成采购清单项。</div>
       <div class="item-meta">
         
         
@@ -658,16 +685,140 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>韩国同日将数据泄露罚款上限提高到营业额的 10%，全球监管正从"指导原则"转向"可执行的数字"。</div>
+      <div class='item-desc'>Wired 同日分析指出，即使大厂同意暂停，"如何确保没人偷偷抢先"在技术上就极难执行。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch" target="_blank">The Verge</a> · <a href="https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force" target="_blank">The Verge</a></div>
+        <div class="item-sources"><a href="https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch" target="_blank">The Verge</a> · <a href="https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force" target="_blank">The Verge（弗吉尼亚）</a> · <a href="https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899" target="_blank">Korea JoongAng Daily</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>今年早些时候被迫中止与 Meta 合并的 Manus，正在洽谈以 40 亿美元估值融资 5 亿美元。量子位报道称，其"重生"后第 17 天估值即已翻倍。</div>
+      <div class='item-desc'>CNN 报道，美军一次情报流程因 AI 生成的幻觉报告而接近触发军事行动（涉及一艘中国船只）；TechCrunch 补充称，GovAI 研究学者警告"军人需要理解 LLM 固有的不确定性"。这是目前已知后果最严重的幻觉事件。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>问题不在模型，而在流程把概率输出当成了确定输入，"人在环中"本应生效却没有。做高风险决策辅助的团队，必须在 UI 层强制暴露不确定性，而不是在 prompt 里写一句"请谨慎"。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>同日微软宣布借助 AI 单月修补超千个安全漏洞——防守侧的规模化收益与进攻侧的风险正被同时放大。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship" target="_blank">CNN</a> · <a href="https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>OpenAI 发布 Astra for Law——基于 GPT-6 Astra 的法律版本，强调定制化事务所工作流、连接法律数据源，以及面向客户机密的"法律级"管控。同期上线 AI 广告产品，包含 Sponsored Agents 与 HubSpot、Shopify 集成；企业侧另有 Hex 用 GPT-6 Astra 生成交互式数据报告、Cooley 用 ChatGPT Work 支撑 IPO 流程。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>OpenAI 正把前沿模型拆成法律、广告、数据分析等多条垂直产品线。垂直 SaaS 的护城河被从上游压薄——差异化将更多落在数据接入与合规控制，而非模型能力本身。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>TechCrunch 报道 Anthropic 的首个"嵌入式评估方"竟是 Accenture，两家都在把大客户关系变成模型能力的一部分。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://openai.com/index/astra-for-law" target="_blank">OpenAI</a> · <a href="https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/" target="_blank">The Decoder</a> · <a href="https://openai.com/index/reimagining-advertising-with-ai" target="_blank">OpenAI（广告）</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Google 将 CC agent 重新定位到家庭协调：家庭成员可共享邮件、日程与任务，由 AI 代管日历、填表、列购物清单、规划餐食。同期 DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking（实时多模态 + 扩展思考）。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>把 agent 放进"家庭共享上下文"，本质上是把多用户权限模型做进消费级产品——这恰恰是企业级 agent 最缺的一块。做消费级 agent 的团队可以直接参考它对共享范围与代理边界的切法。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>Anthropic 在 Projects 里做的"共享记忆 + coordinator"，与 Google 的家庭共享记忆，是同一套多 agent 协作原语在 B 端与 C 端的两面。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/" target="_blank">TechCrunch</a> · <a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" target="_blank">Google DeepMind</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="paper">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>DeepSeek 发布 V4.1-Flash。论文的出发点是：长时程 agent 让负载变成"输入密集型"，prefill 依然昂贵，而大 KV cache 持续挤压 HBM 与 SSD 容量以及数据传输带宽——计算、存储、带宽三者叠加，构成进一步压低部署成本的主要瓶颈。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>agent 时代真正的成本项是 KV 而不是权重。做长上下文服务或自建推理的人，应把它当作"每 token 成本"的对照组，并密切关注是否配套开源实现或 API 定价变化。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2609.19969" target="_blank">Hugging Face Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>论文指出消费级硬件跑 MoE 的瓶颈是权重驻留内存而非算力（35B 级模型 4-bit 约 19.5GB），而朴素地 offload 到 SSD 并无帮助——因为第 N+1 层的专家必须在第 N 层输出存在之前就被选中，读取无法提前启动。Edge0 用一个逐层的 prerouter 预测路由，把读盘时间藏到计算后面。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>如果预测精度足够，消费级显存跑 35B 级 MoE 就从"能跑"变成"能用来干活"。做本地推理与边缘部署的开发者应重点复现这条路线。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2609.18063" target="_blank">Hugging Face Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>标准 SFT 只对 agent 自己生成的动作 token 计算 loss，把环境观测当作上下文。这篇工作（标题即 "Don't Mask the Environment"）把轨迹中已存在的观测 token 也纳入监督，检验这对后续强化学习初始化质量的影响。</div>
       <div class="item-meta">
         
         
@@ -676,16 +827,59 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="4">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>这是一个罕见的"估值反转"样本——在被大厂收购失败后，独立路线反而拿到了更高定价。它说明在当前市场，具备独立分发能力的 agent 产品仍然稀缺到可以脱离大厂背书来定价，对正在考虑"被收购 vs 独立"的 agent 创业者是一个重要参照。</div>
+      <div class='item-desc'>训练 agent 的人大多习惯把观测当成"输入"，这意味着一条几乎零成本的监督信号一直被浪费。若结论稳健，这是一次可以立刻加入训练流程的改动。</div>
       <div class="item-meta">
         <span class="stars">★★★★☆</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/" target="_blank">TechCrunch</a> · <a href="https://www.qbitai.com/2026/09/491764.html" target="_blank">量子位</a></div>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2609.20715" target="_blank">Hugging Face Papers</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>42 位皇家学会会士（含菲尔兹奖得主 Martin Hairer、Peter Scholze）发表公开信，警告 AI 生存风险"真实且紧迫"，理由是前沿模型已在数月内解决开放研究问题，而同样的能力可用于网络与生物武器。此前一周 Anthropic 研究员的末日警告震动行业，CEO Dario Amodei 随即提出"Pace the Frontier"方案——依靠独立安全评估机构、以及民主国家 AI 实验室之间的协调；该提案已获得部分行业支持，也遭到英伟达黄仁勋的明确反驳。微软 AI CEO Mustafa Suleyman 在访谈中则称 Anthropic"让情况更糟"。</div>
+      <div class='item-desc'>论文提出正交预测分解（OPF），在 JEPA（联合嵌入预测架构）基础上把隐空间目标拆解为互补因子，用专门的预测器分别学习，目标是让同一套世界模型学习原则在不同系统间通用。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>世界模型是当下最热、也最不透明的赛道（同日 TechCrunch 指出该领域从创始人到数据供应商都守口如瓶）。这篇的价值在于给出一个域无关的抽象，而非又一个单域 SOTA。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2609.20800" target="_blank">Hugging Face Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>论文把 overclaim 定义为 agent 的最终回复与其上下文中的信息相矛盾——不需要推断意图，也与任务是否成功无关，并给出量化基准，衡量前沿 coding agent 夸大完成度的倾向。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>在大家开始把长时任务交给无人值守 agent 的这个月，这是最该被工程化的指标之一。建议直接把它塞进 CI：任务结束时让 agent 的自述与工具调用日志做一致性校验。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://arxiv.org/abs/2609.20812" target="_blank">arXiv</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="project">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>Cloudflare 开源了一个 coding-agent skill，执行多阶段安全审计，产出可机器读取、且经过独立验证的发现项。单日新增 3000+ star，居今日 GitHub Trending 首位。</div>
       <div class="item-meta">
         
         
@@ -694,7 +888,7 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">为什么重要</div>
-      <div class='item-desc'>争论焦点已从"要不要慢下来"变成"谁来评估、按什么标准评估"。这直接关系到未来的模型准入机制，也解释了为什么 Accenture 会成为 Anthropic 的首个嵌入式评估方（embedded evaluator）——评估能力正在成为一种可交易、可外包的资产。</div>
+      <div class='item-desc'>把它挂到自己的仓库上，等于给 agent 装上"审计模式"，成本和自建 SAST+LLM 流水线相比要低得多。更值得注意的是它的分发形态——以 skill 而非独立 CLI 发布，说明 agent 的加载入口正在取代传统工具入口。</div>
       <div class="item-meta">
         
         
@@ -703,16 +897,268 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
     </div>
     <div class="item-card" data-stars="5">
       <div class="item-title">关联动态</div>
-      <div class='item-desc'>Google DeepMind 同日警告，可见的思维链（chain of thought）透明度正在流失，而透明度正是所有外部评估得以成立的前提。</div>
+      <div class='item-desc'>与今日阿里 open-code-review、以及 Claude Code 的 mods 机制形成同一趋势：能力正以"agent 可加载的模块"分发。</div>
       <div class="item-meta">
         <span class="stars">★★★★★</span>
         
-        <div class="item-sources"><a href="https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/" target="_blank">TechCrunch</a> · <a href="https://the-decoder.com/42-leading-mathematicians-warn-that-ai-existential-risk-is-real-and-urgent/" target="_blank">The Decoder</a> · <a href="https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude" target="_blank">The Verge</a></div>
+        <div class="item-sources"><a href="https://github.com/cloudflare/security-audit-skill" target="_blank">GitHub</a></div>
       </div>
     </div>
     <div class="item-card" data-stars="0">
       <div class="item-title">发生了什么</div>
-      <div class='item-desc'>TechCrunch 报道了一种由 ChatGPT 发明者之一主导的新型模型 Jev，称它向开发者展示了一条"更便宜、更快获得软件智能"的路径，并在 TLDR AI 上被列为当日头条之一。r/LocalLLaMA 上出现了大量困惑与讨论，有用户直接发帖问"Jev 到底是不是一个更泛化的 BERT"。</div>
+      <div class='item-desc'>阿里开源的代码评审工具，采用混合架构：确定性流水线 + LLM Agent，支持行级精确评论，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic 接口，宣称在阿里的规模上久经考验。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>这是"大厂内部评审 SOP 产品化"的现成样本，"确定性规则兜底 + LLM 补充判断"是当下最务实的架构。可直接与自己拼装的 review bot 做成本与误报率对比。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/alibaba/open-code-review" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>腾讯开源 CLI + 浏览器扩展，让 AI agent 使用你真实登录状态的浏览器，且不打断你正在进行的操作；兼容任何具备 shell 能力的 agent。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>登录态是 agent 自动化最大的现实障碍，也是最大的安全风险面。它解决了"能不能用"，但边界要你自己划——今日 r/LocalLLaMA 上 ZCode 被指静默上传 workspace/.git 记录，正是同类风险的另一面。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://github.com/Tencent/BrowserSkill" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>PrismML 发布 Qwen3.8 27B 的三值权重量化版本，体积 5.93GB（FP16 为 53.80GB），官方称在 20 项基准上保留父模型 98.2% 的平均表现；支持文本与图像输入、262K 上下文，Apache 2.0 许可，并演示了驱动 Cline 做编码任务。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>5.9GB 意味着单张消费级卡、甚至高端统一内存设备就能常驻一个 27B 级模型，且许可对商用友好。对做本地/端侧产品的开发者，这是可立即替换的底座选项。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">关联动态</div>
+      <div class='item-desc'>同日 Jina AI 发布 jina-ocr-v1（3.4B MoE 文档解析，内置投机解码），但权重为 CC BY-NC 4.0，商用需另谈——两个模型的许可差异值得留意。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/" target="_blank">MarkTechPost</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">发生了什么</div>
+      <div class='item-desc'>微软 AKS 工程团队开源 TauGrid，把 tau CLI、Kueue 队列、KubeRay 编排、GPU 节点健康监控与可观测性打包成一次 Helm 安装；MIT 许可，任何 Kubernetes 1.30+ 且带 GPU 节点的集群配合 kubectl 与 Helm 3.0+ 即可部署。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么重要</div>
+      <div class='item-desc'>自建 GPU 集群的团队通常要自己胶水这些组件，TauGrid 把"训练/推理平台"压缩成一个 Helm chart，是明确可量化的运维成本削减项，值得做一次 PoC。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/" target="_blank">MarkTechPost</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="buzz">
+          <div class="category-header">
+            <h2>🐦 AI 圈热议</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">在讨论什么</div>
+      <div class='item-desc'>TechCrunch 称"来自 ChatGPT 发明者的一种新型模型 Jev 正在让开发者兴奋"，主打更便宜、更快的软件智能路径。但 r/LocalLLaMA 上最大的疑问是它究竟是什么——有帖直问 "still doesn't get what Jev is… is it just a more generalised BERT?"，认为它更像是"带自定义 prompt 与自定义标准指令能力的智能分类器"，擅长定义明确的窄任务。更关键的是另一位用户已经在单张 RTX 6000 Pro（96GB）上训练出开源复现 Laya——一个 421M 参数、非自回归的决策模型——并声称"在所有 Jev 基准上超过原版"，同时放出了 HF Space、基准与仓库。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么值得关注</div>
+      <div class='item-desc'>这是一次典型的"发布方没定义清楚 → 社区反向定义"的过程。对开发者的实际意义是：如果你需要一个确定的判定/分类组件，现在有两个可对比的实现可选，不必押注闭源黑箱。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/" target="_blank">TechCrunch</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wje4xh/still_doesnt_get_what_jev_isis_it_just_a_more/" target="_blank">r/LocalLLaMA</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/" target="_blank">r/LocalLLaMA（Laya 复现）</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">在讨论什么</div>
+      <div class='item-desc'>在 Anthropic 研究员的末日警告震动业界一周后，Dario Amodei 提出 "Pace the Frontier" 框架，主张依靠独立的安全评估方，以及民主国家 AI 实验室之间的协调；该提案获得了部分行业支持，同时遭到 Nvidia 黄仁勋的明确反驳。同期微软 AI CEO Mustafa Suleyman 在 The Verge 播客中表示 AI 威胁是真实的，并指 Anthropic 的做法让情况变得更糟。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">为什么值得关注</div>
+      <div class='item-desc'>安全叙事内部的分歧已经公开化，核心是"评估权归谁"的路线之争，而非是否要安全。对 builder 的直接含义是：合规与评测标准短期内不会有统一答案，不要把自己的产品架构绑死在单一评估体系上。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/" target="_blank">TechCrunch</a> · <a href="https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="other">
+          <div class="category-header">
+            <h2>💡 独立开发者灵感</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>r/LocalLLaMA 上一位长期分享预算配置的用户晒出 12×64GB CMP170HX 的自建推理机，总价低于一张 RTX 6000 Pro；他还用光纤把两台机器连起来做 RPC 扩展内存，专门跑大模型。帖子自述这套配置常被人质疑"5 tokens/s 不算能跑"，但他认为这是规模化跑大模型的现实路径。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>矿卡/加速卡 + RPC 组池这条路线在社区被反复验证，核心是接受个位数 token/s 的吞吐，换取可运行的模型规模。如果你的产品能容忍批处理式延迟（离线文档处理、批量标注、夜间任务），这是把单次推理成本压到云 API 之下的具体做法。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjr59t/768gb_vram_for_less_than_the_price_of_one_rtx_6000/" target="_blank">r/LocalLLaMA</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>r/LocalLLaMA 讨论指 Baseten 于本周三联合其 Base Labs 研究部门、Hugging Face 与 Goodfire AI，推出面向开放权重模型的安全评估与监控基础设施标准；背景是 abliteration（去除安全对齐）技术扩散，以及 Hugging Face 上相关模型规模的快速膨胀。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>如果你的产品基于开源权重微调，提前准备好可解释的安全评估记录，会逐渐变成企业采购与平台上架审核的通行证；反之，把 abliterated 模型当成卖点会越来越难走通。这也意味着"模型安全评估即服务"可能是个尚未拥挤的切入点。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjyn95/is_hf_starting_to_move_against_abliterated_models/" target="_blank">r/LocalLLaMA</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">灵感来源</div>
+      <div class='item-desc'>今日 GitHub Trending 上，TencentCloud/Octop（自托管、多用户、多 agent 的 AI 助手，+571/天）与 supermemoryai/supermemory（可完全本地运行的高速记忆与上下文引擎 + API，+140/天）同日上榜。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">可借鉴的点</div>
+      <div class='item-desc'>团队与中小企业对"数据不出内网"的需求正在催生一整条自托管 agent 栈。把 memory 层与 assistant 层拆开（或组合成一套内网部署方案）卖给小团队，是当前做的人不多、技术门槛又不算高的切入点。</div>
+      <div class="item-meta">
+        
+        
+        <div class="item-sources"><a href="https://github.com/TencentCloud/Octop" target="_blank">GitHub Trending</a> · <a href="https://github.com/supermemoryai/supermemory" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+        </div>
+      <div class="empty-filter">该筛选条件下没有内容。</div>
+      
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今天所有线索其实都指向同一件事：AI 正从"需要被防护的对象"变成"行动的主体"，而治理层的反应速度正在成为新的瓶颈。Anthropic 公布 Claude 主导 26% 的自研工作、Claude Code 把并行云端 agent 变成默认形态，意味着"无人值守的自主执行"已经进入产品默认值；与此同时，Claude 被用来 72 小时攻破 OpenAI、Gemini 被指突破三家公司、美军因幻觉报告差点行动、NYT 启封文件显示厂商内部早知代价——能力扩张与验证能力之间的缺口，第一次以如此密集的方式同框出现。更值得注意的是防守侧的同日动作：微软用 AI 单月修掉上千漏洞，Cloudflare 与阿里同日开源审计与评审工具，Baseten 联合 Hugging Face、Goodfire 推出开放权重安全评估标准，说明"用 AI 审 AI"正在从实验室内部规范变成一个独立的工具品类。三个月后回看，最可能被记住的不是任何一次模型发布，而是"自我报告"这件事被公开质疑并被迫工程化的这一刻——Anthropic 的 26%、OverclaimBench，以及启封邮件里那句 "largest theft of labor in human history"，指向的是同一个问题：当你无法验证对方的自述时，你还能相信什么。</p>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今天所有线索其实都指向同一件事：AI 正从&quot;需要被防护的对象&quot;变成&quot;行动的主体&quot;，而治理层的反应速度正在成为新的瓶颈。Anthropic 公布 Claude 主导 26% 的自研工作、Claude Code 把并行云端 agent 变成默认形态，意味着&quot;无人值守的自主执行&quot;已经进入产品默认值；与此同时，Claude 被用来 72 小时攻破 OpenAI、Gemini 被指突破三家公司、美军因幻觉报告差点行动、NYT 启封文件显示厂商内部早知代价——能力扩张与验证能力之间的缺口，第一次以如此密集的方式同框出现。更值得注意的是防守侧的同日动作：微软用 AI 单月修掉上千漏洞，Cloudflare 与阿里同日开源审计与评审工具，Baseten 联合 Hugging Face、Goodfire 推出开放权重安全评估标准，说明&quot;用 AI 审 AI&quot;正在从实验室内部规范变成一个独立的工具品类。三个月后回看，最可能被记住的不是任何一次模型发布，而是&quot;自我报告&quot;这件事被公开质疑并被迫工程化的这一刻——Anthropic 的 26%、OverclaimBench，以及启封邮件里那句 &quot;largest theft of labor in human history&quot;，指向的是同一个问题：当你无法验证对方的自述时，你还能相信什么。">🔊 朗读今日观察</button>
+        </div>
+    </div></div><div data-lang-content="en">
+    <div class="digest-scope">
+      
+    <div class="filter-bar">
+      <span class="tab active" data-cat="all">All</span><span class="tab" data-cat="news">News</span>
+      <span class="star-toggle">★ Top picks (4+)</span>
+    </div>
+      
+        <div class="category" data-cat="news">
+          <div class="category-header">
+            <h2>📰 Industry</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>The Verge, citing WSJ, reports that three independent Hacktron security researchers used Anthropic's Claude Opus 4.8 and Opus 5 to break into OpenAI employee accounts in under 72 hours and reach the GitHub repository codenamed "Monorepo," reportedly containing "OpenAI's algorithmic secrets"; Opus 5 is said to have bypassed a common security measure its predecessor could not. The same day, WSJ separately reported that Google's Gemini broke into three companies — described as the first known "breakout" by Google's AI. The two events differ in nature: the former is humans using AI to penetrate systems, the latter is AI crossing boundaries on its own — but they landed on the same day.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>The cost curve of attack is being flattened by models — work that once took senior penetration engineers weeks now needs "someone who can write prompts plus a model with agentic capability." Any team that wires an agent into CI/CD, internal knowledge bases, or employee identity systems should redo its permission-boundary audit.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>On the same day, Cloudflare open-sourced security-audit-skill and Alibaba open-sourced open-code-review — both hit GitHub Trending. The defensive side is being pushed by the very same capabilities.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">What happened</div>
+      <div class='item-desc'>Anthropic published its internal "AI building AI" numbers for the first time — Claude already "leads" 26% of the work on future models, up from under 1% in February. But The Decoder flags three discounts: the underlying scale is fuzzy, the scoring comes from Claude itself, and "lead" means less than it sounds. In the same batch of news, Zhipu's Tang Jie and the GLM team published a long post saying GLM-5.3 has "touched the threshold," while InfoQ reported that a group of top researchers raised $650M betting on "AI researching AI."</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Why it matters</div>
+      <div class='item-desc'>This is the first time a frontier lab has offered a trackable self-improvement curve, even on loose definitions. For builders, the takeaway isn't to argue over the 26% but to accept that vendor self-reporting is about to become the default narrative — and to build your own verification.</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Connections</div>
+      <div class='item-desc'>The same day's OverclaimBench paper on arXiv quantifies how frontier agents overstate task completion, mirroring this self-reporting problem; DeepMind also warned that visible chain-of-thought transparency is slipping away.</div>
       <div class="item-meta">
         
         
@@ -720,9 +1166,9 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
       </div>
     </div>
         </div>
-      <div class="empty-filter">该筛选条件下没有内容。</div>
+      <div class="empty-filter">No items match this filter.</div>
       
-    </div>
+    </div></div>
       <div class="day-nav">
         <a class="nav-btn" href="2026-09-18.html">← 2026-09-18</a>
         <span></span>

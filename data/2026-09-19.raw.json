@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "generated_at": "2026-09-19T06:41:32.163128+08:00",
+  "generated_at": "2026-09-19T07:57:24.986402+08:00",
   "counts": {
     "papers": 41,
     "projects": 14,
@@ -707,10 +707,32 @@
     "news": [
       {
         "category": "news",
+        "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+        "url": "https://spectrum.ieee.org/llms-for-chip-design",
+        "normalized_url": "https://spectrum.ieee.org/llms-for-chip-design",
+        "summary": "HN points: 21, comments: 11",
+        "source": "Hacker News",
+        "published": "2026-09-18T23:04:17Z",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Gemini Hacked Three Companies in First Known Breakout by Google's AI",
+        "url": "https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2",
+        "normalized_url": "https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2",
+        "summary": "HN points: 15, comments: 9",
+        "source": "Hacker News",
+        "published": "2026-09-18T22:17:19Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
         "url": "https://code.claude.com/docs/en/changelog",
         "normalized_url": "https://code.claude.com/docs/en/changelog",
-        "summary": "HN points: 251, comments: 98",
+        "summary": "HN points: 416, comments: 149",
         "source": "Hacker News",
         "published": "2026-09-18T21:00:32Z",
         "importance_hint": 4,
@@ -721,7 +743,7 @@
         "title": "Korea raises data breach fines to 10% of revenue",
         "url": "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899",
         "normalized_url": "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899",
-        "summary": "HN points: 213, comments: 68",
+        "summary": "HN points: 251, comments: 77",
         "source": "Hacker News",
         "published": "2026-09-18T20:02:54Z",
         "importance_hint": 3,
@@ -729,10 +751,21 @@
       },
       {
         "category": "news",
+        "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
+        "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+        "normalized_url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+        "summary": "HN points: 12, comments: 2",
+        "source": "Hacker News",
+        "published": "2026-09-18T19:04:10Z",
+        "importance_hint": 4,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "The Implications of Linguistic Illegibility for LLM Security",
         "url": "https://arxiv.org/abs/2609.02852",
         "normalized_url": "https://arxiv.org/abs/2609.02852",
-        "summary": "HN points: 38, comments: 14",
+        "summary": "HN points: 44, comments: 17",
         "source": "Hacker News",
         "published": "2026-09-18T19:00:06Z",
         "importance_hint": 3,
@@ -743,7 +776,7 @@
         "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
         "url": "https://arxiv.org/abs/2510.03215",
         "normalized_url": "https://arxiv.org/abs/2510.03215",
-        "summary": "HN points: 52, comments: 11",
+        "summary": "HN points: 60, comments: 11",
         "source": "Hacker News",
         "published": "2026-09-18T18:55:35Z",
         "importance_hint": 3,
@@ -765,7 +798,7 @@
         "title": "Border agents can search cellphones without a warrant or reasonable suspicion",
         "url": "https://lawandcrime.com/high-profile/the-government-was-entitled-trumps-border-agents-can-now-search-cellphones-without-a-warrant-probable-cause-or-reasonable-suspicion-2nd-circuit-rules/",
         "normalized_url": "https://lawandcrime.com/high-profile/the-government-was-entitled-trumps-border-agents-can-now-search-cellphones-without-a-warrant-probable-cause-or-reasonable-suspicion-2nd-circuit-rules",
-        "summary": "HN points: 167, comments: 125",
+        "summary": "HN points: 179, comments: 144",
         "source": "Hacker News",
         "published": "2026-09-18T18:08:32Z",
         "importance_hint": 4,
@@ -776,7 +809,7 @@
         "title": "US Military had close call after using AI for hallucinated intelligence report",
         "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
         "normalized_url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-        "summary": "HN points: 336, comments: 266",
+        "summary": "HN points: 364, comments: 289",
         "source": "Hacker News",
         "published": "2026-09-18T17:28:01Z",
         "importance_hint": 3,
@@ -787,7 +820,7 @@
         "title": "There's no point at which turning your brain off will work",
         "url": "https://danluu.com/brain-off/",
         "normalized_url": "https://danluu.com/brain-off",
-        "summary": "HN points: 172, comments: 149",
+        "summary": "HN points: 173, comments: 150",
         "source": "Hacker News",
         "published": "2026-09-18T17:02:52Z",
         "importance_hint": 3,
@@ -798,7 +831,7 @@
         "title": "AI is an elite crime spree",
         "url": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
         "normalized_url": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
-        "summary": "HN points: 112, comments: 38",
+        "summary": "HN points: 113, comments: 38",
         "source": "Hacker News",
         "published": "2026-09-18T15:15:33Z",
         "importance_hint": 3,
@@ -809,7 +842,7 @@
         "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
         "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
         "normalized_url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged",
-        "summary": "HN points: 95, comments: 50",
+        "summary": "HN points: 100, comments: 51",
         "source": "Hacker News",
         "published": "2026-09-18T15:12:07Z",
         "importance_hint": 3,
@@ -835,39 +868,6 @@
         "source": "Hacker News",
         "published": "2026-09-18T15:04:54Z",
         "importance_hint": 4,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "AI Protest in Montreal",
-        "url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
-        "normalized_url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal",
-        "summary": "HN points: 51, comments: 83",
-        "source": "Hacker News",
-        "published": "2026-09-18T14:45:41Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Mathematicians Build Long-Awaited Graph Sandwich",
-        "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
-        "normalized_url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918",
-        "summary": "HN points: 63, comments: 15",
-        "source": "Hacker News",
-        "published": "2026-09-18T14:41:02Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "Drug Transparency Bill Stripped of Critical Provisions Ahead of Senate Vote",
-        "url": "https://www.propublica.org/article/clear-labels-act-drug-safety-senate-vote",
-        "normalized_url": "https://www.propublica.org/article/clear-labels-act-drug-safety-senate-vote",
-        "summary": "HN points: 11, comments: 2",
-        "source": "Hacker News",
-        "published": "2026-09-18T14:38:10Z",
-        "importance_hint": 3,
         "metadata": {}
       },
       {
@@ -1249,6 +1249,45 @@
       },
       {
         "category": "news",
+        "title": "A startup that builds other startups raised $100M, and is all-in on physical AI",
+        "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+        "normalized_url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai",
+        "summary": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-18T23:25:01+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic is operating a lab that conducts biology experiments",
+        "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+        "normalized_url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments",
+        "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-18T23:13:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI hallucination nearly triggers US military operation",
+        "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+        "normalized_url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation",
+        "summary": "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-18T23:12:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Anthropic’s first embedded evaluator is … Accenture?",
         "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
         "normalized_url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture",
@@ -1334,45 +1373,6 @@
         "source": "TechCrunch AI",
         "published": "2026-09-18T17:06:32+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
-        "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
-        "normalized_url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops",
-        "summary": "Manus, which earlier this year had to break off a merger with Meta, is in discussions to raise $500M at a $4B valuation.",
-        "source": "TechCrunch AI",
-        "published": "2026-09-18T16:35:49+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
-        "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
-        "normalized_url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026",
-        "summary": "Nvidia's Nader Khalil and Sydney Sykes discuss one of the decisions shaping next-gen startups on the Builders Stage at TechCrunch Disrupt 2026.",
-        "source": "TechCrunch AI",
-        "published": "2026-09-18T15:30:00+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
-        "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-        "normalized_url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer",
-        "summary": "Muse is now available on the Mac, where it can work with your files and apps to take action on your behalf.",
-        "source": "TechCrunch AI",
-        "published": "2026-09-18T15:22:48+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -2302,19 +2302,6 @@
       },
       {
         "category": "news",
-        "title": "Installing 6 GPUs in a standard case rather than using an open-frame chassis.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj9u19/installing_6_gpus_in_a_standard_case_rather_than/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj9u19/installing_6_gpus_in_a_standard_case_rather_than",
-        "summary": "CPU : epyc 7262 MB : ROMED8-2T GPU : V100 16GB PCIE x6 I have built a server with six V100 GPUs. I am now testing it and plan to eventually run Qwen3.8-Next-Flash configured with TP2 and PP3. Because open-frame or server-style cases are large and unattractive, I chose to install all six cards in a full-tower case. submitted by /u/Odd_Caterpillar_2994 [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-09-17T23:28:39+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
         "title": "US government website used AI search tool (Qwen) from China that FBI said copied Anthropic",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjmomv/us_government_website_used_ai_search_tool_qwen/",
         "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjmomv/us_government_website_used_ai_search_tool_qwen",
@@ -2341,13 +2328,26 @@
       },
       {
         "category": "news",
-        "title": "Ternary Bonsai is a headless chicken",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjgnok/ternary_bonsai_is_a_headless_chicken/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjgnok/ternary_bonsai_is_a_headless_chicken",
-        "summary": "Ternary Bonsai 2 27B Tried it out and was excited. Gave it a prompt \"create a 3d little planet globe where I (player can walk around) and it has all these biomes to explore, the globe doesn't have to be too big, but still fun to go around. It's about a boy scout who is camping and goes around exploring.\" And it has been looping thinking like a headless chicken saying the exact same thing for over 2 hours now. Really had my hopes up. EDIT: Some of you are saying the prompt is too vague, the setti",
+        "title": "Qwen 3.8 Next Flash appreciation post",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjio00/qwen_38_next_flash_appreciation_post/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjio00/qwen_38_next_flash_appreciation_post",
+        "summary": "I don't want to talk about the performance and technical things, but about how I work with my hobby projects has changed thanks to this model. My machine has generated around 25M tokens since the model came out, and I've done a mental retro on it. I've found it to have incredible prompt adherence. I can leave to run it by itself and get back to it, and find that it did exactly what I've asked it to. I've only ever seen it go astray once, where I've asked something that is too high level and fill",
         "source": "r/LocalLLaMA",
-        "published": "2026-09-18T04:50:15+00:00",
-        "importance_hint": 3,
+        "published": "2026-09-18T06:42:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Question: UkisAI Swift Ternary Bonsai 2 27B?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjocnh/question_ukisai_swift_ternary_bonsai_2_27b/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjocnh/question_ukisai_swift_ternary_bonsai_2_27b",
+        "summary": "Hey community, Jovan from UkisAI here, We're the team behind Swift Qwen3.8 27B, the Qwen model with token usage and overthinking error improvements Our estimate is that we can make a great improvement to Bonsai 2, as our testing indicates that it suffers greatly from overthinking loops and in general high token usage impacting it's performance. My ask for you is: Is a Swifted version of Bonsai 2 something you guys would enjoy? If yes, what size is the most relevant. 1-bit, 2-bit or both? Thank y",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-18T12:04:55+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
