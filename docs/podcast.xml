@@ -15,6 +15,55 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-09-20 周日</title>
+      <description>AI 每日简报，周日，2026-09-20。以下是今天的重点。
+行业新闻。
+发生了什么。《纽约时报》诉 OpenAI、微软一案新解封的法庭文件显示，两家公司自己的文档曾警告在给网络制造一个&quot;doom loop（末日循环）&quot;，一名微软总监把抓取训练数据描述为&quot;人类历史上最大规模的劳动盗窃&quot;，OpenAI 的 ChatGPT 负责人则写道这些产品&quot;在很大程度上是替代性的，就这样&quot;。这些是内部文件和宣誓证词，不是外部指控。
+为什么重要。合理使用（fair use）抗辩的核心是&quot;转换性使用&quot;，而当事人自己的表述是最难反驳的证据。依赖公开网络数据训练或微调的团队，应当假设授权成本会上升并向下游 API 价格传导；同时这也解释了为什么最近一轮内容授权交易节奏加快。
+关联动态。同一天的反垄断诉讼指控几家实验室就&quot;AI 减速&quot;达成非法协议，两案叠加正在把 AI 竞争问题整体推向司法轨道。
+发生了什么。一份新提起的反垄断诉讼称，几家头部实验室之间存在限制竞争的非法合谋，表现形式正是本周被反复讨论的&quot;AI 放缓&quot;协调机制。诉讼时点与 Dario Amodei 提出的三步减速方案、以及加州、弗吉尼亚州同日出台的行政令高度重合。
+为什么重要。如果法院接受&quot;安全协调 = 反竞争合谋&quot;的框架，那么未来任何跨实验室的评测共享、算力调度协议都会变成高风险动作。对创业公司而言，加入行业自律机制前需要先看清楚反垄断暴露面。
+关联动态。与 NYT 案一起，构成&quot;AI 治理正在从政策辩论转入法庭&quot;的同一条主线。
+发生了什么。Dream-RSI 让 AI Agent 对过去的搜索轨迹做&quot;梦境式&quot;重放，在不重跑昂贵计算的前提下测试新策略；测试中匹配或超过了已有结果，迭代次数最多减少 2.43 倍。关键在于只有搜索策略在自适应，底层模型完全不动。
+为什么重要。这是把测试时计算花在&quot;策略层&quot;而非&quot;模型层&quot;的典型做法，意味着你不需要重训模型就能提升 Agent 表现。任何在做 RAG、超参搜索、多轮工具调用的团队，都值得把这套思路移植到自己的搜索循环上。
+关联动态。与今天 HuggingFace 上的 Self-Evolving Search Index 论文思路一致——索引/策略本身成为可进化的对象。
+发生了什么。这是 Muse 首个能在用户电脑上&quot;完成任务&quot;的版本，可以访问本地文件、Messages、Calendar、Notes 等原生应用，是本月早些时候手机、Web、WhatsApp 版本的桌面延伸。The Verge 的评价是&quot;好用但有点瘆人&quot;，Lenny's Newsletter 的实测则称把自己和孩子的日程交给它后，一次性生成的家族 PDF&quot;比用 Claude 或 Codex 做出来的都好看&quot;。
+为什么重要。消费级 Agent 的用户体验基准被抬高了——本地优先 + 系统级权限正在成为标配。做桌面 Agent 的开发者需要马上回答两个问题：权限范围怎么设计，以及隐私模型怎么向用户解释清楚。
+关联动态。Anthropic 同日开源的 knowledge-work-plugins、以及 Claude Cowork，都在抢同一块&quot;知识工作者桌面&quot;。
+发生了什么。36Kr 报道 GPT-6 Astra 上线两周即拿到约 13% 的份额，逼得 Anthropic 可能提前发布新模型；同期 Gemini 4 Pro 的信息疑似泄露。这与本周&quot;呼吁减速的第七天&quot;形成了直接对照——三巨头一个都没停。
+为什么重要。前沿模型的份额波动已经进入&quot;以周为单位&quot;的节奏，产品侧任何硬编码单一模型、或把 prompt 深度绑定某个模型的架构，都在承担被版本迭代反噬的风险。抽象层和评测流水线要按季度而不是按年设计。
+关联动态。与 Wired《如果 AI 行业遵循自己的研究，它早就该暂停了》一文互为注脚。
+发生了什么。新版本声称准确率是 1.0 的两倍，价格不变：批处理 $0.10/小时，流式 $0.20/小时，支持批量与流式音频，今日通过 Grok Voice API 开放。
+为什么重要。$0.10/小时意味着把海量音频（播客、客服录音、会议）全量转写并建索引终于在经济上成立了。做音频检索、会议纪要、字幕工具的团队应该重算一遍单位成本模型。
+关联动态。与 Qwen3.8-Omni-Flash 一起，说明</description>
+      <itunes:summary>AI 每日简报，周日，2026-09-20。以下是今天的重点。
+行业新闻。
+发生了什么。《纽约时报》诉 OpenAI、微软一案新解封的法庭文件显示，两家公司自己的文档曾警告在给网络制造一个&quot;doom loop（末日循环）&quot;，一名微软总监把抓取训练数据描述为&quot;人类历史上最大规模的劳动盗窃&quot;，OpenAI 的 ChatGPT 负责人则写道这些产品&quot;在很大程度上是替代性的，就这样&quot;。这些是内部文件和宣誓证词，不是外部指控。
+为什么重要。合理使用（fair use）抗辩的核心是&quot;转换性使用&quot;，而当事人自己的表述是最难反驳的证据。依赖公开网络数据训练或微调的团队，应当假设授权成本会上升并向下游 API 价格传导；同时这也解释了为什么最近一轮内容授权交易节奏加快。
+关联动态。同一天的反垄断诉讼指控几家实验室就&quot;AI 减速&quot;达成非法协议，两案叠加正在把 AI 竞争问题整体推向司法轨道。
+发生了什么。一份新提起的反垄断诉讼称，几家头部实验室之间存在限制竞争的非法合谋，表现形式正是本周被反复讨论的&quot;AI 放缓&quot;协调机制。诉讼时点与 Dario Amodei 提出的三步减速方案、以及加州、弗吉尼亚州同日出台的行政令高度重合。
+为什么重要。如果法院接受&quot;安全协调 = 反竞争合谋&quot;的框架，那么未来任何跨实验室的评测共享、算力调度协议都会变成高风险动作。对创业公司而言，加入行业自律机制前需要先看清楚反垄断暴露面。
+关联动态。与 NYT 案一起，构成&quot;AI 治理正在从政策辩论转入法庭&quot;的同一条主线。
+发生了什么。Dream-RSI 让 AI Agent 对过去的搜索轨迹做&quot;梦境式&quot;重放，在不重跑昂贵计算的前提下测试新策略；测试中匹配或超过了已有结果，迭代次数最多减少 2.43 倍。关键在于只有搜索策略在自适应，底层模型完全不动。
+为什么重要。这是把测试时计算花在&quot;策略层&quot;而非&quot;模型层&quot;的典型做法，意味着你不需要重训模型就能提升 Agent 表现。任何在做 RAG、超参搜索、多轮工具调用的团队，都值得把这套思路移植到自己的搜索循环上。
+关联动态。与今天 HuggingFace 上的 Self-Evolving Search Index 论文思路一致——索引/策略本身成为可进化的对象。
+发生了什么。这是 Muse 首个能在用户电脑上&quot;完成任务&quot;的版本，可以访问本地文件、Messages、Calendar、Notes 等原生应用，是本月早些时候手机、Web、WhatsApp 版本的桌面延伸。The Verge 的评价是&quot;好用但有点瘆人&quot;，Lenny's Newsletter 的实测则称把自己和孩子的日程交给它后，一次性生成的家族 PDF&quot;比用 Claude 或 Codex 做出来的都好看&quot;。
+为什么重要。消费级 Agent 的用户体验基准被抬高了——本地优先 + 系统级权限正在成为标配。做桌面 Agent 的开发者需要马上回答两个问题：权限范围怎么设计，以及隐私模型怎么向用户解释清楚。
+关联动态。Anthropic 同日开源的 knowledge-work-plugins、以及 Claude Cowork，都在抢同一块&quot;知识工作者桌面&quot;。
+发生了什么。36Kr 报道 GPT-6 Astra 上线两周即拿到约 13% 的份额，逼得 Anthropic 可能提前发布新模型；同期 Gemini 4 Pro 的信息疑似泄露。这与本周&quot;呼吁减速的第七天&quot;形成了直接对照——三巨头一个都没停。
+为什么重要。前沿模型的份额波动已经进入&quot;以周为单位&quot;的节奏，产品侧任何硬编码单一模型、或把 prompt 深度绑定某个模型的架构，都在承担被版本迭代反噬的风险。抽象层和评测流水线要按季度而不是按年设计。
+关联动态。与 Wired《如果 AI 行业遵循自己的研究，它早就该暂停了》一文互为注脚。
+发生了什么。新版本声称准确率是 1.0 的两倍，价格不变：批处理 $0.10/小时，流式 $0.20/小时，支持批量与流式音频，今日通过 Grok Voice API 开放。
+为什么重要。$0.10/小时意味着把海量音频（播客、客服录音、会议）全量转写并建索引终于在经济上成立了。做音频检索、会议纪要、字幕工具的团队应该重算一遍单位成本模型。
+关联动态。与 Qwen3.8-Omni-Flash 一起，说明</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-20.mp3" length="7056432" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-20.mp3</guid>
+      <pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>19:36</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-09-19 周六</title>
       <description>AI 每日简报，周六，2026-09-19。以下是今天的重点。
 行业新闻。
@@ -379,21 +428,6 @@ OpenAI 今天公布了一套追踪和披露模型失准的报告框架，同时�
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-06.mp3</guid>
       <pubDate>Sun, 06 Sep 2026 08:00:00 +0800</pubDate>
       <itunes:duration>00:18</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-09-05 周六</title>
-      <description>您好，我注意到您提供的简报内容目前是空的——只有标题“AI Daily Digest - 2026-09-05”和底部一行“Generated by AI Daily Digest using deepseek-reasoner”，中间没有任何具体的新闻条目。
-为了让播报稿有内容可讲，麻烦您把原始的简报正文（包含具体AI行业新闻条目的部分）再发给我一次。收到条目后，我会立刻按您的要求改写成口语化的播报稿，包含问候与日期、看点概括、主题串讲和“今日观察”收尾，控制在600到1000字，适合通勤路上收听。
-期待您的补充内容，我们马上就能开工。</description>
-      <itunes:summary>您好，我注意到您提供的简报内容目前是空的——只有标题“AI Daily Digest - 2026-09-05”和底部一行“Generated by AI Daily Digest using deepseek-reasoner”，中间没有任何具体的新闻条目。
-为了让播报稿有内容可讲，麻烦您把原始的简报正文（包含具体AI行业新闻条目的部分）再发给我一次。收到条目后，我会立刻按您的要求改写成口语化的播报稿，包含问候与日期、看点概括、主题串讲和“今日观察”收尾，控制在600到1000字，适合通勤路上收听。
-期待您的补充内容，我们马上就能开工。</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-05.mp3" length="247248" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-05.mp3</guid>
-      <pubDate>Sat, 05 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>00:41</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
