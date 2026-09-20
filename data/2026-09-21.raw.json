@@ -1,10 +1,10 @@
 {
   "date": "2026-09-21",
-  "generated_at": "2026-09-21T06:34:22.786278+08:00",
+  "generated_at": "2026-09-21T07:56:12.258461+08:00",
   "counts": {
     "papers": 30,
     "projects": 11,
-    "news": 120
+    "news": 130
   },
   "items": {
     "papers": [
@@ -547,10 +547,21 @@
     "news": [
       {
         "category": "news",
+        "title": "Google's Open Agentic Orchestrator",
+        "url": "https://agentexecutor.io",
+        "normalized_url": "https://agentexecutor.io",
+        "summary": "HN points: 75, comments: 26",
+        "source": "Hacker News",
+        "published": "2026-09-20T22:32:43Z",
+        "importance_hint": 5,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "I stopped drinking the AI Kool-Aid",
         "url": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/",
         "normalized_url": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid",
-        "summary": "HN points: 25, comments: 15",
+        "summary": "HN points: 42, comments: 21",
         "source": "Hacker News",
         "published": "2026-09-20T21:17:26Z",
         "importance_hint": 3,
@@ -561,7 +572,7 @@
         "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
         "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
         "normalized_url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18",
-        "summary": "HN points: 38, comments: 41",
+        "summary": "HN points: 43, comments: 55",
         "source": "Hacker News",
         "published": "2026-09-20T20:32:43Z",
         "importance_hint": 4,
@@ -569,10 +580,21 @@
       },
       {
         "category": "news",
+        "title": "Lego Brick Sorting Machine Uses AI to Save Millions from Landfill [video]",
+        "url": "https://www.youtube.com/watch?v=M0cWcAIeOyU",
+        "normalized_url": "https://www.youtube.com/watch?v=M0cWcAIeOyU",
+        "summary": "HN points: 11, comments: 5",
+        "source": "Hacker News",
+        "published": "2026-09-20T18:18:19Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Andrew Ng: AI Extinction Fears Are 'Science Fiction'",
         "url": "https://www.youtube.com/watch?v=KnckQp-c388",
         "normalized_url": "https://www.youtube.com/watch?v=KnckQp-c388",
-        "summary": "HN points: 14, comments: 2",
+        "summary": "HN points: 16, comments: 2",
         "source": "Hacker News",
         "published": "2026-09-20T18:11:41Z",
         "importance_hint": 3,
@@ -583,7 +605,7 @@
         "title": "I turned Jev into a (lousy) chatbot",
         "url": "https://github.com/kyle-pena-nlp/jevchat/",
         "normalized_url": "https://github.com/kyle-pena-nlp/jevchat",
-        "summary": "HN points: 73, comments: 23",
+        "summary": "HN points: 80, comments: 26",
         "source": "Hacker News",
         "published": "2026-09-20T17:51:27Z",
         "importance_hint": 3,
@@ -618,7 +640,7 @@
         "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
         "url": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
         "normalized_url": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
-        "summary": "HN points: 111, comments: 21",
+        "summary": "HN points: 123, comments: 21",
         "source": "Hacker News",
         "published": "2026-09-20T15:58:52Z",
         "importance_hint": 3,
@@ -629,7 +651,7 @@
         "title": "ChatGPT now knows what you do on other websites via ad collector",
         "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
         "normalized_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-        "summary": "HN points: 489, comments: 282",
+        "summary": "HN points: 532, comments: 299",
         "source": "Hacker News",
         "published": "2026-09-20T15:18:44Z",
         "importance_hint": 3,
@@ -640,7 +662,7 @@
         "title": "Pirate Face Rescues LLM Models from Deletion",
         "url": "https://pirateface.co/",
         "normalized_url": "https://pirateface.co",
-        "summary": "HN points: 380, comments: 121",
+        "summary": "HN points: 412, comments: 131",
         "source": "Hacker News",
         "published": "2026-09-20T15:16:07Z",
         "importance_hint": 4,
@@ -651,7 +673,7 @@
         "title": "Show HN: A competition for small neural networks that play strategy games",
         "url": "https://tinybrains.dev",
         "normalized_url": "https://tinybrains.dev",
-        "summary": "HN points: 13, comments: 3",
+        "summary": "HN points: 23, comments: 4",
         "source": "Hacker News",
         "published": "2026-09-20T14:59:10Z",
         "importance_hint": 3,
@@ -662,7 +684,7 @@
         "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
         "url": "https://softwarecrisis.dev/letters/llmentalist/",
         "normalized_url": "https://softwarecrisis.dev/letters/llmentalist",
-        "summary": "HN points: 151, comments: 242",
+        "summary": "HN points: 155, comments: 243",
         "source": "Hacker News",
         "published": "2026-09-20T12:20:13Z",
         "importance_hint": 4,
@@ -673,7 +695,7 @@
         "title": "Big Tech uses guarantees to keep $300B AI exposure off balance sheets",
         "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
         "normalized_url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
-        "summary": "HN points: 34, comments: 65",
+        "summary": "HN points: 36, comments: 66",
         "source": "Hacker News",
         "published": "2026-09-20T12:07:10Z",
         "importance_hint": 3,
@@ -684,7 +706,7 @@
         "title": "If AI coding is lowering your code quality, you're not managing quality right",
         "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
         "normalized_url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-        "summary": "HN points: 66, comments: 104",
+        "summary": "HN points: 66, comments: 106",
         "source": "Hacker News",
         "published": "2026-09-20T11:37:10Z",
         "importance_hint": 3,
@@ -692,25 +714,133 @@
       },
       {
         "category": "news",
-        "title": "Romanian Crime Rings Are Draining U.S. Welfare Accounts",
-        "url": "https://www.wsj.com/us-news/how-romanian-crime-rings-are-draining-u-s-welfare-accounts-c9750d32",
-        "normalized_url": "https://www.wsj.com/us-news/how-romanian-crime-rings-are-draining-u-s-welfare-accounts-c9750d32",
-        "summary": "HN points: 21, comments: 4",
-        "source": "Hacker News",
-        "published": "2026-09-20T11:24:15Z",
-        "importance_hint": 3,
-        "metadata": {}
+        "title": "WebArena作者Shuyan Zhou入职Meta亿元俱乐部",
+        "url": "https://www.36kr.com/p/3992329241656324",
+        "normalized_url": "https://www.36kr.com/p/3992329241656324",
+        "summary": "梦想是做个能给妈妈订机票的AI浏览器。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T23:54:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
-        "title": "I'm Tired of the AI Tone",
-        "url": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
-        "normalized_url": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
-        "summary": "HN points: 43, comments: 54",
-        "source": "Hacker News",
-        "published": "2026-09-20T11:18:26Z",
+        "title": "欢迎来到AGI时代，但关机键在哪里？",
+        "url": "https://www.36kr.com/p/3992336520608512",
+        "normalized_url": "https://www.36kr.com/p/3992336520608512",
+        "summary": "OpenAI总裁布罗克曼（Greg Brockman）在发布前公开宣称，他个人认为，人类已经进入了AGI时代作者",
+        "source": "36Kr AI",
+        "published": "2026-09-20T23:52:22+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "蚊子最有用的一集，嘴被拔下来爆改3D打印喷头了",
+        "url": "https://www.36kr.com/p/3992355457301251",
+        "normalized_url": "https://www.36kr.com/p/3992355457301251",
+        "summary": "感谢大自然的馈赠。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T23:51:57+00:00",
         "importance_hint": 3,
-        "metadata": {}
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "从秀肌肉到「过日子」，机器人终于换赛道了",
+        "url": "https://www.36kr.com/p/3991799073913607",
+        "normalized_url": "https://www.36kr.com/p/3991799073913607",
+        "summary": "在与用户持续相处的过程中，个人机器人被不断定义。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T13:49:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中国新能源汽车“过剩”了？他们可能算错了三本账",
+        "url": "https://www.36kr.com/p/3991695333971592",
+        "normalized_url": "https://www.36kr.com/p/3991695333971592",
+        "summary": "关税不会对滞销品开火",
+        "source": "36Kr AI",
+        "published": "2026-09-20T13:09:36+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "融资12亿，收入暴涨300%：一家AI广告公司爆了",
+        "url": "https://www.36kr.com/p/3991669077441285",
+        "normalized_url": "https://www.36kr.com/p/3991669077441285",
+        "summary": "为什么这么能赚？",
+        "source": "36Kr AI",
+        "published": "2026-09-20T13:05:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI算力芯片独角兽奕行智能再获20亿融资， 加速RISC-V云端AI算力商业化落地与生态引领",
+        "url": "https://www.36kr.com/p/3991668148566785",
+        "normalized_url": "https://www.36kr.com/p/3991668148566785",
+        "summary": "投后估值接近150亿元",
+        "source": "36Kr AI",
+        "published": "2026-09-20T12:58:58+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "《紫京宸园土地价值白皮书》发布",
+        "url": "https://www.36kr.com/p/3991747664673538",
+        "normalized_url": "https://www.36kr.com/p/3991747664673538",
+        "summary": "北京东部片区价值不断跃迁。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T12:56:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "网站滥发浏览器通知弹窗，谷歌出手整治",
+        "url": "https://www.36kr.com/p/3991650854091526",
+        "normalized_url": "https://www.36kr.com/p/3991650854091526",
+        "summary": "谷歌的做法，是对这个功能进行“流量控制”。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T11:59:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "YC最新判断：Harness比模型更重要",
+        "url": "https://www.36kr.com/p/3991676864543496",
+        "normalized_url": "https://www.36kr.com/p/3991676864543496",
+        "summary": "模型定上限，Harness定表现",
+        "source": "36Kr AI",
+        "published": "2026-09-20T11:57:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -956,7 +1086,7 @@
         "published": "2026-09-19T12:38:34+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/sspai/tag/AI"
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -969,7 +1099,7 @@
         "published": "2026-09-18T03:19:13+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://hub.slarker.me/sspai/tag/AI"
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -1910,13 +2040,13 @@
       },
       {
         "category": "news",
-        "title": "Radeon RX 10800 XT can outperform the RTX 5090 by 15-25% in 4K gaming and local AI",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1hlj/radeon_rx_10800_xt_can_outperform_the_rtx_5090_by/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1hlj/radeon_rx_10800_xt_can_outperform_the_rtx_5090_by",
-        "summary": "https://en.gamegpu.com/news/zhelezo/radeon-rx-10800-xt-mozhet-obojti-rtx-5090-na-15-25-v-igrakh-v-v-4k-i-lokalnom-ii The more competition, the better! submitted by /u/Lumpy_Phase_9539 [link] [comments]",
+        "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google",
+        "summary": "submitted by /u/fallingdowndizzyvr [link] [comments]",
         "source": "r/LocalLLaMA",
-        "published": "2026-09-19T23:54:03+00:00",
-        "importance_hint": 3,
+        "published": "2026-09-20T18:05:43+00:00",
+        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
         }
@@ -1929,19 +2059,6 @@
         "summary": "submitted by /u/johnnyApplePRNG [link] [comments]",
         "source": "r/LocalLLaMA",
         "published": "2026-09-20T06:29:42+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/",
-        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google",
-        "summary": "submitted by /u/fallingdowndizzyvr [link] [comments]",
-        "source": "r/LocalLLaMA",
-        "published": "2026-09-20T18:05:43+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
@@ -1994,6 +2111,19 @@
         "summary": "To test what it can do. Qwen3.8-Flash-Next Intel Autoround W4A16 running locally on 4xV620 ~2k prefill and 70ts decode.. Were running around 3 hours. Harness is OMP (I think it made a big difference). Most of the time model was running 2 browsers simultaneously and testing/fixing everything. The most sloppy prompt possible: create a game where a space traveller in the space he neets eniemes who shoots in him and asteroids which he should avoid. he have a blaster gun to shoot enemies and asteroid",
         "source": "r/LocalLLaMA",
         "published": "2026-09-20T19:49:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Would you buy a Qwen3.8-27B Taalas chip for $1k if it could run at 7,000 TPS?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wltts7/would_you_buy_a_qwen3827b_taalas_chip_for_1k_if/",
+        "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wltts7/would_you_buy_a_qwen3827b_taalas_chip_for_1k_if",
+        "summary": "Just find it interesting, since if Taalas tried to get into the consumer market, it could be interesting. Kind of like how we have game discs on CDs. Of course, a Qwen3.8-27B chip is stuck on 3.8-27B, but it's not going to $0 when Qwen4-27B launches, since it runs magnitudes faster than GPUs and is still pretty good. Assume it's Q4 (or Q8, or whatever you'd prefer it to be). I think the bigger question is if you'd buy a chip of an LLM on it, in a more general sense. Or, when ? What about Qwen4.5",
+        "source": "r/LocalLLaMA",
+        "published": "2026-09-20T21:41:37+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
