@@ -1,10 +1,10 @@
 {
   "date": "2026-10-02",
-  "generated_at": "2026-10-02T07:59:38.445003+08:00",
+  "generated_at": "2026-10-02T09:22:47.188927+08:00",
   "counts": {
     "papers": 41,
     "projects": 11,
-    "news": 138
+    "news": 137
   },
   "items": {
     "papers": [
@@ -523,155 +523,166 @@
     "projects": [
       {
         "category": "projects",
-        "title": "DietrichGebert/ponytail ⭐+1,179/天",
+        "title": "DietrichGebert/ponytail ⭐+1,194/天",
         "url": "https://github.com/DietrichGebert/ponytail",
         "normalized_url": "https://github.com/DietrichGebert/ponytail",
-        "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. （GitHub Trending · 今日 +1,179 star）",
+        "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. （GitHub Trending · 今日 +1,194 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "1,179"
+          "stars_today": "1,194"
         }
       },
       {
         "category": "projects",
-        "title": "mattpocock/skills ⭐+888/天",
+        "title": "mattpocock/skills ⭐+883/天",
         "url": "https://github.com/mattpocock/skills",
         "normalized_url": "https://github.com/mattpocock/skills",
-        "summary": "Skills for Real Engineers. Straight from my .agents directory. （GitHub Trending · 今日 +888 star）",
+        "summary": "Skills for Real Engineers. Straight from my .agents directory. （GitHub Trending · 今日 +883 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "888"
+          "stars_today": "883"
         }
       },
       {
         "category": "projects",
-        "title": "NVIDIA/OpenShell ⭐+2,503/天",
+        "title": "NVIDIA/OpenShell ⭐+2,456/天",
         "url": "https://github.com/NVIDIA/OpenShell",
         "normalized_url": "https://github.com/NVIDIA/OpenShell",
-        "summary": "OpenShell is the safe, private runtime for autonomous AI agents. （GitHub Trending · 今日 +2,503 star）",
+        "summary": "OpenShell is the safe, private runtime for autonomous AI agents. （GitHub Trending · 今日 +2,456 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "2,503"
+          "stars_today": "2,456"
         }
       },
       {
         "category": "projects",
-        "title": "mvschwarz/openrig ⭐+640/天",
+        "title": "mvschwarz/openrig ⭐+642/天",
         "url": "https://github.com/mvschwarz/openrig",
         "normalized_url": "https://github.com/mvschwarz/openrig",
-        "summary": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work. （GitHub Trending · 今日 +640 star）",
+        "summary": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work. （GitHub Trending · 今日 +642 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "640"
+          "stars_today": "642"
         }
       },
       {
         "category": "projects",
-        "title": "obra/superpowers ⭐+476/天",
+        "title": "obra/superpowers ⭐+455/天",
         "url": "https://github.com/obra/superpowers",
         "normalized_url": "https://github.com/obra/superpowers",
-        "summary": "An agentic skills framework & software development methodology that works. （GitHub Trending · 今日 +476 star）",
+        "summary": "An agentic skills framework & software development methodology that works. （GitHub Trending · 今日 +455 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "476"
+          "stars_today": "455"
         }
       },
       {
         "category": "projects",
-        "title": "mksglu/context-mode ⭐+357/天",
+        "title": "mksglu/context-mode ⭐+362/天",
         "url": "https://github.com/mksglu/context-mode",
         "normalized_url": "https://github.com/mksglu/context-mode",
-        "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. （GitHub Trending · 今日 +357 star）",
+        "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. （GitHub Trending · 今日 +362 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "357"
+          "stars_today": "362"
         }
       },
       {
         "category": "projects",
-        "title": "heygen-com/hyperframes ⭐+624/天",
+        "title": "heygen-com/hyperframes ⭐+627/天",
         "url": "https://github.com/heygen-com/hyperframes",
         "normalized_url": "https://github.com/heygen-com/hyperframes",
-        "summary": "Write HTML. Render video. Built for agents. （GitHub Trending · 今日 +624 star）",
+        "summary": "Write HTML. Render video. Built for agents. （GitHub Trending · 今日 +627 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "624"
+          "stars_today": "627"
         }
       },
       {
         "category": "projects",
-        "title": "earendil-works/pi ⭐+294/天",
+        "title": "earendil-works/pi ⭐+298/天",
         "url": "https://github.com/earendil-works/pi",
         "normalized_url": "https://github.com/earendil-works/pi",
-        "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI （GitHub Trending · 今日 +294 star）",
+        "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI （GitHub Trending · 今日 +298 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "294"
+          "stars_today": "298"
         }
       },
       {
         "category": "projects",
-        "title": "tile-ai/tilelang ⭐+157/天",
+        "title": "tile-ai/tilelang ⭐+163/天",
         "url": "https://github.com/tile-ai/tilelang",
         "normalized_url": "https://github.com/tile-ai/tilelang",
-        "summary": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels （GitHub Trending · 今日 +157 star）",
+        "summary": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels （GitHub Trending · 今日 +163 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "157"
+          "stars_today": "163"
         }
       },
       {
         "category": "projects",
-        "title": "pbakaus/impeccable ⭐+602/天",
+        "title": "pbakaus/impeccable ⭐+495/天",
         "url": "https://github.com/pbakaus/impeccable",
         "normalized_url": "https://github.com/pbakaus/impeccable",
-        "summary": "The design language that makes your AI harness better at design. （GitHub Trending · 今日 +602 star）",
+        "summary": "The design language that makes your AI harness better at design. （GitHub Trending · 今日 +495 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "602"
+          "stars_today": "495"
         }
       },
       {
         "category": "projects",
-        "title": "Friedrich-M/UniMate ⭐+225/天",
+        "title": "Friedrich-M/UniMate ⭐+217/天",
         "url": "https://github.com/Friedrich-M/UniMate",
         "normalized_url": "https://github.com/Friedrich-M/UniMate",
-        "summary": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons （GitHub Trending · 今日 +225 star）",
+        "summary": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons （GitHub Trending · 今日 +217 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "225"
+          "stars_today": "217"
         }
       }
     ],
     "news": [
       {
         "category": "news",
+        "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
+        "url": "https://neow.in/NGxhb3d6",
+        "normalized_url": "https://neow.in/NGxhb3d6",
+        "summary": "HN points: 31, comments: 30",
+        "source": "Hacker News",
+        "published": "2026-10-01T22:15:57Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "Aweb – Communication for AI Agents",
         "url": "https://aweb.ai",
         "normalized_url": "https://aweb.ai",
-        "summary": "HN points: 11, comments: 5",
+        "summary": "HN points: 18, comments: 13",
         "source": "Hacker News",
         "published": "2026-10-01T22:02:31Z",
         "importance_hint": 4,
@@ -682,7 +693,7 @@
         "title": "Don't Be Fooled by this Summer of AI Hype",
         "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
         "normalized_url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype",
-        "summary": "HN points: 30, comments: 20",
+        "summary": "HN points: 34, comments: 22",
         "source": "Hacker News",
         "published": "2026-10-01T21:34:19Z",
         "importance_hint": 3,
@@ -693,7 +704,7 @@
         "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
         "url": "https://github.com/Vibra-Ingenn/Janus",
         "normalized_url": "https://github.com/Vibra-Ingenn/Janus",
-        "summary": "HN points: 44, comments: 4",
+        "summary": "HN points: 48, comments: 5",
         "source": "Hacker News",
         "published": "2026-10-01T20:36:47Z",
         "importance_hint": 5,
@@ -726,7 +737,7 @@
         "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
         "url": "https://innerloop.works/breadcrumb",
         "normalized_url": "https://innerloop.works/breadcrumb",
-        "summary": "HN points: 14, comments: 2",
+        "summary": "HN points: 15, comments: 2",
         "source": "Hacker News",
         "published": "2026-10-01T17:58:37Z",
         "importance_hint": 3,
@@ -737,7 +748,7 @@
         "title": "Vote on which of Hacker News' challenges for AI have been met",
         "url": "https://stoppels.ch/goalposts/",
         "normalized_url": "https://stoppels.ch/goalposts",
-        "summary": "HN points: 71, comments: 69",
+        "summary": "HN points: 86, comments: 93",
         "source": "Hacker News",
         "published": "2026-10-01T17:32:43Z",
         "importance_hint": 3,
@@ -759,7 +770,7 @@
         "title": "Consumer AI Fatigue Is Overwhelming, Local Businesses Should Reconsider Use",
         "url": "https://residentnewsnetwork.com/opinion-piece-consumer-ai-fatigue-is-overwhelming-and-why-local-businesses-should-re-consider-use/",
         "normalized_url": "https://residentnewsnetwork.com/opinion-piece-consumer-ai-fatigue-is-overwhelming-and-why-local-businesses-should-re-consider-use",
-        "summary": "HN points: 24, comments: 6",
+        "summary": "HN points: 25, comments: 7",
         "source": "Hacker News",
         "published": "2026-10-01T17:15:02Z",
         "importance_hint": 3,
@@ -770,7 +781,7 @@
         "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
         "url": "https://blog.cloudflare.com/clef-decision-models/",
         "normalized_url": "https://blog.cloudflare.com/clef-decision-models",
-        "summary": "HN points: 399, comments: 154",
+        "summary": "HN points: 426, comments: 158",
         "source": "Hacker News",
         "published": "2026-10-01T16:18:57Z",
         "importance_hint": 4,
@@ -789,25 +800,29 @@
       },
       {
         "category": "news",
-        "title": "Polyedergarten: Garden of Paper Polyhedron Models",
-        "url": "https://www.polyedergarten.de/e_index.htm",
-        "normalized_url": "https://www.polyedergarten.de/e_index.htm",
-        "summary": "HN points: 50, comments: 6",
-        "source": "Hacker News",
-        "published": "2026-10-01T15:02:51Z",
-        "importance_hint": 4,
-        "metadata": {}
+        "title": "变现门槛翻一番，YouTube的目标或是短视频",
+        "url": "https://www.36kr.com/p/4007122846748807",
+        "normalized_url": "https://www.36kr.com/p/4007122846748807",
+        "summary": "无论创作者选择走哪条路，谷歌都是赢家。",
+        "source": "36Kr AI",
+        "published": "2026-10-02T01:16:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
-        "title": "Context Language Models",
-        "url": "https://arxiv.org/abs/2609.37725",
-        "normalized_url": "https://arxiv.org/abs/2609.37725",
-        "summary": "HN points: 98, comments: 23",
-        "source": "Hacker News",
-        "published": "2026-10-01T14:51:33Z",
+        "title": "AI 打破了风投界最老铁律，这是 670 亿美元的硬核证明",
+        "url": "https://www.36kr.com/p/3965960047664391",
+        "normalized_url": "https://www.36kr.com/p/3965960047664391",
+        "summary": "他投资的两家公司在同一周内被收购，交易总额高达 670 亿美元。他说，这种投资回报逻辑此前从未成立过。",
+        "source": "36Kr AI",
+        "published": "2026-10-02T00:00:55+00:00",
         "importance_hint": 4,
-        "metadata": {}
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
       },
       {
         "category": "news",
@@ -908,32 +923,6 @@
         "summary": "科技与人性，摇摇摆摆不定",
         "source": "36Kr AI",
         "published": "2026-09-30T13:03:35+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "网盘成为AI圈新宠，字节跳动也做了ADrive",
-        "url": "https://www.36kr.com/p/4005775428898944",
-        "normalized_url": "https://www.36kr.com/p/4005775428898944",
-        "summary": "ADrive的核心竞争力，是从“存储文件”转变为“盘活数据”。",
-        "source": "36Kr AI",
-        "published": "2026-09-30T13:02:56+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "硅谷藏了多少隐形债务？",
-        "url": "https://www.36kr.com/p/4005820797325442",
-        "normalized_url": "https://www.36kr.com/p/4005820797325442",
-        "summary": "AI繁荣存财务泡沫，风险已转嫁至金融体系",
-        "source": "36Kr AI",
-        "published": "2026-09-30T13:00:18+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -1747,6 +1736,32 @@
       },
       {
         "category": "news",
+        "title": "Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text",
+        "url": "https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash/",
+        "normalized_url": "https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash",
+        "summary": "Cloudflare has released Clef (27B) and Clef-flash (9B), open-weight decision models that return typed probabilities instead of text. They are Jev-API compatible, accept images, and run on Workers AI at 209.3 ms and 38.8 ms median latency. The post Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-10-02T01:00:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A Coding Guide to Google Research’s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer You Can Read End to End",
+        "url": "https://www.marktechpost.com/2026/10/01/a-coding-guide-to-google-researchs-kauldron-configs-that-are-plain-data-components-wired-by-string-and-a-jax-trainer-you-can-read-end-to-end/",
+        "normalized_url": "https://www.marktechpost.com/2026/10/01/a-coding-guide-to-google-researchs-kauldron-configs-that-are-plain-data-components-wired-by-string-and-a-jax-trainer-you-can-read-end-to-end",
+        "summary": "In this comprehensive coding guide, we explore Google Research's Kauldron—a JAX training library optimized for research velocity and modularity. Learn how konfig turns experiments into plain dictionaries, kontext wires components via string paths, and ktyping enforces runtime shape checks. The post A Coding Guide to Google Research’s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer You Can Read End to End appeared first on MarkTechPost .",
+        "source": "MarkTechPost",
+        "published": "2026-10-02T00:32:50+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.marktechpost.com/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
         "url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
         "normalized_url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5",
@@ -1845,32 +1860,6 @@
         "source": "MarkTechPost",
         "published": "2026-09-30T01:30:17+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
-        "url": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
-        "normalized_url": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens",
-        "summary": "Liquid AI has released d1, a decision model built for structured choices instead of text generation. You give it context and a set of typed questions. It returns calibrated probabilities across a fixed set of outcomes in a single call, with zero generated tokens. The target is the work many teams still send to general […] The post Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-09-29T21:47:09+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.marktechpost.com/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers",
-        "url": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/",
-        "normalized_url": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers",
-        "summary": "OpenAI just introduced dots at their DevDay today. Dots are persistent AI agents powered by GPT-6 Astra. Each dot gets its own cloud computer and browser. It works across 4,000+ apps through ChatGPT plugins and keeps going after you log off. Is it deployable today? Yes, as a managed product. Dots are rolling out in […] The post OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers appeared first on MarkTechPost .",
-        "source": "MarkTechPost",
-        "published": "2026-09-29T18:30:13+00:00",
-        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://www.marktechpost.com/feed/"
         }
