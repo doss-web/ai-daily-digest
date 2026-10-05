@@ -1,10 +1,10 @@
 {
   "date": "2026-10-05",
-  "generated_at": "2026-10-05T07:20:51.848331+08:00",
+  "generated_at": "2026-10-05T08:32:01.734396+08:00",
   "counts": {
     "papers": 30,
-    "projects": 10,
-    "news": 114
+    "projects": 11,
+    "news": 115
   },
   "items": {
     "papers": [
@@ -402,28 +402,28 @@
     "projects": [
       {
         "category": "projects",
-        "title": "pbakaus/impeccable ⭐+1,170/天",
+        "title": "pbakaus/impeccable ⭐+1,171/天",
         "url": "https://github.com/pbakaus/impeccable",
         "normalized_url": "https://github.com/pbakaus/impeccable",
-        "summary": "The design language that makes your AI harness better at design. （GitHub Trending · 今日 +1,170 star）",
+        "summary": "The design language that makes your AI harness better at design. （GitHub Trending · 今日 +1,171 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars_today": "1,170"
+          "stars_today": "1,171"
         }
       },
       {
         "category": "projects",
-        "title": "coreyhaines31/marketingskills ⭐+270/天",
+        "title": "coreyhaines31/marketingskills ⭐+197/天",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "normalized_url": "https://github.com/coreyhaines31/marketingskills",
-        "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. （GitHub Trending · 今日 +270 star）",
+        "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. （GitHub Trending · 今日 +197 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "270"
+          "stars_today": "197"
         }
       },
       {
@@ -441,41 +441,54 @@
       },
       {
         "category": "projects",
-        "title": "earthtojake/text-to-cad ⭐+75/天",
+        "title": "earthtojake/text-to-cad ⭐+83/天",
         "url": "https://github.com/earthtojake/text-to-cad",
         "normalized_url": "https://github.com/earthtojake/text-to-cad",
-        "summary": "Give your agent CAD superpowers. （GitHub Trending · 今日 +75 star）",
+        "summary": "Give your agent CAD superpowers. （GitHub Trending · 今日 +83 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "75"
+          "stars_today": "83"
         }
       },
       {
         "category": "projects",
-        "title": "Panniantong/Agent-Reach ⭐+979/天",
+        "title": "Panniantong/Agent-Reach ⭐+980/天",
         "url": "https://github.com/Panniantong/Agent-Reach",
         "normalized_url": "https://github.com/Panniantong/Agent-Reach",
-        "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. （GitHub Trending · 今日 +979 star）",
+        "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. （GitHub Trending · 今日 +980 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "979"
+          "stars_today": "980"
         }
       },
       {
         "category": "projects",
-        "title": "calesthio/OpenMontage ⭐+361/天",
+        "title": "calesthio/OpenMontage ⭐+245/天",
         "url": "https://github.com/calesthio/OpenMontage",
         "normalized_url": "https://github.com/calesthio/OpenMontage",
-        "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. （GitHub Trending · 今日 +361 star）",
+        "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. （GitHub Trending · 今日 +245 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "361"
+          "stars_today": "245"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "michael-denyer/pstack-claude ⭐+232/天",
+        "url": "https://github.com/michael-denyer/pstack-claude",
+        "normalized_url": "https://github.com/michael-denyer/pstack-claude",
+        "summary": "Claude Code, Codex, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses. （GitHub Trending · 今日 +232 star）",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars_today": "232"
         }
       },
       {
@@ -493,28 +506,28 @@
       },
       {
         "category": "projects",
-        "title": "thedotmack/claude-mem ⭐+627/天",
+        "title": "thedotmack/claude-mem ⭐+628/天",
         "url": "https://github.com/thedotmack/claude-mem",
         "normalized_url": "https://github.com/thedotmack/claude-mem",
-        "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More （GitHub Trending · 今日 +627 star）",
+        "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More （GitHub Trending · 今日 +628 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "627"
+          "stars_today": "628"
         }
       },
       {
         "category": "projects",
-        "title": "garrytan/gstack ⭐+121/天",
+        "title": "garrytan/gstack ⭐+125/天",
         "url": "https://github.com/garrytan/gstack",
         "normalized_url": "https://github.com/garrytan/gstack",
-        "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA （GitHub Trending · 今日 +121 star）",
+        "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA （GitHub Trending · 今日 +125 star）",
         "source": "GitHub Trending",
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars_today": "121"
+          "stars_today": "125"
         }
       },
       {
@@ -534,10 +547,32 @@
     "news": [
       {
         "category": "news",
+        "title": "AI doesn't need 'superintelligence' or evil intent to start a nuclear war",
+        "url": "https://thebulletin.org/2026/10/ai-doesnt-need-superintelligence-or-evil-intent-to-start-a-nuclear-war/",
+        "normalized_url": "https://thebulletin.org/2026/10/ai-doesnt-need-superintelligence-or-evil-intent-to-start-a-nuclear-war",
+        "summary": "HN points: 11, comments: 8",
+        "source": "Hacker News",
+        "published": "2026-10-04T22:03:41Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
+        "title": "Typst 0.15 Contains Multitudes",
+        "url": "https://typst.app/blog/2026/typst-0.15/",
+        "normalized_url": "https://typst.app/blog/2026/typst-0.15",
+        "summary": "HN points: 11, comments: 1",
+        "source": "Hacker News",
+        "published": "2026-10-04T21:50:05Z",
+        "importance_hint": 3,
+        "metadata": {}
+      },
+      {
+        "category": "news",
         "title": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
         "url": "https://island-three.gruberbuilds.workers.dev/",
         "normalized_url": "https://island-three.gruberbuilds.workers.dev",
-        "summary": "HN points: 29, comments: 27",
+        "summary": "HN points: 29, comments: 29",
         "source": "Hacker News",
         "published": "2026-10-04T19:49:12Z",
         "importance_hint": 3,
@@ -548,7 +583,7 @@
         "title": "Homa: The end of TCP for AI clusters [video]",
         "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
         "normalized_url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
-        "summary": "HN points: 44, comments: 11",
+        "summary": "HN points: 47, comments: 15",
         "source": "Hacker News",
         "published": "2026-10-04T19:42:25Z",
         "importance_hint": 3,
@@ -581,7 +616,7 @@
         "title": "All I wanted was a custom domain email",
         "url": "https://jacobg.co/emails-at-jacobg-co/",
         "normalized_url": "https://jacobg.co/emails-at-jacobg-co",
-        "summary": "HN points: 39, comments: 53",
+        "summary": "HN points: 40, comments: 62",
         "source": "Hacker News",
         "published": "2026-10-04T17:47:21Z",
         "importance_hint": 3,
@@ -636,7 +671,7 @@
         "title": "Show HN: AI search for every photo and every frame of video on macOS",
         "url": "https://github.com/allenv0/SCM",
         "normalized_url": "https://github.com/allenv0/SCM",
-        "summary": "HN points: 132, comments: 62",
+        "summary": "HN points: 135, comments: 64",
         "source": "Hacker News",
         "published": "2026-10-04T09:24:52Z",
         "importance_hint": 3,
@@ -647,7 +682,7 @@
         "title": "Protest against housing crisis in Spain",
         "url": "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest",
         "normalized_url": "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest",
-        "summary": "HN points: 28, comments: 52",
+        "summary": "HN points: 28, comments: 53",
         "source": "Hacker News",
         "published": "2026-10-04T08:56:08Z",
         "importance_hint": 3,
@@ -669,31 +704,9 @@
         "title": "How to scale intent, quality, and artistry with AI [video]",
         "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
         "normalized_url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-        "summary": "HN points: 41, comments: 12",
+        "summary": "HN points: 44, comments: 13",
         "source": "Hacker News",
         "published": "2026-10-04T08:41:58Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "In Ukraine, distributed renewables foil Russia's assaults",
-        "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
-        "normalized_url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults",
-        "summary": "HN points: 162, comments: 180",
-        "source": "Hacker News",
-        "published": "2026-10-04T08:39:58Z",
-        "importance_hint": 3,
-        "metadata": {}
-      },
-      {
-        "category": "news",
-        "title": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
-        "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
-        "normalized_url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet",
-        "summary": "HN points: 42, comments: 100",
-        "source": "Hacker News",
-        "published": "2026-10-04T08:02:33Z",
         "importance_hint": 3,
         "metadata": {}
       },
@@ -903,6 +916,32 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.infoq.cn/feed.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "我测了一遍中文“去 AI 味”的规则，一半是错的",
+        "url": "https://sspai.com/post/115346",
+        "normalized_url": "https://sspai.com/post/115346",
+        "summary": "我在医院工作，业余写给家长看的科普。这两年初稿很多是让 Claude 先起的，改稿时最花时间的就是把那股 AI 味去掉。今年想干脆做一个 Claude Code 的 skill 来干这件事，动手之前先去 GitHub 上看了看别人怎么做的。 中文的同类项目我读了 13 个，星数最多的一万八千多。读下来发现两个问题。 很多规则没被验证过 这些项目的规则清单大同小异：句子要长短参差，少用“首先、其次、最后”，删掉设问，少用比喻和排比，多加口语词，“值得注意的是”换成“说白了”。 其中只有一个项目认真测过。lieflat-less-ai-tone 的作者找了五个模型各写 60 篇，一共 300 篇，对照 329 篇人写的公开文章，总共 283 万字，把网上流传的 26 条判据挨个算了频率。 站得住的只有 11 条。 被推翻的那 15 条里，有几条是大家最爱引用的。句长均匀度人机没差别，早先“AI 均匀度是人的 51 倍”的说法，是程序把 Markdown 表格切成了一句话。正文里的设问，人类用得是 AI 的 17 倍，比喻是 2.4 倍。倒是“说白了”开头的句子，AI 多用 3.2 倍。 也",
+        "source": "SSPAI AI",
+        "published": "2026-10-04T13:56:52+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Dots、Space 与 Codex：OpenAI 的持续工作工具",
+        "url": "https://sspai.com/post/115319",
+        "normalized_url": "https://sspai.com/post/115319",
+        "summary": "写在前面 如果还没充 ChatGPT 的 Pro 会员，强烈建议赶紧充！ 先整体列一下今年 DevDay 的关键词： Dots GPT-6.1 Sol UltraFast Pro $200、Pro $500 Decisions API Researcher Intern Codex Harness（但我印象里这个很早就开源了） Agents API Plugin extensions 到现在为止，我已经用上的有 Dots、GPT-6.1 Sol、Codex Harness，其他的还在捣鼓怎么用上。 我的 Dots：Folex（头像还是他自己生成的） 发布会我前前后后看了有三遍，记录的很多问题都不是新模型、新功能强了多少，而是像： 我已经创建了自己的 Dot，却找不到再创建一个的入口；它看起来只有一个持续对话的入口，那历史越来越长以后，上下文怎么办？ Dots 和我已经在用的 ChatGPT Work、Codex 是什么关系？ 发布会最后又出现了 Plugins、Sign in with ChatGPT 和 Marketplace，它们是不是同一个“应用商店”？ 这些问题放在一起，反而更",
+        "source": "SSPAI AI",
+        "published": "2026-10-03T13:10:05+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -1787,19 +1826,6 @@
         "importance_hint": 5,
         "metadata": {
           "feed_url": "https://openai.com/news/rss.xml"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Decision models 🤖, Claude-shaped science 🧪, OpenAI safety firings 🚨",
-        "url": "https://tldr.tech/ai/2026-10-02",
-        "normalized_url": "https://tldr.tech/ai/2026-10-02",
-        "summary": "",
-        "source": "TLDR AI",
-        "published": "2026-10-02T00:00:00+00:00",
-        "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://tldr.tech/api/rss/ai"
         }
       },
       {
