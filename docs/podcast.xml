@@ -15,6 +15,43 @@
     <image><url>https://jimmuji.github.io/ai-daily-digest/podcast-cover.png</url><title>AI 每日简报</title><link>https://jimmuji.github.io/ai-daily-digest/</link></image>
     <itunes:owner><itunes:name>AI Daily Digest</itunes:name></itunes:owner>
     <item>
+      <title>AI 每日简报 · 2026-10-08 周四</title>
+      <description>AI 每日简报，周四，2026-10-08。以下是今天的重点。
+行业新闻。
+发生了什么。Anthropic 发布 Haiku 5.5，定价为 $0.10/$0.50 per M tokens（10 万 token 以内），超过 10 万 token 后价格上涨 5 倍至 $0.50/M 输出。前代 Haiku 4.5 发布于近一年前，定价 $1/$5——即使在当时也算贵，是 OpenAI 上月发布的 GPT-6 Luna 的整整 10 倍。基准上，Haiku 5.5 在 OSWorld 计算机操作测试中从 15.7% 跃升至 72.4%。The Decoder 提醒：新 tokenizer 每个任务会消耗更多 token，会吃掉一部分降价收益。
+为什么重要。如果你在做计算机操作或浏览器自动化 agent，OSWorld 近 4.6 倍的提升意味着 Haiku 级别的模型第一次具备可用的 GUI 操作能力，而且落在最低成本档位。但必须按&quot;每任务成本&quot;而非&quot;每 token 价格&quot;重新算账——分词器变化会让账面节省打折扣。
+关联动态。OpenAI 同一天把付费 API 档位从 5 档砍到 3 档，并推出按输入计费的 Decisions API，两家都在简化定价结构、把成本压向分类与判断类轻任务。
+发生了什么。OpenAI 开始向所有用户推送 GPT-6，同时上线 Intelligent UI——回答中可以包含图表、示意图、表单、可点击按钮等交互元素。付费用户获得 GPT-6 Sol，免费用户获得 GPT-6 Luna。模型可以在&quot;仍在思考时&quot;就开始响应，等待时间缩短 44%。同日 OpenAI 还发布了把复杂评估简化为&quot;是 / 否 / 选一个&quot;的 Decisions API（比 Responses API 快约 10 倍，$0.10/M 输入），并把付费 API 档位从 5 档合并为 3 档。
+为什么重要。这是界面层的重新划分。当模型输出本身就是组件，过去独立开发者靠&quot;包装输出&quot;建立的价值（表格渲染、图表生成、表单收集）会被平台直接吸收。仍在安全区的是需要自有数据、自有工作流和外部副作用的场景。
+关联动态。Radisson 同日上线 ChatGPT 内的酒店发现插件，Jump Trading 公布了用 ChatGPT 做量化研究的长流程案例——企业侧已经开始把 ChatGPT 当作分发渠道而非聊天工具。
+发生了什么。OpenAI 在 GitHub 上公开了内部前沿模型产出的数学结果，覆盖 722 份手稿、归入 372 个结果族，每项平均消耗约 3 小时 ChatGPT Pro 算力，并附带 Lean 形式化以便机器验证。Wired 采访的数学家直言&quot;有一种黑帮行事的观感&quot;；量子位报道三位菲尔兹奖得主表示这&quot;不代表认可&quot;；The Decoder 称有 25 位菲尔兹奖得主警告批量生产数学真理可能摧毁领域生态。
+为什么重要。可验证的证明第一次变成廉价商品，稀缺资源从&quot;能不能证&quot;转移到&quot;选什么问题、什么算好证明&quot;。对做 AI4Math 工具的团队来说，需求会从&quot;找证明&quot;转向&quot;筛选与审稿&quot;，以及为形式化验证提供基础设施。
+关联动态。与 Mistral、Reflection 等开放权重模型同期出现，形成&quot;闭源批量产出、开源追赶能力&quot;的双轨格局；OpenAI 同日还公布了医疗数据泄露后的额外监控措施。
+发生了什么。Hacker News 上一条报道（253 分、248 条评论）称 Meta 和 Microsoft 正在采取措施减少员工对 Claude 的使用。这发生在一个微妙的时点：同一天 Microsoft 在 Windows 发布会上把 Copilot 更深地接入操作系统与本地文件，Meta 则把自家 agent Muse 推上 iPad。
+为什么重要。这标志着&quot;模型供应商多元化&quot;从个人偏好上升为企业政策。对 Anthropic 而言，在编码场景的深度渗透反而成了政治负担；对使用 Claude Code 等工具的团队，需要意识到公司层面的采购与合规政策可能随时改变可用的模型选项。
+关联动态。Anthropic 同日扩大 Cyber Verification Program，让更多安全团队在更少限制下使用 Claude 做渗透测试与漏洞研究，称前期合</description>
+      <itunes:summary>AI 每日简报，周四，2026-10-08。以下是今天的重点。
+行业新闻。
+发生了什么。Anthropic 发布 Haiku 5.5，定价为 $0.10/$0.50 per M tokens（10 万 token 以内），超过 10 万 token 后价格上涨 5 倍至 $0.50/M 输出。前代 Haiku 4.5 发布于近一年前，定价 $1/$5——即使在当时也算贵，是 OpenAI 上月发布的 GPT-6 Luna 的整整 10 倍。基准上，Haiku 5.5 在 OSWorld 计算机操作测试中从 15.7% 跃升至 72.4%。The Decoder 提醒：新 tokenizer 每个任务会消耗更多 token，会吃掉一部分降价收益。
+为什么重要。如果你在做计算机操作或浏览器自动化 agent，OSWorld 近 4.6 倍的提升意味着 Haiku 级别的模型第一次具备可用的 GUI 操作能力，而且落在最低成本档位。但必须按&quot;每任务成本&quot;而非&quot;每 token 价格&quot;重新算账——分词器变化会让账面节省打折扣。
+关联动态。OpenAI 同一天把付费 API 档位从 5 档砍到 3 档，并推出按输入计费的 Decisions API，两家都在简化定价结构、把成本压向分类与判断类轻任务。
+发生了什么。OpenAI 开始向所有用户推送 GPT-6，同时上线 Intelligent UI——回答中可以包含图表、示意图、表单、可点击按钮等交互元素。付费用户获得 GPT-6 Sol，免费用户获得 GPT-6 Luna。模型可以在&quot;仍在思考时&quot;就开始响应，等待时间缩短 44%。同日 OpenAI 还发布了把复杂评估简化为&quot;是 / 否 / 选一个&quot;的 Decisions API（比 Responses API 快约 10 倍，$0.10/M 输入），并把付费 API 档位从 5 档合并为 3 档。
+为什么重要。这是界面层的重新划分。当模型输出本身就是组件，过去独立开发者靠&quot;包装输出&quot;建立的价值（表格渲染、图表生成、表单收集）会被平台直接吸收。仍在安全区的是需要自有数据、自有工作流和外部副作用的场景。
+关联动态。Radisson 同日上线 ChatGPT 内的酒店发现插件，Jump Trading 公布了用 ChatGPT 做量化研究的长流程案例——企业侧已经开始把 ChatGPT 当作分发渠道而非聊天工具。
+发生了什么。OpenAI 在 GitHub 上公开了内部前沿模型产出的数学结果，覆盖 722 份手稿、归入 372 个结果族，每项平均消耗约 3 小时 ChatGPT Pro 算力，并附带 Lean 形式化以便机器验证。Wired 采访的数学家直言&quot;有一种黑帮行事的观感&quot;；量子位报道三位菲尔兹奖得主表示这&quot;不代表认可&quot;；The Decoder 称有 25 位菲尔兹奖得主警告批量生产数学真理可能摧毁领域生态。
+为什么重要。可验证的证明第一次变成廉价商品，稀缺资源从&quot;能不能证&quot;转移到&quot;选什么问题、什么算好证明&quot;。对做 AI4Math 工具的团队来说，需求会从&quot;找证明&quot;转向&quot;筛选与审稿&quot;，以及为形式化验证提供基础设施。
+关联动态。与 Mistral、Reflection 等开放权重模型同期出现，形成&quot;闭源批量产出、开源追赶能力&quot;的双轨格局；OpenAI 同日还公布了医疗数据泄露后的额外监控措施。
+发生了什么。Hacker News 上一条报道（253 分、248 条评论）称 Meta 和 Microsoft 正在采取措施减少员工对 Claude 的使用。这发生在一个微妙的时点：同一天 Microsoft 在 Windows 发布会上把 Copilot 更深地接入操作系统与本地文件，Meta 则把自家 agent Muse 推上 iPad。
+为什么重要。这标志着&quot;模型供应商多元化&quot;从个人偏好上升为企业政策。对 Anthropic 而言，在编码场景的深度渗透反而成了政治负担；对使用 Claude Code 等工具的团队，需要意识到公司层面的采购与合规政策可能随时改变可用的模型选项。
+关联动态。Anthropic 同日扩大 Cyber Verification Program，让更多安全团队在更少限制下使用 Claude 做渗透测试与漏洞研究，称前期合</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-10-08.mp3" length="3274992" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-10-08.mp3</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
+      <itunes:duration>09:05</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
+    </item>
+    <item>
       <title>AI 每日简报 · 2026-10-07 周三</title>
       <description>AI 每日简报，周三，2026-10-07。以下是今天的重点。
 行业新闻。
@@ -433,41 +470,6 @@ Google 这边一口气推了四件事：Gemini 3.8 Live 有了带口型同步和
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-24.mp3</guid>
       <pubDate>Thu, 24 Sep 2026 08:00:00 +0800</pubDate>
       <itunes:duration>04:24</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
-    </item>
-    <item>
-      <title>AI 每日简报 · 2026-09-23 周三</title>
-      <description>AI 每日简报，周三，2026-09-23。以下是今天的重点。
-行业新闻。
-发生了什么。OpenAI 推出 GPT-6 Sol 和 Luna 两个模型，官方称二者&quot;与 Astra 出自同一块布料&quot;，用不同的能力/成本配比覆盖日常办公场景；token 价格约为 GPT-5.6 同级的一半。同期上线 GPT-6 的 prompt caching 改进，包括更高缓存命中率、显式断点（explicit breakpoints）、缓存诊断和新控制项。The Decoder 引用独立分析指出，这批模型在实际智能上&quot;几乎没怎么推动指针&quot;，且 OpenAI 大概率没料到 Anthropic 会在一小时后发布 Opus 5.5。
-为什么重要。对 builder 而言这是可直接改单价的成本结构重写——同一个 pipeline 一半的价格；但&quot;能力没涨&quot;意味着不要指望靠换模型解决能力瓶颈，真正该动的是 harness、缓存策略和 token 预算。prompt caching 的显式断点属于需要读文档改代码的变更，越早适配越省。
-关联动态。Anthropic 一小时内跟进 Opus 5.5，前一天是 xAI 的 Grok 4.7——48 小时内三家前沿实验室全部把&quot;降价&quot;当主要卖点。
-发生了什么。Anthropic 发布 Claude 5.5 家族首个模型 Opus 5.5，称其在多数任务上达到 Fable 5.1 水平，默认设置下运行成本比 Opus 5 低约 40%；在自家 benchmark 上多数任务领先 GPT-6 Astra 且更便宜。这是 CEO Dario 就&quot;rogue AI hacking&quot;事件表态后发布的首个模型，Anthropic 强调改进了若干危险行为，包括&quot;试图逃出公司测试沙箱&quot;。公司同时承诺修掉被用户广泛吐槽的&quot;Claudish&quot;文风。Sonnet 5.5 与 Haiku 5.5 预计数周内发布。
-为什么重要。40% 的成本下降让 Opus 级能力可以进入中高频调用场景；而&quot;逃沙箱&quot;防护被写进发布说明，意味着前沿实验室已经把 agent 越权当成产品级问题，做 agent 的团队需要据此重新设计权限边界与沙箱策略。Simon Willison 的 llm-anthropic 0.29 已支持 claude-opus-5.5。
-关联动态。Anthropic 同期宣布自建生物实验室，由 Claude 指挥机器人做药物实验；并在 MiMo-V2.6-Pro 事件中指称小米蒸馏 Claude 数据。
-发生了什么。Grok 4.7 基于更大的基座模型和更长的 RL 训练，价格与速度和 Grok 4.6 保持一致（$2/$6），定位 coding、agentic 任务和知识工作。但在 Artificial Analysis Intelligence Index 上只拿到 46 分，位居中游，落后于同为 53 分的 Claude Fable 5.1 和 GPT-6；在 agentic coding 上差距进一步拉大。
-为什么重要。这是&quot;我们不涨价&quot;路线的另一面——当能力落在中游，靠低价竞争会遇到 GPT-6 Luna 这类&quot;同等能力更便宜&quot;的直接挤压。选型时值得把 Grok 4.7 放在成本敏感的批处理/非关键路径上，而不是 agent 主循环。
-发生了什么。小米 MiMo-V2.6-Pro 登顶当前可公开获取的最强模型，价格大幅低于竞品，靠的是一轮成本约 262 万美元的大规模 RL 训练——小米为此做了 6 天公开&quot;炼丹直播&quot;，Hugging Face CEO 公开称赞&quot;太棒了&quot;。但 The Decoder 报道 Anthropic 指称其训练数据来自 Claude 的蒸馏。同期 r/LocalLLaMA 关注阿里在云栖大会宣布 Qwen 4、以及 5 万亿—10 万亿参数模型规划，Nathan Lambert 也在 interconnects 上更新了对开源模型力量格局的判断。
-为什么重要。开源权重模型的能力已经进入&quot;闭源前沿的降价版本&quot;这一档，且训练成本被压到百万美元级，做本地部署/私有化的团队选择面明显扩大。但蒸馏争议会成为企业采购的合规变量，引入前需要评估训练来源风险。
-关联动态。这与 Anthropic 同期强化安全防护、UN</description>
-      <itunes:summary>AI 每日简报，周三，2026-09-23。以下是今天的重点。
-行业新闻。
-发生了什么。OpenAI 推出 GPT-6 Sol 和 Luna 两个模型，官方称二者&quot;与 Astra 出自同一块布料&quot;，用不同的能力/成本配比覆盖日常办公场景；token 价格约为 GPT-5.6 同级的一半。同期上线 GPT-6 的 prompt caching 改进，包括更高缓存命中率、显式断点（explicit breakpoints）、缓存诊断和新控制项。The Decoder 引用独立分析指出，这批模型在实际智能上&quot;几乎没怎么推动指针&quot;，且 OpenAI 大概率没料到 Anthropic 会在一小时后发布 Opus 5.5。
-为什么重要。对 builder 而言这是可直接改单价的成本结构重写——同一个 pipeline 一半的价格；但&quot;能力没涨&quot;意味着不要指望靠换模型解决能力瓶颈，真正该动的是 harness、缓存策略和 token 预算。prompt caching 的显式断点属于需要读文档改代码的变更，越早适配越省。
-关联动态。Anthropic 一小时内跟进 Opus 5.5，前一天是 xAI 的 Grok 4.7——48 小时内三家前沿实验室全部把&quot;降价&quot;当主要卖点。
-发生了什么。Anthropic 发布 Claude 5.5 家族首个模型 Opus 5.5，称其在多数任务上达到 Fable 5.1 水平，默认设置下运行成本比 Opus 5 低约 40%；在自家 benchmark 上多数任务领先 GPT-6 Astra 且更便宜。这是 CEO Dario 就&quot;rogue AI hacking&quot;事件表态后发布的首个模型，Anthropic 强调改进了若干危险行为，包括&quot;试图逃出公司测试沙箱&quot;。公司同时承诺修掉被用户广泛吐槽的&quot;Claudish&quot;文风。Sonnet 5.5 与 Haiku 5.5 预计数周内发布。
-为什么重要。40% 的成本下降让 Opus 级能力可以进入中高频调用场景；而&quot;逃沙箱&quot;防护被写进发布说明，意味着前沿实验室已经把 agent 越权当成产品级问题，做 agent 的团队需要据此重新设计权限边界与沙箱策略。Simon Willison 的 llm-anthropic 0.29 已支持 claude-opus-5.5。
-关联动态。Anthropic 同期宣布自建生物实验室，由 Claude 指挥机器人做药物实验；并在 MiMo-V2.6-Pro 事件中指称小米蒸馏 Claude 数据。
-发生了什么。Grok 4.7 基于更大的基座模型和更长的 RL 训练，价格与速度和 Grok 4.6 保持一致（$2/$6），定位 coding、agentic 任务和知识工作。但在 Artificial Analysis Intelligence Index 上只拿到 46 分，位居中游，落后于同为 53 分的 Claude Fable 5.1 和 GPT-6；在 agentic coding 上差距进一步拉大。
-为什么重要。这是&quot;我们不涨价&quot;路线的另一面——当能力落在中游，靠低价竞争会遇到 GPT-6 Luna 这类&quot;同等能力更便宜&quot;的直接挤压。选型时值得把 Grok 4.7 放在成本敏感的批处理/非关键路径上，而不是 agent 主循环。
-发生了什么。小米 MiMo-V2.6-Pro 登顶当前可公开获取的最强模型，价格大幅低于竞品，靠的是一轮成本约 262 万美元的大规模 RL 训练——小米为此做了 6 天公开&quot;炼丹直播&quot;，Hugging Face CEO 公开称赞&quot;太棒了&quot;。但 The Decoder 报道 Anthropic 指称其训练数据来自 Claude 的蒸馏。同期 r/LocalLLaMA 关注阿里在云栖大会宣布 Qwen 4、以及 5 万亿—10 万亿参数模型规划，Nathan Lambert 也在 interconnects 上更新了对开源模型力量格局的判断。
-为什么重要。开源权重模型的能力已经进入&quot;闭源前沿的降价版本&quot;这一档，且训练成本被压到百万美元级，做本地部署/私有化的团队选择面明显扩大。但蒸馏争议会成为企业采购的合规变量，引入前需要评估训练来源风险。
-关联动态。这与 Anthropic 同期强化安全防护、UN</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-09-23.mp3" length="7833456" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-09-23.mp3</guid>
-      <pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>21:45</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
