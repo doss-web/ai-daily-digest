@@ -18,36 +18,40 @@
       <title>AI 每日简报 · 2026-10-08 周四</title>
       <description>AI 每日简报，周四，2026-10-08。以下是今天的重点。
 行业新闻。
-发生了什么。Anthropic 发布 Haiku 5.5，定价为 $0.10/$0.50 per M tokens（10 万 token 以内），超过 10 万 token 后价格上涨 5 倍至 $0.50/M 输出。前代 Haiku 4.5 发布于近一年前，定价 $1/$5——即使在当时也算贵，是 OpenAI 上月发布的 GPT-6 Luna 的整整 10 倍。基准上，Haiku 5.5 在 OSWorld 计算机操作测试中从 15.7% 跃升至 72.4%。The Decoder 提醒：新 tokenizer 每个任务会消耗更多 token，会吃掉一部分降价收益。
-为什么重要。如果你在做计算机操作或浏览器自动化 agent，OSWorld 近 4.6 倍的提升意味着 Haiku 级别的模型第一次具备可用的 GUI 操作能力，而且落在最低成本档位。但必须按&quot;每任务成本&quot;而非&quot;每 token 价格&quot;重新算账——分词器变化会让账面节省打折扣。
-关联动态。OpenAI 同一天把付费 API 档位从 5 档砍到 3 档，并推出按输入计费的 Decisions API，两家都在简化定价结构、把成本压向分类与判断类轻任务。
-发生了什么。OpenAI 开始向所有用户推送 GPT-6，同时上线 Intelligent UI——回答中可以包含图表、示意图、表单、可点击按钮等交互元素。付费用户获得 GPT-6 Sol，免费用户获得 GPT-6 Luna。模型可以在&quot;仍在思考时&quot;就开始响应，等待时间缩短 44%。同日 OpenAI 还发布了把复杂评估简化为&quot;是 / 否 / 选一个&quot;的 Decisions API（比 Responses API 快约 10 倍，$0.10/M 输入），并把付费 API 档位从 5 档合并为 3 档。
-为什么重要。这是界面层的重新划分。当模型输出本身就是组件，过去独立开发者靠&quot;包装输出&quot;建立的价值（表格渲染、图表生成、表单收集）会被平台直接吸收。仍在安全区的是需要自有数据、自有工作流和外部副作用的场景。
-关联动态。Radisson 同日上线 ChatGPT 内的酒店发现插件，Jump Trading 公布了用 ChatGPT 做量化研究的长流程案例——企业侧已经开始把 ChatGPT 当作分发渠道而非聊天工具。
-发生了什么。OpenAI 在 GitHub 上公开了内部前沿模型产出的数学结果，覆盖 722 份手稿、归入 372 个结果族，每项平均消耗约 3 小时 ChatGPT Pro 算力，并附带 Lean 形式化以便机器验证。Wired 采访的数学家直言&quot;有一种黑帮行事的观感&quot;；量子位报道三位菲尔兹奖得主表示这&quot;不代表认可&quot;；The Decoder 称有 25 位菲尔兹奖得主警告批量生产数学真理可能摧毁领域生态。
-为什么重要。可验证的证明第一次变成廉价商品，稀缺资源从&quot;能不能证&quot;转移到&quot;选什么问题、什么算好证明&quot;。对做 AI4Math 工具的团队来说，需求会从&quot;找证明&quot;转向&quot;筛选与审稿&quot;，以及为形式化验证提供基础设施。
-关联动态。与 Mistral、Reflection 等开放权重模型同期出现，形成&quot;闭源批量产出、开源追赶能力&quot;的双轨格局；OpenAI 同日还公布了医疗数据泄露后的额外监控措施。
-发生了什么。Hacker News 上一条报道（253 分、248 条评论）称 Meta 和 Microsoft 正在采取措施减少员工对 Claude 的使用。这发生在一个微妙的时点：同一天 Microsoft 在 Windows 发布会上把 Copilot 更深地接入操作系统与本地文件，Meta 则把自家 agent Muse 推上 iPad。
-为什么重要。这标志着&quot;模型供应商多元化&quot;从个人偏好上升为企业政策。对 Anthropic 而言，在编码场景的深度渗透反而成了政治负担；对使用 Claude Code 等工具的团队，需要意识到公司层面的采购与合规政策可能随时改变可用的模型选项。
-关联动态。Anthropic 同日扩大 Cyber Verification Program，让更多安全团队在更少限制下使用 Claude 做渗透测试与漏洞研究，称前期合</description>
+发生了什么。Haiku 5.5 定价为 $0.10/$0.50 每百万 token（10 万 token 以内），超出后输入价上浮 5 倍至 $0.5，与上个月 OpenAI 发布的 GPT-6 Luna 完全对齐；上一代 Haiku 4.5 是 $1/$5，二者相差整整 10 倍。OSWorld 计算机使用测试从 15.7% 跳升至 72.4%，1M 上下文保留。Simon Willison 提醒，新 tokenizer 会消耗更多 token，实际节省要被吃掉一部分。
+为什么重要。小型模型第一次在 computer-use / agent 循环里真正可用，意味着&quot;每步都调一次模型&quot;的 agent 架构成本可以整体重估。如果你的单位经济模型还挂在 Haiku 4.5 或旧价目表上，今天必须重算。
+关联动态。同日 OpenAI 把 Decisions API 定到 $0.10/百万输入并精简 API 层级——两家在&quot;低价小模型 + 决策/分类&quot;这条线上正面撞车。
+发生了什么。GPT-6 全球滚动上线，伴随 Intelligent UI——回答可以内嵌图表、示意图、表单、可点击按钮乃至小型交互应用。付费用户走 GPT-6 Sol，免费用户走 GPT-6 Luna；模型支持&quot;边思考边输出&quot;，The Decoder 称首字等待时间下降 44%。The Verge 认为这是 ChatGPT 形态上最大的一次改变，Wired 则批评其&quot;表演多过实质&quot;。
+为什么重要。输出结构从 markdown 变成可交互组件，提示词与产品设计要开始考虑&quot;渲染层&quot;——同样的内容能否被 UI 组件消费，会直接影响留存与分发。对做 ChatGPT 应用/插件的开发者，这是新的展示位。
+关联动态。同一天 OpenAI 还上线了 Decisions API、ChatGPT for Teens 的 College Planner、以及 Radisson 的酒店预订插件，整套动作都指向&quot;把 ChatGPT 变成入口层&quot;。
+发生了什么。1.05 万亿参数 MoE，激活 49B，原生图像输入，1M 上下文窗口，使用 3,800 块 NVIDIA Grace Blackwell 在 Mistral 自有欧洲数据中心训练。API 已上线，开放权重计划 2026 年 10 月底放出。Mistral 对 Wired 表示这是&quot;中国以外最好的开放权重模型&quot;。
+为什么重要。欧洲主权 AI 叙事第一次有了前沿参数量级的实物。对需要 open weights、又不愿承担中国模型合规风险的企业，这是目前最直接的备选。
+关联动态。同日 r/LocalLLaMA 上在讨论 Liquid AI 新模型与 LFM 的发布，开源侧这一天异常拥挤；Simon Willison 的 llm-mistral 0.16 已同步支持 Mistral 推理模型。
+发生了什么。HN 上一条 269 分、271 条评论的讨论指向同一件事——Meta 与微软内部开始采取措施减少员工对 Claude 的使用，推动回归自家或已采购的模型。此前 Claude 在不少大厂工程团队里靠自下而上的口碑扩散，这被视为&quot;自下而上采用&quot;被&quot;自上而下收编&quot;的转折信号。
+为什么重要。这暴露了一个结构性问题——当 AI 编码工具成为生产力核心，大厂无法容忍关键工作流跑在竞争对手的模型上。对做企业 agent 的 builder 而言，模型选型不再只是能力比较，还叠加了&quot;供应商是否为竞争方&quot;的政治风险。
+关联动态。同日微软的 Windows/Surface 发布会把 Copilot 深入本地文件与 OS 操作，正是&quot;把 AI 拉回自家栈内&quot;的另一面。
+发生了什么。Surface Laptop Ultra 起步价 $2,599（8 核 CPU / 24GB RAM / 512GB），搭载 NVIDIA RTX Spark Arm 芯片；面向开发者的 Surface RTX Spark Dev Box 预购价 $5,999，11 月发货。同时微软发布&quot;Hybrid Intelligence&quot;概念，Copilot 开始读取本地文件并在操作系统层面执行动作。
+为什么重要。端侧推理第</description>
       <itunes:summary>AI 每日简报，周四，2026-10-08。以下是今天的重点。
 行业新闻。
-发生了什么。Anthropic 发布 Haiku 5.5，定价为 $0.10/$0.50 per M tokens（10 万 token 以内），超过 10 万 token 后价格上涨 5 倍至 $0.50/M 输出。前代 Haiku 4.5 发布于近一年前，定价 $1/$5——即使在当时也算贵，是 OpenAI 上月发布的 GPT-6 Luna 的整整 10 倍。基准上，Haiku 5.5 在 OSWorld 计算机操作测试中从 15.7% 跃升至 72.4%。The Decoder 提醒：新 tokenizer 每个任务会消耗更多 token，会吃掉一部分降价收益。
-为什么重要。如果你在做计算机操作或浏览器自动化 agent，OSWorld 近 4.6 倍的提升意味着 Haiku 级别的模型第一次具备可用的 GUI 操作能力，而且落在最低成本档位。但必须按&quot;每任务成本&quot;而非&quot;每 token 价格&quot;重新算账——分词器变化会让账面节省打折扣。
-关联动态。OpenAI 同一天把付费 API 档位从 5 档砍到 3 档，并推出按输入计费的 Decisions API，两家都在简化定价结构、把成本压向分类与判断类轻任务。
-发生了什么。OpenAI 开始向所有用户推送 GPT-6，同时上线 Intelligent UI——回答中可以包含图表、示意图、表单、可点击按钮等交互元素。付费用户获得 GPT-6 Sol，免费用户获得 GPT-6 Luna。模型可以在&quot;仍在思考时&quot;就开始响应，等待时间缩短 44%。同日 OpenAI 还发布了把复杂评估简化为&quot;是 / 否 / 选一个&quot;的 Decisions API（比 Responses API 快约 10 倍，$0.10/M 输入），并把付费 API 档位从 5 档合并为 3 档。
-为什么重要。这是界面层的重新划分。当模型输出本身就是组件，过去独立开发者靠&quot;包装输出&quot;建立的价值（表格渲染、图表生成、表单收集）会被平台直接吸收。仍在安全区的是需要自有数据、自有工作流和外部副作用的场景。
-关联动态。Radisson 同日上线 ChatGPT 内的酒店发现插件，Jump Trading 公布了用 ChatGPT 做量化研究的长流程案例——企业侧已经开始把 ChatGPT 当作分发渠道而非聊天工具。
-发生了什么。OpenAI 在 GitHub 上公开了内部前沿模型产出的数学结果，覆盖 722 份手稿、归入 372 个结果族，每项平均消耗约 3 小时 ChatGPT Pro 算力，并附带 Lean 形式化以便机器验证。Wired 采访的数学家直言&quot;有一种黑帮行事的观感&quot;；量子位报道三位菲尔兹奖得主表示这&quot;不代表认可&quot;；The Decoder 称有 25 位菲尔兹奖得主警告批量生产数学真理可能摧毁领域生态。
-为什么重要。可验证的证明第一次变成廉价商品，稀缺资源从&quot;能不能证&quot;转移到&quot;选什么问题、什么算好证明&quot;。对做 AI4Math 工具的团队来说，需求会从&quot;找证明&quot;转向&quot;筛选与审稿&quot;，以及为形式化验证提供基础设施。
-关联动态。与 Mistral、Reflection 等开放权重模型同期出现，形成&quot;闭源批量产出、开源追赶能力&quot;的双轨格局；OpenAI 同日还公布了医疗数据泄露后的额外监控措施。
-发生了什么。Hacker News 上一条报道（253 分、248 条评论）称 Meta 和 Microsoft 正在采取措施减少员工对 Claude 的使用。这发生在一个微妙的时点：同一天 Microsoft 在 Windows 发布会上把 Copilot 更深地接入操作系统与本地文件，Meta 则把自家 agent Muse 推上 iPad。
-为什么重要。这标志着&quot;模型供应商多元化&quot;从个人偏好上升为企业政策。对 Anthropic 而言，在编码场景的深度渗透反而成了政治负担；对使用 Claude Code 等工具的团队，需要意识到公司层面的采购与合规政策可能随时改变可用的模型选项。
-关联动态。Anthropic 同日扩大 Cyber Verification Program，让更多安全团队在更少限制下使用 Claude 做渗透测试与漏洞研究，称前期合</itunes:summary>
-      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-10-08.mp3" length="3274992" type="audio/mpeg"/>
+发生了什么。Haiku 5.5 定价为 $0.10/$0.50 每百万 token（10 万 token 以内），超出后输入价上浮 5 倍至 $0.5，与上个月 OpenAI 发布的 GPT-6 Luna 完全对齐；上一代 Haiku 4.5 是 $1/$5，二者相差整整 10 倍。OSWorld 计算机使用测试从 15.7% 跳升至 72.4%，1M 上下文保留。Simon Willison 提醒，新 tokenizer 会消耗更多 token，实际节省要被吃掉一部分。
+为什么重要。小型模型第一次在 computer-use / agent 循环里真正可用，意味着&quot;每步都调一次模型&quot;的 agent 架构成本可以整体重估。如果你的单位经济模型还挂在 Haiku 4.5 或旧价目表上，今天必须重算。
+关联动态。同日 OpenAI 把 Decisions API 定到 $0.10/百万输入并精简 API 层级——两家在&quot;低价小模型 + 决策/分类&quot;这条线上正面撞车。
+发生了什么。GPT-6 全球滚动上线，伴随 Intelligent UI——回答可以内嵌图表、示意图、表单、可点击按钮乃至小型交互应用。付费用户走 GPT-6 Sol，免费用户走 GPT-6 Luna；模型支持&quot;边思考边输出&quot;，The Decoder 称首字等待时间下降 44%。The Verge 认为这是 ChatGPT 形态上最大的一次改变，Wired 则批评其&quot;表演多过实质&quot;。
+为什么重要。输出结构从 markdown 变成可交互组件，提示词与产品设计要开始考虑&quot;渲染层&quot;——同样的内容能否被 UI 组件消费，会直接影响留存与分发。对做 ChatGPT 应用/插件的开发者，这是新的展示位。
+关联动态。同一天 OpenAI 还上线了 Decisions API、ChatGPT for Teens 的 College Planner、以及 Radisson 的酒店预订插件，整套动作都指向&quot;把 ChatGPT 变成入口层&quot;。
+发生了什么。1.05 万亿参数 MoE，激活 49B，原生图像输入，1M 上下文窗口，使用 3,800 块 NVIDIA Grace Blackwell 在 Mistral 自有欧洲数据中心训练。API 已上线，开放权重计划 2026 年 10 月底放出。Mistral 对 Wired 表示这是&quot;中国以外最好的开放权重模型&quot;。
+为什么重要。欧洲主权 AI 叙事第一次有了前沿参数量级的实物。对需要 open weights、又不愿承担中国模型合规风险的企业，这是目前最直接的备选。
+关联动态。同日 r/LocalLLaMA 上在讨论 Liquid AI 新模型与 LFM 的发布，开源侧这一天异常拥挤；Simon Willison 的 llm-mistral 0.16 已同步支持 Mistral 推理模型。
+发生了什么。HN 上一条 269 分、271 条评论的讨论指向同一件事——Meta 与微软内部开始采取措施减少员工对 Claude 的使用，推动回归自家或已采购的模型。此前 Claude 在不少大厂工程团队里靠自下而上的口碑扩散，这被视为&quot;自下而上采用&quot;被&quot;自上而下收编&quot;的转折信号。
+为什么重要。这暴露了一个结构性问题——当 AI 编码工具成为生产力核心，大厂无法容忍关键工作流跑在竞争对手的模型上。对做企业 agent 的 builder 而言，模型选型不再只是能力比较，还叠加了&quot;供应商是否为竞争方&quot;的政治风险。
+关联动态。同日微软的 Windows/Surface 发布会把 Copilot 深入本地文件与 OS 操作，正是&quot;把 AI 拉回自家栈内&quot;的另一面。
+发生了什么。Surface Laptop Ultra 起步价 $2,599（8 核 CPU / 24GB RAM / 512GB），搭载 NVIDIA RTX Spark Arm 芯片；面向开发者的 Surface RTX Spark Dev Box 预购价 $5,999，11 月发货。同时微软发布&quot;Hybrid Intelligence&quot;概念，Copilot 开始读取本地文件并在操作系统层面执行动作。
+为什么重要。端侧推理第</itunes:summary>
+      <enclosure url="https://jimmuji.github.io/ai-daily-digest/audio/2026-10-08.mp3" length="7532784" type="audio/mpeg"/>
       <guid isPermaLink="true">https://jimmuji.github.io/ai-daily-digest/audio/2026-10-08.mp3</guid>
       <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
-      <itunes:duration>09:05</itunes:duration>
+      <itunes:duration>20:55</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://jimmuji.github.io/ai-daily-digest/podcast-cover.png"/>
     </item>
